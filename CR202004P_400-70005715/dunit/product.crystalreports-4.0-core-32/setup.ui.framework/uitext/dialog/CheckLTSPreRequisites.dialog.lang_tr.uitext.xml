@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Ön Gereksinimleri Denetle"/>
+<string id="CheckPreRequisitesSubTitle" value="Eksik kritik veya isteğe bağlı ön gereksinimlerin özeti."/>
+<string id="PreRequsitiesDetails" value="Kurulum devam edebilmesi için başarısız olan kritik bağımlılıkların çözülmesi gerekir. Başarısız olan isteğe bağlı bağımlılıklar nedeniyle bazı bileşenler kurulmayabilir."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Ön gereksinim"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Tür"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Durum"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Kritik"/>
+<string id="Column_Type_Optional" value="İsteğe Bağlı"/>
+<string id="Column_Status_Succeeded" value="Başarılı Oldu"/>
+<string id="Column_Status_Missing" value="Başarısız"/>
+<string id="Hints_Why_Fails" value="Başarısız olan gereksinimleri tıklayarak çözüm konusunda bilgi alabilirsiniz."/>
+<string id="Failure_Reason" value="Bilgi:"/>
+<string id="PreRequisitesUIText_Failure" value="Ön gereksinim denetimi başarısız oldu"/>
+<string id="Retry_Button" value="Yeniden Dene"/>
+<string id="Back_Button" value="Geri"/>
+<string id="Exit_Button" value="Kapat"/>
+</context>
+</uitext>

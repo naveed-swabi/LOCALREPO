@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.dataaccess.driver.ado-4.0-ko-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="57705">
+    <requiredDeploymentUnit ref="crystalreports.dataaccess.driver.ado-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="95BE6260-B686-4E70-B51A-7A44DF720D50"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

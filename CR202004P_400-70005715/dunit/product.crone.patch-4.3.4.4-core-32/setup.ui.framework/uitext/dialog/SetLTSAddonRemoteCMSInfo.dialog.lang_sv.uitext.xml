@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Befintlig CMS-distributionsinformation"/>
+<string id="SpecifyRemoteCMS" value="Ange befintlig information om CMS- och administratörsinloggning för att starta processen."/>
+<string id="RemoteCMSConnectionInfo" value="Anslutningsinformation om befintlig CMS"/>
+<string id="RemoteCMSName" value="CMS-namn"/>
+<string id="RemoteCMSPort" value="CMS-port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Inloggningsuppgifter för CMS-administratör"/>
+<string id="RemoteCMSUser" value="Användare"/>
+<string id="RemoteCMSPassword" value="Lösenord"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Antingen går inte fjärr-CMS att nå eller så är inloggningsuppgifterna felaktiga. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Antingen kan fjärr-CMS inte nås eller så är inloggningsuppgifterna inte korrekta. INS00013\nVill du ange uppgifterna igen?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Följande tecken tillåts inte i CMS-lösenord:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

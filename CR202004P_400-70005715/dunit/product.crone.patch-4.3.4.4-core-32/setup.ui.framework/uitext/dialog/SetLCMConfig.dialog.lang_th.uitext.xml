@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="SetLCMConfigTitle" value="กำหนดค่า Subversion"/>
+<string id="SetLCMConfigSubtitle" value="ป้อนพอร์ตและชื่อผู้ใช้สำหรับระบบควบคุมเวอร์ชัน Subversion"/>
+<string id="repoInfoGroup" value="ข้อมูลของพื้นที่เก็บข้อมูล Subversion"/>
+<string id="repoName" value="ชื่อพื้นที่เก็บข้อมูล:"/>
+<string id="repoPort" value="พอร์ตพื้นที่เก็บข้อมูล:"/>
+<string id="repoPortInline" value="พอร์ต Subversion:"/>
+<string id="repoUserInfoGroup" value="ข้อมูลผู้ใช้ของพื้นที่เก็บข้อมูล Subversion"/>
+<string id="repoUserName" value="บัญชีผู้ใช้พื้นที่เก็บข้อมูล:"/>
+<string id="repoUserPass" value="รหัสผ่านของบัญชีพื้นที่เก็บข้อมูล:"/>
+<string id="repoUserPassInline" value="รหัสผ่านของบัญชีผู้ใช้พื้นที่เก็บข้อมูล:"/>
+<string id="repoUserPass2" value="ยืนยันรหัสผ่าน:"/>
+<string id="Mismatch_LCMPassword" value="รหัสผ่านไม่ตรงกัน โปรดตรวจสอบและลองอีกครั้ง INS00267"/>
+<string id="Invalid_LCMPassword" value="รหัสผ่านง่ายเกินไป รหัสผ่านต้องมีความยาวอย่างน้อย 6 อักขระ และต้องมีประเภทอักขระต่อไปนี้อย่างน้อย 2 ประเภทเสมอ ได้แก่ ตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก INS00127"/>
+</context>
+</uitext>

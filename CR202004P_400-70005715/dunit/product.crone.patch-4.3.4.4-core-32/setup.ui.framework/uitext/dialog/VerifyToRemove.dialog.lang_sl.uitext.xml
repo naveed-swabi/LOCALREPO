@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="Message" value="Potrditev odstranitve"/>
+<string id="Description" value="To bo odstranilo #product.fullproductnamenospace# iz vašega računalnika."/>
+<string id="ConfirmUninstall" value="Res želite odstraniti?"/>
+<string id="ConfirmUninstall_Footer" value="Pritisnite []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.exporting.u2dmapi-4.0-pl-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="55814">
+    <requiredDeploymentUnit ref="crystalreports.cpp.exporting.u2dmapi-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="90DAE466-9D62-4488-961F-31EA6DC977B1"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

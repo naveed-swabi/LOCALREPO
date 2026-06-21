@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.com.instrumentation-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="46246">
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="B604797A-4FDC-4F07-8618-9BE04BB0B442"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

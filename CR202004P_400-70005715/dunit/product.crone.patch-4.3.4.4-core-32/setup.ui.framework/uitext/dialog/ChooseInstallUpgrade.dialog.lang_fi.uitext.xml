@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="PreviousVersionDetected" value="Tuotteen #product.nameonly# aiempi versio havaittu"/>
+<string id="PreviousVersionDetectedSub" value="Valitse, suoritetaanko päivitys- vai rinnakkaisasennus"/>
+<string id="UpgradeInstallBtn" value="Suorita päivitysasennus"/>
+<string id="SideBySideInstallBtn" value="Suorita rinnakkaisasennus"/>
+<string id="UpgradeInstallMsg" value="Korvaa tuotteen #product.nameonly# asennettu versio tällä versiolla"/>
+<string id="SideBySideInstallMsg" value="Asentaa tuotteen #product.nameonly# tämän version asennettuna olevan version rinnalle"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Virheellinen asennustila ([InstallCompatibilityMode]): arvon tulee olla päivitys tai rinnakkainen"/>
+</context>
+</uitext>

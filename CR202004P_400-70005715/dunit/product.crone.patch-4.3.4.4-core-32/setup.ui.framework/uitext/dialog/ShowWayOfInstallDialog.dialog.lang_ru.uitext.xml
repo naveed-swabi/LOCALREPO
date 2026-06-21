@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="Title" value="Выбор режима установки"/>
+<string id="SubTitle" value="Выберите режим установки"/>
+<string id="Standard_InstallationName" value="Стандартная установка"/>
+<string id="Standard_InstallationText" value="Установка выполняется в одну фазу"/>
+<string id="PhaseWise_InstallationName" value="Пофазовая установка"/>
+<string id="PhaseWise_InstallationText" value="Установка выполняется в два этапа – кэширование и установка после кэширования. Во время кэширования работа системы не прерывается и можно продолжать работу в системе. Во время установки после кэширования ПО устанавливается в системе с некоторым перерывом в работе системе."/>
+<string id="CachingCompletedSubTitle" value="Кэширование завершено"/>
+<string id="Resume_InstallationSubTitle" value="Продолжите установку после кэширования. Установка после кэширования — это процесс фактической установки, во время которого работа системы приостанавливается."/>
+<string id="ShowWayOfInstallFooter" value="Нажмите []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для установки."/>
+</context>
+</uitext>

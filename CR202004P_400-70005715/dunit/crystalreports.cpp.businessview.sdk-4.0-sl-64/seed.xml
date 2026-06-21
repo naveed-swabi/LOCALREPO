@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.businessview.sdk-4.0-sl-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="363119">
+    <requiredDeploymentUnit ref="crystalreports.cpp.businessview.sdk-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="56A316C0-6E61-4354-8A1B-57D5E6B0F7D4"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

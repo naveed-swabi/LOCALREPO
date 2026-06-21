@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="p3sxsru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="23552"/>
+    <file name="p3smp3ru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="24576"/>
+    <file name="p3smpru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="20480"/>
+    <file name="p3sacru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="21504"/>
+    <file name="p3srpru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="20992"/>
+    <file name="p3stk2ru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="22528"/>
+    <file name="p3stkru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="22016"/>
+  </sourcedir>
+</assembly>

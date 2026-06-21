@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Tarkista, että määritetty asennuspolku on oikea tarkoitetulle asennukselle, jotta se voidaan suorittaa loppuun onnistuneesti. \n\n Uusi asennus – uusi tiedostohakemisto. \n Korjaustiedoston asennus – tiedostohakemisto, jossa tuotteen #productname# aiemman version asennus. \n\n\n Jatka valitsemalla OK tai syötä uudelleen oikea asennuspolku valitsemalla Lopeta. \n"/>
+<string id="ExitMessage" value="Lopeta painamalla Ctrl-X-näppäinyhdistelmää tai jatka painamalla Enter-näppäintä."/>
+<string id="WarnDialogTitle" value="TIETO-VALINTAIKKUNA"/>
+<string id="WarnDialogSubtitle" value="Tietoja:"/>
+</context>
+</uitext>

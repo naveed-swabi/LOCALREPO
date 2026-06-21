@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Anunț privind produsele și caracteristicile învechite"/>
+<string id="YouMustAgree" value="Unele dintre produse și caracteristici din #product.fullproductnamenospace# sunt învechite."/>
+<string id="IAccept" value="Am citit documentația și am înțeles impactul produselor și caracteristicilor învechite ale BI Platform și sunt de acord să efectuez acțiunile recomandate după actualizare."/>
+<string id="subtitle1" value="Aplicații precum SAP BusinessObjects Explorer și SAP BusinessObjects Dashboards sunt învechite în BI 4.3. Puteți verifica lista completă de aplicații învechite și obține mai multe informații despre această activitate de învechire la"/>
+<string id="subtitle2" value="Trebuie să revizuiți impactul și apoi să efectuați acțiunile recomandate, conform mențiunilor de pe blog."/>
+<string id="AcceptOrNotAccept" value="Apăsați &lt;ENTER&gt; pentru a confirma că ați citit documentația și ați înțeles impactul produselor și caracteristicilor învechite ale BI Platform și că sunteți de acord să efectuați acțiunile recomandate după actualizare."/>
+<string id="DeprecatedProductDescription" value="Aplicații precum SAP BusinessObjects Explorer și SAP BusinessObjects Dashboards sunt învechite în BI 4.3. Puteți verifica lista completă de aplicații învechite și obține mai multe informații despre această activitate de învechire la https://launchpad.support.sap.com/#/notes/2801797. \n\nTrebuie să revizuiți impactul și apoi să efectuați acțiunile recomandate, conform mențiunilor de pe blog.\n\n"/>
+<string id="CRServiceDescription" value="Serviciile SAP Crystal Reports 2020 nu mai sunt suportate în Linux și Unix. Astfel, acestea vor fi eliminate la upgrade. Totuși, documentele SAP Crystal Reports 2020 vor rămâne în platforma BI și vor continua să fie suportate. Pentru a afla mai multe detalii privind distribuția serviciilor necesare pe un server Windows, consultați SAP Knowledge Base Article at https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

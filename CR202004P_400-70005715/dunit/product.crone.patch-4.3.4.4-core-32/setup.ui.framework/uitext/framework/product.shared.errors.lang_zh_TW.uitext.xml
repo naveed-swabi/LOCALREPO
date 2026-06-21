@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="zh_TW"/>
+  <context>
+    <string id="INS00270" value="安裝 %2 時發生 MSI 錯誤 %1。(INS00270)"/>
+    <string id="INS00271" value="解除安裝 %2 時發生 MSI 錯誤 %1。(INS00271)"/>
+    <string id="INS00272" value="安裝 %3 時檔案 %2 發生錯誤 (%1)。(INS00272)"/>
+    <string id="INS00273" value="解除安裝 %3 時檔案 %2 發生錯誤 (%1)。(INS00273)"/>
+  </context>
+</uitext>

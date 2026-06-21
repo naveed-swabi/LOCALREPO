@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# wurde erfolgreich installiert."/>
+<string id="InstallFailedMessage" value="Bei der Installation von #product.fullproductnamenospace# sind Fehler aufgetreten."/>
+<string id="UninstallFailedMessage" value="Bei der Deinstallation von #product.fullproductnamenospace# sind Fehler aufgetreten."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# wurde erfolgreich deinstalliert."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# wurde mit Warnungen installiert."/>
+<string id="Description" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Installation zu beenden."/>
+<string id="FailedDescription" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Installation zu beenden."/>
+<string id="Description_unix" value="Drücken Sie die []Eingabetaste], um diese Installation zu beenden."/>
+<string id="FailedDescription_unix" value="Drücken Sie []D], um weitere Informationen anzuzeigen, oder die []Eingabetaste], um diese Installation zu beenden."/>
+<string id="LaunchWDeploy" value="WDeploy-Tool automatisch starten"/>
+<string id="LaunchWDeployUNIX" value="Starten Sie nach dem Beenden des Installationsprogramms [EnterpriseDir]wdeploy/wdeployGUI.sh."/>
+<string id="CustomNextButton" value="Fertig stellen"/>
+<string id="ViewLogButton" value="Protokoll anzeigen"/>
+<string id="HyperlinkText" value="Klicken Sie hier für Details"/>
+</context>
+</uitext>

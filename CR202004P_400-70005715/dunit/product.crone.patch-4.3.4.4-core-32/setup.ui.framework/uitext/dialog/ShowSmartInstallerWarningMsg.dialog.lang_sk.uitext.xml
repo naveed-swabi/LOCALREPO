@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Overte, či je zadaná cesta inštalácie správna, aby sa plánovaná inštalácia mohla úspešne dokončiť. \n\n Inštalácia nového produktu – adresár súborov nového produktu. \n Inštalácia opravy – adresár súborov s inštaláciou predchádzajúcej verzie #productname#. \n\n\n Ak chcete pokračovať, kliknite na tlačidlo OK. Ak chcete znovu zadať správnu cestu inštalácie, kliknite na tlačidlo Skončiť. \n"/>
+<string id="ExitMessage" value="Ak chcete skončiť, stlačte klávesy Ctrl+X. Ak chcete pokračovať, stlačte kláves Enter."/>
+<string id="WarnDialogTitle" value="DIALÓGOVÉ OKNO S INFORMÁCIAMI"/>
+<string id="WarnDialogSubtitle" value="Informácie: "/>
+</context>
+</uitext>

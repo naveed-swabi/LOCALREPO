@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="ko"/>
+  <context>
+    <string id="Yes" value="예"/>
+    <string id="No" value="아니요"/>
+    <string id="Ok" value="확인"/>
+    <string id="Cancel" value="취소"/>
+    <string id="Abort" value="중단"/>
+    <string id="Continue" value="계속"/>
+    <string id="Ignore" value="무시"/>
+    <string id="Next" value="다음"/>
+    <string id="Previous" value="뒤로"/>
+    <string id="Info" value="정보"/>
+    <string id="Warning" value="경고"/>
+    <string id="Error" value="오류"/>
+    <string id="FatalError" value="치명적인 오류"/>
+    <string id="ErrorDialogTitle" value="오류"/>
+    <string id="ErrorDialogSubtitle" value="오류가 발생했습니다."/>
+    <string id="ErrorDialogFooter" value="계속하려면 Enter 키를 누르십시오."/>
+    <string id="WarnDialogTitle" value="경고"/>
+    <string id="WarnDialogSubtitle" value="경고가 발생했습니다."/>
+    <string id="WarnDialogFooter" value="뒤로 돌아가려면 Ctrl+B를, 계속하려면 Enter 키를 누르십시오."/>
+    <string id="InfoDialogTitle" value="정보"/>
+    <string id="InfoDialogSubtitle" value="다음 정보가 제공됩니다."/>
+    <string id="InfoDialogFooter" value="계속하려면 Enter 키를 누르십시오."/>
+    <string id="DefaultUnixFooter" value="다음 필드로 이동하려면 Tab을, 이전 필드로 이동하려면 Ctrl+B를, 끝내려면Ctrl+X를, 계속하려면 Enter 키를 누르십시오."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="다음 필드로 이동하려면 Tab을, 끝내려면Ctrl+X를, 계속하려면 Enter 키를 누르십시오."/>
+    <string id="ProgressDialogUnixFooter" value="끝내려면 Ctrl+X를 누르십시오."/>
+    <string id="CancelCaption" value="취소"/>
+    <string id="CancelExitSetup" value="설치 끝내기"/>
+    <string id="CancelMsg" value="지금 끝내면 프로그램이 설치되지 않습니다. 나중에 설치 프로그램을 실행하여 설치를 완료할 수 있습니다.\n설치를 계속하려면 [계속]을 클릭하고 설치를 마치려면 [설치 끝내기]를 클릭하십시오."/>
+    <string id="CancelResume" value="다시 시작"/>
+    <string id="DialogCaption" value="#product.fullproductnamenospace# 설치"/>
+    <string id="outofspace" value="디스크 공간 부족"/>
+    <string id="CanceledModifier" value="%1(취소하는 중)"/>
+    <string id="ValidationCaption" value="유효성 검사 결과"/>
+    <string id="ValidationError" value="오류:"/>
+    <string id="ValidationToDo" value="유효성 검사 오류를 수정하려면 [확인]을 클릭하십시오. 경고만 표시될 경우 [예]를 클릭하여 계속하거나 [아니요]를 클릭하여 경고를 수정하십시오."/>
+    <string id="ValidationWarning" value="경고:"/>
+    <string id="Validation.MissingFields" value="설치를 계속하려면 필수 필드에 값을 입력해야 합니다."/>
+    <string id="ValidationFailed.Blocking" value="다음 작업의 유효성이 확인되지 않아 진행이 중단됨:"/>
+    <string id="ValidationFailed.Optional" value="다음 작업의 옵션 유효성 확인에 실패:"/>
+    <string id="action.InstallDUBundle" value="배포 단위를 설치하는 중:"/>
+    <string id="action.UninstallDUBundle" value="배포 단위를 제거하는 중:"/>
+    <string id="action.RegisterBinary" value="바이너리 등록"/>
+    <string id="action.UnregisterBinary" value="바이너리 등록 취소"/>
+    <string id="action.ConfigureTomcat" value="Tomcat을 구성하는 중"/>
+    <string id="action.BOBJTextReplace" value="텍스트 대체 수행"/>
+    <string id="action.RunCommand" value="명령줄 실행 파일 실행"/>
+    <string id="action.RunCommandConditional" value="특정 조건에서 명령줄 실행 파일 실행"/>
+    <string id="action.EnsureFolderExists" value="폴더 존재 여부 확인"/>
+    <string id="action.CreateShortcut" value="시작 메뉴 바로 가기 만들기"/>
+    <string id="action.AddARPEntry" value="프로그램 추가/제거 항목 추가"/>
+    <string id="action.RemoveARPEntry" value="프로그램 추가/제거 항목 제거"/>
+    <string id="action.BOBJRegasm" value="어셈블리 등록 실행"/>
+    <string id="action.BOBJUnRegasm" value="어셈블리 등록 제거"/>
+    <string id="sequence.InstallPreReqs" value="필수 구성 요소 설치"/>
+    <string id="sequence.SetInitialProperties" value="초기 속성 설정"/>
+    <string id="sequence.SetMyProperties" value="제품 속성 설정"/>
+    <string id="sequence.InstallDUBase" value="설치 작업"/>
+    <string id="sequence.InstallDUBundles" value="배포 단위 설치"/>
+    <string id="sequence.CreateSymLinks" value="Symlink 만들기"/>
+    <string id="sequence.ConfigureDUBase" value="배포 단위 구성"/>
+    <string id="sequence.PopulateRegistry" value="레지스트리 채우기"/>
+    <string id="sequence.InstallServices" value="서비스 설치"/>
+    <string id="sequence.ConfigureServices" value="서비스 구성"/>
+    <string id="sequence.StartServices" value="서비스 시작"/>
+    <string id="sequence.StopServices" value="서비스 중지"/>
+    <string id="sequence.UninstallServices" value="서비스 제거"/>
+    <string id="sequence.UnPopulateRegistry" value="레지스트리 비우기"/>
+    <string id="sequence.UninstallDUBase" value="제거 작업"/>
+    <string id="sequence.UnconfigureDUBase" value="배포 단위 구성 취소"/>
+    <string id="sequence.RemoveSymLinks" value="Symlink 제거"/>
+    <string id="sequence.UninstallDUBundles" value="배포 단위 제거:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="빈 폴더 삭제"/>
+    <string id="Dialog.title" value="설치 메시지"/>
+    <string id="PleaseWait" value="잠시 기다려 주십시오..."/>
+    <string id="LongCalculation" value="진행 중인 계산은 오래 걸립니다. 기다려 주십시오."/>
+    <string id="DiskCostInProgress" value="디스크 공간 확인을 진행 중입니다."/>
+    <string id="Confirm.title" value="확인"/>
+    <string id="Permissions.title" value="설치 권한"/>
+    <string id="NoPermissionsOperation" value="이 설치 작업을 수행할 수 있는 액세스 권한이 없습니다."/>
+    <string id="NoPermissionsFile" value="%1 파일에 액세스할 수 있는 액세스 권한이 없습니다."/>
+    <string id="NoPatchWithPackageInstall" value="설치 과정에서 #productname#의 이전 버전이 설치되어 있음을 발견했습니다. 이전 버전이 설치되어 있는 경우에는 이 전체 설치 패키지를 적용할 수 없습니다. #product.fullproductname#의 유지 관리 패키지를 사용하여 현재 설치를 업데이트하십시오."/>
+    <string id="OlderCryptoDllFound" value="설치 과정에서 환경 변수 R_SHLIB_LD_LIBRARY_PATH가 설치에 필요한 이진 파일보다 낮은 버전의 이진 파일을 암호화하도록 설정되어 있음이 발견되었습니다. 링크된 문서를 열어 문서의 지침에 따라 설치를 완료하십시오."/>
+    <string id="CmdLine.title" value="설치 명령줄"/>
+    <string id="InvalidCmdLine" value="명령줄이 잘못되었습니다."/>
+    <string id="ExpectedCmdLine" value="필요한 명령줄: %1"/>
+    <string id="ActionFailed" value="사용자 지정 작업에 실패했습니다."/>
+    <string id="ActionFailedArg" value="사용자 지정 작업 실패: %1"/>
+    <string id="ActionFailedWithCode" value="사용자 지정 작업에 실패하여 다음 오류 코드가 표시되었습니다."/>
+    <string id="RegistrationFailed" value="이진 파일을 등록할 수 없음: %1"/>
+    <string id="NoFindFile" value="파일 %1을(를) 찾을 수 없습니다."/>
+    <string id="NoCMS" value="CMS에 연결할 수 없습니다."/>
+    <string id="NoCMSArg" value="%1의 CMS에 연결할 수 없습니다."/>
+    <string id="DFOFailed" value="DFO 업로드에 실패했습니다."/>
+    <string id="wdeployFailed" value="wDeploy가 응용 프로그램을 배포하지 못했습니다."/>
+    <string id="ScriptFailed" value="스크립트를 실행할 수 없음: %1"/>
+    <string id="CmdFailed" value="명령줄을 실행할 수 없음: %1"/>
+    <string id="ServerStartFailed" value="서버에서 %1을(를) 시작할 수 없습니다."/>
+    <string id="ServerStopFailed" value="서버에서 %1을(를) 중지할 수 없습니다."/>
+    <string id="ExitCode" value="종료 코드: %1"/>
+    <string id="DBInitFail" value="데이터베이스를 초기화할 수 없습니다."/>
+    <string id="ShortcutFail" value="바로 가기 %1을(를) 만들 수 없습니다."/>
+    <string id="ARPFail" value="제품 %1에 대한 프로그램 추가/제거 항목을 만들 수 없습니다."/>
+    <string id="CreateFolderFail" value="폴더 %1을(를) 만들 수 없습니다."/>
+    <string id="SamplesFail" value="샘플을 추가할 수 없습니다."/>
+    <string id="LicenseKeyFail" value="라이센스 키를 추가할 수 없습니다."/>
+    <string id="Tomcatfail" value="Tomcat을 구성할 수 없습니다."/>
+    <string id="PropertyFail" value="속성 %1의 값을 가져올 수 없습니다."/>
+    <string id="dev" value="개발자 언어(영어)"/>
+    <string id="aa" value="아파르어"/>
+    <string id="ab" value="아브카지어"/>
+    <string id="af" value="아프리칸스어"/>
+    <string id="am" value="암하라어"/>
+    <string id="ar" value="아랍어"/>
+    <string id="as" value="아샘어"/>
+    <string id="ay" value="아이마라어"/>
+    <string id="az" value="아제르바이잔어"/>
+    <string id="ba" value="바슈키르어"/>
+    <string id="be" value="벨로루시어"/>
+    <string id="bg" value="불가리아어"/>
+    <string id="bh" value="비하리어"/>
+    <string id="bi" value="비슬라마어"/>
+    <string id="bn" value="벵골어"/>
+    <string id="bo" value="티벳어"/>
+    <string id="br" value="브르타뉴어"/>
+    <string id="ca" value="카탈로니아어"/>
+    <string id="co" value="코르시카어"/>
+    <string id="cs" value="체코어"/>
+    <string id="cy" value="웨일스어"/>
+    <string id="da" value="덴마크어"/>
+    <string id="de" value="독일어"/>
+    <string id="dz" value="부탄어"/>
+    <string id="el" value="그리스어"/>
+    <string id="en" value="영어"/>
+    <string id="eo" value="에스페란토어"/>
+    <string id="es" value="스페인어"/>
+    <string id="et" value="에스토니아어"/>
+    <string id="eu" value="바스크어"/>
+    <string id="fa" value="이란어"/>
+    <string id="fi" value="판란드어"/>
+    <string id="fj" value="피지어"/>
+    <string id="fo" value="페로어"/>
+    <string id="fr" value="프랑스어"/>
+    <string id="fy" value="프리지아어"/>
+    <string id="ga" value="아일랜드어"/>
+    <string id="gd" value="스코틀랜드 게일어"/>
+    <string id="gl" value="갈리시아어"/>
+    <string id="gn" value="과라니어"/>
+    <string id="gu" value="구자라트어"/>
+    <string id="ha" value="하우사어"/>
+    <string id="he" value="히브리어"/>
+    <string id="hi" value="힌디어"/>
+    <string id="hr" value="크로아티아어"/>
+    <string id="hu" value="헝가리어"/>
+    <string id="hy" value="아르메니아어"/>
+    <string id="ia" value="인터링거어"/>
+    <string id="id" value="인도네시아어"/>
+    <string id="ie" value="인터링그어"/>
+    <string id="ik" value="이누피아크어"/>
+    <string id="is" value="아이슬란드어"/>
+    <string id="it" value="이탈리아어"/>
+    <string id="iu" value="이누크티투트어"/>
+    <string id="ja" value="일본어"/>
+    <string id="jw" value="자바어"/>
+    <string id="ka" value="그루지야어"/>
+    <string id="kk" value="카자흐어"/>
+    <string id="kl" value="그린란드어"/>
+    <string id="km" value="캄보디아어"/>
+    <string id="kn" value="칸나다어"/>
+    <string id="ko" value="한국어"/>
+    <string id="ks" value="카슈미르어"/>
+    <string id="ku" value="쿠르드어"/>
+    <string id="ky" value="키르기스어"/>
+    <string id="la" value="라틴어"/>
+    <string id="ln" value="링갈라어"/>
+    <string id="lo" value="라오어"/>
+    <string id="lt" value="리투아니아어"/>
+    <string id="lv" value="라트비아어"/>
+    <string id="mg" value="말라가시어"/>
+    <string id="mi" value="마오리어"/>
+    <string id="mk" value="마케도니아어"/>
+    <string id="ml" value="말라얄람어"/>
+    <string id="mn" value="몽골어"/>
+    <string id="mo" value="몰다비아어"/>
+    <string id="mr" value="마라티어"/>
+    <string id="ms" value="말레이어"/>
+    <string id="mt" value="몰타어"/>
+    <string id="my" value="버마어"/>
+    <string id="na" value="나우루어"/>
+    <string id="nb" value="노르웨이어"/>
+    <string id="ne" value="나팔어"/>
+    <string id="nl" value="네덜란드어"/>
+    <string id="oc" value="오크어"/>
+    <string id="om" value="오로모어"/>
+    <string id="or" value="오리야어"/>
+    <string id="pa" value="펀잡어"/>
+    <string id="pl" value="폴란드어"/>
+    <string id="ps" value="파슈토어"/>
+    <string id="pt" value="포르투갈어"/>
+    <string id="qu" value="케추아어"/>
+    <string id="rm" value="레토로만어(로맨스)"/>
+    <string id="rn" value="키룬디어"/>
+    <string id="ro" value="루마니아어"/>
+    <string id="ru" value="러시아어"/>
+    <string id="rw" value="키냐르완다어"/>
+    <string id="sa" value="산스크리트어"/>
+    <string id="sd" value="신디어"/>
+    <string id="sg" value="상호어"/>
+    <string id="sh" value="세르보크로아티아어"/>
+    <string id="si" value="스리랑카어"/>
+    <string id="sk" value="슬로바키아어"/>
+    <string id="sl" value="슬로베니아어"/>
+    <string id="sm" value="사모아어"/>
+    <string id="sn" value="쇼나어"/>
+    <string id="so" value="소말리아어"/>
+    <string id="sq" value="알바니아어"/>
+    <string id="sr" value="세르비아어"/>
+    <string id="ss" value="시스와티어"/>
+    <string id="st" value="세소토어"/>
+    <string id="su" value="수단어"/>
+    <string id="sv" value="스웨덴어"/>
+    <string id="sw" value="스와힐리어"/>
+    <string id="ta" value="타밀어"/>
+    <string id="te" value="텔루구어"/>
+    <string id="tg" value="타지키스탄어"/>
+    <string id="th" value="태국어"/>
+    <string id="ti" value="티그리냐어"/>
+    <string id="tk" value="투르크멘어"/>
+    <string id="tl" value="타갈로그어"/>
+    <string id="tn" value="세츠와나어"/>
+    <string id="to" value="통가"/>
+    <string id="tr" value="터키어"/>
+    <string id="ts" value="통가어"/>
+    <string id="tt" value="타타르어"/>
+    <string id="tw" value="추이어"/>
+    <string id="ug" value="위구르어"/>
+    <string id="uk" value="우크라이나어"/>
+    <string id="ur" value="우르두어"/>
+    <string id="uz" value="우즈베크어"/>
+    <string id="vi" value="베트남어"/>
+    <string id="vo" value="볼라퓌크어"/>
+    <string id="wo" value="월라프어"/>
+    <string id="xh" value="코사어"/>
+    <string id="yi" value="이디시어"/>
+    <string id="yo" value="요루바어"/>
+    <string id="za" value="주앙어"/>
+    <string id="zh_CN" value="중국어 간체"/>
+    <string id="zh_TW" value="중국어 번체"/>
+    <string id="zu" value="줄루어"/>
+    <string id="SetupInitSh.root" value="init 스크립트를 설정하려면 루트로 로그온한 후 실행하십시오."/>
+    <string id="SetupInitSh.fail" value="시스템 초기화 스크립트에 실패했습니다."/>
+    <string id="property.InstallDir.description" value="설치 디렉터리"/>
+    <string id="property.SetupUILanguage.description" value="설치 UI 언어"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="정렬된 사용 가능한 설치 UI 언어"/>
+    <string id="property.SelectedLanguagePacks.description" value="설치 대상으로 선택된 언어 팩"/>
+    <string id="property.ProductKey.description" value="제품 키 코드"/>
+    <string id="property.RegisteredCompany.description" value="등록된 회사"/>
+    <string id="property.RegisteredUser.description" value="등록된 사용자"/>
+    <string id="property.InstallCompatibilityMode.description" value="이전 제품 업그레이드 또는 병행 설치"/>
+    <string id="property.IsAcceptEULA.description" value="시스템에서 EULA를 허용합니까?"/>
+    <string id="property.FormattedString.description" value="대상 문자열 서식 지정"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="wDeploy 시작"/>
+    <string id="description.cmsname" value="CMS 이름"/>
+    <string id="description.cmsport" value="CMS 포트"/>
+    <string id="description.cmsusername" value="CMS 사용자 이름"/>
+    <string id="description.cmspassword" value="CMS 암호"/>
+    <string id="description.cmsauth" value="CMS 인증"/>
+    <string id="description.sianame" value="SIA 이름"/>
+    <string id="description.siaport" value="SIA 포트"/>
+    <string id="property.CMSPassword.description" value="CMS 관리자 암호"/>
+    <string id="property.CMSPort.description" value="CMS 연결 포트"/>
+    <string id="property.CryptoKey.description" value="CMS 클러스터 키"/>
+    <string id="property.EnableServers.description" value="설치 후 서버 시작: 0 또는 1"/>
+    <string id="property.UsingAuditDBType.description" value="감사 데이터베이스 유형"/>
+    <string id="property.UsingCMSDBType.description" value="CMS 데이터베이스 유형"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="기존 감사 데이터베이스(DB)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="기존 감사 DB 암호"/>
+    <string id="property.ExistingAuditingDBPort.description" value="기존 감사 DB 포트"/>
+    <string id="property.ExistingAuditingDBReset.description" value="기존 감사 DB 재설정 플래그: 0 또는 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="기존 감사 DB 외부 인증 사용 플래그: 0 또는 1 "/>
+    <string id="property.ExistingAuditingDBServer.description" value="기존 감사 DB 서버"/>
+    <string id="property.ExistingAuditingDBUser.description" value="기존 감사 DB 사용자 이름"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="기존 CMS 데이터베이스(DB)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="기존 CMS DB 암호"/>
+    <string id="property.ExistingCMSDBPort.description" value="기존 CMS DB 포트"/>
+    <string id="property.ExistingCMSDBReset.description" value="기존 CMS DB 재설정 플래그: 0 또는 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="기존 감사 DB 외부 인증 사용 플래그: 0 또는 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="기존 CMS DB 서버"/>
+    <string id="property.ExistingCMSDBUser.description" value="기존 CMS DB 사용자 이름"/>
+    <string id="property.NewOrExpandInstall.description" value="설치 모드: 새로 설치, 확장 설치"/>
+    <string id="property.MySQLBOEUserName.description" value="BI 플랫폼 사용자용 번들 데이터베이스 사용자 이름"/>
+    <string id="property.MySQLBOEUserPassword.description" value="BI 플랫폼 사용자용 번들 데이터베이스 암호"/>
+    <string id="property.MySQLPort.description" value="번들 데이터베이스 커넥터 포트"/>
+    <string id="property.MySQLRootPassword.description" value="번들 데이터베이스 루트 사용자 암호"/>
+    <string id="property.RemoteCMSAdminName.description" value="원격 CMS 관리자 이름"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="원격 CMS 관리자 암호"/>
+    <string id="property.RemoteCMSName.description" value="원격 CMS 이름"/>
+    <string id="property.RemoteCMSPort.description" value="원격 CMS 포트"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="원격 CMS 로그인 경고 건너뛰기"/>
+    <string id="property.MaintenanceMode.description" value="수행할 유지보수 작업"/>
+    <string id="property.SelectIntegratedDatabase.description" value="통합 데이터베이스 설치: 0 또는 1 "/>
+    <string id="property.SIAName.description" value="SIA 노드 이름"/>
+    <string id="property.SIAPort.description" value="SIA 커넥터 포트"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat 연결 포트"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat 리디렉션 포트"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat 종료 포트"/>
+    <string id="property.WACSPort.description" value="WACS 포트"/>
+    <string id="property.WebAppServerType.description" value="웹 응용 프로그램 서버 유형: Tomcat, 수동 또는 WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Solution Manager 서버 이름"/>
+    <string id="property.SolMgr_Port.description" value="Solution Manager 서버 포트"/>
+    <string id="property.SolMgr_Username.description" value="Solution Manager에 연결하는 데 필요한 사용자 이름"/>
+    <string id="property.SolMgr_Password.description" value="Solution Manager에 연결하는 데 필요한 암호"/>
+    <string id="property.SolMgr_UseHttps.description" value="HTTPS를 사용하여 Solution Manager에 연결: 0 또는 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="SharedAlwaysFailureMessage에 대한 문자열을 유지하는데 사용되는 속성입니다."/>
+    <string id="property.SMDAgent_HOST.description" value="SMD Agent 호스트 이름"/>
+    <string id="property.SMDAgent_PORT.description" value="SMD Agent 포트 번호"/>
+    <string id="property.UPGRADE.description" value="자동 업그레이드 허용 플래그: 0 또는 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Solution Manager Diagnostics(SMD) Agent 통합: 통합 또는 통합 안 함"/>
+    <string id="property.ChooseSLDIntegration.description" value="SLD 통합: 통합 또는 통합 안 함"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Introscope Enterprise Manager 통합: 통합 또는 통합 안 함"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Manager 호스트 이름"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager 포트 번호"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Manager 계측"/>
+    <string id="property.NewOrExistingLCM.description" value="새로 설치 또는 기존 LCM 사용: 신규 또는 기존"/>
+    <string id="property.LCMName.description" value="LCM 서버 이름"/>
+    <string id="property.LCMUserName.description" value="LCM 사용자 이름"/>
+    <string id="property.LCMPassword.description" value="LCM 암호"/>
+    <string id="property.LCMPort.description" value="LCM 포트"/>
+    <string id="property.InstallType.description" value="설치 유형: 기본 설치 또는 사용자 지정 설치"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Crystal Reports 필수 조건으로, 사용자에게 관리 권한이 있습니까?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Crystal Reports Viewer의 컴퓨터별 설치를 위한 설치 디렉터리"/>
+    <string id="PatchUpdateCheck" value="제품 업데이트 확인 "/>
+    <string id="prerequisite.CheckPatchLevel.description" value="운영 체제 패치 수준"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="운영 체제가 이 제품을 설치하는 데 필요한 최소 패치 수준을 충족하지 않습니다. 플랫폼 요구사항 설명서를 참조하십시오."/>
+    <string id="prereq.pingLocalhost" value="네트워크 설정"/>
+    <string id="prereq.pingLocalhostNotOkText" value="로컬 호스트, 127.0.0.1 또는 컴퓨터 호스트 이름에 대한 ping 실행에 실패했습니다. 설치를 계속하려면 연결이 가능하도록 컴퓨터를 구성해야 합니다. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="디스크 공간 점검"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="설치를 계속하려면 필요한 디스크 공간이 사용 가능한지 확인하십시오. 자세한 내용은 https://apps.support.sap.com/sap/support/pam 사이트를 참조하십시오."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="관리 권한"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="관리 권한을 가진 사용자 계정으로 로그온해야 합니다. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 이상"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Microsoft .NET Framework 4.0 이상을 설치하십시오."/>
+    <string id="prereq.RootUserPreReqText" value="루트 사용자 권한"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="현재 로그온한 루트 사용자 계정으로는 설치를 진행할 수 없습니다. 제품을 설치하려면 루트 사용자가 아닌 다른 사용자로 로그온해야 합니다. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64비트 운영 체제"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="이 제품은 64비트 운영 체제에 설치해야 합니다. 사용 중인 운영 체제가 이 요구 사항에 맞는지 확인하십시오. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows 버전"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="이 제품은 Windows 8.1 또는 Server 2012 R2 운영 체제(OS) 이상에 설치해야 합니다. 사용 중인 OS가 이 요구 사항에 맞는지 확인하십시오."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows 버전"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="이 제품은 Windows Server 2012 R2 이상 Windows Server 버전에 설치해야 합니다. Windows 버전이 이 요구 사항에 맞는지 확인하십시오."/>
+    <string id="prereq.SQLExpressPreReqText" value="통합 데이터베이스 요구사항"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Microsoft .NET Framework 3.5 SP1 이상 및 Windows Installer 4.5를 설치합니다."/>
+    <string id="prereq.SQLExpressRequirementText" value="MS SQL Express 요구사항"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express에는 Microsoft .NET Framework 3.5 SP1 및 Windows Installer 4.5가 필요합니다. SQL Express를 설치하기 전에 이 두 패키지를 모두 설치하십시오."/>
+    <string id="prereq.PendingStatusPreReqText" value="재부팅 보류"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="로컬 컴퓨터에서 재부팅 요청이 보류되었습니다. 설치를 계속하려면 컴퓨터를 재부팅하십시오. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="제품의 4.x 버전이 설치되지 않았습니다."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="제품의 4.x 버전이 설치되었습니다."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="통합 데이터베이스 - 홈 디렉터리"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="통합 데이터베이스를 설치하려면 사용자의 홈 디렉터리에 755개의 액세스 권한을 설정해야 합니다. 데이터베이스를 설치하려면 액세스 권한을 설정해야 합니다."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="통합 데이터베이스 - 디렉터리"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2에는 ~/sqllib 또는 ~/$USER 디렉터리가 없어야 합니다. 통합 DB2 데이터베이스를 설치하려는 경우 이 디렉터리가 있다면 삭제해야 합니다."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="#product.mini_bip_name# 또는 #product.cr_server_name#을(를) 설치할 수 없습니다."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname#은(는) #product.mini_bip_name# 또는 #product.cr_server_name#과(와) 동일한 컴퓨터에 설치할 수 없습니다. INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="#product.boe64_name# 또는 #product.cr_server_name#을(를) 설치할 수 없습니다."/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="#productname#을(를) 설치할 수 없습니다. #product.boe64_name# 또는 #product.cr_server_name#이(가) 이미 설치되어 있습니다. INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="#product.ras_name#을(를) 설치할 수 없습니다."/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname#은(는) #product.ras_name#과(와) 동일한 컴퓨터에 설치할 수 없습니다. INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="#product.IS_name# - #product.DS_name# 호환성"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="SAP #product.DS_name# 및/또는 #product.IS_name#이(가) 검색되었습니다. 계속하기 전에 SAP Note 1740516(http://service.sap.com/sap/support/notes/1740516)에서 호환성 정보 및 해당 제품에 미치는 영향을 확인하십시오. INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="설치 과정에서 기존 설치가 발견되었습니다. UPGRADE=1 명령으로 설치를 실행해야 합니다. 프로그램을 끝냅니다."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="필수 구성 요소 요구사항이 충족되지 않아 설치 관리자를 계속할 수 없습니다."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="통합 데이터베이스 옵션이 있는 중앙 관리 서버를 선택했으나, 요구사항을 충족하지 않아서 옵션이 비활성화되었습니다. 설치를 계속하려면 다음 필수 조건을 해결해야 합니다."/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="현재 사용자는 관리자 액세스 권한이 없으므로 설치 관리자를 실행할 수 없습니다."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="/tmp의 디스크 공간"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="/tmp 폴더에 여유 디스크 공간이 부족합니다. 설치를 계속하려면 먼저 공간을 더 확보해야 합니다. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value=" /var의 디스크 공간"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="/var 폴더의 여유 디스크 공간이 부족합니다. 설치를 계속하려면 20MB 이상의 디스크 공간이 필요합니다."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="통합 데이터베이스 - 사용자 및 그룹"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="사용자 그룹 이름을 지정할 때 DB2 제한 사항을 충족하지 못했습니다. 자세한 내용을 보려면 http://publib.boulder.ibm.com/infocenter/db2luw/v9r7에서 &quot;user ID restrictions&quot;으로 검색하십시오."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="통합 데이터베이스 - UID 및 GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2에서는 UID 및 GID가 65536을 넘지 않아야 합니다. 통합 DB2 데이터베이스를 사용하려면 이보다 적은 숫자를 입력해야 합니다."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="통합 데이터베이스 - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2에서는 시스템 경로에 gunzip이 있어야 합니다. 통합 DB2 데이터베이스를 사용하려면 먼저 시스템 경로를 편집해야 합니다."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="번들 DB - DB2에 대한 최소 HPUX 커널 설정을 충족해야 합니다."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="커널 설정이 DB2에 대한 최소 요구 사항을 충족하지 않습니다."/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013은 SUSE 11 이상에서는 사용할 수 없습니다."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="64비트 BOE .NET SDK에는 Microsoft .NET Framework 3.5 이상이 필요합니다. 64비트 BOE .NET SDK를 설치하려면 먼저 .NET Framework를 설치해야 합니다."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 이상"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Microsoft .NET Framework 3.0 이상을 설치합니다."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime이 없습니다. 설치를 계속하려면 이 제품을 먼저 설치해야 합니다."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 이상"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003 이상이 없습니다. 설치를 계속하려면 이 제품을 먼저 설치해야 합니다."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="최소 지원 패키지 버전"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="이 업데이트는 #productname# #product_version# #product_sp_version#용이며, 이 버전은 시스템에서 검색되지 않았습니다. 설치를 계속하려면 이 제품을 먼저 설치해야 합니다."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="이 업데이트는 #productname# #product_version# #product_sp_version#용이며, 이 버전은 시스템에서 검색되지 않았습니다. 설치를 계속하려면 이 제품을 먼저 설치해야 합니다."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="업데이트 적용 가능"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion#은(는) 이 업데이트 이후 버전입니다. 이 업데이트를 계속하지 마십시오."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="최소 부 릴리스 버전"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="이 업데이트는 #productname# #product_version#용이며, 이 버전은 시스템에서 검색되지 않았습니다. 설치를 계속하려면 이 제품을 먼저 설치해야 합니다."/>
+    <string id="prereq.OEMInstalledPreReqText" value="사용자 지정 #productname_short# #productname_preversion# 설치됨"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="이 업데이트는 사용자 지정 #productname_short# #productname_preversion#용이며, 이 버전은 시스템에서 검색되지 않았습니다. 설치를 계속하려면 이 제품을 먼저 설치해야 합니다."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="호환 가능한 제품 설치"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="이 제품은 이미 설치되어 사용자가 이용할 수 있습니다."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows Installer 서비스"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Windows Installer Service가 비활성화되었거나(시작 유형=사용 안 함) 사용 불가능하여 설치가 중단되었습니다. 설치를 계속하려면 먼저 서비스를 설치하고 활성화해야 합니다."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="클러스터 업데이트를 완료하려면 클러스터의 모든 컴퓨터에서 설치가 완료된 후 각 중앙 관리 서버(CMS)를 다시 시작하십시오. CMS를 다시 시작하려면 중앙 관리 콘솔에 로그온해야 합니다."/>
+    <string id="PostInstall.message.logoncmc.windows" value="중앙 관리 콘솔(CMC)에 로그온하여 시스템 구성을 계속합니다. CMC를 시작하려면 시작 &gt; #product.boe64_name# &gt; 중앙 관리 콘솔을 선택하십시오."/>
+    <string id="postinstall.message.manualdeploy.common" value="Java 웹 응용 프로그램 및 웹 서비스가 웹 응용 프로그램 서버에 배포되지 않았습니다. wDeploy 도구를 실행하여 Java 웹 응용 프로그램 및 웹 서비스를 배포하십시오."/>
+    <string id="postinstall.message.manualdeploy.windows" value="wDeploy 도구를 시작하려면 시작 &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy를 선택합니다."/>
+    <string id="postinstall.message.manualdeploy.unix" value="wDeploy 도구는 [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh에 있습니다."/>
+    <string id="postinstall.message.systeminstall" value="시스템 설치를 완료하려면 루트 권한으로 [INSTALLDIR]/sap_bobj/init/setupinit.sh 스크립트를 실행하십시오."/>
+    <string id="postinstall.message.webtieralone" value="OpenDocument에 대한 기본 뷰어 URL을 정의해야 합니다. 이 컴퓨터는 문서 확인 요청을 처리할 수 있는 기본 웹 응용 프로그램 서버로 등록되지 않았습니다. 이 컴퓨터를 중앙 관리 서버에서 기본 웹 응용 프로그램 서버로 등록해야 할 수 있습니다. 중앙 관리 콘솔을 통해 OpenDocument 속성 페이지를 편집하십시오."/>
+    <string id="PostInstall.message.monitoring" value="모니터링 도구에 액세스하여 진단 테스트를 실행하려면 중앙 관리 콘솔에 로그온하여 모니터링을 클릭한 후 프로브 탭을 엽니다."/>
+    <string id="postInstall.message.new.features.announce.windows" value="이 업데이트에서는 {b}RESTful 웹 서비스{/b} 및 {b}Insight to Action 프레임워크{/b} 기능이 새롭게 제공됩니다. 이 기능을 사용하려면 기본 설치에서 설치를 수정하고 새 기능을 추가하십시오."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful 웹 서비스:{/b} Business Intelligence 플랫폼 RESTful 웹 서비스 SDK를 사용하면 HTTP 프로토콜을 통해 BI 플랫폼에 액세스할 수 있습니다. 이 SDK를 사용하여 플랫폼 로그온, BI 플랫폼 리포지토리 탐색, 리소스 액세스, 기본 리소스 예약과 같은 작업을 수행할 수 있습니다. 업데이트 후 Dashboard 모델 및 Live Office 문서를 저장할 때 이 기능이 필요합니다."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action 프레임워크:{/b} Insight to Action 프레임워크를 사용하면 SAP 응용 프로그램과 타사 응용 프로그램에서 Netweaver의 리포트 간 인터페이스(RRI)를 사용하여 정의한 작업 트랜잭션을 호출할 수 있습니다. 이 기능은 Crystal Reports 및 BusinessObjects Dashboards에서 사용할 수 있습니다."/>
+    <string id="postInstall.message.new.features.announce.unix" value="이 업데이트에서는 RESTful 웹 서비스 및 Insight to Action 프레임워크 기능이 새롭게 제공됩니다. 이 기능을 사용하려면 기본 설치에서 설치를 수정하고 새 기능을 추가하십시오."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful 웹 서비스: Business Intelligence 플랫폼 RESTful 웹 서비스 SDK를 사용하면 HTTP 프로토콜을 통해 BI 플랫폼에 액세스할 수 있습니다. 이 SDK를 사용하여 플랫폼 로그온, BI 플랫폼 리포지토리 탐색, 리소스 액세스, 기본 리소스 예약과 같은 작업을 수행할 수 있습니다. 업데이트 후 Dashboard 모델 및 Live Office 문서를 저장할 때 이 기능이 필요합니다."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action 프레임워크: Insight to Action 프레임워크를 사용하면 SAP 응용 프로그램과 타사 응용 프로그램에서 Netweaver의 리포트 간 인터페이스(RRI)를 사용하여 정의한 작업 트랜잭션을 호출할 수 있습니다. 이 기능은 Crystal Reports 및 BusinessObjects Dashboards에서 사용할 수 있습니다."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="설치 과정에서 MySQL 클라이언트 5.0이 발견되었으나, 이는 데이터베이스 연결에 더 이상 사용할 수 없습니다. 시스템 지원을 위해서는 MySQL 클라이언트 5.1로 업그레이드해야 합니다."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile Servers는 모바일 장치에서 Business Intelligence 데이터 액세스를 가능하게 하는 새 기능입니다. 이 기능을 사용하려면 기본 설치에서 설치를 수정하고 Mobile Servers를 추가하십시오."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="번들 Tomcat이 Tomcat 9로 업데이트됩니다. 이전 버전에서 Tomcat에 적용한 사용자 지정 설정은 Tomcat 9로 마이그레이션되지만, 사용자 지정 설정이 Tomcat 9에서 사용 가능한지 확인해보는 것이 좋습니다."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="유지 관리 패키지: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="유지 관리 패키지: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="유지 관리 패키지: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="유지 관리 패키지\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI 플랫폼"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI 플랫폼 서버"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI 플랫폼"/>
+    <string id="product.boec_client_name" value="클라이언트 도구"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="BI 플랫폼 클라이언트"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI 플랫폼 .NET SDK 재배포 가능 패키지"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="SAP BusinessObjects BI add-on for SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="SAP Lumira용 BI 추가 기능"/>
+    <string id="product.mini_bip_name" value="정보 플랫폼 서비스"/>
+    <string id="product.mini_bip_shortname" value="정보 플랫폼 서비스"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="SAP Integration for Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Integration Option for Microsoft SharePoint Software"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM Edition"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI 플랫폼 4"/>
+    <string id="shortcut.folder.name.minibip" value="정보 플랫폼 서비스 4"/>
+    <string id="shortcut.folder.name.boclient" value="SAP BusinessObjects BI 플랫폼 4 클라이언트 도구"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM Edition"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="중앙 구성 관리자"/>
+    <string id="shortcut.link.description.CCM" value="플랫폼 서비스를 시작, 중지 및 구성합니다."/>
+    <string id="shortcut.link.name.boserver.CMC" value="SAP BusinessObjects BI 플랫폼 중앙 관리 콘솔"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="SAP BusinessObjects BI 플랫폼 WACS 중앙 관리 콘솔"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="SAP Crystal Server 중앙 관리 콘솔"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="SAP Crystal Server WACS 중앙 관리 콘솔"/>
+    <string id="shortcut.link.name.minibip.CMC" value="정보 플랫폼 서비스 중앙 관리 콘솔"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="정보 플랫폼 서비스 WACS 중앙 관리 콘솔"/>
+    <string id="shortcut.link.description.CMC" value="관리 콘솔에 액세스합니다."/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="SAP BusinessObjects BI 플랫폼 LaunchPad"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="SAP BusinessObjects BI 플랫폼 WACS BI LaunchPad"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="SAP Crystal Server Java BI LaunchPad"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="SAP Crystal Server WACS BI LaunchPad"/>
+    <string id="shortcut.link.description.BILaunchpad" value="BI LaunchPad를 시작합니다."/>
+    <string id="shortcut.link.name.UpgradeManager" value="업그레이드 관리 도구"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="이전 배포를 SAP BusinessObjects BI 플랫폼 4로 업그레이드합니다."/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Promotion Management 마법사"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="단계별 사용자 인터페이스를 통해 4.x 배포의 DMS 컨텐트를 내보내거나 가져오고 복사합니다."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="이전 버전을 SAP Crystal Server 2020으로 업그레이드"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="이전 배포를 정보 플랫폼 서비스 4로 업그레이드합니다."/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32비트 ODBC 데이터 소스 관리자"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC 데이터 소스 관리자"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="ODBC(Open Database Connectivity) 데이터 소스와 드라이버를 추가, 제거 및 구성합니다."/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="온라인 설명서"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="온라인 설명서에 액세스합니다."/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat 관리"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Tomcat 관리에 액세스합니다."/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat 구성"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Tomcat 구성에 액세스합니다."/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="wDeploy 도구를 시작합니다."/>
+    <string id="shortcut.link.name.BIWidgets" value="위젯"/>
+    <string id="shortcut.link.description.BIWidgets" value="위젯을 시작합니다."/>
+    <string id="shortcut.link.name.BusinessViewManager" value="비즈니스 뷰 관리자"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="비즈니스 뷰 관리자를 시작합니다."/>
+    <string id="shortcut.link.name.DFAdminTool" value="데이터 연합 관리 도구"/>
+    <string id="shortcut.link.description.DFAdminTool" value="데이터 연합 관리 도구를 시작합니다."/>
+    <string id="shortcut.link.name.InformationDesignTool" value="정보 디자인 도구"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="정보 디자인 도구를 시작합니다."/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Query As a Web Service Designer"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Query As a Web Service Designer를 시작합니다."/>
+    <string id="shortcut.link.name.ReportConversionTool" value="보고서 변환 도구"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="보고서 변환 도구를 시작합니다."/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="번역 관리 도구"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="번역 관리 도구를 시작합니다."/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="유니버스 디자인 도구"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="유니버스 디자인 도구를 시작합니다."/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Web Intelligence Rich Client를 시작합니다."/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Web Intelligence Rich Client를 시작합니다."/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="서식이 지정된 데이터 보고서(.RPT)를 만들고 수정합니다."/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="보고서 업로드 마법사"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="보고서 업로드 마법사를 시작합니다."/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.link.description.CRViewer" value="서식이 지정된 데이터 보고서(.RPT)를 조회합니다."/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Report Application Server LaunchPad"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Report Application Server LaunchPad를 시작합니다."/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Web Intelligence를 시작합니다."/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Dashboards를 시작합니다."/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Dashboards Add-on Packager를 시작합니다."/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="SAP Crystal Presentation Design 2020 실행"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager 실행"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects BI 관리 콘솔 WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects BI 관리 콘솔"/>
+    <string id="shortcut.link.description.ADC" value="관리 콘솔 액세스"/>
+    <string id="OverhangingPatchMessage" value="설치를 계속하면 수정 사항이 시스템에서 제거될 수도 있습니다. 현재 설치 중인 프로그램이 호환 가능한 패키지인지 확인하십시오."/>
+    <string id="Installing41PatchOver40" value="계속하기 전에 현재 4.0 시스템 백업 사본을 수동으로 작성하십시오. 4.1 업데이트가 적용된 후에는 제거할 수 없습니다. 시스템 상태 복원이 필요한 경우에는 백업 사본을 사용해야 합니다."/>
+    <string id="Block41PatchUninstall" value="4.1 업데이트는 자동으로 제거할 수 없습니다. 4.0 시스템 상태로 되돌아가려면 기존 바이너리를 제거하고 4.0 시스템 회복을 위해 생성한 4.0 백업을 사용하십시오."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname#에는 새 라이센스 키가 필요합니다. SAP Service Market Place에서 새 라이센스 키를 다운로드한 후 중앙 관리 콘솔에서 기존 라이센스 키를 삭제하고 새 라이센스 키를 추가하십시오. 자세한 내용은 설명서를 참조하십시오."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="#product.fullproductnamenospace#의 몇 가지 제품과 기능은 사용되지 않습니다. 업데이트 이후에는 기술된 작업을 SAP Note 2801797의 설명에 따라 수행해야 합니다."/>
+    <string id="DeployLaterDescription" value="웹 응용 프로그램 배포 모드"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="핫픽스의 상위 패치 버전 설치"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="이 핫픽스는 #productname# #product_version# #product_sp_version# Patch #patch_id#용입니다. 설치를 계속하려면 이 패치를 먼저 설치해야 합니다.자세한 내용은 SAP Note 2257993을 참조하십시오."/>
+  </context>
+</uitext>

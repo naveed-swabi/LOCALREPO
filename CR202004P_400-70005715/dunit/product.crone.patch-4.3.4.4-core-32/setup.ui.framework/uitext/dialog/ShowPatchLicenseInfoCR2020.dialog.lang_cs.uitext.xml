@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Požadavek na nový licenční klíč"/>
+<string id="YouMustAgree" value="Pro #product.fullproductnamenospace#update je požadován nový licenční klíč."/>
+<string id="IAccept" value="Četl(a) jsem a rozumím procesu požadavku na nový licenční klíč. Souhlasím s přidáním nového licenčního klíče po instalaci aktualizace."/>
+<string id="subtitle1" value="Pro SAP Crystal Reports zakoupený jako součást platformy SAP Business Intelligence můžete přejít na odkaz níže a zjistit, jak požádat o nový licenční klíč."/>
+<string id="subtitle2" value="Pro SAP Crystal Reports zakoupený zvlášť navštivte obchod SAP Store a proveďte nákup upgradovaného licenčního klíče."/>
+<string id="subtitle3" value="Při spuštění aplikace po instalaci aktualizace musíte nový licenční klíč zadat do Správce licencí."/>
+</context>
+</uitext>

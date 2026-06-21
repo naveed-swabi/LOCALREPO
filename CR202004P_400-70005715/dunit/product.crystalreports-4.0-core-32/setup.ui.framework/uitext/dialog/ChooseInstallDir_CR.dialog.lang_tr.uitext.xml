@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="ChooseDestination" value="Hedef Klasörü Belirtin"/>
+<string id="SpecifyDestination" value="Ürünün kurulacağı hedef klasör. Farklı bir konum seçmek için Gözat'ı tıklayın."/>
+<string id="DestinationFolder" value="Hedef Klasör"/>
+<string id="Browse" value="Gözat"/>
+<string id="BrowseInstallDirectory" value="Kurulum için konum seçin"/>
+<string id="PWClientFolderTitle" value="İstemci Hedef Klasörü"/>
+<string id="PWServerFolderTitle" value="Sunucu Hedef Klasörü"/>
+<string id="Invalid_InstallDirWindows" value="Kurulum dizini geçersiz. Lütfen yalnızca alfasayısal karakterleri veya şu karakterlerden birini içeren mutlak bir yol kullanın: _ - \ . ( ). Dizin sabit bir sürücüde olmalı ve tam yol en fazla 150 karakter uzunluğunda olmalıdır. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Kurulum dizini geçersiz. Lütfen okuma, yazma ve yürütme izinlerinizin olduğu geçerli bir mutlak yol kullanın. INS00029"/>
+</context>
+</uitext>

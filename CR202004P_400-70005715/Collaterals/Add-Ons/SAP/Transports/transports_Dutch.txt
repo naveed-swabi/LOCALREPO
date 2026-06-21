@@ -1,0 +1,23 @@
+Er zijn twee sets transportbestanden die kunnen worden gebruikt bij BusinessObjects Enterprise Integration Kit for SAP De ene set heeft de ANSI-indeling en de andere set de Unicode-indeling. 
+
+Welke set transports u moet gebruiken, is afhankelijk van het BASIS-systeem waarop uw SAP-systeem draait. Verder bestaat elk transport uit een gegevensbestand en een co-bestand, die tussen haakjes achter de transportnamen worden vermeld.
+
+Als uw SAP-systeem op een BASIS-systeem 6.20 of nieuwer draait, moet u de volgende bestanden gebruiken:
+
+(Deze bestanden hebben de Unicode-indeling.)
+
+* Open SQL Connectivity-transport (K900085.SDD en R900085.SDD)
+* Info Set Connectivity-transport (K900043.SDD en R900043.SDD)
+* Row-level Security Definition-transport (K900051.SDD en R900051.SDD)
+* Cluster Definition-transport (K900039.SDD en R900039.SDD)
+* Authentication Helpers-transport (K900041.SDD en R900041.SDD)
+
+
+De volgende bestanden moeten worden gebruikt op een SAP BW-systeem:
+
+(Deze bestanden hebben de Unicode-indeling.)
+
+* Content Administration-transport (K900098.SDD en R900098.SDD)
+* Personalization-transport (K900045.SDD en R900045.SDD)
+* MDX Query Connectivity-transport (K900014.SDD en R900014.SDD)
+* ODS Connectivity-transport (K900042.SDD en R900042.SDD)

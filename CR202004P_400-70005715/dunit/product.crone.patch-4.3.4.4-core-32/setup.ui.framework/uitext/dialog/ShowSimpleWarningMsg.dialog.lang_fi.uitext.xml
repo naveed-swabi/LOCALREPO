@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="fi"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10:llä ei ole yhteensopivaa  Data Services -versiota. Älä jatka tätä asennusta, jos Data Services on asennettu infrastruktuuriis.\n\n\n Jatka tätä asennusta valitsemalla ‘Ok’ tai \n lopeta asennus turvallisesti valitsemalla ‘Lopeta asennus'."/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10:llä ei ole yhteensopivaa  Data Services -versiota. Älä jatka tätä asennusta, jos Data Services on asennettu infrastruktuuriisi."/>
+<string id="ExitMessage" value="Lopeta painamalla Ctrl-X-näppäinyhdistelmää tai jatka painamalla Enter-näppäintä."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.exporting.u2frtf-4.0-pt-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="56196">
+    <requiredDeploymentUnit ref="crystalreports.cpp.exporting.u2frtf-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="1719B135-6ED6-431D-A58A-40945E44D48B"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

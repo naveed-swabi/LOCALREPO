@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="NotAcceptedEULA" value="È necessario accettare il contratto di licenza. Uscita in corso."/>
+<string id="LicenseAgreement" value="Contratto di licenza"/>
+<string id="YouMustAgree" value="Per procedere è necessario accettare le condizioni di licenza."/>
+<string id="IAccept" value="Accetto il Contratto di licenza"/>
+<string id="IDoNotAccept" value="Non accetto il Contratto di licenza"/>
+<string id="Invalid_IsAcceptEULA" value="IsAcceptEULA non valido ([IsAcceptEULA]): deve essere solo 1"/>
+<string id="AcceptOrNotAccept" value="Premere &lt;INVIO&gt; per accettare o &lt;CTRL-X&gt; per non accettare"/>
+</context>
+</uitext>

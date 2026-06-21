@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="ChooseDestination" value="Especificar a pasta de destino"/>
+<string id="SpecifyDestination" value="A pasta de destino é o local em que o produto será instalado. Clique em Procurar para selecionar um local diferente."/>
+<string id="DestinationFolder" value="Pasta de destino"/>
+<string id="Browse" value="Procurar"/>
+<string id="BrowseInstallDirectory" value="Escolher um local de instalação"/>
+<string id="PWClientFolderTitle" value="Pasta de destino cliente"/>
+<string id="PWServerFolderTitle" value="Pasta de destino do servidor"/>
+<string id="Invalid_InstallDirWindows" value="Diretório de instalação inválido. Use um caminho absoluto válido que contenha apenas caracteres alfanuméricos ou qualquer um dos seguintes: _ - \ . ( ). O diretório deve residir em uma unidade fixa e o caminho completo não pode exceder 150 caracteres. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Diretório de instalação inválido. Use um caminho absoluto válido para o qual você tenha permissões de leitura, gravação e execução. INS00029"/>
+</context>
+</uitext>

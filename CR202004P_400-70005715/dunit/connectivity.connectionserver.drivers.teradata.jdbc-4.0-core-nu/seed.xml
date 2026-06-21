@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="connectivity.connectionserver.drivers.teradata.jdbc-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="168417">
+    <requiredDeploymentUnit ref="connectivity.connectionserver.drivers.jdbc.core-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="C2B1384C-C488-43DB-9C95-F97F2DEE0CFE"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

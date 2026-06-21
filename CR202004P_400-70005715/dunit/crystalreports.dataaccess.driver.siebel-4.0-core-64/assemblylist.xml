@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for Siebel\Native">
+    <registryValue name="Data Bridge Name" keypath="yes" type="string">crsbaccbridge7.dll</registryValue>
+    <registryValue name="Default Repository" keypath="yes" type="string">Siebel Repository</registryValue>
+    <registryValue name="Default String Byte" keypath="yes" type="string">0</registryValue>
+    <registryValue name="Default View Mode" keypath="yes" type="string">AllView</registryValue>
+    <registryValue name="Disable Siebel COM Automations Server" keypath="yes" type="string">0</registryValue>
+    <registryValue name="Enable Show SQL" keypath="yes" type="string">0</registryValue>
+    <registryValue name="Enforce Context Availability" keypath="yes" type="string">0</registryValue>
+    <registryValue name="Enforce Context Match" keypath="yes" type="string">1</registryValue>
+    <registryValue name="Log Mode" keypath="yes" type="string">0</registryValue>
+    <registryValue name="Path Load" keypath="yes" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\</registryValue>
+    <registryValue name="Path Log" keypath="yes" type="string"/>
+    <registryValue name="Path Temp" keypath="yes" type="string">[TempFolder]</registryValue>
+    <registryValue name="Java Application Name" keypath="yes" type="string">sbqry.jar</registryValue>
+    <registryValue name="Path JVM Library" keypath="yes" type="string"/>
+    <registryValue name="Path Java Class" keypath="yes" type="string">[INSTALLDIR]\SAP BusinessObjects Enterprise XI 4.0\java\lib\</registryValue>
+    <registryValue name="ORB Client Configuration File" keypath="yes" type="string"/>
+    <registryValue name="ORB Server Configuration File" keypath="yes" type="string"/>
+    <registryValue name="Query Server Type" keypath="yes" type="string"/>
+    <registryValue name="Default Language" keypath="yes" type="string"/>
+    <registryValue name="Query Execute Mode" keypath="yes" type="string"/>
+    <registryValue name="Java Startup Timeout" keypath="yes" type="string">25</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for Siebel\Native\Instances\noname">
+    <registryValue name="Siebel Server Host Address" type="string"/>
+    <registryValue name="Siebel User ID" type="string"/>
+    <registryValue name="Siebel User Password" type="string"/>
+    <registryValue name="Query Server IOR Port" type="string"/>
+    <registryValue name="Query Server Log File" type="string"/>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="crdb_siebel.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="910336"/>
+    <file name="crsbaccbridge7.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="402944"/>
+    <file name="crsbqryserver.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="279552"/>
+  </sourcedir>
+</assembly>

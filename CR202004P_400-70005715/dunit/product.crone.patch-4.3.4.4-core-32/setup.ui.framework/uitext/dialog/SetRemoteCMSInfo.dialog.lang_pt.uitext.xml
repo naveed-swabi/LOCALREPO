@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informações de implementação CMS existentes"/>
+<string id="SpecifyRemoteCMS" value="Especifique as informações de login do CMS e do administrador da implementação CMS existente."/>
+<string id="RemoteCMSConnectionInfo" value="Informações de conexão para CMS existente"/>
+<string id="RemoteCMSName" value="Nome do CMS"/>
+<string id="RemoteCMSPort" value="Porta do CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informações de logon de administrador do CMS"/>
+<string id="RemoteCMSUser" value="Usuário"/>
+<string id="RemoteCMSPassword" value="Senha"/>
+<string id="ErrRemoteCMSConnectionInfo" value="O CMS não pode ser atingido ou as credenciais de login estão incorretas. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="CMS remoto inacessível ou credenciais de logon incorretas. INS00013\nDeseja inserir as credenciais novamente?"/>
+<string id="Invalid_SymbolInCMSPassword" value="A barra invertida (por exemplo, xxx\) e os seguintes caracteres não são permitidos na senha do CMS:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="A barra invertida (por exemplo, xxx\) e os seguintes caracteres não são permitidos na senha do CMS:  &quot;  '  INS00099"/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="cvom.java-4.0-fr-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="73733">
+    <requiredDeploymentUnit ref="cvom.java-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="15B6D5CD-ACEB-42E6-B3A3-6BA968D7F22E"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

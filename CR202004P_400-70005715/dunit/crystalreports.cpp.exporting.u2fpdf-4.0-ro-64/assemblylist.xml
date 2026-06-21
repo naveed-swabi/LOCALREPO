@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="crxf_pdf_res_ro.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="9728"/>
+  </sourcedir>
+</assembly>

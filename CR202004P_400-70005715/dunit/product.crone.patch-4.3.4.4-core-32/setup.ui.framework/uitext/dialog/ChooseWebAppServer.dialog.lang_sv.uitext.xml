@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Välj server för Java-webbprogram"/>
+<string id="ChooseWebAppServerSubtitle" value="Välj en serverlösning för Java-webbprogram."/>
+<string id="ChooseWebAppServerFooter" value="Tryck på []Tabb], []Uppåtpil] eller []Nedåtpil] för att välja, []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avsluta eller []Retur] för att fortsätta."/>
+<string id="InstallJWAS" value="Installera webbprogram och webbservrar för Java"/>
+<string id="InstallTomcat" value="Installera standardserver för Java-webbprogram och distribuera webbprogram automatiskt"/>
+<string id="ManualDeploy" value="Distribuera webbprogram manuellt till en hanterad server för Java-webbprogram efter installationen"/>
+<string id="InstallWACS" value="Installerar Web Application Container Server och distribuerar webbprogram automatiskt"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integration-alternativ för Microsofts SharePoint-program 4.0"/>
+<string id="SharePointIntegrationText" value="Alternativet SAP BusinessObjects Integration för Microsoft SharePoint-programvara 4.0 finns som en separat installation i tilläggsmappen för 64-bitars Sharepoint. Länk till tilläggsmappen finns i efterinstallationsanvisningarna."/>
+<string id="SharePointIntegrationCheck" value="Visa tilläggsmappens sökväg när installationen är klar"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Ogiltigt värde för UseIntegratedWebAppServer ([UseIntegratedWebAppServer]): Värdet ska vara 0 eller 1. INS00255"/>
+</context>
+</uitext>

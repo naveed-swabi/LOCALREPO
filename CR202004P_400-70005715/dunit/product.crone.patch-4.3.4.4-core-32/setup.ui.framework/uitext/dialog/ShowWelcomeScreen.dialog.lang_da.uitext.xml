@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="Message" value="Velkommen til installationsguiden til #product.fullproductnamenospace#. "/>
+<string id="ShowWelcomeScreenTitle" value="Velkomstskærm"/>
+<string id="ShowWelcomeScreenSubtitle" value="Velkommen til installationsguiden til #product.fullproductnamenospace#. "/>
+<string id="Description" value="Det anbefales kraftigt, at du afslutter alle programmer, der kører under  Windows, før du kører dette installationsprogram. \n\nKlik på Annuller for at afslutte installationen, og afslut kørende programmer. Klik på Næste for at fortsætte installationsprogrammet.\n\nADVARSEL: Dette program er ophavsretligt beskyttet. \n\n\nUautoriseret reproduktion eller distribution af dette program, eller en del af det, kan medføre hårde civil- og strafferetlige straffe og vil blive retsforfulgt  i lovens fulde omfang."/>
+<string id="Description_unix" value="ADVARSEL: Dette program er beskyttet af lov om ophavsret og internationale aftaler.\n\n\nUautoriseret gengivelse eller distribution af dette program eller enhver del af det kan medføre strenge civil- og strafferetlige straffe og vil blive retsforfulgt i det maksimale omfang, loven tillader det.\n\n\nBEMÆRK: Besøg http://support.sap.com/pam for flere oplysninger om understøttede platforme."/>
+<string id="ShowWelcomeScreenFooter" value="Tryk på []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte eller []Enter] for at fortsætte."/>
+<string id="PamHyperLinkWelcome" value="For at få flere oplysninger om understøttede platforme kan du besøge"/>
+</context>
+</uitext>

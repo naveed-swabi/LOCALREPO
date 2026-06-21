@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="PreviousVersionDetected" value="Vorherige Version von #product.nameonly# gefunden"/>
+<string id="PreviousVersionDetectedSub" value="Auswählen, ob eine Upgrade- oder eine Parallelinstallation ausgeführt werden soll"/>
+<string id="UpgradeInstallBtn" value="Upgrade-Installation ausführen"/>
+<string id="SideBySideInstallBtn" value="Parallelinstallation ausführen"/>
+<string id="UpgradeInstallMsg" value="Ersetzen Sie die aktuell installierte Version von #product.nameonly# mit dieser Version"/>
+<string id="SideBySideInstallMsg" value="Installiert diese Version von #product.nameonly# zusätzlich zur aktuell installierten Version"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Ungültiger Installationsmodus ([InstallCompatibilityMode]): sollte entweder Upgrade oder Parallel sein"/>
+</context>
+</uitext>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Title" value="Instalação em fases"/>
+<string id="SubTitle" value="Armazenamento em cache concluído"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Pressione [Enter] para sair da instalação em fases"/>
+<string id="Description" value="Para continuar a instalação após armazenamento em cache, execute o arquivo de instalação novamente. Durante a instalação após armazenamento em cache, há um tempo de inatividade no sistema. Você pode executar essa fase da instalação durante um período de manutenção."/>
+<string id="FinishMessage" value="Clique em Finalizar para sair da instalação em fases."/>
+<string id="Finish" value="Finalizar"/>
+</context>
+</uitext>

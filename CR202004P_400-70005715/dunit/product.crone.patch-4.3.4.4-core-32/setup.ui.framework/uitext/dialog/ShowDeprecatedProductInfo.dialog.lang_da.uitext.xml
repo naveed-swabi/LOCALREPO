@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Bekendtgørelse om frarådede produkter og funktioner"/>
+<string id="YouMustAgree" value="Nogle få produkter og funktioner frarådes i #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Jeg har læst dokumentationen og forstået påvirkningen af BI-platformens frarådede produkter og funktioner og accepterer at udføre de foreskrevne handlinger efter opdateringen."/>
+<string id="subtitle1" value="Applikationer såsom SAP BusinessObjects Explorer og SAP BusinessObjects Dashboards frarådes i BI 4.3. Du kan se den komplette liste over frarådede applikationer og få yderligere oplysninger om denne frarådelsesaktivitet ved at gå til"/>
+<string id="subtitle2" value="Du skal kontrollere påvirkningen og derefter udføre de foreskrevne handlinger som nævnt i bloggen."/>
+<string id="AcceptOrNotAccept" value="Tryk &lt;ENTER&gt; for at acceptere, at du har læst dokumentationen og forstået påvirkningen af BI-platformens frarådede produkter og funktioner samt accepterer at udføre de foreskrevne handlinger efter opdateringen."/>
+<string id="DeprecatedProductDescription" value="Applikationer såsom SAP BusinessObjects Explorer og SAP BusinessObjects Dashboards frarådes i BI 4.3. Du kan se den komplette liste over frarådede applikationer og få yderligere oplysninger om denne frarådelsesaktivitet ved at gå til https://launchpad.support.sap.com/#/notes/2801797. \n\nDu skal kontrollere påvirkningen og derefter udføre de foreskrevne handlinger som nævnt i bloggen.\n\n"/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020-tjenester understøttes ikke længere på Linux og Unix. Derfor fjernes de under denne opgradering. Men SAP Crystal Reports 2020-dokumenter forbliver på BI-platformen og understøttes stadig. Se SAP Knowledge Base Article på https://launchpad.support.sap.com/#/notes/3032096 for at få flere detaljer om, hvordan de påkrævede tjenester skal distribueres til en Windows-server."/>
+</context>
+</uitext>

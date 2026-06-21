@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="SelectLCMTitle" value="Versiyon Yönetimi Seç"/>
+<string id="SelectLCMSubtitle" value="Varsayılan versiyon denetim sistemini kurun veya versiyon yönetimi için mevcut sistemlerden birini kullanın."/>
+<string id="SelectLCMFooter" value="Seçmek için []Tab], []Yukarı] veya []Aşağı], geri gitmek için []Ctrl-B], çıkmak için []Ctrl-X], devam etmek için []Enter] tuşlarına basın."/>
+<string id="NewLCMInstall" value="Subversion uygulamasını konfigüre et ve kur"/>
+<string id="ExistingLCMInstall" value="Şu an için bir versiyon denetim sistemi konfigüre etme"/>
+<string id="Invalid_SelectLCM" value="Geçersiz NewOrExistingLCM Türü ([NewOrExistingLCM]): 'new' veya 'existing' olması gerekir. INS00284"/>
+</context>
+</uitext>

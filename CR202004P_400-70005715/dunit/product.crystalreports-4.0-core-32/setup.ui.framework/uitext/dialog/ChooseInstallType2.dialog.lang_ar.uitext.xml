@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ar"/>
+<context>
+<string id="UnknownInstallType" value="Unknown install type specified, valid values are: Typical or Custom."/>
+<string id="ChooseInstallType" value="Select Install Type"/>
+<string id="SelectAnInstallType" value="Select the type of installation."/>
+<string id="Full" value="Typical"/>
+<string id="FullDescription" value="Install a complete #product.nameonly# system"/>
+<string id="Custom" value="Custom"/>
+<string id="CustomDescription" value="Select the application features you want to install, or add or remove features to an existing #product.nameonly# system"/>
+<string id="Invalid_InstallType" value="Invalid InstallType ([InstallType]): it should be Typical or Custom."/>
+</context>
+</uitext>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="crpe32_res_hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1576448"/>
+    <file name="pageobjectmodel_res_hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="19456"/>
+    <file name="u3l20hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7168"/>
+    <file name="u3ldthu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="6656"/>
+    <file name="u3lfrhu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="9216"/>
+    <file name="u31220hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7168"/>
+    <file name="u312dthu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7168"/>
+    <file name="u312frhu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="9216"/>
+    <file name="u312sahu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="6656"/>
+    <file name="u3520hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7168"/>
+    <file name="u35dthu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7168"/>
+    <file name="u35s1hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="6656"/>
+    <file name="crtemplate_res_hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="26624"/>
+    <file name="csprintdlg_res_hu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="9728"/>
+  </sourcedir>
+</assembly>

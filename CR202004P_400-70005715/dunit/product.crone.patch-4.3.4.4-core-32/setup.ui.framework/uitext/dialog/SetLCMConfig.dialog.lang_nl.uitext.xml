@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="SetLCMConfigTitle" value="SubVersion configureren"/>
+<string id="SetLCMConfigSubtitle" value="Voer de poort en gebruikersnaam in voor het SubVersion-versiecontrolesysteem."/>
+<string id="repoInfoGroup" value="Informatie over gegevensopslagruimte van subversie"/>
+<string id="repoName" value="Naam van gegevensopslagruimte:"/>
+<string id="repoPort" value="Poort van gegevensopslagruimte:"/>
+<string id="repoPortInline" value="SubVersion-poort:"/>
+<string id="repoUserInfoGroup" value="Gebruikersinformatie over gegevensopslagruimte van SubVersion"/>
+<string id="repoUserName" value="Gebruikersaccount van gegevensopslagruimte:"/>
+<string id="repoUserPass" value="Accountwachtwoord van gegevensopslagruimte:"/>
+<string id="repoUserPassInline" value="Accountwachtwoord van gebruiker van gegevensopslagruimte:"/>
+<string id="repoUserPass2" value="Wachtwoord bevestigen:"/>
+<string id="Mismatch_LCMPassword" value="Wachtwoorden komen niet overeen. Controleer ze en probeer het opnieuw. INS00267"/>
+<string id="Invalid_LCMPassword" value="Het wachtwoord is te eenvoudig. Het wachtwoord moet ten minste zes tekens lang zijn en moet altijd ten minste twee van de volgende soorten tekens bevatten: hoofdletters en kleine letters. INS00127"/>
+</context>
+</uitext>

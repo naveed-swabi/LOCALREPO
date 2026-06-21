@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="InvalidProductKey" value="Введенный ключ продукта не признан допустимым."/>
+<string id="EnterProductKeyTitle" value="Настройка регистрации продукта"/>
+<string id="EnterProductKeySubtitle" value="Введите ключ продукта #product.nameandversionwithoutpatch#."/>
+<string id="ProductkeyLabel" value="Ключ продукта:"/>
+<string id="ProductkeyInfoGroup" value="Сведения о ключе продукта"/>
+<string id="Invalid_ProductKey" value="Недопустимый ключ продукта. INS00140"/>
+</context>
+</uitext>

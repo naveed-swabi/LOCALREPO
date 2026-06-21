@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="Message" value="Produkt #product.fullproductnamenospace# byl úspěšně nainstalován."/>
+<string id="InstallFailedMessage" value="Během instalace produktu #product.fullproductnamenospace# došlo k chybám."/>
+<string id="UninstallFailedMessage" value="Během odinstalace produktu #product.fullproductnamenospace# došlo k chybám."/>
+<string id="UninstallMessage" value="Produkt #product.fullproductnamenospace# byl úspěšně odinstalován."/>
+<string id="InstallationWithWarnings" value="Produkt #product.fullproductnamenospace# byl úspěšně nainstalován s varováními."/>
+<string id="Description" value="Kliknutím na tlačítko Dokončit ukončíte tuto instalaci."/>
+<string id="FailedDescription" value="Kliknutím na tlačítko Dokončit ukončíte tuto instalaci."/>
+<string id="Description_unix" value="Stisknutím klávesy []Enter] tuto instalaci ukončíte."/>
+<string id="FailedDescription_unix" value="Stisknutím klávesy []D] zobrazíte další podrobnosti, stisknutím klávesy []Enter] tuto instalaci ukončíte."/>
+<string id="PatchUpdateCheck" value="Vyhledat aktualizace produktu"/>
+<string id="CustomNextButton" value="Dokončit"/>
+<string id="CustomButtonRegister" value="Registrovat"/>
+<string id="ViewLogButton" value="Zobrazit protokol"/>
+<string id="HyperlinkText" value="Klepnutím sem zobrazíte detaily"/>
+</context>
+</uitext>

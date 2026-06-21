@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="DlgTitle" value="产品升级"/>
+<string id="DlgSummary" value="检测到此产品的另一个版本。"/>
+<string id="ProceedOrNot" value="检测到另一个版本的 Crystal Reports Viewer。如果继续此安装，则会将该版本升级到 Crystal Reports Viewer 2010。如果想要继续，请单击“下一步”。如果想要取消此安装，请单击“取消”退出安装。"/>
+</context>
+</uitext>

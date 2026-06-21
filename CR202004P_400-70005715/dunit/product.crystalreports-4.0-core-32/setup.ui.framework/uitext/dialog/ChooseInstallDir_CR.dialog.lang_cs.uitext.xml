@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="ChooseDestination" value="Zadejte cílovou složku"/>
+<string id="SpecifyDestination" value="Cílová složka je umístění, kam bude produkt nainstalován. Po kliknutí na tlačítko Procházet můžete vybrat jiné umístění."/>
+<string id="DestinationFolder" value="Cílová složka"/>
+<string id="Browse" value="Procházet"/>
+<string id="BrowseInstallDirectory" value="Zvolte umístění instalace"/>
+<string id="PWClientFolderTitle" value="Cílová složka klienta"/>
+<string id="PWServerFolderTitle" value="Cílová složka serveru"/>
+<string id="Invalid_InstallDirWindows" value="Neplatný instalační adresář. Použijte platnou absolutní cestu, která obsahuje pouze alfanumerické znaky nebo některý z těchto znaků: _ - \ . ( ). Adresář se musí nacházet na pevné jednotce a úplná cesta nesmí být delší než 150 znaků. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Neplatný instalační adresář. Použijte platnou absolutní cestu, pro kterou máte také oprávnění ke čtení, zápisu a provádění. INS00029"/>
+</context>
+</uitext>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version# #productname_language# #productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Kreira in spremeni poročila z oblikovanimi podatki (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\administrator izvorov podatkov ODBC"/>
+<string id="product.shortcutODBC.description" value="Doda, odstrani in konfigurira Open Database Connectivity (ODBC) izvore podatkov in gonilnike."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bitni administrator izvorov podatkov"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\čarovnik za nalaganje poročil"/>
+<string id="product.shortcutWizard.description" value="Čarovnik za nalaganje poročil"/>
+<string id="feature.OLE_DB_Data.name" value="Podatki OLE DB (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Podpora za standardne OLE DB ponudnike."/>
+<string id="feature.Comm_Rep.name" value="Ukaz v odložišču"/>
+<string id="feature.Comm_Rep.description" value="Zagotavlja povezljivost za ukaz v odložišču."/>
+<string id="feature.DiskFile.name" value="Destinacija datoteke na disku"/>
+<string id="feature.DiskFile.description" value="Podpora za izvoz v datoteko."/>
+<string id="feature.NTEventLog.name" value="NT zapisnik dogodka"/>
+<string id="feature.NTEventLog.description" value="Podpora za NT zapisnike dogodkov."/>
+<string id="feature.MyCube.name" value="OLAP kocka"/>
+<string id="feature.MyCube.description" value="Podpora za OLAP-kocke #product.boe64_name#."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Zagotavlja povezljivost s Progress OpenEdge."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration za Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Definicije polj"/>
+<string id="feature.FieldDefinitions.description" value="Podpora za oblikovanje poročil iz shem na podlagi tekstov."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Podpora za Lotus Domino baze podatkov. Najprej morate namestiti Lotus Notes klienta."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects Integration for JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003) format"/>
+<string id="feature.WordforWindows.description" value="Podpora za izvoz v Microsoft Word (97-2003) format (*.doc)."/>
+<string id="feature.SFORCE.name" value="Salesforce.com gonilnik"/>
+<string id="feature.SFORCE.description" value="Zagotavlja možnost povezave #productname# z vašimi CRM-podatki Salesforce.com in kreiranja naprednih poročil."/>
+<string id="feature.PDF.name" value="PDF format"/>
+<string id="feature.PDF.description" value="Podpora za izvoz v PDF format (*.pdf)."/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003) format"/>
+<string id="feature.Excel.description" value="Podpora za izvoz v Microsoft Excel 97-2003 format (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="Format vrednosti, ločenih z znakom"/>
+<string id="feature.CharacterSeparated.description" value="Podpora za izvoz v format vrednosti, ločenih z znakom (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Podpora za Sybase baze podatkov z lastnim klientom. Najprej morate namestiti Sybase klienta."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Podpora za Informix baze podatkov. Najprej morate namestiti Informix klienta."/>
+<string id="feature.DataAccess.name" value="Dostop do podatkov"/>
+<string id="feature.DataAccess.description" value="Komponente za dostop do podatkov se uporabljajo za povezavo #product.crw_name# z bazami podatkov."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Zagotavlja povezljivost z ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Namesti aplikacijo Crystal Reports Designer"/>
+<string id="feature.XML.name" value="XML in spletne storitve"/>
+<string id="feature.XML.description" value="Podpora za XML-podatke."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Podpora za ACT! baze podatkov."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Zagotavlja povezljivost z MySQL bazami podatkov."/>
+<string id="feature.COMData.name" value="COM ponudnik podatkov"/>
+<string id="feature.COMData.description" value="Podpora za podatke, ki jih razkrivajo COM objekti."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="Izvoz v Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Dostop do podatkov ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Podpora za Exchange Server podatke, kot so Exchange mape, zapisniki in adresarji."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Podpora za IBM DB2 baze podatkov. Najprej morate namestiti DB2 klienta."/>
+<string id="feature.Universe.name" value="Universe BusinessObjects"/>
+<string id="feature.Universe.description" value="Podpora za Business Objects Universe."/>
+<string id="feature.ReportDefinition.name" value="Definicija formata poročila"/>
+<string id="feature.ReportDefinition.description" value="Podpora za izvoz v definicijo formata poročila."/>
+<string id="feature.ExchangeFolders.name" value="Destinacija v Microsoft Exchange javnih mapah"/>
+<string id="feature.ExchangeFolders.description" value="Podpora za izvoz v Exchange mapo."/>
+<string id="feature.ODBC.name" value="Format ODBC izvora podatkov"/>
+<string id="feature.ODBC.description" value="Podpora za izvoz v katerikoli instalirani ODBC format."/>
+<string id="feature.DataDirectODBC.description" value="Preimenovani gonilniki DataDirect ODBC #productname#"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Preimenovani izbirni gonilniki DataDirect ODBC #productname#"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Izbirni DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="XML izvoz"/>
+<string id="feature.XMLExport.description" value="Podpora za izvoz v XML dokument."/>
+<string id="feature.Export.name" value="Podpora za izvoz"/>
+<string id="feature.Export.description" value="Za objavljanje zaključenih poročil v različnih datotečnih formatih."/>
+<string id="feature.PGEditor.name" value="Uporabniško definirani diagrami"/>
+<string id="feature.PGEditor.description" value="Aplikacija za izdelavo diagramov, ki omogoča razširjeno oblikovanje diagramov."/>
+<string id="feature.Btrieve.name" value="Gonilnik za razširjene baze podatkov (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Podpora za Btrieve podatkovne datoteke. Najprej morate namestiti Btrieve klienta."/>
+<string id="feature.LegacyXMLExport.name" value="Izvoz starejše verzije XMLja"/>
+<string id="feature.LegacyXMLExport.description" value="Podpora za izvoz v XML dokument. (Starejša verzija XMLja)"/>
+<string id="feature.LotusNotes.name" value="Lotus Notes destinacija"/>
+<string id="feature.LotusNotes.description" value="Podpora za izvoz v Lotus Notes dokument."/>
+<string id="feature.CDO.name" value="Crystal podatkovni objekti"/>
+<string id="feature.CDO.description" value="Podpora za poročanje o podatkih, shranjenih v pomnilniški matriki."/>
+<string id="feature.WebActivityLog.name" value="Spletni/IIS-zapisnik aktivnosti"/>
+<string id="feature.WebActivityLog.description" value="Podpora za zapisnike aktivnosti spletnih strežnikov. "/>
+<string id="feature.Text.name" value="Oblika teksta"/>
+<string id="feature.Text.description" value="Podpora za izvoz v tekstovne formate (*.txt)."/>
+<string id="feature.BDE.name" value="IDAPI baza podatkov DLL"/>
+<string id="feature.BDE.description" value="Podpora za dBASE in Paradox datoteke. Najprej morate namestiti Borland mehanizem za bazo podatkov."/>
+<string id="feature.CrystalReports.name" value="Format #productname#"/>
+<string id="feature.CrystalReports.description" value="Podpora za izvoz v format #productname# (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="Obogateno besedilo "/>
+<string id="feature.RichTextFormat.description" value="Podpora za izvoz v format obogatenega besedila (*.rtf)."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Podpora za Microsoft Access baze podatkov."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Podpora za Outlook podatke."/>
+<string id="feature.FileSystem.name" value="Datotečni sistem"/>
+<string id="feature.FileSystem.description" value="Podpora za sistemske podatke datoteke."/>
+<string id="feature.PSFT.name" value="PeopleSoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects Integration za PeopleSoft Enterprise."/>
+<string id="feature.JavaData.name" value="Povezljivost Java Bean"/>
+<string id="feature.JavaData.description" value="Podpora za podatke, ki jih razkrivajo Java razredi."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Zagotavlja povezljivost z bazo podatkov Teradata"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects Integration za SAP-jeve rešitve."/>
+<string id="feature.Record.name" value="Format zapisa (stolpci vrednosti)"/>
+<string id="feature.Record.description" value="Podpora za izvoz v format Record Style (*.rec). "/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Zagotavlja povezljivost z NETEZZA."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects XI Integration za Siebel."/>
+<string id="feature.Mapping.name" value="Geografske karte"/>
+<string id="feature.Mapping.description" value="Prikaže razmerja med podatki in geografskimi regijami."/>
+<string id="feature.Application.name" value="Cilj aplikacije"/>
+<string id="feature.Application.description" value="Podpora za izvoz v aplikacijo."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Podpora za dBASE baze podatkov."/>
+<string id="feature.HTML.name" value="HTML format"/>
+<string id="feature.HTML.description" value="Podpora za izvoz v HTML 3.2 in HTML 4.0(DHTML) formate (*.html)."/>
+<string id="feature.DataSet.name" value="Dataset Consumer"/>
+<string id="feature.DataSet.description" value="Podpora za objekte ISCRDataSet strežnika Report Application Server."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Podpora za HP Neoview."/>
+<string id="feature.JDBC.name" value="Gonilnik za podatke JDBC (JNDI)"/>
+<string id="feature.JDBC.description" value="Podpora za podatke JDBC (JNDI)."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Podpora za Oracle tabele. Najprej morate namestiti Oracle klienta."/>
+<string id="feature.MicrosoftMail.name" value="Microsoft Mail destinacija"/>
+<string id="feature.MicrosoftMail.description" value="Microsoft Mail destinacija"/>
+<string id="feature.UploadWizard.name" value="Čarovnik za nalaganje poročil"/>
+<string id="feature.UploadWizard.description" value="Čarovnik za nalaganje poročil."/>
+<string id="feature.UWSC.name" value="Universal Web Services Connector (UWSC)"/>
+<string id="feature.UWSC.description" value="Zagotavlja povezljivost z UWSC."/>
+<string id="feature.IntegrationOptions.name" value="Opcije integracije"/>
+<string id="feature.IntegrationOptions.description" value="Komponente opcij integracije se uporabljajo za povezavo #product.crw_name# z drugimi sistemi Enterprise."/>
+<string id="property.InstallType.description" value="Tip namestitve: Privzeta ali uporabniško definirana"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Administrativne pravice"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Prosim, uporabite uporabniški račun z administrativnimi pravicami. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64-bitni operacijski sistem"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Ta produkt morate namestiti v 64-bitnem operacijskem sistemu (OS). Prosim, preverite, ali vaš operacijski sistem ustreza tej zahtevi. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="Namestitev #product.fullproductnamenospace#"/>
+</context>
+</uitext>

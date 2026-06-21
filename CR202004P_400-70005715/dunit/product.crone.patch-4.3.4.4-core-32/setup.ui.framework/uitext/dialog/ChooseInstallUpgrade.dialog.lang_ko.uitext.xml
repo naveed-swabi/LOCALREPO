@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="PreviousVersionDetected" value="이전 #product.nameonly# 버전 검색"/>
+<string id="PreviousVersionDetectedSub" value="업그레이드 또는 병행 설치 선택"/>
+<string id="UpgradeInstallBtn" value="업그레이드 설치 수행"/>
+<string id="SideBySideInstallBtn" value="병행 설치 수행"/>
+<string id="UpgradeInstallMsg" value="현재 설치된 #product.nameonly# 버전을 이 버전으로 바꿉니다."/>
+<string id="SideBySideInstallMsg" value="현재 설치된 버전에 영향을 주지 않고 이 #product.nameonly# 버전을 함께 설치합니다."/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="잘못된 설치 모드([InstallCompatibilityMode]): 업그레이드 또는 병행 설치여야 합니다."/>
+</context>
+</uitext>

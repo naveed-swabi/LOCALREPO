@@ -1,0 +1,23 @@
+﻿Det finns två typer av transportfiler som kan användas med BusinessObjects Enterprise Integration Kit for SAP. Den ena är en ANSI-uppsättning och den andra Unicode-aktiverad. 
+
+Den transportuppsättning du måste använda beror på det BASIS-system som ditt SAP-system körs på. Dessutom består varje transport av en datafil och en tillhörande fil. Dessa visas inom hakparenteser efter transportnamnen.
+
+Om ditt SAP-system körs på ett 6.20 BASIS-system eller senare måste du använda nedanstående filer:
+
+(De här filerna är Unicode-aktiverade.)
+
+* Transport av öppen SQL-anslutning (K900085.SDD och R900085.SDD)
+* Transport av informationsuppsättning om anslutning (K900043.SDD och R900043.SDD)
+* Transport av säkerhetsdefinition på radnivå (K900051.SDD och R900051.SDD)
+* Transport av klusterdefinition (K900039.SDD och R900039.SDD)
+* Transport av autentiseringshjälpare (K900041.SDD och R900041.SDD)
+
+
+Följande filer måste användas på ett SAP BW-system:
+
+(De här filerna är Unicode-aktiverade.)
+
+* Transport av innehållsadministration (K900098.SDD och R900098.SDD)
+* Transport av egen anpassning (K900045.SDD och R900045.SDD)
+* Transport av MDX-frågeanslutning (K900014.SDD och R900014.SDD)
+* Transport av ODS-anslutning (K900042.SDD och R900042.SDD)

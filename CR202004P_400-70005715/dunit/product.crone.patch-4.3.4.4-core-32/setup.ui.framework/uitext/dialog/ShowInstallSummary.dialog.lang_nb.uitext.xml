@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Start installasjon"/>
+<string id="ShowInstallSummarySubtitle" value="Installasjonsprogrammet er klart til å installere #product.fullproductnamenospace#. Klikk på Tilbake for å gjøre endringer i installasjonsinformasjonen.\n\nKlikk på Neste for å starte installeringen."/>
+<string id="ShowInstallSummaryUnixDescription" value="Vil du at installasjonsveiviseren for #product.fullproductnamenospace# skal starte installeringen nå?"/>
+<string id="ShowInstallSummaryFooter" value="Trykk på []Ctrl-B] for å gå tilbake, []Ctrl-X] for å avslutte eller []Enter] for å installere."/>
+<string id="DiskCost" value="Diskkostnad"/>
+<string id="Drive Select" value="Du velger"/>
+<string id="Disk Costing" value="Diskforbruk"/>
+<string id="Volume" value="Volum"/>
+<string id="Disk Size" value="Diskstørrelse"/>
+<string id="Available" value="Tilgjengelig"/>
+<string id="Required" value="Nødvendig"/>
+<string id="Difference" value="Differanse"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Prøv på nytt"/>
+<string id="Cancel" value="Avbryt"/>
+<string id="ShowCacheSummaryTitle" value="Fasevis installasjon"/>
+<string id="ShowCacheSummarySubtitle" value="Start hurtigbufring"/>
+<string id="ShowCacheSummaryDescription" value="Hurtigbufring er prosessen med å kopiere programvaren til installasjonskatalogen. Under hurtigbufring finnes det ikke noen nedetid for systemet, og du kan fortsette å arbeide på systemet."/>
+<string id="Invalid_DiskSpace" value="Du har ikke nok plass til å installere produktet. Frigi diskplass, eller velg en annen plassering til installasjonen. Tilgjengelig plass: [AvailableSpace] MB. Nødvendig plass: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Under installering etter hurtigbufring installeres programvaren på systemet med noe nedetid for systemet."/>
+<string id="ShowResumetitle" value="Fasevis installering"/>
+<string id="ShowResumeSubtitle" value="Gjenoppta installasjon"/>
+<string id="ShowResumeFooter" value="Trykk på []Ctrl-B] for å gå tilbake, []Ctrl-X] for å avslutte eller []Enter] for å installere."/>
+<string id="MessageCache" value="Klikk på Neste hvis du vil starte hurtigbufringsfasen."/>
+<string id="MessageResume" value="Klikk på Neste hvis du vil starte installeringen."/>
+</context>
+</uitext>

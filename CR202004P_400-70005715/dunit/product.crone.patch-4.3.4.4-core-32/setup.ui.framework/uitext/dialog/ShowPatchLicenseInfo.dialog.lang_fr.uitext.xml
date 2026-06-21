@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="LicenseAgreement" value="Nouvelle clé de licence requise"/>
+<string id="YouMustAgree" value="Une nouvelle clé de licence est requise pour #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="Une nouvelle clé de licence est requise pour #product.fullproductname#."/>
+<string id="IAccept" value="J'ai lu la documentation et comprends le processus de demande de la nouvelle clé de licence. J'accepte de supprimer l'ancienne clé de licence et d'ajouter la nouvelle après l'installation de la mise à jour."/>
+<string id="subtitle1" value="#product.fullproductname# exige une nouvelle clé de licence."/>
+<string id="subtitle2" value="Demande de nouvelle clé de licence. Pour en savoir plus sur la demande de clé de licence, consultez le site Internet"/>
+<string id="subtitle3" value="Une fois l'installation de #product.fullproductname# terminée, connectez-vous à la Central Management Console (CMC) ; supprimez l'ancienne clé de licence et ajoutez la nouvelle. Tous les services seront désactivés jusqu'à ce que vous ajoutiez la nouvelle clé de licence."/>
+<string id="subtitle4" value="Demandez la nouvelle clé de licence ici"/>
+<string id="AcceptOrNotAccept" value="Appuyez sur &lt;ENTRÉE&gt; pour accepter de supprimer l'ancienne clé de licence et ajouter la nouvelle après l'installation de la mise à jour."/>
+<string id="Description_Patch_License" value="#product.fullproductname# requiert une nouvelle clé de licence.\n\nDemande de nouvelle clé de licence. Pour en savoir plus sur la demande de clé de licence, consultez le site Internet http://scn.sap.com/docs/DOC-70095. \n\nUne fois l'installation de #product.fullproductname# terminée, connectez-vous à la Central Management Console (CMC), supprimez l'ancienne clé de licence, puis ajoutez la nouvelle. Sans nouvelle clé de licence, les services restent désactivés."/>
+</context>
+</uitext>

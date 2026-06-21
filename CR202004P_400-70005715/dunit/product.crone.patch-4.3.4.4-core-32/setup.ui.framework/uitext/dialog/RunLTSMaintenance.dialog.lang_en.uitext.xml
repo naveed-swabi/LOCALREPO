@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Unknown maintenance mode given. Valid values are: Modify, Repair, or Remove"/>
+<string id="ChooseMaintenanceMode" value="Application Maintenance"/>
+<string id="SelectMaintenanceMode" value="This version or a newer version of #product.nameonly# is already installed on this machine.Click Next to continue repairing the existing version of the product or click Cancel to exit."/>
+<string id="Modify" value="Modify"/>
+<string id="ModifyDescription" value="Change which application features are installed. Displays the Select Features dialog box, which lets you configure individual features."/>
+<string id="Repair" value="Repair"/>
+<string id="RepairDescription" value="Reinstall missing or corrupt files, registry keys, and shortcuts. Preferences stored in the registry may be reset to default values."/>
+<string id="Remove" value="Remove"/>
+<string id="RemoveDescription" value="Uninstall #product.nameonly# from this computer."/>
+<string id="Invalid_Maintenance_Mode" value="Invalid MaintenanceMode Type ([MaintenanceMode]): It should be 'modify', 'repair' or 'remove'. INS00283"/>
+</context>
+</uitext>

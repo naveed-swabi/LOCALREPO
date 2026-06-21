@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Bekræft, at den angivne installationssti er korrekt for at sikre, at den planlagte installation kan fuldføres. \n\n For ny installation – Ny filmappe. \n For installation af rettelse – Filmappe med tidligere installation af en version af #productname#. \n\n\n Klik på OK for at fortsætte, eller klik på Afslut for at indtaste den korrekte installationssti igen. \n"/>
+<string id="ExitMessage" value="Tryk på Ctrl+X for at afslutte eller Enter for at fortsætte."/>
+<string id="WarnDialogTitle" value="DIALOGBOKSEN OPLYSNINGER"/>
+<string id="WarnDialogSubtitle" value="Oplysninger: "/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.partner.shared.cpp">
+    <file name="crdb_oraapps_res_nb.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="14848"/>
+    <file name="crdb_psenterprise_res_nb.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="369664"/>
+    <file name="crdb_pseone_res_nb.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="23552"/>
+    <file name="crdb_siebel_res_nb.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="30720"/>
+  </sourcedir>
+</assembly>

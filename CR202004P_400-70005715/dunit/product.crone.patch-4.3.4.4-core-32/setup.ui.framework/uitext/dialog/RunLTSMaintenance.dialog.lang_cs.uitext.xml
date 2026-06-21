@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Byl zadán neznámý režim údržby. Platné hodnoty: Změnit, Opravit nebo Odebrat"/>
+<string id="ChooseMaintenanceMode" value="Údržba aplikace"/>
+<string id="SelectMaintenanceMode" value="Tato nebo novější verze #product.nameonly# je na tomto počítači už nainstalována. Když klepnete na tlačítko Další, oprava existující verze produktu bude pokračovat, klepnutím na tlačítko Zrušit bude ukončena."/>
+<string id="Modify" value="Modifikovat"/>
+<string id="ModifyDescription" value="Změnit funkce aplikace k instalaci. Zobrazí dialogové okno Vybrat funkce, ve kterém lze jednotlivé funkce konfigurovat."/>
+<string id="Repair" value="Opravit"/>
+<string id="RepairDescription" value="Přeinstalovat chybějící nebo poškozené soubory, klíče registru a zástupce. Předvolby uložené v registru mohou být resetovány na výchozí hodnoty."/>
+<string id="Remove" value="Odebrat"/>
+<string id="RemoveDescription" value="Odinstalujte #product.nameonly# z tohoto počítače."/>
+<string id="Invalid_Maintenance_Mode" value="Neplatný typ MaintenanceMode ([MaintenanceMode]): má být 'změnit', 'opravit' nebo 'odebrat'. INS00283"/>
+</context>
+</uitext>

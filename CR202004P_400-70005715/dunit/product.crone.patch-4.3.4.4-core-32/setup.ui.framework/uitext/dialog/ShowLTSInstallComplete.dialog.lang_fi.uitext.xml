@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Message" value="Tuotteen #product.fullproductnamenospace# asennus onnistui."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# havaitsi virheitä asennuksen aikana."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# havaitsi virheitä asennuksen poiston aikana."/>
+<string id="UninstallMessage" value="Tuotteen #product.fullproductnamenospace# asennuksen poisto onnistui."/>
+<string id="Description" value="Päätä asennus ja käynnistä sovellus valitsemalla Valmis."/>
+<string id="CustomDescription" value="Päätä asennus valitsemalla Valmis."/>
+<string id="FailedDescription" value="Lopeta asennus valitsemalla Valmis."/>
+<string id="Description_unix" value="Siirry takaisin painamalla näppäinyhdistelmää []Ctrl-B] tai lopeta asennus painamalla []Enter]-näppäintä."/>
+<string id="FailedDescription_unix" value="Paina []D], jos haluat nähdä lisätiedot, tai []Enter], jos haluat lopettaa tämän asennuksen."/>
+<string id="CustomNextButton" value="Valmis"/>
+<string id="ViewLogButton" value="Näytä loki"/>
+</context>
+</uitext>

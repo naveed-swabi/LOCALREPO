@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Message" value="Pomyślnie zainstalowano oprogramowanie #product.fullproductnamenospace#."/>
+<string id="InstallFailedMessage" value="Produkt #product.fullproductnamenospace# napotkał błędy podczas procesu instalowania."/>
+<string id="UninstallFailedMessage" value="Produkt #product.fullproductnamenospace# napotkał błędy podczas procesu odinstalowywania."/>
+<string id="UninstallMessage" value="Pomyślnie odinstalowano produkt #product.fullproductnamenospace#."/>
+<string id="Description" value="Kliknij przycisk Zakończ, aby zakończyć tę instalację i uruchomić aplikację."/>
+<string id="CustomDescription" value="Kliknij przycisk Zakończ, aby zakończyć tę instalację."/>
+<string id="FailedDescription" value="Kliknij przycisk Zakończ, aby zakończyć instalację."/>
+<string id="Description_unix" value="Naciśnij klawisze []Ctrl-B], aby przejść wstecz, lub klawisz []Enter], aby zakończyć tę instalację."/>
+<string id="FailedDescription_unix" value="Naciśnij klawisz []D], aby uzyskać więcej szczegółowych informacji, lub naciśnij klawisz []Enter] w celu zakończenia tej instalacji."/>
+<string id="CustomNextButton" value="Zakończ"/>
+<string id="ViewLogButton" value="Wyświetl dziennik"/>
+</context>
+</uitext>

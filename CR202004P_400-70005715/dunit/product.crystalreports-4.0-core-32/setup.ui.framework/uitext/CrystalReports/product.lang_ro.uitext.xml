@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Creează şi modifică rapoarte de date formatate (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\Administrator sursă de date ODBC"/>
+<string id="product.shortcutODBC.description" value="Adaugă, elimină şi configurează surse de date şi drivere Open Database Connectivity (ODBC)."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\Administrator sursă de date 32 biţi"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Asistent de încărcare rapoarte"/>
+<string id="product.shortcutWizard.description" value="Asistent de încărcare rapoarte"/>
+<string id="feature.OLE_DB_Data.name" value="Date OLE DB (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Suport pt. furnizori OLE DB standard."/>
+<string id="feature.Comm_Rep.name" value="Comandă în repository"/>
+<string id="feature.Comm_Rep.description" value="Asigură conectivitatea la comandă în repository."/>
+<string id="feature.DiskFile.name" value="Destinaţie fişier disc"/>
+<string id="feature.DiskFile.description" value="Suport pt.export într-un fişier."/>
+<string id="feature.NTEventLog.name" value="Jurnal de evenimente NT "/>
+<string id="feature.NTEventLog.description" value="Suport pt.jurnale de evenimente NT."/>
+<string id="feature.MyCube.name" value="Cub OLAP "/>
+<string id="feature.MyCube.description" value="Suport pt.cuburi OLAP #product.boe64_name#."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Asigură conectivitatea la Progress OpenEdge."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="Integrare BusinessObjects pt.Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Definiţii de câmp"/>
+<string id="feature.FieldDefinitions.description" value="Suport pt.proiectare rapoarte din scheme bazate pe text."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Suport pt.baze de date Lotus Domino. Trebuie să instalaţi mai întâi clientul Lotus Notes."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="Integrare BusinessObjects pt.JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Format Microsoft Word (97-2003) "/>
+<string id="feature.WordforWindows.description" value="Suport pt.export în format (*.doc) Microsoft Word (97-2003)."/>
+<string id="feature.SFORCE.name" value="Driver Salesforce.com "/>
+<string id="feature.SFORCE.description" value="Oferă posibilitatea de conectare #productname# la datele CRM Salesforce.com şi de creare rapoarte avansate."/>
+<string id="feature.PDF.name" value="Format PDF "/>
+<string id="feature.PDF.description" value="Suport pt.export în format PDF (*.pdf)."/>
+<string id="feature.Excel.name" value="Format Microsoft Excel (97-2003) "/>
+<string id="feature.Excel.description" value="Suport pt.export în format Microsoft Excel 97-2003 (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="Format text separat prin caractere"/>
+<string id="feature.CharacterSeparated.description" value="Suport pt.export în format text separat prin caractere (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Suport pt.baze de date Sybase utilizând un client nativ. Trebuie să instalaţi clientul Sybase."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Suport pt.bazele de date Informix. Trebuie să instalaţi mai întâi clientul Informix."/>
+<string id="feature.DataAccess.name" value="Acces la date"/>
+<string id="feature.DataAccess.description" value="Componente de acces la date sunt utilizate pt.conectare #product.crw_name# la baze de date."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Asigură conectivitatea la ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name# "/>
+<string id="feature.crw.description" value="Instalează aplicaţia Crystal Reports Designer"/>
+<string id="feature.XML.name" value="XML şi servicii web"/>
+<string id="feature.XML.description" value="Suport pt.date XML."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Suport pt.baze de date ACT!."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Asigură conectivitatea la bazele de date MySQL."/>
+<string id="feature.COMData.name" value="Furnizor de date COM"/>
+<string id="feature.COMData.description" value="Suport pt.date furnizate de obiecte COM."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="E- mail Lotus Domino"/>
+<string id="feature.LotusNotesMail.description" value="Export la Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Acces date la ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Suport pt.date Exchange Server precum foldere, jurnale şi agende de adrese Exchange."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Suport pt.baze de date IBM DB2. Trebuie să instalaţi mai întâi clientul DB2."/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="Suport pt.Business Objects Universe."/>
+<string id="feature.ReportDefinition.name" value="Format definiţie raport"/>
+<string id="feature.ReportDefinition.description" value="Suport pt.export în format definiţie raport."/>
+<string id="feature.ExchangeFolders.name" value="Destinaţie foldere publice Microsoft Exchange"/>
+<string id="feature.ExchangeFolders.description" value="Suport pt.export în folder Exchange."/>
+<string id="feature.ODBC.name" value="Format sursă de date ODBC"/>
+<string id="feature.ODBC.description" value="Suport pt.export în orice format ODBC instalat."/>
+<string id="feature.DataDirectODBC.description" value="Drivere #productname# DataDirect ODBC cu o nouă identitate de marcă"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Drivere #productname# Optional DataDirect ODBC cu o nouă identitate de marcă"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Optional DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="Export XML "/>
+<string id="feature.XMLExport.description" value="Suport pt.export în document XML."/>
+<string id="feature.Export.name" value="Suport pt.export"/>
+<string id="feature.Export.description" value="Pentru publicarea rapoartelor terminate în diverse formate."/>
+<string id="feature.PGEditor.name" value="Trasare diagrame definită de utilizator"/>
+<string id="feature.PGEditor.description" value="Aplicaţie de trasare diagrame pt.formatare extinsă diagrame."/>
+<string id="feature.Btrieve.name" value="Driver bază de date Pervasive (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Suport pt.fişiere de date Btrieve. Trebuie să instalaţi mai întâi clientul Btrieve."/>
+<string id="feature.LegacyXMLExport.name" value=" Export XML preluat"/>
+<string id="feature.LegacyXMLExport.description" value="Suport pt.export în document XML. (XML preluat)"/>
+<string id="feature.LotusNotes.name" value="Destinaţie Lotus Notes"/>
+<string id="feature.LotusNotes.description" value="Suport pt.export în document Lotus Notes."/>
+<string id="feature.CDO.name" value="Obiecte de date Crystal"/>
+<string id="feature.CDO.description" value="Suport pt.raportare date arhivate într-o matrice de memorie."/>
+<string id="feature.WebActivityLog.name" value="Jurnal activitate Web/IIS"/>
+<string id="feature.WebActivityLog.description" value="Suport pt.jurnale de activitate server web. "/>
+<string id="feature.Text.name" value="Format de text "/>
+<string id="feature.Text.description" value="Suport pt.export în formate de text (*.txt)."/>
+<string id="feature.BDE.name" value="DLL bază de date IDAPI"/>
+<string id="feature.BDE.description" value="Suport pt.fişiere dBASE şi Paradox. Trebuie să instalaţi mai întâi motor bază de date Borland."/>
+<string id="feature.CrystalReports.name" value="Format #productname#"/>
+<string id="feature.CrystalReports.description" value="Suport pt.export în format #productname# (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="Rich Text Format "/>
+<string id="feature.RichTextFormat.description" value="Suport pt.export în Rich Text Format (*.rtf)."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Suport pt.baze de date Microsoft Access."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Suport pt.date Outlook."/>
+<string id="feature.FileSystem.name" value="Sistem de fişiere"/>
+<string id="feature.FileSystem.description" value="Suport pt.date sistem de fişiere."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="Integrare BusinessObjects pt.Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Conectivitate Java Beans"/>
+<string id="feature.JavaData.description" value="Suport pt.date expuse de clase Java."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Asigură conectivitatea la baza de date Teradata"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="Integrare BusinessObjects pt.SAP Solutions."/>
+<string id="feature.Record.name" value="Format de înregistrare (coloane de valori)"/>
+<string id="feature.Record.description" value="Suport pt.export în format de înregistrare (*.rec). "/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Asigură conectivitatea la NETEZZA."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="Integrare BusinessObjects pt.Siebel."/>
+<string id="feature.Mapping.name" value="Mapare geografică"/>
+<string id="feature.Mapping.description" value="Afişează relaţiile dintre date şi regiuni geografice. "/>
+<string id="feature.Application.name" value="Destinaţie aplicaţie"/>
+<string id="feature.Application.description" value="Suport pt.export la aplicaţie."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Suport pt.baze de date dBASE."/>
+<string id="feature.HTML.name" value="Format HTML"/>
+<string id="feature.HTML.description" value="Suport pt.export în formate (*.html) HTML 3.2 şi HTML 4.0(DHTML)."/>
+<string id="feature.DataSet.name" value="Consumator set de date"/>
+<string id="feature.DataSet.description" value="Suport pt.obiecte server de aplicaţie rapoarte ISCRDataSet."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Suport pt.HP Neoview."/>
+<string id="feature.JDBC.name" value="Driver date JDBC (JNDI) "/>
+<string id="feature.JDBC.description" value="Suport pentru date JDBC (JNDI)."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Suport pt.tabele Oracle. Trebuie să instalaţi mai întâi clientul Oracle."/>
+<string id="feature.MicrosoftMail.name" value="Destinaţie Microsoft Mail"/>
+<string id="feature.MicrosoftMail.description" value="Destinaţie Microsoft Mail"/>
+<string id="feature.UploadWizard.name" value="Asistent de încărcare rapoarte"/>
+<string id="feature.UploadWizard.description" value="Asistent de încărcare rapoarte."/>
+<string id="feature.UWSC.name" value="Conector servicii web universale (UWSC)"/>
+<string id="feature.UWSC.description" value="Asigură conectivitatea la UWSC."/>
+<string id="feature.IntegrationOptions.name" value="Opţiuni de integrare"/>
+<string id="feature.IntegrationOptions.description" value="Componente opţiuni de integrare sunt utilizate pt.a conecta #product.crw_name# la alte sisteme Enterprise."/>
+<string id="property.InstallType.description" value="Tip de instalare: implicit sau definit de utilizator"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Drepturi de administrare"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Utilizaţi un cont de utilizator care are drepturi de administrare. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="Sistem de operare pe 64 de biţi"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Produsul trebuie instalat pe un sistem de operare (SO) de 64 biţi. Asiguraţi-vă că sistemul dvs. de operare corespunde acestei cerinţe. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="Configurare #product.fullproductnamenospace#"/>
+</context>
+</uitext>

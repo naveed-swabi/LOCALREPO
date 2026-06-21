@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="progress.UpdateRepository" value="Actualizare repository"/>
+<string id="progress.SetHyperLink" value="Configurare setări sistem"/>
+</context>
+</uitext>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Title" value="Fasindelad installation"/>
+<string id="SubTitle" value="Cachelagring har slutförts"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Tryck på [Retur] för att avsluta fasindelad installation"/>
+<string id="Description" value="För att återuppta installation efter cachelagring, kör installationsfilen igen. Installation efter cachelagring medför viss stilleståndstid. Du kan genomföra denna fas av installationen när det finns tid för underhåll."/>
+<string id="FinishMessage" value="Klicka på Slutför för att avsluta den fasindelade installationen."/>
+<string id="Finish" value="Slutför"/>
+</context>
+</uitext>

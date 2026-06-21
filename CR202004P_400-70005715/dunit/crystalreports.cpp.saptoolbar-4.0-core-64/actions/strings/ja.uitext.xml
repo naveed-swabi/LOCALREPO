@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="progress.BWRegServer" value="SAP integration を設定しています"/>
+<string id="progress.BWUnregServer" value="SAP integration を設定しています"/>
+</context>
+</uitext>

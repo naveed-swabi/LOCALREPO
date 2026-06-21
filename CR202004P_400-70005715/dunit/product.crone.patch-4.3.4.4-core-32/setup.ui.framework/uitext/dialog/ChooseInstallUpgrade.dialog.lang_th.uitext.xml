@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="PreviousVersionDetected" value="ตรวจพบ #product.nameonly# เวอร์ชันก่อนหน้า"/>
+<string id="PreviousVersionDetectedSub" value="เลือกว่าจะดำเนินการอัปเกรดหรือติดตั้งร่วมกัน"/>
+<string id="UpgradeInstallBtn" value="ดำเนินการติดตั้งแบบอัปเกรด"/>
+<string id="SideBySideInstallBtn" value="ดำเนินการติดตั้งร่วมกัน"/>
+<string id="UpgradeInstallMsg" value="แทนที่เวอร์ชัน #product.nameonly# ที่ติดตั้งอยู่ในปัจจุบันด้วยเวอร์ชันนี้"/>
+<string id="SideBySideInstallMsg" value="ติดตั้ง #product.nameonly# เวอร์ชันนี้ควบคู่กับเวอร์ชันที่ติดตั้งอยู่ในปัจจุบัน"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="โหมดการติดตั้งไม่ถูกต้อง ([InstallCompatibilityMode]): ควรเป็นการอัปเกรดหรือการติดตั้งร่วมกัน"/>
+</context>
+</uitext>

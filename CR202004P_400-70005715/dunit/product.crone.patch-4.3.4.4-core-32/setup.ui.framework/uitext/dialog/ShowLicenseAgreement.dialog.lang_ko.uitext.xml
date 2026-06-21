@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="NotAcceptedEULA" value="EULA에 동의해야 하며, 끝내고 있습니다."/>
+<string id="LicenseAgreement" value="사용권 계약"/>
+<string id="YouMustAgree" value="계속하려면 사용권 계약 조건에 동의해야 합니다."/>
+<string id="IAccept" value="사용권 계약에 동의함"/>
+<string id="IDoNotAccept" value="사용권 계약에 동의 안 함"/>
+<string id="Invalid_IsAcceptEULA" value="잘못된 IsAcceptEULA([IsAcceptEULA]): 1이어야 합니다."/>
+<string id="AcceptOrNotAccept" value="동의하려면 &lt;ENTER&gt; 키를 누르고, 동의하지 않으려면 &lt;Ctrl-X&gt;를 누르십시오."/>
+</context>
+</uitext>

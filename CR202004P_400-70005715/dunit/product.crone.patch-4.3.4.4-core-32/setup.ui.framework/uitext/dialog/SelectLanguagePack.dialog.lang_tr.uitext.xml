@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Dil Paketi Seç"/>
+<string id="SelectLanguagePackSubtitle" value="Kullanıcıların ürünle etkileşim kuracağı tüm ek Dil Paketlerini seçin."/>
+<string id="SelectLanguagePackFooter" value="Vurgulamak için []Tab], []Yukarı] veya []Aşağı], durumunu değiştirmek için []Boşluk] veya []X], geri gitmek için []Ctrl-B], çıkmak için []Ctrl-X], devam etmek için []Enter] tuşlarına basın."/>
+<string id="alllang" value="Tüm Diller"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="SelectedLanguagePacks '[SelectedLanguagePacks]' özelliğinin sistem yerel ayarını içermesi gerekir."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="SelectedLanguagePacks '[SelectedLanguagePacks]' özelliğinin 'en' içermesi gerekir."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="SelectedLanguagePacks '[SelectedLanguagePacks]' özelliğinin, kullanılabilir dil paketlerinin alt kümesi olması gerekir."/>
+</context>
+</uitext>

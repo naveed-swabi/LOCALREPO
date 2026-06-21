@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Začetek namestitve"/>
+<string id="ShowInstallSummarySubtitle" value="Program za namestitev je pripravljen za namestitev #product.fullproductnamenospace#. Kliknite Nazaj za spremembo informacij o namestitvi.\n\nKliknite Naprej za začetek namestitve."/>
+<string id="ShowInstallSummaryUnixDescription" value="Ste pripravljeni, da čarovnik za namestitev #product.fullproductnamenospace# začne namestitev?"/>
+<string id="ShowInstallSummaryFooter" value="Pritisnite []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za namestitev."/>
+<string id="DiskCost" value="Prostor, potreben na disku"/>
+<string id="Drive Select" value="Izbirate"/>
+<string id="Disk Costing" value="Izračun velikosti diska"/>
+<string id="Volume" value="Nosilec"/>
+<string id="Disk Size" value="Velikost diska"/>
+<string id="Available" value="Razpoložljivo"/>
+<string id="Required" value="Zahtevano"/>
+<string id="Difference" value="Razlika"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Ponoven poskus"/>
+<string id="Cancel" value="Prekinitev"/>
+<string id="ShowCacheSummaryTitle" value="Namestitev po fazah"/>
+<string id="ShowCacheSummarySubtitle" value="Zagon predpomnjenja"/>
+<string id="ShowCacheSummaryDescription" value="Predpomnjenje je proces kopiranja programske opreme v direktorij namestitev. Med predpomnjenjem ne pride do izpada sistema in lahko nadaljujete z delom v sistemu."/>
+<string id="Invalid_DiskSpace" value="Nimate dovolj prostora za namestitev produkta. Prosim, sprostite prostor na disku ali izberite drugo lokacijo za namestitev. Razpoložljivi prostor: [AvailableSpace] MB. Zahtevani prostor: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Med namestitvijo po predpomnjenju, kjer se programska oprema namesti v sistemu, pride do izpada sistema."/>
+<string id="ShowResumetitle" value="Namestitev po fazah"/>
+<string id="ShowResumeSubtitle" value="Nadaljevanje namestitve"/>
+<string id="ShowResumeFooter" value="Pritisnite []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za namestitev."/>
+<string id="MessageCache" value="Kliknite Naprej za začetek faze predpomnjenja."/>
+<string id="MessageResume" value="Kliknite Naprej za začetek namestitve."/>
+</context>
+</uitext>

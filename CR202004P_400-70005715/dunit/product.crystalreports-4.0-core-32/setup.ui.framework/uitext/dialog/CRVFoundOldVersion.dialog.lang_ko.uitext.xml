@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="DlgTitle" value="제품 업그레이드"/>
+<string id="DlgSummary" value="이 제품의 다른 버전이 검색되었습니다."/>
+<string id="ProceedOrNot" value="Crystal Reports Viewer의 다른 버전이 검색되었습니다. 설치를 계속하면 이 버전이 Crystal Reports Viewer 2010으로 업그레이드됩니다. 계속하려면 다음을 클릭합니다. 설치를 취소하려면 취소를 클릭하여 설치를 종료합니다."/>
+</context>
+</uitext>

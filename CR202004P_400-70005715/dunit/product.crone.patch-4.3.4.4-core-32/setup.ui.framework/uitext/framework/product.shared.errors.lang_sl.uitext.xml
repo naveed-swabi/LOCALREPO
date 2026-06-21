@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="sl"/>
+  <context>
+    <string id="INS00270" value="Med namestitvijo %2 je prišlo do napake v MSI %1. (INS00270)"/>
+    <string id="INS00271" value="Med odstranitvijo %2 je prišlo do napake v MSI %1. (INS00271)"/>
+    <string id="INS00272" value="Med namestitvijo %3 je prišlo do napake (%1) v datoteki %2. (INS00272)"/>
+    <string id="INS00273" value="Med odstranitvijo %3 je prišlo do napake (%1) v datoteki %2. (INS00273)"/>
+  </context>
+</uitext>

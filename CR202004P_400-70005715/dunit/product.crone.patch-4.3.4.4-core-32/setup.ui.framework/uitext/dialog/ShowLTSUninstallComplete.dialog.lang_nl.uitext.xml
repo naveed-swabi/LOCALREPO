@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# is geïnstalleerd."/>
+<string id="UninstallFailedMessage" value="Verwijdering #product.fullproductnamenospace# is mislukt."/>
+<string id="Description" value="Klik op Voltooien om deze deïnstallatie te voltooien."/>
+<string id="FailedDescription" value="Klik op Voltooien om Installatie ongedaan maken af te sluiten."/>
+<string id="ShowUninstall_Footer" value="Druk op []Ctrl-B] om terug te gaan of op []Enter] om deze verwijdering af te sluiten."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Druk op []Enter] om deze verwijdering af te sluiten."/>
+<string id="CustomNextButton" value="Voltooien"/>
+<string id="ViewLogButton" value="Log weergeven"/>
+</context>
+</uitext>

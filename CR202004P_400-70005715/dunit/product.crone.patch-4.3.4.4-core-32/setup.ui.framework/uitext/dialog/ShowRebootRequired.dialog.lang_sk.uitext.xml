@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="RebootWarning" value="Niektoré súbory boli pri inštalácii zamknuté, aby ich inštalátor neaktualizoval. Reštart systému môžete vykonať neskôr, ale dôrazne sa odporúča reštartovať pred začatím používania produktu."/>
+<string id="RebootQuestion" value="Chcete počítač reštartovať teraz?"/>
+<string id="RestartLater" value="Reštartovať neskôr"/>
+<string id="RestartNow" value="Reštartovať teraz"/>
+</context>
+</uitext>

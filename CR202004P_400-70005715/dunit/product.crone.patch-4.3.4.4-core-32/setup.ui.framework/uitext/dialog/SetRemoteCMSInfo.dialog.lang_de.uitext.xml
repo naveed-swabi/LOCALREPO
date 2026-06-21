@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informationen zur vorhandenen CMS-Implementierung"/>
+<string id="SpecifyRemoteCMS" value="Geben Sie die CMS- und Administratoranmeldedaten Ihrer vorhandenen CMS-Implementierung ein:"/>
+<string id="RemoteCMSConnectionInfo" value="Verbindungsinformationen für vorhandenen CMS"/>
+<string id="RemoteCMSName" value="CMS-Name"/>
+<string id="RemoteCMSPort" value="CMS-Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS-Administrator-Anmeldedaten"/>
+<string id="RemoteCMSUser" value="Benutzer"/>
+<string id="RemoteCMSPassword" value="Kennwort"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Der Remote-CMS ist entweder nicht erreichbar, oder die Anmeldedaten sind falsch. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Der Remote-CMS ist entweder nicht erreichbar, oder die Anmeldedaten sind falsch. INS00013\nMöchten Sie die Anmeldedaten erneut eingeben?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Nachgestellter umgekehrter Schrägstrich (z.B. xxx\) und folgende Zeichen sind in einem CMS-Kennwort nicht zulässig:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Nachgestellter umgekehrter Schrägstrich (z.B. xxx\) und folgende Zeichen sind in einem CMS-Kennwort nicht zulässig:  &quot;  '  INS00099"/>
+</context>
+</uitext>

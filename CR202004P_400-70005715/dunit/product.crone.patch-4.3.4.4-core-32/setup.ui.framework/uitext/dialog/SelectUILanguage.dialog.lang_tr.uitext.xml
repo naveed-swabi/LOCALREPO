@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="SelectedInvalidLocale" value="Desteklenmeyen bir yerel ayar girdiniz."/>
+<string id="SetupLanguageTitle" value="Kurulum Dilini Seç"/>
+<string id="SetupLanguageSubtitle" value="Kurulum dilini seçin."/>
+<string id="SetupLanguageUnixSubtitle" value="Kurulum dilini seçin."/>
+<string id="CreateLogFile" value="Yükleme sırasında günlük dosyası oluştur"/>
+<string id="Invalid_SetupLanguage" value="Geçersiz kurulum dili ([SetupUILanguage]): '[$available.ui.langs]' seçeneklerinden biri olması gerekir. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="IsEnableSetupLog ([IsEnableSetupLog]) geçersiz: 0 veya 1 olabilir."/>
+<string id="SelectUILanguageFooter" value="Seçmek için []Tab], []Yukarı] veya []Aşağı], çıkmak için []Ctrl-X], devam etmek için []Enter] tuşlarına basın."/>
+</context>
+</uitext>

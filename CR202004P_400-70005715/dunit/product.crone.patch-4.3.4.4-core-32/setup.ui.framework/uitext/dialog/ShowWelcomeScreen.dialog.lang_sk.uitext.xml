@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Message" value="Víta vás Sprievodca inštaláciou produktu #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Uvítacia obrazovka"/>
+<string id="ShowWelcomeScreenSubtitle" value="Víta vás Sprievodca inštaláciou produktu #product.fullproductnamenospace#."/>
+<string id="Description" value="Pred spustením tohto inštalačného programu sa dôrazne odporúča ukončiť všetky programy systému Windows\n\nKliknutím na tlačidlo Zrušiť ukončite inštalačný program a potom zavrite všetky spustené programy. Ak chcete pokračovať v inštalácii, kliknite na tlačidlo Ďalej.\n\nUPOZORNENIE: Tento program je chránený zákonom o autorských právach a medzinárodnými zmluvami.\n\n\nNeoprávnené kopírovanie alebo rozširovanie tohto programu alebo ktorejkoľvek jeho časti sa môže postihovať maximálnymi sadzbami podľa občianskeho a trestného práva."/>
+<string id="Description_unix" value="UPOZORNENIE: Tento program je chránený autorskými právami a medzinárodnými zmluvami.\n\n\nNeoprávnené kopírovanie alebo rozširovanie tohto programu alebo ktorejkoľvek jeho časti sa môže postihovať maximálnymi sadzbami podľa občianskeho a trestného práva.\n\n\nPOZNÁMKA: Ďalšie informácie o podporovaných platformách nájdete na lokalite http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete pokračovať, stlačte kláves []Enter]."/>
+<string id="PamHyperLinkWelcome" value="Ďalšie informácie o podporovaných platformách nájdete na"/>
+</context>
+</uitext>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="DlgTitle" value="Привязки типов файлов "/>
+<string id="DlgSummary" value="Выполняется установка Crystal Reports Viewer по умолчанию. "/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer в настоящий момент не является средством просмотра отчетов Crystal по умолчанию. Сделать программу средством просмотра по умолчанию?"/>
+<string id="Yes" value="Да "/>
+<string id="No" value="Нет "/>
+</context>
+</uitext>

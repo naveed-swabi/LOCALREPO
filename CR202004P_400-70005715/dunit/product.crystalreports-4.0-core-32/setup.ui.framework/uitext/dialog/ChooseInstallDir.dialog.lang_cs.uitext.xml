@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Konfigurovat cílovou složku"/>
+<string id="ChooseInstallDirSubtitle" value="Zadejte kompletní cílovou cestu umístění, kam se produkt nainstaluje."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Zadejte kompletní cílovou cestu umístění, kam se produkt nainstaluje."/>
+<string id="DestinationFolderGroupBox" value="Údaje o cílové složce"/>
+<string id="DestinationFolder" value="Cílová složka:"/>
+<string id="Browse" value="Procházet"/>
+<string id="BrowseInstallDirectory" value="Zvolit instalační umístění"/>
+<string id="DirGenericError" value="Cílová složka je neplatná. Vyberte jinou cílovou složku. INS00029"/>
+<string id="DirNetworkError" value="Cílová složka nemůže být síťové umístění. Vyberte jiné umístění."/>
+<string id="DirEmptyError" value=" Musíte vybrat cílovou složku. INS00029"/>
+<string id="DirAbsolutePathError" value="Cílová složka musí mít celou cestu. INS00029"/>
+<string id="DirInvalidCharWinError" value="V cílové složce se smí používat jen čísla, písmena a následující znaky: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Cesta cílové složky je příliš dlouhá. Použijte cestu, která je kratší než 150 znaků. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Cílová složka obsahuje nekompatibilní produkt. Vyberte jiné umístění. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Neplatný instalační adresář. Použijte platnou absolutní cestu obsahující pouze alfanumerické znaky a kterékoli z následujících znaků: _ - \ . ( ). Adresář se musí nacházet na pevné jednotce a úplná cesta nesmí být delší než 150 znaků. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Neplatný instalační adresář. Použijte platnou absolutní cestu, pro kterou máte oprávnění ke čtení, zápisu a provádění. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Instalační adresář nemůže obsahovat mezery."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="V instalačním adresáři nejsou povoleny následující znaky:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Stisknutím klávesy []Tab] automaticky vyplníte prvky adresáře, stisknutím kláves []Ctrl-B] přejděte zpět, stisknutím kláves []Ctrl-X] program ukončíte nebo stisknutím klávesy []Enter] budete pokračovat."/>
+</context>
+</uitext>

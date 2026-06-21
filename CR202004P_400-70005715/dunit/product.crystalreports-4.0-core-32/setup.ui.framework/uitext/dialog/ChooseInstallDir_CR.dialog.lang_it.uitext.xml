@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="ChooseDestination" value="Specificare la cartella di destinazione"/>
+<string id="SpecifyDestination" value="La cartella di destinazione è quella in cui verrà installato il prodotto. Fare clic su Sfoglia per selezionare una posizione diversa."/>
+<string id="DestinationFolder" value="Cartella di destinazione"/>
+<string id="Browse" value="Sfoglia"/>
+<string id="BrowseInstallDirectory" value="Scegli posizione di installazione"/>
+<string id="PWClientFolderTitle" value="Cartella di destinazione client"/>
+<string id="PWServerFolderTitle" value="Cartella di destinazione server"/>
+<string id="Invalid_InstallDirWindows" value="Directory di installazione non valida. Utilizzare un percorso assoluto valido che contenga solo caratteri alfanumerici e nessuno dei caratteri seguenti: _ - \ . ( ). La directory deve risiedere su un'unità fissa e il percorso completo non deve superare i 150 caratteri. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Directory di installazione non valida. Utilizzare un percorso assoluto valido per il quale si disponga delle autorizzazioni di lettura, scrittura ed esecuzione. INS00029"/>
+</context>
+</uitext>

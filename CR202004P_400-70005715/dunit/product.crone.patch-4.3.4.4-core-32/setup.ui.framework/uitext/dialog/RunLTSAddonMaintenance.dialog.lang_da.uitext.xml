@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Ukendt vedligeholdelsestilstand angivet. Gyldige værdier er: Rediger, Reparer, Fjern"/>
+<string id="ChooseMaintenanceMode" value="Programvedligeholdelse"/>
+<string id="SelectMaintenanceMode" value="Vælg den vedligeholdelseshandling, der skal udføres."/>
+<string id="Modify" value="Rediger"/>
+<string id="ModifyDescription" value="Vælg, hvilke programfunktioner der skal installeres. Viser dialogboksen Vælg funktioner, hvor du kan konfigurere de enkelte funktioner."/>
+<string id="Repair" value="Reparer"/>
+<string id="RepairDescription" value="Geninstaller manglende eller ødelagte filer. Præferencer, der er gemt i registreringsdatabasen, kan blive nulstillet til standardværdierne."/>
+<string id="Remove" value="Fjern"/>
+<string id="RemoveDescription" value="Afinstaller #product.nameonly# fra denne computer."/>
+<string id="Invalid_Maintenance_Mode" value="Ugyldig MaintenanceMode-type ([MaintenanceMode]): Typen skal være &quot;rediger&quot;, &quot;reparer&quot; eller &quot;fjern&quot;. INS00283"/>
+</context>
+</uitext>

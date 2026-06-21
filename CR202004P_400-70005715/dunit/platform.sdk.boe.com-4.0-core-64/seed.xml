@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.com-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="9644211">
+    <requiredDeploymentUnit ref="platform.sdk.boe.com.core-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="C9ABFF4A-9FD0-4401-B9F7-D534A1DB112D"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

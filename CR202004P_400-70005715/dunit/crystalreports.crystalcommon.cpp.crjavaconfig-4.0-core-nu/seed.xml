@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.crystalcommon.cpp.crjavaconfig-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="5785">
+    <requiredDeploymentUnit ref="crystalreports.crystalcommon.cpp.crjavaconfig.javadep-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.services.cms.cpp.cms.props-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.keycode.props-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="RemoveUserConfigFile">
+      <arg name="DirName" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/java"/>
+      <arg name="FileName" value="CRConfig.xml"/>
+    </action>
+  </uninstall>
+  <install>
+    <actionSequence ref="ConfigureDUBase">
+      <action id="BOBJTextReplace">
+        <arg name="File" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\java\CRConfig.xml"/>
+        <arg name="SearchWord" value="%COMMONVERDIR%"/>
+        <arg name="ReplaceWord" value="[INSTALLDIR]\SAP BusinessObjects Enterprise XI 4.0\"/>
+      </action>
+      <action id="BOBJTextReplace">
+        <arg name="File" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\java\CRConfig.xml"/>
+        <arg name="SearchWord" value="${JAVA_HOME_32}"/>
+        <arg name="ReplaceWord" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win32_x86\"/>
+      </action>
+      <action id="BOBJTextReplace">
+        <arg name="File" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\java\CRConfig.xml"/>
+        <arg name="SearchWord" value="${JAVA_HOME_64}"/>
+        <arg name="ReplaceWord" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\sapjvm\"/>
+      </action>
+    </actionSequence>
+    <action id="CopyUserConfigFile">
+      <arg name="SrcFileName" value="CRConfig.xml.1"/>
+      <arg name="DestDirName" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/java"/>
+      <arg name="DestFileName" value="CRConfig.xml"/>
+    </action>
+  </install>
+</duseed>

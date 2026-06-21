@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="SelectFeaturesTitle" value="Functies selecteren"/>
+<string id="SelectFeaturesSubtitle" value="Selecteer de functies die u wilt installeren."/>
+<string id="SelectFeaturesFooter" value="Druk op []Tab], []Pijl omhoog] of []Pijl omlaag] om te markeren, []Spatie] om uit te vouwen, []X] om status in of uit te schakelen, []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om door te gaan."/>
+<string id="DiskCost" value="Schijfruimte"/>
+<string id="Drive Select" value="U selecteert"/>
+<string id="Disk Costing" value="Berekening van schijfruimte"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Schijfgrootte"/>
+<string id="Available" value="Beschikbaar"/>
+<string id="Required" value="Vereist"/>
+<string id="Difference" value="Verschil"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Opnieuw"/>
+<string id="Cancel" value="Annuleren"/>
+<string id="Invalid_DiskSpace" value="U hebt niet voldoende ruimte om het product te installeren. Maak schijfruimte vrij of selecteer een andere installatielocatie. Vereiste ruimte: [RequiredSpace] bytes."/>
+</context>
+</uitext>

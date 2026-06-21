@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="LicenseAgreement" value="Requisito de clave de licencia nueva"/>
+<string id="YouMustAgree" value="Una clave de licencia nueva es obligatoria para #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="Una clave de licencia nueva es obligatoria para #product.fullproductname#."/>
+<string id="IAccept" value="He leído la documentación, entiendo el proceso para solicitar la nueva clave de licencia y acepto eliminar la clave de licencia antigua y añadir la nueva clave de licencia tras la instalación de la actualización."/>
+<string id="subtitle1" value="#product.fullproductname# requiere una clave de licencia nueva."/>
+<string id="subtitle2" value="Solicite una clave de licencia nueva. Para obtener más información sobre cómo solicitar la clave de licencia, visite"/>
+<string id="subtitle3" value="Una vez completada la instalación de #product.fullproductname#, inicie sesión en la Consola de administración central (CMC); elimine la clave de licencia antigua y añada la nueva. Hasta que elimine la clave de licencia, todos los servicios permanecerán deshabilitados."/>
+<string id="subtitle4" value="Solicite aquí la clave de licencia nueva"/>
+<string id="AcceptOrNotAccept" value="Pulse &lt;ENTER&gt; para aceptar la eliminación de la clave de licencia antigua y el añadido de la nueva clave de licencia tras las instalación de la actualización."/>
+<string id="Description_Patch_License" value="#product.fullproductname# requiere una clave de licencia nueva.\n\nSolicite una clave de licencia nueva. Para obtener más información sobre cómo solicitar la clave de licencia, visite http://scn.sap.com/docs/DOC-70095. \n\nUna vez completada la instalación de #product.fullproductname#, inicie sesión en la Consola de administración central (CMC); elimine la clave de licencia antigua y añada la nueva. Todos los servicios permanecerán desactivados hasta que añada la clave de licencia nueva."/>
+</context>
+</uitext>

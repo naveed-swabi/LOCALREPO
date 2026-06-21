@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="LicenseAgreement" value="新授權金鑰需求"/>
+<string id="YouMustAgree" value="#product.fullproductname# 需要新授權金鑰。"/>
+<string id="SelectLicenseChangeSubtitle" value="#product.fullproductname# 需要新授權金鑰。"/>
+<string id="IAccept" value="我已閱讀並瞭解請求新授權金鑰的程序，並同意刪除舊有授權金鑰以及在更新安裝後新增新授權金鑰。"/>
+<string id="subtitle1" value="#product.fullproductname# 需要新授權金鑰。"/>
+<string id="subtitle2" value="請求新授權金鑰。如需有關如何請求新授權金鑰的詳細資訊，請造訪："/>
+<string id="subtitle3" value="在 #product.fullproductname# 安裝完成後，登入中央管理主控台 (CMC); 刪除舊有授權金鑰並新增新授權金鑰。在您新增新授權金鑰以前，將會停用所有服務。"/>
+<string id="subtitle4" value="在此處要求新授權金鑰"/>
+<string id="AcceptOrNotAccept" value="按一下 &lt;ENTER&gt; 同意刪除舊有授權金鑰並在安裝更新後新增新授權金鑰。"/>
+<string id="Description_Patch_License" value="#product.fullproductname# 需新授權金鑰。\n\n請求新授權金鑰。如需有關如何請求新授權金鑰的詳細資訊，請造訪：http://scn.sap.com/docs/DOC-70095。\n\n在完成 #product.fullproductname# 安裝後，登入中央管理主控台 (CMC); 刪除舊授權金鑰並增加新授權金鑰。在您新增新授權金鑰前，所有服務將停用。"/>
+</context>
+</uitext>

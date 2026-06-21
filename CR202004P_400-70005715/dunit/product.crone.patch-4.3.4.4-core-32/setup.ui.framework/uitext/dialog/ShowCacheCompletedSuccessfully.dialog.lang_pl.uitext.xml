@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Title" value="Instalacja fazowa"/>
+<string id="SubTitle" value="Zakończono buforowanie"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Naciśnij klawisz [Enter], aby zakończyć instalację fazową."/>
+<string id="Description" value="Aby wznowić instalację po buforowaniu, ponownie uruchom plik instalacyjny. Podczas instalacji po buforowaniu występuje przestój systemu. Tę fazę instalacji można wykonać, gdy będzie czas na konserwację."/>
+<string id="FinishMessage" value="Kliknij przycisk Zakończ, aby zakończyć instalację fazową."/>
+<string id="Finish" value="Zakończ"/>
+</context>
+</uitext>

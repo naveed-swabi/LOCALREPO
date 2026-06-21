@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="Title" value="階段性安裝"/>
+<string id="SubTitle" value="已完成快取"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="按 [Enter] 以結束階段性安裝"/>
+<string id="Description" value="若要在快取後繼續安裝，請再次執行設定檔。在快取後的安裝期間會遭遇系統停機。您可在維護時間可用時執行此階段的安裝。"/>
+<string id="FinishMessage" value="按一下 [完成] 以結束階段性安裝。"/>
+<string id="Finish" value="完成"/>
+</context>
+</uitext>

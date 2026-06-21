@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Title" value="Výber režimu inštalácie"/>
+<string id="SubTitle" value="Vyberte režim inštalácie"/>
+<string id="Standard_InstallationName" value="Štandardná inštalácia"/>
+<string id="Standard_InstallationText" value="Inštalácia prebieha v jednej fáze"/>
+<string id="PhaseWise_InstallationName" value="Viacfázová inštalácia"/>
+<string id="PhaseWise_InstallationText" value="Inštalácia sa uskutoční v dvoch fázach – uloženie do vyrovnávacej pamäte a inštalácia po uložení do vyrovnávacej pamäte. Počas ukladania do vyrovnávacej pamäte nedochádza k odstávke systému a môžete pokračovať v práci so systémom. Počas inštalácie po uložení do vyrovnávacej pamäte sa softvér inštaluje do systému s určitou odstávkou systému."/>
+<string id="CachingCompletedSubTitle" value="Ukladanie do vyrovnávacej pamäte sa dokončilo"/>
+<string id="Resume_InstallationSubTitle" value="Pokračuje v inštalácii po uložení do vyrovnávacej pamäte. Inštalácia po uložení do vyrovnávacej pamäte je proces skutočnej inštalácie, pri ktorom dochádza k odstaveniu systému."/>
+<string id="ShowWayOfInstallFooter" value="Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete vykonať inštaláciu, stlačte kláves []Enter]."/>
+</context>
+</uitext>

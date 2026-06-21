@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Bol zadaný neznámy režim údržby. Platné hodnoty sú: Upraviť, Opraviť alebo Odstrániť"/>
+<string id="ChooseMaintenanceMode" value="Údržba aplikácie"/>
+<string id="SelectMaintenanceMode" value="Vyberte operáciu údržby, ktorá sa má vykonať."/>
+<string id="Modify" value="Upraviť"/>
+<string id="ModifyDescription" value="Zmení, ktoré funkcie aplikácie sa majú nainštalovať. Zobrazí sa dialógové okno Vybrať funkcie, pomocou ktorého môžete konfigurovať jednotlivé funkcie."/>
+<string id="Repair" value="Opraviť"/>
+<string id="RepairDescription" value="Preinštalujte chýbajúce alebo poškodené súbory, Preferencie uložené v databáze Registry sa môžu obnoviť na predvolené hodnoty."/>
+<string id="Remove" value="Odstrániť"/>
+<string id="RemoveDescription" value="Odinštaluje produkt #product.nameonly# z tohto počítača."/>
+<string id="Invalid_Maintenance_Mode" value="Neplatný typ MaintenanceMode ([MaintenanceMode]): Má byť modify, repair alebo remove. INS00283"/>
+</context>
+</uitext>

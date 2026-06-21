@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Title" value="Web 应用程序部署"/>
+<string id="Subtitle" value="稍后部署 Web 内容"/>
+<string id="DeploylaterDescription" value="找不到默认 Tomcat Java Web 应用程序服务器。是要现在还是稍后部署 Web 应用程序？"/>
+<string id="TxtDeployLater" value="稍后部署 Web 应用程序。"/>
+<string id="TxtDeployNow" value="立即部署 Web 应用程序。"/>
+<string id="Footer" value="按 [Tab]、[上箭头] 或 [下箭头] 进行选择，按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或按 [Enter] 继续。"/>
+</context>
+</uitext>

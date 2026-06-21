@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.charthelp-4.0-zh_tw-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="723578">
+    <requiredDeploymentUnit ref="crystalreports.cpp.charthelp-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="C639C4A7-078B-45CD-A824-0D197F54F815"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

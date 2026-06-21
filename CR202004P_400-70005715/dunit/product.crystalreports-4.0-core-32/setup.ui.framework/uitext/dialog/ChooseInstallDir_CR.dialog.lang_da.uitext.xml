@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="ChooseDestination" value="Angiv destinationsmappen"/>
+<string id="SpecifyDestination" value="Destinationsmappen er der, hvor produktet installeres. Klik på Gennemse for at vælge en anden placering."/>
+<string id="DestinationFolder" value="Destinationsmappe"/>
+<string id="Browse" value="Gennemse"/>
+<string id="BrowseInstallDirectory" value="Vælg en installationsplacering"/>
+<string id="PWClientFolderTitle" value="Destinationsmappe for klient"/>
+<string id="PWServerFolderTitle" value="Serverdestinationsmappe"/>
+<string id="Invalid_InstallDirWindows" value="Ugyldig installationsmappe. Brug en gyldig absolut mappe, der kun indeholder alfanumeriske tegn eller følgende: _ - \ . ( ). Mappen skal befinde sig på et fast drev, og den fulde sti må ikke være længere end 150 tegn. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Ugyldig installationsmappe. Brug en gyldig absolut sti, som du har skrive-, læse- og udførelsesrettigheder til. INS00029"/>
+</context>
+</uitext>

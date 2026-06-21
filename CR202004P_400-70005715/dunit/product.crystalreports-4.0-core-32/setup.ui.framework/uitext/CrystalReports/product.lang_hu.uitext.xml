@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Formázott adatjelentések (.RPT) létrehozására és módosítására szolgál"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC-adatforrás adminisztrátora"/>
+<string id="product.shortcutODBC.description" value="Nyílt adatbázis-kapcsolatú (ODBC) adatforrások és illesztőprogramok hozzáadására, eltávolítására és konfigurálására szolgál."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32 bites adatforrás adminisztrátora"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Jelentés feltöltése varázsló"/>
+<string id="product.shortcutWizard.description" value="Jelentés feltöltése varázsló"/>
+<string id="feature.OLE_DB_Data.name" value="OLE-adatbázisadatok (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Szabványos OLE adatbázis-szolgáltatók támogatása."/>
+<string id="feature.Comm_Rep.name" value="Parancs a tárházban"/>
+<string id="feature.Comm_Rep.description" value="Kapcsolódást biztosít a parancshoz a tárházban."/>
+<string id="feature.DiskFile.name" value="Exportálás fájlba"/>
+<string id="feature.DiskFile.description" value="Fájlba való exportálás támogatása."/>
+<string id="feature.NTEventLog.name" value="NT–eseménynapló"/>
+<string id="feature.NTEventLog.description" value="NT–eseménynaplók támogatása."/>
+<string id="feature.MyCube.name" value="OLAP-kocka"/>
+<string id="feature.MyCube.description" value="#product.boe64_name# OLAP-kockák támogatása."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Kapcsolatot biztosít a Progress OpenEdge alkalmazással."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects XI integráció az Oracle E-Business Enterprise Suite programcsomaggal."/>
+<string id="feature.FieldDefinitions.name" value="Meződefiníciók"/>
+<string id="feature.FieldDefinitions.description" value="Jelentéstervezés támogatása szövegalapú sémákból."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Lotus Domino adatbázisok támogatása. Előbb telepítse a Lotus Notes klienst."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects integráció a JD Edwards EnterpriseOne programmal."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003) formátum"/>
+<string id="feature.WordforWindows.description" value="Microsoft Word (97-2003) formátumba (*.doc) való exportálás támogatása."/>
+<string id="feature.SFORCE.name" value="Salesforce.com illesztőprogram"/>
+<string id="feature.SFORCE.description" value="Segítségével a Salesforce.com CRM-adataihoz kapcsolhatja a(z) #productname# programot, és speciális jelentéseket készíthet."/>
+<string id="feature.PDF.name" value="PDF formátum"/>
+<string id="feature.PDF.description" value="PDF formátumba (*.pdf) való exportálás támogatása."/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003) formátum"/>
+<string id="feature.Excel.description" value="Microsoft Excel 97-2003 formátumba (*.xls) való exportálás támogatása."/>
+<string id="feature.CharacterSeparated.name" value="Karakterrel tagolt formátum"/>
+<string id="feature.CharacterSeparated.description" value="Karakterrel tagolt formátumba (‧*.csv) való exportálás támogatása"/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Sybase-adatbázisok támogatása natív kliens segítségével. Előbb telepítse a Sybase klienst."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java-futtatókörnyezet"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Informix adatbázisok támogatása. Előbb telepítse az Informix klienst."/>
+<string id="feature.DataAccess.name" value="Adatelérés"/>
+<string id="feature.DataAccess.description" value="Az adatelérési komponensek segítségével a(z) #product.crw_name# adatbázisokhoz kapcsolható."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Kapcsolat biztosítása az ODBC RDO-hoz"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="A Crystal Reports tervezőalkalmazását telepíti"/>
+<string id="feature.XML.name" value="XML és webszolgáltatások"/>
+<string id="feature.XML.description" value="XML-adatok támogatása."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="ACT!–adatbázisok támogatása."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="MySQL–adatbázisokhoz biztosít kapcsolatot."/>
+<string id="feature.COMData.name" value="COM adatszolgáltató"/>
+<string id="feature.COMData.description" value="A COM objektumok által nyújtott adatok támogatása."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="Exportálás Lotus Domino alkalmazásba"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Adatelérés - ADO.NET"/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Az Exchange Server adatainak támogatása, például az Exchange-mappák, naplófájlok és címjegyzékek támogatása "/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="IBM DB2 adatbázisok támogatása. Előbb telepítse a DB2 klienst."/>
+<string id="feature.Universe.name" value="BusinessObjects univerzum"/>
+<string id="feature.Universe.description" value="Business Objects univerzum támogatása."/>
+<string id="feature.ReportDefinition.name" value="Jelentésdefiníció formátum"/>
+<string id="feature.ReportDefinition.description" value="Jelentésdefiníció formátumba való exportálás támogatása."/>
+<string id="feature.ExchangeFolders.name" value="Microsoft Exchange nyilvános mappák célként"/>
+<string id="feature.ExchangeFolders.description" value="Exchange-mappába való exportálás támogatása."/>
+<string id="feature.ODBC.name" value="ODBC–adatforrás formátum"/>
+<string id="feature.ODBC.description" value="Bármilyen telepített ODBC-formátumba való exportálás támogatása."/>
+<string id="feature.DataDirectODBC.description" value="Újramárkázott #productname# DataDirect ODBC illesztőprogramok"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Újramárkázott #productname#, opcionális DataDirect ODBC illesztőprogramok"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Opcionális DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="XML-exportálás"/>
+<string id="feature.XMLExport.description" value="XML–dokumentumba való exportálás támogatása."/>
+<string id="feature.Export.name" value="Exportálás támogatása"/>
+<string id="feature.Export.description" value="A kész jelentések közzétételére szolgál többféle fájlformátumban."/>
+<string id="feature.PGEditor.name" value="Egyéni diagramkészítés"/>
+<string id="feature.PGEditor.description" value="A diagramok speciális formázására alkalmas grafikus alkalmazás."/>
+<string id="feature.Btrieve.name" value="Általános adatbázis-illesztőprogram (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Btrieve-adatfájlok támogatása. Előbb telepítse a Btrieve klienst."/>
+<string id="feature.LegacyXMLExport.name" value="Örökölt XML–exportálás"/>
+<string id="feature.LegacyXMLExport.description" value="XML–dokumentumba való exportálás támogatása. (Örökölt XML)"/>
+<string id="feature.LotusNotes.name" value="Lotus Notes cél"/>
+<string id="feature.LotusNotes.description" value="Lotus Notes dokumentumba való exportálás támogatása."/>
+<string id="feature.CDO.name" value="Crystal adatobjektumok"/>
+<string id="feature.CDO.description" value="Memóriatömbben tárolt adatok alapján készült jelentések támogatása"/>
+<string id="feature.WebActivityLog.name" value="Web-/IIS-tevékenységnapló"/>
+<string id="feature.WebActivityLog.description" value="Webszerver-tevékenységnaplók támogatása. "/>
+<string id="feature.Text.name" value="Szöveges formátum"/>
+<string id="feature.Text.description" value="Szöveges (*.txt) formátumba való exportálás támogatása"/>
+<string id="feature.BDE.name" value="IDAPI adatbázis–DLL"/>
+<string id="feature.BDE.description" value="dBASE és Paradox fájlok támogatása. Előbb telepítse a Borland adatbázismotort."/>
+<string id="feature.CrystalReports.name" value="#productname# formátum"/>
+<string id="feature.CrystalReports.description" value="#productname# (*.rpt) formátumba való exportálás támogatása."/>
+<string id="feature.RichTextFormat.name" value="Rich Text formátum "/>
+<string id="feature.RichTextFormat.description" value="Rich Text (*.rtf) formátumba való exportálás támogatása"/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="A Microsoft Access adatbázisok támogatása."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Outlook-adatok támogatása."/>
+<string id="feature.FileSystem.name" value="Fájlrendszer"/>
+<string id="feature.FileSystem.description" value="Fájlrendszer adatainak támogatása."/>
+<string id="feature.PSFT.name" value="PeopleSoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects integráció a Peoplesoft Enterprise programmal."/>
+<string id="feature.JavaData.name" value="Java Beans kapcsolatok"/>
+<string id="feature.JavaData.description" value="A Java-osztályok által nyújtott adatok támogatása."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Kapcsolatot biztosít a Teradata adatbázishoz"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects integráció az SAP megoldásokkal."/>
+<string id="feature.Record.name" value="Rekordformátum (értékoszlopok)"/>
+<string id="feature.Record.description" value="Rekord jellegű formátumba (*.rec) való exportálás támogatása. "/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="NETEZZA–adatbázisokhoz biztosít kapcsolatot."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects integráció a Siebel programmal."/>
+<string id="feature.Mapping.name" value="Földrajzi hozzárendelés"/>
+<string id="feature.Mapping.description" value="Az adatok és a földrajzi régiók közötti kapcsolatot jeleníti meg."/>
+<string id="feature.Application.name" value="Alkalmazáscél"/>
+<string id="feature.Application.description" value="Alkalmazásba való exportálás támogatása."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="dBASE–adatbázisok támogatása."/>
+<string id="feature.HTML.name" value="HTML-formátum"/>
+<string id="feature.HTML.description" value="HTML 3.2 és HTML 4.0 (DHTML) formátumba (*.html) való exportálás támogatása."/>
+<string id="feature.DataSet.name" value="Adathalmaz-felhasználó"/>
+<string id="feature.DataSet.description" value="Report Application Server ISCRDataSet objektumok támogatása"/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="HP Neoview támogatása."/>
+<string id="feature.JDBC.name" value="JDBC (JNDI) adatillesztő program"/>
+<string id="feature.JDBC.description" value="JDBC (JNDI) adatok támogatása."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Oracle-táblák támogatása. Előbb telepítse az Oracle klienst."/>
+<string id="feature.MicrosoftMail.name" value="Microsoft Mail cél"/>
+<string id="feature.MicrosoftMail.description" value="Microsoft Mail cél"/>
+<string id="feature.UploadWizard.name" value="Jelentés feltöltése varázsló"/>
+<string id="feature.UploadWizard.description" value="Jelentés feltöltése varázsló"/>
+<string id="feature.UWSC.name" value="Universal Web Services Connector (UWSC)"/>
+<string id="feature.UWSC.description" value="Kapcsolódást biztosít az UWSC csatlakozóhoz."/>
+<string id="feature.IntegrationOptions.name" value="Integrációs beállítások"/>
+<string id="feature.IntegrationOptions.description" value="Az integrációs beállítások összetevőivel a(z) #product.crw_name# más vállalati rendszerekhez kapcsolható."/>
+<string id="property.InstallType.description" value="Telepítés típusa: alapértelmezett vagy egyéni"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Adminisztrátori jogosultságok"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Használjon adminisztrátori jogosultsággal rendelkező felhasználói fiókot. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64 bites operációs rendszer"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="A szoftvert 64 bites operációs rendszerre kell telepíteni. Ellenőrizze, hogy az operációs rendszer megfelel-e ennek a követelménynek. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# telepítő"/>
+</context>
+</uitext>

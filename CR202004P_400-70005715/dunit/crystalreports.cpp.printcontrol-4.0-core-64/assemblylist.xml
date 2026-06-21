@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="PrintControl.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="811008"/>
+    <file name="csprintdlg.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="2777712"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/tp.shared.pvlocale">
+    <file name="pvlocale-1-0.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="4546160"/>
+  </sourcedir>
+</assembly>

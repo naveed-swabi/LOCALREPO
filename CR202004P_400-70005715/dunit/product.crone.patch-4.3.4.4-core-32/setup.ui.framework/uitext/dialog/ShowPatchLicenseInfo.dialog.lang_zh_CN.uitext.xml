@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="LicenseAgreement" value="新许可密钥需求"/>
+<string id="YouMustAgree" value="#product.fullproductname# 需要新的许可密钥。"/>
+<string id="SelectLicenseChangeSubtitle" value="#product.fullproductname# 需要新的许可密钥。"/>
+<string id="IAccept" value="我已经阅读了文档并了解了申请新许可密钥的流程，并且同意在安装更新后删除旧许可密钥并添加新许可密钥。"/>
+<string id="subtitle1" value="#product.fullproductname# 需要新的许可密钥。"/>
+<string id="subtitle2" value="请求新许可密钥。有关如何请求许可密钥的更多信息，请访问"/>
+<string id="subtitle3" value="在 #product.fullproductname# 安装完成后，登录中央管理控制台（CMC）；删除旧许可密钥并添加新的许可密钥。在添加新许可密钥之前，所有服务都处于禁用状态。"/>
+<string id="subtitle4" value="在此处请求新的许可密钥"/>
+<string id="AcceptOrNotAccept" value="按 &lt;ENTER&gt; 以同意在安装更新之后删除旧许可密钥并添加新许可密钥。"/>
+<string id="Description_Patch_License" value="#product.fullproductname# 需要新许可密钥。\n\n请求新许可密钥。有关如何请求许可密钥的更多信息，请访问 http://scn.sap.com/docs/DOC-70095。\n\n在 #product.fullproductname# 安装完成后，请登录中央管理控制台（CMC）；删除旧许可密钥并添加新许可密钥。在添加新许可密钥之前，所有服务都将被禁用。"/>
+</context>
+</uitext>

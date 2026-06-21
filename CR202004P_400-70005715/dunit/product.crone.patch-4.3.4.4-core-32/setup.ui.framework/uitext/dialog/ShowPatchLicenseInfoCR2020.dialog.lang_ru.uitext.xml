@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Требование нового ключа лицензии"/>
+<string id="YouMustAgree" value="Для #product.fullproductnamenospace#update требуется новый ключ лицензии."/>
+<string id="IAccept" value="Я прочитал(-а) документацию и понимаю процесс запроса нового ключа лицензии. Я соглашаюсь добавить новый ключ лицензии после установки обновления."/>
+<string id="subtitle1" value="Если приложение SAP Crystal Reports куплено как часть SAP Business Intelligence Platform, перейдите по ссылке ниже и узнайте, как запросить новый ключ лицензии."/>
+<string id="subtitle2" value="Если приложение SAP Crystal Reports куплено отдельно, вы можете купить ключ лицензии на апгрейд в SAP store."/>
+<string id="subtitle3" value="Новый ключ лицензии необходимо указать в диспетчере лицензий при запуске приложения после установки обновления."/>
+</context>
+</uitext>

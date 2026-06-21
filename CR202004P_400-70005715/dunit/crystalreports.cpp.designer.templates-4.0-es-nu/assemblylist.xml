@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/src/crystalreports.cpp/export/content/Templates/es">
+    <file name="Block_Blue_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="141824"/>
+    <file name="Corporate - Page Sections Only_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="107520"/>
+    <file name="Corporate_Blue_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="128512"/>
+    <file name="Corporate_Green_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="128512"/>
+    <file name="DoubleSidedPageHeadersFooters_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="174592"/>
+    <file name="ExecutiveTitlePage_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="172544"/>
+    <file name="Form_Maroon_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="115200"/>
+    <file name="Gray_Scale_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="129024"/>
+    <file name="High_Contrast_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="177664"/>
+    <file name="Index_Contrast_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="121344"/>
+    <file name="TableGrid_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="53248"/>
+    <file name="Wave_Blue_ES.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/es" size="163840"/>
+  </sourcedir>
+</assembly>

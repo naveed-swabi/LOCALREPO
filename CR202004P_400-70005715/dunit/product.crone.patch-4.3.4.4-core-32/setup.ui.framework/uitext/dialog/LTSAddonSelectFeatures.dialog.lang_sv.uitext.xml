@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="SelectFeaturesTitle" value="Välj funktioner"/>
+<string id="SelectFeaturesSubtitle" value="Välj de funktioner du ska installera."/>
+<string id="SelectFeaturesFooter" value="Trycka på []Tabb], []Uppåtpil] eller []Nedåtpil] för att markera, []Blanksteg] för att expandera, []X] för att växla läge, []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avlsuta eller []Retur] för att fortsätta."/>
+<string id="DiskCost" value="Nödvändigt diskutrymme"/>
+<string id="Drive Select" value="Du väljer"/>
+<string id="Disk Costing" value="Nödvändigt diskutrymme"/>
+<string id="Volume" value="Volym"/>
+<string id="Disk Size" value="Diskstorlek"/>
+<string id="Available" value="Tillgängliga"/>
+<string id="Required" value="Obligatorisk"/>
+<string id="Difference" value="Differens"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Försök igen"/>
+<string id="Cancel" value="Avbryt"/>
+<string id="Invalid_DiskSpace" value="Det finns inte tillräckligt med utrymme för att installera produkten. Frigör diskutrymme eller välj en annan installationsplats. Nödvändigt utrymme: [RequiredSpace] bytes."/>
+</context>
+</uitext>

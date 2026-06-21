@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/odbc">
+    <file name="mysqlpt.cod" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="5388"/>
+    <file name="mysqlpt.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="25529"/>
+    <file name="mysql8pt.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="29739"/>
+  </sourcedir>
+</assembly>

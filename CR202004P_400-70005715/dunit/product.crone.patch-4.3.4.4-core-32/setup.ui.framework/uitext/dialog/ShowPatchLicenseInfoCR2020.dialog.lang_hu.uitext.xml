@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Új licenckulcsra vonatkozó követelmény"/>
+<string id="YouMustAgree" value="Új licenckulcs szükséges a(z) #product.fullproductnamenospace# frissítéséhez."/>
+<string id="IAccept" value="Elolvastam a dokumentációt, és megértettem az új licenckulcs kérelmezésének folyamatát. Hozzájárulok az új licenckulcs hozzáadásához a frissítés telepítés után."/>
+<string id="subtitle1" value="Az SAP Business Intelligence platform részeként vásárolt SAP Crystal Reports esetében nyissa meg az alábbi hivatkozást, ahol megismerheti az új licenckulcs kérelmezésének menetét."/>
+<string id="subtitle2" value="Külön vásárolt SAP Crystal Reports esetében keresse fel az SAP Store webhelyét, és vásároljon frissítési licenckulcsot."/>
+<string id="subtitle3" value="Az új licenckulcsot meg kell adnia a Licenckezelőben, amikor a frissítési telepítés után elindítja az alkalmazást."/>
+</context>
+</uitext>

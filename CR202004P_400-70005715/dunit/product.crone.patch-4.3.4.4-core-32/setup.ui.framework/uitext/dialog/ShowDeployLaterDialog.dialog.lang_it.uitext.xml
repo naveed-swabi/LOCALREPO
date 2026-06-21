@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Title" value="Distribuzione applicazione Web"/>
+<string id="Subtitle" value="Distribuisci il contenuto Web più tardi"/>
+<string id="DeploylaterDescription" value="È stato trovato il server di applicazioni Web Java Tomcat predefinito. Distribuire le applicazioni Web ora o più tardi?"/>
+<string id="TxtDeployLater" value="Distribuisci le applicazioni Web più tardi."/>
+<string id="TxtDeployNow" value="Distribuisci le applicazioni Web ora."/>
+<string id="Footer" value="Premere []Tab], []Su] o []Giù] per selezionare, []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per  continuare."/>
+</context>
+</uitext>

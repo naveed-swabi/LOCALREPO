@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Crea y modifica informes de datos con formato (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\Administrador de origen de datos ODBC"/>
+<string id="product.shortcutODBC.description" value="Agrega, elimina y configura los controladores y los orígenes de datos de la Conectividad abierta de base de datos (ODBC)."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\Administrador de origen de datos de 32 bits"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Asistente de carga de informes"/>
+<string id="product.shortcutWizard.description" value="Asistente de carga de informes"/>
+<string id="feature.OLE_DB_Data.name" value="Datos de OLE DB (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Compatibilidad para proveedores de bases de datos OLE estándar."/>
+<string id="feature.Comm_Rep.name" value="Comando en repositorio"/>
+<string id="feature.Comm_Rep.description" value="Proporciona conectividad a Comando en repositorio."/>
+<string id="feature.DiskFile.name" value="Destino de archivo de disco"/>
+<string id="feature.DiskFile.description" value="Capacidad de exportación a un archivo."/>
+<string id="feature.NTEventLog.name" value="Registro de eventos NT"/>
+<string id="feature.NTEventLog.description" value="Compatibilidad con registros de eventos NT."/>
+<string id="feature.MyCube.name" value="Cubo OLAP"/>
+<string id="feature.MyCube.description" value="Soporte técnico para los cubos OLAP de #product.boe64_name#."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Proporciona conectividad a Progress OpenEdge."/>
+<string id="feature.EBS.name" value="EBS de Oracle"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration para Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Definiciones de campo"/>
+<string id="feature.FieldDefinitions.description" value="Compatibilidad para diseñar informes a partir de esquemas basados en texto."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Compatibilidad con bases de datos Lotus Domino. Primero debe instalar el cliente Lotus Notes."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects Integration para JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Formato Microsoft Word (97-2003)"/>
+<string id="feature.WordforWindows.description" value="Compatibilidad con la exportación a formato Microsoft Word (97-2003) (*.doc)."/>
+<string id="feature.SFORCE.name" value="Controlador de Salesforce.com"/>
+<string id="feature.SFORCE.description" value="Proporciona la capacidad de conectar #productname# a los datos CRM de Salesforce.com y elaborar informes avanzados."/>
+<string id="feature.PDF.name" value="Formato PDF"/>
+<string id="feature.PDF.description" value="Compatibilidad con la exportación a formato PDF (*.pdf)."/>
+<string id="feature.Excel.name" value="Formato Microsoft Excel (97-2003)"/>
+<string id="feature.Excel.description" value="Compatibilidad con la exportación a formato Microsoft Excel 97-2003 (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="Formato separado por caracteres"/>
+<string id="feature.CharacterSeparated.description" value="Capacidad de exportación a formato de valores separados por caracteres (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Compatibilidad con bases de datos Sybase que utilizan un cliente nativo. Primero debe instalar el cliente Sybase."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Compatibilidad con bases de datos Informix. Primero debe instalar el cliente Informix."/>
+<string id="feature.DataAccess.name" value="Acceso a los datos"/>
+<string id="feature.DataAccess.description" value="Los componentes de Acceso a datos se usan para conectar #product.crw_name# a las bases de datos."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Proporciona conectividad a ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Instala la aplicación Crystal Reports Designer"/>
+<string id="feature.XML.name" value="Servicios XML y Web"/>
+<string id="feature.XML.description" value="Compatibilidad con datos XML."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Compatibilidad con bases de datos ACT!."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Proporciona conectividad a bases de datos de MySQL."/>
+<string id="feature.COMData.name" value="Proveedor de datos COM"/>
+<string id="feature.COMData.description" value="Compatibilidad con datos expuestos por objetos COM."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="Exportar a Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Acceso de datos a ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Compatibilidad con datos de Exchange Server tales como carpetas, registros y libretas de direcciones de Exchange."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Compatibilidad con bases de datos IBM DB2. Primero debe instalar el cliente DB2."/>
+<string id="feature.Universe.name" value="Universo de BusinessObjects"/>
+<string id="feature.Universe.description" value="Compatibilidad con universos de Business Objects."/>
+<string id="feature.ReportDefinition.name" value="Formato de definición de informes"/>
+<string id="feature.ReportDefinition.description" value="Capacidad de exportación a formato de definición de informes."/>
+<string id="feature.ExchangeFolders.name" value="Destino de carpetas públicas de Microsoft Exchange"/>
+<string id="feature.ExchangeFolders.description" value="Capacidad de exportación a una carpeta de Exchange."/>
+<string id="feature.ODBC.name" value="Formato de origen de datos ODBC"/>
+<string id="feature.ODBC.description" value="Capacidad de exportación a cualquiera de los formatos ODBC instalados."/>
+<string id="feature.DataDirectODBC.description" value="Controladores de ODBC de #productname# DataDirect renombrados"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Controladores de ODBC de #productname# DataDirect opcional renombrados"/>
+<string id="feature.OptionalDataDirectODBC.name" value="ODBC de DataDirect opcional"/>
+<string id="feature.XMLExport.name" value="Exportación a XML"/>
+<string id="feature.XMLExport.description" value="Capacidad de exportación a un documento XML."/>
+<string id="feature.Export.name" value="Capacidad de exportación"/>
+<string id="feature.Export.description" value="Para publicar informes completos en una variedad de formatos de archivo."/>
+<string id="feature.PGEditor.name" value="Creación de gráficos personalizados"/>
+<string id="feature.PGEditor.description" value="Aplicación que permite dar formato a gráficos de manera extensiva."/>
+<string id="feature.Btrieve.name" value="Controlador de base de datos Pervasive (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Compatibilidad con archivos de datos Btrieve. Primero debe instalar el cliente Btrieve."/>
+<string id="feature.LegacyXMLExport.name" value="Exportación a XML heredado"/>
+<string id="feature.LegacyXMLExport.description" value="Capacidad de exportación a un documento XML. (XML heredado)"/>
+<string id="feature.LotusNotes.name" value="Destino de Lotus Notes"/>
+<string id="feature.LotusNotes.description" value="Capacidad de exportación a un documento de Lotus Notes."/>
+<string id="feature.CDO.name" value="Objetos de datos de Crystal"/>
+<string id="feature.CDO.description" value="Compatibilidad para informar de los datos almacenados en una matriz de memoria."/>
+<string id="feature.WebActivityLog.name" value="Registro de actividad Web/IIS"/>
+<string id="feature.WebActivityLog.description" value="Compatibilidad con registros de actividad de servidores Web."/>
+<string id="feature.Text.name" value="Formato de texto"/>
+<string id="feature.Text.description" value="Capacidad de exportación a formatos de texto (*.txt)."/>
+<string id="feature.BDE.name" value="Archivo DLL de la base de datos IDAPI"/>
+<string id="feature.BDE.description" value="Compatibilidad con archivos dBASE y Paradox. Primero debe instalar el motor de base de datos Borland."/>
+<string id="feature.CrystalReports.name" value="Formato de #productname#"/>
+<string id="feature.CrystalReports.description" value="Capacidad de exportación al formato de #productname# (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="Formato de texto enriquecido"/>
+<string id="feature.RichTextFormat.description" value="Capacidad de exportación a formato RTF (*.rtf)"/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Compatibilidad con bases de datos Microsoft Access."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Compatibilidad con datos Outlook."/>
+<string id="feature.FileSystem.name" value="Sistema de archivos"/>
+<string id="feature.FileSystem.description" value="Compatibilidad con datos de sistema de archivos."/>
+<string id="feature.PSFT.name" value=" PeopleSoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects Integration para Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Conectividad de Java Beans"/>
+<string id="feature.JavaData.description" value="Compatibilidad con datos expuestos por clases Java."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Proporciona conectividad a la base de datos de teradatos"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects Integration para Soluciones SAP."/>
+<string id="feature.Record.name" value="Formato de registro (columnas de valores)"/>
+<string id="feature.Record.description" value="Capacidad de exportación a formato de estilo de registro (*.rec)."/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Proporciona conectividad a NETEZZA."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects Integration para Siebel."/>
+<string id="feature.Mapping.name" value="Correspondencias geográficas"/>
+<string id="feature.Mapping.description" value="Muestra relaciones entre datos y regiones geográficas."/>
+<string id="feature.Application.name" value="Destino de la aplicación"/>
+<string id="feature.Application.description" value="Capacidad de exportación a una aplicación."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Compatibilidad con bases de datos dBASE."/>
+<string id="feature.HTML.name" value="Formato HTML"/>
+<string id="feature.HTML.description" value="Capacidad de exportación a formatos HTML 3.2 y HTML 4.0 (DHTML) (*.html)."/>
+<string id="feature.DataSet.name" value="Consumidor de conjunto de datos"/>
+<string id="feature.DataSet.description" value="Compatibilidad para objetos ISCRDataSet del servidor de aplicaciones de informe."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Compatibilidad con HP Neoview."/>
+<string id="feature.JDBC.name" value="Controlador de datos JDBC (JNDI)"/>
+<string id="feature.JDBC.description" value="Compatibilidad para datos JDBC (JNDI)."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Compatibilidad con tablas Oracle. Primero debe instalar el cliente Oracle."/>
+<string id="feature.MicrosoftMail.name" value="Destino de Microsoft Mail"/>
+<string id="feature.MicrosoftMail.description" value="Destino de Microsoft Mail"/>
+<string id="feature.UploadWizard.name" value="Asistente de carga de informes"/>
+<string id="feature.UploadWizard.description" value="Asistente de carga de informes."/>
+<string id="feature.UWSC.name" value="Conector de servicios Web universales (UWSC)"/>
+<string id="feature.UWSC.description" value="Proporciona conectividad a UWSC."/>
+<string id="feature.IntegrationOptions.name" value="Opciones de integración"/>
+<string id="feature.IntegrationOptions.description" value="Los componentes de las opciones de integración se usan para conectar #product.crw_name# con otros sistemas empresariales."/>
+<string id="property.InstallType.description" value="Tipo de instalación: predeterminada o personalizada"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Derechos administrativos"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Use una cuenta de usuario que disponga de privilegios administrativos. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="Sistema operativo de 64 bits"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Este producto se debe instalar en un sistema operativo (SO) de 64 bits. Compruebe que su SO cumple este requisito. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="Configuración de #product.fullproductnamenospace#"/>
+</context>
+</uitext>

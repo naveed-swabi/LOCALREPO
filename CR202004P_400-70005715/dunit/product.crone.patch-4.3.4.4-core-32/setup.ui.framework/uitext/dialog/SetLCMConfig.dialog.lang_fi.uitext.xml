@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="SetLCMConfigTitle" value="Määritä Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Anna portti ja käyttäjänimi Subversion-versionhallintajärjestelmää varten."/>
+<string id="repoInfoGroup" value="Subversion-tietovaraston tiedot"/>
+<string id="repoName" value="Tietovaraston nimi:"/>
+<string id="repoPort" value="Tietovaraston portti:"/>
+<string id="repoPortInline" value="Subversionin portti:"/>
+<string id="repoUserInfoGroup" value="Subversion-tietovaraston käyttäjätiedot"/>
+<string id="repoUserName" value="Tietovaraston käyttätili:"/>
+<string id="repoUserPass" value="Tietovarastotilin salasana:"/>
+<string id="repoUserPassInline" value="Tietovaraston käyttäjätilin salasana:"/>
+<string id="repoUserPass2" value="Vahvista salasana:"/>
+<string id="Mismatch_LCMPassword" value="Salasanat eivät täsmää. Tarkista ja yritä uudelleen. INS00267"/>
+<string id="Invalid_LCMPassword" value="Salasana on liian yksinkertainen. Salasanan on oltava vähintään kuusi merkkiä pitkä, ja sen täytyy sisältää ainakin kaksi seuraavista merkkiluokista: isot ja pienet kirjaimet. INS00127"/>
+</context>
+</uitext>

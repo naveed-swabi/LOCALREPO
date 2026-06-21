@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="PreviousVersionDetected" value="Previous Version of #product.nameonly# Detected"/>
+<string id="PreviousVersionDetectedSub" value="Select whether to perform an Upgrade or a Side-by-Side installation"/>
+<string id="UpgradeInstallBtn" value="Perform Upgrade Installation"/>
+<string id="SideBySideInstallBtn" value="Perform Side-by-Side Installation"/>
+<string id="UpgradeInstallMsg" value="Replace the currently installed version of #product.nameonly# with this version"/>
+<string id="SideBySideInstallMsg" value="Installs this version of #product.nameonly# alongside the currently installed version"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Invalid Install Mode ([InstallCompatibilityMode]): it should be upgrade or sidebyside"/>
+</context>
+</uitext>

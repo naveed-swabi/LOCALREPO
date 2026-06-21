@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Vytvorí a zmení formátované zostavy údajov (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\Administrátor zdroja údajov ODBC"/>
+<string id="product.shortcutODBC.description" value="Pridáva, odstraňuje a konfiguruje zdroje údajov a ovládače Open Database Connectivity (ODBC)."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\Administrátor 32-bitového zdroja údajov"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Sprievodca odovzdaním zostavy"/>
+<string id="product.shortcutWizard.description" value="Sprievodca odovzdaním zostavy"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB Údaje (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Podpora štandardných poskytovateľov OLE DB."/>
+<string id="feature.Comm_Rep.name" value="Príkaz v odkladacom priestore"/>
+<string id="feature.Comm_Rep.description" value="Poskytuje pripojenie k príkazu v odkladacom priestore."/>
+<string id="feature.DiskFile.name" value="Cieľ súboru na disku"/>
+<string id="feature.DiskFile.description" value="Podpora exportu do súboru."/>
+<string id="feature.NTEventLog.name" value="Denník udalostí NT"/>
+<string id="feature.NTEventLog.description" value="Podpora denníkov udalostí NT."/>
+<string id="feature.MyCube.name" value="Kocka OLAP"/>
+<string id="feature.MyCube.description" value="Podpora pre kocky OLAP produktu #product.boe64_name#."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Poskytuje pripojenie k Progress OpenEdge."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration pre Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Definície polí"/>
+<string id="feature.FieldDefinitions.description" value="Podpora navrhovania zostáv zo schém založených na texte."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Podpora databáz Lotus Domino. Najskôr musíte nainštalovať klienta Lotus Notes."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects Integration pre JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Formát Microsoft Word (97-2003)"/>
+<string id="feature.WordforWindows.description" value="Podpora exportu do formátu Microsoft Word (97-2003) (*.doc)."/>
+<string id="feature.SFORCE.name" value="Ovládač Salesforce.com"/>
+<string id="feature.SFORCE.description" value="Poskytuje možnosť pripojenia aplikácie #productname# k údajom CRM na lokalite Salesforce.com a vytváranie rozšírených zostáv."/>
+<string id="feature.PDF.name" value="Formát PDF"/>
+<string id="feature.PDF.description" value="Podpora exportu do formátu PDF (*.pdf)."/>
+<string id="feature.Excel.name" value="Formát Microsoft Excel (97-2003)"/>
+<string id="feature.Excel.description" value="Podpora exportu do formátu Microsoft Excel 97-2003 (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="Formát textu oddeleného znakmi"/>
+<string id="feature.CharacterSeparated.description" value="Podpora exportu do formátu textu oddeleného znakmi (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Podpora databáz Sybase pomocou natívneho klienta. Najskôr musíte nainštalovať klienta Sybase."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Podpora databáz Informix. Najskôr musíte nainštalovať klienta Informix."/>
+<string id="feature.DataAccess.name" value="Prístup k údajom"/>
+<string id="feature.DataAccess.description" value="Súčasti prístupu k údajom sa používajú na pripojenie aplikácie #product.crw_name# k databázam."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Poskytuje pripojenie k ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Nainštaluje aplikáciu Crystal Reports Designer"/>
+<string id="feature.XML.name" value="XML a webové služby"/>
+<string id="feature.XML.description" value="Podpora údajov XML."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Podpora databáz ACT!."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Poskytuje pripojenie k databázam MySQL."/>
+<string id="feature.COMData.name" value="Poskytovateľ údajov COM"/>
+<string id="feature.COMData.description" value="Podpora údajov zverejnených objektami COM."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="Export do Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Prístup k údajom ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Podpora údajov servera Exchange, napríklad priečinky Exchange, denníky a adresáre."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Podpora databáz IBM DB2. Najskôr musíte nainštalovať klienta DB2."/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="Podpora Business Objects Universe."/>
+<string id="feature.ReportDefinition.name" value="Formát definície zostavy"/>
+<string id="feature.ReportDefinition.description" value="Podpora exportu do formátu definície zostavy."/>
+<string id="feature.ExchangeFolders.name" value="Miesto určenia verejných priečinkov servera Microsoft Exchange"/>
+<string id="feature.ExchangeFolders.description" value="Podpora exportu do priečinka Exchange."/>
+<string id="feature.ODBC.name" value="Formát zdroja údajov ODBC"/>
+<string id="feature.ODBC.description" value="Podpora exportu do ľubovoľného z inštalovaných formátov ODBC."/>
+<string id="feature.DataDirectODBC.description" value="Ovládače DataDirect ODBC pre premenovaný produkt #productname#"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Voliteľné ovládače DataDirect ODBC pre premenovaný produkt #productname#"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Voliteľné ovládače DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="Export XML"/>
+<string id="feature.XMLExport.description" value="Podpora exportu do dokumentu XML."/>
+<string id="feature.Export.name" value="Podpora exportu"/>
+<string id="feature.Export.description" value="Pre publikovanie dokončených zostáv v rôznych formátoch súborov."/>
+<string id="feature.PGEditor.name" value="Vlastné grafy"/>
+<string id="feature.PGEditor.description" value="Aplikácia vytvárania grafov pre rozšírené formátovanie grafov."/>
+<string id="feature.Btrieve.name" value="Ovládač databázy Pervasive (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Podpora údajových súborov Btrieve. Najskôr musíte nainštalovať klienta Btrieve."/>
+<string id="feature.LegacyXMLExport.name" value="Export staršej verzie súboru XML"/>
+<string id="feature.LegacyXMLExport.description" value="Podpora exportu do dokumentu XML (staršia verzia XML)"/>
+<string id="feature.LotusNotes.name" value="Miesto určenia programu Lotus Notes"/>
+<string id="feature.LotusNotes.description" value="Podpora exportu do dokumentu Lotus Notes."/>
+<string id="feature.CDO.name" value="Údajové objekty Crystal"/>
+<string id="feature.CDO.description" value="Podpora vytvárania zostáv údajov uložených v pamäťovom poli."/>
+<string id="feature.WebActivityLog.name" value="Denník webových aktivít/aktivít IIS"/>
+<string id="feature.WebActivityLog.description" value="Podpora denníkov aktivít webového servera. "/>
+<string id="feature.Text.name" value="Formát textu"/>
+<string id="feature.Text.description" value="Podpora exportu do textových formátov (*.txt)."/>
+<string id="feature.BDE.name" value="DLL databázy IDAPI"/>
+<string id="feature.BDE.description" value="Podpora súborov dBASE a Paradox. Najskôr musíte nainštalovať databázový nástroj Borland."/>
+<string id="feature.CrystalReports.name" value="Formát produktu #productname#"/>
+<string id="feature.CrystalReports.description" value="Podpora exportu do formátu #productname# (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="Formát RTF (Rich Text Format) "/>
+<string id="feature.RichTextFormat.description" value="Podpora exportu do formátu RTF (*.rtf)."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Podpora databáz Microsoft Access."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Podpora údajov programu Outlook."/>
+<string id="feature.FileSystem.name" value="Systém súborov"/>
+<string id="feature.FileSystem.description" value="Podpora údajov systému súborov."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="Integrácia BusinessObjects pre Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Pripojenie Java Beans"/>
+<string id="feature.JavaData.description" value="Podpora údajov zverejnených triedami Java."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Poskytuje pripojenie k databáze Teradata"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="Integrácia BusinessObjects pre riešenia SAP."/>
+<string id="feature.Record.name" value="Formát záznamu (stĺpce s hodnotami)"/>
+<string id="feature.Record.description" value="Podpora exportu do formátu Record Style (*.rec). "/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Poskytuje pripojenie k systému NETEZZA."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="Integrácia BusinessObjects pre Siebel."/>
+<string id="feature.Mapping.name" value="Geografické mapovanie"/>
+<string id="feature.Mapping.description" value="Zobrazuje vzťahy medzi údajmi a geografickými oblasťami."/>
+<string id="feature.Application.name" value="Cieľ aplikácie"/>
+<string id="feature.Application.description" value="Podpora exportu do aplikácie"/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Podpora databáz dBASE."/>
+<string id="feature.HTML.name" value="Formát HTML"/>
+<string id="feature.HTML.description" value="Podpora exportu do formátov HTML 3.2 a HTML 4.0(DHTML) (*.html)."/>
+<string id="feature.DataSet.name" value="Príjemca množiny údajov"/>
+<string id="feature.DataSet.description" value="Podpora objektov ISCRDataSet aplikačného servera zostáv."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Podpora HP Neoview."/>
+<string id="feature.JDBC.name" value="Ovládač údajov JDBC (JNDI) "/>
+<string id="feature.JDBC.description" value="Podpora pre údaje JDBC (JNDI)."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Podpora tabuliek Oracle. Najskôr musíte nainštalovať klienta Oracle."/>
+<string id="feature.MicrosoftMail.name" value="Miesto určenia programu Microsoft Mail"/>
+<string id="feature.MicrosoftMail.description" value="Miesto určenia programu Microsoft Mail"/>
+<string id="feature.UploadWizard.name" value="Sprievodca odovzdaním zostavy"/>
+<string id="feature.UploadWizard.description" value="Sprievodca odovzdaním zostavy."/>
+<string id="feature.UWSC.name" value="Universal Web Services Connector (UWSC)"/>
+<string id="feature.UWSC.description" value="Poskytuje pripojenie k UWSC."/>
+<string id="feature.IntegrationOptions.name" value="Možnosti integrácie"/>
+<string id="feature.IntegrationOptions.description" value="Súčasti možností integrácie sa používajú na pripojenie produktu #product.crw_name# k iným podnikovým systémom."/>
+<string id="property.InstallType.description" value="Typ inštalácie: predvolená alebo vlastná"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Oprávnenia správcu"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Použite používateľské konto, ktoré má oprávnenia správcu. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64-bitový operačný systém"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Tento produkt je potrebné nainštalovať v 64-bitovom operačnom systéme (OS). Skontrolujte, či váš OS spĺňa túto požiadavku. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="Inštalácia produktu #product.fullproductnamenospace#"/>
+</context>
+</uitext>

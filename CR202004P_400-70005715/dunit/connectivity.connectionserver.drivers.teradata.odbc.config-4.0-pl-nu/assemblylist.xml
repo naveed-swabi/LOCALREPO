@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/odbc">
+    <file name="teradatapl.cod" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="5626"/>
+    <file name="teradatapl.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="14490"/>
+    <file name="teradatapl.stg" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="500"/>
+  </sourcedir>
+</assembly>

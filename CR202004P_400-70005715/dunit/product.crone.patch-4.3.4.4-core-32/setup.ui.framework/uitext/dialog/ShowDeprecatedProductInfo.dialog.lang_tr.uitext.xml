@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Kullanımdan Kaldırılan Ürünler ve Özellikler ile İlgili Duyuru"/>
+<string id="YouMustAgree" value="#product.fullproductnamenospace# ile ilişkili birkaç ürün ve özellik kullanımdan kaldırıldı."/>
+<string id="IAccept" value="Dokümantasyonu okudum ve kullanımdan kaldırılan BI Platformu ürün ve özelliklerinin etkisini anladım. Güncellemeden sonra, belirlenen işlemleri gerçekleştireceğimi kabul ediyorum."/>
+<string id="subtitle1" value="SAP BusinessObjects Explorer ve SAP BusinessObjects Dashboards gibi uygulamalar BI 4.3 ile kullanımdan kaldırılmıştır. Şu sayfayı ziyaret ederek, kullanımdan kaldırma işlemi hakkında daha fazla bilgi edinebilir ve kullanımdan kaldırılan ürünlerin tam listesine göz atabilirsiniz:"/>
+<string id="subtitle2" value="Etkiyi gözden geçirmeniz ve blogda belirtildiği üzere, belirlenen işlemleri gerçekleştirmeniz gerekir."/>
+<string id="AcceptOrNotAccept" value="Dokümantasyonu okuduğunuzu, kullanımdan kaldırılan BI Platformu ürün ve özelliklerinin etkisini anladığınızı ve güncellemeden sonra, belirlenen işlemleri gerçekleştireceğinizi onaylamak için &lt;ENTER&gt; tuşuna basın."/>
+<string id="DeprecatedProductDescription" value="SAP BusinessObjects Explorer ve SAP BusinessObjects Dashboards gibi uygulamalar BI 4.3 ile kullanımdan kaldırılmıştır. Şu sayfayı ziyaret ederek, kullanımdan kaldırma işlemi hakkında daha fazla bilgi edinebilir ve kullanımdan kaldırılan ürünlerin tam listesine göz atabilirsiniz: https://launchpad.support.sap.com/#/notes/2801797. \n\nEtkiyi gözden geçirmeniz ve blogda belirtildiği üzere, belirlenen işlemleri gerçekleştirmeniz gerekir.\n\n"/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020 hizmetleri Linux ve Unix'te artık desteklenmemektedir ve bu yükseltme sırasında kaldırılacaktır. Ancak, SAP Crystal Reports 2020 belgeleri BI Platformunda kalacak ve desteklenmeye devam edecek. Gerekli hizmetlerin bir Windows sunucusuna nasıl dağıtılacağı hakkında daha fazla bilgi edinmek için şu adresteki SAP Knowledge Base Article'a bakın: https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

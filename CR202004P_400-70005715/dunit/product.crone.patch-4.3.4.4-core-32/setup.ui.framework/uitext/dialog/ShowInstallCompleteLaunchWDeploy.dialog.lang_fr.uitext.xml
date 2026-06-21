@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# a été installé."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# a fait l'objet d'erreurs lors du processus d'installation."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# a fait l'objet d'erreurs lors du processus de désinstallation."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# a été désinstallé."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# a été correctement installé avec des avertissements."/>
+<string id="Description" value="Cliquez sur Terminer pour quitter."/>
+<string id="FailedDescription" value="Cliquez sur Terminer pour quitter."/>
+<string id="Description_unix" value="Appuyez sur []Entrée] pour quitter."/>
+<string id="FailedDescription_unix" value="Cliquez sur []D] pour plus d'informations ou sur []Entrée] pour quitter."/>
+<string id="LaunchWDeploy" value="Lancer automatiquement l'outil WDeploy"/>
+<string id="LaunchWDeployUNIX" value="Démarrer [EnterpriseDir]wdeploy/wdeployGUI.sh à la fermeture du programme d'installation."/>
+<string id="CustomNextButton" value="Terminer"/>
+<string id="ViewLogButton" value="Afficher le journal"/>
+<string id="HyperlinkText" value="Cliquez ici pour obtenir plus de détails."/>
+</context>
+</uitext>

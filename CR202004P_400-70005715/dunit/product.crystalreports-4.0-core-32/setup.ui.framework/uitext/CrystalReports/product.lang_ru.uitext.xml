@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Создание и изменение форматированных информационных отчетов (RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\Администратор источника данных ODBC"/>
+<string id="product.shortcutODBC.description" value="Добавление, удаление и настройка источников данных и драйверов ODBC."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\Администратор 32-битного источника данных"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Мастер загрузки отчетов"/>
+<string id="product.shortcutWizard.description" value="Мастер загрузки отчетов"/>
+<string id="feature.OLE_DB_Data.name" value="Данные OLE DB (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Поддержка стандартных поставщиков OLE DB."/>
+<string id="feature.Comm_Rep.name" value="Команда в репозитории"/>
+<string id="feature.Comm_Rep.description" value="Обеспечивает соединение с командой в репозитории."/>
+<string id="feature.DiskFile.name" value="Целевой файл на диске"/>
+<string id="feature.DiskFile.description" value="Поддержка экспорта в файл."/>
+<string id="feature.NTEventLog.name" value="Журнал событий NT"/>
+<string id="feature.NTEventLog.description" value="Поддержка журналов событий NT."/>
+<string id="feature.MyCube.name" value="Куб OLAP"/>
+<string id="feature.MyCube.description" value="Поддержка для кубов OLAP #product.boe64_name#."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Обеспечивает взаимодействие с Progress OpenEdge."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="Интеграция BusinessObjects для Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Определения поля"/>
+<string id="feature.FieldDefinitions.description" value="Поддержка создания отчетов из текстовых схем."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Поддержка баз данных Lotus Domino. Сначала необходимо установить клиент Lotus Notes."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="Интеграция BusinessObjects для JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Формат Microsoft Word (97-2003)"/>
+<string id="feature.WordforWindows.description" value="Поддержка экспорта в формат Microsoft Word (97-2003) (*.doc)."/>
+<string id="feature.SFORCE.name" value="Драйвер Salesforce.com"/>
+<string id="feature.SFORCE.description" value="Позволяет подключать #productname# к данным CRM в Salesforce.com и создавать расширенные отчеты."/>
+<string id="feature.PDF.name" value="Формат PDF"/>
+<string id="feature.PDF.description" value="Поддержка экспорта в формат PDF (*.pdf)."/>
+<string id="feature.Excel.name" value="Формат Microsoft Excel (97-2003)"/>
+<string id="feature.Excel.description" value="Поддержка экспорта в формат Microsoft Excel 97-2003 (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="Разделенный символами формат"/>
+<string id="feature.CharacterSeparated.description" value="Поддержка экспорта в формат с символами-разделителями (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Поддержка баз данных Sybase при помощи собственного клиента. Необходимо сначала установить клиент Sybase."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Среда Java Runtime"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Поддержка баз данных Informix. Сначала необходимо установить клиент Informix."/>
+<string id="feature.DataAccess.name" value="Доступ к данным"/>
+<string id="feature.DataAccess.description" value="Компоненты доступа к данным используются для подключения к базам данных #product.crw_name#."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Обеспечивает соединение с ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Устанавливает конструктор Crystal Reports"/>
+<string id="feature.XML.name" value="XML- и веб-службы"/>
+<string id="feature.XML.description" value="Поддержка данных  XML."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Поддержка базы данных ACT!."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Обеспечивает взаимодействие с базами данных MySQL."/>
+<string id="feature.COMData.name" value="Поставщик данных COM"/>
+<string id="feature.COMData.description" value="Поддержка данных, объявленных объектами COM."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Почта Lotus Domino"/>
+<string id="feature.LotusNotesMail.description" value="Экспорт в Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Доступ к данным ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Поддержка данных Exchange Server, таких как Exchange Folders, Logs и Address Books."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Поддержка баз данных IBM DB2. Сначала необходимо установить клиент DB2."/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="Поддержка Business Objects Universe."/>
+<string id="feature.ReportDefinition.name" value="Формат определения отчета"/>
+<string id="feature.ReportDefinition.description" value="Поддержка экспорта в формат Report Definition."/>
+<string id="feature.ExchangeFolders.name" value="Назначение общих папок Microsoft Exchange"/>
+<string id="feature.ExchangeFolders.description" value="Поддержка экспорта в папку обмена."/>
+<string id="feature.ODBC.name" value="Формат источника данных ODBC"/>
+<string id="feature.ODBC.description" value="Поддержка экспорта в любой из установленных форматов ODBC."/>
+<string id="feature.DataDirectODBC.description" value="Обновленные драйверы DataDirect ODBC для #productname#"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Обновленные дополнительные драйверы DataDirect ODBC для #productname#"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Дополнительные драйверы DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="Экспорт XML"/>
+<string id="feature.XMLExport.description" value="Поддержка экспорта в документ XML."/>
+<string id="feature.Export.name" value="Поддержка экспорта"/>
+<string id="feature.Export.description" value="Для публикации завершенных отчетов в разных форматах файлов."/>
+<string id="feature.PGEditor.name" value="Пользовательские диаграммы"/>
+<string id="feature.PGEditor.description" value="Графическое приложение для расширенного форматирования графиков."/>
+<string id="feature.Btrieve.name" value="Драйвер базы данных Pervasive (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Поддержка файлов данных Btrieve. Сначала необходимо установить клиент Btrieve."/>
+<string id="feature.LegacyXMLExport.name" value="Экспорт  унаследованных XML-файлов"/>
+<string id="feature.LegacyXMLExport.description" value="Поддержка экспорта в документ XML. (Унаследованный файл XML)"/>
+<string id="feature.LotusNotes.name" value="Место назначения Lotus Notes"/>
+<string id="feature.LotusNotes.description" value="Поддержка экспорта в документ Lotus Notes."/>
+<string id="feature.CDO.name" value="Crystal Data Objects"/>
+<string id="feature.CDO.description" value="Поддержка формирования отчетов о данных, хранящихся в массиве памяти."/>
+<string id="feature.WebActivityLog.name" value="Протокол веб- и IIS-активности"/>
+<string id="feature.WebActivityLog.description" value="Поддержка журналов активности веб-сервера. "/>
+<string id="feature.Text.name" value="Текстовый формат"/>
+<string id="feature.Text.description" value="Поддержка экспорта в текстовый формат (*.txt)."/>
+<string id="feature.BDE.name" value="IDAPI Database DLL"/>
+<string id="feature.BDE.description" value="Поддержка файлов dBASE и Paradox. Сначала необходимо установить Borland Database Engine."/>
+<string id="feature.CrystalReports.name" value="Формат #productname#"/>
+<string id="feature.CrystalReports.description" value="Поддержка для экспорта в формат #productname# (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="Формат текста RTF"/>
+<string id="feature.RichTextFormat.description" value="Поддержка экспорта в формат RTF (*.rtf)."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Поддержка баз данных Microsoft Access."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Поддержка данных Outlook."/>
+<string id="feature.FileSystem.name" value="Файловая система"/>
+<string id="feature.FileSystem.description" value="Поддержка данных файловой системы."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="Интеграция BusinessObjects для Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Соединения Java Beans"/>
+<string id="feature.JavaData.description" value="Поддержка данных, объявленных классами Java."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Обеспечивает соединение с базой данных Teradata"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="Интеграция BusinessObjects для решений SAP."/>
+<string id="feature.Record.name" value="Формат записи (столбцы значений)"/>
+<string id="feature.Record.description" value="Поддержка экспорта в формат Record Style (*.rec). "/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Обеспечивает взаимодействие с NETEZZA."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="Интеграция BusinessObjects для Siebel."/>
+<string id="feature.Mapping.name" value="Географическое отображение"/>
+<string id="feature.Mapping.description" value="Отображает отношения между данными и географическими регионами."/>
+<string id="feature.Application.name" value="Назначение приложения"/>
+<string id="feature.Application.description" value="Поддержка экспорта в приложение."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Поддержка баз данных dBASE."/>
+<string id="feature.HTML.name" value="Формат HTML"/>
+<string id="feature.HTML.description" value="Поддержка экспорта в форматы HTML 3.2 и HTML 4.0(DHTML) (*.html)."/>
+<string id="feature.DataSet.name" value="Потребитель набора данных"/>
+<string id="feature.DataSet.description" value="Поддержка объектов ISCRDataSet сервера приложений отчетов."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Поддержка HP Neoview."/>
+<string id="feature.JDBC.name" value="Драйвер данных JDBC (JNDI)"/>
+<string id="feature.JDBC.description" value="Поддержка для данных JDBC (JNDI)."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Поддержка таблиц Oracle. Сначала необходимо установить клиент Oracle."/>
+<string id="feature.MicrosoftMail.name" value="Назначение Microsoft Mail"/>
+<string id="feature.MicrosoftMail.description" value="Назначение Microsoft Mail"/>
+<string id="feature.UploadWizard.name" value="Мастер загрузки отчетов"/>
+<string id="feature.UploadWizard.description" value="Мастер загрузки отчетов."/>
+<string id="feature.UWSC.name" value="Коннектор универсальных веб-служб (UWSC)"/>
+<string id="feature.UWSC.description" value="Обеспечивает соединение с UWSC."/>
+<string id="feature.IntegrationOptions.name" value="Компоненты интеграции"/>
+<string id="feature.IntegrationOptions.description" value="Компоненты параметров интеграции используются для подключения #product.crw_name# к другим системам enterprise."/>
+<string id="property.InstallType.description" value="Тип установки: обычная или пользовательская"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Права администратора"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Используйте учетную запись пользователя с правами администратора. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64-разрядная операционная система"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Для установки этого продукта необходима 64-разрядная ОС. Убедитесь, что ОС удовлетворяет этому требованию. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="Установка приложения #product.fullproductnamenospace#"/>
+</context>
+</uitext>

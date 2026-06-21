@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="uk"/>
+<context>
+<string id="progress.UpdateRepository" value="Оновлення репозитарію"/>
+<string id="progress.SetHyperLink" value="Настройка параметрів системи"/>
+</context>
+</uitext>

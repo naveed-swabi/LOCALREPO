@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="ChooseInstallDirTitle" value="配置目标文件夹"/>
+<string id="ChooseInstallDirSubtitle" value="输入即将安装产品的完整目标路径。"/>
+<string id="ChooseInstallDirUnixSubtitle" value="输入即将安装产品的完整目标路径。"/>
+<string id="DestinationFolderGroupBox" value="目标文件夹信息"/>
+<string id="DestinationFolder" value="目标文件夹："/>
+<string id="Browse" value="浏览"/>
+<string id="BrowseInstallDirectory" value="选择安装位置"/>
+<string id="DirGenericError" value="目标文件夹无效。请选择其他目标文件夹。INS00029"/>
+<string id="DirNetworkError" value="目标文件夹不能为网络位置。请选择其他位置。"/>
+<string id="DirEmptyError" value="必须选择目标文件夹。INS00029"/>
+<string id="DirAbsolutePathError" value="目标文件夹必须为完整路径。INS00029"/>
+<string id="DirInvalidCharWinError" value="目标文件夹只可使用数字、字母或以下字符：_ - . \ ( )。 INS00029"/>
+<string id="DirInvalidTooLongWinError" value="目标文件夹路径过长。请使用少于 150 个字符的路径。INS00029"/>
+<string id="DirInvalidInstallverseError" value="目标文件夹包含不兼容的产品。请选择其他位置。INS00029"/>
+<string id="Invalid_InstallDirWindows" value="安装目录无效。请使用仅包含字母数字字符或任何以下字符的有效绝对路径：_ - \ . ( )。目录必须驻留在硬盘驱动器上，完整路径长度不得超出 150 个字符。INS00029"/>
+<string id="Invalid_InstallDirUnix" value="安装目录无效。请使用您具有读、写和执行权限的有效绝对目录。INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="安装目录不能包含任何空格。"/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="安装目录中不允许使用以下字符：&quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="按 [Tab] 自动填充目录元素，按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或者按 [Enter] 继续。"/>
+</context>
+</uitext>

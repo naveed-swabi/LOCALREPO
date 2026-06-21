@@ -1,0 +1,59 @@
+#
+#  Copyright (c) 2011 by SAP AG or its affiliates,
+#  All rights reserved.
+#
+#  This software is the confidential and proprietary information
+#  of SAP AG and its affiliates. You shall not disclose such Confidential
+#  Information and shall use it only in accordance with the terms
+#  of the license agreement you entered into with SAP AG.
+#
+
+### Data ###
+# 4.3 SP04: Patch 0.10; Patch 1.6; Patch 2.21; Patch 3.10; Patch 4.16; Patch 5.15; Patch 6.13; Patch 7.12; Patch 8.11; Patch 9.10; Patch 10.13; Patch 11.9; Patch 12.6; 4.1 Patch 1.11; 4.1 Patch 2.11; 4.1 Patch 3.10; 4.1 Patch 4.14; 4.1 Patch 5.14; 4.1 Patch 6.14; 4.1 Patch 7.13; 4.1 Patch 8.13; 4.1 Patch 9.13; 4.1 Patch 10.11; 4.1 Patch 11.9; 4.1 Patch 12.9; 4.2 RTM; 4.2 Patch 1.2 ; 4.2 Patch 2.13 ; 4.2 Patch 3.13 ; 4.2 Patch 4.13 ; 4.2 Patch 5.11 ;4.2 Patch 6.13 ; 4.2 Patch 7.13; 4.2 Patch 8.12; 4.2 Patch 9.16; 4.3 Patch 0.8; 4.3 Patch 1.13; 4.3 Patch 2.12; 4.3 Patch 3.7; 3.1 patch 6.7; 3.1 patch 7.4
+14.3.4: 14.0.0.996 14.0.1.397 14.0.2.846 14.0.3.818 14.0.4.1182 14.0.5.1249 14.0.6.1606 14.0.7.1509 14.0.8.1622 14.0.9.1720 14.0.10.1995 14.0.11.2112 14.0.12.2736 14.1.1.1390 14.1.2.1495 14.1.3.1620 14.1.4.1867 14.1.5.2060 14.1.6.2229 14.1.7.2398 14.1.8.2615 14.1.9.2809 14.1.10.2983 14.1.11.3218 14.1.12.3703 14.2.0.1855 14.2.1.1962 14.2.2.2546 14.2.3.2670 14.2.4.2977 14.2.5.3181 14.2.6.3417 14.2.7.3644 14.2.8.3978 14.2.9.4691 14.3.0.3909 14.3.1.4277 14.3.2.4638 14.3.3.4727 12.6.7.2559 12.7.4.2438
+
+### Comments ###
+
+# '#' to start a line comment
+# Empty lines are ignored
+
+#
+# Each line starts with a MAJOR.MINOR.SP level followed by a colon followed by a list of levels forward fitted to the MAJOR.MINOR.SP level.
+# The data for a given level can be expressed on multiple lines, or a single line.
+# Samples:
+#   # 4.1_RTC 
+#   14.1.0: 14.0.3.848
+#   14.1.0: 14.0.2.889 
+#   14.1.0: 14.0.1.773 
+#   14.1.0: 14.0.0.986
+#    
+#   # 4.0_SP2 
+#   14.0.2: 14.0.0.986 14.0.1.773
+#    
+#   # 4.0_SP1 
+#   14.0.1: 14.0.0.986
+#    
+#   # 4.0_RTC 
+#   14.0.0:
+#
+
+#
+# Algorithm:
+#
+# 1) Get the currently installed SP/patch level somehow.
+#    e.g. "14.0.1.594"
+#
+# 2) Get the installing patch's level by looking at its product DU and getting the revision
+#    e.g. "14.0.2.663" in product.seed.xml for product.foo.patch
+#
+# 3) Look for matching SP level line
+#    e.g. "14.0.2.663" --> 14.0.2: 14.0.0.986 14.0.1.773
+#
+# 4) Compare currently installed SP/patch level to corresponding item in matching level line
+#    e.g. level from line ==     14.0.1.773      -- This is the level of the last forward fit from 14.0.1 stream into 14.0.2
+#         currently installed == 14.0.1.594
+#
+#    Since 773 > 594, we don't lose any forward fits by installing this 14.0.2.663
+#    If there's no corresponding item (e.g. 14.0.4.x when installing 14.1.0) then we assume we lose forward fits.
+#
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.ras.bv-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="1216456">
+    <requiredDeploymentUnit ref="platform.library.common-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.crystalcommon.cpp.crlang-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.registrywrapper-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.shared.pvlocale.pvlocale-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="BF32A9D9-92B2-4749-9607-C71A139D0577"/>
+      <arg name="Props" value="S__OS.MACHINENAME=&quot;[$OS.MACHINENAME]&quot; INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot; S__OS.MACHINENAME=&quot;[$OS.MACHINENAME]&quot;"/>
+    </action>
+  </install>
+</duseed>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/cvom/lib/java">
+    <file name="cvom.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="1495900"/>
+    <file name="commons_driver.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="962758"/>
+    <file name="cvom_chart_lib.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="1382363"/>
+    <file name="fmtlib_bridge.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="6382"/>
+    <file name="bcr.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="180919"/>
+    <file name="bcr_chart_lib.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="217493"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="UnknownMaintenanceMode" value="已指定未知的維護模式。有效值為: 修改、修復或移除"/>
+<string id="ChooseMaintenanceMode" value="應用程式維護"/>
+<string id="SelectMaintenanceMode" value="選取要執行的維護作業。請造訪 http://support.sap.com 以取得疑難排解協助。"/>
+<string id="SelectMaintenanceMode_win" value="選取要執行的維護作業。"/>
+<string id="Modify" value="修改"/>
+<string id="ModifyDescription" value="變更已安裝的應用程式功能。顯示可讓您設定個別功能的 [選擇功能] 對話方塊。"/>
+<string id="Repair" value="修復"/>
+<string id="RepairDescription" value="重新安裝遺失或毀損的檔案、登錄機碼和捷徑。儲存在登錄中的偏好設定可能會重設為預設值。"/>
+<string id="Remove" value="移除"/>
+<string id="RemoveDescription" value="解除安裝此電腦中的 #product.nameonly#。"/>
+<string id="Invalid_Maintenance_Mode" value="MaintenanceMode 類型 ([MaintenanceMode]) 無效: 必須是「修改」、「修復」 或「移除」。INS00283"/>
+<string id="HyperLinkMaint" value="針對疑難排解協助，請造訪:"/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informationen zur vorhandenen CMS-Implementierung"/>
+<string id="SpecifyRemoteCMS" value="Geben Sie die vorhandenen CMS- und Administratoranmeldedaten an, um den Prozess zu starten."/>
+<string id="RemoteCMSConnectionInfo" value="Verbindungsinformationen für vorhandenen CMS"/>
+<string id="RemoteCMSName" value="CMS-Name"/>
+<string id="RemoteCMSPort" value="CMS-Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS-Administrator-Anmeldedaten"/>
+<string id="RemoteCMSUser" value="Benutzer"/>
+<string id="RemoteCMSPassword" value="Kennwort"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Der Remote-CMS ist entweder nicht erreichbar, oder die Anmeldedaten sind falsch. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Der Remote-CMS ist entweder nicht erreichbar, oder die Anmeldedaten sind falsch. INS00013\nMöchten Sie die Anmeldedaten erneut eingeben?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Folgende Zeichen dürfen in einem CMS-Kennwort nicht verwendet werden:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

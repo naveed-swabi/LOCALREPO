@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Asennusta ei voi jatkaa"/>
+<string id="ExpandInstallMessage_2" value="Kuvaa esto-ongelmat, jotka estivät asennuksen jatkamisen"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Poistu asennustoiminnosta näppäinyhdistelmällä CTRL-X"/>
+<string id="AlwaysFailureGeneralMessage" value="Asennusta ei voi jatkaa\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

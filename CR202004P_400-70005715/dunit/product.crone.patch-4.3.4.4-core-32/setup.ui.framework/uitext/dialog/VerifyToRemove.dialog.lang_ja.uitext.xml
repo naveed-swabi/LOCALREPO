@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Message" value="アンインストール確認"/>
+<string id="Description" value="これにより、#product.fullproductnamenospace# がマシンから削除されます。"/>
+<string id="ConfirmUninstall" value="アンインストールしてもよろしいですか?"/>
+<string id="ConfirmUninstall_Footer" value="戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="RebootWarning" value="Néhány fájl a telepítés közben zárolva volt, ezért a telepítő nem tudta frissíteni ezeket. Elhalaszthatja a rendszer újraindítását, de javasoljuk, hogy a termék használata előtt indítsa újra a rendszert."/>
+<string id="RebootQuestion" value="Újraindítja a számítógépet most?"/>
+<string id="RestartLater" value="Újraindítás később"/>
+<string id="RestartNow" value="Újraindítás most"/>
+</context>
+</uitext>

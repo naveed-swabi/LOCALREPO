@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Message" value="Produkt #product.fullproductnamenospace# sa úspešne nainštaloval."/>
+<string id="Description" value="Ak chcete ukončiť túto inštaláciu, kliknite na tlačidlo Dokončiť."/>
+<string id="MonitorToolCheck" value="Spustiť nástroj pre monitorovanie softvéru"/>
+<string id="CustomNextButton" value="Dokončiť"/>
+</context>
+</uitext>

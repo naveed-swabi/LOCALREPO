@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="RebootWarning" value="Einige Dateien wurden während der Installation gesperrt, so dass sie vom Installationsprogramm nicht aktualisiert werden konnten. Sie können den Neustart des Systems verzögern, vor der Verwendung des Produkts wird jedoch ein Neustart empfohlen."/>
+<string id="RebootQuestion" value="Möchten Sie Ihren Computer jetzt neu starten?"/>
+<string id="RestartLater" value="Später neu starten"/>
+<string id="RestartNow" value="Jetzt neu starten"/>
+</context>
+</uitext>

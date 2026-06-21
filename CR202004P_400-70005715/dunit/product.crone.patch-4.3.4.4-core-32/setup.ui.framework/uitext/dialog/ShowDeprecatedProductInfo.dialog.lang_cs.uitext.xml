@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Oznámení o již nepoužívaných produktech a funkcích"/>
+<string id="YouMustAgree" value="Několik produktů a funkcí se v #product.fullproductnamenospace# již nepoužívá."/>
+<string id="IAccept" value="Četl(a) jsem dokumentaci a rozumím vlivu již nepoužívaných produktů a funkcí platformy BI a souhlasím s provedením předepsaných akcí po aktualizaci."/>
+<string id="subtitle1" value="Aplikace jako SAP BusinessObjects Explorer a SAP BusinessObjects Dashboards se v BI 4.3 již nepoužívají. Kompletní seznam aplikací, které se již nepoužívají, a více informací o této činnosti vyřazení můžete najít zde:"/>
+<string id="subtitle2" value="Musíte zkontrolovat vliv a poté provést předepsané akce zmíněné na blogu."/>
+<string id="AcceptOrNotAccept" value="Pro potvrzení, že jste četli dokumentaci, rozumíte vlivu již nepoužívaných produktů a funkcí platformy BI a souhlasíte s provedením předepsaných akcí po aktualizaci, stiskněte &lt;ENTER&gt;."/>
+<string id="DeprecatedProductDescription" value="Aplikace jako SAP BusinessObjects Explorer a SAP BusinessObjects Dashboards se v BI 4.3 již nepoužívají. Kompletní seznam aplikací, které se již nepoužívají, a více informací o této činnosti vyřazení můžete najít zde: https://launchpad.support.sap.com/#/notes/2801797. \n\nMusíte zkontrolovat vliv a poté provést předepsané akce zmíněné na blogu."/>
+<string id="CRServiceDescription" value="Služby SAP Crystal Reports 2020 již nejsou v systémech Linux a Unix podporovány, budou tedy během tohoto upgradu odebrány. Dokumenty SAP Crystal Reports 2020 však zůstanou na platformě BI a budou nadále podporovány. Více podrobností o distribuci požadovaných služeb na server Windows najdete v článku SAP Knowledge Base na adrese https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

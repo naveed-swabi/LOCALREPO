@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Indholdstype' indhold='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Efterinstallationstrin"/>
+<string id="PostInstallDetails" value="Installation er gennemført. Følg installationsinstruktionen nedenfor at gennemføre implementeringen."/>
+<string id="PostUninstallSteps" value="Efterafinstallationstrin"/>
+<string id="PostUninstallDetails" value="Afinstallation er gennemført. Følg instruktionen nedenfor for at gennemføre processen."/>
+<string id="PostInstallStep_Header" value="{b}Efterinstallationsinstruktioner:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Efterinstallationsinstruktioner:"/>
+<string id="PostUninstallStep_Header" value="{b}Efterinstallationsinstruktioner:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Efterinstallationsinstruktioner:"/>
+<string id="CRPostInstallUIText1" value="Produktregistrering{br}Registrer dit produkt online ved at klikke på: {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}her{/a}."/>
+<string id="PostInstallStep_Footer" value="Installationen er gennemført. Tryk på []Enter] for at fortsætte"/>
+<string id="PostUnInstallStep_Footer" value="Afinstallationen er gennemført. Tryk på []Enter] for at fortsætte"/>
+</context>
+</uitext>

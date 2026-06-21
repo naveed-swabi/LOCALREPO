@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Ankündigung bezüglich veralteter Produkte und Funktionen"/>
+<string id="YouMustAgree" value="Einige Produkte und Funktionen werden in #product.fullproductnamenospace# nicht mehr verwendet und gelten als veraltet."/>
+<string id="IAccept" value="Ich habe die Dokumentation gelesen und bin mir über die Auswirkungen der veralteten Produkte und Funktionen in der BI-Plattform im Klaren. Ich stimme der Ausführung der vorgegebenen Aktionen nach dem Update zu."/>
+<string id="subtitle1" value="Anwendungen wie SAP BusinessObjects Explorer und SAP BusinessObjects Dashboards gelten ab BI 4.3 als veraltet. Sie können die vollständige Liste der veralteten Anwendungen und weitere Informationen zu dieser Einstellungsaktivität hier finden:"/>
+<string id="subtitle2" value="Sie müssen die Auswirkungen prüfen und dann die vorgegebenen Aktionen wie im Blog beschrieben ausführen."/>
+<string id="AcceptOrNotAccept" value="Drücken Sie die &lt;EINGABETASTE&gt;, um zu bestätigen, dass Sie die Dokumentation gelesen, sich über die Auswirkungen der veralteten Produkte und Funktionen in der BI-Plattform im Klaren sind und der Ausführung der vorgegebenen Aktionen nach dem Update zustimmen."/>
+<string id="DeprecatedProductDescription" value="Anwendungen wie SAP BusinessObjects Explorer und SAP BusinessObjects Dashboards gelten ab BI 4.3 als veraltet. Sie können die vollständige Liste der veralteten Anwendungen und weitere Informationen zu dieser Einstellungsaktivität hier finden: https://launchpad.support.sap.com/#/notes/2801797. \n\nSie müssen die Auswirkungen überprüfen und dann die vorgegebenen Aktionen wie im Blog beschrieben ausführen."/>
+<string id="CRServiceDescription" value="Services von SAP Crystal Reports 2020 werden unter Linux und Unix nicht mehr unterstützt und daher mit diesem Upgrade entfernt. Dokumente von SAP Crystal Reports 2020 verbleiben jedoch in der BI-Plattform und werden weiterhin unterstützt. Weitere Details über die Bereitstellung der erforderlichen Services auf einem Windows-Server erhalten Sie im SAP-Wissensdatenbankartikel unter https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

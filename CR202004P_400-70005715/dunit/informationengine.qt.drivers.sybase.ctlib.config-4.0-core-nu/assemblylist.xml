@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/src/InformationEngine/export/prm_extensions/sybase/extensions/legacy">
+    <file name="sybase.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/sybase/extensions/legacy" size="959"/>
+  </sourcedir>
+</assembly>

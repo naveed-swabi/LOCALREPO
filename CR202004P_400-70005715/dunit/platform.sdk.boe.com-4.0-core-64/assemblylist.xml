@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{76A9D071-CDA3-4C6F-BA05-F47630E92863}">
+    <registryValue name="Compatibility Flags" type="dword">400</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.sdk.boe.com">
+    <file name="AuditProxyService.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2844672"/>
+    <file name="BICommentary.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="841216"/>
+    <file name="AuditAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="398336"/>
+    <file name="scriptinghelpers.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="172544"/>
+    <file name="sslconfig.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="70144"/>
+    <file name="SSOAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="123904"/>
+    <file name="CMSAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="529920"/>
+    <file name="EventServerAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="291840"/>
+    <file name="FileServerAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="225280"/>
+    <file name="JobServerAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="277504"/>
+    <file name="Calendar.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="830464"/>
+    <file name="Connection.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="225792"/>
+    <file name="Event.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="337920"/>
+    <file name="Excel.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="954368"/>
+    <file name="Favorites_Folder.dll" sourcename="FavoritesFolder.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="186880"/>
+    <file name="FavoritesFolder.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="186880"/>
+    <file name="Folder.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="184320"/>
+    <file name="Hyperlink.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="387584"/>
+    <file name="Inbox.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="173056"/>
+    <file name="LicenseKey.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="245248"/>
+    <file name="ObjectPackage.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="520192"/>
+    <file name="PDF.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="932864"/>
+    <file name="CustomRole.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="305152"/>
+    <file name="Powerpoint.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="919040"/>
+    <file name="Profile.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="398848"/>
+    <file name="Program.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1080832"/>
+    <file name="Publication.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="3103744"/>
+    <file name="Agnostic.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="879616"/>
+    <file name="CryptoGraphicKey.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="942592"/>
+    <file name="WorkflowScope.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="72704"/>
+    <file name="RTF.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="932352"/>
+    <file name="ScopeBatch.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="317952"/>
+    <file name="Server.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2675200"/>
+    <file name="ServerGroup.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="551936"/>
+    <file name="Shortcut.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="300032"/>
+    <file name="TXT.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="942592"/>
+    <file name="User.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1194496"/>
+    <file name="UserGroup.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="756736"/>
+    <file name="Word.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="935424"/>
+    <file name="ClientAction.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="641536"/>
+    <file name="ClientActionSet.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="599552"/>
+    <file name="ClientActionUsage.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="275968"/>
+    <file name="DeltaStore.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="399360"/>
+    <file name="CrystalEnterprise_SMTP.dll" sourcename="Smtp.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="544256"/>
+    <file name="DiskUnmanaged.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="383488"/>
+    <file name="Ftp.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="383488"/>
+    <file name="Managed.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="432128"/>
+    <file name="Sftp.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="417280"/>
+  </sourcedir>
+</assembly>

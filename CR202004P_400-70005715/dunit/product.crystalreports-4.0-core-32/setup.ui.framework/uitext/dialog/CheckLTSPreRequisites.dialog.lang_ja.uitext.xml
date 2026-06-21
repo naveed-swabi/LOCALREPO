@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="前提条件のチェック"/>
+<string id="CheckPreRequisitesSubTitle" value="欠落している重要な前提条件またはオプション前提条件の概要。"/>
+<string id="PreRequsitiesDetails" value="インストールを続行するには、見つからない重要な依存関係を解決する必要があります。また、インストールしていない一部のコンポーネントで、オプションの依存関係が見つからないという結果になる可能性があります。"/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="前提条件"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="種類"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="ステータス"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="重要"/>
+<string id="Column_Type_Optional" value="オプション"/>
+<string id="Column_Status_Succeeded" value="成功"/>
+<string id="Column_Status_Missing" value="失敗"/>
+<string id="Hints_Why_Fails" value="前提条件が満たされていない場合は、満たされていない項目をクリックして解決方法を確認してください。"/>
+<string id="Failure_Reason" value="情報:"/>
+<string id="PreRequisitesUIText_Failure" value="前提条件を確認できませんでした"/>
+<string id="Retry_Button" value="再試行"/>
+<string id="Back_Button" value="戻る"/>
+<string id="Exit_Button" value="選択"/>
+</context>
+</uitext>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="SetLCMConfigTitle" value="Subversion uygulamasını konfigüre et"/>
+<string id="SetLCMConfigSubtitle" value="Subversion versiyon denetim sistemi için bağlantı noktasını ve kullanıcı adını girin."/>
+<string id="repoInfoGroup" value="Subversion Repository Bilgileri"/>
+<string id="repoName" value="Repository Adı:"/>
+<string id="repoPort" value="Repository Bağlantı Noktası:"/>
+<string id="repoPortInline" value="Subversion Bağlantı Noktası:"/>
+<string id="repoUserInfoGroup" value="Subversion Repository Kullanıcı Bilgileri"/>
+<string id="repoUserName" value="Repository Kullanıcı Hesabı:"/>
+<string id="repoUserPass" value="Repository Hesap Parolası:"/>
+<string id="repoUserPassInline" value="Repository Kullanıcı Hesabı Parolası:"/>
+<string id="repoUserPass2" value="Parolayı Onayla"/>
+<string id="Mismatch_LCMPassword" value="Parolalar eşleşmiyor. Lütfen doğrulayın ve tekrar deneyin. INS00267"/>
+<string id="Invalid_LCMPassword" value="Parola çok basit. Parola en az altı karakter uzunluğunda olmalı ve her zaman şu karakter sınıflarından en az ikisini içermelidir: büyük harfler ve küçük harfler. INS00127"/>
+</context>
+</uitext>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/drivers/java">
+    <file name="dbd_teradata.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/drivers/java" size="124154"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc">
+    <file name="teradata.rss" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="12626"/>
+    <file name="teradata.sbo" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="3545"/>
+    <file name="teradata.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="17709"/>
+    <file name="teradata.stg" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="976"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc/extensions/qt">
+    <file name="teradata.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc/extensions/qt" size="1730"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/setup">
+    <file name="teradata_jdbc.setup" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/setup" size="484"/>
+  </sourcedir>
+</assembly>

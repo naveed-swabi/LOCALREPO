@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="NotAcceptedEULA" value="Sinun täytyy hyväksyä loppukäyttäjän lisenssi. Ohjelma suljetaan."/>
+<string id="LicenseAgreement" value="Lisenssisopimus"/>
+<string id="YouMustAgree" value="Sinun täytyy hyväksyä lisenssiehdot, jotta voit jatkaa."/>
+<string id="IAccept" value="Hyväksyn lisenssisopimuksen"/>
+<string id="IDoNotAccept" value="En hyväksy lisenssisopimusta"/>
+<string id="Invalid_IsAcceptEULA" value="Virheellinen IsAcceptEULA-asetus ([IsAcceptEULA]): asetuksen täytyy olla 1"/>
+<string id="AcceptOrNotAccept" value="Hyväksy painamalla &lt;ENTER&gt;, älä hyväksy painamalla &lt;CTRL-X&gt;"/>
+</context>
+</uitext>

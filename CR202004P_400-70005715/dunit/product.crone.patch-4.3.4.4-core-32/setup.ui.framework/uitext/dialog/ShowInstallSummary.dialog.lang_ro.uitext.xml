@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Lansare instalare"/>
+<string id="ShowInstallSummarySubtitle" value="Instalarea este pregătită să instaleze #product.fullproductnamenospace#. Faceţi click pe Înapoi pt. a modifica informaţiile de instalare.\n\nFaceţi click pe Următor pt. a începe instalarea"/>
+<string id="ShowInstallSummaryUnixDescription" value="Sunteţi pregătit pt. ca asistentul de instalare pt. #product.fullproductnamenospace# să lanseze instalarea?"/>
+<string id="ShowInstallSummaryFooter" value="Apăsaţi []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a instala."/>
+<string id="DiskCost" value="Spaţiu disc"/>
+<string id="Drive Select" value="Selectaţi"/>
+<string id="Disk Costing" value="Evaluare spaţiu disc"/>
+<string id="Volume" value="Volum"/>
+<string id="Disk Size" value="Dimensiune disc"/>
+<string id="Available" value="Disponibil"/>
+<string id="Required" value="Obligatoriu"/>
+<string id="Difference" value="Diferenţă"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Reîncercare"/>
+<string id="Cancel" value="Anulare"/>
+<string id="ShowCacheSummaryTitle" value="Instalare prin fază"/>
+<string id="ShowCacheSummarySubtitle" value="Lansare gestiune caching"/>
+<string id="ShowCacheSummaryDescription" value="Gestiune caching este procesul de copiere a software-ului în directorul de instalare. În timpul gestiunii cache, nu există timp de oprire a sistemului şi puteţi continua să lucraţi pe sistem."/>
+<string id="Invalid_DiskSpace" value="Nu aveţi destul spaţiu pt. a instala produsul. Eliberaţi spaţiu pe disc sau selectaţi o locaţie de instalare diferită. Spaţiu disponibil: [AvailableSpace] MB. Spaţiu necesar: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="La instalare, după gestiunea cache, software-ul este instalat în sistem cu o anumită perioadă de oprire a sistemului."/>
+<string id="ShowResumetitle" value="Instalare prin fază"/>
+<string id="ShowResumeSubtitle" value="Reluare instalare"/>
+<string id="ShowResumeFooter" value="Apăsaţi []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a instala."/>
+<string id="MessageCache" value="Faceţi click pe Următorul pt. a începe faza de gestiune cache."/>
+<string id="MessageResume" value="Faceţi click pe Următorul pt. a începe instalarea."/>
+</context>
+</uitext>

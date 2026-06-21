@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="SelectedInvalidLocale" value="サポートされていないロケールが入力されました。"/>
+<string id="SetupLanguageTitle" value="インストーラ言語の選択"/>
+<string id="SetupLanguageSubtitle" value="セットアップ言語を選択してください。"/>
+<string id="SetupLanguageUnixSubtitle" value="セットアップ言語を選択してください。"/>
+<string id="CreateLogFile" value="インストール中にログファイルを作成する"/>
+<string id="Invalid_SetupLanguage" value="無効なセットアップ言語 ([SetupUILanguage]): '[$available.ui.langs]' の 1 つである必要があります。INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="無効な IsEnableSetupLog ([IsEnableSetupLog]): 0 または 1 のみである必要があります。"/>
+<string id="SelectUILanguageFooter" value="選択するには []Tab]、[]上矢印]、または []下矢印] キーを押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+</context>
+</uitext>

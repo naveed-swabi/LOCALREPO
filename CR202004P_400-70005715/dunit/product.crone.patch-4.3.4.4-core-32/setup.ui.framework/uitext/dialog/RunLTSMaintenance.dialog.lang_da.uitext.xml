@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Ukendt vedligeholdelsestilstand angivet. Gyldige værdier er: Rediger, Reparer eller Fjern"/>
+<string id="ChooseMaintenanceMode" value="Applikationsvedligeholdelse"/>
+<string id="SelectMaintenanceMode" value="Denne version eller en nyere version af #product.nameonly# er allerede installeret på denne computer. Klik på Næste for at fortsætte reparationen af den eksisterende version af produktet, eller klik på Annuller for at afslutte."/>
+<string id="Modify" value="Rediger"/>
+<string id="ModifyDescription" value="Ændr, hvilke applikationsfunktioner der skal installeres. Viser dialogboksen Vælg funktioner, hvor du kan konfigure de enkelte funktioner."/>
+<string id="Repair" value="Reparer"/>
+<string id="RepairDescription" value="Geninstaller manglende eller ødelagte filer, registreringsdatabasenøgler og genveje. Præferencer, der er gemt i registreringsdatabasen, kan blive nulstillet til standardværdierne."/>
+<string id="Remove" value="Fjern"/>
+<string id="RemoveDescription" value="Afinstaller #product.nameonly# fra denne computer."/>
+<string id="Invalid_Maintenance_Mode" value="Ugyldig MaintenanceMode-type ([MaintenanceMode]): Typen skal være &quot;rediger&quot;, &quot;reparer&quot; eller &quot;fjern&quot;. INS00283"/>
+</context>
+</uitext>

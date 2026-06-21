@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="ChooseDestination" value="Especificar la carpeta de destino"/>
+<string id="SpecifyDestination" value="La carpeta de destino es el lugar en el que se instalará el producto. Haga clic en Examinar para seleccionar una ubicación distinta."/>
+<string id="DestinationFolder" value="Carpeta de destino"/>
+<string id="Browse" value="Examinar"/>
+<string id="BrowseInstallDirectory" value="Seleccionar ubicación de instalación"/>
+<string id="PWClientFolderTitle" value="Carpeta de destino del cliente"/>
+<string id="PWServerFolderTitle" value="Carpeta de destino del servidor"/>
+<string id="Invalid_InstallDirWindows" value="Directorio de instalación no válido. Utilice una ruta de acceso absoluta válida que contenga únicamente caracteres alfanuméricos o uno de los siguientes: _ - \ . ( ). El directorio debe encontrarse en una unidad fija y la ruta completa no puede exceder los 150 caracteres. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Directorio de instalación no válido. Utilice una ruta de acceso absoluta válida para la que disponga también de permiso de lectura, escritura y ejecución. INS00029"/>
+</context>
+</uitext>

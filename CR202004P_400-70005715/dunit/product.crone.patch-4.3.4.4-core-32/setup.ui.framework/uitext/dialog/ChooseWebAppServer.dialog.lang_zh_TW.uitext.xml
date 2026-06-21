@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="選取 Java Web 應用程式伺服器"/>
+<string id="ChooseWebAppServerSubtitle" value="選取 Java Web 應用程式伺服器解決方案。"/>
+<string id="ChooseWebAppServerFooter" value="按 []Tab]、[]向上] 或 []向下] 進行選取，按 []Ctrl-B] 返回，按 []Ctrl-X] 結束，或按 []Enter] 繼續。"/>
+<string id="InstallJWAS" value="安裝 Java Web 應用程式和伺服器"/>
+<string id="InstallTomcat" value="安裝預設的 Tomcat Java Web 應用程式伺服器並自動部署 Web 應用程式"/>
+<string id="ManualDeploy" value="安裝後將 Web 應用程式手動部署至支援的 Java Web 應用程式伺服器"/>
+<string id="InstallWACS" value="安裝 Web 應用程式容器伺服器並自動部署 Web 應用程式"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects 的 Microsoft SharePoint 軟體整合選項 4.0"/>
+<string id="SharePointIntegrationText" value="SAP BusinessObjects 的 Microsoft SharePoint 軟體整合選項 4.0 可單獨安裝在 64 位元的 Sharepoint 附加程式資料夾中。如需附加程式資料夾的連結，請參閱後續安裝指示。"/>
+<string id="SharePointIntegrationCheck" value="安裝結束時顯示附加程式資料夾的位置"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="UseIntegratedWebAppServer 值 ([UseIntegratedWebAppServer]) 無效: 必須是 0 或 1。INS00255"/>
+</context>
+</uitext>

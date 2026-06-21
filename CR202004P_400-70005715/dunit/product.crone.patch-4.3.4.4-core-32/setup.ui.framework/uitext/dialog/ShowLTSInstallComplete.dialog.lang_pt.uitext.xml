@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# foi instalado com êxito."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# encontrou erros durante o processo de instalação."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# encontrou erros durante o processo de desinstalação."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# foi desinstalado com êxito."/>
+<string id="Description" value="Clique em Concluir para concluir esta instalação e iniciar o aplicativo."/>
+<string id="CustomDescription" value="Clique em Concluir para concluir esta instalação."/>
+<string id="FailedDescription" value="Clique em Finalizar para sair dessa instalação."/>
+<string id="Description_unix" value="Pressione []Ctrl-B] para voltar ou []Enter] para sair dessa instalação."/>
+<string id="FailedDescription_unix" value="Pressione []D] para mais detalhes, ou []Enter] para sair desta instalação."/>
+<string id="CustomNextButton" value="Concluir"/>
+<string id="ViewLogButton" value="Exibir log"/>
+</context>
+</uitext>

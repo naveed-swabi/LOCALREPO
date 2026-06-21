@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Nieuwe licentiecode vereist"/>
+<string id="YouMustAgree" value="Er is een nieuwe licentiecode vereist voor #product.fullproductnamenospace#update."/>
+<string id="IAccept" value="Ik heb de documentatie gelezen en ik begrijp hoe de nieuwe licentiecode moet worden aangevraagd. Ik stem ermee in de nieuwe licentiecode toe te voegen na de update-installatie."/>
+<string id="subtitle1" value="Voor SAP Crystal Reports dat is aangeschaft als onderdeel van SAP Business Intelligence-platform, vindt u via onderstaande link meer informatie over hoe u de nieuwe licentiecode kunt aanvragen."/>
+<string id="subtitle2" value="Voor SAP Crystal Reports dat afzonderlijk is aangeschaft, kunt u in de SAP Store een upgradelicentiecode aanschaffen."/>
+<string id="subtitle3" value="U dient de nieuwe licentiecode op te geven in licentiebeheer wanneer u de toepassing start nadat de update is geïnstalleerd."/>
+</context>
+</uitext>

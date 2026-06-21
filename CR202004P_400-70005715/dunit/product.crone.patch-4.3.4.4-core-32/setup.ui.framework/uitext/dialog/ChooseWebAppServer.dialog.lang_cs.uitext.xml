@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Vyberte server Java webové aplikace."/>
+<string id="ChooseWebAppServerSubtitle" value="Vyberte řešení serveru Java webové aplikace."/>
+<string id="ChooseWebAppServerFooter" value="Stisknutím kláves []Tab], []Up] nebo []Down] proveďte výběr, stisknutím kláves []Ctrl-B] přejděte zpět, stisknutím kláves []Ctrl-X] program ukončíte nebo stisknutím klávesy []Enter] budete pokračovat."/>
+<string id="InstallJWAS" value="Instalovat webovou aplikaci a servery Java"/>
+<string id="InstallTomcat" value="Nainstalovat výchozí webový aplikační server Tomcat Java a automaticky nasadit webové aplikace."/>
+<string id="ManualDeploy" value="Po instalaci ručně nasadit webové aplikace na podporovaný webový aplikační server Java."/>
+<string id="InstallWACS" value="Nainstalovat server webového aplikačního kontejneru a automaticky nasadit webové aplikace."/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integration Option for Microsoft SharePoint Software 4.0"/>
+<string id="SharePointIntegrationText" value="SAP BusinessObjects Integration Option for Microsoft SharePoint Software 4.0 je k dispozici pro samostatnou instalaci ve složce doplňků v 64bitové službě Sharepoint. Odkaz na složku doplňků naleznete v pokynech po instalaci."/>
+<string id="SharePointIntegrationCheck" value="Na konci instalace mi ukaž umístění složky doplňků"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Neplatná hodnota UseIntegratedWebAppServer ([UseIntegratedWebAppServer]): má být jen 0 nebo 1. INS00255"/>
+</context>
+</uitext>

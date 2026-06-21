@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="tr"/>
+  <context>
+    <string id="INS00270" value="%2 kurulurken MSI hatası %1 ile karşılaşıldı. (INS00270)"/>
+    <string id="INS00271" value="%2 kaldırılırken MSI hatası %1 ile karşılaşıldı. (INS00271)"/>
+    <string id="INS00272" value="%3 kurulurken %2 dosyasında hata (%1) ile karşılaşıldı. (INS00272)"/>
+    <string id="INS00273" value="%3 kaldırılırken %2 dosyasında hata (%1) ile karşılaşıldı. (INS00273)"/>
+  </context>
+</uitext>

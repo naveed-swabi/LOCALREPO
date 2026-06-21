@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Title" value="เลือกโหมดการติดตั้ง"/>
+<string id="SubTitle" value="เลือกโหมดการติดตั้ง"/>
+<string id="Standard_InstallationName" value="การติดตั้งมาตรฐาน"/>
+<string id="Standard_InstallationText" value="การติดตั้งจะดำเนินการแบบขั้นตอนเดียว"/>
+<string id="PhaseWise_InstallationName" value="การติดตั้งตามขั้นตอน"/>
+<string id="PhaseWise_InstallationText" value="การติดตั้งจะดำเนินการเป็นสองขั้นตอน – &quot;การแคช&quot; และ &quot;การติดตั้งหลังจากการแคช&quot; ระหว่างการแคช จะไม่มีดาวน์ไทม์ของระบบ และคุณสามารถทำงานต่อในระบบได้ ระหว่างการติดตั้งหลังจากการแคช ซอฟต์แวร์จะได้รับการติดตั้งในระบบโดยมีดาวน์ไทม์ของระบบบางครั้ง"/>
+<string id="CachingCompletedSubTitle" value="การแคชเสร็จสมบูรณ์"/>
+<string id="Resume_InstallationSubTitle" value="ดำเนินการติดตั้งต่อหลังการแคช การติดตั้งหลังการแคชคือกระบวนการติดตั้งจริงที่คุณจะประสบกับดาวน์ไทม์ในระบบ"/>
+<string id="ShowWayOfInstallFooter" value="กด []Ctrl-B] เพื่อย้อนกลับ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อติดตั้ง"/>
+</context>
+</uitext>

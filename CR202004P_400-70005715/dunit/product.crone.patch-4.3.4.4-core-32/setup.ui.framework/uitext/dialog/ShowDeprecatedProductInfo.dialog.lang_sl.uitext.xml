@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Napoved zastaranih proizvodov in funkcij"/>
+<string id="YouMustAgree" value="Nekaj proizvodov in funkcij je bilo zastaranih v #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Prebral sem dokumentacijo in razumem vpliv zastaranih proizvodov in funkcij BI-platforme."/>
+<string id="subtitle1" value="Aplikacije, kot sta SAP BusinessObjects Explorer in SAP BusinessObjects Dashboards, so v BI 4.3 zastarane. Popoln seznam zastaranih aplikacij in več informacij o tej aktivnosti zastaranja je na voljo na"/>
+<string id="subtitle2" value="Preglejte vpliv in nato izvedite predpisane akcije, kot je omenjeno v spletniku."/>
+<string id="AcceptOrNotAccept" value="Pritisnite &lt;ENTER&gt;, da se strinjate, da ste prebrali dokumentacijo in razumete vpliv zastaranih proizvodov in funkcij BI-platforme ter da boste po posodobitvi izvedli predpisane akcije."/>
+<string id="DeprecatedProductDescription" value="Aplikacije, kot sta SAP BusinessObjects Explorer in SAP BusinessObjects Dashboards, so v BI 4.3 zastarane. Popoln seznam zastaranih aplikacij in več informacij o tej aktivnosti zastaranja je na voljo na https://launchpad.support.sap.com/#/notes/2801797. \n\n Preglejte vpliv in nato izvedite predpisane akcije, kot je omenjeno v spletniku.\n\n"/>
+<string id="CRServiceDescription" value="Linux in Unix ne podpirata več storitev SAP Crystal Reports 2020, zato bodo med to nadgradnjo odstranjene. Vendar bodo dokumenti SAP Crystal Reports 2020 ostali v BI-platformi in bodo še naprej podprti. Več podrobnosti o distribuciji zahtevanih storitev v Windows strežnik najdete v SAP Knowledge Base Article na https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

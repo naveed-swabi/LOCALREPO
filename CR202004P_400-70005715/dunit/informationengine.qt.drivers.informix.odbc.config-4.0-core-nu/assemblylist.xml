@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/src/InformationEngine/export/prm_extensions/odbc/extensions/legacy">
+    <file name="informix.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc/extensions/legacy" size="998"/>
+  </sourcedir>
+</assembly>

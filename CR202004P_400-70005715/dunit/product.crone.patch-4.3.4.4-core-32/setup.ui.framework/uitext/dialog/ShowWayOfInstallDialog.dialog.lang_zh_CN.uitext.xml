@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Title" value="选择安装模式"/>
+<string id="SubTitle" value="选择安装的模式"/>
+<string id="Standard_InstallationName" value="标准安装"/>
+<string id="Standard_InstallationText" value="安装在单个阶段内执行"/>
+<string id="PhaseWise_InstallationName" value="分阶段安装"/>
+<string id="PhaseWise_InstallationText" value="安装分为两个阶段执行：“高速缓存”和“高速缓存后安装”。在高速缓存期间，系统完全不会停机，用户可以继续使用系统。在高速缓存后安装期间，安装软件的系统会出现一定的系统停机时间。"/>
+<string id="CachingCompletedSubTitle" value="高速缓存已完成"/>
+<string id="Resume_InstallationSubTitle" value="高速缓存后继续安装。高速缓存后继续安装是实际安装过程，在此过程中，您将遇到系统停机。 "/>
+<string id="ShowWayOfInstallFooter" value="按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或者按 [Enter] 安装。"/>
+</context>
+</uitext>

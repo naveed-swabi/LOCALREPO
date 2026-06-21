@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Installation starten"/>
+<string id="ShowInstallSummarySubtitle" value="Die Installation ist bereit zur Installation von #product.fullproductnamenospace#. Klicken Sie auf &quot;Zurück&quot;, um Änderungen an den Installationinformationen vorzunehmen.\n\nKlicken Sie auf &quot;Weiter&quot;, um mit der Installation zu beginnen."/>
+<string id="ShowInstallSummaryUnixDescription" value="Soll der Installationsassistent mit der Installation von #product.fullproductnamenospace# beginnen?"/>
+<string id="ShowInstallSummaryFooter" value="Drücken Sie []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um zu installieren."/>
+<string id="DiskCost" value="Speicherplatz"/>
+<string id="Drive Select" value="Auswahl von"/>
+<string id="Disk Costing" value="Speicherplatzberechnung"/>
+<string id="Volume" value="Volumen"/>
+<string id="Disk Size" value="Festplattengröße"/>
+<string id="Available" value="Verfügbar"/>
+<string id="Required" value="Erforderlich"/>
+<string id="Difference" value="Differenz"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Wiederholen"/>
+<string id="Cancel" value="Abbrechen"/>
+<string id="ShowCacheSummaryTitle" value="Phasenweise Installation"/>
+<string id="ShowCacheSummarySubtitle" value="Zwischenspeicherung starten"/>
+<string id="ShowCacheSummaryDescription" value="Zwischenspeicherung ist der Prozess des Kopierens der Software in das Installationsverzeichnis. Beim Zwischenspeichern tritt keine Systemausfallzeit auf, und Sie können mit dem System weiterarbeiten."/>
+<string id="Invalid_DiskSpace" value="Der Speicherplatz reicht für die Installation des Produkts nicht aus. Geben Sie Speicherplatz frei, oder wählen Sie einen anderen Installationsort aus. Verfügbarer Speicherplatz: [AvailableSpace] MB. Erforderlicher Speicherplatz: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Bei der Installation wird die Software nach der Zwischenspeicherung auf dem System installiert, wobei eine gewisse Systemausfallzeit auftritt."/>
+<string id="ShowResumetitle" value="Phasenweise Installation"/>
+<string id="ShowResumeSubtitle" value="Installation fortsetzen"/>
+<string id="ShowResumeFooter" value="Drücken Sie []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um zu installieren."/>
+<string id="MessageCache" value="Klicken Sie auf &quot;Weiter&quot;, um mit der Cache-Phase zu beginnen."/>
+<string id="MessageResume" value="Klicken Sie auf &quot;Weiter&quot;, um mit der Installation zu beginnen."/>
+</context>
+</uitext>

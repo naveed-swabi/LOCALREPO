@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="SelectLCMTitle" value="Selectaţi gestiunea versiunii"/>
+<string id="SelectLCMSubtitle" value="Selectaţi dacă doriţi să instalaţi sistemul de control a versiunii implicit sau să utilizaţi un sistem existent pt. gestiunea versiunii."/>
+<string id="SelectLCMFooter" value="Apăsaţi []Tab], []Up] sau []Down] pt. a selecta, []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+<string id="NewLCMInstall" value="Configuraţi şi instalaţi Subversiune"/>
+<string id="ExistingLCMInstall" value="Nu configuraţi un sistem de control a versiunii în acest moment"/>
+<string id="Invalid_SelectLCM" value="NewOrExistingLCM Type ([NewOrExistingLCM]) nevalabil: trebuie să fie 'nou' sau 'existent'. INS00284"/>
+</context>
+</uitext>

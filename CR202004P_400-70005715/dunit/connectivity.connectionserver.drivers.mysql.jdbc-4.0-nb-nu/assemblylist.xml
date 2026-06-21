@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc">
+    <file name="mysqlnb.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="24806"/>
+    <file name="mysql8nb.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="29228"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="SelectLCMTitle" value="选择“版本管理”"/>
+<string id="SelectLCMSubtitle" value="选择是要安装默认版本控制系统还是使用现有系统进行版本管理。"/>
+<string id="SelectLCMFooter" value="按 [Tab]、[上箭头] 或 [下箭头] 进行选择，按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或按 [Enter] 继续。"/>
+<string id="NewLCMInstall" value="配置和安装 Subversion"/>
+<string id="ExistingLCMInstall" value="此时不配置版本控制系统"/>
+<string id="Invalid_SelectLCM" value="NewOrExistingLCM 类型（[NewOrExistingLCM]）无效：它应该是“新”或“现有”。INS00284"/>
+</context>
+</uitext>

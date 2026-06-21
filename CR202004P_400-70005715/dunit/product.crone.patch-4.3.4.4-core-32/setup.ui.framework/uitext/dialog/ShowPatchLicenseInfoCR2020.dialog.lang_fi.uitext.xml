@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Uusi lisenssiavainvaatimus"/>
+<string id="YouMustAgree" value="Päivitys #product.fullproductnamenospace#update vaatii uuden lisenssiavaimen."/>
+<string id="IAccept" value="Olen lukenut dokumentaation ja ymmärrän mitä uuden lisenssiavaimen hakuprosessiin sisältyy. Suostun uuden lisenssiavaimen lisäämiseen päivitysasennuksen jälkeen."/>
+<string id="subtitle1" value="Jos käytössäsi oleva SAP Crystal Reports on hankittu osana SAP-liiketoimintatietojärjestelmää, ohjeet uuden lisenssiavaimen hakuun löytyvät alla olevan linkin kautta."/>
+<string id="subtitle2" value="Jos käytössäsi oleva SAP Crystal Reports on hankittu erikseen, voit ostaa uuden lisenssiavaimen SAP Storesta."/>
+<string id="subtitle3" value="Uusi lisenssiavain tulee syöttää License Manager -apuohjelmaan päivitysasennuksen jälkeen."/>
+</context>
+</uitext>

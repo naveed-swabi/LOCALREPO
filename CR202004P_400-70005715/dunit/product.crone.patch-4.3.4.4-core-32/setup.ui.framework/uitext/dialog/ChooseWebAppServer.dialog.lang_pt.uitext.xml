@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Selecionar o servidor do aplicativo da web Java"/>
+<string id="ChooseWebAppServerSubtitle" value="Selecionar uma solução do servidor do aplicativo da web Java."/>
+<string id="ChooseWebAppServerFooter" value="Pressione []Tab], []Seta para cima], ou []Seta para baixo] para selecionar, []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+<string id="InstallJWAS" value="Instalar aplicativo da web  e servidores Java"/>
+<string id="InstallTomcat" value="Instalar o servidor do aplicativo da web Java Tomcat padrão e implementar automaticamente os aplicativos da web"/>
+<string id="ManualDeploy" value="Implementar manualmente os aplicativos da web para um servidor de aplicativo da web Java suportado após a instalação"/>
+<string id="InstallWACS" value="Instalar o servidor recipiente de aplicativos da web e implementar automaticamente os aplicativos da web"/>
+<string id="SharePointIntegrationTitle" value="Opção de integração do SAP BusinessObjects para o software Microsoft SharePoint 4.0"/>
+<string id="SharePointIntegrationText" value="A opção de integração do SAP BusinessObjects para o software Microsoft SharePoint 4.0 está disponível como instalação separada nas pastas de complementos do Sharepoint 64-bit. Consulte as instruções de pós-instalação para obter o link da pasta de complementos."/>
+<string id="SharePointIntegrationCheck" value="Mostre-me o local da pasta de complementos ao final da instalação"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Valor de UseIntegratedWebAppServer inválido ([UseIntegratedWebAppServer]): deve ser 0 ou 1. INS00255"/>
+</context>
+</uitext>

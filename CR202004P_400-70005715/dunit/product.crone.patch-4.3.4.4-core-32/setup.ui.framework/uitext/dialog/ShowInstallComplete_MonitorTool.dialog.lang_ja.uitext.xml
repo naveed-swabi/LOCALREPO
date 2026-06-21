@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# は正常にインストールされました。"/>
+<string id="Description" value="インストールを終了するには、[完了] をクリックしてください。"/>
+<string id="MonitorToolCheck" value="ソフトウェア監視ツールの実行"/>
+<string id="CustomNextButton" value="完了"/>
+</context>
+</uitext>

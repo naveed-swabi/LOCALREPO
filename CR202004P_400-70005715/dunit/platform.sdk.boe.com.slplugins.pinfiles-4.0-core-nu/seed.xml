@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.com.slplugins.pinfiles-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="48475">
+    <requiredDeploymentUnit ref="platform.sdk.boe.java.deploymentfile.actions.trigger-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="D01EE9CF-82F0-425C-B996-ED7E4C892B7E"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

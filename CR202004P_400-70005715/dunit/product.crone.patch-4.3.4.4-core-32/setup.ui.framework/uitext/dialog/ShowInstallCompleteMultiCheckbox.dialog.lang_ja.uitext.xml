@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# は正常にインストールされました。"/>
+<string id="SuccessInstallDescription" value="インストールを終了するには、[完了] をクリックしてください。"/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# のインストールプロセスでエラーが発生しました。"/>
+<string id="FailureInstallDescription" value="インストールを終了するには、[完了] をクリックしてください。"/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# はアンインストールされました。"/>
+<string id="SuccessUnInstallDescription" value="[完了] をクリックしてこのアンインストールを終了します。"/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# は正常にインストールされました (警告あり)。"/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# のアンインストールプロセスでエラーが発生しました。"/>
+<string id="FailureUnInstallDescription" value="[完了] をクリックしてこのアンインストールを終了します。"/>
+<string id="FinishButton" value="完了"/>
+<string id="ViewLogButton" value="ログの表示"/>
+<string id="LaunchWDeploy" value="インストール後に WDeploy ツールを自動的に起動します。"/>
+<string id="LaunchSSW" value="システムセットアップウィザードの起動"/>
+<string id="HyperlinkText" value="詳細はここをクリック"/>
+</context>
+</uitext>

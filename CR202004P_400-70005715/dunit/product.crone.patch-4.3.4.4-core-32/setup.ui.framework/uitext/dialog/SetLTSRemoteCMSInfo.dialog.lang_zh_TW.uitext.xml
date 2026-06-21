@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="ConfigureRemoteCMS" value="現有的 #productname# 部署資訊"/>
+<string id="SpecifyRemoteCMS" value="指定您現有部署的管理員登入資訊。"/>
+<string id="RemoteCMSConnectionInfo" value="現有 #productname# 的的連線資訊"/>
+<string id="RemoteCMSName" value="名稱"/>
+<string id="RemoteCMSPort" value="連接埠"/>
+<string id="RemoteCMSAdminLogonInfo" value="管理員登入資訊"/>
+<string id="RemoteCMSUser" value="使用者"/>
+<string id="RemoteCMSPassword" value="密碼"/>
+<string id="ErrRemoteCMSConnectionInfo" value="遠端 SAP Lumira 伺服器可能無法連線，或登入憑證不正確。INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="針對團隊的遠端 SAP Lumira 伺服器無法連線或登入憑證不正確。INS00013\n您要再次輸入憑證嗎?"/>
+<string id="Invalid_SymbolInCMSPassword" value="密碼不得包含 &quot;Administrator&quot; 字詞或如下的特殊字元: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

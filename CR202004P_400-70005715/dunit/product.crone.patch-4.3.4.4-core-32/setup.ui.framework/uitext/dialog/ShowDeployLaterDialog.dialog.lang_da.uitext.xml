@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="Title" value="Implementering af webapplikation"/>
+<string id="Subtitle" value="Implementer webindhold senere"/>
+<string id="DeploylaterDescription" value="Standard-Tomcat Java-webapplikationsserveren blev fundet. Vil du implementere webapplikationer nu eller senere?"/>
+<string id="TxtDeployLater" value="Implementer webapplikationer senere."/>
+<string id="TxtDeployNow" value="Implementer webapplikationer nu."/>
+<string id="Footer" value="Tryk på []Tab], []Pil op], eller []Pil ned] for at vælge, []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte, eller []Enter] for at fortsætte."/>
+</context>
+</uitext>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="LicenseAgreement" value="Neue Lizenzschlüsselanforderung"/>
+<string id="YouMustAgree" value="Für #product.fullproductname# ist ein neuer Lizenzschlüssel erforderlich."/>
+<string id="SelectLicenseChangeSubtitle" value="Für #product.fullproductname# ist ein neuer Lizenzschlüssel erforderlich."/>
+<string id="IAccept" value="Ich habe die Dokumentation gelesen und verstehe den Prozess zur Anforderung des neuen Lizenzschlüssels und erkläre mich damit einverstanden, den alten Lizenzschlüssel zu löschen und den den neuen Lizenzschlüssel nach der Installation des Updates hinzuzufügen."/>
+<string id="subtitle1" value="Für #product.fullproductname# ist ein neuer Lizenzschlüssel erforderlich."/>
+<string id="subtitle2" value="Fordern Sie den neuen Lizenzschlüssel an. Weitere Informationen zur Anforderung des Lizenzschlüssels finden Sie unter"/>
+<string id="subtitle3" value="Melden Sie sich nach Abschluss der Installation von #product.fullproductname# an der Central Management Console (CMC) an; Löschen Sie den alten Lizenzschlüssel, und fügen Sie den neuen Lizenzschlüssel hinzu. Alle Dienste bleiben so lange deaktiviert, bis Sie den neuen Lizenzschlüssel hinzugefügt haben."/>
+<string id="subtitle4" value="Fordern Sie den neuen Lizenzschlüssel hier an"/>
+<string id="AcceptOrNotAccept" value="Drücken Sie die &lt;EINGABETASTE&gt;, um die Löschung des alten Lizenzschlüssels zu bestätigen, und fügen Sie den neuen Lizenzschlüssel nach der Installation des Updates hinzu."/>
+<string id="Description_Patch_License" value="#product.fullproductname# erfordert einen neuen Lizenzschlüssel.\n\nFordern Sie den neuen Lizenzschlüssel an. Weitere Informationen zur Anforderung des Lizenzschlüssels finden Sie unter http://scn.sap.com/docs/DOC-70095. \n\nMelden Sie sich nach Abschluss der Installation von #product.fullproductname# an der Central Management Console (CMC) an, löschen Sie den alten Lizenzschlüssel und fügen Sie den neuen Lizenzschlüssel hinzu. Sämtliche Dienste bleiben deaktiviert, bis Sie den alten Lizenzschlüssel hinzugefügt haben."/>
+</context>
+</uitext>

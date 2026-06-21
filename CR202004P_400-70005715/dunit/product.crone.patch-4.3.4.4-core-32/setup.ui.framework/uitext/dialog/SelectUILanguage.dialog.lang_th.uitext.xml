@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="SelectedInvalidLocale" value="คุณป้อน Locale ที่ไม่ได้รับการสนับสนุน"/>
+<string id="SetupLanguageTitle" value="เลือกภาษาของ Installer"/>
+<string id="SetupLanguageSubtitle" value="เลือกภาษาสำหรับการติดตั้ง"/>
+<string id="SetupLanguageUnixSubtitle" value="เลือกภาษาสำหรับการติดตั้ง"/>
+<string id="CreateLogFile" value="สร้างไฟล์บันทึกขณะติดตั้ง"/>
+<string id="Invalid_SetupLanguage" value="ภาษาสำหรับการติดตั้ง ([SetupUILanguage]) ไม่ถูกต้อง: ควรเป็นภาษาใดภาษาหนึ่งใน '[$available.ui.langs]' INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="IsEnableSetupLog ([IsEnableSetupLog]) ไม่ถูกต้อง: ควรเป็น 0 หรือ 1 เท่านั้น"/>
+<string id="SelectUILanguageFooter" value="กด []Tab], []Up] หรือ []Down] เพื่อเลือก กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อดำเนินการต่อ"/>
+</context>
+</uitext>

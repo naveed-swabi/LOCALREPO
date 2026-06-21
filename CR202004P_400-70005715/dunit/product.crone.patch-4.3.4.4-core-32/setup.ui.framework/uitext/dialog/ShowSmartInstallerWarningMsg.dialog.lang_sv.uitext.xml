@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Verifiera att specificerad installationssökväg är korrekt för slutföra avsedd installation. \n\n För installation av uppdatering - katalog för uppdaterad fil. \n För patch-installation - filkatalog med installation av föregående version för #productname#. \n\n\n Klicka på OK för att fortsätta eller klicka på Avsluta för att ange korrekt installationssökväg på nytt. \n"/>
+<string id="ExitMessage" value="Tryck på Ctrl+X för att avsluta eller på Retur för att fortsätta."/>
+<string id="WarnDialogTitle" value="INFORMATIONSDIALOGRUTA"/>
+<string id="WarnDialogSubtitle" value="Information : "/>
+</context>
+</uitext>

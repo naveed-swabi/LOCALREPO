@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.crystalcommon.dotnet-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="61080">
+    <requiredDeploymentUnit ref="crystalreports.cpp.help-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.charthelp-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="F2E8B936-B70B-4FDE-BB9A-473CA05AD745"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

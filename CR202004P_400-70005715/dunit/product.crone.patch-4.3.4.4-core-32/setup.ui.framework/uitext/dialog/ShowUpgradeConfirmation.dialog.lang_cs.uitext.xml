@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="Message1" value="Aktualizace produktu"/>
+<string id="Message2" value="Byla zjištěna předchozí verze tohoto produktu. Budete-li pokračovat v instalaci, produkt bude aktualizován. Chcete-li pokračovat, klikněte na Další, chcete-li instalaci ukončit, klikněte na Zrušit."/>
+<string id="MessageUnix" value="Byla zjištěna předchozí verze produktu. Budete-li pokračovat v instalaci, produkt bude aktualizován. Chcete-li pokračovat, stiskněte [Enter], chcete-li instalaci ukončit, stiskněte [Ctrl-X]."/>
+</context>
+</uitext>

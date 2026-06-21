@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="DlgTitle" value="Bestandskoppeling"/>
+<string id="DlgSummary" value="Standaardtoepassing Crystal Reports-rapportviewer instellen."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer is momenteel niet als uw standaard Crystal Reports-rapportviewer ingesteld. Wilt u deze viewer uw standaardviewer maken?"/>
+<string id="Yes" value="Ja"/>
+<string id="No" value="Nee"/>
+</context>
+</uitext>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="DlgTitle" value="การอัปเกรดผลิตภัณฑ์"/>
+<string id="DlgSummary" value="ตรวจพบเวอร์ชันอื่นของผลิตภัณฑ์นี้"/>
+<string id="ProceedOrNot" value="ตรวจพบเวอร์ชันอื่นของ Crystal Reports Viewer ถ้าคุณดำเนินการติดตั้งนี้ต่อ เวอร์ชันนี้จะถูกอัปเกรดเป็น Crystal Reports Viewer 2010 ถ้าคุณต้องการดำเนินการต่อ ให้คลิก ถัดไป ถ้าคุณต้องการยกเลิกการติดตั้งนี้ ให้คลิก ยกเลิก เพื่อออกจากการติดตั้ง"/>
+</context>
+</uitext>

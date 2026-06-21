@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# wurde erfolgreich deinstalliert."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# konnte nicht deinstalliert werden."/>
+<string id="Description" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Deinstallation zu beenden."/>
+<string id="FailedDescription" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Deinstallation zu beenden."/>
+<string id="ShowUninstall_Footer" value="Drücken Sie []Strg-B], um zurückzugehen, oder die []Eingabetaste], um diese Deinstallation zu beenden."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Drücken Sie die []Eingabetaste], um diese Deinstallation zu beenden."/>
+<string id="CustomNextButton" value="Fertig stellen"/>
+<string id="ViewLogButton" value="Protokoll anzeigen"/>
+</context>
+</uitext>

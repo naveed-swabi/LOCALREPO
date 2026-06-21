@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# a été désinstallé."/>
+<string id="UninstallFailedMessage" value="La désinstallation de #product.fullproductnamenospace# a échoué."/>
+<string id="Description" value="Cliquez sur Terminer pour terminer la désinstallation."/>
+<string id="FailedDescription" value="Cliquez sur Terminer pour quitter la désinstallation."/>
+<string id="ShowUninstall_Footer" value="Appuyez sur []Ctrl-B] pour revenir en arrière ou sur []Entrée] pour quitter le programme de désinstallation."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Cliquez sur []Entrée] pour quitter le programme de désinstallation."/>
+<string id="CustomNextButton" value="Terminer"/>
+<string id="ViewLogButton" value="Afficher le journal"/>
+</context>
+</uitext>

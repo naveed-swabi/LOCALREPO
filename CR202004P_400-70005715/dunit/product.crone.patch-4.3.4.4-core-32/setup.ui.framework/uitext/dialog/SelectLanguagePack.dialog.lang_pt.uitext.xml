@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Selecionar pacotes de idiomas"/>
+<string id="SelectLanguagePackSubtitle" value="Selecionar todos os pacotes de idiomas adicionais com os quais os usuários irão interagir no produto."/>
+<string id="SelectLanguagePackFooter" value="Pressione []Tab], []Seta para cima] ou []Seta para baixo] para destacar, []Espaço] ou []X] para alternar o estado, []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+<string id="alllang" value="Todos os idiomas"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="A propriedade SelectedLanguagePacks '[SelectedLanguagePacks]' deve incluir o locale do sistema."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="A propriedade SelectedLanguagePacks '[SelectedLanguagePacks]' deve incluir 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="A propriedade SelectedLanguagePacks '[SelectedLanguagePacks]' deve ser um subconjunto dos pacotes de idioma disponíveis."/>
+</context>
+</uitext>

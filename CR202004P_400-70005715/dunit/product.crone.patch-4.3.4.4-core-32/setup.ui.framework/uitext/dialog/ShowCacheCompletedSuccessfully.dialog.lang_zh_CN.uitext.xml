@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Title" value="分阶段安装"/>
+<string id="SubTitle" value="高速缓存已完成"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="按 [Enter] 退出分阶段安装"/>
+<string id="Description" value="要继续高速缓存后安装，请重新执行安装文件。在高速缓存后安装期间，会有系统停机时间。用户可以在维护时间可用时执行此阶段的安装。"/>
+<string id="FinishMessage" value="单击“完成”退出分阶段安装。"/>
+<string id="Finish" value="完成"/>
+</context>
+</uitext>

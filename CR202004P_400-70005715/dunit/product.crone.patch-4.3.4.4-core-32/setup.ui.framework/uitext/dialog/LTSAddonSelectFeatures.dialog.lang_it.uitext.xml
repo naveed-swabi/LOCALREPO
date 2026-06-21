@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="SelectFeaturesTitle" value="Seleziona funzionalità"/>
+<string id="SelectFeaturesSubtitle" value="Selezionare le funzionalità che si desidera installare."/>
+<string id="SelectFeaturesFooter" value="Premere []Tab], []Su] o []Giù] per evidenziare, []Barra spaziatrice] per espandere, []X] per attivare/disattivare lo stato, []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per  continuare."/>
+<string id="DiskCost" value="Spazio su disco"/>
+<string id="Drive Select" value="Si sta selezionando"/>
+<string id="Disk Costing" value="Spazio su disco"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Dimensione disco"/>
+<string id="Available" value="Disponibile"/>
+<string id="Required" value="Richiesto"/>
+<string id="Difference" value="Differenza"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Riprova"/>
+<string id="Cancel" value="Annulla"/>
+<string id="Invalid_DiskSpace" value="Non si dispone di spazio sufficiente per installare il prodotto. Liberare spazio su disco oppure selezionare un altro percorso di installazione. Spazio richiesto: [RequiredSpace] byte."/>
+</context>
+</uitext>

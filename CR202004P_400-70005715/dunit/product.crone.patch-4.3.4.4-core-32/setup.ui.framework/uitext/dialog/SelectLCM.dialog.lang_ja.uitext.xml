@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="SelectLCMTitle" value="バージョン管理の選択"/>
+<string id="SelectLCMSubtitle" value="デフォルトバージョン管理システムをインストールするか、既存のシステムをバージョン管理に使用するかを選択します。"/>
+<string id="SelectLCMFooter" value="選択するには []Tab]、[]上矢印]、または []下矢印] キーを押します。戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+<string id="NewLCMInstall" value="Subversion を設定およびインストールします"/>
+<string id="ExistingLCMInstall" value="この時点ではバージョン管理システムを設定しない"/>
+<string id="Invalid_SelectLCM" value="無効な NewOrExistingLCM タイプ ([NewOrExistingLCM]): '新規' または '既存' である必要があります。INS00284"/>
+</context>
+</uitext>

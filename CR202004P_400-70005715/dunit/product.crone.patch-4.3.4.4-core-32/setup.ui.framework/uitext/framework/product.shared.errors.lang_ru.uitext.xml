@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="ru"/>
+  <context>
+    <string id="INS00270" value="Ошибка MSI %1 при установке %2. (INS00270)"/>
+    <string id="INS00271" value="Ошибка MSI %1 при удалении %2. (INS00271)"/>
+    <string id="INS00272" value="Ошибка (%1) в файле %2 при установке %3. (INS00272)"/>
+    <string id="INS00273" value="Ошибка (%1) в файле %2 при удалении %3. (INS00273)"/>
+  </context>
+</uitext>

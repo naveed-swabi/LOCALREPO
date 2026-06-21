@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Die Installation kann nicht fortgesetzt werden"/>
+<string id="ExpandInstallMessage_2" value="Beschreiben Sie die Blockierungen, die eine Fortsetzung der Installation verhindern"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Drücken Sie STRG-X, um die Installation zu beenden"/>
+<string id="AlwaysFailureGeneralMessage" value="Installation kann nicht fortgesetzt werden\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

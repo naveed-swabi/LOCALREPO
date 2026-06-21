@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.com.core-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="4539625">
+    <requiredDeploymentUnit ref="foundation.bcm.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.locale_fallback.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.library.common-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.com.instrumentation-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.content-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.apache.xerces.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="D02DF6BA-03EA-45CB-8876-CB709CAF6881"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

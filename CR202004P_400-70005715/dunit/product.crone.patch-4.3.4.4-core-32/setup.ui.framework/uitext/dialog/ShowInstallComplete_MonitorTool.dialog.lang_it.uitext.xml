@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# è stata installata correttamente."/>
+<string id="Description" value="Fare clic su Fine per uscire dall'installazione."/>
+<string id="MonitorToolCheck" value="Esegui Software Monitoring Tool"/>
+<string id="CustomNextButton" value="Fine"/>
+</context>
+</uitext>

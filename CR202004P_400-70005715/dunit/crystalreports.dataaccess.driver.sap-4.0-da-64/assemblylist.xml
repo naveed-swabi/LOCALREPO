@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="crdb_infoset_res_da.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="364544"/>
+    <file name="crdb_opensql_res_da.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="365056"/>
+    <file name="crdb_ods_res_da.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="363520"/>
+    <file name="crdb_bwmdx_res_da.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="16384"/>
+  </sourcedir>
+</assembly>

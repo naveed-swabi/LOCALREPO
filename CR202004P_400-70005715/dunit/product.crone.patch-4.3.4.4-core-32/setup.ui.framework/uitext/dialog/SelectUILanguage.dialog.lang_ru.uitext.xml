@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="SelectedInvalidLocale" value="Вы ввели неподдерживаемые региональные параметры."/>
+<string id="SetupLanguageTitle" value="Выбор языка программы установки"/>
+<string id="SetupLanguageSubtitle" value="Выберите язык установки."/>
+<string id="SetupLanguageUnixSubtitle" value="Выберите язык установки."/>
+<string id="CreateLogFile" value="Создание файла журнала во время установки"/>
+<string id="Invalid_SetupLanguage" value="Недопустимый язык установки ([SetupUILanguage]): допускаются только языки из следующего списка &quot;[$available.ui.langs]&quot;. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="Недопустимое значение IsEnableSetupLog ([IsEnableSetupLog]): допускаются только значения 0 и 1."/>
+<string id="SelectUILanguageFooter" value="Нажмите []Tab], []ВВЕРХ] или []ВНИЗ] для выбора, []Ctrl-X] для выхода или []Enter] для продолжения."/>
+</context>
+</uitext>

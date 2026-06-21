@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="Message" value="Avinstalleringsbekreftelse"/>
+<string id="Description" value="Dette vil fjerne #product.fullproductnamenospace# fra maskinen."/>
+<string id="ConfirmUninstall" value="Er du sikker på at du vil avinstallere?"/>
+<string id="ConfirmUninstall_Footer" value="Trykk på []Ctrl-B] for å gå tilbake, []Ctrl-X] for å avslutte eller []Enter] for å fortsette."/>
+</context>
+</uitext>

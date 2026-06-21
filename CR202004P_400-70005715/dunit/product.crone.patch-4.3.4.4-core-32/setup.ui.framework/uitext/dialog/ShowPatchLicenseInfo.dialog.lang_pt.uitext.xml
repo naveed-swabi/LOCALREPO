@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="LicenseAgreement" value="Obrigatoriedade de uma nova chave de licença"/>
+<string id="YouMustAgree" value="É necessária uma nova chave de licença para o #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="É necessária uma nova chave de licença para o #product.fullproductname#."/>
+<string id="IAccept" value="Li a documentação e compreendo o processo para solicitar a nova chave de licença, e concordo em excluir a chave de licença antiga  e adicionar a nova chave de licença após a instalação da atualização."/>
+<string id="subtitle1" value="O #product.fullproductname# exige uma nova chave de licença."/>
+<string id="subtitle2" value="Solicite a nova chave de licença. Para mais informações sobre como solicitar essa chave, visite"/>
+<string id="subtitle3" value="Após a conclusão da instalação de #product.fullproductname#, efetue login no Central Management Console (CMC); exclua a chave de licença antiga e adicione a nova chave de licença. Todos os serviços estarão desabilitados até você adicionar a nova chave de licença."/>
+<string id="subtitle4" value="Solicite a nova chave de licença aqui"/>
+<string id="AcceptOrNotAccept" value="Pressione &lt;ENTER&gt; para concordar em excluir a chave de licença antiga e adicionar a nova chave de licença após a instalação da atualização."/>
+<string id="Description_Patch_License" value="O #product.fullproductname# requer uma nova chave de licença.\n\nSolicite a nova chave de licença. Para mais informações sobre como solicitar essa chave, visite http://scn.sap.com/docs/DOC-70095. \n\nDepois de concluir a instalação do #product.fullproductname#, acesse o Central Management Console (CMC), exclua a antiga chave de licença e adicione a nova chave. Enquanto a nova chave não for adicionada, todos os serviços ficarão desabilitados."/>
+</context>
+</uitext>

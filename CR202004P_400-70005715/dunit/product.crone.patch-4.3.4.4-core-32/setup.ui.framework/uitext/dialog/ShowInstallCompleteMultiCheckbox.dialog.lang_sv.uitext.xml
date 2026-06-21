@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# har installerats utan fel."/>
+<string id="SuccessInstallDescription" value="Klicka på Slutför för att avsluta installationen."/>
+<string id="FailureInstallTitle" value="Fel har upptäckts i #product.fullproductnamenospace# under installationen."/>
+<string id="FailureInstallDescription" value="Klicka på Slutför för att avsluta installationen."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# har avinstallerats utan fel."/>
+<string id="SuccessUnInstallDescription" value="Klicka på Slutför för att avsluta avinstallationen."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# har installerats utan varningar."/>
+<string id="FailureUnInstallTitle" value="Fel har upptäckts i #product.fullproductnamenospace# vid avinstallation."/>
+<string id="FailureUnInstallDescription" value="Klicka på Slutför för att avsluta avinstallationen."/>
+<string id="FinishButton" value="Slutför"/>
+<string id="ViewLogButton" value="Visa logg"/>
+<string id="LaunchWDeploy" value="Starta verktyget WDeploy automatiskt efter installationen."/>
+<string id="LaunchSSW" value="Starta guiden för systeminställning"/>
+<string id="HyperlinkText" value="Klicka här för att visa detaljer"/>
+</context>
+</uitext>

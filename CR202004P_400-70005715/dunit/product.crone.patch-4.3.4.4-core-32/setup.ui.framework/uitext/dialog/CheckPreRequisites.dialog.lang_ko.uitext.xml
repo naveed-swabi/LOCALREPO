@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="필수 조건 확인"/>
+<string id="CheckPreRequisitesSubTitle" value="중요 필수 조건 또는 옵션 필수 조건 중 누락된 항목 요약입니다."/>
+<string id="PreRequsitiesDetails" value="옵션 종속성이 누락되면 일부 구성 요소가 설치되지 않을 수 있지만, 중요 종속성이 누락되면 이 문제를 해결해야만 설치를 계속할 수 있습니다."/>
+<string id="AcceptKBAInfo" value="SAP 지식 베이스 자료 1794601을 읽고 예정된 업데이트 권장/지원을 위해 공유된 정보를 검토했습니다."/>
+<string id="AcceptKBAInfoUnix" value="SAP 지식 베이스 자료 1794601을 읽고 예정된 업데이트 권장/지원을 위해 공유된 정보를 검토한 후 []Enter]를 누르십시오."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="필수 조건"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="유형"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="상태"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="필수"/>
+<string id="Column_Type_Optional" value="옵션"/>
+<string id="Column_Status_Succeeded" value="성공"/>
+<string id="Column_Status_Missing" value="실패"/>
+<string id="Hints_Why_Fails" value="필수 조건이 충족되지 않은 경우, 해당 항목을 클릭하여 해결 방법 정보를 확인하십시오."/>
+<string id="Failure_Reason" value="정보:"/>
+<string id="PreRequisitesUIText_Failure" value="필수 조건 확인에 실패했습니다."/>
+<string id="Retry_Button" value="다시 시도"/>
+<string id="Back_Button" value="뒤로"/>
+</context>
+</uitext>

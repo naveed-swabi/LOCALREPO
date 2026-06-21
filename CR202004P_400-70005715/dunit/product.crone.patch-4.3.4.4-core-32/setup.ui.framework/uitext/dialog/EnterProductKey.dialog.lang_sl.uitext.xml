@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="InvalidProductKey" value="Vnesli ste neveljavno kodo produkta."/>
+<string id="EnterProductKeyTitle" value="Konfiguracija registracije produkta"/>
+<string id="EnterProductKeySubtitle" value="Vnesite ključ produkta #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Pritisnite []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+<string id="ProductkeyInfoGroup" value="Informacije o ključu produkta"/>
+<string id="ProductkeyLabel" value="Koda produkta:"/>
+<string id="Invalid_ProductKey" value="Koda produkta ni veljavna. INS00140"/>
+</context>
+</uitext>

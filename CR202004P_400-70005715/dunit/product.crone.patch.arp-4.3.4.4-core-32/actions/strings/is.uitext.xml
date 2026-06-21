@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uitext>
+  <language langcode="is"/>
+  <context>
+    <string id="productname_language" value="i#product_language#i"/>
+    <string id="productname_version" value="i#product_cr_version#i"/>
+    <string id="DialogCaption" value="iTuotteen #product.fullproductnamenospace# päivitysi"/>
+    <string id="productname_patch_prespace" value="i#product_patch_prespace#i"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="product.cr_name" value="iSAP Crystal Reportsi"/>
+    <string id="productname" value="i#product.cr_name#i"/>
+    <string id="product_sp_version" value=" SP4"/>
+    <string id="product.fullproductnamenospace" value="i#productname_patch_prespace# für #productname# #productname_version##productname_language#i"/>
+    <string id="product_language" value="ii"/>
+    <string id="product_cr_version" value="2020"/>
+  </context>
+</uitext>

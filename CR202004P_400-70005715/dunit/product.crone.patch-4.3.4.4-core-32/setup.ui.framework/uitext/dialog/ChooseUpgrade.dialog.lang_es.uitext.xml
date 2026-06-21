@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="UnknownChooseUpgrade" value="ChooseUpgrade especificado desconocido. Los valores válidos son: 0 o 1"/>
+<string id="ChooseUpgrade" value="Se ha detectado la versión anterior de #productname#"/>
+<string id="SelectUpgrade" value="Seleccione si realizar una instalación de actualización."/>
+<string id="SideBySide" value="Realizar instalación simultánea"/>
+<string id="SideBySideDescription" value="Instala esta versión de #productname# junto con la versión instalada actualmente."/>
+<string id="SimpleUpgrade" value="Realizar actualización simple"/>
+<string id="SimpleUpgradeDescription" value="Se ha detectado una versión anterior de #productname#. Debe desinstalar la versión anterior antes de continuar o seleccione esta opción para realizar una actualización en el lugar."/>
+<string id="Invalid_ChooseUpgrade" value="ChooseUpgrade ([ChooseUpgrade]) no válido: debe ser solamente 0 o 1"/>
+</context>
+</uitext>

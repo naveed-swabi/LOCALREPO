@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Title" value="설치 모드 선택"/>
+<string id="SubTitle" value="설치 모드 선택"/>
+<string id="Standard_InstallationName" value="표준 설치"/>
+<string id="Standard_InstallationText" value="단일 단계로 설치가 수행됩니다."/>
+<string id="PhaseWise_InstallationName" value="단계별 설치"/>
+<string id="PhaseWise_InstallationText" value="&quot;캐싱&quot;과 &quot;캐싱 후 설치&quot;의 2단계로 설치가 진행됩니다. 캐싱 과정 중에는 시스템 다운타임이 없습니다. 캐싱 후 설치 단계에서는 실제 설치가 진행되므로 시스템 다운타임이 있습니다."/>
+<string id="CachingCompletedSubTitle" value="캐싱 완료"/>
+<string id="Resume_InstallationSubTitle" value="캐싱 후 설치를 다시 시작합니다. 캐싱 후 설치는 실제 설치 프로세스이므로 시스템 다운타임이 있습니다."/>
+<string id="ShowWayOfInstallFooter" value="뒤로 이동하려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 설치하려면 []Enter] 키를 누르십시오."/>
+</context>
+</uitext>

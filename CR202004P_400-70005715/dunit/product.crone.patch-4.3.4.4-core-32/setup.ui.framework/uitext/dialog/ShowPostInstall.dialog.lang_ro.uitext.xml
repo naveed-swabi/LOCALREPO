@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Etape post-instalare"/>
+<string id="PostInstallDetails" value="Instalare este finalizată. Urmaţi instrucţiunile post-instalare de mai jos pt. a finaliza implementarea dvs."/>
+<string id="PostUninstallSteps" value="Înregistrare etape dezinstalare"/>
+<string id="PostUninstallDetails" value="Dezinstalarea este aproape finalizată. Urmaţi instrucţiunile de mai jos pt. finalizarea procesului."/>
+<string id="PostInstallStep_Header" value="{b}Instrucţiuni post-instalare:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Instrucţiuni post-instalare:"/>
+<string id="PostUninstallStep_Header" value="{b}Înregistrare instrucţiuni de dezinstalare:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Înregistrare instrucţiuni dezinstalare:"/>
+<string id="CRPostInstallUIText1" value="Înregistrare produs{br}Înregistraţi produsul online făcând clic: {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}aici{/a}."/>
+<string id="PostInstallStep_Footer" value="Instalare este finalizată. Apăsaţi []Enter] pt. a continua"/>
+<string id="PostUnInstallStep_Footer" value="Dezinstalarea este finalizată. Apăsaţi []Enter] pt. a continua"/>
+</context>
+</uitext>

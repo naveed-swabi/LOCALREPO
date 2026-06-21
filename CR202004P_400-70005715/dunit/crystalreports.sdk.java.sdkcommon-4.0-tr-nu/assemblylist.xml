@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/crystalreports.sdk.java/java">
+    <file name="CrystalReportsSDK_tr.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="24128"/>
+  </sourcedir>
+</assembly>

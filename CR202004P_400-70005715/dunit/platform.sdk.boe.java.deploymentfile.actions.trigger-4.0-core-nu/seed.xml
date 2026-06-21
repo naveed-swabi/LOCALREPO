@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.java.deploymentfile.actions.trigger-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" activation="static" sizeInCache="410">
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall/>
+  <install/>
+</duseed>

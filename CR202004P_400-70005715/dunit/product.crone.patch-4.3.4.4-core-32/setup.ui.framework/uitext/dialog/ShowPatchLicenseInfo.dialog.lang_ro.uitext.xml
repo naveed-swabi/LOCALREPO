@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="LicenseAgreement" value="Solicitare pt. cheie de licenţă nouă"/>
+<string id="YouMustAgree" value="O nouă cheie de licenţă este necesară pt. #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="O nouă cheie de licenţă este necesară pt. #product.fullproductname#."/>
+<string id="IAccept" value="Am citit documentaţia în întregime, înţeleg procesul de solicitare a noii chei de licenţă şi sunt de acord cu ştergerea vechii chei de licenţă şi adăugarea chei de licenţă noi după instalarea actualizării."/>
+<string id="subtitle1" value="#product.fullproductname# necesită o nouă cheie de licenţă."/>
+<string id="subtitle2" value="Solicitați noua cheie de licență. Pt. mai multe informații privind solicitarea cheii de licență, vizitați"/>
+<string id="subtitle3" value="După ce instalarea #product.fullproductname# este finalizată, conectaţi-vă la Central Management Console (CMC); ştergeţi vechea cheie de licenţă şi adăugaţi cheie de licenţă nouă. Toate serviciile sunt dezactivate până la adăugarea noii chei de licenţă."/>
+<string id="subtitle4" value="Solicitaţi noua cheie de licenţă aici"/>
+<string id="AcceptOrNotAccept" value="Apăsaţi &lt;ENTER&gt; pentru a confirma ştergerea cheii de licenţă vechi şi a adăuga cheia de licenţă nouă, după instalarea actualizării."/>
+<string id="Description_Patch_License" value="#product.fullproductname# necesită o cheie de licență nouă.\n\nSolicitați cheia de licență nouă. Pt. mai multe informații privind solicitarea cheii de licență, vizitați http://scn.sap.com/docs/DOC-70095. \n\nDupă ce instalarea #product.fullproductname# este terminată, conectați-vă la Central Management Console (CMC); ștergeți cheia de licență veche și adăugați cheia de licență nouă. Până când adăugați cheia de licență nouă, toate serviciile sunt dezactivate."/>
+</context>
+</uitext>

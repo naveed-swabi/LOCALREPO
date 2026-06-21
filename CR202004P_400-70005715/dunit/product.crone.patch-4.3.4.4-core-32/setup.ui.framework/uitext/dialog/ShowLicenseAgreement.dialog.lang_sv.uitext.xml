@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="NotAcceptedEULA" value="Du måste godkänna EULA-avtalet. Avslutar."/>
+<string id="LicenseAgreement" value="Licensavtal"/>
+<string id="YouMustAgree" value="Du måste godkänna licensavtalet för att kunna fortsätta."/>
+<string id="IAccept" value="Jag accepterar licensavtalet"/>
+<string id="IDoNotAccept" value="Jag accepterar inte licensavtalet"/>
+<string id="Invalid_IsAcceptEULA" value="Ogiltigt värde för IsAcceptEULA ([IsAcceptEULA]): det kan endast vara 0 eller 1"/>
+<string id="AcceptOrNotAccept" value="Tryck på &lt;RETUR&gt; för att acceptera, &lt;CTRL-X&gt; för att inte acceptera"/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="PreviousVersionDetected" value="以前のバージョンの #product.nameonly# が検出されました"/>
+<string id="PreviousVersionDetectedSub" value="アップグレードインストールまたは並列インストールのいずれを実行するかを選択してください"/>
+<string id="UpgradeInstallBtn" value="アップグレードインストールを実行"/>
+<string id="SideBySideInstallBtn" value="並列インストールを実行"/>
+<string id="UpgradeInstallMsg" value="現在インストールされているバージョンの #product.nameonly# をこのバージョンで置き換えます"/>
+<string id="SideBySideInstallMsg" value="このバージョンの #product.nameonly# を現在インストールされているバージョンとは別にインストールします"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="無効なインストールモード ([InstallCompatibilityMode]): アップグレードまたは並列である必要があります"/>
+</context>
+</uitext>

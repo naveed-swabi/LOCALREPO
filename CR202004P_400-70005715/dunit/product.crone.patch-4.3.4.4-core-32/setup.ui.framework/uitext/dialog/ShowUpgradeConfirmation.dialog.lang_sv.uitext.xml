@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Message1" value="Produktuppdatering"/>
+<string id="Message2" value="En tidigare version av produkten har upptäckts. Fortsätter du med installationen kommer produkten att uppdateras. Klicka på Nästa för att fortsätta eller på Avbryt för att avsluta installationen."/>
+<string id="MessageUnix" value="En tidigare version av produkten har upptäckts. Fortsätter du med installationen kommer produkten att uppdateras. Tryck på [Retur] för att fortsätta eller på [Ctrl-X] för att avsluta installationen."/>
+</context>
+</uitext>

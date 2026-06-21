@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="SelectLCMTitle" value="Vybrať správu verzií"/>
+<string id="SelectLCMSubtitle" value="Vyberte, či sa má nainštalovať predvolený systém riadenia verzií alebo sa má použiť existujúci systém na správu verzií."/>
+<string id="SelectLCMFooter" value="Ak chcete vyberať, stlačte kláves []Tab], []šípka nahor] alebo []šípka nadol]. Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete pokračovať, stlačte kláves []Enter]."/>
+<string id="NewLCMInstall" value="Konfigurovať a inštalovať podverziu"/>
+<string id="ExistingLCMInstall" value="Teraz nekonfigurovať systém riadenia verzií"/>
+<string id="Invalid_SelectLCM" value="Neplatný typ NewOrExistingLCM ([NewOrExistingLCM]): Hodnota má byť nové alebo existujúce. INS00284"/>
+</context>
+</uitext>

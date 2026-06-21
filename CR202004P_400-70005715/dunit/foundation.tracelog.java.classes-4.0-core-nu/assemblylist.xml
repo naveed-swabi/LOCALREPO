@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Foundation/java">
+    <file name="TraceLog.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="607397"/>
+  </sourcedir>
+</assembly>

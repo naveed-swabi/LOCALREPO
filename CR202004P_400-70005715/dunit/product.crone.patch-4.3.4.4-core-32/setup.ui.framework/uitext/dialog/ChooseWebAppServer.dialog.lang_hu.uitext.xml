@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Java webalkalmazás-szerver kiválasztása"/>
+<string id="ChooseWebAppServerSubtitle" value="Itt választható Java webalkalmazás-szerver."/>
+<string id="ChooseWebAppServerFooter" value="Nyomja meg a []Tab], []Fel], vagy []Le] billentyűt a kiválasztáshoz, a []Ctrl-B] billentyűkombinációt a visszalépéshez, a []Ctrl-X] billentyűkombinációt a kilépéshez, illetve az []Enter] billentyűt a folytatáshoz."/>
+<string id="InstallJWAS" value="Java webalkalmazás és szerverek telepítése"/>
+<string id="InstallTomcat" value="A Tomcat Java webalkalmazások szerverének telepítése és a webalkalmazások automatikus üzembe helyezése"/>
+<string id="ManualDeploy" value="A webalkalmazások manuális üzembe helyezése támogatott Java webalkalmazás-szerveren a telepítés után"/>
+<string id="InstallWACS" value="A webalkalmazások tárolószerverének telepítése és a webalkalmazások és automatikus üzembe helyezése"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects integrációs lehetőség a Microsoft SharePoint 4.0 programhoz"/>
+<string id="SharePointIntegrationText" value="Az SAP BusinessObjects integrációs lehetőség a Microsoft SharePoint 4.0 programhoz a Sharepoint 64 bites verziójának bővítményeket tartalmazó mappájában található, és külön telepíthető. A bővítmények mappájának hivatkozását a telepítés utáni utasítások között találja."/>
+<string id="SharePointIntegrationCheck" value="Jelenjen meg a bővítmények mappájának helye a telepítés végén"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="A UseIntegratedWebAppServer értéke érvénytelen ([UseIntegratedWebAppServer]). A lehetséges értékek: 0 és 1. INS00255"/>
+</context>
+</uitext>

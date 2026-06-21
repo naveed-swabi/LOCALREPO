@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Message" value="Produkt #product.fullproductnamenospace# sa úspešne nainštaloval."/>
+<string id="InstallFailedMessage" value="Počas procesu inštalácie produktu #product.fullproductnamenospace# sa vyskytli chyby."/>
+<string id="UninstallFailedMessage" value="Počas procesu odinštalovania produktu #product.fullproductnamenospace# sa vyskytli chyby."/>
+<string id="UninstallMessage" value="Produkt #product.fullproductnamenospace# sa úspešne odinštaloval."/>
+<string id="InstallationWithWarnings" value="Produkt #product.fullproductnamenospace# sa úspešne nainštaloval s upozorneniami."/>
+<string id="Description" value="Ak chcete ukončiť túto inštaláciu, kliknite na tlačidlo Dokončiť."/>
+<string id="FailedDescription" value="Ak chcete ukončiť túto inštaláciu, kliknite na tlačidlo Dokončiť."/>
+<string id="Description_unix" value="Ak sa chcete vrátiť späť, stlačte []Ctrl-B]. Ak chcete skončiť túto inštaláciu, stlačte []Enter]."/>
+<string id="Customized_Description_unix" value="Ak chcete skončiť túto inštaláciu, stlačte kláves []Enter]."/>
+<string id="FailedDescription_unix" value="Ak chcete zobraziť ďalšie podrobnosti, stlačte kláves []D]. Ak chcete skončiť túto inštaláciu, stlačte kláves []Enter]."/>
+<string id="CustomNextButton" value="Dokončiť"/>
+<string id="ViewLogButton" value="Zobraziť denník"/>
+<string id="HyperlinkText" value="Kliknutím sem zobrazíte podrobnosti"/>
+</context>
+</uitext>

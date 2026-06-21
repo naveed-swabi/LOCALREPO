@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="InvalidProductKey" value="Wprowadzony klucz produktu nie został rozpoznany jako prawidłowy."/>
+<string id="EnterProductKeyTitle" value="Konfiguracja rejestracji produktu"/>
+<string id="EnterProductKeySubtitle" value="Wprowadź klucz produktu #product.nameandversionwithoutpatch#."/>
+<string id="ProductkeyLabel" value="Klucz produktu:"/>
+<string id="ProductkeyInfoGroup" value="Informacje o kluczu produktu"/>
+<string id="Invalid_ProductKey" value="Klucz produktu nie jest prawidłowy. INS00140"/>
+</context>
+</uitext>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.sdk.boe.java/java">
+    <file name="secPSE1.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="18279"/>
+  </sourcedir>
+</assembly>

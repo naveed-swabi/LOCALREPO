@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="PreviousVersionDetected" value="Tidligere version af #product.nameonly# fundet"/>
+<string id="PreviousVersionDetectedSub" value="Vælg, om der skal udføres en opgradering eller en side om side-installation"/>
+<string id="UpgradeInstallBtn" value="Installer opgradering"/>
+<string id="SideBySideInstallBtn" value="Udfør installation side om side"/>
+<string id="UpgradeInstallMsg" value="Udskift den aktuelt installerede version af #product.nameonly# med denne version"/>
+<string id="SideBySideInstallMsg" value="Installerer denne version af #product.nameonly# ud over den aktuelt installerede version"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Ugyldig installationstilstand ([InstallCompatibilityMode]): Skal være opgradering eller side om side"/>
+</context>
+</uitext>

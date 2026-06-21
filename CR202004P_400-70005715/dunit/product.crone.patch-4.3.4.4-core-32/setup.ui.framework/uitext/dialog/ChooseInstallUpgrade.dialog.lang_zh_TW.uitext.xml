@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="PreviousVersionDetected" value="偵測到舊版的 #product.nameonly#"/>
+<string id="PreviousVersionDetectedSub" value="選取要執行升級或並排安裝"/>
+<string id="UpgradeInstallBtn" value="執行升級安裝"/>
+<string id="SideBySideInstallBtn" value="執行並排安裝"/>
+<string id="UpgradeInstallMsg" value="以此版本取代目前已安裝的 #product.nameonly#版本"/>
+<string id="SideBySideInstallMsg" value="並存安裝本版本的 #product.nameonly#和目前已安裝的版本"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="安裝模式無效 ([InstallCompatibilityMode]): 它應為升級或並排"/>
+</context>
+</uitext>

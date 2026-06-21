@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="RebootWarning" value="Osa tiedostoista lukittiin asennuksessa, minkä vuoksi asennusohjelma ei voinut päivittää niitä. Järjestelmän uudelleen käynnistämistä voi lykätä, mutta on suositeltavaa käynnistää se uudelleen, ennen kuin tuotetta käytetään."/>
+<string id="RebootQuestion" value="Haluatko käynnistää tietokoneen uudelleen nyt?"/>
+<string id="RestartLater" value="Käynnistä uudelleen myöhemmin"/>
+<string id="RestartNow" value="Käynnistä uudelleen nyt"/>
+</context>
+</uitext>

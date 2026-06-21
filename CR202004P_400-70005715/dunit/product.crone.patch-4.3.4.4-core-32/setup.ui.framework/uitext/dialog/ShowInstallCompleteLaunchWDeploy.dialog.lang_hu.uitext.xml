@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# sikeresen telepítve."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# hibákat észlelt a telepítési folyamat során."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# hibákat észlelt az eltávolítási folyamat során."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# sikeresen eltávolítva."/>
+<string id="InstallationWithWarnings" value="A(z) #product.fullproductnamenospace# sikeresen telepítve, figyelmeztetésekkel."/>
+<string id="Description" value="A kilépéshez kattintson a Befejezés gombra."/>
+<string id="FailedDescription" value="A kilépéshez kattintson a Befejezés gombra."/>
+<string id="Description_unix" value="A kilépéshez nyomja meg az []Enter] billentyűt."/>
+<string id="FailedDescription_unix" value="A részletekért nyomja meg a []D] billentyűt, a kilépéshez pedig az []Enter] billentyűt."/>
+<string id="LaunchWDeploy" value="A wDeploy eszköz automatikus indítása."/>
+<string id="LaunchWDeployUNIX" value="Ha a telepítő kilép, indítsa el az  [Enterprise-könyvtár]wdeploy/wdeployGUI.sh parancsfájlt."/>
+<string id="CustomNextButton" value="Befejezés"/>
+<string id="ViewLogButton" value="Napló megtekintése"/>
+<string id="HyperlinkText" value="Kattintson ide a részletekért"/>
+</context>
+</uitext>

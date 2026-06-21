@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="NotAcceptedEULA" value="U moet akkoord gaan met de licentieovereenkomst voor eindgebruikers. Bezig met afsluiten."/>
+<string id="LicenseAgreement" value="Licentieovereenkomst"/>
+<string id="YouMustAgree" value="U moet akkoord gaan met de licentievoorwaarden om verder te gaan."/>
+<string id="IAccept" value="Ik ga akkoord met de licentieovereenkomst"/>
+<string id="IDoNotAccept" value="Ik ga niet akkoord met de licentieovereenkomst"/>
+<string id="Invalid_IsAcceptEULA" value="IsAcceptEULA ([IsAcceptEULA]) ongeldig: dit kan alleen 1 zijn"/>
+<string id="AcceptOrNotAccept" value="Druk op &lt;ENTER&gt; om akkoord te gaan of op &lt;CTRL-X&gt; om niet akkoord te gaan"/>
+</context>
+</uitext>

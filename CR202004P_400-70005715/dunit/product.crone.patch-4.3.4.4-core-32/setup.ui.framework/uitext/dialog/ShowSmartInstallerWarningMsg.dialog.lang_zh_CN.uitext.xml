@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="验证指定的安装路径正确，以成功完成所需安装。\n\n 对于全新安装 － 新文件目录。\n 对于修补程序安装 － 先前安装 #productname# 版本的文件目录。\n\n\n 单击“确定”继续，或单击“退出”重新输入正确的安装路径。\n"/>
+<string id="ExitMessage" value="按 Ctrl+X 退出，或者按 Enter 继续。"/>
+<string id="WarnDialogTitle" value="信息对话框"/>
+<string id="WarnDialogSubtitle" value="信息："/>
+</context>
+</uitext>

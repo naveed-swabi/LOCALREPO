@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="ChooseSldServerLocation" value="SLD サーバの場所の選択"/>
+<string id="SpecifySldServerLocation" value="SLD サーバの場所を入力してください"/>
+<string id="SldHostnameExample" value="SLD サーバのアドレスを入力してください (例: http://sld.server.com/)"/>
+<string id="SldInputInformation" value="ログイン情報を入力してください。"/>
+<string id="SldHostname" value="ホスト名"/>
+<string id="SldPort" value="ポート"/>
+<string id="SldUsername" value="ユーザ名"/>
+<string id="SldPassword" value="パスワード"/>
+</context>
+</uitext>

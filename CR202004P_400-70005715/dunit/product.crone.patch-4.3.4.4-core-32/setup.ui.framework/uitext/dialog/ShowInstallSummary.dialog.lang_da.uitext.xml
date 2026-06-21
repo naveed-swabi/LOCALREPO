@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Start installation"/>
+<string id="ShowInstallSummarySubtitle" value="Installationen er klar til at installere #product.fullproductnamenospace#. Klik på Tilbage for at ændre installationsoplysninger. \n\n Klik på Næste for at starte installationen. "/>
+<string id="ShowInstallSummaryUnixDescription" value="Er du klar til at installationsguiden #product.fullproductnamenospace# starter installationen? "/>
+<string id="ShowInstallSummaryFooter" value="Tryk på []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte, eller []Enter] for at installere."/>
+<string id="DiskCost" value="Nødvendig diskplads"/>
+<string id="Drive Select" value="Du vælger"/>
+<string id="Disk Costing" value="Beregner nødvendig diskplads"/>
+<string id="Volume" value="Volumen"/>
+<string id="Disk Size" value="Diskstørrelse"/>
+<string id="Available" value="Tilgængelig"/>
+<string id="Required" value="Obligatorisk"/>
+<string id="Difference" value="Forskel"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Prøv igen"/>
+<string id="Cancel" value="Annuller"/>
+<string id="ShowCacheSummaryTitle" value="Fasevis installation"/>
+<string id="ShowCacheSummarySubtitle" value="Start cachelagring"/>
+<string id="ShowCacheSummaryDescription" value="Cachelagring er processen for kopiering af softwaren til installationsmappen. Under cachelagring er der ingen systemnedetid, og du kan fortsætte med at arbejde i systemet."/>
+<string id="Invalid_DiskSpace" value="Der er ikke tilstrækkelig fri diskplads til at installere produktet. Frigiv diskplads, eller vælg en anden placering til installationen. Tilgængelig plads: [AvailableSpace] MB. Pladskrav [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Under installation efter cachelagring installeres softwaren i systemet med noget systemnedetid."/>
+<string id="ShowResumetitle" value="Fasevis installation"/>
+<string id="ShowResumeSubtitle" value="Fortsæt installation"/>
+<string id="ShowResumeFooter" value="Tryk på []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte, eller []Enter] for at installere."/>
+<string id="MessageCache" value="Klik på Næste for at begynde cachelagringsfasen."/>
+<string id="MessageResume" value="Klik på Næste for at begynde installationen."/>
+</context>
+</uitext>

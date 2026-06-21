@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="ja"/>
+  <context>
+    <string id="Yes" value="はい"/>
+    <string id="No" value="いいえ"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="キャンセル"/>
+    <string id="Abort" value="中止"/>
+    <string id="Continue" value="続行"/>
+    <string id="Ignore" value="無視"/>
+    <string id="Next" value="次へ"/>
+    <string id="Previous" value="戻る"/>
+    <string id="Info" value="情報"/>
+    <string id="Warning" value="警告"/>
+    <string id="Error" value="エラー"/>
+    <string id="FatalError" value="致命的なエラー"/>
+    <string id="ErrorDialogTitle" value="エラー"/>
+    <string id="ErrorDialogSubtitle" value="エラーが発生しました。"/>
+    <string id="ErrorDialogFooter" value="続行する場合は Enter を押します。"/>
+    <string id="WarnDialogTitle" value="警告"/>
+    <string id="WarnDialogSubtitle" value="警告が発生しました。"/>
+    <string id="WarnDialogFooter" value="戻る場合は Ctrl+B、続行する場合は Enter を押します。"/>
+    <string id="InfoDialogTitle" value="情報"/>
+    <string id="InfoDialogSubtitle" value="次の情報が入力されています:"/>
+    <string id="InfoDialogFooter" value="続行する場合は Enter を押します。"/>
+    <string id="DefaultUnixFooter" value="次のフィールドに移動する場合は Tab、前のフィールドに戻る場合は Ctrl+B、終了する場合は Ctrl+X、続行する場合は Enter を押します。"/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="次のフィールドに移動する場合は Tab、終了する場合は Ctrl+X、続行する場合は Enter キーを押します。"/>
+    <string id="ProgressDialogUnixFooter" value="終了する場合は Ctrl+X を押します。"/>
+    <string id="CancelCaption" value="キャンセル"/>
+    <string id="CancelExitSetup" value="セットアップの終了"/>
+    <string id="CancelMsg" value="ここで終了すると、このプログラムはインストールされません。後でこのセットアッププログラムを実行して、インストールを完了させることができます。\nインストールを続行する場合は、[再開] をクリックしてください。インストールを終了する場合は、[セットアップの終了] をクリックしてください。"/>
+    <string id="CancelResume" value="再開"/>
+    <string id="DialogCaption" value="#product.fullproductnamenospace# のセットアップ"/>
+    <string id="outofspace" value="ディスク領域が足りません"/>
+    <string id="CanceledModifier" value="%1 (キャンセルしています)"/>
+    <string id="ValidationCaption" value="検証結果"/>
+    <string id="ValidationError" value="エラー:"/>
+    <string id="ValidationToDo" value="検証エラーを修正するには、[OK] をクリックします。警告のみの場合は、[はい] をクリックして続行するか、[いいえ] をクリックしてエラーを修正します。"/>
+    <string id="ValidationWarning" value="警告:"/>
+    <string id="Validation.MissingFields" value="インストールを続行するには、必須フィールドの入力を完了する必要があります。"/>
+    <string id="ValidationFailed.Blocking" value="次の操作が無効のため進捗が停止しています: "/>
+    <string id="ValidationFailed.Optional" value="オプションの検証は次の操作により成功しませんでした:"/>
+    <string id="action.InstallDUBundle" value="デプロイメントユニットをインストールしています:"/>
+    <string id="action.UninstallDUBundle" value="デプロイメントユニットをアンインストールしています:"/>
+    <string id="action.RegisterBinary" value="バイナリの登録"/>
+    <string id="action.UnregisterBinary" value="バイナリの登録解除"/>
+    <string id="action.ConfigureTomcat" value="Tomcat を設定しています"/>
+    <string id="action.BOBJTextReplace" value="テキスト置換の実行"/>
+    <string id="action.RunCommand" value="コマンドライン実行ファイルの実行"/>
+    <string id="action.RunCommandConditional" value="特定の条件におけるコマンドライン実行ファイルの実行"/>
+    <string id="action.EnsureFolderExists" value="フォルダの存在確認"/>
+    <string id="action.CreateShortcut" value="スタートメニューショートカットの作成"/>
+    <string id="action.AddARPEntry" value="[アプリケーションの追加と削除] エントリの追加"/>
+    <string id="action.RemoveARPEntry" value="[アプリケーションの追加と削除] エントリの削除"/>
+    <string id="action.BOBJRegasm" value="アセンブリ登録の実行"/>
+    <string id="action.BOBJUnRegasm" value="アセンブリ登録の削除"/>
+    <string id="sequence.InstallPreReqs" value="前提条件のインストール"/>
+    <string id="sequence.SetInitialProperties" value="初期プロパティの設定"/>
+    <string id="sequence.SetMyProperties" value="製品プロパティの設定"/>
+    <string id="sequence.InstallDUBase" value="アクションのインストール"/>
+    <string id="sequence.InstallDUBundles" value="デプロイメントユニットのインストール"/>
+    <string id="sequence.CreateSymLinks" value="シンボリックリンクの作成"/>
+    <string id="sequence.ConfigureDUBase" value="デプロイメントユニットの設定"/>
+    <string id="sequence.PopulateRegistry" value="レジストリの設定"/>
+    <string id="sequence.InstallServices" value="サービスのインストール"/>
+    <string id="sequence.ConfigureServices" value="サービスの設定"/>
+    <string id="sequence.StartServices" value="サービスの開始"/>
+    <string id="sequence.StopServices" value="サービスの停止"/>
+    <string id="sequence.UninstallServices" value="サービスのアンインストール"/>
+    <string id="sequence.UnPopulateRegistry" value="レジストリの設定解除"/>
+    <string id="sequence.UninstallDUBase" value="アクションのアンインストール"/>
+    <string id="sequence.UnconfigureDUBase" value="デプロイメントユニットの設定解除"/>
+    <string id="sequence.RemoveSymLinks" value="シンボリックリンクの削除"/>
+    <string id="sequence.UninstallDUBundles" value="デプロイメントユニットのアンインストール:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="空のフォルダの削除"/>
+    <string id="Dialog.title" value="メッセージの設定"/>
+    <string id="PleaseWait" value="お待ちください..."/>
+    <string id="LongCalculation" value="時間のかかる計算を実行中です。しばらくお待ちください..."/>
+    <string id="DiskCostInProgress" value="ディスク領域を作成中です。"/>
+    <string id="Confirm.title" value="確認"/>
+    <string id="Permissions.title" value="権限の設定"/>
+    <string id="NoPermissionsOperation" value="このインストールで操作を実行するアクセス権がありません。"/>
+    <string id="NoPermissionsFile" value="以下のファイルにアクセスするためのアクセス権がありません: %1"/>
+    <string id="NoPatchWithPackageInstall" value="インストーラにより #productname# の旧バージョンがインストールされていることが検出されました。旧バージョンがインストールされている場合、このフルインストールパッケージは適用できません。#product.fullproductname# のメンテナンスパッケージを使用して、現在のインストールを更新してください。"/>
+    <string id="OlderCryptoDllFound" value="インストーラにより環境変数 R_SHLIB_LD_LIBRARY_PATH が、このインストールに必要なバイナリよりも低いバージョンの暗号化バイナリに設定されていることが検出されました。リンクされたドキュメントの手順に従ってインストールを実行してください。"/>
+    <string id="CmdLine.title" value="コマンドラインの設定"/>
+    <string id="InvalidCmdLine" value="コマンドラインが無効です"/>
+    <string id="ExpectedCmdLine" value="正しいコマンドラインは %1 です"/>
+    <string id="ActionFailed" value="カスタムアクションが失敗しました"/>
+    <string id="ActionFailedArg" value="カスタムアクションが失敗しました: %1"/>
+    <string id="ActionFailedWithCode" value="カスタムアクションが失敗し、以下のエラーコードが表示されました:"/>
+    <string id="RegistrationFailed" value="バイナリを登録できませんでした: %1"/>
+    <string id="NoFindFile" value="ファイルが見つかりませんでした: %1"/>
+    <string id="NoCMS" value="CMS に接続できません"/>
+    <string id="NoCMSArg" value="%1 で CMS に接続できません"/>
+    <string id="DFOFailed" value="DFO のアップロードに失敗しました"/>
+    <string id="wdeployFailed" value="wdeploy はアプリケーションをデプロイできませんでした"/>
+    <string id="ScriptFailed" value="スクリプトを実行できませんでした: %1"/>
+    <string id="CmdFailed" value="コマンドラインを実行できませんでした: %1"/>
+    <string id="ServerStartFailed" value="サーバを起動できませんでした: %1"/>
+    <string id="ServerStopFailed" value="サーバを停止できませんでした: %1"/>
+    <string id="ExitCode" value="終了コード: %1"/>
+    <string id="DBInitFail" value="データベースを初期化できません"/>
+    <string id="ShortcutFail" value="ショートカットを作成できませんでした: %1"/>
+    <string id="ARPFail" value="製品 %1 に対して [アプリケーションの追加と削除] エントリを作成できません"/>
+    <string id="CreateFolderFail" value="フォルダを作成できません: %1"/>
+    <string id="SamplesFail" value="サンプルを追加できません"/>
+    <string id="LicenseKeyFail" value="ライセンスキーを追加できません"/>
+    <string id="Tomcatfail" value="Tomcat を設定できません"/>
+    <string id="PropertyFail" value="プロパティの値を取得できません: %1"/>
+    <string id="dev" value="開発者向け英語"/>
+    <string id="aa" value="アファール語"/>
+    <string id="ab" value="アブケイジア語"/>
+    <string id="af" value="アフリカーンス語"/>
+    <string id="am" value="アムハラ語"/>
+    <string id="ar" value="アラビア語"/>
+    <string id="as" value="アッサム語"/>
+    <string id="ay" value="アイマーラ語"/>
+    <string id="az" value="アゼルバイジャン語"/>
+    <string id="ba" value="バシュキール語"/>
+    <string id="be" value="白ロシア語"/>
+    <string id="bg" value="ブルガリア語"/>
+    <string id="bh" value="ビハール語"/>
+    <string id="bi" value="ビーチラマー語"/>
+    <string id="bn" value="ベンガル語"/>
+    <string id="bo" value="チベット語"/>
+    <string id="br" value="ブルトン語"/>
+    <string id="ca" value="カタロニア語"/>
+    <string id="co" value="コルシカ語"/>
+    <string id="cs" value="チェコ語"/>
+    <string id="cy" value="ウェールズ語"/>
+    <string id="da" value="デンマーク語"/>
+    <string id="de" value="ドイツ語"/>
+    <string id="dz" value="ブータン語"/>
+    <string id="el" value="ギリシャ語"/>
+    <string id="en" value="英語"/>
+    <string id="eo" value="エスペラント語"/>
+    <string id="es" value="スペイン語"/>
+    <string id="et" value="エストニア語"/>
+    <string id="eu" value="バスク語"/>
+    <string id="fa" value="ペルシャ語"/>
+    <string id="fi" value="フィンランド語"/>
+    <string id="fj" value="フィジー語"/>
+    <string id="fo" value="フェロー語"/>
+    <string id="fr" value="フランス語"/>
+    <string id="fy" value="フリースランド語"/>
+    <string id="ga" value="アイルランド語"/>
+    <string id="gd" value="ゲール語"/>
+    <string id="gl" value="ガリシア語"/>
+    <string id="gn" value="グアラニー語"/>
+    <string id="gu" value="グジャラト語"/>
+    <string id="ha" value="ハウザ語"/>
+    <string id="he" value="ヘブライ語"/>
+    <string id="hi" value="ヒンディー語"/>
+    <string id="hr" value="クロアチア語"/>
+    <string id="hu" value="ハンガリー語"/>
+    <string id="hy" value="アルメニア語"/>
+    <string id="ia" value="国際語"/>
+    <string id="id" value="インドネシア語"/>
+    <string id="ie" value="国際語"/>
+    <string id="ik" value="エスキモー語"/>
+    <string id="is" value="アイスランド語"/>
+    <string id="it" value="イタリア語"/>
+    <string id="iu" value="イヌーク語"/>
+    <string id="ja" value="日本語"/>
+    <string id="jw" value="ジャワ語"/>
+    <string id="ka" value="グルジア語"/>
+    <string id="kk" value="カザフ語"/>
+    <string id="kl" value="グリーンランド語"/>
+    <string id="km" value="カンボジア語"/>
+    <string id="kn" value="カンナダ語"/>
+    <string id="ko" value="韓国語"/>
+    <string id="ks" value="カシミール語"/>
+    <string id="ku" value="クルド語"/>
+    <string id="ky" value="キルギス語"/>
+    <string id="la" value="ラテン語"/>
+    <string id="ln" value="リンガラ語"/>
+    <string id="lo" value="ラオス語"/>
+    <string id="lt" value="リトアニア語"/>
+    <string id="lv" value="ラトビア語"/>
+    <string id="mg" value="マダガスカル語"/>
+    <string id="mi" value="マオリ語"/>
+    <string id="mk" value="マケドニア語"/>
+    <string id="ml" value="マラヤーラム語"/>
+    <string id="mn" value="モンゴル語"/>
+    <string id="mo" value="モルダヴィア語"/>
+    <string id="mr" value="マラッタ語"/>
+    <string id="ms" value="マラヤ語"/>
+    <string id="mt" value="マルタ語"/>
+    <string id="my" value="ビルマ語"/>
+    <string id="na" value="ナウル語"/>
+    <string id="nb" value="ノルウェー語"/>
+    <string id="ne" value="ネパール語"/>
+    <string id="nl" value="オランダ語"/>
+    <string id="oc" value="オック語"/>
+    <string id="om" value="ガラ語"/>
+    <string id="or" value="オリヤ語"/>
+    <string id="pa" value="パンジャブ語"/>
+    <string id="pl" value="ポーランド語"/>
+    <string id="ps" value="パシュトゥ語"/>
+    <string id="pt" value="ポルトガル語"/>
+    <string id="qu" value="ケチュア語"/>
+    <string id="rm" value="レト=ロマン語"/>
+    <string id="rn" value="キルンディ語"/>
+    <string id="ro" value="ルーマニア語"/>
+    <string id="ru" value="ロシア語"/>
+    <string id="rw" value="キニヤルワンダ語"/>
+    <string id="sa" value="サンスクリット語"/>
+    <string id="sd" value="シンディ語"/>
+    <string id="sg" value="サンゴ語"/>
+    <string id="sh" value="セルボ=クロアチア語"/>
+    <string id="si" value="シンハラ語"/>
+    <string id="sk" value="スロバキア語"/>
+    <string id="sl" value="スロベニア語"/>
+    <string id="sm" value="サモア語"/>
+    <string id="sn" value="ショナ語"/>
+    <string id="so" value="ソマリア語"/>
+    <string id="sq" value="アルバニア語"/>
+    <string id="sr" value="セルビア語"/>
+    <string id="ss" value="シスワティ語"/>
+    <string id="st" value="セソト語"/>
+    <string id="su" value="スンダ語"/>
+    <string id="sv" value="スウェーデン語"/>
+    <string id="sw" value="スワヒリ語"/>
+    <string id="ta" value="タミール語"/>
+    <string id="te" value="テルグ語"/>
+    <string id="tg" value="タージク語"/>
+    <string id="th" value="タイ語"/>
+    <string id="ti" value="ティグリニヤ語"/>
+    <string id="tk" value="トルクメン語"/>
+    <string id="tl" value="タガログ語"/>
+    <string id="tn" value="ツワナ語"/>
+    <string id="to" value="トンガ語"/>
+    <string id="tr" value="トルコ語"/>
+    <string id="ts" value="ツォンガ語"/>
+    <string id="tt" value="タタール語"/>
+    <string id="tw" value="トゥイ語"/>
+    <string id="ug" value="ウイグル語"/>
+    <string id="uk" value="ウクライナ語"/>
+    <string id="ur" value="ウルドゥー語"/>
+    <string id="uz" value="ウズベク語"/>
+    <string id="vi" value="ベトナム語"/>
+    <string id="vo" value="ヴォラピュック語"/>
+    <string id="wo" value="ウォロフ語"/>
+    <string id="xh" value="ゾーサ語"/>
+    <string id="yi" value="イディッシュ語"/>
+    <string id="yo" value="ヨルバ語"/>
+    <string id="za" value="チワン語"/>
+    <string id="zh_CN" value="簡体字中国語"/>
+    <string id="zh_TW" value="繁体字中国語"/>
+    <string id="zu" value="ズールー語"/>
+    <string id="SetupInitSh.root" value="初期化スクリプトを設定するために、root としてログオンして実行します。"/>
+    <string id="SetupInitSh.fail" value="システム初期化スクリプトは失敗しました。"/>
+    <string id="property.InstallDir.description" value="インストールディレクトリ"/>
+    <string id="property.SetupUILanguage.description" value="UI 言語の設定"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="使用可能なセットアップ UI 言語で並べ替え"/>
+    <string id="property.SelectedLanguagePacks.description" value="インストールのために選択された言語パック"/>
+    <string id="property.ProductKey.description" value="製品キーコード"/>
+    <string id="property.RegisteredCompany.description" value="登録企業"/>
+    <string id="property.RegisteredUser.description" value="登録ユーザ"/>
+    <string id="property.InstallCompatibilityMode.description" value="旧製品のアップグレードまたは並列インストール"/>
+    <string id="property.IsAcceptEULA.description" value="EULA に同意しますか?"/>
+    <string id="property.FormattedString.description" value="ターゲット文字列の書式設定"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="wDeploy の起動"/>
+    <string id="description.cmsname" value="CMS 名"/>
+    <string id="description.cmsport" value="CMS ポート"/>
+    <string id="description.cmsusername" value="CMS ユーザ名"/>
+    <string id="description.cmspassword" value="CMS パスワード"/>
+    <string id="description.cmsauth" value="CMS 認証"/>
+    <string id="description.sianame" value="SIA 名"/>
+    <string id="description.siaport" value="SIA ポート"/>
+    <string id="property.CMSPassword.description" value="CMS 管理者パスワード"/>
+    <string id="property.CMSPort.description" value="CMS 接続ポート"/>
+    <string id="property.CryptoKey.description" value="CMS クラスタキー"/>
+    <string id="property.EnableServers.description" value="インストール後のサーバの起動: 0 または 1"/>
+    <string id="property.UsingAuditDBType.description" value="監査データベースタイプ"/>
+    <string id="property.UsingCMSDBType.description" value="CMS データベースタイプ"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="既存の監査データベース (DB)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="既存の監査 DB パスワード"/>
+    <string id="property.ExistingAuditingDBPort.description" value="既存の監査 DB ポート"/>
+    <string id="property.ExistingAuditingDBReset.description" value="既存の監査 DB リセットフラグ: 0 または 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="既存の監査 DB 外部認証の使用フラグ: 0 または 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="既存の監査 DB サーバ"/>
+    <string id="property.ExistingAuditingDBUser.description" value="既存の監査 DB ユーザ名"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="既存の CMS データベース (DB)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="既存 CMS DB パスワード"/>
+    <string id="property.ExistingCMSDBPort.description" value="既存 CMS DB ポート"/>
+    <string id="property.ExistingCMSDBReset.description" value="既存の CMS DB リセットフラグ: 0 または 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="既存の CMS DB 外部認証の使用フラグ: 0 または 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="既存 CMS DB サーバ"/>
+    <string id="property.ExistingCMSDBUser.description" value="既存 CMS DB ユーザ名"/>
+    <string id="property.NewOrExpandInstall.description" value="インストールモードを選択: 新規、拡張"/>
+    <string id="property.MySQLBOEUserName.description" value="バンドルされたデータベースの BI プラットフォームユーザのユーザ名"/>
+    <string id="property.MySQLBOEUserPassword.description" value="バンドルされたデータベースの BI プラットフォームユーザのパスワード"/>
+    <string id="property.MySQLPort.description" value="バンドルされたデータベースのコネクタポート"/>
+    <string id="property.MySQLRootPassword.description" value="バンドルされたデータベースの root ユーザのパスワード"/>
+    <string id="property.RemoteCMSAdminName.description" value="リモート CMS 管理者名"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="リモート CMS 管理者パスワード"/>
+    <string id="property.RemoteCMSName.description" value="リモート CMS 名"/>
+    <string id="property.RemoteCMSPort.description" value="リモート CMS ポート"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="リモート CMS のログインに関する警告をスキップ"/>
+    <string id="property.MaintenanceMode.description" value="実行するメンテナンス操作"/>
+    <string id="property.SelectIntegratedDatabase.description" value="統合データベースのインストールを選択: 0 または 1"/>
+    <string id="property.SIAName.description" value="SIA ノード名"/>
+    <string id="property.SIAPort.description" value="SIA コネクタポート"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat 接続ポート"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat リダイレクトポート"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat シャットダウンポート"/>
+    <string id="property.WACSPort.description" value="WACS ポート"/>
+    <string id="property.WebAppServerType.description" value="Web アプリケーションサーバタイプ: Tomcat、手動、または WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Solution Manager サーバ名"/>
+    <string id="property.SolMgr_Port.description" value="Solution Manager サーバポート"/>
+    <string id="property.SolMgr_Username.description" value="Solution Manager に接続するためのユーザ名"/>
+    <string id="property.SolMgr_Password.description" value="Solution Manager に接続するためのパスワード"/>
+    <string id="property.SolMgr_UseHttps.description" value="Solution Manager への接続に HTTPS を使用: 0 または 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="SharedAlwaysFailureMessage の文字列を保持するのに使用するプロパティです。"/>
+    <string id="property.SMDAgent_HOST.description" value="SMD エージェントホスト名"/>
+    <string id="property.SMDAgent_PORT.description" value="SMD エージェントポート番号"/>
+    <string id="property.UPGRADE.description" value="サイレントアップグレードの許可フラグ: 0 または 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Solution Manager Diagnostics (SMD) エージェントの統合: 統合または非統合"/>
+    <string id="property.ChooseSLDIntegration.description" value="SLD の統合: 統合または非統合"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Introscope Enterprise Manager の統合: 統合または非統合"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Manager ホスト名"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager ポート番号"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Manager の計測"/>
+    <string id="property.NewOrExistingLCM.description" value="新規インストールまたは既存の LCM を使用: 新規または既存"/>
+    <string id="property.LCMName.description" value="LCM サーバ名"/>
+    <string id="property.LCMUserName.description" value="LCM ユーザ名"/>
+    <string id="property.LCMPassword.description" value="LCM パスワード"/>
+    <string id="property.LCMPort.description" value="LCM ポート"/>
+    <string id="property.InstallType.description" value="インストールタイプ: デフォルトまたはカスタム"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Crystal Reports の前提条件について、ユーザが管理権限を持っていますか?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Crystal Reports Viewer のマシン別インストールのインストールディレクトリ"/>
+    <string id="PatchUpdateCheck" value="製品更新のチェック"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="オペレーティングシステムパッチレベル"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="オペレーティングシステムが、この製品のインストールに必要な最低パッチレベルを満たしていません。プラットフォーム要件文書を参照してください。"/>
+    <string id="prereq.pingLocalhost" value="ネットワーク設定"/>
+    <string id="prereq.pingLocalhostNotOkText" value="localhost (127.0.0.1) またはマシンのホスト名に対する PING の実行が失敗しました。インストールを続行するには、これらと通信できるようにマシンを設定してください。INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="ディスク領域チェック"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="インストールを続行するために十分なディスク領域があることを確認してください。詳細については、https://apps.support.sap.com/sap/support/pam を参照してください。"/>
+    <string id="prereq.AdminPrivilegePreReqText" value="管理権限"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="管理権限を持つユーザアカウントでログオンする必要があります。INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 以上"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Microsoft .NET Framework 4.0 以上をインストールしてください。"/>
+    <string id="prereq.RootUserPreReqText" value="ルートユーザアクセス権"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="ログオンしているルートユーザアカウントではこのインストールを続行できません。製品をインストールするには、ルートユーザ以外としてログオンする必要があります。INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64 ビットオペレーティングシステム"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="この製品は、64 ビットオペレーティングシステムにインストールする必要があります。使用しているオペレーティングシステムがこの要件を満たしていることを確認してください。INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows バージョン"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="この製品は、Windows 8.1 または Server 2012 R2 オペレーティングシステム (OS) 以上にインストールする必要があります。使用している OS がこの要件を満たしているかどうかを確認してください。"/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows バージョン"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="この製品は、Windows Server 2012 R2 以上の Windows Server バージョンにインストールする必要があります。使用している Windows のバージョンがこの要件を満たしていることを確認してください。"/>
+    <string id="prereq.SQLExpressPreReqText" value="統合データベース要件"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Microsoft .NET Framework 3.5 SP1 以上および Windows Installer 4.5 をインストールしてください。"/>
+    <string id="prereq.SQLExpressRequirementText" value="MS SQL Express 要件"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express では Microsoft .NET Framework 3.5 SP1 および Windows Installer 4.5 が必要です。SQL Express をインストールする前に、両方のパッケージをインストールしてください。"/>
+    <string id="prereq.PendingStatusPreReqText" value="抑制された再起動"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="ローカルマシンで再起動要求が抑制されています。インストールを続行するには、マシンを再起動してください。INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="製品のバージョン 4.x がインストールされませんでした。"/>
+    <string id="prereq.4xNotInstalledNotOkText" value="製品のバージョン 4.x がインストールされました。"/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="統合データベース - ホームディレクトリ"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="統合データベースでは、ユーザのホームディレクトリで 755 アクセス権が設定されている必要があります。データベースをインストールするには、このアクセス権を設定する必要があります。"/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="統合データベース - ディレクトリ"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 では、~/sqllib および ~/$USER が存在していない必要があります。統合 DB2 データベースをインストールするには、これらのディレクトリがあれば削除する必要があります。"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="#product.mini_bip_name# または #product.cr_server_name# をインストールできません"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname# を #product.mini_bip_name# または #product.cr_server_name# と同じマシンにインストールすることはできません。INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="#product.boe64_name# または #product.cr_server_name# をインストールできません"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="#productname# をインストールできません。#product.boe64_name# または #product.cr_server_name# がすでにインストールされています INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="#product.ras_name# をインストールできません"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname# を #product.ras_name# と同じマシンにインストールすることはできません。INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="#product.IS_name# と #product.DS_name# の互換性"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="SAP #product.DS_name# および #product.IS_name# デプロイメントがマシン上で検出されました。続行する場合、SAP Note 1740516 (http://service.sap.com/sap/support/notes/1740516) の互換情報および、これらの製品への影響に関する情報を参照してください。INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="セットアッププログラムにより既存のインストールが検出されました。このプログラムは UPGRADE=1 コマンドを設定して実行する必要があります。プログラムは終了します。"/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="重要な前提条件が満たされていないため、インストールを続行できません。"/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="統合データベースオプションを含む Central Management Server が選択されていますが、前提条件が満たされていないためこのオプションは無効化されています。インストールを続行するには、以下の前提条件を解決する必要があります。"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="現在のユーザは管理アクセス権限を持っていないため、インストーラを実行できません。"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="/tmp のディスク領域"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="/tmp フォルダに十分な空きディスク領域がありません。インストールを続行するには、ディスク領域の一部を解放する必要があります。INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="/var のディスク領域"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="/var フォルダに十分な空きディスク領域がありません。インストールを続行するには 20 MB 以上のディスク領域が使用可能である必要があります。"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="統合データベース - ユーザおよびグループ"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="DB2 の制限のため、ユーザグループの名前が付けられませんでした。詳細については http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 を参照し、&quot;ユーザ ID の制限&quot; を検索してください。"/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="統合データベース - UID および GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2 では、UID および GID は 65536 未満である必要があります。統合 DB2 データベースを使用するには、現在よりも小さい数を入力する必要があります。"/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="統合データベース - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2 では、gunzip がシステムパスにある必要があります。統合 DB2 データベースを使用するには、システムパスを編集する必要があります。"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="バンドルされた DB - DB2 の HPUX カーネル設定の最低要件を満たします"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="カーネル設定が DB2 の最低要件を満たしていません&#9;"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013 は SUSE 11 以上ではサポートされていません。"/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="64 ビット BOE .NET SDK では、Microsoft .NET Framework 3.5 以上が必須です。64 ビット BOE .NET SDK をインストールするには、.NET Framework をインストールする必要があります。"/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 以上"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Microsoft .NET Framework 3.0 以上をインストールしてください。"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime が見つかりませんでした。このインストールを続行するには、Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime をインストールする必要があります。"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 以上"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003 以上が見つかりませんでした。このインストールを続行するには、Microsoft Office 2003 以上をインストールする必要があります。"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="最小サポートパッケージバージョン"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="この更新はシステム上で検出されていない #productname# #product_version##product_sp_version# 用です。このインストールを続行するには、これをインストールする必要があります。"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="この更新はシステム上で検出されていない #productname# #product_version##product_sp_version# 用です。このインストールを続行するには、これをインストールする必要があります。"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="更新が適用可能"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# は、この更新よりも後のバージョンです。この更新を続行しないでください。"/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="最小マイナーリリースバージョン"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="この更新はシステム上で検出されていない #productname# #product_version# 用です。このインストールを続行するには、これをインストールする必要があります。"/>
+    <string id="prereq.OEMInstalledPreReqText" value="カスタマイズされた #productname_short# #productname_preversion# がインストール済み"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="この更新はシステム上で検出されていないカスタマイズされた #productname_short# #productname_preversion# 用です。このインストールを続行するには、これををインストールする必要があります。"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="互換製品インストール"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="この製品はすでにインストールされており、ユーザが使用できます。"/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows インストーラサービス"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Windows インストーラサービスが無効になっている (起動タイプ = 無効) か、使用できないため、インストールが一時停止しました。このインストールを続行するには、このサービスをインストールし、有効にする必要があります。"/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="クラスタ更新を完了するには、クラスタのすべてのマシンにおけるインストールの終了後に、各 Central Management Server (CMS) を再起動してください。CMS を再起動するには、セントラル管理コンソールにログオンする必要があります。"/>
+    <string id="PostInstall.message.logoncmc.windows" value="システムの設定を続行するには、セントラル管理コンソール (CMC) にログオンします。CMC を起動するには、[スタート] &gt; [#product.boe64_name#] &gt; [セントラル管理コンソール] の順に選択します。"/>
+    <string id="postinstall.message.manualdeploy.common" value="Java Web アプリケーションおよび Web サービスが Web アプリケーションサーバにデプロイされていません。WDeploy ツールを実行して、Java Web アプリケーションおよび Web サービスをデプロイしてください。"/>
+    <string id="postinstall.message.manualdeploy.windows" value="wDeploy ツールを起動するには、[開始] &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; [wDeploy] の順に選択します。"/>
+    <string id="postinstall.message.manualdeploy.unix" value="wDeploy ツールは [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh にあります。"/>
+    <string id="postinstall.message.systeminstall" value="システムインストールを完了するには、次のスクリプトを root 権限付きで実行します: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="OpenDocument 用のデフォルトビューア URL を定義する必要があります。このマシンはドキュメントの表示要求を処理するデフォルト Web アプリケーションサーバとして登録されていません。このマシンを Central Management Server にデフォルト Web アプリケーションサーバとして登録することが必要になる場合があります。OpenDocument プロパティページを編集するには、セントラル管理コンソールを使用します。"/>
+    <string id="PostInstall.message.monitoring" value="モニタリングツールにアクセスして診断テストを実行するには、セントラル管理コンソールにログオンし、[モニタリング] をクリックして [プローブ] タブを開きます。"/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}RESTful Web サービス{/b}と {b}Insight to Action フレームワーク{/b}は、この更新で提供される 2 つの新しい機能です。これらの機能を有効化するには、基本インストールに対する修正インストールを実行し、新しい機能を追加してください。"/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful Web サービス:{/b} Business Intelligence プラットフォーム RESTful Web サービス SDK により、HTTP プロトコルを使用して BI プラットフォームにアクセスできます。この SDK を使用してプラットフォームにログオンし、BI プラットフォームリポジトリをナビゲートし、リソースにアクセスし、基本リソーススケジュールを実行することができます。この機能は、更新後にダッシュボードモデルおよび Live Office ドキュメントをリポジトリに保存するために必要です。"/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action フレームワーク:{/b} Insight to Action フレームワークを使用して、SAP アプリケーションと非 SAP アプリケーションにおいて、NetWeaver でレポート間インタフェースを使用して定義されたオペレーショナルトランザクションを呼び出すことができます。この機能は、Crystal Reports および BusinessObjects Dashboards でサポートされます。"/>
+    <string id="postInstall.message.new.features.announce.unix" value="RESTful Web サービスと Insight to Action フレームワークは、この更新で提供される 2 つの新しい機能です。これらの機能を有効化するには、基本インストールに対する修正インストールを実行し、新しい機能を追加してください。"/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful Web サービス: Business Intelligence プラットフォーム RESTful Web サービス SDK により、HTTP プロトコルを使用して BI プラットフォームにアクセスできます。この SDK を使用してプラットフォームにログオンし、BI プラットフォームリポジトリをナビゲートし、リソースにアクセスし、基本リソーススケジュールを実行することができます。この機能は、更新後にダッシュボードモデルおよび Live Office ドキュメントをリポジトリに保存するために必要です。"/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action フレームワーク: Insight to Action フレームワークを使用して、SAP アプリケーションと非 SAP アプリケーションにおいて、NetWeaver でレポート間インタフェースを使用して定義されたオペレーショナルトランザクションを呼び出すことができます。この機能は、Crystal Reports および BusinessObjects Dashboards でサポートされます。"/>
+    <string id="postInstall.message.cms.database.is.mysql" value="インストーラにより、現在サポートされていない MySQL クライアント 5.0 がデータベース接続として検出されました。システムが引き続きサポートされるようにするには、MySQL クライアント 5.1 にアップグレードする必要があります。"/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile サーバは、新しい機能です。これにより、モバイルデバイスからビジネスインテリジェンスデータにアクセスできるようになります。この機能を有効化するには、 基本インストールに対する修正インストールを実行し、Mobile サーバを選択します。"/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="バンドルされた Tomcat が Tomcat 9 に更新されました。Tomcat に対して適用したカスタム設定は、すべて旧バージョンから Tomcat 9 に移行されます。ただし、カスタム設定を Tomcat 9 で利用できるかどうかを確認することを強くお勧めします。"/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="メンテナンスパッケージ: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="メンテナンスパッケージ: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Maintenance Package: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Maintenance Package\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI プラットフォーム"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI プラットフォームサーバ"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI プラットフォーム"/>
+    <string id="product.boec_client_name" value="クライアントツール"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence リッチクライアント"/>
+    <string id="product.boec_shortname" value="BI プラットフォームクライアント"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI プラットフォーム .NET SDK (再配布可能版)"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 ビューア"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="SAP BusinessObjects BI add-on for SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="BI add-on for SAP Lumira"/>
+    <string id="product.mini_bip_name" value="情報プラットフォームサービス"/>
+    <string id="product.mini_bip_shortname" value="情報プラットフォームサービス"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="SAP Integration for Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Integration Option for Microsoft SharePoint Software"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM Edition"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI プラットフォーム 4"/>
+    <string id="shortcut.folder.name.minibip" value="情報プラットフォームサービス 4"/>
+    <string id="shortcut.folder.name.boclient" value="SAP BusinessObjects BI プラットフォーム 4 クライアントツール"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM Edition"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 ビューア"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server クライアントツール 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="セントラル設定マネージャ"/>
+    <string id="shortcut.link.description.CCM" value="プラットフォームサービスの開始、停止および設定"/>
+    <string id="shortcut.link.name.boserver.CMC" value="SAP BusinessObjects BI プラットフォームセントラル管理コンソール"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="SAP BusinessObjects BI プラットフォーム WACS セントラル管理コンソール"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="SAP Crystal Server セントラル管理コンソール"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="SAP Crystal Server WACS セントラル管理コンソール"/>
+    <string id="shortcut.link.name.minibip.CMC" value="情報プラットフォームサービスセントラル管理コンソール"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="情報プラットフォームサービス WACS セントラル管理コンソール"/>
+    <string id="shortcut.link.description.CMC" value="管理コンソールへのアクセス"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="SAP BusinessObjects BI プラットフォームラウンチパッド"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="SAP BusinessObjects BI プラットフォーム WACS BI ラウンチパッド"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="SAP Crystal Server Java BI ラウンチパッド"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="SAP Crystal Server WACS BI ラウンチパッド"/>
+    <string id="shortcut.link.description.BILaunchpad" value="BI ラウンチパッドの起動"/>
+    <string id="shortcut.link.name.UpgradeManager" value="アップグレードマネジメントツール"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="以前のデプロイメントを SAP BusinessObjects BI プラットフォーム 4 にアップグレードします"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="プロモーション管理ウィザード"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="ステップバイステップのユーザインタフェースから 4.x デプロイメントの CMS コンテンツをエクスポート、インポートおよびコピーします。"/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="旧デプロイメントを SAP Crystal Server 2020 にアップグレード"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="以前のデプロイメントを情報プラットフォームサービス 4 にアップグレードします"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32 ビット ODBC データソースアドミニストレータ"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC データソースアドミニストレータ"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Open Database Connectivity (ODBC) データソースおよびドライバを追加、削除、設定します。"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="オンライン文書"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="オンライン文書へのアクセス"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat 管理"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Tomcat 管理へのアクセス"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat 設定"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Tomcat 設定へのアクセス"/>
+    <string id="shortcut.link.name.WDeploy" value="Wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="WDeploy ツールの起動"/>
+    <string id="shortcut.link.name.BIWidgets" value="ウィジェット"/>
+    <string id="shortcut.link.description.BIWidgets" value="ウィジェットの起動"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="ビジネスビューマネージャ"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="ビジネスビューマネージャの起動"/>
+    <string id="shortcut.link.name.DFAdminTool" value="データフェデレーション管理ツール"/>
+    <string id="shortcut.link.description.DFAdminTool" value="データフェデレーション管理ツールの起動"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="インフォメーションデザインツール"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="インフォメーションデザインツールの起動"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Query as a Web Service Designer"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Query as a Web Service Designer の起動"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="レポート変換ツール"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="レポート変換ツールの起動"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="トランスレーションマネジメントツール"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="トランスレーションマネジメントツールの起動"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="ユニバースデザインツール"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="ユニバースデザインツールの起動"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence リッチクライアント"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Web Intelligence リッチクライアントの起動"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence リッチクライアント"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Web Intelligence リッチクライアントを起動します"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="書式設定済みデータレポート (.RPT) を作成、変更します"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="レポートアップロードウィザード"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="レポートアップロードウィザードの起動"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 ビューア"/>
+    <string id="shortcut.link.description.CRViewer" value="書式設定済みデータレポート (.RPT) を表示します"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Report Application Server 起動パッド"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Report Application Server 起動パッドの起動"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Web Intelligence の起動"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Dashboards の起動"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards アドオンパッケージャ"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Dashboards アドオンパッケージャの起動"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="SAP Crystal Presentation Design 2020 を起動します"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 アドオンパッケージャ"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 アドオンパッケージャを起動します"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects BI 管理コンソール WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects BI 管理コンソール"/>
+    <string id="shortcut.link.description.ADC" value="管理コンソールへアクセス"/>
+    <string id="OverhangingPatchMessage" value="このインストールを続行すると、修正がシステムから削除される場合があります。互換性のあるパッケージをインストールしていることを確認してください。"/>
+    <string id="Installing41PatchOver40" value="続行する前に、現在の 4.0 システムのバックアップコピーを手動で作成してください。4.1 の更新は、適用後にアンインストールできません。システムの状態を回復する必要がある場合は、バックアップコピーを使用する必要があります。"/>
+    <string id="Block41PatchUninstall" value="4.1 の更新は自動的にアンインストールできません。4.0 システムの状態に戻すには、既存のバイナリを削除し、作成した 4.0 バックアップコピーを使用して 4.0 システムを復元してください。"/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# では新しいライセンスキーが必要です。新しいライセンスキーを SAP Service Marketplace からダウンロードしてください。セントラル管理コンソールで旧ライセンスキーを削除し、新しいライセンスキーを追加します。詳細については、マニュアルを参照してください。"/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="#product.fullproductnamenospace# では、いくつかの製品と機能が使用できなくなりました。更新後、SAP ノート 2801797 で指定されているアクションを実行する必要があります。"/>
+    <string id="DeployLaterDescription" value="Web アプリケーションデプロイメントモード"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="インストールされた HotFix の親パッチバージョン"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="この HotFix は for #productname# #product_version# #product_sp_version# パッチ #patch_id# 用です。このインストールを続行するには、パッチをインストールする必要があります。詳細については、SAP ノート 2257993 をチェックしてください。"/>
+  </context>
+</uitext>

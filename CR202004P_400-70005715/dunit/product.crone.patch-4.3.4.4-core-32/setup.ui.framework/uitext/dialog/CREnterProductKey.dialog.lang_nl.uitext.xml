@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="InvalidProductKey" value="De ingevoerde productsleutel wordt niet als geldig herkend."/>
+<string id="EnterProductKeyTitle" value="Productregistratie configureren"/>
+<string id="EnterProductKeySubtitle" value="Voer de productsleutel voor #product.nameandversionwithoutpatch# in."/>
+<string id="ProductkeyLabel" value="Productsleutel:"/>
+<string id="ProductkeyInfoGroup" value="Productsleutelgegevens"/>
+<string id="Invalid_ProductKey" value="De productsleutel is niet geldig. INS00140"/>
+</context>
+</uitext>

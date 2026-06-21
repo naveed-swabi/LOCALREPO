@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="ChooseDestination" value="Określ folder docelowy"/>
+<string id="SpecifyDestination" value="Folder docelowy to miejsce, w którym produkt zostanie zainstalowany. Kliknij przycisk Przeglądaj, aby wybrać inną lokalizację."/>
+<string id="DestinationFolder" value="Folder docelowy"/>
+<string id="Browse" value="Przeglądaj"/>
+<string id="BrowseInstallDirectory" value="Wybierz lokalizację instalacji"/>
+<string id="PWClientFolderTitle" value="Folder docelowy klienta"/>
+<string id="PWServerFolderTitle" value="Folder docelowy serwera"/>
+<string id="Invalid_InstallDirWindows" value="Nieprawidłowy katalog instalacyjny. Użyj prawidłowej ścieżki bezwzględnej zawierającej tylko znaki alfanumeryczne i następujące znaki: _ - \ . ( ). Katalog musi znajdować się na stałym dysku, a pełna ścieżka nie może zawierać więcej niż 150 znaków. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Nieprawidłowy katalog instalacyjny. Użyj prawidłowej ścieżki bezwzględnej do miejsca, w przypadku którego masz uprawnienia do odczytu, zapisu i wykonywania. INS00029"/>
+</context>
+</uitext>

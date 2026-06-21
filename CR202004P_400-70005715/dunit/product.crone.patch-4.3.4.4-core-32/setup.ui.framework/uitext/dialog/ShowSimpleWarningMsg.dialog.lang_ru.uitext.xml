@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="ru"/>
+<context>
+<string id="Warning_prereq_DS" value="В BI 4.1 SP10 нет совместимой версии Data Services. Не продолжайте эту установку, если службы Data Services установлены в вашем ландшафте.\n\n\n Нажмите кнопку ''ОК', чтобы продолжить установку, или \n кнопку 'Выход'', чтобы безопасно прервать установку."/>
+<string id="Warning_prereq_DS_unix" value="В BI 4.1 SP10 нет совместимой версии Data Services. Не продолжайте эту установку, если службы Data Services установлены в вашем ландшафте."/>
+<string id="ExitMessage" value="Нажмите клавиши Ctrl+X, чтобы выйти, или клавишу Enter, чтобы продолжить."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

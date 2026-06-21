@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# 已成功卸载。"/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# 卸载失败。"/>
+<string id="Description" value="单击“完成”完成此卸载。"/>
+<string id="FailedDescription" value="单击“完成”退出此卸载。"/>
+<string id="ShowUninstall_Footer" value="按 [Ctrl-B] 返回，或者按 [Enter] 退出此卸载。"/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="按 [Enter] 退出此卸载。"/>
+<string id="CustomNextButton" value="完成"/>
+<string id="ViewLogButton" value="查看日志"/>
+</context>
+</uitext>

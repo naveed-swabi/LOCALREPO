@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Select Java Web Application Server"/>
+<string id="ChooseWebAppServerSubtitle" value="Select a Java Web Application Server solution."/>
+<string id="ChooseWebAppServerFooter" value="Press []Tab], []Up], or []Down] to select, []Ctrl-B] to go back, []Ctrl-X] to quit, or []Enter] to continue."/>
+<string id="InstallJWAS" value="Install Java Web Application and Servers"/>
+<string id="InstallTomcat" value="Install the default Tomcat Java Web Application Server and automatically deploy web applications"/>
+<string id="ManualDeploy" value="Manually deploy web applications to a supported Java Web Application Server after the installation"/>
+<string id="InstallWACS" value="Install the Web Application Container Server and automatically deploy web applications"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integration Option for Microsoft SharePoint software 4.0"/>
+<string id="SharePointIntegrationText" value="The SAP BusinessObjects Integration Option for Microsoft SharePoint software 4.0 is available as a separate install in the add-ons folder for 64-bit Sharepoint. See the Post Installation instructions for a link to the add-ons folder."/>
+<string id="SharePointIntegrationCheck" value="Show me the location of the add-ons folder at the end of installation"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Invalid UseIntegratedWebAppServer Value ([UseIntegratedWebAppServer]): It should either be 0 or 1. INS00255"/>
+</context>
+</uitext>

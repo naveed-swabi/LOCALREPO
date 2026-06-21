@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Title" value="การติดตั้งตามขั้นตอน"/>
+<string id="SubTitle" value="การแคชเสร็จสมบูรณ์"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="กด [Enter] เพื่อออกจากการติดตั้งตามขั้นตอน"/>
+<string id="Description" value="เมื่อต้องการดำเนินการติดตั้งต่อหลังจากการแคช ให้ดำเนินการไฟล์ติดตั้งอีกครั้ง ระหว่างการติดตั้งหลังจากการแคชจะมีดาวน์ไทม์ของระบบ คุณสามารถดำเนินขั้นตอนนี้ของการติดตั้งได้เมื่อเวลาการซ่อมบำรุงพร้อมใช้งาน"/>
+<string id="FinishMessage" value="คลิก เสร็จสิ้น เพื่อออกจากการติดตั้งตามขั้นตอน"/>
+<string id="Finish" value="เสร็จสิ้น"/>
+</context>
+</uitext>

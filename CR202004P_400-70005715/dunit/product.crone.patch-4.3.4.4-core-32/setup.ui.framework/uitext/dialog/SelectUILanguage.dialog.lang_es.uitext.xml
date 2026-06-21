@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="SelectedInvalidLocale" value="Ha introducido una configuración regional no admitida."/>
+<string id="SetupLanguageTitle" value="Seleccionar idioma del programa de instalación"/>
+<string id="SetupLanguageSubtitle" value="Seleccionar idioma de configuración."/>
+<string id="SetupLanguageUnixSubtitle" value="Seleccionar idioma de configuración."/>
+<string id="CreateLogFile" value="Crear archivo de registro durante la instalación"/>
+<string id="Invalid_SetupLanguage" value="Idioma de instalación ([SetupUILanguage]) no válido: debe ser uno de '[$available.ui.langs]'. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="IsEnableSetupLog ([IsEnableSetupLog]) no válido: solo puede ser 0 o 1."/>
+<string id="SelectUILanguageFooter" value="Pulse []Tabulador], []Arriba] o []Abajo] para seleccionar, []Ctrl-X] para salir o []Intro] para continuar."/>
+</context>
+</uitext>

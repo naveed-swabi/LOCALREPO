@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="querypanel_tr.bin" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="9604"/>
+    <file name="crdb_universe_res_tr.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="9728"/>
+    <file name="crdb_dsl_relational_res_tr.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="9728"/>
+  </sourcedir>
+</assembly>

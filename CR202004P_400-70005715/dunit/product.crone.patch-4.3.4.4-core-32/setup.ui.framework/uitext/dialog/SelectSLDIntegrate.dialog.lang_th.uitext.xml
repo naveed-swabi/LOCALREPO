@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="SLDIntegrateTitle" value="การผสานรวม SAP Solution Manager"/>
+<string id="SLDIntegrateTitleSub" value="คุณผสานกับ SAP Solution Manager แล้วหรือยัง"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="การผสานรวม SAP Solution Manager"/>
+<string id="IntegrateBtn" value="ผสานรวมกับ SAP Solution Manager คุณจะได้รับการพร้อมท์เกี่ยวกับข้อมูล"/>
+<string id="NoIntegrateBtn" value="ไม่ต้องผสานรวมกับ SAP Solution Manager"/>
+<string id="Invalid_SLDIntegrateSelection" value="ChooseSLDIntegration ([ChooseSLDIntegration]) ไม่ถูกต้อง: ควรเป็น  'integrate' หรือ 'nointegrate' INS00285"/>
+</context>
+</uitext>

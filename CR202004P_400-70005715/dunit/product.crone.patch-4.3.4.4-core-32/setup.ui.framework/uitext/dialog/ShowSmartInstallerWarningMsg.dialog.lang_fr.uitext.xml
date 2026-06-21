@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Vérifiez que le chemin d'installation spécifié est correct pour pouvoir effectuer l'installation souhaitée. \n\n Pour une nouvelle installation : nouveau répertoire de fichiers. \n Pour l'installation de correctifs : répertoire de fichiers avec l'installation de la version de #productname# précédente. \n\n\n Cliquez sur Ok pour continuer ou cliquez sur Quitter pour saisir à nouveau le chemin d'installation correct. \n"/>
+<string id="ExitMessage" value="Appuyez sur les touches Ctrl+X pour fermer ou sur Entrée pour continuer."/>
+<string id="WarnDialogTitle" value="BOITE DE DIALOGUE D'INFORMATIONS"/>
+<string id="WarnDialogSubtitle" value="Informations :"/>
+</context>
+</uitext>

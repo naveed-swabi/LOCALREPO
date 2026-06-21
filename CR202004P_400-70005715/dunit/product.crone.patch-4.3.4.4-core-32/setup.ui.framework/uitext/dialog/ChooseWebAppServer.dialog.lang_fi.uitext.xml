@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Valitse Java-web-sovelluspalvelin"/>
+<string id="ChooseWebAppServerSubtitle" value="Valitse Java-web-sovelluspalvelinratkaisu."/>
+<string id="ChooseWebAppServerFooter" value="Valitse kohde []Sarkain]-, []Ylänuoli]- tai []Alanuoli]-näppäimillä, palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+<string id="InstallJWAS" value="Asenna Java-Web-sovellus ja -palvelimet"/>
+<string id="InstallTomcat" value="Asenna oletusarvoinen Tomcat Java -web-palvelin ja ota web-sovellukset automaattisesti käyttöön"/>
+<string id="ManualDeploy" value="Ota web-sovellukset manuaalisesti käyttöön tuetussa Java-web-sovelluspalvelimessa asennuksen jälkeen"/>
+<string id="InstallWACS" value="Asenna web-sovellusten tietosäilöpalvelin ja ota web-sovellukset automaattisesti käyttöön"/>
+<string id="SharePointIntegrationTitle" value="Microsoft SharePoint 4.0 -ohjelmiston SAP BusinessObjects -integrointivaihtoehto"/>
+<string id="SharePointIntegrationText" value="Microsoft SharePoint 4.0 -ohjelmiston SAP BusinessObjects -integrointivaihtoehto on saatavana laajennuskansiossa erillisenä asennuksena 64-bittistä Sharepointia varten. Laajennuskansion  linkki on asennuksen jälkeisissä ohjeissa."/>
+<string id="SharePointIntegrationCheck" value="Näytä laajennuskansion sijainti asennuksen päätyttyä"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Virheellinen UseIntegratedWebAppServer-arvo ([UseIntegratedWebAppServer]): Arvon on oltava 0 tai 1. INS00255"/>
+</context>
+</uitext>

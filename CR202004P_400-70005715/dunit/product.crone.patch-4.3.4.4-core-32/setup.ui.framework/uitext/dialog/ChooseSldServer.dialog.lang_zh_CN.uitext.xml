@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="ChooseSldServerLocation" value="选择 SLD 服务器位置"/>
+<string id="SpecifySldServerLocation" value="输入 SLD 服务器位置"/>
+<string id="SldHostnameExample" value="输入 SLD 服务器的地址（例如，http://sld.server.com/）"/>
+<string id="SldInputInformation" value="输入登录信息。"/>
+<string id="SldHostname" value="主机名"/>
+<string id="SldPort" value="端口"/>
+<string id="SldUsername" value="用户名"/>
+<string id="SldPassword" value="密码"/>
+</context>
+</uitext>

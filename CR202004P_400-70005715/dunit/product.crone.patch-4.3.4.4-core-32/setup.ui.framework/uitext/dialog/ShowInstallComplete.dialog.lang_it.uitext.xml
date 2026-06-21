@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# è stata installata correttamente."/>
+<string id="InstallFailedMessage" value="Sono stati rilevati degli errori durante il processo di installazione di #product.fullproductnamenospace#."/>
+<string id="UninstallFailedMessage" value="Sono stati rilevati degli errori durante il processo di disinstallazione di #product.fullproductnamenospace#."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# disinstallata correttamente."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# è stata installata correttamente con messaggi di avviso."/>
+<string id="Description" value="Fare clic su Fine per uscire dall'installazione."/>
+<string id="FailedDescription" value="Fare clic su Fine per uscire dall'installazione."/>
+<string id="Description_unix" value="Premere []Ctrl-B] per tornare indietro o []Invio] per uscire dall'installazione."/>
+<string id="Customized_Description_unix" value="Premere []Invio] per uscire dall'installazione."/>
+<string id="FailedDescription_unix" value="Premere []D] per ulteriori dettagli o []Invio] per uscire dall'installazione."/>
+<string id="CustomNextButton" value="Fine"/>
+<string id="ViewLogButton" value="Visualizza registro"/>
+<string id="HyperlinkText" value="Fare clic qui per i dettagli"/>
+</context>
+</uitext>

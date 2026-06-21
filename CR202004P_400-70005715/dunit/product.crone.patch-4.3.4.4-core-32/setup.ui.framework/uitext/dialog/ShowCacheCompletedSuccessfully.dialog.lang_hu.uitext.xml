@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Title" value="Lépésalapú telepítés"/>
+<string id="SubTitle" value="Gyorsítótárazás kész"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="A lépésalapú telepítésből való kilépéshez nyomja meg az [Enter] billentyűt."/>
+<string id="Description" value="Ha folytatni szeretné a telepítést a gyorsítótárazás után, futassa ismét a telepítőfájlt. A gyorsítótárazás utáni telepítés közben a rendszer leáll. A telepítés ezen lépését végrehajthatja, amikor van idő karbantartásra."/>
+<string id="FinishMessage" value="A lépésalapú telepítésből való kilépéshez kattintson a Befejezés gombra."/>
+<string id="Finish" value="Befejezés"/>
+</context>
+</uitext>

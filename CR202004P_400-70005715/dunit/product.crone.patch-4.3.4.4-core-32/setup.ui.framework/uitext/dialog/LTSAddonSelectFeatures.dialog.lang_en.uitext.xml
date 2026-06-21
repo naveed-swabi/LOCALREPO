@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="SelectFeaturesTitle" value="Select Features"/>
+<string id="SelectFeaturesSubtitle" value="Select the features that you want to install."/>
+<string id="SelectFeaturesFooter" value="Press []Tab], []Up] or []Down] to highlight, []Space] to expand, []X] to toggle state, []Ctrl-B] to go back, []Ctrl-X] to quit, or []Enter] to continue."/>
+<string id="DiskCost" value="Disk Cost"/>
+<string id="Drive Select" value="You are selecting"/>
+<string id="Disk Costing" value="Disk Costing"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Disk Size"/>
+<string id="Available" value="Available"/>
+<string id="Required" value="Required"/>
+<string id="Difference" value="Difference"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Retry"/>
+<string id="Cancel" value="Cancel"/>
+<string id="Invalid_DiskSpace" value="You do not have enough space to install the product. Please free disk space, or select a different install location. Required Space: [RequiredSpace] bytes."/>
+</context>
+</uitext>

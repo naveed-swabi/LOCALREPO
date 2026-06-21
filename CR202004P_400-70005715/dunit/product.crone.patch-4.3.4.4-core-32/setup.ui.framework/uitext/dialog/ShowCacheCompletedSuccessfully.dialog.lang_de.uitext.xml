@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="Title" value="Phasenweise Installation"/>
+<string id="SubTitle" value="Zwischenspeicherung abgeschlossen"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Drücken Sie die [Eingabetaste], um die phasenweise Installation zu beenden."/>
+<string id="Description" value="Um mit der Installation nach der Zwischenspeicherung fortzufahren, führen Sie die Setup-Datei erneut aus. Während der Installation nach der Zwischenspeicherung tritt Systemausfallzeit auf. Sie können diese Installationsphase ausführen, wenn Wartungszeit verfügbar ist."/>
+<string id="FinishMessage" value="Klicken Sie auf &quot;Fertig stellen&quot;, um die phasenweise Installation zu beenden."/>
+<string id="Finish" value="Fertig stellen"/>
+</context>
+</uitext>

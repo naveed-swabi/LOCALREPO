@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="DlgTitle" value="Přidružení souboru"/>
+<string id="DlgSummary" value="Nastavení výchozí aplikace prohlížeče Crystal Report."/>
+<string id="ReplaceFileAssoc" value="Prohlížeč Crystal Reports nyní není vaším výchozím prohlížečem sestav Crystal. Chcete to změnit?"/>
+<string id="Yes" value="Ano"/>
+<string id="No" value="Ne"/>
+</context>
+</uitext>

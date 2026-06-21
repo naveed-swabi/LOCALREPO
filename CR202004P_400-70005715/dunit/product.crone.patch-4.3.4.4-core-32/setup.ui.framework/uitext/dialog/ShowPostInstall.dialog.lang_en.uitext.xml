@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Post Installation Steps"/>
+<string id="PostInstallDetails" value="Installation is complete. Follow the post installation instructions below to complete your deployment."/>
+<string id="PostUninstallSteps" value="Post Uninstallation Steps"/>
+<string id="PostUninstallDetails" value="Uninstallation is almost complete. Follow the instructions below to complete the process."/>
+<string id="PostInstallStep_Header" value="{b}Post Installation Instructions:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Post Installation Instructions:"/>
+<string id="PostUninstallStep_Header" value="{b}Post Uninstallation Instructions:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Post Uninstallation Instructions:"/>
+<string id="CRPostInstallUIText1" value="Product Registration{br}Please register your product on-line by clicking: {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}here{/a}."/>
+<string id="PostInstallStep_Footer" value="Installation is complete. Please press []Enter] to continue"/>
+<string id="PostUnInstallStep_Footer" value="Uninstallation is complete. Please press []Enter] to continue"/>
+</context>
+</uitext>

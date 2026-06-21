@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ExpandInstallMessage_1" value="การติดตั้งไม่สามารถดำเนินการต่อได้"/>
+<string id="ExpandInstallMessage_2" value="อธิบายปัญหาที่ทำให้ไม่สามารถดำเนินการติดตั้งต่อได้"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="กด CTRL-X เพื่อออกจากการติดตั้ง"/>
+<string id="AlwaysFailureGeneralMessage" value="การติดตั้งไม่สามารถดำเนินการต่อได้\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

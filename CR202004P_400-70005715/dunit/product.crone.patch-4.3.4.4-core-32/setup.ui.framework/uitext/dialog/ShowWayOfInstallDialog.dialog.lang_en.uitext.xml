@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="Title" value="Select Installation Mode"/>
+<string id="SubTitle" value="Select the mode of installation"/>
+<string id="Standard_InstallationName" value="Standard Installation"/>
+<string id="Standard_InstallationText" value="Installation is performed in single-phase"/>
+<string id="PhaseWise_InstallationName" value="Phase-wise Installation"/>
+<string id="PhaseWise_InstallationText" value="Installation is performed in two phases – &quot;Caching&quot; and &quot;Installation after caching&quot;. During Caching, there is no system downtime and you can continue working on the system. During installation after caching, the software is installed on the system with some system downtime."/>
+<string id="CachingCompletedSubTitle" value="Caching completed"/>
+<string id="Resume_InstallationSubTitle" value="Resume installation after caching. Installation after caching is the actual installation process where you experience system downtime."/>
+<string id="ShowWayOfInstallFooter" value="Press []Ctrl-B] to go back, []Ctrl-X] to quit, or []Enter] to install."/>
+</context>
+</uitext>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/Foundation/java">
+    <file name="com.businessobjects.bcm.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/bundles" size="228590"/>
+  </sourcedir>
+</assembly>

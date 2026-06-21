@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="インストールの開始"/>
+<string id="ShowInstallSummarySubtitle" value="#product.fullproductnamenospace# をインストールする準備ができました。インストール情報を変更するには [戻る] をクリックしてください。\n\nインストールを開始するには [次へ] をクリックしてください。"/>
+<string id="ShowInstallSummaryUnixDescription" value="#product.fullproductnamenospace# インストールウィザードによるインストールを開始してもよろしいですか?"/>
+<string id="ShowInstallSummaryFooter" value="戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。インストールするには []Enter] キーを押します。"/>
+<string id="DiskCost" value="ディスク領域"/>
+<string id="Drive Select" value="選択内容"/>
+<string id="Disk Costing" value="ディスク領域計算"/>
+<string id="Volume" value="ボリューム"/>
+<string id="Disk Size" value="ディスクサイズ"/>
+<string id="Available" value="利用可能"/>
+<string id="Required" value="必須"/>
+<string id="Difference" value="差"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="再試行"/>
+<string id="Cancel" value="キャンセル"/>
+<string id="ShowCacheSummaryTitle" value="フェーズ別インストール"/>
+<string id="ShowCacheSummarySubtitle" value="キャッシュの開始"/>
+<string id="ShowCacheSummaryDescription" value="キャッシュは、ソフトウェアをインストールディレクトリにコピーするプロセスです。キャッシュ中には、システムダウンタイムは発生せず、システムでの作業を続行することができます。"/>
+<string id="Invalid_DiskSpace" value="製品をインストールできるだけの十分なスペースがありません。ディスク領域を解放するか、別のインストール先を選択してください。使用可能な領域: [AvailableSpace] MB。必要な領域: [RequiredSpace] MB。"/>
+<string id="Resume_Description" value="ソフトウェアがシステムにインストールされるキャッシュ後のインストール中には、システムダウンタイムが発生します。"/>
+<string id="ShowResumetitle" value="フェーズ別インストール"/>
+<string id="ShowResumeSubtitle" value="インストールの再開"/>
+<string id="ShowResumeFooter" value="戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。インストールするには []Enter] を押します。"/>
+<string id="MessageCache" value="キャッシュフェーズを開始するには、[次へ] をクリックしてください。"/>
+<string id="MessageResume" value="インストールを開始するには、[次へ] をクリックしてください。"/>
+</context>
+</uitext>

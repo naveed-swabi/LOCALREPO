@@ -1,0 +1,23 @@
+共有兩組傳輸檔，可與 BusinessObjects Enterprise Integration Kit for SAP 搭配使用。一組是 ANSI 檔案，另一組是可支援 Unicode 的檔案。 
+
+必須使用的傳輸檔案組視您的 SAP 系統執行所在的 BASIS 系統而定。此外，每個傳輸檔都包含一個資料檔和一個 Cofile，此列在傳輸名稱後的括弧內。
+
+如果您的 SAP 系統在 6.20 或更新版的 BASIS 系統上執行，則必須使用下列檔案：
+
+(這些檔案可支援 Unicode。)
+
+* Open SQL 連線傳輸檔 (K900085.SDD 及 R900085.SDD)
+* Info Set 連線傳輸檔 (K900043.SDD 及 R900043.SDD)
+* 列層級安全性定義傳輸檔 (K900051.SDD 及 R900051.SDD)
+* 叢集定義傳輸檔 (K900039.SDD 及 R900039.SDD)
+* 驗證輔助程式傳輸檔 (K900041.SDD 及 R900041.SDD)
+
+
+SAP BW 系統上必須使用以下檔案：
+
+(這些檔案可支援 Unicode。)
+
+* 內容管理傳輸檔 (K900098.SDD 及 R900098.SDD)
+* 個人化傳輸檔 (K900045.SDD 及 R900045.SDD)
+* MDX 查詢連線傳輸檔 (K900014.SDD 及 R900014.SDD)
+* ODS 連線傳輸檔 (K900042.SDD 及 R900042.SDD)

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Olemassa olevan tuotteen #productname# käyttöönoton tiedot"/>
+<string id="SpecifyRemoteCMS" value="Määritä olemassa olevan käyttöönoton järjestelmänvalvojan kirjautumistiedot."/>
+<string id="RemoteCMSConnectionInfo" value="Nykyisen tuotteen #productname# yhteystiedot"/>
+<string id="RemoteCMSName" value="Nimi"/>
+<string id="RemoteCMSPort" value="Portti"/>
+<string id="RemoteCMSAdminLogonInfo" value="Järjestelmänvalvojan kirjautumistiedot"/>
+<string id="RemoteCMSUser" value="Käyttäjä"/>
+<string id="RemoteCMSPassword" value="Salasana"/>
+<string id="ErrRemoteCMSConnectionInfo" value="SAP Lumira Server for Teams -etäpalvelin ei ole käytettävissä, tai sisäänkirjaustiedot ovat virheelliset. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="SAP Lumira Server for Teams -etäpalvelin ei ole käytettävissä, tai sisäänkirjaustiedot ovat virheelliset. INS00013\nHaluatko syöttää kirjautumistiedot uudelleen?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Salasana ei voi sisältää sanaa &quot;Administrator&quot; tai erikoismerkkejä, kuten: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{välilyönti}{sarkain}"/>
+</context>
+</uitext>

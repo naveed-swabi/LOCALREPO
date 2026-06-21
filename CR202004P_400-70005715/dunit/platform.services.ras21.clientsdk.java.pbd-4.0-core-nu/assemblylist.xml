@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/platform.services.ras21/java">
+    <file name="ras21sdk_pbd.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/java/wily" size="2173"/>
+  </sourcedir>
+</assembly>

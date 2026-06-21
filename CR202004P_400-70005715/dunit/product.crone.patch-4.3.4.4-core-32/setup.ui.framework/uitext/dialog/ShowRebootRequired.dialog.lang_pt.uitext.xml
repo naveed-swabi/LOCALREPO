@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="RebootWarning" value="Alguns arquivos foram bloqueados durante a instalação, o que impediu o instalador de atualizá-los. Você pode adiar o reinício do sistema, mas é altamente recomendável reinicializar antes de usar o produto."/>
+<string id="RebootQuestion" value="Deseja reiniciar seu computador agora?"/>
+<string id="RestartLater" value="Reiniciar mais tarde"/>
+<string id="RestartNow" value="Reiniciar agora"/>
+</context>
+</uitext>

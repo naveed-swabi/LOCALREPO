@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Célmappa megadása"/>
+<string id="ChooseInstallDirSubtitle" value="Adja meg a teljes cél elérési utat, ahová a terméket telepíteni szeretné."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Adja meg a teljes cél elérési utat, ahová a terméket telepíteni szeretné."/>
+<string id="DestinationFolderGroupBox" value="Célmappa adatai"/>
+<string id="DestinationFolder" value="Célmappa:"/>
+<string id="Browse" value="Tallózás"/>
+<string id="BrowseInstallDirectory" value="Válassza ki a telepítés helyét"/>
+<string id="DirGenericError" value="Érvénytelen célmappa. Válasszon másik célmappát. INS00029"/>
+<string id="DirNetworkError" value="A célmappa nem lehet hálózati hely. Válasszon másik helyet."/>
+<string id="DirEmptyError" value=" Válasszon célmappát. INS00029"/>
+<string id="DirAbsolutePathError" value="A célmappa teljes elérési útját meg kell adni. INS00029"/>
+<string id="DirInvalidCharWinError" value="A célmappa számot, betűt, illetve a következő karaktereket tartalmazhatja: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="A cémappa elérési útja túl hosszú. Adjon meg 150 karakternél rövidebb elérési utat. INS00029"/>
+<string id="DirInvalidInstallverseError" value="A célmappa inkompatibilis terméket tartalmaz. Válasszon másik helyet. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="A telepítési mappa érvénytelen. Válasszon olyan érvényes abszolút elérési utat, amely csak alfanumerikus karaktereket vagy a következők bármelyikét tartalmazza: _ - \ . ( ). A könyvtár csak belső meghajtón lehet, éss a teljes elérési út hossza nem lépheti túl a 150 karaktert. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="A telepítési mappa érvénytelen. Válasszon olyan érvényes abszolút elérési utat, amelyhez olvasási, írási és végrehajtási jogosultsággal is rendelkezik. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="A telepítési könyvtár nevében nem lehet szóköz."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="A következő karakterek nem használhatók a telepítési könyvtárhoz: &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Nyomja meg a []Tab] billentyűt a könyvtárelemek automatikus kitöltéséhez, a []Ctrl-B] billentyűkombinációt a visszalépéshez, a []Ctrl-X] billentyűkombinációt a kilépéshez, illetve az []Enter] billentyűt a folytatáshoz."/>
+</context>
+</uitext>

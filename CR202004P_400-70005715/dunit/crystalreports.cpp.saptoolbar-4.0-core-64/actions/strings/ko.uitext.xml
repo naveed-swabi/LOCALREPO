@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="progress.BWRegServer" value="SAP 통합을 구성하는 중"/>
+<string id="progress.BWUnregServer" value="SAP 통합을 구성하는 중"/>
+</context>
+</uitext>

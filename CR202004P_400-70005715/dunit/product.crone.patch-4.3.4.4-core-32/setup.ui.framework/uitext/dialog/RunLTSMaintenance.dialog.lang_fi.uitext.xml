@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Tuntematon ylläpitotila annettu. Kelvollisia arvoja ovat Muokkaa, Korjaa ja Poista"/>
+<string id="ChooseMaintenanceMode" value="Sovelluksen ylläpito"/>
+<string id="SelectMaintenanceMode" value="Tuotteen #product.nameonly# tämä tai uudempi versio on jo asennettu tähän tietokoneeseen. Valitse Seuraava, jos haluat jatkaa tuotteen olemassa olevan version korjaamista, tai Peruuta, jos haluat lopettaa."/>
+<string id="Modify" value="Muokkaa"/>
+<string id="ModifyDescription" value="Vaihda asennettavia sovellustoimintoja. Näyttää valintaikkunan Valitse toiminnot, jossa voit määrittää yksittäisiä toimintoja."/>
+<string id="Repair" value="Korjaa"/>
+<string id="RepairDescription" value="Asenna uudelleen puuttuvat tai vialliset tiedostot, rekisteriavaimet ja pikakuvakkeet. Rekisteriin tallennetut asetukset voidaan palauttaa oletusarvoiksi."/>
+<string id="Remove" value="Poista"/>
+<string id="RemoveDescription" value="Poista tuotteen #product.nameonly# asennus tästä tietokoneesta."/>
+<string id="Invalid_Maintenance_Mode" value="Virheellinen MaintenanceMode-tyyppi ([MaintenanceMode]): valitse joko muuta, korjaa tai poista. INS00283"/>
+</context>
+</uitext>

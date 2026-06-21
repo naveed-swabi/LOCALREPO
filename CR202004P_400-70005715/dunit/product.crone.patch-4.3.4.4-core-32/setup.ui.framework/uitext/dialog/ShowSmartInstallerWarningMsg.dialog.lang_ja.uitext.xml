@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="目的のインストールを正常に完了するために、指定されたインストールパスが適切であることを確認してください。\n\n新規インストール - 新規ファイルディレクトリ。\nパッチインストール - 以前の #productname# バージョンインストールを含むファイルディレクトリ。\n\n\n OK をクリックして続行するか、または終了をクリックして適切なインストールパスを再入力します。"/>
+<string id="ExitMessage" value="Ctrl+X を押して終了するか、Enter キーを押して続行してください。"/>
+<string id="WarnDialogTitle" value="情報ダイアログ"/>
+<string id="WarnDialogSubtitle" value="情報:"/>
+</context>
+</uitext>

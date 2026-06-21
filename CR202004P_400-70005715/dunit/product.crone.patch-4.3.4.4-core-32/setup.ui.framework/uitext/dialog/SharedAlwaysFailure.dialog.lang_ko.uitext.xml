@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="ExpandInstallMessage_1" value="설치를 계속할 수 없습니다."/>
+<string id="ExpandInstallMessage_2" value="설치를 계속할 수 없도록 하는 문제에 대해 설명합니다."/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="이 설치를 끝내려면 CTRL-X를 누르십시오."/>
+<string id="AlwaysFailureGeneralMessage" value="설치를 계속할 수 없습니다.\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

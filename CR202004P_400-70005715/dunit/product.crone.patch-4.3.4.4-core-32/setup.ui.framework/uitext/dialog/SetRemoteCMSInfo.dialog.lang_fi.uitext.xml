@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Olemassa olevat CMS-käyttöönottotiedot"/>
+<string id="SpecifyRemoteCMS" value="Määritä olemassa olevan CMS-käyttöönoton CMS-kirjautumistiedot ja järjestelmänvalvojan kirjautumistiedot."/>
+<string id="RemoteCMSConnectionInfo" value="Nykyisen CMS:n yhteystiedot"/>
+<string id="RemoteCMSName" value="CMS-nimi"/>
+<string id="RemoteCMSPort" value="CMS-portti"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS-järjestelmänvalvojan kirjautumistiedot"/>
+<string id="RemoteCMSUser" value="Käyttäjä"/>
+<string id="RemoteCMSPassword" value="Salasana"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Keskushallintapalvelin ei ole käytettävissä, tai sisäänkirjaustiedot ovat virheelliset. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Etäkeskushallintapalvelin ei ole käytettävissä, tai sisäänkirjaustiedot ovat virheelliset. INS00013\nHaluatko syöttää kirjautumistiedot uudelleen?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Loppukenoviiva (esim. xxx\) ja seuraavat merkit eivät ole sallittuja CMS-salasanassa:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Loppukenoviiva (esim. xxx\) ja seuraavat merkit eivät ole sallittuja CMS-salasanassa: &quot;  '  INS00099"/>
+</context>
+</uitext>

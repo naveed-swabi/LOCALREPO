@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="PreviousVersionDetected" value="En tidigare version av #product.nameonly# upptäcktes"/>
+<string id="PreviousVersionDetectedSub" value="Välj om du vill utföra en uppgradering eller en parallell installation"/>
+<string id="UpgradeInstallBtn" value="Utför uppgraderingsinstallation"/>
+<string id="SideBySideInstallBtn" value="Utför parallell installation"/>
+<string id="UpgradeInstallMsg" value="Ersätt nuvarande installerad version av #product.nameonly# med den här versionen"/>
+<string id="SideBySideInstallMsg" value="Installerar den här versionen av  #product.nameonly# bredvid den version som redan är installerad"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Ogiltigt installationsläge ([InstallCompatibilityMode]): det måste vara uppgradering eller parallell"/>
+</context>
+</uitext>

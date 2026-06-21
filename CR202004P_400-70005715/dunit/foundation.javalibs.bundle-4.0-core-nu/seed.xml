@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="foundation.javalibs.bundle-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="716112">
+    <requiredDeploymentUnit ref="foundation.javalibs-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.log4j.bundle-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="7717F2C5-1646-45D7-8D52-2BF3CAC1BD96"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

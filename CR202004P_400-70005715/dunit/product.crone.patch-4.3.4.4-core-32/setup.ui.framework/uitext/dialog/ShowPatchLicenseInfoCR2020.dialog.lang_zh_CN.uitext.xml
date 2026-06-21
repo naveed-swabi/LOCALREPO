@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="NewLicensePatchAgreement" value="新许可密钥需求"/>
+<string id="YouMustAgree" value="#product.fullproductnamenospace#update 需要新的许可密钥。"/>
+<string id="IAccept" value="我已经阅读了文档并了解了申请新许可密钥的流程。我同意在安装更新后添加新许可密钥。"/>
+<string id="subtitle1" value="对于作为 SAP Business Intelligence 平台的一部分购买的 SAP Crystal Reports，您可以转到下面的链接并了解如何申请新的许可密钥。"/>
+<string id="subtitle2" value="对于独立购买的 SAP Crystal Reports，您应访问 SAP Store 并购买升级许可密钥。"/>
+<string id="subtitle3" value="在更新安装后启动应用程序时，必须在许可管理器中输入新的许可密钥。"/>
+</context>
+</uitext>

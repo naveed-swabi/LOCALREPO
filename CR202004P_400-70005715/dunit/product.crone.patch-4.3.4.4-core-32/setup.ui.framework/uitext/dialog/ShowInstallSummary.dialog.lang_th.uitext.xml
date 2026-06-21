@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="เริ่มการติดตั้ง"/>
+<string id="ShowInstallSummarySubtitle" value="การติดตั้งพร้อมที่จะติดตั้ง #product.fullproductnamenospace# แล้ว คลิก ย้อนกลับ เพื่อทำการเปลี่ยนแปลงข้อมูลการติดตั้งของคุณ\n\nคลิก ถัดไป เพื่อเริ่มการติดตั้ง"/>
+<string id="ShowInstallSummaryUnixDescription" value="คุณพร้อมที่จะให้วิซาร์ดการติดตั้ง #product.fullproductnamenospace# เริ่มต้นดำเนินการติดตั้งหรือไม่"/>
+<string id="ShowInstallSummaryFooter" value="กด []Ctrl-B] เพื่อย้อนกลับ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อติดตั้ง"/>
+<string id="DiskCost" value="พื้นที่ดิสก์ที่ใช้"/>
+<string id="Drive Select" value="คุณกำลังเลือก"/>
+<string id="Disk Costing" value="พื้นที่ดิสก์ที่ใช้"/>
+<string id="Volume" value="ไดรฟ์ข้อมูล"/>
+<string id="Disk Size" value="ขนาดดิสก์"/>
+<string id="Available" value="พร้อมใช้งาน"/>
+<string id="Required" value="จำเป็น"/>
+<string id="Difference" value="ผลต่าง"/>
+<string id="Ok" value="ตกลง"/>
+<string id="Retry" value="ลองใหม่"/>
+<string id="Cancel" value="ยกเลิก"/>
+<string id="ShowCacheSummaryTitle" value="การติดตั้งตามขั้นตอน"/>
+<string id="ShowCacheSummarySubtitle" value="เริ่มการแคช"/>
+<string id="ShowCacheSummaryDescription" value="การแคชคือกระบวนการคัดลอกซอฟต์แวร์ลงในไดเรคทอรีการติดตั้ง ระหว่างการแคชจะไม่เกิดดาวน์ไทม์ของระบบ และคุณสามารถทำงานในระบบต่อได้"/>
+<string id="Invalid_DiskSpace" value="คุณมีพื้นที่ว่างไม่เพียงพอในการติดตั้งผลิตภัณฑ์นี้ โปรดเพิ่มพื้นที่ว่างบนดิสก์ หรือเลือกตำแหน่งที่ตั้งอื่นสำหรับการติดตั้ง พื้นที่ที่มีอยู่: [AvailableSpace] เมกะไบต์ พื้นที่ที่ต้องใช้: [RequiredSpace] เมกะไบต์"/>
+<string id="Resume_Description" value="ระหว่างการติดตั้งหลังจากการแคช ซอฟต์แวร์จะได้รับการติดตั้งในระบบโดยมีดาวน์ไทม์ของระบบบางครั้ง"/>
+<string id="ShowResumetitle" value="การติดตั้งตามขั้นตอน"/>
+<string id="ShowResumeSubtitle" value="ดำเนินการติดตั้งต่อ"/>
+<string id="ShowResumeFooter" value="กด []Ctrl-B] เพื่อย้อนกลับ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อติดตั้ง"/>
+<string id="MessageCache" value="คลิก ถัดไป เพื่อเริ่มต้นขั้นตอนการแคช"/>
+<string id="MessageResume" value="คลิก ถัดไป เพื่อเริ่มต้นการติดตั้ง"/>
+</context>
+</uitext>

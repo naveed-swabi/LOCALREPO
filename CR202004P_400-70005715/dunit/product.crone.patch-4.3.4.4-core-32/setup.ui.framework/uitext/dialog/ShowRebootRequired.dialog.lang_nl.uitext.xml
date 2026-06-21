@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="RebootWarning" value="Sommige bestanden zijn tijdens de installatie vergrendeld, waardoor het installatieprogramma ze niet kon bijwerken. U kunt uw systeem later opnieuw opstarten, maar het is raadzaam dit te doen voordat u het product gebruikt."/>
+<string id="RebootQuestion" value="Wilt u uw computer nu opnieuw opstarten?"/>
+<string id="RestartLater" value="Later opnieuw opstarten"/>
+<string id="RestartNow" value="Nu opnieuw opstarten"/>
+</context>
+</uitext>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="インストール後の手順"/>
+<string id="PostInstallDetails" value="インストールが完了しました。デプロイメントを完了するには、以下のインストール後の手順に従ってください。"/>
+<string id="PostUninstallSteps" value="アンインストール後の手順"/>
+<string id="PostUninstallDetails" value="アンインストールがほぼ完了しました。プロセスを完了するには、以下の手順に従ってください。"/>
+<string id="PostInstallStep_Header" value="{b}インストール後の手順:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="インストール後の手順:"/>
+<string id="PostUninstallStep_Header" value="{b}アンインストール後の手順:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="アンインストール後の手順:"/>
+<string id="CRPostInstallUIText1" value="製品登録{br}次のアドレスをクリックし、製品をオンラインで登録してください: {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}here{/a}"/>
+<string id="PostInstallStep_Footer" value="インストールが完了しました。続行するには []Enter] を押してください"/>
+<string id="PostUnInstallStep_Footer" value="アンインストールが完了しました。続行するには []Enter] を押してください"/>
+</context>
+</uitext>

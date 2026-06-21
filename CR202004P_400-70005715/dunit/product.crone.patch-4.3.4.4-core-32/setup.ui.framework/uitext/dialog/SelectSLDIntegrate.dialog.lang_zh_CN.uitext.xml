@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="SLDIntegrateTitle" value="SAP Solution Manager 集成"/>
+<string id="SLDIntegrateTitleSub" value="是否与 SAP Solution Manager 集成？"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="SAP Solution Manager 集成"/>
+<string id="IntegrateBtn" value="与 SAP Solution Manager 集成。将提示您提供信息。"/>
+<string id="NoIntegrateBtn" value="不与 SAP Solution Manager 集成。"/>
+<string id="Invalid_SLDIntegrateSelection" value="ChooseSLDIntegration ([ChooseSLDIntegration]) 无效：它应该是“integrate”或“nointegrate”。INS00285"/>
+</context>
+</uitext>

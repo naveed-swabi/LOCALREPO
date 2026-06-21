@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Skapar och ändrar formaterade datarapporter (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC Data Source Administrator"/>
+<string id="product.shortcutODBC.description" value="Lägger till, tar bort och konfigurerar ODBC-datakällor (Open Database Connectivity) och drivrutiner."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bitars Data Source Administrator"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Rapportöverföringsguiden"/>
+<string id="product.shortcutWizard.description" value="Rapportöverföringsguiden"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB-data (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Stöd för standard-OLE DB-provider."/>
+<string id="feature.Comm_Rep.name" value="Command in repository"/>
+<string id="feature.Comm_Rep.description" value="För anslutning till Command in repository."/>
+<string id="feature.DiskFile.name" value="Mål för diskfil"/>
+<string id="feature.DiskFile.description" value="Stöd för export till en fil."/>
+<string id="feature.NTEventLog.name" value="NT-händelselogg"/>
+<string id="feature.NTEventLog.description" value="Stöd för NT-händelseloggar."/>
+<string id="feature.MyCube.name" value="OLAP-kub"/>
+<string id="feature.MyCube.description" value="Support för OLAP-kuber i #product.boe64_name#."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="För anslutning till Progress OpenEdge."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects-integration för Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Fältdefinitioner"/>
+<string id="feature.FieldDefinitions.description" value="Stöd för att utforma rapporter från textbaserade scheman."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Stöd för Lotus Domino-databaser. Lotus Notes-klienten måste vara installerad."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects-integration för JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003)-format"/>
+<string id="feature.WordforWindows.description" value="Stöd för export till Microsoft Word (97-2003)-format (*.doc)."/>
+<string id="feature.SFORCE.name" value="Salesforce.com-drivrutin"/>
+<string id="feature.SFORCE.description" value="Möjliggör anslutning av #productname# till dina CRM-data i Salesforce.com och generering av avancerade rapporter."/>
+<string id="feature.PDF.name" value="PDF-format"/>
+<string id="feature.PDF.description" value="Stöd för export till PDF-format (*.pdf)."/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003)-format"/>
+<string id="feature.Excel.description" value="Stöd för export till Microsoft Excel 97-2003-format (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="Teckenavgränsat format"/>
+<string id="feature.CharacterSeparated.description" value="Stöd för att exportera till teckenavgränsat format (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Stöd för Sybase-databaser som används med en tillhörande klient. Sybase-klienten måste vara installerad."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Stöd för Informix-databaser. Informix-klienten måste vara installerad."/>
+<string id="feature.DataAccess.name" value="Dataåtkomst"/>
+<string id="feature.DataAccess.description" value="Dataåtkomstkomponenter används för att ansluta #product.crw_name# till databaser."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Ger anslutning till ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Installerar applikationen Crystal Reports Designer"/>
+<string id="feature.XML.name" value="XML- och webbtjänster"/>
+<string id="feature.XML.description" value="Stöd för XML-data."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Stöd för ACT!-databaser."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="För anslutning till MySQL-databaser."/>
+<string id="feature.COMData.name" value="COM-dataprovider"/>
+<string id="feature.COMData.description" value="Stöd för data som exponeras av COM-objekt."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="E-post i Lotus Domino"/>
+<string id="feature.LotusNotesMail.description" value="Exportera till Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Dataåtkomst till ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Stöd för Exchange Server-data, som Exchange-mappar, loggar och adressböcker."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Stöd för IBM DB2-databaser. Du måste först installera DB2-klienten."/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="Stöd för Business Objects Universe."/>
+<string id="feature.ReportDefinition.name" value="Rapportdefinitionsformat"/>
+<string id="feature.ReportDefinition.description" value="Stöd för export till rapportdefinitionsformat."/>
+<string id="feature.ExchangeFolders.name" value="Mål för gemensamma Microsoft Exchange-mappar"/>
+<string id="feature.ExchangeFolders.description" value="Stöd för export till en Exchange-mapp."/>
+<string id="feature.ODBC.name" value="Format för ODBC-datakälla"/>
+<string id="feature.ODBC.description" value="Stöd för export till installerade ODBC-format."/>
+<string id="feature.DataDirectODBC.description" value="DataDirect ODBC-drivrutiner för #productname# med nytt varumärke"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Valfria DataDirect ODBC-drivrutiner för #productname# med nytt varumärke"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Valfri DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="XML-export"/>
+<string id="feature.XMLExport.description" value="Stöd för export till ett XML-dokument."/>
+<string id="feature.Export.name" value="Exportstöd"/>
+<string id="feature.Export.description" value="Gör det möjligt att publicera färdiga rapporter i olika filformat."/>
+<string id="feature.PGEditor.name" value="Anpassa diagram"/>
+<string id="feature.PGEditor.description" value="Grafikprogram med fler formateringsfunktioner för diagram."/>
+<string id="feature.Btrieve.name" value="Drivrutin för Pervasive-databas (Btrieve)"/>
+<string id="feature.Btrieve.description" value="töd för Btrieve-datafiler. Du måste först installera Btrieve-klienten."/>
+<string id="feature.LegacyXMLExport.name" value="Exportera äldre XML"/>
+<string id="feature.LegacyXMLExport.description" value="Stöd för export till ett XML-dokument (äldre XML)."/>
+<string id="feature.LotusNotes.name" value="Mål i Lotus Notes"/>
+<string id="feature.LotusNotes.description" value="Stöd för export till ett Lotus Notes-dokument."/>
+<string id="feature.CDO.name" value="Crystal Data-objekt"/>
+<string id="feature.CDO.description" value="Stöd för rapportering av data som lagras i en minnesmatris."/>
+<string id="feature.WebActivityLog.name" value="Webb/IIS-aktivitetslogg"/>
+<string id="feature.WebActivityLog.description" value="Stöd för loggar över webbserveraktivitet."/>
+<string id="feature.Text.name" value="Textformat"/>
+<string id="feature.Text.description" value="Stöd för export till textformat (*.txt)."/>
+<string id="feature.BDE.name" value="Databas-DLL för IDAPI"/>
+<string id="feature.BDE.description" value="Stöd för dBASE- och Paradox-filer. Du måste först installera Borland Database Engine."/>
+<string id="feature.CrystalReports.name" value="Format för #productname#"/>
+<string id="feature.CrystalReports.description" value="Stöd för export till format för #productname# (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="Rich Text Format "/>
+<string id="feature.RichTextFormat.description" value="Stöd för export till Rich Text Format (*.rtf)."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Stöd för Microsoft Access-databaser."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Stöd för Outlook-data."/>
+<string id="feature.FileSystem.name" value="Filsystem"/>
+<string id="feature.FileSystem.description" value="Stöd för filsystemdata."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects-integration för Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Java Beans-anslutning"/>
+<string id="feature.JavaData.description" value="Stöd för data som exponeras av Java-klasser."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="För anslutning till Teradata-databas"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects-integration för SAP-lösningar."/>
+<string id="feature.Record.name" value="Postformat (kolumner med värden)"/>
+<string id="feature.Record.description" value="Stöd för export till postformatet (*.rec)."/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="För anslutning till NETEZZA."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects-integration för Siebel."/>
+<string id="feature.Mapping.name" value="Geografisk mappning"/>
+<string id="feature.Mapping.description" value="Visar sambanden mellan data och geografiska områden."/>
+<string id="feature.Application.name" value="Programmål"/>
+<string id="feature.Application.description" value="Stöd för export till ett program."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Stöd för dBASE-databaser."/>
+<string id="feature.HTML.name" value="HTML-format"/>
+<string id="feature.HTML.description" value="Stöd för export till HTML 3.2-format och HTML 4.0-format (DHTML) (*.html)."/>
+<string id="feature.DataSet.name" value="Användare av datauppsättning"/>
+<string id="feature.DataSet.description" value="Stöd för Report Application Server ISCRDataSet-objekt."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Stöd för HP Neoview."/>
+<string id="feature.JDBC.name" value="JDBC-datadrivrutin (JNDI)"/>
+<string id="feature.JDBC.description" value="Stöd för JDBC-data (JNDI)."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Stöd för Oracle-tabeller. Du måste först installera Oracle-klienten."/>
+<string id="feature.MicrosoftMail.name" value="Mål för Microsoft Mail"/>
+<string id="feature.MicrosoftMail.description" value="Mål för Microsoft Mail"/>
+<string id="feature.UploadWizard.name" value="Rapportöverföringsguiden"/>
+<string id="feature.UploadWizard.description" value="Rapportöverföringsguiden."/>
+<string id="feature.UWSC.name" value="Universal Web Services Connector (UWSC)"/>
+<string id="feature.UWSC.description" value="För anslutning till UWSC."/>
+<string id="feature.IntegrationOptions.name" value="Integreringsalternativ"/>
+<string id="feature.IntegrationOptions.description" value="Komponenter för integrationsalternativ används för att ansluta #product.crw_name# till andra Enterprise-system."/>
+<string id="property.InstallType.description" value="Typ av installation: standard eller anpassad"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Administrativ behörighet"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Använd ett användarkonto som har administrativ behörighet. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64-bitars operativsystem"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Produkten måste installeras i ett 64-bitars operativsystem (OS). Kontrollera om ditt operativsystem uppfyller kraven. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="Installation av #product.fullproductnamenospace#"/>
+</context>
+</uitext>

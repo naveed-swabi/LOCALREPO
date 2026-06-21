@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Ukendt vedligeholdelsestilstand angivet. Gyldige værdier er: Rediger, Reparer eller Fjern"/>
+<string id="ChooseMaintenanceMode" value="Programvedligeholdelse"/>
+<string id="SelectMaintenanceMode" value="Vælg den vedligeholdelseshandling, der skal udføres. Besøg http://support.sap.com for hjælp til fejlfinding."/>
+<string id="SelectMaintenanceMode_win" value="Vælg den vedligeholdelseshandling, der skal udføres."/>
+<string id="Modify" value="Rediger"/>
+<string id="ModifyDescription" value="Vælg, hvilke programfunktioner der skal installeres. Viser dialogboksen Vælg funktioner, hvor du kan konfigure de enkelte funktioner."/>
+<string id="Repair" value="Reparer"/>
+<string id="RepairDescription" value="Geninstaller manglende eller ødelagte filer, registreringsdatabasenøgler og genveje. Præferencer, der er gemt i registreringsdatabasen, kan blive nulstillet til standardværdierne."/>
+<string id="Remove" value="Fjern"/>
+<string id="RemoveDescription" value="Afinstaller #product.nameonly# fra denne computer."/>
+<string id="Invalid_Maintenance_Mode" value="Ugyldig MaintenanceMode-type ([MaintenanceMode]): Typen skal være &quot;rediger&quot;, &quot;reparer&quot; eller &quot;fjern&quot;. INS00283"/>
+<string id="HyperLinkMaint" value="Besøg for hjælp til fejlfinding: "/>
+</context>
+</uitext>

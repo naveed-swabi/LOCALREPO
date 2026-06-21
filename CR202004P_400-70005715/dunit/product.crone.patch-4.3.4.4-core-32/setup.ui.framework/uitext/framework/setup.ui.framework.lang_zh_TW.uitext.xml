@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="zh_TW"/>
+  <context>
+    <string id="Yes" value="是"/>
+    <string id="No" value="否"/>
+    <string id="Ok" value="確定"/>
+    <string id="Cancel" value="取消"/>
+    <string id="Abort" value="關於"/>
+    <string id="Continue" value="繼續"/>
+    <string id="Ignore" value="忽略"/>
+    <string id="Next" value="下一步"/>
+    <string id="Previous" value="上一步"/>
+    <string id="Info" value="資訊"/>
+    <string id="Warning" value="警告"/>
+    <string id="Error" value="錯誤"/>
+    <string id="FatalError" value="嚴重錯誤"/>
+    <string id="ErrorDialogTitle" value="錯誤"/>
+    <string id="ErrorDialogSubtitle" value="發生錯誤。"/>
+    <string id="ErrorDialogFooter" value="按 Enter 繼續。"/>
+    <string id="WarnDialogTitle" value="警告"/>
+    <string id="WarnDialogSubtitle" value="出現警告。"/>
+    <string id="WarnDialogFooter" value="按 Ctrl+B 返回，或按 Enter 鍵繼續。"/>
+    <string id="InfoDialogTitle" value="資訊"/>
+    <string id="InfoDialogSubtitle" value="已提供下列資訊:"/>
+    <string id="InfoDialogFooter" value="按 Enter 繼續。"/>
+    <string id="DefaultUnixFooter" value="按 Tab 移至下個欄位，按 Ctrl+B 移至上個欄位，按 Ctrl+X 結束，或按 Enter 繼續。"/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="按 Tab 移至下個欄位，按 Ctrl+X 結束，或按 Enter 繼續。"/>
+    <string id="ProgressDialogUnixFooter" value="按 Ctrl+X 結束。"/>
+    <string id="CancelCaption" value="取消"/>
+    <string id="CancelExitSetup" value="結束安裝"/>
+    <string id="CancelMsg" value="如果您現在要結束程式，則將不會安裝程式。您可以稍後執行安裝程式以完成安裝。\n若要繼續安裝，請按一下 [繼續]。若要結束安裝，請按一下 [結束安裝]。"/>
+    <string id="CancelResume" value="繼續"/>
+    <string id="DialogCaption" value="#product.fullproductnamenospace# 安裝"/>
+    <string id="outofspace" value="磁碟空間不足"/>
+    <string id="CanceledModifier" value="%1 (正在取消)"/>
+    <string id="ValidationCaption" value="驗證結果"/>
+    <string id="ValidationError" value="錯誤:"/>
+    <string id="ValidationToDo" value="按一下 [確定] 以更正驗證錯誤。如果僅出現警告，請按一下 [是] 繼續，或按一下 [否] 更正警告。"/>
+    <string id="ValidationWarning" value="警告:"/>
+    <string id="Validation.MissingFields" value="必須填完必要欄位才能繼續安裝。"/>
+    <string id="ValidationFailed.Blocking" value="由於未驗證下列動作，因此進度已停止: "/>
+    <string id="ValidationFailed.Optional" value="下列動作的選擇性驗證失敗: "/>
+    <string id="action.InstallDUBundle" value="正在安裝部署單位:"/>
+    <string id="action.UninstallDUBundle" value="正在解除安裝部署單位:"/>
+    <string id="action.RegisterBinary" value="註冊二進位"/>
+    <string id="action.UnregisterBinary" value="取消註冊二進位"/>
+    <string id="action.ConfigureTomcat" value="正在設定 Tomcat"/>
+    <string id="action.BOBJTextReplace" value="執行文字取代"/>
+    <string id="action.RunCommand" value="執行可執行的命令列"/>
+    <string id="action.RunCommandConditional" value="執行在某些條件下可執行的命令列"/>
+    <string id="action.EnsureFolderExists" value="請確認資料夾存在"/>
+    <string id="action.CreateShortcut" value="建立開始功能表捷徑"/>
+    <string id="action.AddARPEntry" value="加入新增/移除程式項目"/>
+    <string id="action.RemoveARPEntry" value="移除新增/移除程式項目"/>
+    <string id="action.BOBJRegasm" value="執行組件註冊"/>
+    <string id="action.BOBJUnRegasm" value="移除組件註冊"/>
+    <string id="sequence.InstallPreReqs" value="安裝必要條件"/>
+    <string id="sequence.SetInitialProperties" value="設定初始屬性"/>
+    <string id="sequence.SetMyProperties" value="設定產品屬性"/>
+    <string id="sequence.InstallDUBase" value="安裝動作"/>
+    <string id="sequence.InstallDUBundles" value="安裝部署單位"/>
+    <string id="sequence.CreateSymLinks" value="建立符號連結"/>
+    <string id="sequence.ConfigureDUBase" value="設定部署單位"/>
+    <string id="sequence.PopulateRegistry" value="填入登錄"/>
+    <string id="sequence.InstallServices" value="安裝服務"/>
+    <string id="sequence.ConfigureServices" value="設定服務"/>
+    <string id="sequence.StartServices" value="開始服務"/>
+    <string id="sequence.StopServices" value="停止服務"/>
+    <string id="sequence.UninstallServices" value="解除安裝服務"/>
+    <string id="sequence.UnPopulateRegistry" value="取消填入登錄"/>
+    <string id="sequence.UninstallDUBase" value="解除安裝動作"/>
+    <string id="sequence.UnconfigureDUBase" value="解除設定部署單位"/>
+    <string id="sequence.RemoveSymLinks" value="移除符號連結"/>
+    <string id="sequence.UninstallDUBundles" value="解除安裝部署單位:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="刪除空的資料夾"/>
+    <string id="Dialog.title" value="設定訊息"/>
+    <string id="PleaseWait" value="請稍候..."/>
+    <string id="LongCalculation" value="正在進行長時間的計算，請稍候..."/>
+    <string id="DiskCostInProgress" value="正在計算佔用的磁碟空間。"/>
+    <string id="Confirm.title" value="確認"/>
+    <string id="Permissions.title" value="設定權限"/>
+    <string id="NoPermissionsOperation" value="您沒有可在此安裝上執行作業的存取權限。"/>
+    <string id="NoPermissionsFile" value="您沒有存取下列檔案的存取權限: %1"/>
+    <string id="NoPatchWithPackageInstall" value="安裝程式發現已安裝舊版的 #productname#。已安裝舊版後，便無法套用此完整安裝套件。請使用 &quot;#product.fullproductname#&quot; 的維護套件更新您目前的安裝。"/>
+    <string id="OlderCryptoDllFound" value="安裝程式找到設為 crypto 二進位的環境變數 R_SHLIB_LD_LIBRARY_PATH，其版本低於此安裝所需的二進位。請依照連結的文件中的指示完成安裝。"/>
+    <string id="CmdLine.title" value="設定命令列"/>
+    <string id="InvalidCmdLine" value="命令列無效"/>
+    <string id="ExpectedCmdLine" value="預期的命令列為: %1"/>
+    <string id="ActionFailed" value="自訂動作失敗"/>
+    <string id="ActionFailedArg" value="自訂動作失敗: %1"/>
+    <string id="ActionFailedWithCode" value="自訂動作失敗且顯示錯誤碼:"/>
+    <string id="RegistrationFailed" value="無法註冊二進位: %1"/>
+    <string id="NoFindFile" value="找不到檔案: %1"/>
+    <string id="NoCMS" value="無法連線至 CMS"/>
+    <string id="NoCMSArg" value="無法以 %1 連線至 CMS"/>
+    <string id="DFOFailed" value="DFO 上傳失敗"/>
+    <string id="wdeployFailed" value="WDeploy 無法部署應用程式。"/>
+    <string id="ScriptFailed" value="無法執行指令碼: %1"/>
+    <string id="CmdFailed" value="無法執行命令列: %1"/>
+    <string id="ServerStartFailed" value="無法啟動伺服器: %1"/>
+    <string id="ServerStopFailed" value="無法停止伺服器: %1"/>
+    <string id="ExitCode" value="結束碼: %1"/>
+    <string id="DBInitFail" value="無法初始化資料庫"/>
+    <string id="ShortcutFail" value="無法建立捷徑: %1"/>
+    <string id="ARPFail" value="無法建立產品 %1 的移除新增/移除程式項目"/>
+    <string id="CreateFolderFail" value="無法建立資料夾: %1"/>
+    <string id="SamplesFail" value="無法新增樣本"/>
+    <string id="LicenseKeyFail" value="無法新增授權金鑰"/>
+    <string id="Tomcatfail" value="無法設定 Tomcat"/>
+    <string id="PropertyFail" value="無法取得屬性值: %1"/>
+    <string id="dev" value="開發人員英語"/>
+    <string id="aa" value="阿爾法語"/>
+    <string id="ab" value="阿布哈西亞語"/>
+    <string id="af" value="阿非利加語"/>
+    <string id="am" value="阿姆哈拉語"/>
+    <string id="ar" value="阿拉伯語"/>
+    <string id="as" value="阿薩姆語"/>
+    <string id="ay" value="愛瑪拉族語"/>
+    <string id="az" value="亞塞拜然語"/>
+    <string id="ba" value="巴什克爾語"/>
+    <string id="be" value="白俄羅斯語"/>
+    <string id="bg" value="保加利亞語"/>
+    <string id="bh" value="比哈爾省語"/>
+    <string id="bi" value="萬那杜語"/>
+    <string id="bn" value="孟加拉語"/>
+    <string id="bo" value="藏語"/>
+    <string id="br" value="不列塔尼語"/>
+    <string id="ca" value="加泰隆尼亞語"/>
+    <string id="co" value="科西嘉島語"/>
+    <string id="cs" value="捷克語"/>
+    <string id="cy" value="威爾斯語"/>
+    <string id="da" value="丹麥語"/>
+    <string id="de" value="德語"/>
+    <string id="dz" value="不丹語"/>
+    <string id="el" value="希臘語"/>
+    <string id="en" value="英語"/>
+    <string id="eo" value="世界語"/>
+    <string id="es" value="西班牙語"/>
+    <string id="et" value="愛沙尼亞語"/>
+    <string id="eu" value="巴斯克語"/>
+    <string id="fa" value="波斯語"/>
+    <string id="fi" value="芬蘭語"/>
+    <string id="fj" value="斐濟語"/>
+    <string id="fo" value="法羅語"/>
+    <string id="fr" value="法語"/>
+    <string id="fy" value="夫里斯蘭語"/>
+    <string id="ga" value="愛爾蘭語"/>
+    <string id="gd" value="蘇格蘭蓋爾語"/>
+    <string id="gl" value="西班牙加里西亞省語"/>
+    <string id="gn" value="巴拉圭語"/>
+    <string id="gu" value="印度古吉拉特梵語"/>
+    <string id="ha" value="豪撒族語"/>
+    <string id="he" value="希伯來語"/>
+    <string id="hi" value="北印度語"/>
+    <string id="hr" value="克羅埃西亞語"/>
+    <string id="hu" value="匈牙利語"/>
+    <string id="hy" value="亞美尼亞語"/>
+    <string id="ia" value="國際語"/>
+    <string id="id" value="印度尼西亞語"/>
+    <string id="ie" value="國際語"/>
+    <string id="ik" value="伊努語"/>
+    <string id="is" value="冰島語"/>
+    <string id="it" value="義大利文"/>
+    <string id="iu" value="愛斯基摩語"/>
+    <string id="ja" value="日語"/>
+    <string id="jw" value="爪哇語"/>
+    <string id="ka" value="喬治亞語"/>
+    <string id="kk" value="哈薩克語"/>
+    <string id="kl" value="格陵蘭語"/>
+    <string id="km" value="柬埔寨語"/>
+    <string id="kn" value="坎納達語"/>
+    <string id="ko" value="韓語"/>
+    <string id="ks" value="喀什米爾語"/>
+    <string id="ku" value="庫德語"/>
+    <string id="ky" value="吉爾吉斯語"/>
+    <string id="la" value="拉丁語"/>
+    <string id="ln" value="林格拉語"/>
+    <string id="lo" value="寮國語"/>
+    <string id="lt" value="立陶宛語"/>
+    <string id="lv" value="拉脫維亞語"/>
+    <string id="mg" value="馬達加斯加語"/>
+    <string id="mi" value="紐西蘭毛利語"/>
+    <string id="mk" value="馬其頓語"/>
+    <string id="ml" value="馬來亞拉姆語"/>
+    <string id="mn" value="蒙古語"/>
+    <string id="mo" value="摩爾達維亞語"/>
+    <string id="mr" value="印度馬拉提語"/>
+    <string id="ms" value="馬來語"/>
+    <string id="mt" value="馬爾他語"/>
+    <string id="my" value="緬甸語"/>
+    <string id="na" value="諾魯語"/>
+    <string id="nb" value="挪威語"/>
+    <string id="ne" value="尼泊爾語"/>
+    <string id="nl" value="荷蘭語"/>
+    <string id="oc" value="歐克希坦語"/>
+    <string id="om" value="奧洛默語"/>
+    <string id="or" value="奧里薩語"/>
+    <string id="pa" value="旁遮普語"/>
+    <string id="pl" value="波蘭語"/>
+    <string id="ps" value="帕施圖語"/>
+    <string id="pt" value="葡萄牙語"/>
+    <string id="qu" value="蓋楚瓦語"/>
+    <string id="rm" value="列托-羅曼斯語"/>
+    <string id="rn" value="克倫地語"/>
+    <string id="ro" value="羅馬尼亞語"/>
+    <string id="ru" value="俄語"/>
+    <string id="rw" value="金亞盧安達語"/>
+    <string id="sa" value="梵語"/>
+    <string id="sd" value="印度信德語"/>
+    <string id="sg" value="桑戈語"/>
+    <string id="sh" value="塞爾維亞-克羅埃西亞語"/>
+    <string id="si" value="錫蘭語"/>
+    <string id="sk" value="斯洛伐克"/>
+    <string id="sl" value="斯洛維尼亞語"/>
+    <string id="sm" value="薩摩亞語"/>
+    <string id="sn" value="紹納語"/>
+    <string id="so" value="索馬利語"/>
+    <string id="sq" value="阿爾巴尼亞語"/>
+    <string id="sr" value="塞爾維亞語"/>
+    <string id="ss" value="史瓦濟語"/>
+    <string id="st" value="席索托語"/>
+    <string id="su" value="巽他語"/>
+    <string id="sv" value="瑞典語"/>
+    <string id="sw" value="史瓦希里語"/>
+    <string id="ta" value="坦米爾語"/>
+    <string id="te" value="安得拉邦語"/>
+    <string id="tg" value="塔吉克語"/>
+    <string id="th" value="泰語"/>
+    <string id="ti" value="提格利尼亞語"/>
+    <string id="tk" value="土庫曼語"/>
+    <string id="tl" value="塔加拉語"/>
+    <string id="tn" value="色瓦納語"/>
+    <string id="to" value="東加王國語"/>
+    <string id="tr" value="土耳其語"/>
+    <string id="ts" value="聰加語"/>
+    <string id="tt" value="韃靼語"/>
+    <string id="tw" value="奇族語"/>
+    <string id="ug" value="維吾爾族語"/>
+    <string id="uk" value="烏克蘭語"/>
+    <string id="ur" value="烏都語"/>
+    <string id="uz" value="烏玆別克語"/>
+    <string id="vi" value="越南語"/>
+    <string id="vo" value="沃拉普克語"/>
+    <string id="wo" value="沃洛夫語"/>
+    <string id="xh" value="廓薩語"/>
+    <string id="yi" value="伊第緒語"/>
+    <string id="yo" value="優魯巴語"/>
+    <string id="za" value="壯語"/>
+    <string id="zh_CN" value="簡體中文"/>
+    <string id="zh_TW" value="繁體中文"/>
+    <string id="zu" value="祖魯語"/>
+    <string id="SetupInitSh.root" value="若要設定 Init 指令碼，請以根的身分登入，然後執行。"/>
+    <string id="SetupInitSh.fail" value="系統初始化指令碼失敗。"/>
+    <string id="property.InstallDir.description" value="安裝目錄"/>
+    <string id="property.SetupUILanguage.description" value="安裝 UI 語言"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="已排序的可用安裝 UI 語言"/>
+    <string id="property.SelectedLanguagePacks.description" value="選取安裝的語言套件"/>
+    <string id="property.ProductKey.description" value="產品金鑰代碼"/>
+    <string id="property.RegisteredCompany.description" value="已註冊的公司"/>
+    <string id="property.RegisteredUser.description" value="已註冊的使用者"/>
+    <string id="property.InstallCompatibilityMode.description" value="升級舊版產品或並排安裝"/>
+    <string id="property.IsAcceptEULA.description" value="系統是否接受使用者授權合約?"/>
+    <string id="property.FormattedString.description" value="格式化目標字串"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="啟動 WDeploy"/>
+    <string id="description.cmsname" value="CMS 名稱"/>
+    <string id="description.cmsport" value="CMS 連接埠"/>
+    <string id="description.cmsusername" value="CMS 使用者名稱"/>
+    <string id="description.cmspassword" value="CMS 密碼"/>
+    <string id="description.cmsauth" value="CMS 授權"/>
+    <string id="description.sianame" value="SIA 名稱"/>
+    <string id="description.siaport" value="SIA 連接埠"/>
+    <string id="property.CMSPassword.description" value="CMS 管理員密碼"/>
+    <string id="property.CMSPort.description" value="CMS 連線連接埠"/>
+    <string id="property.CryptoKey.description" value="CMS 叢集金鑰"/>
+    <string id="property.EnableServers.description" value="安裝後啟動伺服器: 0 或 1"/>
+    <string id="property.UsingAuditDBType.description" value="稽核資料庫類型"/>
+    <string id="property.UsingCMSDBType.description" value="CMS 資料庫類型"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="現有的稽核資料庫 (DB)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="現有的稽核 DB 密碼"/>
+    <string id="property.ExistingAuditingDBPort.description" value="現有的稽核 DB 連接埠"/>
+    <string id="property.ExistingAuditingDBReset.description" value="現有的稽核 DB 重設旗標: 0 或 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="現有的稽核 DB 使用外部驗證旗標: 0 或 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="現有的稽核 DB 伺服器"/>
+    <string id="property.ExistingAuditingDBUser.description" value="現有的稽核 DB 使用者名稱"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="現有的 CMS 資料庫 (DB)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="現有的 CMS DB 密碼"/>
+    <string id="property.ExistingCMSDBPort.description" value="現有的 CMS DB 連接埠"/>
+    <string id="property.ExistingCMSDBReset.description" value="現有的 CMS DB 重設旗標: 0 或 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="現有的 CMS DB 使用外部驗證旗標: 0 或 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="現有的 CMS DB 伺服器"/>
+    <string id="property.ExistingCMSDBUser.description" value="現有的 CMS DB 使用者名稱"/>
+    <string id="property.NewOrExpandInstall.description" value="安裝模式: 新增、展開"/>
+    <string id="property.MySQLBOEUserName.description" value="BI 平台使用者的配套資料庫使用者名稱"/>
+    <string id="property.MySQLBOEUserPassword.description" value="BI 平台使用者的配套資料庫密碼"/>
+    <string id="property.MySQLPort.description" value="配套資料庫連接器連接埠"/>
+    <string id="property.MySQLRootPassword.description" value="配套資料庫根使用者密碼"/>
+    <string id="property.RemoteCMSAdminName.description" value="遠端 CMS 管理員名稱"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="遠端 CMS 管理員密碼"/>
+    <string id="property.RemoteCMSName.description" value="遠端 CMS 名稱"/>
+    <string id="property.RemoteCMSPort.description" value="遠端 CMS 連接埠"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="略過遠端 CMS 登入警告"/>
+    <string id="property.MaintenanceMode.description" value="要執行的維護作業"/>
+    <string id="property.SelectIntegratedDatabase.description" value="安裝整合資料庫: 0 或 1"/>
+    <string id="property.SIAName.description" value="SIA 節點名稱"/>
+    <string id="property.SIAPort.description" value="SIA 連接器連接埠"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat 連線連接埠"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat 重新導向連接埠"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat 關閉連接埠"/>
+    <string id="property.WACSPort.description" value="WACS 連接埠"/>
+    <string id="property.WebAppServerType.description" value="Web 應用程式伺服器類型: Tomcat、手動或 WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Solution Manager 伺服器名稱"/>
+    <string id="property.SolMgr_Port.description" value="Solution Manager 伺服器連接埠"/>
+    <string id="property.SolMgr_Username.description" value="連線至 Solution Manager 的使用者名稱"/>
+    <string id="property.SolMgr_Password.description" value="連線至 Solution Manager 的密碼"/>
+    <string id="property.SolMgr_UseHttps.description" value="使用 HTTPS 連線至 Solution Manager: 0 或 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="用於保留 SharedAlwaysFailureMessage 字串的屬性"/>
+    <string id="property.SMDAgent_HOST.description" value="SMD Agent 主機名稱"/>
+    <string id="property.SMDAgent_PORT.description" value="SMD Agent 連接埠編號"/>
+    <string id="property.UPGRADE.description" value="允許無訊息升級旗標: 0 或 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="整合 Solution Manager Diagnostics (SMD) Agent: integrate 或 nointegrate"/>
+    <string id="property.ChooseSLDIntegration.description" value="整合 SLD: integrate 或 nointegrate"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="整合 Introscope Enterprise Manager: integrate 或 nointegrate"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Manager 主機名稱"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager 連接埠編號"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Manager 檢測"/>
+    <string id="property.NewOrExistingLCM.description" value="新增安裝或使用現有的 LCM: 新增或現有"/>
+    <string id="property.LCMName.description" value="LCM 伺服器名稱"/>
+    <string id="property.LCMUserName.description" value="LCM 使用者名稱"/>
+    <string id="property.LCMPassword.description" value="LCM 密碼"/>
+    <string id="property.LCMPort.description" value="LCM 連接埠"/>
+    <string id="property.InstallType.description" value="安裝類型: 預設或自訂"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="針對 Crystal Reports 必要條件，使用者是否具有管理權限？"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Crystal Reports viewer 在每台電腦安裝的安裝目錄"/>
+    <string id="PatchUpdateCheck" value="檢查產品更新"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="作業系統更新程式層級"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="作業系統不符合安裝本產品所需的最小更新程式層級。請參閱平台需求文件。"/>
+    <string id="prereq.pingLocalhost" value="網路設定"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Localhost 127.0.0.1 或電腦的主機名稱偵測執行失敗。您必須在安裝繼續前設定電腦與其連線。INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="磁碟空間檢查"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="請確定有足夠的磁碟空間繼續進行安裝。如需詳細資訊，請參閱 https://apps.support.sap.com/sap/support/pam。"/>
+    <string id="prereq.AdminPrivilegePreReqText" value="管理權限"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="您必須以具有管理權限的使用者帳戶登入。 INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 或以上版本"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="請安裝 Microsoft .NET Framework 4.0 或以上版本。"/>
+    <string id="prereq.RootUserPreReqText" value="根使用者權限"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="此安裝無法在您登入的根使用者帳戶下繼續進行。您必須以非根使用者身分登入以安裝產品。 INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64 位元作業系統"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="本產品必須安裝在 64 位元作業系統。請確認您的作業系統符合此需求。INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows 版本"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="此產品必須安裝於 Windows 8.1 或 Server 2012 R2 或較高版本的作業系統 (OS) 上。請確認您的作業系統符合此需求。"/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows 版本"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="此產品必須安裝於 Windows Server 2012 R2 或較高的 Windows Server 版本上。請確認您的 Windows 版本符合此需求。"/>
+    <string id="prereq.SQLExpressPreReqText" value="整合資料庫需求"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="安裝 Microsoft .NET Framework 3.5 SP1 或更新版本，以及 Windows Installer 4.5。"/>
+    <string id="prereq.SQLExpressRequirementText" value="MS SQL Express 需求"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express 需要 Microsoft .NET Framework 3.5 SP1 和 Windows Installer 4.5。嘗試安裝 SQL Express 前，請先確認已安裝這兩個套件。"/>
+    <string id="prereq.PendingStatusPreReqText" value="抑制的重新開機"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="本機電腦已抑制重新開機要求。請重新開機以繼續進行安裝。INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="產品版本 4.x 未安裝。 "/>
+    <string id="prereq.4xNotInstalledNotOkText" value="產品版本 4.x 已安裝。 "/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="整合資料庫 - 主目錄"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="整合資料庫需要於使用者主目錄中設定 755 個權限。安裝資料庫前，請先設定權限。"/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="整合資料庫 - 目錄"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="~/sqllib 和 ~/$USER 皆不存在才能安裝 DB2。若您要安裝整合 DB2 資料庫，請刪除這些目錄 (如果已存在)。"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="無法安裝#product.mini_bip_name#或 #product.cr_server_name# "/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="無法將 #productname#與#product.mini_bip_name#或 #product.cr_server_name# 安裝在同一台電腦上。INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="無法安裝 #product.boe64_name#或 #product.cr_server_name#"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="您無法安裝 #productname#; 已安裝 #product.boe64_name# 或 #product.cr_server_name# INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="無法安裝 #product.ras_name#"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="無法將 #productname#與 #product.ras_name# 安裝在同一台電腦上。INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="#product.IS_name# 和 #product.DS_name# 的相容性"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="您的電腦上已偵測到 SAP #product.DS_name# 和/或 #product.IS_name# 部署。繼續進行前，請參閱 SAP 註記 1740516 (http://service.sap.com/sap/support/notes/1740516) 以瞭解相容性資訊和影響這些產品的相關資訊。INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="安裝程式找到現有的安裝且必須使用 UPGRADE=1 命令執行。程式將立即結束。"/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="安裝程式無法繼續進行，因為未達到重要的必要條件。"/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="含整合資料庫的中央管理伺服器選項已選取，但由於未達到必要條件，因此該選項已停用。您必須先解決下列必要條件才能繼續安裝:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="目前使用者沒有管理存取權限且不允許執行安裝程式。"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="/tmp 中的磁碟空間"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="/tmp 資料夾中可用的磁碟空間不足。請釋放一些空間，以繼續進行安裝。INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="/var 中的磁碟空間"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="/var 資料夾中可用的磁碟空間不足。您必須釋放 20 MB 以上的可用磁碟空間，才能繼續安裝。"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="整合資料庫 - 使用者和群組"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="使用者群組命名未符合 DB2 的限制。如需詳細資訊，請移至 http://publib.boulder.ibm.com/infocenter/db2luw/v9r7，並搜尋 &quot;使用者 ID 限制&quot;。"/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="整合資料庫 - UID 和 GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="UID 和 GID 必須小於 65536 才能使用 DB2。您必須輸入較小的數字才能使用整合的 DB2 資料庫。"/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="整合資料庫 - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="系統路徑中必須包含 gunzip 才能使用 DB2。若您要使用整合的 DB2 資料庫，請先編輯系統路徑。"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="配套 DB - 符合 DB2 的最低 HPUX 核心設定"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="核心設定不符合 DB2 的最低需求"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="SUSE 11 及更新版本不支援 Crystal Reports 2013。"/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="64 位元 BOE .NET SDK 需要 Microsoft .NET Framework 3.5 或更新版本。您必須先安裝 .NET Framework，才能安裝 64 位元 BOE .NET SDK。"/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 或更新版本"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="安裝 Microsoft .NET Framework 3.0 或更新版本。"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="適用於 Office Second Edition Runtime 的 Microsoft Visual Studio 2005 工具"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="找不到 Office Second Edition Runtime 的 Microsoft Visual Studio 2005 工具。您必須先安裝該產品，才能繼續安裝。"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 或更新版本"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="找不到 Microsoft Office 2003 或更新的版本。您必須先安裝該產品，才能繼續安裝。"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="最低支援套件版本"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="此更新是針對 #productname# #product_version# #product_sp_version#，系統找不到此產品。您必須先安裝該產品，才能繼續安裝。"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="此更新是針對 #productname# #product_version# #product_sp_version#，系統找不到此產品。您必須先安裝該產品，才能繼續安裝。"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="適用的更新"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# 是較此更新還新的版本。請勿繼續此更新。"/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="最低次要發行版本"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="此更新是針對 #productname# #product_version#，系統找不到此產品。您必須先安裝該產品，才能繼續安裝。"/>
+    <string id="prereq.OEMInstalledPreReqText" value="已安裝自訂的 #productname_short# #productname_preversion#"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="此更新是針對自訂的 #productname_short# #productname_preversion#，系統找不到此產品。您必須先安裝該產品，才能繼續安裝。"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="相容的產品安裝"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="此產品已安裝且可供使用者使用。"/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows Installer 服務"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="由於 Windows Installer Service 已停用 (啟動類型 = 已停用) 或無法使用，導致安裝暫停。您必須安裝服務並啟用以繼續此安裝。"/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="為了完成叢集更新，在叢集中所有機器上的安裝結束後，請重新啟動每個中央管理伺服器 (CMS)。您必須登入中央管理主控台來重新啟動 CMS。"/>
+    <string id="PostInstall.message.logoncmc.windows" value="登入中央管理主控台 (CMC) 繼續設定系統。選取 [開始] &gt; #product.boe64_name# &gt; [中央管理主控台]，來開始 CMC。"/>
+    <string id="postinstall.message.manualdeploy.common" value="尚未將 Java Web 應用程式和 Web 服務部署至 Web 應用程式伺服器。請執行 WDeploy 工具以部署 Java Web 應用程式和 Web 服務。"/>
+    <string id="postinstall.message.manualdeploy.windows" value="若要啟動 wDeploy 工具，請選取 [開始] &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy。"/>
+    <string id="postinstall.message.manualdeploy.unix" value="wDeploy 工具位於 [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="若要完成系統安裝，請使用根權限執行此指令碼: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="您必須定義 OpenDocument 的預設檢視器 URL。本機器並非註冊為處理文件檢視要求的預設 Web 應用程式伺服器。您必須將其註冊為有中央管理伺服器的預設 Web 應用程式伺服器。使用中央管理主控台來編輯 OpenDocument 屬性頁面。"/>
+    <string id="PostInstall.message.monitoring" value="若要存取監控工具以執行診斷測試，請登入中央管理主控台，按一下 [監控]，然後開啟 [探測器] 索引標籤。"/>
+    <string id="postInstall.message.new.features.announce.windows" value="此更新提供 {b}RESTful Web 服務 {/b} 及 {b}Insight to Action Framework{/b} 新功能。若要啟用這些功能，請在基礎安裝上執行修改安裝，並新增新功能。"/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful Web 服務:{/b} Business Intelligence 平台 RESTful Web 服務 SDK 讓您能使用 HTTP 通訊協定存取 BI 平台。您可使用 SDK 登入平台，導覽 BI 平台儲存機制、存取資源並執行基本資源排程。您必須在更新後將 Dashboards 模型及 Live Office 文件儲存到儲存機制，才能使用此功能。"/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action Framework:{/b} Insight to Action Framework 讓您能呼叫在 SAP 和非 SAP 應用程式中定義使用 NetWeaver 的報表/報表介面的作業型異動。Crystal Reports 和 BusinessObjects Dashboards 支援此功能。"/>
+    <string id="postInstall.message.new.features.announce.unix" value="此更新提供 RESTful Web 服務及 Insight to Action Framework 新功能。若要啟用這些功能，請在基礎安裝上執行修改安裝，並新增新功能。"/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful Web 服務: Business Intelligence 平台 RESTful Web 服務 SDK 讓您能使用 HTTP 通訊協定存取 BI 平台。您可使用 SDK 登入平台，導覽 BI 平台儲存機制、存取資源並執行基本資源排程。您必須在更新後將 Dashboards 模型及 Live Office 文件儲存到儲存機制，才能使用此功能。"/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action Framework: Insight to Action Framework 讓您能呼叫在 SAP 和非 SAP 應用程式中定義使用 NetWeaver 的報表/報表介面的作業型異動。Crystal Reports 和 BusinessObjects Dashboards 支援此功能。"/>
+    <string id="postInstall.message.cms.database.is.mysql" value="安裝程式找到系統不再支援的 MySQL 用戶端 5.0 作為資料庫連線。您必須升級至 MySQL 用戶端 5.1 以確定系統持續受到支援。"/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile 伺服器是讓您能在行動裝置中存取 Business Intelligence 資料的新功能。若要啟用此功能，請在基礎安裝上執行修改安裝，並選取 Mobile 伺服器。"/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="配套的 Tomcat 已更新為 Tomcat 9。您針對 Tomcat 套用的任何自訂設定皆已從舊版本移轉到 Tomcat 9。然而，我們強烈建議您驗證 Tomcat 9 中的自訂設定是否可用。"/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="維護套件: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="維護套件: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="維護套件: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="維護套件\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI 平台"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI 平台伺服器"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI 平台"/>
+    <string id="product.boec_client_name" value="用戶端工具"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence 豐富型用戶端"/>
+    <string id="product.boec_shortname" value="BI 平台用戶端"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI 平台 .NET SDK 可轉散發檔案"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 檢視器"/>
+    <string id="product.crw_name" value="SAP Crystal Reports 設計工具"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="適用於 SAP Lumira 的 SAP BusinessObjects BI Add-On"/>
+    <string id="product.lumiraboe_shortname" value="適用於 SAP Lumira 的 BI Add-On"/>
+    <string id="product.mini_bip_name" value="資訊平台服務"/>
+    <string id="product.mini_bip_shortname" value="資訊平台服務"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="適用於 Microsoft SharePoint 的 SAP 整合"/>
+    <string id="product.ipoint_shortname" value="Microsoft SharePoint 軟體整合選項"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM 版"/>
+    <string id="product.ras_shortname" value="報表應用程式伺服器"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI 平台 4"/>
+    <string id="shortcut.folder.name.minibip" value="資訊平台服務 4"/>
+    <string id="shortcut.folder.name.boclient" value="SAP BusinessObjects BI 平台 4 用戶端工具"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020 (OEM 版)"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 檢視器"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server 2020 用戶端工具"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="中央組態管理員"/>
+    <string id="shortcut.link.description.CCM" value="開始、停止和設定平台服務"/>
+    <string id="shortcut.link.name.boserver.CMC" value="SAP BusinessObjects BI 平台中央管理主控台"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="SAP BusinessObjects BI 平台 WACS 中央管理主控台"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="SAP Crystal Server 中央管理主控台"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="SAP Crystal Server WACS 中央管理主控台"/>
+    <string id="shortcut.link.name.minibip.CMC" value="資訊平台服務中央管理主控台"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="資訊平台服務 WACS 中央管理主控台"/>
+    <string id="shortcut.link.description.CMC" value="存取管理主控台"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="SAP BusinessObjects BI 平台 Launch Pad"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="SAP BusinessObjects BI 平台 WACS BI Launch Pad"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="SAP Crystal Server Java BI Launch Pad"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="SAP Crystal Server WACS BI Launch Pad"/>
+    <string id="shortcut.link.description.BILaunchpad" value="啟動 BI Launch Pad"/>
+    <string id="shortcut.link.name.UpgradeManager" value="升級管理工具"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="將先前的部署升級至 SAP BusinessObjects BI 平台 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="轉移管理精靈"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="透過逐步使用者介面匯出、匯入和複製 4.x 部署的 CMS 內容。"/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="將先前的部署升級至 SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="將先前的部署升級至資訊平台服務 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32 位元的 ODBC 資料來源管理員"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC 資料來源管理員"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="新增、移除和設定開放式資料庫連接 (ODBC) 資料來源與驅動程式"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="線上文件"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="存取線上文件"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat 管理"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="存取 Tomcat 管理"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat 組態"/>
+    <string id="shortcut.link.description.TomcatConfig" value="存取 Tomcat 組態"/>
+    <string id="shortcut.link.name.WDeploy" value="Wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="啟動 WDeploy 工具"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widget"/>
+    <string id="shortcut.link.description.BIWidgets" value="啟動 Widgets"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="商務檢視管理員"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="啟動商務檢視管理員"/>
+    <string id="shortcut.link.name.DFAdminTool" value="資料聯邦管理工具"/>
+    <string id="shortcut.link.description.DFAdminTool" value="啟動資料聯邦管理工具"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="資訊設計工具"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="啟動資訊設計工具"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="做為 Web 服務設計工具的查詢"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="啟動做為 Web 服務設計工具的查詢"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="報表轉換工具"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="啟動報表轉換工具"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="翻譯管理工具"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="啟動翻譯管理工具"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="語意層設計工具"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="啟動語意層設計工具"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence 豐富型用戶端"/>
+    <string id="shortcut.link.description.WebIRichClient" value="啟動 Web Intelligence 豐富型用戶端"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence 豐富型用戶端"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="啟動 Web Intelligence 豐富型用戶端"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="建立和修改格式化資料報表 (.RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="報表上傳精靈"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="啟動報表上傳精靈"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 檢視器"/>
+    <string id="shortcut.link.description.CRViewer" value="檢視格式化資料報表 (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="報表應用程式伺服器 Launch Pad"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="啟動報表應用程式伺服器 Launch Pad"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="啟動 Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="啟動儀表板"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-On 封裝工具"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="啟動儀表板 Add-On 封裝工具"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="啟動 SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-On 封裝工具"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="啟動 SAP Crystal Presentation Design 2020 Add-On 封裝工具"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects BI 管理主控台 WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects BI 管理主控台"/>
+    <string id="shortcut.link.description.ADC" value="存取管理主控台"/>
+    <string id="OverhangingPatchMessage" value="如果此安裝繼續進行，系統可能移除修復程式。請確認您安裝的是相容的套件。"/>
+    <string id="Installing41PatchOver40" value="繼續進行前，請手動建立目前 4.0 系統的備份 。套用 4.1 更新後您便無法解除安裝 。如果需要復原系統狀態，則必須使用備份。"/>
+    <string id="Block41PatchUninstall" value="4.1 更新無法自動解除安裝。若要返回 4.0 的系統狀態，請移除現有的二進位並使用您建立的 4.0 備份來恢復 4.0 系統。"/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# 需要新授權金鑰。請自 SAP Service Marketplace 下載新授權金鑰; 請刪除舊有授權金鑰並在中央管理主控台中新增新授權金鑰。如需詳細資料，請參閱文件。 "/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="#product.fullproductnamenospace# 中的少數產品和功能已不再使用。您應在更新後執行 SAP 註記 2801797 提及的指定動作。"/>
+    <string id="DeployLaterDescription" value="Web 應用程式部署模式"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="已安裝 Hotfix 的父更新程式版本"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="此為針對 #productname# #product_version# #product_sp_version# 更新程式 #patch_id# 的 Hotfix。您必須先安裝更新程式，才能繼續此安裝。請參閱 SAP 註記 2257993 以瞭解詳細資訊。"/>
+  </context>
+</uitext>

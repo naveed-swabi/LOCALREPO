@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="NotAcceptedEULA" value="El kell fogadnia a végfelhasználói licencszerződést. Kilépés."/>
+<string id="LicenseAgreement" value="Licencszerződés"/>
+<string id="YouMustAgree" value="A folytatáshoz el kell fogadnia a licencszerződés feltételeit."/>
+<string id="IAccept" value="Elfogadom a licencszerződést"/>
+<string id="IDoNotAccept" value="Nem fogadom el a licencszerződést"/>
+<string id="Invalid_IsAcceptEULA" value="Érvénytelen IsAcceptEULA ([IsAcceptEULA]). Az értéke csak 1 lehet."/>
+<string id="AcceptOrNotAccept" value="Ha elfogadja, nyomja meg az &lt;ENTER&gt; billentyűt, ha nem fogadja el, akkor pedig a &lt;CTRL-X&gt; billentyűkombinációt."/>
+</context>
+</uitext>

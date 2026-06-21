@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Verify that the specified installation path is correct for the intended installation to complete successfully. \n\n For Fresh Installation – Fresh File Directory. \n For Patch Installation – File Directory with previous #productname# version installation. \n\n\n Click Ok to proceed or click Exit to re-enter the correct installation path. \n"/>
+<string id="ExitMessage" value="Press Ctrl+X to quit or Enter to continue."/>
+<string id="WarnDialogTitle" value="INFORMATION DIALOG"/>
+<string id="WarnDialogSubtitle" value="Information : "/>
+</context>
+</uitext>

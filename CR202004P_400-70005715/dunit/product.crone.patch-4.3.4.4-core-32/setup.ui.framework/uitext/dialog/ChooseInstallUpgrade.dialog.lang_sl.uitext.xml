@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="PreviousVersionDetected" value="Odkrita je prejšnja verzija #product.nameonly#"/>
+<string id="PreviousVersionDetectedSub" value="Izberite, ali je treba izvesti nadgradnjo ali vzporedno namestitev"/>
+<string id="UpgradeInstallBtn" value="Izvedba namestitve nadgradnje"/>
+<string id="SideBySideInstallBtn" value="Izvedba vzporedne namestitve"/>
+<string id="UpgradeInstallMsg" value="Zamenjava trenutno nameščene verzije #product.nameonly# s to verzijo"/>
+<string id="SideBySideInstallMsg" value="Namesti to verzijo #product.nameonly# k trenutno nameščeni verziji"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Neveljaven modus namestitve ([InstallCompatibilityMode]): Biti mora nadgradnja ali vzporedna namestitev"/>
+</context>
+</uitext>

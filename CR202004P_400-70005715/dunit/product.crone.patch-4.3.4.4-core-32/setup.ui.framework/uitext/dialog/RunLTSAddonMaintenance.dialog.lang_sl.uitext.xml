@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Naveden je neznan modus vzdrževanja, veljavne vrednosti so: Sprememba, Popravilo, Odstranitev"/>
+<string id="ChooseMaintenanceMode" value="Vzdrževanje aplikacije"/>
+<string id="SelectMaintenanceMode" value="Izbira operacije vzdrževanja za izvedbo."/>
+<string id="Modify" value="Sprememba"/>
+<string id="ModifyDescription" value="Spremenite nameščene aplikacijske funkcije. Prikaže pogovorno okno Izbira funkcij, ki vam omogoča konfiguriranje posameznih funkcij."/>
+<string id="Repair" value="Popravilo"/>
+<string id="RepairDescription" value="Znova namestite manjkajoče ali poškodovane datoteke. Preference, shranjene v registru, se lahko ponastavijo na privzete vrednosti."/>
+<string id="Remove" value="Odstranitev"/>
+<string id="RemoveDescription" value="Odstranitev #product.nameonly# s tega računalnika."/>
+<string id="Invalid_Maintenance_Mode" value="Neveljaven tip MaintenanceMode ([MaintenanceMode]): Biti mora 'Sprememba', 'Popravilo' ali 'Odstranitev'. INS00283"/>
+</context>
+</uitext>

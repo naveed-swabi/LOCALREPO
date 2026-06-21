@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Указан неизвестный режим осблуживания. Допустимые значения: &quot;Изменить&quot;, &quot;Восстановить&quot; и &quot;Удалить&quot;"/>
+<string id="ChooseMaintenanceMode" value="Обслуживание приложения"/>
+<string id="SelectMaintenanceMode" value="Выберите операцию обслуживания, которую требуется выполнить."/>
+<string id="Modify" value="Изменить"/>
+<string id="ModifyDescription" value="Выберите функции приложения для установки. Отображает диалоговое окно &quot;Выбор функций&quot;, которое позволяет настроить отдельные функции."/>
+<string id="Repair" value="Восстановить"/>
+<string id="RepairDescription" value="Переустановка отсутствующих или поврежденных файлов. Для параметров, хранящиеся в реестре, могут быть восстановлены значения по умолчанию."/>
+<string id="Remove" value="Удалить"/>
+<string id="RemoveDescription" value="Удаление  #product.nameonly# с этого компьютера."/>
+<string id="Invalid_Maintenance_Mode" value="Недопустимый тип MaintenanceMode ([MaintenanceMode]): допустимы значения modify, repair и remove. INS00283"/>
+</context>
+</uitext>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="crabout_res_ja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="143360"/>
+    <file name="crw64_res_ja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="6528000"/>
+    <file name="CRAnalyzer_res_ja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="407040"/>
+    <file name="CRSmartTag_res_ja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="11264"/>
+    <file name="u35javaja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="8192"/>
+    <file name="u312javaja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="8192"/>
+    <file name="Favorites_res_ja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="115200"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp/StartPage/ja/js">
+    <file name="crhome.js" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64/Start Page/ja/js" size="7634"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp/StartPage/ja">
+    <file name="htmlpreviewconfig.html" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64/Start Page/ja" size="1528"/>
+    <file name="offlinebottom.html" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64/Start Page/ja" size="854"/>
+    <file name="offlinestart.html" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64/Start Page/ja" size="3586"/>
+    <file name="start.html" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64/Start Page/ja" size="3758"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Message" value="欢迎使用 #product.fullproductnamenospace# 安装向导。"/>
+<string id="ShowWelcomeScreenTitle" value="欢迎屏幕"/>
+<string id="ShowWelcomeScreenSubtitle" value="欢迎使用 #product.fullproductnamenospace# 安装向导。"/>
+<string id="Description" value="强烈建议在运行此安装程序之前退出所有 Windows 程序。\n\n单击“取消”以退出安装并关闭所运行的任何程序。单击“下一步”继续执行安装程序。\n\n警告：本程序受版权法和国际公约保护。\n\n\n未经授权复制或分发此程序或其任何部分，可能导致严重的民事和刑事处罚，并将在法律允许的最大范围内被起诉。"/>
+<string id="Description_unix" value="警告：此程序受版权法及国际公约保护。\n\n\n未经授权复制或分发此程序或其任何部分，可能导致严重的民事和刑事处罚，并将在法律允许的最大范围内被起诉。\n\n\n注意：有关受支持平台的更多信息，请访问 http://support.sap.com/pam。"/>
+<string id="ShowWelcomeScreenFooter" value="按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或者按 [Enter] 继续。"/>
+<string id="PamHyperLinkWelcome" value="有关受支持平台的更多信息，请访问"/>
+</context>
+</uitext>

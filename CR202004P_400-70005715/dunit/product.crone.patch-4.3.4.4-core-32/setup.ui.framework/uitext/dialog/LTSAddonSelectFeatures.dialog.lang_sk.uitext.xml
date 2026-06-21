@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="SelectFeaturesTitle" value="Vybrať funkcie"/>
+<string id="SelectFeaturesSubtitle" value="Vyberte funkcie, ktoré chcete nainštalovať."/>
+<string id="SelectFeaturesFooter" value="Ak chcete zvýrazňovať, stlačte kláves []Tab], []šípka nahor] alebo []šípka nadol]. Ak chcete vykonať rozbalenie, stlačte kláves []medzerník]. Ak chcete prepnúť stav, stlačte kláves []X]. Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete pokračovať, stlačte kláves []Enter]."/>
+<string id="DiskCost" value="Miesto na disku"/>
+<string id="Drive Select" value="Vyberáte"/>
+<string id="Disk Costing" value="Miesto na disku"/>
+<string id="Volume" value="Veľkosť"/>
+<string id="Disk Size" value="Veľkosť disku"/>
+<string id="Available" value="Dostupné"/>
+<string id="Required" value="Požadované"/>
+<string id="Difference" value="Rozdiel"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Skúsiť znova"/>
+<string id="Cancel" value="Zrušiť"/>
+<string id="Invalid_DiskSpace" value="Na inštaláciu produktu nemáte dostatok miesta. Uvoľnite miesto na disku alebo vyberte iné miesto na inštaláciu. Požadované miesto: [AvailableSpace] bajtov."/>
+</context>
+</uitext>

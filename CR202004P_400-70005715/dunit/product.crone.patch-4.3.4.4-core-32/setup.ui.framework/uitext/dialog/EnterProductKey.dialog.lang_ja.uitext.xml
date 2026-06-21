@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="InvalidProductKey" value="無効な製品キーが入力されました。"/>
+<string id="EnterProductKeyTitle" value="製品登録の設定"/>
+<string id="EnterProductKeySubtitle" value="#product.nameandversionwithoutpatch# 製品キーを入力します。"/>
+<string id="EnterProductKeyFooter" value="戻るには []Ctrl-B] キーを押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+<string id="ProductkeyInfoGroup" value="製品キー情報"/>
+<string id="ProductkeyLabel" value="製品キー:"/>
+<string id="Invalid_ProductKey" value="製品キーが無効です。INS00140"/>
+</context>
+</uitext>

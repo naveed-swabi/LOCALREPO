@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# sikeresen telepítve."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# hibákat észlelt a telepítési folyamat során."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# hibákat észlelt az eltávolítási folyamat során."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# sikeresen eltávolítva."/>
+<string id="Description" value="A telepítés befejezéséhez és az alkalmazás indításához kattintson a Befejezés gombra."/>
+<string id="CustomDescription" value="A telepítés befejezéséhez kattintson a Befejezés gombra."/>
+<string id="FailedDescription" value="A telepítésből való kilépéshez kattintson a Befejezés gombra."/>
+<string id="Description_unix" value="A visszalépéshez nyomja meg a []Ctrl-B] billentyűkombinációt; a telepítésből az []Enter] billentyűvel léphet ki."/>
+<string id="FailedDescription_unix" value="A részletekért nyomja meg a []D] billentyűt, a telepítőből való kilépéshez pedig az []Enter] billentyűt."/>
+<string id="CustomNextButton" value="Befejezés"/>
+<string id="ViewLogButton" value="Napló megtekintése"/>
+</context>
+</uitext>

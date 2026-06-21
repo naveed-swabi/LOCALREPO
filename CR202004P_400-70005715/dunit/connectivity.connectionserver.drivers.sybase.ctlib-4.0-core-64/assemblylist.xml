@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/drivers/lib64">
+    <file name="dbd_ctlib.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/drivers/lib64" size="455168"/>
+    <file name="dbd_ctlib16.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/drivers/lib64" size="455168"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/setup">
+    <file name="sybase_openclient.setup" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/setup" size="484"/>
+  </sourcedir>
+</assembly>

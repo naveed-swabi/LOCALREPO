@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="Title" value="Phase-wise Installation"/>
+<string id="SubTitle" value="Caching Completed"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Press [Enter] to exit the phase-wise installation"/>
+<string id="Description" value="To resume installation after caching, execute the setup file again. During installation after caching, there is system downtime. You can perform this phase of installation when maintenance time is available."/>
+<string id="FinishMessage" value="Click Finish to exit the phase-wise installation."/>
+<string id="Finish" value="Finish"/>
+</context>
+</uitext>

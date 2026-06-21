@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="SLDIntegrateTitle" value="Интеграция с SAP Solution Manager"/>
+<string id="SLDIntegrateTitleSub" value="Выполняется интеграция с диспетчером решений SAP?"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="Интеграция с SAP Solution Manager"/>
+<string id="IntegrateBtn" value="Интеграция с диспетчером решений SAP. Будет запрошен ввод сведений."/>
+<string id="NoIntegrateBtn" value="Не выполнять интеграцию с диспетчером решений SAP."/>
+<string id="Invalid_SLDIntegrateSelection" value="Недопустимое значение ChooseSLDIntegration ([ChooseSLDIntegration]): допустимы значения integrate и nointegrate. INS00285"/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="Pomyślnie odinstalowano produkt #product.fullproductnamenospace#."/>
+<string id="UninstallFailedMessage" value="Próba odinstalowania produktu #product.fullproductnamenospace# nie powiodła się."/>
+<string id="Description" value="Kliknij przycisk Zakończ, aby zakończyć odinstalowywanie."/>
+<string id="FailedDescription" value="Kliknij przycisk Zakończ, aby zakończyć odinstalowywanie."/>
+<string id="ShowUninstall_Footer" value="Naciśnij klawisze []Ctrl-B], aby przejść wstecz, lub klawisz []Enter], aby zakończyć ten proces odinstalowywania."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Naciśnij klawisz []Enter] w celu zakończenia tego procesu odinstalowywania."/>
+<string id="CustomNextButton" value="Zakończ"/>
+<string id="ViewLogButton" value="Wyświetl dziennik"/>
+</context>
+</uitext>

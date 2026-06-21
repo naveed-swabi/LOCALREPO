@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="InvalidProductKey" value="输入的产品密钥无效。"/>
+<string id="EnterProductKeyTitle" value="配置产品注册"/>
+<string id="EnterProductKeySubtitle" value="输入 #product.nameandversionwithoutpatch# 产品密钥。"/>
+<string id="EnterProductKeyFooter" value="按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或者按 [Enter] 继续。"/>
+<string id="ProductkeyInfoGroup" value="产品密钥信息"/>
+<string id="ProductkeyLabel" value="产品密钥："/>
+<string id="Invalid_ProductKey" value="产品密钥无效。INS00140"/>
+</context>
+</uitext>

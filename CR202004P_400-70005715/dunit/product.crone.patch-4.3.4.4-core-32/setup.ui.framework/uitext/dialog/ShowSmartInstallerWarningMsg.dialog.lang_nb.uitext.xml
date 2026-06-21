@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Kontroller at angitt installasjonsbane er riktig for at planlagt installasjon skal fullføres uten feil. \n\n For ny installasjon – Ny filkatalog. \n For patchinstallasjon – Filkatalog med tidligere #productname# versionsjonsinstallasjon. \n\n\n Klikk på Ok for å fortsette eller klikk på Avslutt for å angi riktig installasjonsbane på nytt. \n"/>
+<string id="ExitMessage" value="Trykk på Ctrl+X for å avslutte, eller Enter for å fortsette."/>
+<string id="WarnDialogTitle" value="INFORMASJONSDIALOG"/>
+<string id="WarnDialogSubtitle" value="Informasjon: "/>
+</context>
+</uitext>

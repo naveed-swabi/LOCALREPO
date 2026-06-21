@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/drivers/java">
+    <file name="dbd_mysql.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/drivers/java" size="122184"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc">
+    <file name="mysql.rss" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="12111"/>
+    <file name="mysql.sbo" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="4298"/>
+    <file name="mysql.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="25731"/>
+    <file name="mysql8.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="26631"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc/extensions/qt">
+    <file name="mysql.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc/extensions/qt" size="1713"/>
+    <file name="mysql8.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc/extensions/qt" size="1713"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/setup">
+    <file name="mysql_jdbc.setup" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/setup" size="476"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.partner.shared.java/java">
+    <file name="pseoneqryxml.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="54508"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.partner.shared.java">
+    <file name="please_copy_JDE_jars_here.txt" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/jdedwards/default/jdedwards" size="0"/>
+  </sourcedir>
+</assembly>

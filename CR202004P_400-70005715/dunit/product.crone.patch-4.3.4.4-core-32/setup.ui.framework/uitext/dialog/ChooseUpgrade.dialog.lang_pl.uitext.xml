@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Określono nieznaną wartość ustawienia ChooseUpgrade — prawidłowe wartości: 0 lub 1."/>
+<string id="ChooseUpgrade" value="Wykryto poprzednią wersję produktu #productname#"/>
+<string id="SelectUpgrade" value="Zdecyduj, czy chcesz przeprowadzić instalację uaktualniającą."/>
+<string id="SideBySide" value="Przeprowadź instalację typu Obok siebie"/>
+<string id="SideBySideDescription" value="Instaluje tę wersję produktu #productname# obok aktualnie zainstalowanej wersji."/>
+<string id="SimpleUpgrade" value="Przeprowadź instalację typu Proste uaktualnienie"/>
+<string id="SimpleUpgradeDescription" value="Wykryto poprzednią wersję produktu #productname#. Należy odinstalować poprzednią wersję przed kontynuowaniem operacji lub wybrać tę opcję w celu przeprowadzenia instalacji uaktualniającej."/>
+<string id="Invalid_ChooseUpgrade" value="Nieprawidłowa wartość ustawienia ChooseUpgrade ([ChooseUpgrade]) — powinna to być wartość 0 lub 1."/>
+</context>
+</uitext>

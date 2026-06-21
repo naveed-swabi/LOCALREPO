@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Message1" value="製品のアップデート"/>
+<string id="Message2" value="この製品の前のバージョンが検出されました。このインストールを続行すると製品がアップデートされます。[次へ] をクリックして続行するか、[キャンセル] をクリックしてインストールを終了してください。"/>
+<string id="MessageUnix" value="この製品の前のバージョンが検出されました。このインストールを続行すると製品がアップデートされます。[Enter] を押して続行するか、[Ctrl-X] を押してインストールを終了してください。"/>
+</context>
+</uitext>

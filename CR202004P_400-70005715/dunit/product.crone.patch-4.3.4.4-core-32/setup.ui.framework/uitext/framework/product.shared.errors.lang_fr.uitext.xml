@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="fr"/>
+  <context>
+    <string id="INS00270" value="Une erreur MSI %1 s'est produite lors de l'installation de %2. (INS00270)"/>
+    <string id="INS00271" value="Une erreur MSI %1 s'est produite lors de la désinstallation de %2. (INS00271)"/>
+    <string id="INS00272" value="Une erreur (%1) s'est produite sur le fichier %2 lors de l'installation de %3. (INS00272)"/>
+    <string id="INS00273" value="Une erreur (%1) s'est produite sur le fichier %2 lors de la désinstallation de %3. (INS00273)"/>
+  </context>
+</uitext>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Configura cartella di destinazione"/>
+<string id="ChooseInstallDirSubtitle" value="Immettere il percorso di destinazione completo in cui verrà installato il prodotto."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Immettere il percorso di destinazione completo in cui verrà installato il prodotto."/>
+<string id="DestinationFolderGroupBox" value="Informazioni sulla cartella di destinazione"/>
+<string id="DestinationFolder" value="Cartella di destinazione:"/>
+<string id="Browse" value="Sfoglia"/>
+<string id="BrowseInstallDirectory" value="Scegli posizione di installazione"/>
+<string id="DirGenericError" value="La cartella di destinazione non è valida. Scegliere una cartella di destinazione diversa. INS00029"/>
+<string id="DirNetworkError" value="La cartella di destinazione non può essere un percorso di rete. Scegliere un percorso diverso."/>
+<string id="DirEmptyError" value="Scegliere una cartella di destinazione. INS00029"/>
+<string id="DirAbsolutePathError" value="La cartella di destinazione deve essere un percorso completo. INS00029"/>
+<string id="DirInvalidCharWinError" value="Nella cartella di destinazione è possibile utilizzare solo numeri, lettere o i caratteri seguenti: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Il percorso della cartella di destinazione è troppo lungo. Utilizzare un percorso con meno di 150 caratteri. INS00029"/>
+<string id="DirInvalidInstallverseError" value="La cartella di destinazione contiene un prodotto non compatibile. Selezionare un percorso diverso. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Directory di installazione non valida. Utilizzare un percorso assoluto valido che contenga solo caratteri alfanumerici e nessuno dei caratteri seguenti: _ - \ . ( ). La directory deve risiedere su un'unità fissa e il percorso completo non deve superare i 150 caratteri. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Directory di installazione non valida. Utilizzare un percorso assoluto valido per il quale si disponga delle autorizzazioni di lettura, scrittura ed esecuzione. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="La directory di installazione non può contenere spazi."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="I seguenti caratteri non sono consentiti nella directory di installazione:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Premere []Tab] per riempire automaticamente gli elementi della directory, []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per  continuare."/>
+</context>
+</uitext>

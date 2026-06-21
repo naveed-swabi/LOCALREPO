@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="RebootWarning" value="Certains fichiers ont été bloqués pendant l'installation empêchant le programme d'installation de les mettre à jour. Vous pouvez retarder le redémarrage de votre système, mais il est fortement recommandé de redémarrer avant l'utilisation du produit."/>
+<string id="RebootQuestion" value="Voulez-vous redémarrer votre ordinateur maintenant ?"/>
+<string id="RestartLater" value="Redémarrer ultérieurement"/>
+<string id="RestartNow" value="Redémarrer maintenant"/>
+</context>
+</uitext>

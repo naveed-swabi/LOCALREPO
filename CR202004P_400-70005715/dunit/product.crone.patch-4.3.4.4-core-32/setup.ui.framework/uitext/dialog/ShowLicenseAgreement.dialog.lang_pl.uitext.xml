@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="NotAcceptedEULA" value="Należy zaakceptować Umowę licencyjną użytkownika (EULA). Zamykanie."/>
+<string id="LicenseAgreement" value="Umowa licencyjna"/>
+<string id="YouMustAgree" value="Aby móc kontynuować, należy zaakceptować warunki umowy licencyjnej."/>
+<string id="IAccept" value="Akceptuję warunki Umowy licencyjnej"/>
+<string id="IDoNotAccept" value="Nie akceptuję warunków Umowy licencyjnej"/>
+<string id="Invalid_IsAcceptEULA" value="Nieprawidłowa wartość ustawienia IsAcceptEULA ([IsAcceptEULA]) — powinna to być wartość 1."/>
+<string id="AcceptOrNotAccept" value="Naciśnij klawisz &lt;ENTER&gt;, aby zaakceptować. Naciśnij klawisze &lt;CTRL-X&gt;, aby nie zaakceptować"/>
+</context>
+</uitext>

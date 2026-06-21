@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Mevcut #productname# Dağıtım Bilgileri"/>
+<string id="SpecifyRemoteCMS" value="Mevcut dağıtımınızın Yönetici oturum açma bilgilerini belirtin."/>
+<string id="RemoteCMSConnectionInfo" value="Mevcut #productname# için Bağlantı Bilgileri"/>
+<string id="RemoteCMSName" value="Ad"/>
+<string id="RemoteCMSPort" value="Bağlantı Noktası"/>
+<string id="RemoteCMSAdminLogonInfo" value="Yönetici Oturum Açma Bilgileri"/>
+<string id="RemoteCMSUser" value="Kullanıcı"/>
+<string id="RemoteCMSPassword" value="Parola"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Ekipler için uzak SAP Lumira sunucusuna ulaşılamıyor veya oturum açma kimlik bilgileri yanlış. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Ekipler için uzak SAP Lumira sunucusuna ulaşılamıyor veya oturum açma kimlik bilgileri yanlış. INS00013\nKimlik bilgilerinizi tekrar girmek ister misiniz?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Parola &quot;Yönetici&quot; kelimesini veya şunlar gibi özel karakterleri içermemelidir: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

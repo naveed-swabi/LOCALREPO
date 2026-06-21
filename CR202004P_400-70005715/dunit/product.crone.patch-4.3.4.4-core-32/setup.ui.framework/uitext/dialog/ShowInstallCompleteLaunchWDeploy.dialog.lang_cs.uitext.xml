@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="Message" value="Produkt #product.fullproductnamenospace# byl úspěšně nainstalován."/>
+<string id="InstallFailedMessage" value="Během instalace produktu #product.fullproductnamenospace# došlo k chybám."/>
+<string id="UninstallFailedMessage" value="Během odinstalace produktu #product.fullproductnamenospace# došlo k chybám."/>
+<string id="UninstallMessage" value="Produkt #product.fullproductnamenospace# byl úspěšně odinstalován."/>
+<string id="InstallationWithWarnings" value="Produkt #product.fullproductnamenospace# byl úspěšně nainstalován s varováními."/>
+<string id="Description" value="Ukončete kliknutím na tlačítko Dokončit."/>
+<string id="FailedDescription" value="Ukončete kliknutím na tlačítko Dokončit."/>
+<string id="Description_unix" value="Ukončete stisknutím klávesy []Enter]."/>
+<string id="FailedDescription_unix" value="Stisknutím klávesy []D] zobrazíte další podrobnosti, stisknutím klávesy []Enter] akci ukončíte."/>
+<string id="LaunchWDeploy" value="Automaticky spustit nástroj WDeploy"/>
+<string id="LaunchWDeployUNIX" value="Po ukončení instalačního programu spusťte soubor [EnterpriseDir]wdeploy/wdeployGUI.sh."/>
+<string id="CustomNextButton" value="Dokončit"/>
+<string id="ViewLogButton" value="Zobrazit protokol"/>
+<string id="HyperlinkText" value="Klepnutím sem zobrazíte detaily"/>
+</context>
+</uitext>

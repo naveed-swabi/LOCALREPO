@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.rptpubwiz.cpp">
+    <file name="rptpubwiz_res_tr.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="584192"/>
+  </sourcedir>
+</assembly>

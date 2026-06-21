@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Meddelande om borttagna produkter och funktioner"/>
+<string id="YouMustAgree" value="Några produkter och funktioner har tagits bort från #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Jag har läst dokumentationen och förstår hur de borttagna produkterna och funktionerna påverkar BI-plattformen. Jag kommer att vidta föreskrivna åtgärder efter uppdateringen."/>
+<string id="subtitle1" value="Applikationer som SAP BusinessObjects Explorer och SAP BusinessObjects Dashboards tas bort från och med BI 4.3. Hela listan över borttagna applikationer och mer information hittar du på"/>
+<string id="subtitle2" value="Du måste se över effekten av detta och sedan utföra de åtgärder som nämns i bloggen."/>
+<string id="AcceptOrNotAccept" value="Tryck på &lt;ENTER&gt; för att bekräfta att du har läst dokumentationen, förstår hur de borttagna produkterna och funktionerna påverkar BI-plattformen och kommer att vidta föreskrivna åtgärder efter uppdateringen."/>
+<string id="DeprecatedProductDescription" value="Applikationer som SAP BusinessObjects Explorer och SAP BusinessObjects Dashboards tas bort från och med BI 4.3. Hela listan över borttagna applikationer och mer information om denna process hittar du på https://launchpad.support.sap.com/#/notes/2801797. \n\nDu måste se över effekten av detta och sedan utföra de åtgärder som nämns i bloggen.\n\n"/>
+<string id="CRServiceDescription" value="Tjänster för SAP Crystal Reports 2020 stöds inte längre för Linux och Unix och tas därför bort under denna uppgradering. SAP Crystal Reports 2020-dokument finns dock kvar i BI-plattformen och stöds fortfarande. För mer information om hur du distribuerar nödvändiga tjänster till en Windows-server, se SAP Knowledge Base Article på https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

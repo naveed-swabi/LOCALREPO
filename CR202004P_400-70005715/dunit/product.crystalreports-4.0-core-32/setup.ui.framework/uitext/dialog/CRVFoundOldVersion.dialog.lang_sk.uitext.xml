@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="DlgTitle" value="Inovácia produktu"/>
+<string id="DlgSummary" value="Bola zistená iná verzia tohto produktu."/>
+<string id="ProceedOrNot" value="Bola zistená iná verzia zobrazovača Crystal Reports Viewer. Ak budete pokračovať v inštalácii, prebehne inovácia tejto verzie na verziu Crystal Reports Viewer 2010. Ak chcete pokračovať, kliknite na Ďalej. Ak chcete inštaláciu zrušiť, kliknite na Zrušiť a inštaláciu ukončite."/>
+</context>
+</uitext>

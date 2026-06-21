@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="Title" value="Velg installasjonsmodus"/>
+<string id="SubTitle" value="Velg modusen for installasjonen"/>
+<string id="Standard_InstallationName" value="Standardinstallasjon"/>
+<string id="Standard_InstallationText" value="Installasjonen utføres i enkeltfase"/>
+<string id="PhaseWise_InstallationName" value="Fasevis installasjon"/>
+<string id="PhaseWise_InstallationText" value="Installering utføres i to faser – Hurtigbufring og Installering etter hurtigbufring. Under hurtigbufring forekommer det ikke noe nedetid for systemet, og du kan fortsette å arbeide på systemet. Under installering etter hurtigbufring installeres programvaren på systemet med noe nedetid for systemet."/>
+<string id="CachingCompletedSubTitle" value="Hurtigbufring er fullført"/>
+<string id="Resume_InstallationSubTitle" value="Gjenoppta installasjonen etter hurtigbufring. Installasjon etter hurtigbufring er den faktiske installasjonsprosessen der du opplever systemnedetid."/>
+<string id="ShowWayOfInstallFooter" value="Trykk på []Ctrl-B] for å gå tilbake, []Ctrl-X] for å avslutte eller []Enter] for å installere."/>
+</context>
+</uitext>

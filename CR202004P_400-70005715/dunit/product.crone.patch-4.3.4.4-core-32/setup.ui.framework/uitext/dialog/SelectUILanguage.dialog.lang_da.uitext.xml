@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="SelectedInvalidLocale" value="Du har angivet en ikke-understøttet landestandard."/>
+<string id="SetupLanguageTitle" value="Vælg sprog til installationsprogram"/>
+<string id="SetupLanguageSubtitle" value="Vælg opsætningssprog."/>
+<string id="SetupLanguageUnixSubtitle" value="Vælg opsætningssprog."/>
+<string id="CreateLogFile" value="Opret logfil under installation"/>
+<string id="Invalid_SetupLanguage" value="Ugyldigt installationssprog ([SetupUILanguage]): Det bør være et af '[$available.ui.langs]'. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="Ugyldig IsEnableSetupLog ([IsEnableSetupLog]): Den skal kun være 0 eller 1."/>
+<string id="SelectUILanguageFooter" value="Tryk på []Tab], []Pil op], eller []Pil ned] for at vælge, []Ctrl-X] for at afslutte, eller []Enter] for at fortsætte."/>
+</context>
+</uitext>

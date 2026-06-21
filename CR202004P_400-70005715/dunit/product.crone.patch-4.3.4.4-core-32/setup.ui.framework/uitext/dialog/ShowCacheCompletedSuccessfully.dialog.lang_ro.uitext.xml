@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Title" value="Instalare în faze"/>
+<string id="SubTitle" value="Gestiune cache terminată"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Apăsaţi [Enter] pt.a ieşi din instalarea pe bază de faze"/>
+<string id="Description" value="Pentru a relua instalarea după gestiunea cache, executați din nou fișierul de configurare. La instalarea după gestiunea cache, există o anumită perioadă de oprire a sistemului. Puteți efectua această fază de instalare când aveți la dispoziție timp de întreținere."/>
+<string id="FinishMessage" value="Click pe terminare pt. ieşire din instalaţie în faze."/>
+<string id="Finish" value="Terminare"/>
+</context>
+</uitext>

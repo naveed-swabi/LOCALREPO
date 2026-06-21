@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="HelpMgr_res_zh_CN.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="35840"/>
+    <file name="reportpromptemf_res_zh_CN.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="18432"/>
+    <file name="reportsourcebridge_res_zh_CN.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="19456"/>
+    <file name="vle_res_zh_CN.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="124416"/>
+    <file name="reportrenderer_res_zh_CN.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="20992"/>
+    <file name="cmscon_res_zh_CN.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="107520"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp/Labels">
+    <file name="Labels_zh_CN.txt" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="10960"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Title" value="Installatiemodus selecteren"/>
+<string id="SubTitle" value="Installatiemodus selecteren"/>
+<string id="Standard_InstallationName" value="Standaardinstallatie"/>
+<string id="Standard_InstallationText" value="Installatie wordt uitgevoerd in enkele fase"/>
+<string id="PhaseWise_InstallationName" value="Installatie in fasen"/>
+<string id="PhaseWise_InstallationText" value="De installatie wordt in twee fasen uitgevoerd – &quot;Caching&quot; en &quot;Installatie na caching&quot;. Tijdens de caching is er geen systeemuitvaltijd en kunt u in het systeem blijven werken. Tijdens de installatie na caching wordt de software met enige systeemuitvaltijd geïnstalleerd."/>
+<string id="CachingCompletedSubTitle" value="Caching voltooid"/>
+<string id="Resume_InstallationSubTitle" value="Ga na het cachingproces verder met de installatie. Installatie na caching is het eigenlijke installatieproces en heeft systeemuitvaltijd tot gevolg."/>
+<string id="ShowWayOfInstallFooter" value="Druk op []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om te installeren."/>
+</context>
+</uitext>

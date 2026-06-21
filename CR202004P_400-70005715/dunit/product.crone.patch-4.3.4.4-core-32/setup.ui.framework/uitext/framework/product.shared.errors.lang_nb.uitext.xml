@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="nb"/>
+  <context>
+    <string id="INS00270" value="Oppdaget MSI-feil %1 under installering av %2. (INS00270)"/>
+    <string id="INS00271" value="Oppdaget MSI-feil %1 under avinstallering av %2. (INS00271)"/>
+    <string id="INS00272" value="Oppdaget feil (%1) i fil %2 under installering av %3. (INS00272)"/>
+    <string id="INS00273" value="Oppdaget feil (%1) i fil %2 under avinstallering av %3. (INS00273)"/>
+  </context>
+</uitext>

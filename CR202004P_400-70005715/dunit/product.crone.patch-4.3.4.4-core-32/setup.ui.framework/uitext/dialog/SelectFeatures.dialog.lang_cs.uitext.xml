@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="SelectFeaturesTitle" value="Vybrat funkce"/>
+<string id="SelectFeaturesSubtitle" value="Vyberte funkce, které chcete nainstalovat."/>
+<string id="SelectFeaturesFooter" value="Stisknutím kláves []Tab], []Up] nebo []Down] zvýrazníte položky, stisknutím []Space] rozbalíte nabídku, stisknutím klávesy []X] přepnete stav, stisknutím kláves []Ctrl-B] přejděte zpět, stisknutím kláves []Ctrl-X] program ukončíte nebo stisknutím klávesy []Enter] budete pokračovat."/>
+<string id="DiskCost" value="Potřebné místo na disku"/>
+<string id="Drive Select" value="Vybíráte"/>
+<string id="Disk Costing" value="Výpočet místa na disku"/>
+<string id="Volume" value="Svazek"/>
+<string id="Disk Size" value="Velikost disku"/>
+<string id="Available" value="Dostupné"/>
+<string id="Required" value="Požadováno"/>
+<string id="Difference" value="Rozdíl"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Opakovat"/>
+<string id="Cancel" value="Storno"/>
+<string id="Invalid_DiskSpace" value="Nemáte dost místa pro instalaci produktu. Uvolněte místo na disku nebo vyberte jiné umístění.  Požadované místo: [RequiredSpace] bytů."/>
+</context>
+</uitext>

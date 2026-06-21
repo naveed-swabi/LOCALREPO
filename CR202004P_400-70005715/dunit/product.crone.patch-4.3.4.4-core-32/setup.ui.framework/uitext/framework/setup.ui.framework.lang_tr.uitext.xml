@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="tr"/>
+  <context>
+    <string id="Yes" value="Evet"/>
+    <string id="No" value="Hayır"/>
+    <string id="Ok" value="Tamam"/>
+    <string id="Cancel" value="İptal"/>
+    <string id="Abort" value="İptal et"/>
+    <string id="Continue" value="Devam"/>
+    <string id="Ignore" value="Yoksay"/>
+    <string id="Next" value="Sonraki"/>
+    <string id="Previous" value="Geri"/>
+    <string id="Info" value="Bilgi"/>
+    <string id="Warning" value="Uyarı"/>
+    <string id="Error" value="Hata"/>
+    <string id="FatalError" value="Ciddi Hata"/>
+    <string id="ErrorDialogTitle" value="Hata"/>
+    <string id="ErrorDialogSubtitle" value="Bir hata oluştu."/>
+    <string id="ErrorDialogFooter" value="Devam etmek için Enter tuşuna basın."/>
+    <string id="WarnDialogTitle" value="Uyarı"/>
+    <string id="WarnDialogSubtitle" value="Bir uyarı oluştu."/>
+    <string id="WarnDialogFooter" value="Geri gitmek için Ctrl+B tuşlarına, devam etmek için Enter tuşuna basın."/>
+    <string id="InfoDialogTitle" value="Bilgi"/>
+    <string id="InfoDialogSubtitle" value="Şu bilgiler sağlanır:"/>
+    <string id="InfoDialogFooter" value="Devam etmek için Enter tuşuna basın."/>
+    <string id="DefaultUnixFooter" value="Sonraki alana geçmek için Tab, geri gitmek için Ctrl-B, çıkmak için Ctrl-X, devam etmek için Enter tuşuna basın."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Sonraki alana geçmek için Tab, çıkmak için Ctrl-X, devam etmek için Enter tuşuna basın."/>
+    <string id="ProgressDialogUnixFooter" value="Çıkmak için Ctrl-X tuşlarına basın."/>
+    <string id="CancelCaption" value="İptal"/>
+    <string id="CancelExitSetup" value="Kurulumdan Çık"/>
+    <string id="CancelMsg" value="Şimdi çıkarsanız program kurulmayacak. Kurulumu tamamlamak için kurulum programını daha sonra çalıştırabilirsiniz.\nKuruluma devam etmek için Sürdür'ü tıklayın. Kurulumdan çıkmak için Kurulumdan Çık'ı tıklayın."/>
+    <string id="CancelResume" value="Sürdür"/>
+    <string id="DialogCaption" value="#product.fullproductnamenospace# kurulumu"/>
+    <string id="outofspace" value="Disk alanı dolu"/>
+    <string id="CanceledModifier" value="%1 (İptal ediliyor)"/>
+    <string id="ValidationCaption" value="Doğrulama Sonucu"/>
+    <string id="ValidationError" value="Hata:"/>
+    <string id="ValidationToDo" value="Doğrulama hatasını düzeltmek için Tamam'ı tıklayın. Yalnızca uyarılar varsa Evet'i tıklayarak devam edebilir veya Hayır'ı tıklayarak hatayı düzeltebilirsiniz."/>
+    <string id="ValidationWarning" value="Uyarı:"/>
+    <string id="Validation.MissingFields" value="Kurulumun devam edebilmesi için gerekli alanların doldurulması gerekir."/>
+    <string id="ValidationFailed.Blocking" value="Aşağıdaki işlem doğrulanmadığından ilerleme durdu:"/>
+    <string id="ValidationFailed.Optional" value="Aşağıdaki işlem için isteğe bağlı doğrulama başarısız oldu:"/>
+    <string id="action.InstallDUBundle" value="Dağıtım Birimi Kuruluyor:"/>
+    <string id="action.UninstallDUBundle" value="Dağıtım Birimi Kaldırılıyor:"/>
+    <string id="action.RegisterBinary" value="İkili Değeri Kaydet"/>
+    <string id="action.UnregisterBinary" value="İkili Değer Kaydını Kaldır"/>
+    <string id="action.ConfigureTomcat" value="Tomcat Konfigüre Ediliyor"/>
+    <string id="action.BOBJTextReplace" value="Metin Değişimi Gerçekleştir"/>
+    <string id="action.RunCommand" value="Komut Satırı Yürütülebilir Dosyasını Çalıştır"/>
+    <string id="action.RunCommandConditional" value="Belirli Durumlarda Komut Satırı Yürütülebilir Dosyasını Çalıştır"/>
+    <string id="action.EnsureFolderExists" value="Bir klasörün varolduğundan emin olun"/>
+    <string id="action.CreateShortcut" value="Başlat Menüsü Kısayolu Oluştur"/>
+    <string id="action.AddARPEntry" value="Program Ekle/Kaldır Girişi Ekle"/>
+    <string id="action.RemoveARPEntry" value="Program Ekle/Kaldır Girişini Kaldır"/>
+    <string id="action.BOBJRegasm" value="Düzenek Kaydını Çalıştır"/>
+    <string id="action.BOBJUnRegasm" value="Düzenek Kaydını Kaldır"/>
+    <string id="sequence.InstallPreReqs" value="Önkoşulları Kur"/>
+    <string id="sequence.SetInitialProperties" value="Başlangıç Özelliklerini Belirle"/>
+    <string id="sequence.SetMyProperties" value="Ürün Özelliklerini Belirle"/>
+    <string id="sequence.InstallDUBase" value="Eylemleri Kur"/>
+    <string id="sequence.InstallDUBundles" value="Dağıtım Birimlerini Kur"/>
+    <string id="sequence.CreateSymLinks" value="Symlink Oluştur"/>
+    <string id="sequence.ConfigureDUBase" value="Dağıtım Birimlerini Konfigüre Et"/>
+    <string id="sequence.PopulateRegistry" value="Kayıt Defterini Doldur"/>
+    <string id="sequence.InstallServices" value="Servisleri Kur"/>
+    <string id="sequence.ConfigureServices" value="Servisleri Konfigüre Et"/>
+    <string id="sequence.StartServices" value="Servisleri Başlat"/>
+    <string id="sequence.StopServices" value="Servisleri Durdur"/>
+    <string id="sequence.UninstallServices" value="Servisleri Kaldır"/>
+    <string id="sequence.UnPopulateRegistry" value="Kayıt Defterini Boşalt"/>
+    <string id="sequence.UninstallDUBase" value="İşlemleri Kaldır"/>
+    <string id="sequence.UnconfigureDUBase" value="Dağıtım Birimlerinin Konfigürasyonunu Kaldır"/>
+    <string id="sequence.RemoveSymLinks" value="Symlink Kaldır"/>
+    <string id="sequence.UninstallDUBundles" value="Dağıtım Birimlerini Kaldır:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Boş Klasörleri Sil"/>
+    <string id="Dialog.title" value="Kurulum İletisi"/>
+    <string id="PleaseWait" value="Bekleyin..."/>
+    <string id="LongCalculation" value="Uzun bir hesaplama işlemi devam ediyor. Bekleyin..."/>
+    <string id="DiskCostInProgress" value="Disk alanı hesaplanıyor."/>
+    <string id="Confirm.title" value="Onayla"/>
+    <string id="Permissions.title" value="Kurulum ayarları"/>
+    <string id="NoPermissionsOperation" value="Kurulumda bu işlemleri gerçekleştirmek için erişim yetkiniz yok."/>
+    <string id="NoPermissionsFile" value="Şu dosyaya erişmek için erişim izniniz yok: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Kurulum, daha eski bir #productname# versiyonunun kurulu olduğunu algıladı. Daha eski bir versiyon kuruluyken bu tam kurulum paketi uygulanamaz. Mevcut kurulumunuzu güncellemek için #product.fullproductname# bakım paketini kullanın."/>
+    <string id="OlderCryptoDllFound" value="Kurulum, ikili değerleri şifrelemek için belirtilen R_SHLIB_LD_LIBRARY_PATH ortam değişkeninin bu kurulum için gereken ikili değerlerden daha eski versiyon olduğunu algıladı. Kurulumu tamamlamak için bağlantı verilen belgedeki talimatları uygulayın."/>
+    <string id="CmdLine.title" value="Kurulum Komut Satırı"/>
+    <string id="InvalidCmdLine" value="Geçersiz komut satırı"/>
+    <string id="ExpectedCmdLine" value="Beklenen komut satırı: %1"/>
+    <string id="ActionFailed" value="Özel işlem başarısız oldu"/>
+    <string id="ActionFailedArg" value="Özel işlem başarısız oldu: %1"/>
+    <string id="ActionFailedWithCode" value="Özel işlem başarısız oldu ve hata kodu görüntüledi:"/>
+    <string id="RegistrationFailed" value="İkili değer kaydedilemedi: %1"/>
+    <string id="NoFindFile" value="Dosya bulunamadı: %1"/>
+    <string id="NoCMS" value="CMS'ye bağlanılamıyor"/>
+    <string id="NoCMSArg" value="%1 ile CMS'ye bağlanılamadı"/>
+    <string id="DFOFailed" value="DFO yüklemesi başarısız oldu"/>
+    <string id="wdeployFailed" value="wDeploy, uygulamayı dağıtamadı."/>
+    <string id="ScriptFailed" value="Komut dosyası çalıştırılamadı: %1"/>
+    <string id="CmdFailed" value="Komut satırı çalıştırılamadı: %1"/>
+    <string id="ServerStartFailed" value="Sunucu başlatılamadı: %1"/>
+    <string id="ServerStopFailed" value="Sunucu durdurulamadı: %1"/>
+    <string id="ExitCode" value="Çıkış kodu: %1"/>
+    <string id="DBInitFail" value="Veritabanı başlatılamadı"/>
+    <string id="ShortcutFail" value="Kısayol oluşturulamıyor: %1"/>
+    <string id="ARPFail" value="%1 ürünü için Program Ekle/Kaldır girişi oluşturulamadı"/>
+    <string id="CreateFolderFail" value="%1 klasörü oluşturulamıyor."/>
+    <string id="SamplesFail" value="Örnek eklenemiyor"/>
+    <string id="LicenseKeyFail" value="Lisans anahtarı eklenemiyor"/>
+    <string id="Tomcatfail" value="Tomcat konfigüre edilemiyor"/>
+    <string id="PropertyFail" value="Nesne özelliği alınamıyor: %1"/>
+    <string id="dev" value="Geliştirici İngilizcesi"/>
+    <string id="aa" value="Afar Dili"/>
+    <string id="ab" value="Abhazca"/>
+    <string id="af" value="Afrikaner Dili"/>
+    <string id="am" value="Amhara Dili"/>
+    <string id="ar" value="Arapça"/>
+    <string id="as" value="Assam Dili"/>
+    <string id="ay" value="Aymara Dili"/>
+    <string id="az" value="Azerice"/>
+    <string id="ba" value="Başkırtça"/>
+    <string id="be" value="Beyaz Rusça"/>
+    <string id="bg" value="Bulgarca"/>
+    <string id="bh" value="Bihari Dili"/>
+    <string id="bi" value="Bislama Dili"/>
+    <string id="bn" value="Bengali"/>
+    <string id="bo" value="Tibet Dili"/>
+    <string id="br" value="Bretonca"/>
+    <string id="ca" value="Katalanca"/>
+    <string id="co" value="Korsika Lehçesi"/>
+    <string id="cs" value="Çekçe"/>
+    <string id="cy" value="Galce"/>
+    <string id="da" value="Danca"/>
+    <string id="de" value="Almanca"/>
+    <string id="dz" value="Butanca"/>
+    <string id="el" value="Yunanca"/>
+    <string id="en" value="İngilizce"/>
+    <string id="eo" value="Esperanto"/>
+    <string id="es" value="İspanyolca"/>
+    <string id="et" value="Estonca"/>
+    <string id="eu" value="Bask Dili"/>
+    <string id="fa" value="Farsça"/>
+    <string id="fi" value="Fince"/>
+    <string id="fj" value="Fiji Dili"/>
+    <string id="fo" value="Faroe Dili"/>
+    <string id="fr" value="Fransızca"/>
+    <string id="fy" value="Frizce"/>
+    <string id="ga" value="İrlanda Dili"/>
+    <string id="gd" value="İskoç Galcesi"/>
+    <string id="gl" value="Galiçya Dili"/>
+    <string id="gn" value="Guarani Dili"/>
+    <string id="gu" value="Gücerat Dili"/>
+    <string id="ha" value="Hausa Dili"/>
+    <string id="he" value="İbranice"/>
+    <string id="hi" value="Hintçe"/>
+    <string id="hr" value="Hırvatça"/>
+    <string id="hu" value="Macarca"/>
+    <string id="hy" value="Ermenice"/>
+    <string id="ia" value="Interlingua"/>
+    <string id="id" value="Endonezya Dili"/>
+    <string id="ie" value="Interlingue"/>
+    <string id="ik" value="Inupiak Dili"/>
+    <string id="is" value="İzlanda Dili"/>
+    <string id="it" value="İtalyanca"/>
+    <string id="iu" value="Inuktitut"/>
+    <string id="ja" value="Japonca"/>
+    <string id="jw" value="Java Dili"/>
+    <string id="ka" value="Gürcüce"/>
+    <string id="kk" value="Kazakça"/>
+    <string id="kl" value="Grönland Dili"/>
+    <string id="km" value="Kamboçya Dili"/>
+    <string id="kn" value="Kannada Dili"/>
+    <string id="ko" value="Korece"/>
+    <string id="ks" value="Keşmir Dili"/>
+    <string id="ku" value="Kürtçe"/>
+    <string id="ky" value="Kırgızca"/>
+    <string id="la" value="Latince"/>
+    <string id="ln" value="Lingala Dili"/>
+    <string id="lo" value="Lao Dili"/>
+    <string id="lt" value="Litvanca"/>
+    <string id="lv" value="Letonca"/>
+    <string id="mg" value="Madagaskar Dilleri"/>
+    <string id="mi" value="Maori Dili"/>
+    <string id="mk" value="Makedonya Dili"/>
+    <string id="ml" value="Malayalam Dili"/>
+    <string id="mn" value="Moğolca"/>
+    <string id="mo" value="Moldavca"/>
+    <string id="mr" value="Marathi Dili"/>
+    <string id="ms" value="Malay Dili"/>
+    <string id="mt" value="Malta Dili"/>
+    <string id="my" value="Birman Dili"/>
+    <string id="na" value="Nauru Dili"/>
+    <string id="nb" value="Norveççe"/>
+    <string id="ne" value="Nepalce"/>
+    <string id="nl" value="Felemenkçe"/>
+    <string id="oc" value="Oksitan Dili"/>
+    <string id="om" value="Oromo Dili"/>
+    <string id="or" value="Oriya Dili"/>
+    <string id="pa" value="Pencap Dili"/>
+    <string id="pl" value="Lehçe"/>
+    <string id="ps" value="Pashto Dili"/>
+    <string id="pt" value="Portekizce"/>
+    <string id="qu" value="Keçuva Dili"/>
+    <string id="rm" value="Rhaeto-Romance"/>
+    <string id="rn" value="Kirundi Dili"/>
+    <string id="ro" value="Romence"/>
+    <string id="ru" value="Rusça"/>
+    <string id="rw" value="Kinyarwanda Dili"/>
+    <string id="sa" value="Sanskrit"/>
+    <string id="sd" value="Sindhi Dili"/>
+    <string id="sg" value="Sangho Dili"/>
+    <string id="sh" value="Sırp-Hırvat Dili"/>
+    <string id="si" value="Sinhala Dili"/>
+    <string id="sk" value="Slovakça"/>
+    <string id="sl" value="Slovence"/>
+    <string id="sm" value="Samoa Dili"/>
+    <string id="sn" value="Shona Dili"/>
+    <string id="so" value="Somali Dili"/>
+    <string id="sq" value="Arnavutça"/>
+    <string id="sr" value="Sırpça"/>
+    <string id="ss" value="Sisvati Dili"/>
+    <string id="st" value="Sesotho Dili"/>
+    <string id="su" value="Sunda Dili"/>
+    <string id="sv" value="İsveççe"/>
+    <string id="sw" value="Svahili Dili"/>
+    <string id="ta" value="Tamil Dili"/>
+    <string id="te" value="Telugu Dili"/>
+    <string id="tg" value="Tacik Dili"/>
+    <string id="th" value="Tay Dili"/>
+    <string id="ti" value="Tigrinya Dili"/>
+    <string id="tk" value="Türkmence"/>
+    <string id="tl" value="Tagalog Dili"/>
+    <string id="tn" value="Setsvana Dili"/>
+    <string id="to" value="Tonga Dili"/>
+    <string id="tr" value="Türkçe"/>
+    <string id="ts" value="Tsonga Dili"/>
+    <string id="tt" value="Tatarca"/>
+    <string id="tw" value="Tvi Dili"/>
+    <string id="ug" value="Uygurca"/>
+    <string id="uk" value="Ukrayna Dili"/>
+    <string id="ur" value="Urduca"/>
+    <string id="uz" value="Özbekçe"/>
+    <string id="vi" value="Vietnam Dili"/>
+    <string id="vo" value="Volapuk Dili"/>
+    <string id="wo" value="Volof Dili"/>
+    <string id="xh" value="Zosa Dili"/>
+    <string id="yi" value="Yidiş"/>
+    <string id="yo" value="Yoruba Dili"/>
+    <string id="za" value="Zhuang Dili"/>
+    <string id="zh_CN" value="Basitleştirilmiş Çince"/>
+    <string id="zh_TW" value="Geleneksel Çince"/>
+    <string id="zu" value="Zulu Dili"/>
+    <string id="SetupInitSh.root" value="Başlangıç komut dosyalarını ayarlamak için kök kullanıcı olarak giriş yapıp çalıştırın."/>
+    <string id="SetupInitSh.fail" value="Sistem başlatma komut dosyaları başarısız oldu."/>
+    <string id="property.InstallDir.description" value="Yükleme Dizini"/>
+    <string id="property.SetupUILanguage.description" value="Kurulum UI Dili"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Kullanılabilir Kurulum UI Dilleri Sıralandı:"/>
+    <string id="property.SelectedLanguagePacks.description" value="Kurulum için Seçilen Dil Paketleri"/>
+    <string id="property.ProductKey.description" value="Ürün Anahtar Kodu"/>
+    <string id="property.RegisteredCompany.description" value="Kayıtlı Şirket"/>
+    <string id="property.RegisteredUser.description" value="Kayıtlı Kullanıcı"/>
+    <string id="property.InstallCompatibilityMode.description" value="Eski Bir Ürünü Yükselt veya Birlikte Çalışacak Şekilde Kur"/>
+    <string id="property.IsAcceptEULA.description" value="Sistem EULA kabul ediyor mu?"/>
+    <string id="property.FormattedString.description" value="Hedef dize biçimlendir"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="wDeploy'u başlat"/>
+    <string id="description.cmsname" value="CMS Adı"/>
+    <string id="description.cmsport" value="CMS Bağlantı Noktası"/>
+    <string id="description.cmsusername" value="CMS Kullanıcı Adı"/>
+    <string id="description.cmspassword" value="CMS Parolası"/>
+    <string id="description.cmsauth" value="CMS Yetkilendirmesi"/>
+    <string id="description.sianame" value="SIA Adı"/>
+    <string id="description.siaport" value="SIA Bağlantı Noktası"/>
+    <string id="property.CMSPassword.description" value="CMS yönetici parolası"/>
+    <string id="property.CMSPort.description" value="CMS bağlantı noktası"/>
+    <string id="property.CryptoKey.description" value="CMS küme anahtarı"/>
+    <string id="property.EnableServers.description" value="Kurulumdan Sonra Sunucuları Başlat: 0 veya 1"/>
+    <string id="property.UsingAuditDBType.description" value="Denetim Veritabanı Türü"/>
+    <string id="property.UsingCMSDBType.description" value="CMS Veritabanı Türü"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Varolan Denetleme Veritabanı (DB)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Mevcut Denetleme DB Parolası"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Mevcut Denetleme DB Bağlantı Noktası"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Mevcut Denetleme DB Sıfırlama İşareti: 0 veya 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Mevcut Denetleme DB Harici Kimlik Doğrulama Kullan işareti: 0 veya 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Mevcut Denetleme DB Sunucusu"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Mevcut Denetleme DB Kullanıcı Adı"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Mevcut CMS Veritabanı (DB)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Mevcut CMS DB Parolası"/>
+    <string id="property.ExistingCMSDBPort.description" value="Mevcut CMS DB Bağlantı Noktası"/>
+    <string id="property.ExistingCMSDBReset.description" value="Mevcut CMS DB Sıfırlama İşareti: 0 veya 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Mevcut CMS DB Harici Kimlik Doğrulama Kullan işareti: 0 veya 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Mevcut CMS DB Sunucusu"/>
+    <string id="property.ExistingCMSDBUser.description" value="Mevcut CMS DB Kullanıcı Adı"/>
+    <string id="property.NewOrExpandInstall.description" value="Kurulum Modu: yeni, genişlet"/>
+    <string id="property.MySQLBOEUserName.description" value="BI Platform Kullanıcısı için Paketlenmiş Veritabanı Kullanıcı Adı"/>
+    <string id="property.MySQLBOEUserPassword.description" value="BI Platform Kullanıcısı için Paketlenmiş Veritabanı Parolası"/>
+    <string id="property.MySQLPort.description" value="Paketlenmiş Veritabanı Bağlantı Noktası"/>
+    <string id="property.MySQLRootPassword.description" value="Paketlenmiş Veritabanı Kök Kullanıcı Parolası"/>
+    <string id="property.RemoteCMSAdminName.description" value="Uzak CMS Yöneticisinin Adı"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="Uzak CMS Yönetici Parolası"/>
+    <string id="property.RemoteCMSName.description" value="Uzak CMS Adı"/>
+    <string id="property.RemoteCMSPort.description" value="Uzak CMS Bağlantı Noktası"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Uzak CMS oturum açma uyarısını atla"/>
+    <string id="property.MaintenanceMode.description" value="Gerçekleştirilecek bakım işlemi"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Entegre Veritabanını Kur: 0 veya 1"/>
+    <string id="property.SIAName.description" value="SIA Düğüm Adı"/>
+    <string id="property.SIAPort.description" value="SIA Bağlayıcı Bağlantı Noktası"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat Bağlantı Noktası"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat Yeniden Yönlendirme Bağlantı Noktası"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat Kapatma Bağlantı Noktası"/>
+    <string id="property.WACSPort.description" value="WACS Bağlantı Noktası"/>
+    <string id="property.WebAppServerType.description" value="Web Uygulama Sunucusu Türü: Tomcat, manual veya WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Solution Manager Sunucusu Adı"/>
+    <string id="property.SolMgr_Port.description" value="Solution Manager Sunucusu Bağlantı Noktası"/>
+    <string id="property.SolMgr_Username.description" value="Solution Manager Bağlantısı için Kullanıcı Adı"/>
+    <string id="property.SolMgr_Password.description" value="Solution Manager Bağlantısı için Parola"/>
+    <string id="property.SolMgr_UseHttps.description" value="Solution Manager Bağlantısı için HTTPS Kullan: 0 veya 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="SharedAlwaysFailureMessage dizeleri için kullanılan özellik"/>
+    <string id="property.SMDAgent_HOST.description" value="SMD Aracısı Ana Bilgisayar Adı"/>
+    <string id="property.SMDAgent_PORT.description" value="SMD Aracısı Bağlantı Noktası Numarası"/>
+    <string id="property.UPGRADE.description" value="Sessiz Yükseltmeye İzin Ver İşareti: 0 veya 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Solution Manager Diagnostics (SMD) Aracısı Tümleştirme: tümleştir veya tümleştirme"/>
+    <string id="property.ChooseSLDIntegration.description" value="SLD tümleştirme: tümleştir veya tümleştirme"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Introscope Enterprise Manager Tümleştirme: tümleştir veya tümleştirme"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Manager Ana Bilgisayar Adı"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager Bağlantı Noktası numarası"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Manager Yöntemi"/>
+    <string id="property.NewOrExistingLCM.description" value="Yeni veya Var Olan LCM Kur: yeni veya var olan"/>
+    <string id="property.LCMName.description" value="LCM sunucusu adı"/>
+    <string id="property.LCMUserName.description" value="LCM kullanıcı adı"/>
+    <string id="property.LCMPassword.description" value="LCM parolası"/>
+    <string id="property.LCMPort.description" value="LCM bağlantı noktası"/>
+    <string id="property.InstallType.description" value="Kurulum Türü: varsayılan veya özel"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Crystal Reports ön gereksinimleri için, kullanıcı yönetici haklarına sahip mi?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Crystal Reports görüntüleyici bilgisayar başına kurulumun kurulum dizini"/>
+    <string id="PatchUpdateCheck" value="Ürün güncellemeleri kontrol et"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="İşletim sistemi düzeltme eki düzeyi"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="İşletim sistemi bu ürünün kurulumu için gerekli olan yama düzeyi alt sınırını karşılamıyor. Platform gereksinimleri belgelerine bakın."/>
+    <string id="prereq.pingLocalhost" value="Ağ ayarları"/>
+    <string id="prereq.pingLocalhostNotOkText" value="localhost, 127.0.0.1 veya makine adıyla ping gönderilemedi. Kurulumun devam edebilmesi için bilgisayarın bu noktalarla iletişim kurmasını sağlamanız gerekir. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Disk Alanı Kontrolü"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Lütfen kuruluma devam etmek için gerekli disk alanının kullanılabilir olduğundan emin olun. Daha fazla bilgi için bkz. https://apps.support.sap.com/sap/support/pam."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Yönetici hakları"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Yönetici haklarına sahip bir hesapla oturum açmanız gerekir. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 veya sonraki bir versiyonu"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Lütfen Microsoft .NET Framework 4.0 veya sonraki bir versiyonunu yükleyin."/>
+    <string id="prereq.RootUserPreReqText" value="Kök kullanıcı hakları"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Bu kurulum, oturum açtığınız kök kullanıcı hesabıyla devam edemez. Ürünü kurabilmek için kök kullanıcı haricinde bir kullanıcıyla oturum açmanız gerekir. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64 bit işletim sistemi"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Bu ürünün 64 bit işletim sistemine kurulması gerekir. İşletim sisteminizin bu gereksinimi karşıladığından emin olun. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows versiyonu"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Bu ürün, Windows 8.1 veya Server 2012 R2 İşletim Sistemine (OS) ya da sonraki versiyonlarına yüklenmelidir. Lütfen işletim sisteminizin, bu gereksinimi karşıladığını doğrulayın."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows versiyonu"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Bu ürün, Windows Server 2012 R2 veya sonraki bir Windows Server versiyonuna yüklenmelidir. Lütfen Windows versiyonunuzun, bu gereksinimleri karşıladığını doğrulayın."/>
+    <string id="prereq.SQLExpressPreReqText" value="Entegre veritabanı gereksinimleri"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Microsoft .NET Framework 3.5 SP1 veya üzeri ile Windows Installer 4.5 kurun."/>
+    <string id="prereq.SQLExpressRequirementText" value="MS SQL Express gereksinimleri"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express için Microsoft .NET Framework 3.5 SP1 ve Windows Installer 4.5 gerekir. SQL Express uygulamasını kurmak istiyorsanız nce bu paketleri kurun."/>
+    <string id="prereq.PendingStatusPreReqText" value="Bekleyen yeniden başlatma işlemi"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="Yerel bilgisayarda beklemede olan yeniden başlatma isteği var. Kuruluma devam etmek için bilgisayarı yeniden başlatın. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Ürünün 4.x versiyonu kurulu değil."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Ürünün 4.x versiyonu kurulu."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Entegre veritabanı - ana dizin"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Entegre veritabanı, kullanıcının ana dizininde 755 erişim izinlerinin verilmesini gerektiriyor. Veritabanını kurmak istiyorsanız lütfen erişim izinlerini verin."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Entegre veritabanı - dizinler"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 için ~/sqllib veya ~/$USER bulunmaması gerekir. Entegre DB2 veritabanını kurmak istiyorsanız bu dizinleri silmeniz gerekir."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="#product.mini_bip_name# veya #product.cr_server_name# kurulamıyor"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname#, #product.mini_bip_name# veya #product.cr_server_name# ile aynı bilgisayara kurulamaz.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="#product.boe64_name# veya #product.cr_server_name# kurulamıyor"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="#productname# ürününü yükleyemezsiniz; #product.boe64_name# veya #product.cr_server_name# zatem yüklü INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="#product.ras_name# kurulamıyor"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname#, #product.ras_name# ile aynı bilgisayara kurulamaz.  INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="#product.IS_name# ve #product.DS_name# uyumu"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="Bilgisayarınızda SAP #product.DS_name# ve/veya #product.IS_name# dağıtımı algılandı. Devam etmeden önce SAP Note 1740516 (http://service.sap.com/sap/support/notes/1740516) belgesine bakarak uyum bilgilerine ve bu ürünleri etkileyen bilgilere bakın.  INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Kurulum, mevcut versiyon algıladı ve UPGRADE=1 komutuyla çalışması gerekiyor. Program kapatılacak."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Kritik ön gereksinimlerden biri karşılanmadığından kurulum devam edemiyor."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="Central Management Server, entegre veritabanı seçildi ancak ön gereksinimler karşılanmadığından bu seçenek devre dışı bırakıldı. Kurulumun devam edebilmesi için aşağıdaki ön gereksinimleri karşılamanız gerekiyor:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Geçerli kullanıcının yönetici erişim yetkileri yok ve kurulum dosyasını çalıştıramıyor."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="/tmp içindeki disk alanı"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="/tmp klasöründe yeterli boş disk alanı yok. Kuruluma devam etmek için yer açmanız gerekir. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="/var içindeki disk alanı"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="/var klasöründe yeterli boş alan yok. Kurulumun devam edebilmesi için 20 MB veya daha fazla boş alan açmanız gerekir."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Entegre veritabanı - kullanıcı ve grup"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Kullanıcı grubu adı, DB2 kısıtlamalarından birine takılıyor. Ayarıntılar için lütfen http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 adresine gidip &quot;kullanıcı kimliği kısırlamaları&quot; aratın."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Entegre veritabanı - UID ve GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2, UID ve GID değerlerinin 65536'dan büyük olmamasını gerektirir. Entegre DB2 veritabanını kullanmak için daha düşük bir sayı girmeniz gerekir."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Entegre veritabanı - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2 için gunzip uygulamasının sistem yolunda olması gerekir. Entegre DB2 veritabanını kullanabilmek için sistem yolunu düzenlemeniz gerekir."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Paketlenmiş DB - DB2 için HPUX çekirdek ayarları alt sınırını karşılayın"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Çekirdek ayarları DB2 için minimum gereksinimleri karşılamıyor"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013, SUSE 11 ve üzerinde desteklenmez."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="64 bit BOE .NET SDK için Microsoft .NET Framework 3.5 veya üzeri gereklidir. 64 bit BOE .NET SDK kurmak için .NET Framework kurmanız gerekir."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 veya üzeri"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Microsoft .NET Framework 3.0 veya üzerini kurun."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Office Second Edition Çalışma Zamanı için Microsoft Visual Studio 2005 Araçları"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime bulunamadı. Kuruluma devam etmek için bu bileşeni kurmanız gerekir."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 veya üzeri"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003 or veya üzeri bulunamadı. Kuruluma devam etmek için bu bileşeni kurmanız gerekir."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Destek paketi versiyonu alt sınırı"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="Bu güncelleme, sistemde bulunmayan #productname# #product_version##product_sp_version# için. Kuruluma devam etmek için bu bileşeni kurmanız gerekir."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="Bu güncelleme, sistemde bulunmayan #productname# #product_version##product_sp_version# için. Kuruluma devam etmek için bu bileşeni kurmanız gerekir."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Güncellemeler var"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# bu güncellemeden daha yeni bir versiyon. Bu güncellemeyi uygulamayın."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Ara sürüm versiyonu alt sınırı"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="Bu güncelleme, sistemde bulunmayan #productname# #product_version# için. Kuruluma devam etmek için bu bileşeni kurmanız gerekir."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Özel #productname_short# #productname_preversion# kuruldu"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="Bu güncelleme, sistemde bulunmayan #productname_short# #productname_preversion# için. Kuruluma devam etmek için bu bileşeni kurmanız gerekir."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Uyumlu ürün kurulumu"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Bu ürün önceden kurulmuş ve kullanılabilir durumda."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows Installer Servisi"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Windows Installer Servisi devre dışı olduğundan (Başlangıç türü=Devre dışı) veya kullanılamadığından kurulum duraklatıldı. Kurulumun devam edebilmesi için bu servisi kurup etkinleştirmeniz gerekir."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="Küme güncellemesini tamamlamak için, kümedeki tüm bilgisayarlarda kurulum tamamlandıktan sonra tüm Central Management Server (CMS) sunucularını yeniden başlatın. CMS'leri yeniden başlatmak için Central Management Console oturumu açmış olmanız gerekir."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Sisteminizi konfigüre etmeye devam etmek için Central Management Console (CMC) oturumu açın. CMC'yi başlatmak için Başlat &gt; #product.boe64_name# &gt; Central Management Console seçin."/>
+    <string id="postinstall.message.manualdeploy.common" value="Java web uygulamaları ve web servisleri Web Uygulama Sunucusu'na dağıtılmadı. Java web uygulamalarını ve web servislerini çalıştırmak için wDeploy aracını çalıştırın."/>
+    <string id="postinstall.message.manualdeploy.windows" value="wDeploy aracını başlatmak için Başlat &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDağıt seçeneğini belirleyin."/>
+    <string id="postinstall.message.manualdeploy.unix" value="wDeploy aracının konumu: [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="Sistem kurulumunu tamamlamak için kök izinleriyle şu komut dosyasını çalıştırın: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="OpenDocument için varsayılan görüntüleyici URL'sini tanımlamanız gerekir. Bu makine, belge görüntüleme isteklerini işlemek için varsayılan web uygulaması sunucusu olarak kaydedilmemiş. Central Management Server ile varsayılan web uygulaması sunucusu olarak kaydetmeniz gerekebilir. OpenDocument özellikleri sayfasını düzenlemek için Central Management Console uygulamasını kullanın."/>
+    <string id="PostInstall.message.monitoring" value="Tanılama testleri yapmak üzere İzleme aracına erişmek için Central Management Console oturumu açın, İzleme öğesini tıklayın ve İncelemeler sekmesini seçin."/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}RESTful Web Services{/b} ve {b}Insight to Action Framework{/b}, bu güncellemede yer alan iki yeni özelliktir. Özellikleri etkinleştirmek için temel kurulumun üzerine değiştirme kurulumu yapın ve yeni özellikleri ekleyin."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful Web Services:{/b} Business Intelligence platformu RESTful Web Servisi SDK'si, HTTP protokolünü kullanarak BI platformuna erişmenizi sağlar. Bu SDK'yi kullanarak BI platformunda oturum açabilir, BI platformu repository'sinde gezinebilir, kaynaklara erişebilir ve temel kaynak planlaması işlemleri yapabilirsiniz. Güncellemeden sonra Gösterge Tablosu modellerini ve Live Office belgelerini repository'ye kaydetmek için bu özellik gereklidir."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action Framework:{/b} Insight to Action Framework, SAP ve SAP harici uygulamalarsa işlem gerçekleştirmenizi sağlar ve bu işlemler SAP NetWeaver içindeki Report-Report Interface ile tanımlanır. Bu özellik SAP Crystal Reports ve SAP BusinessObjects Dashboards ile desteklenir."/>
+    <string id="postInstall.message.new.features.announce.unix" value="RESTful Web Services ve Insight to Action Framework, bu güncellemede yer alan iki yeni özelliktir. Özellikleri etkinleştirmek için temel kurulumun üzerine değiştirme kurulumu yapın ve yeni özellikleri ekleyin."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful Web Services: Business Intelligence platformu RESTful Web Servisi SDK'si, HTTP protokolünü kullanarak BI platformuna erişmenizi sağlar. Bu SDK'yi kullanarak BI platformunda oturum açabilir, BI platformu repository'sinde gezinebilir, kaynaklara erişebilir ve temel kaynak planlaması işlemleri yapabilirsiniz. Güncellemeden sonra Gösterge Tablosu modellerini ve Live Office belgelerini repository'ye kaydetmek için bu özellik gereklidir."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action Framework: Insight to Action Framework, SAP ve SAP harici uygulamalarsa işlem gerçekleştirmenizi sağlar ve bu işlemler SAP NetWeaver içindeki Report-Report Interface ile tanımlanır. Bu özellik SAP Crystal Reports ve SAP BusinessObjects Dashboards ile desteklenir."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Kurulum, veritabanı bağlantısı olarak artık desteklenmeyen MySQL client 5.0 versiyonunu buldu. Sisteminizin desteklenmeye devam etmesi için MySQL client 5.1 versiyonuna yükseltmeniz gerekiyor."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile Servers, yeni bir özelliktir ve mobil cihazlardan Business Intelligence verilerine erişilmesini sağlar. Bu özelliği etkinleştirmek için değiştirme kurulumu yapın ve Mobil Sunucular'ı seçin."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Paket içindeki Tomcat versiyonu Tomcat 9 olarak güncellendi. Tomcat'e uyguladığınız tüm özel ayarlar eski versiyondan Tomcat 9'a taşındı. Ancak özel ayarların Tomcat 9'da kullanılıp kullanılamadığını doğrulamanızı kesinlikle öneririz."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value=" SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Bakım Paketi: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Bakım Paketi: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Bakım Paketi: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Bakım Paketi\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI platform"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI platform sunucusu"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI platform"/>
+    <string id="product.boec_client_name" value="İstemci Araçları"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="BI platform istemcisi"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI platform .NET SDK Redistributable"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 görüntüleyici"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Gezgini"/>
+    <string id="product.explorer_shortname" value="Gezgin"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="SAP Lumira için SAP BusinessObjects BI eklentis"/>
+    <string id="product.lumiraboe_shortname" value="SAP Lumira için BI eklentisi"/>
+    <string id="product.mini_bip_name" value="Bilgi platformu servisleri"/>
+    <string id="product.mini_bip_shortname" value="Bilgi platformu servisleri"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="Microsoft SharePoint için SAP Entegrasyonu"/>
+    <string id="product.ipoint_shortname" value="Microsoft SharePoint Yazılımı için Entegrasyon Seçeneği"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM Sürümü"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP Kullanıcı Yönetim İstemcisi"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI platform 4"/>
+    <string id="shortcut.folder.name.minibip" value="Bilgi platformu servisleri 4"/>
+    <string id="shortcut.folder.name.boclient" value="SAP BusinessObjects BI platform 4 İstemci Araçları"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020 OEM Edition"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM Sürümü"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 görüntüleyici"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Platform servislerini başlat, durdur ve konfigüre et"/>
+    <string id="shortcut.link.name.boserver.CMC" value="SAP BusinessObjects BI Platform Central Management Console"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="SAP BusinessObjects BI Platform WACS Central Management Console"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="SAP Crystal Server Central Management Console"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="SAP Crystal Server WACS Central Management Console"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Information Platform Services Central Management Console"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Information Platform Services WACS Central Management Console"/>
+    <string id="shortcut.link.description.CMC" value="Management Console Erişimi"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="SAP BusinessObjects BI platformu Başlatma Alanı"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="SAP BusinessObjects BI Platform WACS BI Başlatma Alanı"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="SAP Crystal Server Java BI Başlatma Alanı"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="SAP Crystal Server WACS BI Başlatma Alanı"/>
+    <string id="shortcut.link.description.BILaunchpad" value="BI Başlatma Alanını başlat"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Yükseltme Yönetim Aracı"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Önceki dağıtımları SAP BusinessObjects BI platform 4'e yükselt"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Promotion Management Sihirbazı"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="4.x dağıtımlarına ilişkin CMS içeriğini adım adım kullanıcı arayüzü aracılığıyla Dışa Aktarın, İçe Aktarın ve Kopyalayın."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Önceki dağıtımları SAP Crystal Server 2020'ye yükseltin"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Önceki dağıtımları Information platform services 4'e yükselt"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32 bit ODBC Veri Kaynağı Yöneticisi"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC Veri Kaynağı Yöneticisi"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Open Database Connectivity (ODBC) Veri Kaynaklarını ve Sürücülerini Ekler, Kaldırır ve Konfigüre Eder"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Çevrimiçi Belgeler"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Çevrimiçi Belgelere Erişim"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat Yönetimi"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Tomcat Yönetimi Erişimi"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat Konfigürasyonu"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Tomcat Konfigürasyonu Erişimi"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="wDeploy Aracını başlatır"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widget'lar"/>
+    <string id="shortcut.link.description.BIWidgets" value="Widget'ları Başlatır"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Business View Manager"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Business View Manager uygulamasını başlatır"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Veri Federasyonu Yönetim Aracı"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Data Federation Yönetim Aracını Başlatır"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Bilgi Tasarımı Aracı"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Bilgi Tasarımı Aracını Başlatır"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Web Servisi Olarak Sorgu"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Bir Web Servisi Olarak Sorgu Tasarımcısını Başlatır"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Rapor Dönüştürme Aracı"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Rapor Dönüştürme Aracını Başlatır"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Çeviri Yönetim Aracı"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Çeviri Yönetim Aracını Başlatır"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Platform Tasarımı Aracı"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Platform Tasarım Aracını Başlatır"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Web Intelligence Zengin İstemciyi Başlatır"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Web Intelligence Rich Client'ı başlatır"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Biçimlendirilmiş veri raporları (.RPT) oluşturur ve değiştirir"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Rapor Yükleme Sihirbazı"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Rapor Yükleme Sihirbazını Başlatır"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 görüntüleyici"/>
+    <string id="shortcut.link.description.CRViewer" value="Biçimlendirilmiş veri raporlarını (.RPT) görüntüle"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Report Application Server Başlatma Alanı"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Report Application Server Başlatma Alanını Başlat"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Web Intelligence uygulamasını başlat"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Gösterge Tablolarını Başlat"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Gösterge Tabloları Eklenti Paketleyiciyi başlat"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="SAP Crystal Presentation Design 2020'yi başlatır"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager'ı başlatır"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects BI Yönetim Konsolu WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects BI Yönetim Konsolu"/>
+    <string id="shortcut.link.description.ADC" value="Yönetim Konsolu Erişimi"/>
+    <string id="OverhangingPatchMessage" value="Bu kurulum devam ederse düzeltmeler sistemden kaldırılabilir. Uyumlu bir paketi kurduğunuzdan emin olun."/>
+    <string id="Installing41PatchOver40" value="Devam etmeden önce geçerli 4.0 sisteminin manuel olarak bir yedeğini alın. 4.1 güncellemesini kurduktan sonra geri alamazsınız. Sistem durum bilgilerini kurtarmak isterseniz yedeği kullanmanız gerekir."/>
+    <string id="Block41PatchUninstall" value="4.1 güncellemesi otomatik olarak kaldırılamıyor. 4.0 sistem durumuna dönmek için mevcut ikili değer dosyalarını kaldırın ve 4.0 yedeğini kullanarak 4.0 sistemine dönün."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# için yeni lisans anahtarı gerekiyor. Yeni lisans anahtarını SAP Service Market Place'ten indirin; eski lisans anahtarını silin ve yeni lisans anahtarını Central Management Console'a ekleyin. Daha fazla bilgi için belgelere bakın."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="#product.fullproductnamenospace# ürününde birkaç ürün ve özellik reddedildi. Öngörülen işlemleri, güncellemeden sonra 2801797 numaralı SAP Notunda belirtilen şekilde gerçekleştirmeniz gerekir."/>
+    <string id="DeployLaterDescription" value="Web uygulaması dağıtım modu"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Yüklü düzeltmenin üst yama versiyonu"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Bu düzeltme, #productname# #product_version# #product_sp_version# #patch_id# Yaması için kullanılabilir. Bu yükleme işlemine devam etmek için yamayı yüklemeniz gerekir.Daha fazla ayrıntı için SAP Note 2257993 belgesini inceleyin."/>
+  </context>
+</uitext>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="SelectedInvalidLocale" value="Es wurde ein nicht unterstütztes Gebietsschema eingegeben."/>
+<string id="SetupLanguageTitle" value="Sprache des Installationsprogramms auswählen"/>
+<string id="SetupLanguageSubtitle" value="Wählen Sie die Setup-Sprache aus."/>
+<string id="SetupLanguageUnixSubtitle" value="Wählen Sie die Setup-Sprache aus."/>
+<string id="CreateLogFile" value="Protokolldatei während der Installation erstellen"/>
+<string id="Invalid_SetupLanguage" value="Die Setup-Sprache ([SetupUILanguage]) ist ungültig: Sie sollte '[$available.ui.langs]' sein. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="Ungültiger Wert für IsEnableSetupLog ([IsEnableSetupLog]): Gültige Werte sind 0 oder 1."/>
+<string id="SelectUILanguageFooter" value="Drücken Sie die []Tabulatortaste], die []Nach-oben-Taste] oder die []Nach-unten-Taste], um eine Auswahl zu treffen, []Strg-X], um zu beenden oder die []Eingabetaste], um fortzufahren."/>
+</context>
+</uitext>

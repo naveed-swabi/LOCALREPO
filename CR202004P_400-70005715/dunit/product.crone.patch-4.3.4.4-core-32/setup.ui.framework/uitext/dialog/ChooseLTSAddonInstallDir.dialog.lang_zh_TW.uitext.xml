@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="ChooseInstallDirTitle" value="設定目的端資料夾"/>
+<string id="ChooseInstallDirSubtitle" value="輸入產品安裝位置的完整目的端路徑。"/>
+<string id="ChooseInstallDirUnixSubtitle" value="輸入產品安裝位置的完整目的端路徑。"/>
+<string id="DestinationFolderGroupBox" value="目的端資料夾資訊"/>
+<string id="DestinationFolder" value="目的端資料夾:"/>
+<string id="Browse" value="瀏覽"/>
+<string id="BrowseInstallDirectory" value="選擇安裝位置"/>
+<string id="DirGenericError" value="目的端資料夾無效。請選擇不同的目的端資料夾。INS00029"/>
+<string id="DirNetworkError" value="目的端資料夾不能是網路位置。請選擇不同的位置。"/>
+<string id="DirEmptyError" value=" 您必須選擇目的端資料夾。INS00029"/>
+<string id="DirAbsolutePathError" value="目的端資料夾必須是完整路徑。INS00029"/>
+<string id="DirInvalidCharWinError" value="目的端資料夾只能使用數字、字母或下列字元: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="目的端資料夾路徑過長。請使用少於 150 個字元的路徑。INS00029"/>
+<string id="DirInvalidInstallverseError" value="目的端資料夾包含不相容的產品。請選取其他位置。INS00029"/>
+<string id="Invalid_InstallDirWindows" value="安裝目錄無效。請使用只包含英數字元或下列任一字元的有效絕對路徑: _ - \ . ( )。該目錄必須位於固定的磁碟機上，且完整路徑長度不能超過 150 個字元。INS00029"/>
+<string id="Invalid_InstallDirUnix" value="安裝目錄無效。請使用您同時具備讀取、寫入與執行權限的有效絕對路徑。INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="安裝目錄不可包含任何空格。"/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="安裝目錄不允許使用以下字元: &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="按 []Tab] 自動填入目錄元素，按 []Ctrl-X] 結束，或按 []Enter] 繼續。"/>
+</context>
+</uitext>

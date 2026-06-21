@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="pl"/>
+<context>
+<string id="Warning_prereq_DS" value="Platforma BI 4.1 SP10 nie ma zgodnej wersji aplikacji Data Services. Nie kontynuuj tej instalacji, jeśli w strukturze platformy jest zainstalowana aplikacja Data Services.\n\n\n Kliknij przycisk „OK”, aby kontynuować tę instalację.\n Kliknij opcję „Zakończ instalację”, aby teraz bezpiecznie zakończyć instalację."/>
+<string id="Warning_prereq_DS_unix" value="Platforma BI 4.1 SP10 nie ma zgodnej wersji aplikacji Data Services. Nie kontynuuj tej instalacji, jeśli w strukturze platformy jest zainstalowana aplikacja Data Services."/>
+<string id="ExitMessage" value="Naciśnij klawisze Ctrl+X, aby zakończyć, lub naciśnij klawisz Enter, aby kontynuować."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

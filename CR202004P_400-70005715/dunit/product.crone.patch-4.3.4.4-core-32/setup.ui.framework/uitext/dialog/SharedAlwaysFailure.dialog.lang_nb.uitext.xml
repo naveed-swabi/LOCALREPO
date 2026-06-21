@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Installasjonen kan ikke fortsette"/>
+<string id="ExpandInstallMessage_2" value="Beskriv de blokkerende problemene som hindrer installasjonen i å fortsette"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Trykk på CTRL-X for å avslutte installeringen"/>
+<string id="AlwaysFailureGeneralMessage" value="Installasjonen kan ikke fortsette\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

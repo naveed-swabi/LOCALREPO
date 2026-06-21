@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace#이(가) 설치되었습니다."/>
+<string id="Description" value="설치를 끝내려면 [마침]을 클릭하십시오."/>
+<string id="MonitorToolCheck" value="소프트웨어 모니터링 도구 실행"/>
+<string id="CustomNextButton" value="마침"/>
+</context>
+</uitext>

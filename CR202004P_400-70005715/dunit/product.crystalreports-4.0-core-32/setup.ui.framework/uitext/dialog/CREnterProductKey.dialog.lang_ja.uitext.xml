@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="InvalidProductKey" value="入力された製品キーが、有効と認識されませんでした。"/>
+<string id="EnterProductKeyTitle" value="製品登録の設定"/>
+<string id="EnterProductKeySubtitle" value="#product.nameandversionwithoutpatch# 製品キーを入力します。"/>
+<string id="ProductkeyLabel" value="製品キー:"/>
+<string id="ProductkeyInfoGroup" value="製品キー情報"/>
+<string id="Invalid_ProductKey" value="製品キーが無効です。INS00140"/>
+</context>
+</uitext>

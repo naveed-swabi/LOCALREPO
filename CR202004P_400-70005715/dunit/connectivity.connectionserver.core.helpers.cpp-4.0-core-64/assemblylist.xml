@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\Software\SAP BusinessObjects\Suite XI 4.0\default\Shared\CLASSID\csTRACELOG">
+    <registryValue name="InprocServer" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\ics_tracelog.dll</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity">
+    <file name="cs_coretools.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="117248"/>
+    <file name="cs_config.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="269824"/>
+    <file name="cs_trace.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="57344"/>
+    <file name="ics_tracelog.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="22016"/>
+  </sourcedir>
+</assembly>

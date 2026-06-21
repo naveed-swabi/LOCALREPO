@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/odbc">
+    <file name="netezzacs.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="13429"/>
+    <file name="netezza6cs.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="15302"/>
+  </sourcedir>
+</assembly>

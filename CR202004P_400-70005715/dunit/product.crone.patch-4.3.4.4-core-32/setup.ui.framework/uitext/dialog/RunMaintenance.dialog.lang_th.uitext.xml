@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="UnknownMaintenanceMode" value="ไม่รู้จักโหมดดูแลรักษาที่ระบุ ค่าที่ถูกต้องคือ: แก้ไข ซ่อมแซม หรือเอาออก"/>
+<string id="ChooseMaintenanceMode" value="การดูแลรักษาแอปพลิเคชัน"/>
+<string id="SelectMaintenanceMode" value="เลือกการดูแลรักษาที่จะดำเนินการ ไปที่ http://support.sap.com เมื่อต้องการความช่วยเหลือในการแก้ไขปัญหา"/>
+<string id="SelectMaintenanceMode_win" value="เลือกการดำเนินการดูแลรักษา"/>
+<string id="Modify" value="แก้ไข"/>
+<string id="ModifyDescription" value="เปลี่ยนคุณลักษณะของแอปพลิเคชันที่มีการติดตั้งไว้ แสดงกล่องโต้ตอบ เลือกคุณลักษณะ เพื่อให้คุณสามารถกำหนดค่าคุณลักษณะแต่ละรายการได้"/>
+<string id="Repair" value="ซ่อมแซม"/>
+<string id="RepairDescription" value="ติดตั้งไฟล์ รีจิสทรีคีย์ และช็อตคัทที่เสียหายหรือที่หายไปใหม่ การตั้งค่าส่วนตัวที่จัดเก็บอยู่ในรีจิสทรีอาจถูกรีเซ็ตเป็นค่าดีฟอลต์"/>
+<string id="Remove" value="เอาออก"/>
+<string id="RemoveDescription" value="ถอนการติดตั้ง #product.nameonly# จากคอมพิวเตอร์เครื่องนี้"/>
+<string id="Invalid_Maintenance_Mode" value="ประเภท MaintenanceMode ([MaintenanceMode]) ไม่ถูกต้อง: ควรเป็น 'แก้ไข', 'ซ่อมแซม' หรือ 'เอาออก' INS00283"/>
+<string id="HyperLinkMaint" value="สำหรับความช่วยเหลือในการแก้ไขปัญหา โปรดไปที่: "/>
+</context>
+</uitext>

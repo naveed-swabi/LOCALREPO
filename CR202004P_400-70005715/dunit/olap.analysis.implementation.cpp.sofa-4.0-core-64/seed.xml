@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="olap.analysis.implementation.cpp.sofa-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="3656489">
+    <requiredDeploymentUnit ref="platform.library.common-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.cxlib.cxlib-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="A65C930D-F080-47E1-8EE7-C1400788D9C0"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="crdb_pc_res_pl.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7680"/>
+    <file name="crdb_p2s_res_pl.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7168"/>
+  </sourcedir>
+</assembly>

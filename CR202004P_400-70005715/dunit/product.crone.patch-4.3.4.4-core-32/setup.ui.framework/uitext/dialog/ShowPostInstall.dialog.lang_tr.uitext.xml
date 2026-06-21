@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Yükleme Sonrası Adımlar"/>
+<string id="PostInstallDetails" value="Kurulum tamamlandı. Dağıtımınızı tamamlamak için aşağıdaki kurulum sonrası talimatları uygulayın."/>
+<string id="PostUninstallSteps" value="Kaldırma Sonrası Adımlar"/>
+<string id="PostUninstallDetails" value="Kaldırma neredeyse tamamlandı. İşlemi tamamlamak için aşağıdaki talimatları uygulayın."/>
+<string id="PostInstallStep_Header" value="{b}Kurulum Sonrası Talimatlar:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Kaldırma Sonrası Talimatlar:"/>
+<string id="PostUninstallStep_Header" value="{b}Kaldırma Sonrası Talimatlar:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Kaldırma Sonrası Talimatlar:"/>
+<string id="CRPostInstallUIText1" value="Ürün Kaydı{br}Lütfen {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}burayı{/a} tıklayarak ürününüzü çevrimiçi olarak kaydedin."/>
+<string id="PostInstallStep_Footer" value="Kurulum tamamlandı. Devam etmek için []Enter] tuşuna basın"/>
+<string id="PostUnInstallStep_Footer" value="Kaldırma tamamlandı. Devam etmek için []Enter] tuşuna basın"/>
+</context>
+</uitext>

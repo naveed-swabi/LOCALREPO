@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\SAP\BWQueryReportWrapper">
+    <registryValue name="Trace" type="string">No</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\SAP\BWQueryReportWrapper">
+    <registryValue name="MaxPickListSize" type="dword">200</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="BWQueryReportWrapper.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1459200"/>
+    <file name="CrystalConnector.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="82944"/>
+    <file name="CrystalExtension.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="781312"/>
+    <file name="SAPOpenSaveServices.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1028096"/>
+    <file name="crwext_sapu.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="4751360"/>
+  </sourcedir>
+</assembly>

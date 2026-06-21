@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/drivers/java">
+    <file name="dbd_netezza.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/drivers/java" size="122377"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc">
+    <file name="netezza.rss" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="11902"/>
+    <file name="netezza.sbo" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="2998"/>
+    <file name="netezza.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="16794"/>
+    <file name="netezza6.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="19438"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc/extensions/qt">
+    <file name="netezza.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc/extensions/qt" size="1578"/>
+    <file name="netezza6.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc/extensions/qt" size="1578"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/setup">
+    <file name="netezza_jdbc.setup" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/setup" size="476"/>
+  </sourcedir>
+</assembly>

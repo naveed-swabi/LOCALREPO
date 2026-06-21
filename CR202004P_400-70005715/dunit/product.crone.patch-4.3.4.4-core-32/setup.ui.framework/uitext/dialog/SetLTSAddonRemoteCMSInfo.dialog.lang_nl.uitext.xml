@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informatie over bestaande CMS-implementatie"/>
+<string id="SpecifyRemoteCMS" value="Geef de inloggegevens van de bestaande CMS of van de beheerder op om het proces te starten."/>
+<string id="RemoteCMSConnectionInfo" value="Verbindingsgegevens voor bestaande CMS"/>
+<string id="RemoteCMSName" value="CMS-naam"/>
+<string id="RemoteCMSPort" value="CMS-poort"/>
+<string id="RemoteCMSAdminLogonInfo" value="Aanmeldingsgegevens van CMS-beheerder"/>
+<string id="RemoteCMSUser" value="Gebruiker"/>
+<string id="RemoteCMSPassword" value="Wachtwoord"/>
+<string id="ErrRemoteCMSConnectionInfo" value="De externe CMS kan niet worden bereikt of de aanmeldingsgegevens zijn onjuist. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="De externe CMS kan niet worden bereikt of de aanmeldingsgegevens zijn onjuist. INS00013\nWilt u uw gegevens opnieuw invoeren?"/>
+<string id="Invalid_SymbolInCMSPassword" value="De volgende tekens zijn niet toegestaan in het CMS-wachtwoord:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

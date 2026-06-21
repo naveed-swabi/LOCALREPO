@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.boe.sdkplugins.java/java">
+    <file name="com.businessobjects.plugins.CrystalReports_lang.cs.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/bundles" size="482"/>
+  </sourcedir>
+</assembly>

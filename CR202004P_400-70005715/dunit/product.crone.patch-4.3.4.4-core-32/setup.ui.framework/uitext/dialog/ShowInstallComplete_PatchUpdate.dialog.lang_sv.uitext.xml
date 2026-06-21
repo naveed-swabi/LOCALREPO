@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# har  installerats utan fel."/>
+<string id="InstallFailedMessage" value="Fel har upptäckts i #product.fullproductnamenospace# vid installation."/>
+<string id="UninstallFailedMessage" value="Fel har upptäckts i #product.fullproductnamenospace# vid avinstallation."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# har avinstallerats."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# har installerats utan varningar."/>
+<string id="Description" value="Klicka på Slutför för att avsluta installationen."/>
+<string id="FailedDescription" value="Klicka på Slutför för att avsluta installationen."/>
+<string id="Description_unix" value="Tryck på [Retur] för att avsluta installationen."/>
+<string id="FailedDescription_unix" value="Tryck på []D] för mer detaljerad information eller på []Retur] för att avsluta installationen."/>
+<string id="PatchUpdateCheck" value="Sök efter produktuppdateringar"/>
+<string id="CustomNextButton" value="Slutför"/>
+<string id="CustomButtonRegister" value="Registrera"/>
+<string id="ViewLogButton" value="Visa logg"/>
+<string id="HyperlinkText" value="Klicka här för att visa detaljer"/>
+</context>
+</uitext>

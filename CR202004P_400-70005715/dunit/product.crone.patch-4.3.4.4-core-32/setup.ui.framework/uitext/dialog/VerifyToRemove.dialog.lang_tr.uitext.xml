@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="Message" value="Kaldırma Onayı"/>
+<string id="Description" value="Bu işlem #product.fullproductnamenospace# ürününü bilgisayarınızdan kaldıracak."/>
+<string id="ConfirmUninstall" value="Kaldırmak istediğinizden emin misiniz?"/>
+<string id="ConfirmUninstall_Footer" value="Geri gitmek için []Ctrl-B], çıkmak için []Ctrl-X], devam etmek için []Enter] tuşlarına basın."/>
+</context>
+</uitext>

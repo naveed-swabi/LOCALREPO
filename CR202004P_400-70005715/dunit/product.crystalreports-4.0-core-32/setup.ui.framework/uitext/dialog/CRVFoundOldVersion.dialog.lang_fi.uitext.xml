@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="DlgTitle" value="Tuotepäivitys"/>
+<string id="DlgSummary" value="Tämän tuotteen toinen versio on havaittu."/>
+<string id="ProceedOrNot" value="Crystal Reports -katseluohjelman toinen versio on havaittu. Jos jatkat tätä asennusta, kyseinen versio päivittyy Crystal Reports Viewer 2010 -ohjelmaksi. Jos haluat jatkaa, valitse Seuraava. Jos haluat peruuttaa asennuksen, lopeta asennusohjelma valitsemalla Peruuta."/>
+</context>
+</uitext>

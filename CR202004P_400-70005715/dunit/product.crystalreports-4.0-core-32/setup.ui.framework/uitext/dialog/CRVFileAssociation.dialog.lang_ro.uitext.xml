@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="DlgTitle" value="Asociere fişier"/>
+<string id="DlgSummary" value="Setare aplicaţie implicită Crystal Report Viewer."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer nu este în prezent vizualizatorul dvs.implicit pt.rapoarte Crystal. Doriţi să devină vizualizatorul dvs.implicit? "/>
+<string id="Yes" value="Da"/>
+<string id="No" value="Nu"/>
+</context>
+</uitext>

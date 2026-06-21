@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10 没有兼容的数据服务版本。如果您的架构中没有安装数据服务，请勿继续此安装。\n\n\n 单击“确定”可继续此安装，或者\n单击“退出安装程序”以立即安全地结束安装。"/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10 没有兼容的数据服务版本。如果您的架构中没有安装数据服务，请勿继续此安装。"/>
+<string id="ExitMessage" value="按 Ctrl+X 退出，或者按 Enter 继续。"/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

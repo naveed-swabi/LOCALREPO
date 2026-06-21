@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Taalpakketten selecteren"/>
+<string id="SelectLanguagePackSubtitle" value="Selecteer alle extra taalpakketten waarmee gebruikers in het product interageren."/>
+<string id="SelectLanguagePackFooter" value="Druk op []Tab], []Pijl omhoog] of []Pijl omlaag] om te markeren, []Spatie] om uit te vouwen, []X] om status in of uit te schakelen, []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om door te gaan."/>
+<string id="alllang" value="Alle talen"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Eigenschap SelectedLanguagePacks '[SelectedLanguagePacks]' moet de landinstelling van het systeem bevatten."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Eigenschap SelectedLanguagePacks '[SelectedLanguagePacks]' moet 'en' bevatten."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Eigenschap SelectedLanguagePacks '[SelectedLanguagePacks]' moet een subset van de beschikbare taalpakketten bevatten."/>
+</context>
+</uitext>

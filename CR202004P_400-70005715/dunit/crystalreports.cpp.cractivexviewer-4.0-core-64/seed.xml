@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.cractivexviewer-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="1580404">
+    <requiredDeploymentUnit ref="crystalreports.cpp.printcontrol-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.crystalcommon.cpp.crlang-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.webreporting.common-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.apache.xerces.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.microsoft.mssdk-10.0-core"/>
+    <requiredDeploymentUnit ref="tp.shared.pvlocale.pvlocale-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="E2C2A406-CF66-4FEE-83CC-5FB0A56BA2EE"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

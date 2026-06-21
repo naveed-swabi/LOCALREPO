@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="UnknownInstallType" value="Byl zadán neznámý typ instalace. Platné hodnoty jsou: Typická nebo Vlastní."/>
+<string id="ChooseInstallType" value="Vybrat typ instalace"/>
+<string id="SelectAnInstallType" value="Vyberte typ instalace."/>
+<string id="Full" value="Typická"/>
+<string id="FullDescription" value="Nainstalovat kompletní systém #product.nameonly#"/>
+<string id="Custom" value="Vlastní"/>
+<string id="CustomDescription" value="Vybrat funkce aplikace, které chcete nainstalovat, popř. přidat nebo odeberat funkce stávajícího systému #product.nameonly#"/>
+<string id="Invalid_InstallType" value="Neplatný typ instalace ([typ instalace]): je třeba zvolit možnost Typická nebo Vlastní."/>
+</context>
+</uitext>

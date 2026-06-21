@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Velg språkpakker"/>
+<string id="SelectLanguagePackSubtitle" value="Velg alle ytterligere språkpakker som brukerne skal samhandle med i produktet."/>
+<string id="SelectLanguagePackFooter" value="Trykk på []Tab], []Opp] eller []Ned] for å utheve, []Mellomrom] eller []X] for å bytte status, []Ctrl-B] for å gå tilbake, []Ctrl-X] for å avslutte eller []Enter] for å fortsette."/>
+<string id="alllang" value="Alle språk"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Egenskapen SelectedLanguagePacks '[SelectedLanguagePacks]' må inneholde nasjonale systeminnstillinger."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Egenskapen SelectedLanguagePacks '[SelectedLanguagePacks]' må inneholde 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Egenskapen SelectedLanguagePacks '[SelectedLanguagePacks]' må være et delsett av tilgjengelige språkpakker."/>
+</context>
+</uitext>

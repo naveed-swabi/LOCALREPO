@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="DlgTitle" value="Обновление продукта "/>
+<string id="DlgSummary" value="Обнаружена другая версия данного продукта. "/>
+<string id="ProceedOrNot" value="Обнаружена другая версия Crystal Reports Viewer. Если продолжить установку, эта версия будет обновлена до Crystal Reports Viewer 2010. Для продолжения нажмите кнопку &quot;Далее&quot;. Для отмены установки нажмите кнопку &quot;Отмена&quot;. "/>
+</context>
+</uitext>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="SelectFeaturesTitle" value="Valitse ominaisuudet"/>
+<string id="SelectFeaturesSubtitle" value="Valitse asennettavat ominaisuudet."/>
+<string id="SelectFeaturesFooter" value="Valitse kohde []Sarkain]-, []Ylänuoli]- tai []Alanuoli]-näppäimillä, laajenna kohde painamalla  []Välilyönti]-näppäintä, vaihda tilaa painamalla []X]-näppäintä,palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+<string id="DiskCost" value="Levykustannukset"/>
+<string id="Drive Select" value="Olet valitsemassa"/>
+<string id="Disk Costing" value="Levytilan tarkistus"/>
+<string id="Volume" value="Taltio"/>
+<string id="Disk Size" value="Levykoko"/>
+<string id="Available" value="Käytettävissä"/>
+<string id="Required" value="Pakollinen"/>
+<string id="Difference" value="Ero"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Yritä uudelleen"/>
+<string id="Cancel" value="Peruuta"/>
+<string id="Invalid_DiskSpace" value="Tila ei riitä tuotteen asentamiseen.  Vapauta levytilaa tai valitse toinen asennuspaikka.  Käytettävissä oleva tila: Tarvittava tila: [RequiredSpace] tavua."/>
+</context>
+</uitext>

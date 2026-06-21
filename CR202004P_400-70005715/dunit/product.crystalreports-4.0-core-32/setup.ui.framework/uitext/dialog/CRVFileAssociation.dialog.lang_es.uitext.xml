@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="DlgTitle" value="Asociación de archivos"/>
+<string id="DlgSummary" value="Configurar aplicación predeterminada de Visor de Crystal Reports."/>
+<string id="ReplaceFileAssoc" value="El Visor de Crystal Reports no es el visor de informes de Crystal predeterminado. ¿Desea que sea su visor predeterminado?"/>
+<string id="Yes" value="Sí"/>
+<string id="No" value="No"/>
+</context>
+</uitext>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Instalarea nu poate continua"/>
+<string id="ExpandInstallMessage_2" value="Descrieţi problemele de blocare care au împiedicat continuarea instalării"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Apăsaţi CTRL-X pt.a ieşi din această instalare."/>
+<string id="AlwaysFailureGeneralMessage" value="Instalarea nu poate continua\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

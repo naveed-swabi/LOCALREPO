@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.erom-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="4221661">
+    <requiredDeploymentUnit ref="tp.apache.xerces.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.cxlib.cxlib-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.library.common-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.locale_fallback.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.microsoft.mssdk-10.0-core"/>
+    <requiredDeploymentUnit ref="tp.shared.pvlocale.pvlocale-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="E591317A-A07A-4AE7-8674-EBE4B5C88E18"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+    <action id="RemoveUserConfigFile">
+      <arg name="DirName" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64"/>
+      <arg name="FileName" value="clientSDKOptions.xml"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+    <action id="BOBJTextReplace">
+      <arg name="File" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\clientSDKOptions.xml"/>
+      <arg name="SearchWord" value="%MACHINENAME%"/>
+      <arg name="ReplaceWord" value="[$os.machinename]"/>
+    </action>
+    <action id="CopyUserConfigFile">
+      <arg name="SrcFileName" value="clientSDKOptions.xml.1"/>
+      <arg name="DestDirName" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64"/>
+      <arg name="DestFileName" value="clientSDKOptions.xml"/>
+    </action>
+  </install>
+</duseed>

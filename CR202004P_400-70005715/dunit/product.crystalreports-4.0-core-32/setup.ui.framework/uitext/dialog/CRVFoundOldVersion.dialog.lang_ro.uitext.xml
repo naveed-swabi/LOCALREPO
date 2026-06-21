@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="DlgTitle" value="Actualizare produs"/>
+<string id="DlgSummary" value="A fost detectată o altă versiune a acestui produs."/>
+<string id="ProceedOrNot" value="A fost detectată o altă versiune a Crystal Reports Viewer. Dacă veţi continua cu instalarea, aceasta va fi actualizată la Crystal Reports Viewer 2010. Dacă doriţi să continuaţi, click pe Următorul. Dacă doriţi să anulaţi această instalare, click pe Anulare pentru a ieşi din instalare. "/>
+</context>
+</uitext>

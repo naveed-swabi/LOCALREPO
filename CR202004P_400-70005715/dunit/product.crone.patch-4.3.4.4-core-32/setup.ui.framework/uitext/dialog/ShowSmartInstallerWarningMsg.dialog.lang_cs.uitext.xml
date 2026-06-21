@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Pro úspěšné dokončení zamýšlené instalace ověřte, že zadaná cesta pro instalaci je správná. \n\n Pro novou instalaci - nový adresář souborů. \N Pro instalaci patch - adresář souborů s předchozí instalací verze #productname#. \n\n\n Pro pokračování klikněte na Ok, pro opětovné zadání správné cesty pro instalaci klikněte na Ukončit."/>
+<string id="ExitMessage" value="Stisknutím kláves Ctrl+X ukončíte program, stisknutím klávesy Enter budete pokračovat."/>
+<string id="WarnDialogTitle" value="DIALOGOVÉ OKNO INFORMACÍ"/>
+<string id="WarnDialogSubtitle" value="Informace:"/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Message" value="卸载确认"/>
+<string id="Description" value="这将从计算机中删除 #product.fullproductnamenospace#。"/>
+<string id="ConfirmUninstall" value="是否确定要卸载？"/>
+<string id="ConfirmUninstall_Footer" value="按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或者按 [Enter] 继续。"/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informacje o istniejącym wdrożeniu produktu #productname#"/>
+<string id="SpecifyRemoteCMS" value="Podaj dane logowania administratora istniejącego wdrożenia."/>
+<string id="RemoteCMSConnectionInfo" value="Informacje o połączeniu z istniejącym produktem #productname#"/>
+<string id="RemoteCMSName" value="Nazwa"/>
+<string id="RemoteCMSPort" value="Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Dane logowania administratora"/>
+<string id="RemoteCMSUser" value="Użytkownik"/>
+<string id="RemoteCMSPassword" value="Hasło"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Nie można nawiązać połączenia ze zdalnym serwerem SAP Lumira dla zespołów lub poświadczenia logowania są nieprawidłowe. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Nie można nawiązać połączenia ze zdalnym serwerem SAP Lumira dla zespołów lub poświadczenia logowania są nieprawidłowe. INS00013\nCzy chcesz ponownie wprowadzić swoje poświadczenia?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Hasło nie może zawierać słowa „Administrator” ani następujących znaków specjalnych: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{spacja}{tabulacja}"/>
+</context>
+</uitext>

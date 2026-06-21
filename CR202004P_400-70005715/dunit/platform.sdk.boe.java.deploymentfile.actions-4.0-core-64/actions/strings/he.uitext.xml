@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="progress.UpdateRepository" value="מעדכן מאגר"/>
+<string id="progress.SetHyperLink" value="קובע תצורה של הגדרות מערכת"/>
+</context>
+</uitext>

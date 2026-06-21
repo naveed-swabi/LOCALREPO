@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="saxmlserialize_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="43632"/>
+    <file name="sacorbaadapter_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="36464"/>
+    <file name="commonobjmodel_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="28784"/>
+    <file name="objectfactory_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="32880"/>
+    <file name="saxserialize_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="28784"/>
+    <file name="datadefmodel_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="31856"/>
+    <file name="sacommlayer_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="55408"/>
+    <file name="sacommoncontrols_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="168448"/>
+    <file name="cubedefmodel_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="28784"/>
+    <file name="rptdefmodel_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="28784"/>
+    <file name="rptcontrollers_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="189040"/>
+    <file name="requestmodel_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="28784"/>
+    <file name="clientdoc_res_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="92272"/>
+  </sourcedir>
+</assembly>

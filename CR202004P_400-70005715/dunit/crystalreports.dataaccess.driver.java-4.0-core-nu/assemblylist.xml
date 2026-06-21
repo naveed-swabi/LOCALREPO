@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/crystalreports.dataaccess/java">
+    <file name="CRDBJavaServer.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="56849"/>
+    <file name="CRDBJavaServerCommon.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="375168"/>
+    <file name="CRDBJavabeansServer.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="59130"/>
+    <file name="CRDBJDBCServer.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="96790"/>
+    <file name="CRDBXMLServer.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="221368"/>
+    <file name="CRDBXMLExternal.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/external" size="570"/>
+    <file name="CRDBODATAServer.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="104628"/>
+    <file name="CRDBODATAExternal.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/external" size="1048"/>
+  </sourcedir>
+</assembly>

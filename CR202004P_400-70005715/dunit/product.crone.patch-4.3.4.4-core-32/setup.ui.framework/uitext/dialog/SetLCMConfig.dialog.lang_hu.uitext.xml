@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="SetLCMConfigTitle" value="Subversion konfigurálása"/>
+<string id="SetLCMConfigSubtitle" value="Adja meg a portot és a felhasználónevet a Subversion verziószabályozó rendszeréhez."/>
+<string id="repoInfoGroup" value="Subversion tárházadatai"/>
+<string id="repoName" value="Tárház neve:"/>
+<string id="repoPort" value="Tárház portja:"/>
+<string id="repoPortInline" value="Subversion portja:"/>
+<string id="repoUserInfoGroup" value="Subversion tárházának felhasználói adatai"/>
+<string id="repoUserName" value="Tárház felhasználói fiókja:"/>
+<string id="repoUserPass" value="Tárház fiókjának jelszava:"/>
+<string id="repoUserPassInline" value="Tárház felhasználói fiókjának jelszava:"/>
+<string id="repoUserPass2" value="Jelszó megerősítése:"/>
+<string id="Mismatch_LCMPassword" value="A jelszavak nem egyeznek. Ellenőrizze, és próbálja meg újra. INS00267"/>
+<string id="Invalid_LCMPassword" value="A jelszó túl egyszerű. A jelszónak legalább hat karakter hosszúnak kell lennie, és legalább kettőt tartalmaznia kell a következő karakterfajtákból: nagyetű, kisbetű. INS00127"/>
+</context>
+</uitext>

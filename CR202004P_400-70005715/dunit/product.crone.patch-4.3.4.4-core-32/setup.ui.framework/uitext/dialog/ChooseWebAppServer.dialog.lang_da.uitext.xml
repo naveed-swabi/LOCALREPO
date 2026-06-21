@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Vælg Java-webapplikationsserver"/>
+<string id="ChooseWebAppServerSubtitle" value="Vælg en Java-webapplikationsserverløsning"/>
+<string id="ChooseWebAppServerFooter" value="Tryk på []Tab], []Up], eller []Down] for at vælge, []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte, eller []Enter] for at fortsætte."/>
+<string id="InstallJWAS" value="Installer Java-webprogram og servere"/>
+<string id="InstallTomcat" value="Installer standard-Tomcat Java-webapplikationsserveren, og implementer automatisk webapplikationer"/>
+<string id="ManualDeploy" value="Implementer webapplikationer manuelt til en understøttet Java-webapplikationsserver efter installation"/>
+<string id="InstallWACS" value="Installer Web Application Container Server, og implementer automatisk webapplikationer "/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integration Option for Microsoft SharePoint-software 4.0"/>
+<string id="SharePointIntegrationText" value="SAP BusinessObjects-integrationsindstillingen for Microsoft Sharepoint-software 4.0 er tilgængelig som en separat installation i mappen med tilføjelsesprogrammer for 64 bit Sharepoint. Se efterinstallationsinstruktionerne for et link til mappen med tilføjelsesprogrammer."/>
+<string id="SharePointIntegrationCheck" value="Vis placeringen af mappen med tilføjelsesprogrammer efter installationen"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Ugyldig UseIntegratedWebAppServer-værdi ([UseIntegratedWebAppServer]): Værdien skal være enten 0 eller 1. INS00255"/>
+</context>
+</uitext>

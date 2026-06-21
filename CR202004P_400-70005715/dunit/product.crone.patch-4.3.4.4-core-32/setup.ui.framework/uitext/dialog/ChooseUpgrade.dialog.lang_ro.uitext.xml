@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="UnknownChooseUpgrade" value="A fost specificat un ChooseUpgrade necunoscut, valorile valabile sunt: 0 sau 1"/>
+<string id="ChooseUpgrade" value="Versiune anterioară #productname# detectată"/>
+<string id="SelectUpgrade" value="Selectaţi dacă doriţi să efectuaţi o instalare de upgradare."/>
+<string id="SideBySide" value="Efectuare instalare grupată"/>
+<string id="SideBySideDescription" value="Instalează această versiune de #product.nameonly# alături de versiunea existentă instalată."/>
+<string id="SimpleUpgrade" value="Efectuare upgradare simplă"/>
+<string id="SimpleUpgradeDescription" value="A fost detectată o versiune anterioară de #productname#. Trebuie să dezinstalaţi versiunea anterioară înainte de a continua sau selectaţi această opţiune pt. a efectua upgrade direct."/>
+<string id="Invalid_ChooseUpgrade" value="ChooseUpgrade ([ChooseUpgrade]) nevalabil: trebuie să fie 0 sau 1"/>
+</context>
+</uitext>

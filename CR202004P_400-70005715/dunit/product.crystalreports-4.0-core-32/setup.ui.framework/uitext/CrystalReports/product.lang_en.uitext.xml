@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Creates and modifies formatted data reports (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC Data Source Administrator"/>
+<string id="product.shortcutODBC.description" value="Adds, removes, and configures Open Database Connectivity (ODBC) data sources and drivers."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bit Data Source Administrator"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Report Upload Wizard"/>
+<string id="product.shortcutWizard.description" value="Report Upload Wizard"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB Data (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Support for standard OLE DB Providers."/>
+<string id="feature.Comm_Rep.name" value="Command in repository"/>
+<string id="feature.Comm_Rep.description" value="Provides connectivity to Command in repository."/>
+<string id="feature.DiskFile.name" value="Disk File Destination"/>
+<string id="feature.DiskFile.description" value="Support for export to a file."/>
+<string id="feature.NTEventLog.name" value="NT Event Log"/>
+<string id="feature.NTEventLog.description" value="Support for NT Event Logs."/>
+<string id="feature.MyCube.name" value="OLAP Cube"/>
+<string id="feature.MyCube.description" value="Support for #product.boe64_name# OLAP cubes."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Provides connectivity to Progress OpenEdge."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration for Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Field Definitions"/>
+<string id="feature.FieldDefinitions.description" value="Support for designing reports from text-based schemas."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Support for Lotus Domino databases. You must first install the Lotus Notes Client."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects Integration for JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003) Format"/>
+<string id="feature.WordforWindows.description" value="Support for export to Microsoft Word (97-2003) Format (*.doc)."/>
+<string id="feature.SFORCE.name" value="Salesforce.com Driver"/>
+<string id="feature.SFORCE.description" value="Provides the ability to connect #productname# to your Salesforce.com CRM data and build advanced reports."/>
+<string id="feature.PDF.name" value="PDF Format"/>
+<string id="feature.PDF.description" value="Support for export to PDF Format (*.pdf)."/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003) Format"/>
+<string id="feature.Excel.description" value="Support for export to Microsoft Excel 97-2003 format (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="Character Separated Format"/>
+<string id="feature.CharacterSeparated.description" value="Support for export to a Character Separated format (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Support for Sybase databases using a native client. You must first install the Sybase Client."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Support for Informix databases. You first must install the Informix Client."/>
+<string id="feature.DataAccess.name" value="Data Access"/>
+<string id="feature.DataAccess.description" value="Data access components are used to connect the #product.crw_name# to databases."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Provides connectivity to ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Installs the Crystal Reports Designer application"/>
+<string id="feature.XML.name" value="XML and Web Services"/>
+<string id="feature.XML.description" value="Support for XML data."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Support for ACT! databases."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Provides connectivity to MySQL databases."/>
+<string id="feature.COMData.name" value="COM Data Provider"/>
+<string id="feature.COMData.description" value="Support for data exposed by COM objects."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="Export to Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Data access to ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Support for Exchange Server data such as Exchange Folders, Logs, and Address Books."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Support for IBM DB2 databases. You must first install the DB2 Client."/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="Support for Business Objects Universe."/>
+<string id="feature.ReportDefinition.name" value="Report Definition Format"/>
+<string id="feature.ReportDefinition.description" value="Support for export to Report Definition format."/>
+<string id="feature.ExchangeFolders.name" value="Microsoft Exchange Public Folders Destination"/>
+<string id="feature.ExchangeFolders.description" value="Support for export to an Exchange Folder."/>
+<string id="feature.ODBC.name" value="ODBC Data Source Format"/>
+<string id="feature.ODBC.description" value="Support for export to any of your installed ODBC formats."/>
+<string id="feature.DataDirectODBC.description" value="Rebranded #productname# DataDirect ODBC drivers"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Rebranded #productname# Optional DataDirect ODBC drivers"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Optional DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="XML Export"/>
+<string id="feature.XMLExport.description" value="Support for export to an XML document."/>
+<string id="feature.Export.name" value="Export Support"/>
+<string id="feature.Export.description" value="For publishing completed reports in a variety of file formats."/>
+<string id="feature.PGEditor.name" value="Custom Charting"/>
+<string id="feature.PGEditor.description" value="Graphing application for extended formatting of graphs."/>
+<string id="feature.Btrieve.name" value="Pervasive Database Driver (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Support for Btrieve data files. You must first install the Btrieve Client."/>
+<string id="feature.LegacyXMLExport.name" value="Legacy XML Export"/>
+<string id="feature.LegacyXMLExport.description" value="Support for export to an XML document. (Legacy XML)"/>
+<string id="feature.LotusNotes.name" value="Lotus Notes Destination"/>
+<string id="feature.LotusNotes.description" value="Support for export to a Lotus Notes document."/>
+<string id="feature.CDO.name" value="Crystal Data Objects"/>
+<string id="feature.CDO.description" value="Support for reporting off data stored in a memory array."/>
+<string id="feature.WebActivityLog.name" value="Web/IIS Activity Log"/>
+<string id="feature.WebActivityLog.description" value="Support for  Web Server Activity Logs. "/>
+<string id="feature.Text.name" value="Text Format"/>
+<string id="feature.Text.description" value="Support for export to Text formats (*.txt)."/>
+<string id="feature.BDE.name" value="IDAPI Database DLL"/>
+<string id="feature.BDE.description" value="Support for dBASE and Paradox files. You must first install the Borland Database Engine."/>
+<string id="feature.CrystalReports.name" value="#productname# Format"/>
+<string id="feature.CrystalReports.description" value="Support for export to #productname# format (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="Rich Text Format "/>
+<string id="feature.RichTextFormat.description" value="Support for export to Rich Text Format (*.rtf)."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Support for Microsoft Access databases."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Support for Outlook data."/>
+<string id="feature.FileSystem.name" value="File System"/>
+<string id="feature.FileSystem.description" value="Support for file system data."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects Integration for Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Java Beans Connectivity"/>
+<string id="feature.JavaData.description" value="Support for data exposed by Java classes."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Provides connectivity to Teradata database"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects Integration for SAP Solutions."/>
+<string id="feature.Record.name" value="Record Format (columns of values)"/>
+<string id="feature.Record.description" value="Support for export to Record Style format (*.rec). "/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Provides connectivity to NETEZZA."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects Integration for Siebel."/>
+<string id="feature.Mapping.name" value="Geographic Mapping"/>
+<string id="feature.Mapping.description" value="Displays relationships between data and geographic regions."/>
+<string id="feature.Application.name" value="Application Destination"/>
+<string id="feature.Application.description" value="Support for export to an application."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Support for dBASE databases."/>
+<string id="feature.HTML.name" value="HTML Format"/>
+<string id="feature.HTML.description" value="Support for export to HTML 3.2 and HTML 4.0(DHTML) formats (*.html)."/>
+<string id="feature.DataSet.name" value="Dataset Consumer"/>
+<string id="feature.DataSet.description" value="Support for Report Application Server ISCRDataSet objects."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Support for HP Neoview."/>
+<string id="feature.JDBC.name" value="JDBC (JNDI) Data Driver"/>
+<string id="feature.JDBC.description" value="Support for JDBC (JNDI) data."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Support for Oracle tables. You must first install the Oracle Client."/>
+<string id="feature.MicrosoftMail.name" value="Microsoft Mail Destination"/>
+<string id="feature.MicrosoftMail.description" value="Microsoft Mail Destination"/>
+<string id="feature.UploadWizard.name" value="Report Upload Wizard"/>
+<string id="feature.UploadWizard.description" value="Report Upload Wizard."/>
+<string id="feature.UWSC.name" value="Universal Web Services Connector (UWSC)"/>
+<string id="feature.UWSC.description" value="Provides connectivity to UWSC."/>
+<string id="feature.IntegrationOptions.name" value="Integration Options"/>
+<string id="feature.IntegrationOptions.description" value="Integration Options components are used to connect the #product.crw_name# to other enterprise systems."/>
+<string id="property.InstallType.description" value="Type of installation: default or custom"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Administrative rights"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Please use a user account that has administrative privileges. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# setup"/>
+</context>
+</uitext>

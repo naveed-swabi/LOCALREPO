@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="UnknownChooseUpgrade" value="已指定未知的 ChooseUpgrade，有效值為 0 或 1"/>
+<string id="ChooseUpgrade" value="偵測到舊版的 #productname#"/>
+<string id="SelectUpgrade" value="選取是否要執行升級安裝。"/>
+<string id="SideBySide" value="執行並排安裝"/>
+<string id="SideBySideDescription" value="並存安裝本版本的 #productname#和目前已安裝的版本。"/>
+<string id="SimpleUpgrade" value="執行簡易升級"/>
+<string id="SimpleUpgradeDescription" value="偵測到舊版的 #productname#。您必須先解除安裝舊版才能繼續執行，或選取此選項以執行就地升級。"/>
+<string id="Invalid_ChooseUpgrade" value="ChooseUpgrade ([ChooseUpgrade]) 無效: 必須是 0 或 1"/>
+</context>
+</uitext>

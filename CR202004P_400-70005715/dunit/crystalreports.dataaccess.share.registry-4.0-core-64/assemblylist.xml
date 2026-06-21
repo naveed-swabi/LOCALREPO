@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Crystal Reports\Database">
+    <registryValue name="CurrencyAsNumber" type="string">NO</registryValue>
+  </registryKey>
+</assembly>

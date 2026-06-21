@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="SelectFeaturesTitle" value="Выбор компонентов"/>
+<string id="SelectFeaturesSubtitle" value="Выберите компоненты, которые требуется установить."/>
+<string id="SelectFeaturesFooter" value="Нажмите []TAB], []ВВЕРХ] или []ВНИЗ] для выделения, []ПРОБЕЛ] для развертывания, []X] для переключения состояния, []CTRL+B] для возврата назад, []CTRL+X] для выхода или []Enter] для продолжения."/>
+<string id="DiskCost" value="Место на диске"/>
+<string id="Drive Select" value="Выполняется выбор"/>
+<string id="Disk Costing" value="Место на диске"/>
+<string id="Volume" value="Том"/>
+<string id="Disk Size" value="Размер диска"/>
+<string id="Available" value="Доступно"/>
+<string id="Required" value="Требуется"/>
+<string id="Difference" value="Разность"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Повтор"/>
+<string id="Cancel" value="Отмена"/>
+<string id="Invalid_DiskSpace" value="Недостаточно места для установки продукта. Освободите место на диске или выберите другое местоположение для установки. Требуемое пространство: [RequiredSpace] байт."/>
+</context>
+</uitext>

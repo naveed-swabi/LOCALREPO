@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Verifique que la ruta de instalación especificada sea correcta para que la instalación prevista se complete correctamente. \n\n Para una instalación nueva - Directorio de archivos nuevos. \n Para una instalación por parches – Directorio de archivos con instalación de versión #productname# anterior. \n\n\n Haga clic en Aceptar para continuar o haga clic en Salir para volver a ingresar la ruta de instalación correcta. \n"/>
+<string id="ExitMessage" value="Pulse Ctrl+X para salir o Intro para continuar."/>
+<string id="WarnDialogTitle" value="DIÁLOGO DE INFORMACIÓN"/>
+<string id="WarnDialogSubtitle" value="Información: "/>
+</context>
+</uitext>

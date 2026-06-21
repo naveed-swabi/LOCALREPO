@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Kroky po instalaci"/>
+<string id="PostInstallDetails" value="Instalace byla dokončena. Pomocí níže uvedených pokynů po instalaci dokončete nasazení."/>
+<string id="PostUninstallSteps" value="Pokyny po odinstalaci"/>
+<string id="PostUninstallDetails" value="Odinstalace byla téměř dokončena. Pomocí níže uvedených pokynů proces dokončete."/>
+<string id="PostInstallStep_Header" value="{b}Instrukce po instalaci:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Instrukce po instalaci:"/>
+<string id="PostUninstallStep_Header" value="{b}Pokyny po odinstalaci:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Instrukce po instalaci:"/>
+<string id="CRPostInstallUIText1" value="Registrace produktu{br}Zaregistrujte svůj produkt online kliknutím: {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}sem{/a}."/>
+<string id="PostInstallStep_Footer" value="Instalace byla dokončena. Stiskněte klávesu []Enter]."/>
+<string id="PostUnInstallStep_Footer" value="Odinstalace byla dokončena. Stiskněte klávesu []Enter]."/>
+</context>
+</uitext>

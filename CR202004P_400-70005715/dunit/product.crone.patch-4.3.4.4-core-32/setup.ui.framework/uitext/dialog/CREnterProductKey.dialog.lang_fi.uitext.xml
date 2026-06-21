@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="InvalidProductKey" value="Annettua tuoteavainta ei tunnisteta kelvolliseksi."/>
+<string id="EnterProductKeyTitle" value="Määritä tuotteen rekisteröinti"/>
+<string id="EnterProductKeySubtitle" value="Anna tuotteen #product.nameandversionwithoutpatch# tuoteavain."/>
+<string id="ProductkeyLabel" value="Tuoteavain:"/>
+<string id="ProductkeyInfoGroup" value="Tuoteavaimen tiedot"/>
+<string id="Invalid_ProductKey" value="Tuoteavain ei kelpaa. INS00140"/>
+</context>
+</uitext>

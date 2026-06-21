@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Title" value="Seleziona modalità di installazione"/>
+<string id="SubTitle" value="Selezionare la modalità di installazione"/>
+<string id="Standard_InstallationName" value="Installazione standard"/>
+<string id="Standard_InstallationText" value="L'installazione viene eseguita in una sola fase"/>
+<string id="PhaseWise_InstallationName" value="Installazione in fasi"/>
+<string id="PhaseWise_InstallationText" value="L'installazione viene eseguita in due fasi: &quot;Memorizzazione nella cache&quot; e &quot;Installazione dopo la memorizzazione nella cache&quot;. Durante la memorizzazione nella cache, non si verificano tempi di inattività del sistema ed è possibile continuare a utilizzare il sistema. Durante l'installazione dopo la memorizzazione nella cache, il software viene installato nel sistema con alcuni tempi di inattività."/>
+<string id="CachingCompletedSubTitle" value="Cache completata"/>
+<string id="Resume_InstallationSubTitle" value="Riprendere l'installazione dopo la cache. L'installazione dopo la cache è il processo di installazione effettivo durante il quale possono verificarsi tempi di inattività del sistema."/>
+<string id="ShowWayOfInstallFooter" value="Premere []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per installare."/>
+</context>
+</uitext>

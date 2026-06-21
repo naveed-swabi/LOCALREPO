@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="ChooseDestination" value="伺服器目的端資料夾"/>
+<string id="SpecifyDestination" value="目的端資料夾是將要安裝產品的位置。請按一下 [瀏覽] 以選取不同位置。"/>
+<string id="DestinationFolder" value="目的端資料夾"/>
+<string id="Browse" value="瀏覽"/>
+<string id="BrowseInstallDirectory" value="選擇安裝位置"/>
+<string id="PWClientFolderTitle" value="用戶端目的端資料夾"/>
+<string id="PWServerFolderTitle" value="伺服器目的端資料夾"/>
+<string id="Invalid_InstallDirWindows" value="安裝目錄無效。請使用只包含英數字元或下列任一字元的有效絕對路徑: _ - \ . ( )。該目錄必須位於固定的磁碟機上，且完整路徑長度不能超過 150 個字元。INS00029"/>
+<string id="Invalid_InstallDirUnix" value="安裝目錄無效。請使用您同時具備讀取、寫入與執行權限的有效絕對路徑。INS00029"/>
+</context>
+</uitext>

@@ -1,0 +1,3 @@
+BuildVersion=14.3.4.4938.crystalreports_one_aurora43_sp04_patch_rel
+
+D350J-BGG140G-KM4DYHX-1A300M0-Y1

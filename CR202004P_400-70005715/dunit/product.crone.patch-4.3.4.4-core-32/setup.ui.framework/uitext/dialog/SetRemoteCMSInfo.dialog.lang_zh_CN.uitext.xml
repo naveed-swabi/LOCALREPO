@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="ConfigureRemoteCMS" value="现有 CMS 部署信息"/>
+<string id="SpecifyRemoteCMS" value="指定 CMS 和现有 CMS 部署的管理员登录信息。"/>
+<string id="RemoteCMSConnectionInfo" value="现有 CMS 的连接信息"/>
+<string id="RemoteCMSName" value="CMS 名称"/>
+<string id="RemoteCMSPort" value="CMS 端口"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS 管理员登录信息"/>
+<string id="RemoteCMSUser" value="用户"/>
+<string id="RemoteCMSPassword" value="密码"/>
+<string id="ErrRemoteCMSConnectionInfo" value="无法连接到远程 CMS，或者登录凭据不正确。INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="无法连接到远程 CMS，或者登录凭据不正确。INS00013\n是否要重新输入凭据？"/>
+<string id="Invalid_SymbolInCMSPassword" value="CMS 密码中不允许使用结尾反斜杠（例如 xxx\）和以下字符：&quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="CMS 密码中不允许使用结尾反斜杠（例如 xxx\）和以下字符：&quot;  '  INS00099"/>
+</context>
+</uitext>

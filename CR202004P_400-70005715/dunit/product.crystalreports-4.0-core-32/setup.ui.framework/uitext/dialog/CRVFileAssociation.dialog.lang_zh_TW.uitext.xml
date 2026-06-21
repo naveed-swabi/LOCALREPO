@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="DlgTitle" value="檔案關聯"/>
+<string id="DlgSummary" value="設定預設 Crystal Report Viewer 應用程式。"/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer 目前不是您預設的 Crystal 報表檢視器。是否要讓它成為您的預設檢視器?"/>
+<string id="Yes" value="是"/>
+<string id="No" value="否"/>
+</context>
+</uitext>

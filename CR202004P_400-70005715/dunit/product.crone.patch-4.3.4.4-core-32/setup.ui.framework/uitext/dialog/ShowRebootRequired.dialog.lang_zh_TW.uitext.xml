@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="RebootWarning" value="部分檔案會在安裝期間鎖定，導致安裝程式無法更新檔案。您可以延遲重新啟動系統，但強烈建議您先重新開機再使用產品。"/>
+<string id="RebootQuestion" value="您是否要立即重新啟動電腦?"/>
+<string id="RestartLater" value="稍後重新啟動"/>
+<string id="RestartNow" value="立即重新啟動"/>
+</context>
+</uitext>

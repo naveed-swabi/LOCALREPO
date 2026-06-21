@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\SAP\Infoset Driver">
+    <registryValue name="Trace" type="string">No</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\SAP\OpenSQL Driver">
+    <registryValue name="Trace" type="string">No</registryValue>
+    <registryValue name="PacketSize" type="dword">10000</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\SAP\ODS Driver">
+    <registryValue name="Trace" type="string">No</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\SAP\BW MDX Query Driver">
+    <registryValue name="Trace" type="string">No</registryValue>
+    <registryValue name="PacketSize" type="dword">10000</registryValue>
+    <registryValue name="ExcludeSummaries" type="string">Yes</registryValue>
+    <registryValue name="SerializeRecordRead" type="string">Yes</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="crdb_infoset.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2385408"/>
+    <file name="crdb_opensql.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="3826688"/>
+    <file name="crdb_ods.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1995776"/>
+    <file name="crdb_bwmdx.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2824704"/>
+  </sourcedir>
+</assembly>

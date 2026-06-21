@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="Title" value="Sélectionner le mode d'installation"/>
+<string id="SubTitle" value="Sélectionnez le mode d'installation"/>
+<string id="Standard_InstallationName" value="Installation standard"/>
+<string id="Standard_InstallationText" value="L'installation est réalisée en une seule phase"/>
+<string id="PhaseWise_InstallationName" value="Installation par étapes"/>
+<string id="PhaseWise_InstallationText" value="Le processus d'installation s'effectue en deux phases : la mise en cache et l'installation après la mise en cache. Lors de la mise en cache, aucun temps d'arrêt du système ne se produit ; vous pouvez continuer de travailler sur le système. Lors de l'installation après la mise en cache, le logiciel est installé sur le système avec quelques temps d'arrêt."/>
+<string id="CachingCompletedSubTitle" value="Mise en cache terminée"/>
+<string id="Resume_InstallationSubTitle" value="Reprendre l'installation après la mise en cache. L'installation après la mise en cache correspond au processus d'installation lors duquel se produit un temps d'arrêt du système."/>
+<string id="ShowWayOfInstallFooter" value="Appuyez sur les touches []Ctrl-B] pour revenir en arrière, []Ctrl-X] pour fermer, ou []Entrée] pour installer."/>
+</context>
+</uitext>

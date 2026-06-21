@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="SelectLCMTitle" value="Выбор системы управления версиями"/>
+<string id="SelectLCMSubtitle" value="Укажите, будет ли установлена система управления версиями по умолчанию или будет использоваться существующая система."/>
+<string id="SelectLCMFooter" value="Нажмите []Tab], []ВВЕРХ] или []ВНИЗ] для выделения, []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для продолжения."/>
+<string id="NewLCMInstall" value="Настройка и установка вспомогательной версии"/>
+<string id="ExistingLCMInstall" value="Не настраивать систему управления версиями в этот раз"/>
+<string id="Invalid_SelectLCM" value="Недопустимый тип NewOrExistingLCM ([NewOrExistingLCM]): допустимы значения new и existing. INS00284"/>
+</context>
+</uitext>

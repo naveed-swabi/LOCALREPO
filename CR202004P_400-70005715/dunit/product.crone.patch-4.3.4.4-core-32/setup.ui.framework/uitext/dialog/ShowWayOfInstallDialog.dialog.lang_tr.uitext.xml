@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="Title" value="Kurulum Modunu Seç"/>
+<string id="SubTitle" value="Kurulum modunu seçin"/>
+<string id="Standard_InstallationName" value="Standart Kurulum"/>
+<string id="Standard_InstallationText" value="Kurulum tek aşamada gerçekleştirilir"/>
+<string id="PhaseWise_InstallationName" value="Aşama Genelinde Kurulum"/>
+<string id="PhaseWise_InstallationText" value="Yükleme işlemi iki aşamada gerçekleştirilir: &quot;Önbelleğe alma&quot; ve &quot;Önbelleğe alma işleminden sonra yükleme&quot;. Önbelleğe alma işlemi sırasında sistem hiç kapanmaz ve sistemde çalışmaya devam edebilirsiniz. Önbelleğe alma işleminden sonra yükleme sırasında yazılım sisteme yüklenir ve sistem birkaç kez kapanır."/>
+<string id="CachingCompletedSubTitle" value="Önbelleğe alma tamamlandı"/>
+<string id="Resume_InstallationSubTitle" value="Önbelleğe alma işleminden sonra kuruluma devam edin. Önbelleğe alma işleminden sonra kurulum, sistemin kapandığı asıl kurulum işlemidir."/>
+<string id="ShowWayOfInstallFooter" value="Geri dönmek için []Ctrl-B], çıkmak için []Ctrl-X], kurmak için []Enter] tuşlarına basın."/>
+</context>
+</uitext>

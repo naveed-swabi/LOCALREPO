@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="LicenseAgreement" value="Tarvitaan uusi lisenssiavain"/>
+<string id="YouMustAgree" value="Tuotteelle #product.fullproductname# tarvitaan uusi lisenssiavain."/>
+<string id="SelectLicenseChangeSubtitle" value="Tuotteelle #product.fullproductname# tarvitaan uusi lisenssiavain."/>
+<string id="IAccept" value="Olen lukenut dokumentaation ja ymmärrän uuden lisenssiavaimen pyyntöprosessin. Suostun poistamaan vanhan lisenssiavaimen ja lisäämään uuden lisenssiavaimen päivityksen asennuksen jälkeen."/>
+<string id="subtitle1" value="#product.fullproductname# edellyttää uutta lisenssiavainta."/>
+<string id="subtitle2" value="Pyydä uutta lisenssiavainta. Lisätietoja lisenssiavaimen pyytämisestä osoitteessa"/>
+<string id="subtitle3" value="Kun tuotteen #product.fullproductname# asennus on valmis, kirjaudu keskushallintakonsoliin (CMC), poista vanha lisenssiavain ja lisää uusi lisenssiavain. Kaikki palvelut ovat poissa käytöstä, kunnes lisäät uuden lisenssiavaimen."/>
+<string id="subtitle4" value="Pyydä uutta lisenssiavainta tästä:"/>
+<string id="AcceptOrNotAccept" value="Suostu poistamaan vanha lisenssiavain painamalla &lt;ENTER&gt;-näppäintä ja lisää uusi lisenssiavain päivityksen asennuksen jälkeen."/>
+<string id="Description_Patch_License" value="#product.fullproductname# edellyttää uutta lisenssiavainta.\n\nPyydä uutta lisenssiavainta. Lisätietoja lisenssiavaimen pyytämisestä osoitteessa http://scn.sap.com/docs/DOC-70095. \n\nKun tuotteen #product.fullproductname# asennus on valmis, kirjaudu keskushallintakonsoliin (CMC); poista vanha lisenssiavain ja lisää uusi. Kaikki palvelut ovat pois käytöstä, kunnes uusi lisenssi on lisätty."/>
+</context>
+</uitext>

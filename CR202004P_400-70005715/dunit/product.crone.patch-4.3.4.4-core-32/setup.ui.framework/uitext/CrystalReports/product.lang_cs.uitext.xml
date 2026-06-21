@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="Aktualizace #product.fullproductnamenospace#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="Aktualizace #product.fullproductnamenospace#"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# je nainstalovaná"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="Tato aktualizace je určena pro produkt #productname#, který nebyl v systému zjištěn. Nejprve jej nainstalujte a poté pokračujte v instalaci."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="Žádná oprava vyšší verze"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="V systému byla zjištěna oprava, která má vyšší verzi než tento balíček. Žádné aktualizace v tomto balíčku nebudou použity. Nedoporučujeme vám pokračovat."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="Verze balíčku podpory je [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="Aby bylo možné v této aktualizaci pokračovat, verze balíčku podpory produktu musí být [CurrentSupportPackage]. Proveďte upgrade stávajícího systému nebo použijte příslušnou aktualizaci."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="Dílčí verze je [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="Aby bylo možné v této aktualizaci pokračovat, podverze produktu musí být [CurrentMinorVersion]. Proveďte upgrade stávajícího systému nebo použijte příslušnou aktualizaci."/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Vytvoří a změní sestavy formátovaných dat (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC Data Source Administrator"/>
+<string id="product.shortcutODBC.description" value="Přidá, odebere a konfiguruje zdroje dat a ovladače typu Open Database Connectivity (ODBC)."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bit Data Source Administrator"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Průvodce odesíláním sestav"/>
+<string id="product.shortcutWizard.description" value="Průvodce odesíláním sestav"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="Nainstalována je nová verze ovladače DataDirect 7.1.5. Pokyny k migraci na novou verzi ovladače DataDirect naleznete v dokumentaci."/>
+</context>
+</uitext>

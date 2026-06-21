@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#product.fullproductnamenospace# frissítés"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# frissítés"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# telepítve"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="A frissítés a(z) #productname# alkalmazáshoz tartozik, az alkalmazás azonban nincs telepítve a rendszerre. A telepítés folytatásához először telepítse az alkalmazást."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="Nincs magasabb verziószámú javítás"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="A rendszerben az aktuális csomagnál magasabb verziószámú javítás található.  A csomag egyetlen frissítése sem alkalmazható.  Nem javasolt a továbblépés."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="A támogató csomag aktuális verziója: [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="A frissítés folytatásához a termék-támogatócsomag [CurrentSupportPackage] verziója szükséges. Frissítse a meglévő rendszert, vagy alkalmazza a megfelelő frissítést."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="Az alverzió [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="A frissítés folytatásához a termék [CurrentMinorVersion] alverziója szükséges. Frissítse a meglévő rendszert, vagy alkalmazza a megfelelő frissítést."/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Formázott adatjelentések (.RPT) létrehozására és módosítására szolgál"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC adatforrás-adminisztrátor"/>
+<string id="product.shortcutODBC.description" value="Open Database Connectivity (ODBC) adatforrások és illesztőprogramok hozzáadására, eltávolítására és konfigurálására szolgál."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32 bites adatforrás-adminisztrátor"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Jelentés feltöltése varázsló"/>
+<string id="product.shortcutWizard.description" value="Jelentés feltöltése varázsló"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="A DataDirect-illesztőprogram új verziója (7.1.5) telepítve. Ha szeretne migrálni a DataDirect-illesztőprogram új verziójára, olvassa el a dokumentációt."/>
+</context>
+</uitext>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="nl"/>
+  <context>
+    <string id="Yes" value="Ja"/>
+    <string id="No" value="Nee"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="Annuleren"/>
+    <string id="Abort" value="Afbreken"/>
+    <string id="Continue" value="Doorgaan"/>
+    <string id="Ignore" value="Negeren"/>
+    <string id="Next" value="Volgende"/>
+    <string id="Previous" value="Terug"/>
+    <string id="Info" value="Info"/>
+    <string id="Warning" value="Waarschuwing"/>
+    <string id="Error" value="Fout"/>
+    <string id="FatalError" value="Onherstelbare fout"/>
+    <string id="ErrorDialogTitle" value="Fout"/>
+    <string id="ErrorDialogSubtitle" value="Er is een fout opgetreden."/>
+    <string id="ErrorDialogFooter" value="Druk op Enter om verder te gaan."/>
+    <string id="WarnDialogTitle" value="Waarschuwing"/>
+    <string id="WarnDialogSubtitle" value="Er is een waarschuwing verschenen."/>
+    <string id="WarnDialogFooter" value="Druk op Ctrl+B om terug te gaan, of druk op Enter om verder te gaan."/>
+    <string id="InfoDialogTitle" value="Informatie"/>
+    <string id="InfoDialogSubtitle" value="De volgende informatie is opgegeven:"/>
+    <string id="InfoDialogFooter" value="Druk op Enter om verder te gaan."/>
+    <string id="DefaultUnixFooter" value="Druk op Tab om naar het volgende veld te gaan, op Ctrl+b om naar het vorige veld te gaan, op Ctrl+x om af te sluiten of op Enter om verder te gaan."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Druk op Tab om naar het volgende veld te gaan, op Ctrl+X om te sluiten of op Enter om verder te gaan."/>
+    <string id="ProgressDialogUnixFooter" value="Druk op Ctrl+x om te sluiten."/>
+    <string id="CancelCaption" value="Annuleren"/>
+    <string id="CancelExitSetup" value="Set-up afsluiten"/>
+    <string id="CancelMsg" value="Als u nu afsluit, wordt het programma niet geïnstalleerd. U kunt het installatieprogramma later opnieuw uitvoeren om de installatie te voltooien.\nKlik op Hervatten om de installatie voort te zetten. Klik op Set-up afsluiten om de installatie te beëindigen."/>
+    <string id="CancelResume" value="Hervatten"/>
+    <string id="DialogCaption" value="Installatie van SAP BusinessObjects BI platform 4.0 FP3"/>
+    <string id="outofspace" value="Onvoldoende schijfruimte"/>
+    <string id="CanceledModifier" value="%1 (annuleren)"/>
+    <string id="ValidationCaption" value="Validatieresultaat"/>
+    <string id="ValidationError" value="Fout:"/>
+    <string id="ValidationToDo" value="Klik op OK om de validatiefout te herstellen. Als het alleen waarschuwingen betreft, klikt u op Ja om door te gaan of op Nee om de fout te herstellen."/>
+    <string id="ValidationWarning" value="Waarschuwing:"/>
+    <string id="Validation.MissingFields" value="Vereiste velden moeten zijn ingevuld voordat de installatie kan worden voortgezet."/>
+    <string id="ValidationFailed.Blocking" value="Voortgang is gestopt omdat de volgende actie niet is gevalideerd:"/>
+    <string id="ValidationFailed.Optional" value="Optionele validatie is mislukt voor de volgende actie:"/>
+    <string id="action.InstallDUBundle" value="Implementatie-eenheid installeren:"/>
+    <string id="action.UninstallDUBundle" value="Implementatie-eenheid wordt verwijderd:"/>
+    <string id="action.RegisterBinary" value="Binair getal registreren"/>
+    <string id="action.UnregisterBinary" value="Binair getal uit register verwijderen"/>
+    <string id="action.ConfigureTomcat" value="Tomcat configureren"/>
+    <string id="action.BOBJTextReplace" value="Tekstvervanging uitvoeren"/>
+    <string id="action.RunCommand" value="Uitvoerbaar bestand uitvoeren via opdrachtregel"/>
+    <string id="action.RunCommandConditional" value="Uitvoerbaar bestand uitvoeren via opdrachtregel onder bepaalde voorwaarden"/>
+    <string id="action.EnsureFolderExists" value="Zorg ervoor dat er een map bestaat"/>
+    <string id="action.CreateShortcut" value="Snelkoppeling voor Start-menu maken"/>
+    <string id="action.AddARPEntry" value="De vermelding Software toevoegen"/>
+    <string id="action.RemoveARPEntry" value="De vermelding Software verwijderen"/>
+    <string id="action.BOBJRegasm" value="Assembly-registratie uitvoeren"/>
+    <string id="action.BOBJUnRegasm" value="Assembly-registratie verwijderen"/>
+    <string id="sequence.InstallPreReqs" value="Vereisten voor installatie"/>
+    <string id="sequence.SetInitialProperties" value="Eerste eigenschappen instellen"/>
+    <string id="sequence.SetMyProperties" value="Producteigenschappen instellen"/>
+    <string id="sequence.InstallDUBase" value="Acties installeren"/>
+    <string id="sequence.InstallDUBundles" value="Implementatie-eenheden installeren"/>
+    <string id="sequence.CreateSymLinks" value="Symlinks maken"/>
+    <string id="sequence.ConfigureDUBase" value="Implementatie-eenheden configureren"/>
+    <string id="sequence.PopulateRegistry" value="Register invullen"/>
+    <string id="sequence.InstallServices" value="Services installeren"/>
+    <string id="sequence.ConfigureServices" value="Services configureren"/>
+    <string id="sequence.StartServices" value="Services starten"/>
+    <string id="sequence.StopServices" value="Services stoppen"/>
+    <string id="sequence.UninstallServices" value="Services verwijderen"/>
+    <string id="sequence.UnPopulateRegistry" value="Register leegmaken"/>
+    <string id="sequence.UninstallDUBase" value="Acties verwijderen"/>
+    <string id="sequence.UnconfigureDUBase" value="Configuratie van implementatie-eenheden opheffen"/>
+    <string id="sequence.RemoveSymLinks" value="Symlinks verwijderen"/>
+    <string id="sequence.UninstallDUBundles" value="Implementatie-eenheden verwijderen:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Lege mappen verwijderen"/>
+    <string id="Dialog.title" value="Installatiebericht"/>
+    <string id="PleaseWait" value="Wacht..."/>
+    <string id="LongCalculation" value="Er wordt een lange berekening uitgevoerd; een ogenblik geduld..."/>
+    <string id="DiskCostInProgress" value="Berekening van schijfruimte in voortgang."/>
+    <string id="Confirm.title" value="Bevestigen"/>
+    <string id="Permissions.title" value="Machtigingen instellen"/>
+    <string id="NoPermissionsOperation" value="U hebt geen toegangsrechten om bewerkingen op deze installatie uit te voeren."/>
+    <string id="NoPermissionsFile" value="U hebt geen toegangsrechten om het volgende bestand te openen: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Het installatieprogramma heeft een oudere geïnstalleerde versie van #productname# gedetecteerd. Dit pakket voor volledige installatie kan niet worden toegepast als er nog een oudere versie is geïnstalleerd. Gebruik het onderhoudspakket voor #product.fullproductname# om uw huidige installatie bij te werken."/>
+    <string id="OlderCryptoDllFound" value="Het installatieprogramma heeft gedetecteerd dat de omgevingsvariabele R_SHLIB_LD_LIBRARY_PATH is ingesteld op cryptografische binaire bestanden die een lagere versie hebben dan voor deze installatie is vereist. Volg de instructies in het gekoppelde document om de installatie te voltooien."/>
+    <string id="CmdLine.title" value="Opdrachtregel voor installatie"/>
+    <string id="InvalidCmdLine" value="Ongeldige opdrachtregel"/>
+    <string id="ExpectedCmdLine" value="De verwachte opdrachtregel is: %1"/>
+    <string id="ActionFailed" value="Aangepaste actie is mislukt"/>
+    <string id="ActionFailedArg" value="Aangepaste actie is mislukt: %1"/>
+    <string id="ActionFailedWithCode" value="Aangepaste actie is mislukt en heeft de volgende foutcode geretourneerd:"/>
+    <string id="RegistrationFailed" value="Binair bestand kan niet registreren: %1"/>
+    <string id="NoFindFile" value="Kan bestand niet vinden: %1"/>
+    <string id="NoCMS" value="Kan geen verbinding maken met CMS"/>
+    <string id="NoCMSArg" value="Kan geen verbinding maken met CMS op %1"/>
+    <string id="DFOFailed" value="DFO-upload is mislukt"/>
+    <string id="wdeployFailed" value="WDeploy kan toepassing niet implementeren."/>
+    <string id="ScriptFailed" value="Srcript kan niet uitvoeren: %1"/>
+    <string id="CmdFailed" value="Kan opdrachtregel niet uitvoeren: %1"/>
+    <string id="ServerStartFailed" value="Server kan niet starten: %1"/>
+    <string id="ServerStopFailed" value="Server kan niet stoppen: %1"/>
+    <string id="ExitCode" value="Afsluitcode: %1"/>
+    <string id="DBInitFail" value="Kan database niet initialiseren"/>
+    <string id="ShortcutFail" value="Kan de snelkoppeling niet maken: %1"/>
+    <string id="ARPFail" value="Kan de vermelding Software niet maken voor product %1"/>
+    <string id="CreateFolderFail" value="Kan map niet maken: %1"/>
+    <string id="SamplesFail" value="Kan voorbeelden niet toevoegen"/>
+    <string id="LicenseKeyFail" value="Kan de licentiesleutel niet toevoegen"/>
+    <string id="Tomcatfail" value="Kan Tomcat niet configureren"/>
+    <string id="PropertyFail" value="Kan de waarde niet ophalen van eigenschap: %1"/>
+    <string id="dev" value="Engels voor ontwikkelaars"/>
+    <string id="aa" value="Afar"/>
+    <string id="ab" value="Abchazisch"/>
+    <string id="af" value="Afrikaans"/>
+    <string id="am" value="Amhaars"/>
+    <string id="ar" value="Arabisch"/>
+    <string id="as" value="Assamees"/>
+    <string id="ay" value="Aymara"/>
+    <string id="az" value="Azerbeidzjaans"/>
+    <string id="ba" value="Basjkiers"/>
+    <string id="be" value="Wit-Russisch"/>
+    <string id="bg" value="Bulgaars"/>
+    <string id="bh" value="Bihari"/>
+    <string id="bi" value="Bislama"/>
+    <string id="bn" value="Bengaals"/>
+    <string id="bo" value="Tibetaans"/>
+    <string id="br" value="Bretons"/>
+    <string id="ca" value="Catalaans"/>
+    <string id="co" value="Corsicaans"/>
+    <string id="cs" value="Tsjechisch"/>
+    <string id="cy" value="Welsh"/>
+    <string id="da" value="Deens"/>
+    <string id="de" value="Duits"/>
+    <string id="dz" value="Boetanees"/>
+    <string id="el" value="Grieks"/>
+    <string id="en" value="Engels"/>
+    <string id="eo" value="Esperanto"/>
+    <string id="es" value="Spaans"/>
+    <string id="et" value="Ests"/>
+    <string id="eu" value="Baskisch"/>
+    <string id="fa" value="Perzisch"/>
+    <string id="fi" value="Fins"/>
+    <string id="fj" value="Fiji"/>
+    <string id="fo" value="Faeröers"/>
+    <string id="fr" value="Frans"/>
+    <string id="fy" value="Fries"/>
+    <string id="ga" value="Iers"/>
+    <string id="gd" value="Schots-Gaelisch"/>
+    <string id="gl" value="Galicisch"/>
+    <string id="gn" value="Guarani"/>
+    <string id="gu" value="Gujarati"/>
+    <string id="ha" value="Hausa"/>
+    <string id="he" value="Hebreeuws"/>
+    <string id="hi" value="Hindi"/>
+    <string id="hr" value="Kroatisch"/>
+    <string id="hu" value="Hongaars"/>
+    <string id="hy" value="Armeens"/>
+    <string id="ia" value="Interlingua"/>
+    <string id="id" value="Indonesisch"/>
+    <string id="ie" value="Interlingue"/>
+    <string id="ik" value="Inupiak"/>
+    <string id="is" value="IJslands"/>
+    <string id="it" value="Italiaans"/>
+    <string id="iu" value="Inuktitut"/>
+    <string id="ja" value="Japans"/>
+    <string id="jw" value="Javaans"/>
+    <string id="ka" value="Georgisch"/>
+    <string id="kk" value="Kazachs"/>
+    <string id="kl" value="Groenlands"/>
+    <string id="km" value="Cambodjaans"/>
+    <string id="kn" value="Kannada"/>
+    <string id="ko" value="Koreaans"/>
+    <string id="ks" value="Kasjmiers"/>
+    <string id="ku" value="Koerdisch"/>
+    <string id="ky" value="Kirgizisch"/>
+    <string id="la" value="Latijn"/>
+    <string id="ln" value="Lingala"/>
+    <string id="lo" value="Laotiaans"/>
+    <string id="lt" value="Litouws"/>
+    <string id="lv" value="Lets"/>
+    <string id="mg" value="Malagasi"/>
+    <string id="mi" value="Maori"/>
+    <string id="mk" value="Macedonisch"/>
+    <string id="ml" value="Malayalam"/>
+    <string id="mn" value="Mongools"/>
+    <string id="mo" value="Moldavisch"/>
+    <string id="mr" value="Marathi"/>
+    <string id="ms" value="Maleis"/>
+    <string id="mt" value="Maltees"/>
+    <string id="my" value="Birmaans"/>
+    <string id="na" value="Nauruaans"/>
+    <string id="nb" value="Noors"/>
+    <string id="ne" value="Nepalees"/>
+    <string id="nl" value="Nederlands"/>
+    <string id="oc" value="Occitaans"/>
+    <string id="om" value="Oromo"/>
+    <string id="or" value="Oriya"/>
+    <string id="pa" value="Punjabi"/>
+    <string id="pl" value="Pools"/>
+    <string id="ps" value="Pasjto"/>
+    <string id="pt" value="Portugees"/>
+    <string id="qu" value="Quechua"/>
+    <string id="rm" value="Reto-Romaans"/>
+    <string id="rn" value="Kirundi"/>
+    <string id="ro" value="Roemeens"/>
+    <string id="ru" value="Russisch"/>
+    <string id="rw" value="Kinyarwanda"/>
+    <string id="sa" value="Sanskriet"/>
+    <string id="sd" value="Sindhi"/>
+    <string id="sg" value="Sangho"/>
+    <string id="sh" value="Servo-Kroatisch"/>
+    <string id="si" value="Singalees"/>
+    <string id="sk" value="Slovaaks"/>
+    <string id="sl" value="Sloveens"/>
+    <string id="sm" value="Samoaans"/>
+    <string id="sn" value="Shona"/>
+    <string id="so" value="Somali"/>
+    <string id="sq" value="Albanees"/>
+    <string id="sr" value="Servisch"/>
+    <string id="ss" value="Siswati"/>
+    <string id="st" value="Sesotho"/>
+    <string id="su" value="Soendanees"/>
+    <string id="sv" value="Zweeds"/>
+    <string id="sw" value="Swahili"/>
+    <string id="ta" value="Tamil"/>
+    <string id="te" value="Teloegoe"/>
+    <string id="tg" value="Tadzjieks"/>
+    <string id="th" value="Thais"/>
+    <string id="ti" value="Tigrinya"/>
+    <string id="tk" value="Turkmeens"/>
+    <string id="tl" value="Tagalog"/>
+    <string id="tn" value="Setswana"/>
+    <string id="to" value="Tonga"/>
+    <string id="tr" value="Turks"/>
+    <string id="ts" value="Tsonga"/>
+    <string id="tt" value="Tataars"/>
+    <string id="tw" value="Twi"/>
+    <string id="ug" value="Uigur"/>
+    <string id="uk" value="Oekraïens"/>
+    <string id="ur" value="Urdu"/>
+    <string id="uz" value="Oezbeeks"/>
+    <string id="vi" value="Vietnamees"/>
+    <string id="vo" value="Volapuk"/>
+    <string id="wo" value="Wolof"/>
+    <string id="xh" value="Xhosa"/>
+    <string id="yi" value="Jiddisch"/>
+    <string id="yo" value="Joroeba"/>
+    <string id="za" value="Zhuang"/>
+    <string id="zh_CN" value="Vereenvoudigd Chinees"/>
+    <string id="zh_TW" value="Traditioneel Chinees"/>
+    <string id="zu" value="Zoeloe"/>
+    <string id="SetupInitSh.root" value="Meld u aan als hoofdgebruiker en voer uit om init-scripts in te stellen."/>
+    <string id="SetupInitSh.fail" value="Scripts voor systeeminitialisatie zijn mislukt."/>
+    <string id="property.InstallDir.description" value="Installatiemap"/>
+    <string id="property.SetupUILanguage.description" value="Taal van installatie-interface"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Beschikbare talen voor installatie-interface gesorteerd"/>
+    <string id="property.SelectedLanguagePacks.description" value="Geselecteerde taalpakketten voor installatie"/>
+    <string id="property.ProductKey.description" value="Productsleutelcode"/>
+    <string id="property.RegisteredCompany.description" value="Geregistreerd bedrijf"/>
+    <string id="property.RegisteredUser.description" value="Geregistreerde gebruiker"/>
+    <string id="property.InstallCompatibilityMode.description" value="Een eerder product upgraden of naast elkaar installeren"/>
+    <string id="property.IsAcceptEULA.description" value="Accepteert het systeem de gebruiksrechtovereenkomst?"/>
+    <string id="property.FormattedString.description" value="Een doelreeks opmaken"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="WDeploy starten"/>
+    <string id="description.cmsname" value="CMS-naam"/>
+    <string id="description.cmsport" value="CMS-poort"/>
+    <string id="description.cmsusername" value="CMS-gebruikersnaam"/>
+    <string id="description.cmspassword" value="CMS-wachtwoord"/>
+    <string id="description.cmsauth" value="CMS-verificatie"/>
+    <string id="description.sianame" value="SIA-naam"/>
+    <string id="description.siaport" value="SIA-poort"/>
+    <string id="property.CMSPassword.description" value="CMS-beheerderswachtwoord"/>
+    <string id="property.CMSPort.description" value="CMS-verbindingspoort"/>
+    <string id="property.CryptoKey.description" value="CMS-clustersleutel"/>
+    <string id="property.EnableServers.description" value="Servers starten na installatie: 0 of 1"/>
+    <string id="property.UsingAuditDBType.description" value="Type controledatabase"/>
+    <string id="property.UsingCMSDBType.description" value="CMS-databasetype"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Bestaande controledatabase (DB)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Wachtwoord van bestaande controledatabase"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Poort van bestaande controledatabase"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Reset-markering van bestaande controledatabase: 0 of 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Markering Externe verificatie gebruiken van bestaande controledatabase: 0 of 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Server van bestaande controledatabase"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Gebruikersnaam van bestaande controledatabase"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Bestaande CMS-database (DB)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Wachtwoord van bestaande CMS-database"/>
+    <string id="property.ExistingCMSDBPort.description" value="Poort van bestaande CMS-database"/>
+    <string id="property.ExistingCMSDBReset.description" value="Reset-markering van bestaande CMS-database: 0 of 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Markering Externe verificatie gebruiken van bestaande CMS-database: 0 of 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Server van bestaande CMS-database"/>
+    <string id="property.ExistingCMSDBUser.description" value="Gebruikersnaam van bestaande CMS-database"/>
+    <string id="property.NewOrExpandInstall.description" value="Installatiemodus: nieuw, uitvouwen"/>
+    <string id="property.MySQLBOEUserName.description" value="Gebruikersnaam voor de BI-platformgebruiker van gebundelde database"/>
+    <string id="property.MySQLBOEUserPassword.description" value="Wachtwoord voor de BI-platformgebruiker van gebundelde database"/>
+    <string id="property.MySQLPort.description" value="Verbindingspoort van gebundelde database"/>
+    <string id="property.MySQLRootPassword.description" value="Wachtwoord voor hoofdgebruiker van gebundelde database"/>
+    <string id="property.RemoteCMSAdminName.description" value="Beheerdersnaam van externe CMS"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="Beheerderswachtwoord van externe CMS"/>
+    <string id="property.RemoteCMSName.description" value="Naam van externe CMS"/>
+    <string id="property.RemoteCMSPort.description" value="Poort van externe CMS"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Aanmeldwaarschuwing externe CMS overslaan"/>
+    <string id="property.MaintenanceMode.description" value="Uit te voeren onderhoudsbewerking"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Geïntegreerde database installeren: 0 of 1 "/>
+    <string id="property.SIAName.description" value="SIA-knooppuntnaam"/>
+    <string id="property.SIAPort.description" value="SIA-connectorpoort"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat-verbindingspoort"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat-omleidingspoort"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat-afsluitpoort"/>
+    <string id="property.WACSPort.description" value="WACS-poort"/>
+    <string id="property.WebAppServerType.description" value="Web Application Servertype: Tomcat, handmatig of WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Servernaam van Solution Manager"/>
+    <string id="property.SolMgr_Port.description" value="Serverpoort van Solution Manager"/>
+    <string id="property.SolMgr_Username.description" value="Gebruikersnaam voor verbinding met Solution Manager"/>
+    <string id="property.SolMgr_Password.description" value="Wachtwoord voor verbinding met Solution Manager"/>
+    <string id="property.SolMgr_UseHttps.description" value="Gebruik HTTPS om verbinding te maken met Solution Manager: 0 of 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="Eigenschap die wordt gebruikt om de reeks voor SharedAlwaysFailureMessage vast te houden"/>
+    <string id="property.SMDAgent_HOST.description" value="Hostnaam van SMD-agent"/>
+    <string id="property.SMDAgent_PORT.description" value="Poortnummer van SMD-agent"/>
+    <string id="property.UPGRADE.description" value="Markering Stille upgrade toestaan: 0 of 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="SMD-agent (Solution Manager Diagnostics) integreren: integreren of niet integreren"/>
+    <string id="property.ChooseSLDIntegration.description" value="SLD integreren: integreren of niet integreren"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Introscope Enterprise Manager integreren: integreren of niet integreren"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Manager-hostnaam"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager-poortnummer"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Manager-instrumentatie"/>
+    <string id="property.NewOrExistingLCM.description" value="Nieuwe LCM installeren of bestaande LCM gebruiken: nieuwe of bestaande"/>
+    <string id="property.LCMName.description" value="LCM-servernaam"/>
+    <string id="property.LCMUserName.description" value="LCM-gebruikersnaam"/>
+    <string id="property.LCMPassword.description" value="LCM-wachtwoord"/>
+    <string id="property.LCMPort.description" value="LCM-poort"/>
+    <string id="property.InstallType.description" value="Type installatie: standaard of aangepast"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Voor vereisten van Crystal Reports, heeft de gebruiker beheerdersrechten?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Installatiemap van de Crystal Reports viewer"/>
+    <string id="PatchUpdateCheck" value="Controleren op productupdates"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Patchniveau van besturingssysteem"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Het besturingssysteem voldoet niet aan het minimaal vereiste patchniveau voor de installatie van dit product. Zie de documentatie met platformvereisten."/>
+    <string id="prereq.pingLocalhost" value="Netwerkinstellingen"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Uitvoeren van ping mislukt voor localhost, 127.0.0.1, of de hostnaam van de computer. Configureer de computer om hiermee contact op te nemen voordat de installatie kan worden voortgezet. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Controle schijfruimte"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Zorg ervoor dat de benodigde schijfruimte beschikbaar is om door te gaan met de installatie. Zie https://apps.support.sap.com/sap/support/pam voor meer informatie."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Beheerdersrechten"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Meld u aan met een gebruikersaccount met beheerdersrechten. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 of hoger"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Installeer Microsoft .NET Framework 4.0 of hoger."/>
+    <string id="prereq.RootUserPreReqText" value="Rechten van hoofdgebruiker"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Deze installatie kan niet worden voortgezet onder de account van de hoofdgebruiker waarbij u bent aangemeld. Meld u aan als niet-hoofdgebruiker om het product te installeren. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64-bits besturingssysteem"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Dit product moet zijn geïnstalleerd op een 64-bits besturingssysteem. Controleer of uw besturingssysteem aan deze vereiste voldoet. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows-versie"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Dit product moet worden geïnstalleerd op een Windows 8.1- of Server 2012 R2-besturingssysteem (OS) of hoger. Controleer of uw besturingssysteem aan deze vereiste voldoet."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows-versie"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Dit product moet worden geïnstalleerd op Windows Server 2012 R2 of een hogere Windows Server-versie. Controleer of uw versie van Windows aan deze vereisten voldoet."/>
+    <string id="prereq.SQLExpressPreReqText" value="Vereisten voor geïntegreerde database"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Installeer Microsoft .NET Framework 3.5 SP1 of hoger en Windows Installer 4.5."/>
+    <string id="prereq.SQLExpressRequirementText" value="Vereisten voor MS SQL Express"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express vereist Microsoft .NET Framework 3.5 SP1 en Windows Installer 4.5. Installeer beide pakketten voordat u probeert SQL Express te installeren."/>
+    <string id="prereq.PendingStatusPreReqText" value="Onderdrukte status voor opnieuw opstarten"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="Een aanvraag voor opnieuw opstarten wordt onderdrukt op de lokale computer. Start de computer opnieuw op om de installatie voort te zetten. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Versie 4.x van het product is niet geïnstalleerd."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Versie 4.x van het product is geïnstalleerd."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Geïntegreerde database - hoofdmap"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Voor de geïntegreerde database moeten 755 toegangsrechten worden ingesteld in de hoofdmap van de gebruiker. De toegangsrechten moeten worden ingesteld voordat de database kan worden geïnstalleerd."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Geïntegreerde database - mappen"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 vereist dat ~/sqllib en ~/$USER niet bestaan. Indien de mappen bestaan, moet u ze verwijderen voordat de geïntegreerde DB2-database kan worden geïnstalleerd."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="#product.mini_bip_name# of #product.cr_server_name# kan niet worden geïnstalleerd"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname# kan niet op dezelfde computer als #product.mini_bip_name# of #product.cr_server_name# worden geïnstalleerd.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="#product.boe64_name# of #product.cr_server_name# kan niet worden geïnstalleerd"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="U kunt #productname# niet installeren; #product.boe64_name# of #product.cr_server_name# is al geïnstalleerd INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="#product.ras_name# kan niet worden geïnstalleerd"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname# kan niet op dezelfde computer als #product.ras_name# worden geïnstalleerd.  INS00291"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="Compatibiliteit #product.IS_name# en #product.DS_name#"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="SAP #product.DS_name# en/of #product.IS_name#-implementatie is gedetecteerd op uw computer. Lees voordat u verder gaat eerst SAP Note 1740516 (http://service.sap.com/sap/support/notes/1740516) voor compatibiliteitsinformatie en informatie over de invloed op deze producten.  INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Het installatieprogramma heeft een bestaande installatie gedetecteerd en moet opdracht UPGRADE=1 uitvoeren. Het programma wordt nu afgesloten."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Het installatieprogramma kan niet worden voortgezet omdat er niet is voldaan aan een cruciale vereiste."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="De Central Management Server met de optie Geïntegreerde database is geselecteerd, maar de optie is uitgeschakeld omdat niet aan de vereisten is voldaan. Voordat de installatie kan worden voortgezet, moeten de volgende vereisten worden gecorrigeerd:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="De huidige gebruiker heeft geen rechten voor beheerderstoegang en mag het installatieprogramma niet uitvoeren."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Schijfruimte in /tmp"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="Er is onvoldoende vrije schijfruimte in de map /tmp. U moet wat ruimte vrijmaken voordat de installatie kan worden voortgezet. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Schijfruimte in /var"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="De map  /var heeft onvoldoende vrije ruimte. U moet 20 MB of meer schijfruimte vrijmaken voordat de installatie kan worden voortgezet."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Geïntegreerde database - gebruiker en groep"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Benaming van de gebruikersgroep voldoet niet aan een beperking van DB2. Ga naar http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 en zoek op 'User ID restrictions' voor meer informatie."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Geïntegreerde database - UID en GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="Voor DB2 moeten de UID en GID lager zijn dan 65536. U moet een lager getal invoeren voordat u de geïntegreerde DB2-database kunt gebruiken."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Geïntegreerde database - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="Voor DB2 moet gunzip in het systeempad zijn opgenomen. U moet het systeempad bewerken voordat u de geïntegreerde DB2-database kunt gebruiken."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Gebundelde DB - moet voldoen aan minimale HPUX-kernelinstellingen voor DB2"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Kernelinstellingen voldoen niet aan de minimumvereisten voor DB2"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013 wordt niet ondersteund op SUSE 11 en hoger."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="Microsoft .NET Framework 3.5 of hoger is vereist voor de 64-bits BOE .NET-SDK. U moet .NET Framework installeren voordat u de 64-bits BOE .NET-SDK kunt installeren."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 of hoger"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Installeer Microsoft .NET Framework 3.0 of hoger."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime niet gevonden. U moet dit installeren voordat deze installatie kan worden voortgezet."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 of hoger"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003 of hoger niet gevonden. U moet dit installeren voordat deze installatie kan worden voortgezet."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Minimumversie van ondersteuningspakket"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="Deze update is voor #productname# #product_version##product_sp_version#, dat niet in het systeem is gevonden. U moet dit installeren voordat deze installatie kan worden voortgezet."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="Deze update is voor #productname# #product_version##product_sp_version#, dat niet in het systeem is gevonden. U moet dit installeren voordat deze installatie kan worden voortgezet."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Updates zijn van toepassing"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# is een hogere versie dan deze update. Ga niet door met deze update."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Minimale secundaire releaseversie"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="Deze update is voor #productname# #product_version#, dat niet in het systeem is gevonden. U moet dit installeren voordat deze installatie kan worden voortgezet."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Aangepaste #productname_short# #productname_preversion# geïnstalleerd"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="Deze update is voor het aangepaste #productname# #product_version#, dat niet in het systeem is gevonden. U moet dit installeren voordat deze installatie kan worden voortgezet."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Compatibele productinstallatie"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Dit product is al geïnstalleerd en is beschikbaar voor gebruikers."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Service Windows Installer"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="De installatie is onderbroken omdat de Windows Installer Service is uitgeschakeld (opstarttype=Uitgeschakeld) of is niet beschikbaar. U moet deze installeren en de service inschakelen voordat deze installatie kan worden voortgezet."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="Om de clusterupdate te voltooien, moet u elke Central Management Server (CMS) opnieuw starten nadat de installatie op alle computer in het cluster is voltooid. Meld u aan bij de Central Management Console om de Central Management Servers opnieuw te starten."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Meld u aan bij de Central Management Console (CMC) om door te gaan met de configuratie van uw systeem. Selecteer Start &gt; #product.boe64_name# &gt; Central Management Console om de CMC te starten."/>
+    <string id="postinstall.message.manualdeploy.common" value="Java-webtoepassingen en -webservices zijn niet geïmplementeerd op een Web Application Server. Voer het WDeploy-hulpprogramma uit om Java-webtoepassingen en -webservices te implementeren."/>
+    <string id="postinstall.message.manualdeploy.windows" value="Om het WDeploy-hulpprogramma te starten, selecteert u &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; starten &gt; wDeploy."/>
+    <string id="postinstall.message.manualdeploy.unix" value="Het WDeploy-hulpprogramma bevindt zich in [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="Voltooi de systeeminstallatie door dit script met standaardmachtigingen uit te voeren: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Definieer de standaardviewer-URL voor OpenDocument. Deze computer is niet geregistreerd als de standaardwebtoepassingsserver voor het verwerken van aanvragen voor documentweergave. Mogelijk moet u deze registreren als standaardwebtoepassingsserver op de Central Management Server. Gebruik de Central Management Console om de eigenschappenpagina van OpenDocument te bewerken."/>
+    <string id="PostInstall.message.monitoring" value="Als u het controlehulpprogramma wilt oproepen om diagnostische tests uit te voeren, meldt u zich aan bij de Central Management Console, klikt u op Controle en opent u het tabblad Tests."/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}RESTful-webservices{/b} en {b}Insight to Action-framework{/b} zijn nieuwe functies die beschikbaar zijn in deze update. Om de functies in te schakelen, voert u een wijzigingsinstallatie uit op de basisinstallatie en voegt u de nieuwe functies toe."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful-webservices:{/b} Via de Business Intelligence-platform RESTful-webservice-SDK hebt u toegang tot het BI-platform via het HTTP-protocol. U kunt de SDK gebruiken om u aan te melden bij het platform, te navigeren in de gegevensopslagruimte van het BI-platform, toegang te hebben tot bronnen en basisbronplanning uit te voeren. Deze functie is vereist om Dashboards-modellen en Live Office-documenten na de update op te slaan in de gegevensopslagruimte."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action-framework:{/b} Met het Insight to Action-framework kunt u operationele transacties aanroepen in SAP- en non-SAP-toepassingen die zijn gedefinieerd met de verslag-verslaginterface in NetWeaver. Deze functie wordt ondersteund door Crystal Reports en BusinessObjects Dashboards."/>
+    <string id="postInstall.message.new.features.announce.unix" value="RESTful-webservices en Insight to Action-framework zijn nieuwe functies die beschikbaar zijn in deze update. Om de functies in te schakelen, voert u een wijzigingsinstallatie uit op de basisinstallatie en voegt u de nieuwe functies toe."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful-webservices: Via de Business Intelligence-platform RESTful-webservice-SDK hebt u toegang tot het BI-platform via het HTTP-protocol. U kunt de SDK gebruiken om u aan te melden bij het platform, te navigeren in de gegevensopslagruimte van het BI-platform, toegang te hebben tot bronnen en basisbronplanning uit te voeren. Deze functie is vereist om Dashboards-modellen en Live Office-documenten na de update op te slaan in de gegevensopslagruimte."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action-framework: Met het Insight to Action-framework kunt u operationele transacties aanroepen in SAP- en non-SAP-toepassingen die zijn gedefinieerd met de verslag-verslaginterface in NetWeaver. Deze functie wordt ondersteund door Crystal Reports en BusinessObjects Dashboards."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Het installatieprogramma heeft MySQL-client 5.0 als databaseverbinding gedetecteerd, die niet meer wordt ondersteund. U moet upgraden naar MySQL-client 5.1om ervoor te zorgen dat uw systeem ondersteund blijft."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile Servers is een nieuwe functie die vanaf mobiele apparaten toegang biedt tot Business Intelligence-gegevens. Om deze functie in te schakelen, voert u een wijzigingsinstallatie uit op de basisinstallatie en selecteert u Mobile Servers."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="De gebundelde Tomcat is bijgewerkt naar Tomcat 9. Aangepaste instellingen die u hebt ingesteld voor Tomcat zijn gemigreerd van de oude versie naar Tomcat 9. We raden u echter wel sterk aan om te controleren of de aangepaste instellingen beschikbaar zijn in Tomcat 9."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Onderhoudspakket: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Onderhoudspakket: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Onderhoudspakket: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Onderhoudspakket\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI-platform"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI-platformserver"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI-platform"/>
+    <string id="product.boec_client_name" value="Clienthulpprogramma's"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="BI-platformclient"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI-platform .NET SDK (herdistribueerbare versie)"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports voor Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="SAP BusinessObjects BI-add-on voor SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="BI-add-on voor SAP Lumira"/>
+    <string id="product.mini_bip_name" value="Information Platform Services"/>
+    <string id="product.mini_bip_shortname" value="Information Platform Services"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="SAP-integratie voor Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Integratieoptie voor Microsoft SharePoint-software"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM-editie"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI-platform 4"/>
+    <string id="shortcut.folder.name.minibip" value="Information Platform Services 4"/>
+    <string id="shortcut.folder.name.boclient" value="Clienthulpprogramma's voor SAP BusinessObjects BI-platform 4"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports voor Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM-editie"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Platformservices starten, stoppen en configureren"/>
+    <string id="shortcut.link.name.boserver.CMC" value="Central Management Console van SAP BusinessObjects BI-platform"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="WACS Central Management Console van SAP BusinessObjects BI-platform"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="Central Management Console voor SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="WACS Central Management Console voor SAP Crystal Server"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Central Management Console van Information Platform Services"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="WACS Central Management Console van Information Platform Services"/>
+    <string id="shortcut.link.description.CMC" value="Management Console openen"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="Startpunt van SAP BusinessObjects BI-platform"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="WACS BI-startpunt van SAP BusinessObjects BI-platform"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="Java BI-startpunt voor SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="WACS BI-startpunt voor SAP Crystal Server"/>
+    <string id="shortcut.link.description.BILaunchpad" value="BI-startpunt starten"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Hulpprogramma voor upgradebeheer"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Eerdere implementaties upgraden naar SAP BusinessObjects BI-platform 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Wizard Doorgiftebeheer"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="CMS-inhoud van 4.x-implementaties exporteren, importeren en kopiëren via een stapsgewijze gebruikersinterface."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Eerdere implementaties upgraden naar SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Eerdere implementaties upgraden naar Information Platform Services 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32-bits ODBC-gegevensbronbeheer"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC-gegevensbronbeheer"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Hiermee worden ODBC-gegevensbronnen en -stuurprogramma's (Open Database Connectivity) toegevoegd, verwijderd en geconfigureerd"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Onlinedocumentatie"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Onlinedocumentatie openen"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat-beheer"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Tomcat-beheer openen"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat-configuratie"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Tomcat-configuratie openen"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="WDeploy-hulpprogramma starten"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widgets"/>
+    <string id="shortcut.link.description.BIWidgets" value="Start widgets"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Business Views-beheer"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Start Business Views-beheer"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Data Federator-beheerprogramma"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Start Data Federator-beheerprogramma"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Hulpprogramma voor informatie-ontwerp"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Start hulpprogramma voor informatie-ontwerp"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Query as a Web Service-ontwerper"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Start Query as a Web Service-ontwerper"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Hulpprogramma voor rapportconversie"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Start hulpprogramma voor rapportconversie"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Hulpprogramma voor vertaalbeheer"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Start hulpprogramma voor vertaalbeheer"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Hulpprogramma voor universe-ontwerp"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Start hulpprogramma voor universe-ontwerp"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Start Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Hiermee wordt de Web Intelligence Rich Client gestart"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Hiermee worden opgemaakte gegevensrapporten (.RPT) gemaakt en gewijzigd"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Wizard Rapport uploaden"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Start wizard Rapport uploaden"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports voor Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="shortcut.link.description.CRViewer" value="Opgemaakte gegevensrapporten (.RPT) weergeven"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Report Application Server-startpunt"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Report Application Server-startpunt starten"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Web Intelligence starten"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Dashboards starten"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Dashboards Add-on Packager starten"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Start SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Start SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects BI Administration Console WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects BI Administration Console"/>
+    <string id="shortcut.link.description.ADC" value="Administration Console openen"/>
+    <string id="OverhangingPatchMessage" value="Als deze installatie wordt voortgezet, worden fixes mogelijk verwijderd van het systeem. Zorg ervoor dat u een compatibel pakket installeert."/>
+    <string id="Installing41PatchOver40" value="Voordat u doorgaat, moet u handmatig een back-up van het huidige 4.0-systeem maken. U kunt de 4.1-update niet verwijderen nadat deze is toegepast. Als u de systeemstatus wilt herstellen, moet u de back-up gebruiken."/>
+    <string id="Block41PatchUninstall" value="De 4.1-update kan niet automatisch worden verwijderd. Als u wilt terugkeren naar de 4.0-systeemstatus, moet u bestaande binaire bestanden verwijderen en het 4.0-backupexemplaar gebruiken dat u hebt gemaakt om het 4.0-systeem te herstellen."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="Voor #product.fullproductname# is een nieuwe licentiesleutel vereist. Download de nieuwe licentiesleutel van SAP Service Marketplace. Verwijder de oude licentiesleutel en voeg de nieuwe licentiesleutel toe aan de Central Management Console. Raadpleeg de documentatie voor meer informatie."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="Enkele producten en functies zijn niet meer in gebruik in #product.fullproductnamenospace#. Voer de beschreven acties uit zoals vermeld in SAP Note 2801797 na de update."/>
+    <string id="DeployLaterDescription" value="Implementatiemodus voor webapplicaties"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Bovenliggende patchversie voor HotFix geïnstalleerd"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Deze Hotfix is voor #productname# #product_version# #product_sp_version#, patch #patch_id#. U moet de patch installeren voordat deze installatie kan worden voortgezet. Zie SAP Note 2257993 voor meer details."/>
+  </context>
+</uitext>

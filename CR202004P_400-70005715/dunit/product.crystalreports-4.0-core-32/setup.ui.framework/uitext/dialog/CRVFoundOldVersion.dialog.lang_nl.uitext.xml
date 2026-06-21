@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="DlgTitle" value="Productupgrade"/>
+<string id="DlgSummary" value="Er is een andere versie van dit product gedetecteerd."/>
+<string id="ProceedOrNot" value="Er is een andere versie van Crystal Reports Viewer gedetecteerd. Als u deze installatie voortzet, wordt deze versie bijgewerkt naar Crystal Reports Viewer 2010. Als u door wilt gaan, klikt u op Volgende. Wilt u deze installatie annuleren, dan klikt u op Annuleren om de installatie af te sluiten."/>
+</context>
+</uitext>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.java-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="9904622">
+    <requiredDeploymentUnit ref="foundation.bcm.java-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.javalibs-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.tracelog.java-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.java.pbds-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.java.pbds_full-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.java.lumira.pbds-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.services.cms.cpp.cms.props-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.axis2-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.derby-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.log4j-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.eclipse.aspectj-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.java-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.xpp3.eclipse-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="F2A5F2C1-D3F7-40C0-BFBF-8A2DD3AAAFC1"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Shared Tools\nsclientw.dll">
+    <registryValue name="Path" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\\nsclient140w.dll</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.library.common">
+    <file name="libOCAhelperw-5-0.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="4698624"/>
+    <file name="libOCAsecurityw-4-0.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="977920"/>
+    <file name="nsclient140w.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="400896"/>
+    <file name="secSSO.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="402432"/>
+    <file name="secEnterprise.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="30720"/>
+    <file name="secLDAP.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1279488"/>
+    <file name="secWinAD.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1575424"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.sdk.boe.java/java">
+    <file name="lumiraserver.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/java/wily" size="2243"/>
+    <file name="LumiraServerServiceContainer_pbd.config" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/java/wily" size="59"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Sprachpakete auswählen"/>
+<string id="SelectLanguagePackSubtitle" value="Wählen Sie alle zusätzlichen Sprachpakete für die Interaktion der Benutzer mit dem Produkt aus."/>
+<string id="SelectLanguagePackFooter" value="Drücken Sie die []Tabulatortaste], die []Nach-oben-Taste] oder die []Nach-unten-Taste], um Elemente hervorzuheben, die []Leertaste] oder []X], um den Status zu wechseln, []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um fortzufahren."/>
+<string id="alllang" value="Alle Sprachen"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Die Eigenschaft &quot;SelectedLanguagePacks&quot; '[SelectedLanguagePacks]' muss das Systemgebietsschema enthalten."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Die Eigenschaft &quot;SelectedLanguagePacks&quot; '[SelectedLanguagePacks]' muss 'en' enthalten."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Die Eigenschaft &quot;SelectedLanguagePacks&quot; '[SelectedLanguagePacks]' muss eine Teilmenge der verfügbaren Sprachpakete sein."/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="Title" value="Installationsmodus auswählen"/>
+<string id="SubTitle" value="Wählen Sie den Modus der Installation aus."/>
+<string id="Standard_InstallationName" value="Standardinstallation"/>
+<string id="Standard_InstallationText" value="Die Installation wird in Einzelphase ausgeführt"/>
+<string id="PhaseWise_InstallationName" value="Phasenweise Installation"/>
+<string id="PhaseWise_InstallationText" value="Die Installation erfolgt in zwei Phasen – &quot;Zwischenspeicherung&quot; and &quot;Installation nach Zwischenspeicherung&quot;. Während der Zwischenspeicherung gibt es keinen Systemausfall und Sie können weiter auf dem System arbeiten. Während der Installation nach der Zwischenspeicherung wird die Software auf dem System mit einer gewissen Systemausfallzeit installiert."/>
+<string id="CachingCompletedSubTitle" value="Zwischenspeicherung abgeschlossen"/>
+<string id="Resume_InstallationSubTitle" value="Installation nach Zwischenspeicherung fortsetzen. Die Installation nach der Zwischenspeicherung stellt den eigentlichen Installationsprozess dar, bei dem eine Systemausfallzeit auftritt."/>
+<string id="ShowWayOfInstallFooter" value="Drücken Sie []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um zu installieren."/>
+</context>
+</uitext>

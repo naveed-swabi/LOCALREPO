@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Doelmap configureren"/>
+<string id="ChooseInstallDirSubtitle" value="Voer het volledige doelpad in van de locatie waarop het product wordt geïnstalleerd."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Voer het volledige doelpad in van de locatie waarop het product wordt geïnstalleerd."/>
+<string id="DestinationFolderGroupBox" value="Doelmapgegevens"/>
+<string id="DestinationFolder" value="Doelmap:"/>
+<string id="Browse" value="Bladeren"/>
+<string id="BrowseInstallDirectory" value="Een installatielocatie kiezen"/>
+<string id="DirGenericError" value="De doelmap is ongeldig. Kies een andere doelmap. INS00029"/>
+<string id="DirNetworkError" value="De doelmap kan geen netwerklocatie zijn. Kies een andere locatie."/>
+<string id="DirEmptyError" value="U moet een doelmap kiezen. INS00029"/>
+<string id="DirAbsolutePathError" value="De doelmap moet een volledig pad zijn. INS00029"/>
+<string id="DirInvalidCharWinError" value="De doelmap mag alleen cijfers, letters of de volgende tekens bevatten: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Het pad van de doelmap is te lang. Gebruik een pad van minder dan 150 tekens. INS00029"/>
+<string id="DirInvalidInstallverseError" value="De doelmap bevat een niet-compatibel product. Selecteer een andere locatie. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Ongeldige installatiemap. Gebruik een geldig absoluut pad dat alleen alfanumerieke tekens of de volgende tekens bevat: _ - \ . ( ). De map moet zich bevinden op een vast station en het volledige pad mag niet langer zijn dan 150 tekens. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Ongeldige installatiemap. Gebruik een geldig absoluut pad waarvoor u ook lees-, schrijf- en uitvoerrechten hebt. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Installatiemap mag geen spaties bevatten."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="De volgende tekens zijn niet toegestaan in de installatiemap:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Druk op []Tab] om mapelementen automatisch in te vullen, []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om door te gaan."/>
+</context>
+</uitext>

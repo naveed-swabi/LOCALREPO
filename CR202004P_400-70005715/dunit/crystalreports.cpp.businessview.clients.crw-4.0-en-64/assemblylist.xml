@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="RepositoryExplorer_res_en.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="46592"/>
+    <file name="ReportParameterDialog_res_en.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="389120"/>
+  </sourcedir>
+</assembly>

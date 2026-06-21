@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="DlgTitle" value="Fájltársítás"/>
+<string id="DlgSummary" value="A Crystal Reports jelentések alapértelmezett megjelenítőjének megadása."/>
+<string id="ReplaceFileAssoc" value="Jelenleg nem a Crystal Reports Viewer a Crystal Reports jelentések alapértelmezett megjelenítője. Legyen ez az alapértelmezett megjelenítő?"/>
+<string id="Yes" value="Igen"/>
+<string id="No" value="Nem"/>
+</context>
+</uitext>

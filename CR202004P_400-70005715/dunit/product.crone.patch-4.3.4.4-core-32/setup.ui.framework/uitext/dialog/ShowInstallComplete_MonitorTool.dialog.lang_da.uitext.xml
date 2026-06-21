@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# er blevet installeret."/>
+<string id="Description" value="Klik på Udfør for afslutte installationen."/>
+<string id="MonitorToolCheck" value="Kør softwareovervågningsværktøjet"/>
+<string id="CustomNextButton" value="Udfør"/>
+</context>
+</uitext>

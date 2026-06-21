@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Title" value="フェーズ別インストール"/>
+<string id="SubTitle" value="キャッシュ完了"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="フェーズ別インストールを終了するには、[Enter] を押してください。"/>
+<string id="Description" value="キャッシュ後のインストールを再開するには、セットアップファイルを再実行します。キャッシュ後のインストール時には、システムダウンタイムが発生します。このインストールフェーズは、メンテナンスの時間を確保できる場合に実行できます。"/>
+<string id="FinishMessage" value="フェーズ別インストールを終了するには、[完了] をクリックしてください。"/>
+<string id="Finish" value="完了"/>
+</context>
+</uitext>

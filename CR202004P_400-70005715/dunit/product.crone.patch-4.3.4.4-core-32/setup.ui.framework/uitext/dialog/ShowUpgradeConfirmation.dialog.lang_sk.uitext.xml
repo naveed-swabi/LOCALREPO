@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Message1" value="Aktualizácia produktu"/>
+<string id="Message2" value="Bola zistená predchádzajúca verzia tohto produktu. Ak budete pokračovať v tejto inštalácii, produkt sa aktualizuje. Ak chcete pokračovať, kliknite na tlačidlo Ďalej. Ak chcete skončiť inštaláciu, kliknite na tlačidlo Zrušiť."/>
+<string id="MessageUnix" value="Bola zistená predchádzajúca verzia tohto produktu. Ak budete pokračovať v tejto inštalácii, produkt sa aktualizuje. Ak chcete pokračovať, stlačte kláves []Enter]. Ak chcete skončiť inštaláciu, stlačte klávesy []Ctrl-X]."/>
+</context>
+</uitext>

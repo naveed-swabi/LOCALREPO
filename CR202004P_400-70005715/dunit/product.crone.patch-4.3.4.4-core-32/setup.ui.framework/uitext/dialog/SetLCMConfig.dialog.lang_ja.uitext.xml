@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="SetLCMConfigTitle" value="Subversion の設定"/>
+<string id="SetLCMConfigSubtitle" value="Subversion バージョン管理システムのポートおよびユーザ名を入力します。"/>
+<string id="repoInfoGroup" value="Subversion リポジトリの情報"/>
+<string id="repoName" value="リポジトリ名:"/>
+<string id="repoPort" value="リポジトリポート:"/>
+<string id="repoPortInline" value="Subversion ポート:"/>
+<string id="repoUserInfoGroup" value="Subversion リポジトリユーザの情報"/>
+<string id="repoUserName" value="リポジトリユーザアカウント:"/>
+<string id="repoUserPass" value="リポジトリアカウントパスワード:"/>
+<string id="repoUserPassInline" value="リポジトリユーザアカウントパスワード:"/>
+<string id="repoUserPass2" value="パスワードの確認:"/>
+<string id="Mismatch_LCMPassword" value="パスワードが一致しません。確認してから再実行してください。INS00267"/>
+<string id="Invalid_LCMPassword" value="パスワードが単純すぎます。パスワードは長さが 6 文字以上で、大文字と小文字が両方とも含まれている必要があります。INS00127"/>
+</context>
+</uitext>

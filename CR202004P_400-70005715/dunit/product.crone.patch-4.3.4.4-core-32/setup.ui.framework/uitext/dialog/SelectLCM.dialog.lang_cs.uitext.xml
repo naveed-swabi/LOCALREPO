@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="SelectLCMTitle" value="Vybrat správu verzí"/>
+<string id="SelectLCMSubtitle" value="Vyberte, zda se má pro účely správy verzí nainstalovat výchozí verze řídicího systému, nebo zda se má použít stávající systém."/>
+<string id="SelectLCMFooter" value="Stisknutím kláves []Tab], []Up] nebo []Down] proveďte výběr, stisknutím kláves []Ctrl-B] přejděte zpět, stisknutím kláves []Ctrl-X] program ukončíte nebo stisknutím klávesy []Enter] budete pokračovat."/>
+<string id="NewLCMInstall" value="Konfigurovat a nainstalovat dílčí verzi"/>
+<string id="ExistingLCMInstall" value="V tomto okamžiku nekonfigurujte systém řízení verze."/>
+<string id="Invalid_SelectLCM" value="Neplatný typ NewOrExistingLCM ([NewOrExistingLCM]): Má být buď 'nový' nebo 'existující'. INS00284"/>
+</context>
+</uitext>

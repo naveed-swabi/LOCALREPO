@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="connectivity.boe.connectsrv.server.bridge.cpp-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="150939">
+    <requiredDeploymentUnit ref="tools.boe.wstk-4.0-core"/>
+    <requiredDeploymentUnit ref="connectivity.connectionserver.helpers.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="connectivity.boe.connectsrv.plugin.http.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="953026B4-F2A3-4471-874D-FE40AFE686AA"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

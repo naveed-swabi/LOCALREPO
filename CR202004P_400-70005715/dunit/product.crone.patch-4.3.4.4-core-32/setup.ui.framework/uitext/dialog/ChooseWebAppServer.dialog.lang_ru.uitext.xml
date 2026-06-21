@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Выбор сервера веб-приложений Java"/>
+<string id="ChooseWebAppServerSubtitle" value="Выберите решение сервера веб-приложений Java."/>
+<string id="ChooseWebAppServerFooter" value="Нажмите []Tab], []ВВЕРХ] или []ВНИЗ] для выбора, []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для продолжения."/>
+<string id="InstallJWAS" value="Установите веб-приложение Java и серверы"/>
+<string id="InstallTomcat" value="Установить сервер веб-приложений Java Tomcat и автоматически развернуть веб-приложения"/>
+<string id="ManualDeploy" value="Вручную развернуть веб-приложения на поддерживаемом сервере веб-приложений Java после установки"/>
+<string id="InstallWACS" value="Установить сервер контейнера веб-приложений и автоматически развернуть веб-приложения"/>
+<string id="SharePointIntegrationTitle" value="Интеграция SAP BusinessObjects для ПО Microsoft SharePoint 4.0"/>
+<string id="SharePointIntegrationText" value="Интеграция SAP BusinessObjects для ПО Microsoft SharePoint 4.0 доступна для отдельной установки в папке дополнительных компонентов для 64-разрядной версии Sharepoint. Ссылку на эту папку см. в инструкциях &quot;Действия после установки&quot;."/>
+<string id="SharePointIntegrationCheck" value="Показать местоположение папки дополненительных компонентов в конце установки"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Недопустимое значение UseIntegratedWebAppServer ([UseIntegratedWebAppServer]): допустимы значения 0 и 1. INS00255"/>
+</context>
+</uitext>

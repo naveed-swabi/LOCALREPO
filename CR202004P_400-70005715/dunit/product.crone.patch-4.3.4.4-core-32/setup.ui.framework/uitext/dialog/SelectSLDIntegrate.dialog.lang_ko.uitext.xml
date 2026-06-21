@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="SLDIntegrateTitle" value="SAP Solution Manager 통합"/>
+<string id="SLDIntegrateTitleSub" value="SAP Solution Manager와 통합하시겠습니까?"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="SAP Solution Manager 통합"/>
+<string id="IntegrateBtn" value="SAP Solution Manager와 통합합니다. 정보를 입력하라는 메시지가 표시됩니다."/>
+<string id="NoIntegrateBtn" value="SAP Solution Manager와 통합하지 않습니다."/>
+<string id="Invalid_SLDIntegrateSelection" value="잘못된 ChooseSLDIntegration([ChooseSLDIntegration]): 'integrate' 또는 'nointegrate'이어야 합니다(INS00285)."/>
+</context>
+</uitext>

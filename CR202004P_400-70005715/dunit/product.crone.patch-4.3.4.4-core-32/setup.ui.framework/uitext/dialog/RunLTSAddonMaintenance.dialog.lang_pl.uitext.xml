@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Podano nieznany tryb konserwacji — prawidłowe wartości: Modyfikuj, Napraw lub Usuń"/>
+<string id="ChooseMaintenanceMode" value="Konserwacja aplikacji"/>
+<string id="SelectMaintenanceMode" value="Wybierz operację konserwacji do wykonania."/>
+<string id="Modify" value="Modyfikuj"/>
+<string id="ModifyDescription" value="Umożliwia zmianę zainstalowanych funkcji aplikacji. Powoduje wyświetlenie okna dialogowego Wybór funkcji, w którym można skonfigurować poszczególne funkcje."/>
+<string id="Repair" value="Napraw"/>
+<string id="RepairDescription" value="Umożliwia ponowne zainstalowanie brakujących lub uszkodzonych plików. Preferencjom zapisanym w rejestrze mogą zostać przywrócone wartości domyślne."/>
+<string id="Remove" value="Usuń"/>
+<string id="RemoveDescription" value="Odinstaluj produkt #product.nameonly# z tego komputera."/>
+<string id="Invalid_Maintenance_Mode" value="Nieprawidłowy typ trybu konserwacji ([MaintenanceMode]) — powinna to być wartość modify (modyfikuj), repair (napraw) lub remove (usuń). INS00283"/>
+</context>
+</uitext>

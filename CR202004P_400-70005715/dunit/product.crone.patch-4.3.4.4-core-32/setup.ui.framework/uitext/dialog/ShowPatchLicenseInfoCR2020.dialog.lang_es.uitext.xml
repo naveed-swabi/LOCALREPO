@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Nueva clave de licencia obligatoria"/>
+<string id="YouMustAgree" value="Se requiere una nueva clave de licencia para #product.fullproductnamenospace#update."/>
+<string id="IAccept" value="He leído la documentación y he entendido el proceso para solicitar la nueva clave de licencia. Acepto agregar la nueva clave de licencia después de la instalación de la actualización."/>
+<string id="subtitle1" value="Para SAP Crystal Reports comprado como parte de la plataforma SAP Business Intelligence, puede ir al enlace a continuación y aprender cómo solicitar la nueva clave de licencia."/>
+<string id="subtitle2" value="Para SAP Crystal Reports comprado por separado, debe visitar la tienda sap y comprar una clave de licencia de actualización."/>
+<string id="subtitle3" value="Debe introducir la nueva clave de licencia en el Administrador de licencias cuando inicie la aplicación después de la instalación de la actualización."/>
+</context>
+</uitext>

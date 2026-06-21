@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.printcontrol-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="3527174">
+    <requiredDeploymentUnit ref="crystalreports.crystalcommon.cpp.crlang-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.apache.xerces.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.microsoft.mssdk-10.0-core"/>
+    <requiredDeploymentUnit ref="tp.shared.pvlocale.pvlocale-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="437A3D6C-3BF5-4AE9-8309-295935B593FD"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

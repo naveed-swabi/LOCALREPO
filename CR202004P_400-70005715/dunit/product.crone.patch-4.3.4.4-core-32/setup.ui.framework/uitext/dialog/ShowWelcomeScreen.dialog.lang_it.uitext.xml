@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Message" value="Installazione guidata di #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Schermata di benvenuto"/>
+<string id="ShowWelcomeScreenSubtitle" value="Installazione guidata di #product.fullproductnamenospace#."/>
+<string id="Description" value="È consigliabile chiudere tutte le applicazioni per Windows prima di eseguire questo programma di installazione.\n\nFare clic su Annulla per uscire dal programma di installazione e chiudere le eventuali applicazioni in esecuzione. Per procedere con l'installazione, fare clic su Avanti.\n\nATTENZIONE: questo programma è tutelato dalle leggi sul copyright, dalle leggi sui diritti d'autore e dalle disposizioni dei trattati internazionali.\n\n\nLa riproduzione o distribuzione non autorizzata di questo programma, o di parte di esso, sarà perseguibile civilmente e penalmente nella misura massima consentita dalla legge in vigore."/>
+<string id="Description_unix" value="ATTENZIONE: questo programma è tutelato dalle leggi sul copyright, dalle leggi sui diritti d'autore e dalle disposizioni dei trattati internazionali.\n\n\nLa riproduzione o distribuzione non autorizzata di questo programma, o di parte di esso, sarà perseguibile civilmente e penalmente nella misura massima consentita dalla legge in vigore. \n\n\nNOTA : per ulteriori informazioni sulle piattaforme supportate, visitare il sito http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Premere []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per continuare."/>
+<string id="PamHyperLinkWelcome" value="Per ulteriori informazioni sulle piattaforme supportate, visitare"/>
+</context>
+</uitext>

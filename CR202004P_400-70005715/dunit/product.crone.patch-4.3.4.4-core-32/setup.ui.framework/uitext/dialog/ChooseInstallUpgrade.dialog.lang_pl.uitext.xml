@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="PreviousVersionDetected" value="Wykryto poprzednią wersję produktu #product.nameonly#"/>
+<string id="PreviousVersionDetectedSub" value="Wybierz, czy ma zostać przeprowadzona instalacja typu Uaktualnienie, czy instalacja typu Obok siebie"/>
+<string id="UpgradeInstallBtn" value="Przeprowadź instalację typu Uaktualnienie"/>
+<string id="SideBySideInstallBtn" value="Przeprowadź instalację typu Obok siebie"/>
+<string id="UpgradeInstallMsg" value="Zastąp aktualnie zainstalowaną wersję produktu #product.nameonly# tą wersją"/>
+<string id="SideBySideInstallMsg" value="Instaluje tą wersję produktu #product.nameonly# równolegle z wersją już zainstalowaną."/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Nieprawidłowy tryb instalacji ([InstallCompatibilityMode]): dopuszczalne wartości to upgrade i sidebyside"/>
+</context>
+</uitext>

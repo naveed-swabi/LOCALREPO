@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft Enterprise">
+    <registryValue name="Path Load" keypath="yes" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\</registryValue>
+    <registryValue name="Path Log" keypath="yes" type="string"/>
+    <registryValue name="Log Mode" keypath="yes" type="string">0</registryValue>
+    <registryValue name="Chunk Size" keypath="yes" type="string">2000</registryValue>
+    <registryValue name="SSL Root Certificate File" keypath="yes" type="string"/>
+    <registryValue name="SSL Require Server Authentication" keypath="yes" type="string">0</registryValue>
+    <registryValue name="Ignore_Server_Connect_Err" keypath="yes" type="string"/>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="crdb_psenterprise.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="540672"/>
+    <file name="crpsenterprisemigratereport.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="187392"/>
+  </sourcedir>
+</assembly>

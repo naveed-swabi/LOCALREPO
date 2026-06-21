@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Начало установки"/>
+<string id="ShowInstallSummarySubtitle" value="Программа установки готова к установке #product.fullproductnamenospace#. Нажмите кнопку &quot;Назад&quot;, чтобы изменить информацию об установке.\n\nНажмите кнопку &quot;Далее&quot; для начала установки."/>
+<string id="ShowInstallSummaryUnixDescription" value="Разрешить мастеру установки #product.fullproductnamenospace# начать установку?"/>
+<string id="ShowInstallSummaryFooter" value="Нажмите []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для установки."/>
+<string id="DiskCost" value="Место на диске"/>
+<string id="Drive Select" value="Выполняется выбор"/>
+<string id="Disk Costing" value="Место на диске"/>
+<string id="Volume" value="Том"/>
+<string id="Disk Size" value="Размер диска"/>
+<string id="Available" value="Доступно"/>
+<string id="Required" value="Требуется"/>
+<string id="Difference" value="Разность"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Повтор"/>
+<string id="Cancel" value="Отмена"/>
+<string id="ShowCacheSummaryTitle" value="Пофазовая установка"/>
+<string id="ShowCacheSummarySubtitle" value="Начать кэширование"/>
+<string id="ShowCacheSummaryDescription" value="Кэширование — это процесс копирования программного обеспечения в каталог установки. Во время кэширования работа системы не прерывается."/>
+<string id="Invalid_DiskSpace" value="Недостаточно дискового пространства для установки продукта. Освободите место на диске или выберите другое расположение для установки.  Доступно: [AvailableSpace] МБ. Требуется: [RequiredSpace] МБ."/>
+<string id="Resume_Description" value="Во время установки после кэширования ПО устанавливается в системе с некоторым перерывом в работе системы."/>
+<string id="ShowResumetitle" value="Пофазовая установка"/>
+<string id="ShowResumeSubtitle" value="Продолжить установку"/>
+<string id="ShowResumeFooter" value="Нажмите []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для установки."/>
+<string id="MessageCache" value="Нажмите кнопку &quot;Далее&quot;, чтобы начать фазу кэширования."/>
+<string id="MessageResume" value="Нажмите кнопку &quot;Далее&quot;, чтобы начать установку."/>
+</context>
+</uitext>

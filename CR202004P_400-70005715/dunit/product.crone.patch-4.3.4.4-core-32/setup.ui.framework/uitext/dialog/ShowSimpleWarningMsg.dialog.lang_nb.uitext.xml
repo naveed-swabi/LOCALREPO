@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="nb"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10 har ikke en kompatibel versjon av Datatjenester. Ikke fortsett med denne installeringen hvis Datatjenester er installert i System Landscape.\n\n\n Klikk på OK for å fortsette med denne installeringen, eller \n klikk på Avslutt slik at du kan avslutte installeringen på en sikker måte nå."/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10 har ikke en kompatibel versjon av Datatjenester. Ikke fortsett med denne installasjonen hvis Datatjenester er installert i System Landscape."/>
+<string id="ExitMessage" value="Trykk på Ctrl+X for å avslutte, eller Enter for å fortsette."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

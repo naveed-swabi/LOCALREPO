@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Java-Webanwendungsserver auswählen"/>
+<string id="ChooseWebAppServerSubtitle" value="Wählen Sie einen Java-Webanwendungsserver aus."/>
+<string id="ChooseWebAppServerFooter" value="Drücken Sie die []Tabulatortaste], die []Nach-oben-Taste] oder die []Nach-unten-Taste], um eine Auswahl zu treffen, []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um fortzufahren."/>
+<string id="InstallJWAS" value="Java-Webanwendung und Server installieren"/>
+<string id="InstallTomcat" value="Standard-Tomcat-Java-Anwendungsserver installieren und Webanwendungen automatisch implementieren"/>
+<string id="ManualDeploy" value="Webanwendungen auf einem unterstützten Java-Webanwendungsserver nach der Installation manuell Implementieren"/>
+<string id="InstallWACS" value="Web Application Container Server installieren und Webanwendungen automatisch implementieren"/>
+<string id="SharePointIntegrationTitle" value="Integrationsoption für Microsoft-Office-SharePoint-Software 4.0 von SAP BusinessObjects"/>
+<string id="SharePointIntegrationText" value="Die Integrationsoption für Microsoft-Office-SharePoint-Software 4.0 von SAP BusinessObjects ist als separate Installation im Addons-Ordner für 64-Bit-Sharepoint verfügbar. Eine Verknüpfung zum Addons-Ordner finden Sie in den Nachinstallationsanweisungen."/>
+<string id="SharePointIntegrationCheck" value="Speicherort des Addon-Ordners am Ende der Installation anzeigen"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Ungültiger UseIntegratedWebAppServer-Wert ([UseIntegratedWebAppServer]): Der Wert sollte 0 oder 1 lauten. INS00255"/>
+</context>
+</uitext>

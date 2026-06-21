@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="DeprecatedProductAgreement" value="使用停止になった製品および機能の通知"/>
+<string id="YouMustAgree" value="#product.fullproductnamenospace# では、いくつかの製品と機能が使用停止になりました。"/>
+<string id="IAccept" value="文書を読み、BI プラットフォームの使用停止になった製品と機能の影響について理解しました。更新後に所定のアクションを実行することに同意します。"/>
+<string id="subtitle1" value="BI 4.3 では、SAP BusinessObjects Explorer や SAP BusinessObjects Dashboards などのアプリケーションが使用停止になっています。使用停止になったアプリケーションの完全な一覧をチェックし、この使用停止アクティビティに関する情報を入手できます。"/>
+<string id="subtitle2" value="影響を確認してから、ブログに記述されたとおりに所定のアクションを実行する必要があります。"/>
+<string id="AcceptOrNotAccept" value="文書を読み、BI プラットフォームの使用停止になった製品と機能の影響について理解したこと、また、更新後に所定のアクションを実行することに同意する場合は、&lt;ENTER&gt; を押します。"/>
+<string id="DeprecatedProductDescription" value="BI 4.3 では、SAP BusinessObjects Explorer や SAP BusinessObjects Dashboards などのアプリケーションが使用停止になっています。https://launchpad.support.sap.com/#/notes/2801797 で、使用停止になったアプリケーションの完全な一覧をチェックし、この使用停止アクティビティに関する情報を入手できます。\n\n影響を確認してから、ブログに記述されたとおりに所定のアクションを実行する必要があります。\n\n"/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020 サービスは、Linux および UNIX ではサポートされなくなったため、このアップグレード時に削除されます。ただし、SAP Crystal Reports 2020 ドキュメントは BI プラットフォームに保持され、引き続きサポートされます。必要なサービスの Windows サーバへの配布方法については、SAP Knowledge Base Article (https://launchpad.support.sap.com/#/notes/3032096) を参照してください。"/>
+</context>
+</uitext>

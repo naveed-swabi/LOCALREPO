@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="SelectFeaturesTitle" value="기능 선택"/>
+<string id="SelectFeaturesSubtitle" value="설치할 기능을 선택하십시오."/>
+<string id="SelectFeaturesFooter" value="강조표시하려면 []Tab], []Up] 또는 []Down] 키를, 확장하려면 []Space]를, 상태를 전환하려면 []X]를, 뒤로 가려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter]를 누르십시오."/>
+<string id="DiskCost" value="디스크 공간"/>
+<string id="Drive Select" value="선택하는 중"/>
+<string id="Disk Costing" value="디스크 공간 확인"/>
+<string id="Volume" value="볼륨"/>
+<string id="Disk Size" value="디스크 크기"/>
+<string id="Available" value="사용 가능한 공간"/>
+<string id="Required" value="필요한 공간"/>
+<string id="Difference" value="차이"/>
+<string id="Ok" value="확인"/>
+<string id="Retry" value="다시 시도"/>
+<string id="Cancel" value="취소"/>
+<string id="Invalid_DiskSpace" value="제품 설치에 필요한 공간이 부족합니다. 디스크 공간을 확보하거나 다른 설치 위치를 선택하십시오. 필요한 공간은 [RequiredSpace]바이트입니다."/>
+</context>
+</uitext>

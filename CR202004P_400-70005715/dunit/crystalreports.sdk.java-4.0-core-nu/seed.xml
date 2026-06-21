@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.sdk.java-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="1156">
+    <requiredDeploymentUnit ref="crystalreports.sdk.java.sdkcommon-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.javalibs-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.library.common-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.java-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.log4j-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.xerces.java-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.ibm.icu.java-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+	</uninstall>
+  <install>
+    <action id="BOBJTextReplace">
+      <arg name="File" value="[INSTALLDIR]\SAP BusinessObjects Enterprise XI 4.0\java\lib\clientSDKOptions.xml"/>
+      <arg name="SearchWord" value="%MACHINENAME%"/>
+      <arg name="ReplaceWord" value="[$os.machinename]"/>
+    </action>
+  </install>
+</duseed>

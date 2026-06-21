@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="LicenseAgreement" value="Krav til ny licensnøgle"/>
+<string id="YouMustAgree" value="En ny licensnøgle kræves for #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="En ny licensnøgle kræves for #product.fullproductname#."/>
+<string id="IAccept" value="Jeg har læst dokumentationen og forstår processen med at anmode om den nye licensnøgle og accepterer at slette den gamle licensnøgle og tilføjer den nye licensnøgle efter opdateringsinstallationen."/>
+<string id="subtitle1" value="#product.fullproductname# kræver en ny licensnøgle."/>
+<string id="subtitle2" value="Anmod om den nye licensnøgle. Du kan finde flere oplysninger om, hvordan du anmoder om licensnøglen på"/>
+<string id="subtitle3" value="Efter installationen #product.fullproductname# er fuldført, skal du logge på Central Management Console (CMC). Slet den gamle licensnøgle, og tilføj den nye licensnøgle. Indtil du tilføjer den nye licensnøgle, er alle tjenester deaktiverede."/>
+<string id="subtitle4" value="Anmod om den nye licensnøgle her"/>
+<string id="AcceptOrNotAccept" value="Tryk på &lt;ENTER&gt; for at acceptere at slette den gamle licensnøgle og tilføje den nye licensnøgle efter opdateringsinstallationen."/>
+<string id="Description_Patch_License" value="#product.fullproductname# kræver en ny licensnøgle.\n\nAnmod om den nye licensnøgle. Du kan finde flere oplysninger om, hvordan du anmoder om licensnøglen på http://scn.sap.com/docs/DOC-70095. \n\nEfter installationen af #product.fullproductname# er fuldført, skal du logge på Central Management Console (CMC); slette den gamle licensnøgle og tilføje den nye licensnøgle. Alle tjenester er deaktiverede, indtil du tilføjer den nye licensnøgle."/>
+</context>
+</uitext>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Starta installationen"/>
+<string id="ShowInstallSummarySubtitle" value="Klart för installation av #product.fullproductnamenospace#. Klicka på Tillbaka om du vill ändra installationsinformationen.\n\nKlicka på Nästa för att starta installationen."/>
+<string id="ShowInstallSummaryUnixDescription" value="Klart för att låta installationsguiden för #product.fullproductnamenospace# starta installationen?"/>
+<string id="ShowInstallSummaryFooter" value="Tryck på []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avsluta eller []Retur] för att installera."/>
+<string id="DiskCost" value="Nödvändigt diskutrymme"/>
+<string id="Drive Select" value="Du väljer"/>
+<string id="Disk Costing" value="Nödvändigt diskutrymme"/>
+<string id="Volume" value="Volym"/>
+<string id="Disk Size" value="Diskstorlek"/>
+<string id="Available" value="Tillgänglig"/>
+<string id="Required" value="Nödvändig"/>
+<string id="Difference" value="Skillnad"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Försök på nytt"/>
+<string id="Cancel" value="Avbryt"/>
+<string id="ShowCacheSummaryTitle" value="Installation fas efter fas"/>
+<string id="ShowCacheSummarySubtitle" value="Starta cachelagring"/>
+<string id="ShowCacheSummaryDescription" value="Cachelagring är processen då programvaran kopieras till installationskatalogen. Under cachelagringen har systemet ingen stilleståndstid och du kan fortsätta arbeta i systemet."/>
+<string id="Invalid_DiskSpace" value="Du har inte tillräckligt med utrymme för att installera produkten. Frigör diskutrymme eller välj en annan installationsplats. Tillgängligt utrymme: [AvailableSpace] MB. Nödvändigt utrymme: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Vid installation efter cachelagring installeras mjukvaran i systemet. Räkna med viss stilleståndstid."/>
+<string id="ShowResumetitle" value="Installation fas efter fas"/>
+<string id="ShowResumeSubtitle" value="Återuppta installationen"/>
+<string id="ShowResumeFooter" value="Tryck på []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avsluta eller []Retur] för att installera."/>
+<string id="MessageCache" value="Klicka på Nästa för att starta caching-fasen."/>
+<string id="MessageResume" value="Klicka på Nästa för att starta installationen."/>
+</context>
+</uitext>

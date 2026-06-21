@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Información de despliegue de #productname# existente"/>
+<string id="SpecifyRemoteCMS" value="Especifique la información de inicio de sesión del administrador del despliegue existente."/>
+<string id="RemoteCMSConnectionInfo" value="Información de conexión de #productname# existente"/>
+<string id="RemoteCMSName" value="Nombre"/>
+<string id="RemoteCMSPort" value="Puerto"/>
+<string id="RemoteCMSAdminLogonInfo" value="Información de inicio de sesión de administrador"/>
+<string id="RemoteCMSUser" value="Usuario"/>
+<string id="RemoteCMSPassword" value="Contraseña"/>
+<string id="ErrRemoteCMSConnectionInfo" value="No se puede alcanzar el servidor SAP Lumira remoto para los equipos o las credenciales de inicio de sesión no son correctas. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="No se puede alcanzar el servidor SAP Lumira remoto para los equipos o las credenciales de inicio de sesión no son correctas. INS00013\n¿Desea introducir las credenciales de nuevo?"/>
+<string id="Invalid_SymbolInCMSPassword" value="La contraseña no debe contener la palabra &quot;Administrador&quot; o caracteres especiales como: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{espacio}{tabulador}"/>
+</context>
+</uitext>

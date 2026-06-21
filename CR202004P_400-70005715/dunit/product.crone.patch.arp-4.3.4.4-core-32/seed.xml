@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="product.crone.patch.arp-4.3.4.4-core-32" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="29068">
+    <requiredDeploymentUnit ref="product.crystalreports.arp.icon-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <properties>
+    <propertyDeclaration id="PATCH.ARP.DISPLAYNAME" description="" hidden="false" label=""/>
+    <propertyDeclaration id="PATCH.ARP.PRODUCTID" description="" hidden="false" label=""/>
+    <propertyDeclaration id="PATCH.ARP.DISPLAYVERSION" description="" hidden="false" label=""/>
+  </properties>
+  <uninstall>
+    <action id="RemoveARPEntry">
+      <arg name="PRODUCT_CODE" value="1A2218DB-0B9D-4700-B6CE-53F017B7914F.14.3.4.4"/>
+      <arg name="INSTALL_DIR" value="[INSTALLDIR]"/>
+      <arg name="DISPLAY_NAME" value="[PATCH.ARP.DISPLAYNAME]"/>
+      <arg name="PRODUCT_ID" value="[PATCH.ARP.PRODUCTID]"/>
+      <arg name="DISPLAY_ICON" value="[INSTALLDIR]setup\icons\product.crystalreports.ico"/>
+      <arg name="DISPLAY_VERSION" value="[PATCH.ARP.DISPLAYVERSION]"/>
+      <arg name="NO_MODIFY" value="1"/>
+      <arg name="PUBLISHER" value="SAP"/>
+      <arg name="HELP_LINK" value="http://www.sap.com"/>
+      <arg name="INFO_LINK" value="http://www.sap.com"/>
+      <arg name="UPDATE_LINK" value="http://www.sap.com"/>
+    </action>
+  </uninstall>
+  <install>
+    <actionSequence ref="ConfigureDUBase">
+      <action id="TranslateStringIfConditionsEqual">
+        <arg name="StringToTranslate" value="#DialogCaption#"/>
+        <arg name="LHSCondition" value="[PATCH.ARP.DISPLAYNAME]"/>
+        <arg name="RHSCondition" value=""/>
+        <output id="TranslatedString" property="PATCH.ARP.DISPLAYNAME"/>
+      </action>
+      <action id="TranslateStringIfConditionsEqual">
+        <arg name="StringToTranslate" value="14.3.4.4938"/>
+        <arg name="LHSCondition" value="[PATCH.ARP.DISPLAYVERSION]"/>
+        <arg name="RHSCondition" value=""/>
+        <output id="TranslatedString" property="PATCH.ARP.DISPLAYVERSION"/>
+      </action>
+      <action id="TranslateStringIfConditionsEqual">
+        <arg name="StringToTranslate" value="product.crone.patch-4.3.4.4-core-32"/>
+        <arg name="LHSCondition" value="[PATCH.ARP.PRODUCTID]"/>
+        <arg name="RHSCondition" value=""/>
+        <output id="TranslatedString" property="PATCH.ARP.PRODUCTID"/>
+      </action>
+      <action id="AddARPEntry">
+        <arg name="PRODUCT_CODE" value="1A2218DB-0B9D-4700-B6CE-53F017B7914F.14.3.4.4"/>
+        <arg name="INSTALL_DIR" value="[INSTALLDIR]"/>
+        <arg name="DISPLAY_NAME" value="[PATCH.ARP.DISPLAYNAME]"/>
+        <arg name="PRODUCT_ID" value="[PATCH.ARP.PRODUCTID]"/>
+        <arg name="DISPLAY_ICON" value="[INSTALLDIR]setup\icons\product.crystalreports.ico"/>
+        <arg name="DISPLAY_VERSION" value="[PATCH.ARP.DISPLAYVERSION]"/>
+        <arg name="NO_MODIFY" value="1"/>
+        <arg name="PUBLISHER" value="SAP"/>
+        <arg name="HELP_LINK" value="http://www.sap.com"/>
+        <arg name="INFO_LINK" value="http://www.sap.com"/>
+        <arg name="UPDATE_LINK" value="http://www.sap.com"/>
+      </action>
+    </actionSequence>
+  </install>
+</duseed>

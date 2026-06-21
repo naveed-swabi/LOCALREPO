@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="SelectedInvalidLocale" value="Vnesli ste nepodprto okolje."/>
+<string id="SetupLanguageTitle" value="Izbira jezika za namestitveni program"/>
+<string id="SetupLanguageSubtitle" value="Izberite jezik namestitve."/>
+<string id="SetupLanguageUnixSubtitle" value="Izberite jezik namestitve."/>
+<string id="CreateLogFile" value="Kreiranje datoteke zapisnika med namestitvijo"/>
+<string id="Invalid_SetupLanguage" value="Neveljaven jezik namestitve ([SetupUILanguage]): Biti mora eden od '[$available.ui.langs]'. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="Neveljaven IsEnableSetupLog ([IsEnableSetupLog]): Biti mora samo 0 ali 1."/>
+<string id="SelectUILanguageFooter" value="Pritisnite []Tab], []Navzgor] ali []Navzdol] za izbiro, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+</context>
+</uitext>

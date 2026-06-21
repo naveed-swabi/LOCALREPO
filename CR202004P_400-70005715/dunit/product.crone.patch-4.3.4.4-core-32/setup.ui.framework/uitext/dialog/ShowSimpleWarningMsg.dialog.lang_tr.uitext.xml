@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="tr"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10'da uyumlu bir Data Services versiyonu yok. Alanınızda Data Services yüklüyse bu yüklemeye devam etmeyin.\n\n\n Yüklemeye devam etmek için &quot;Tamam&quot; seçeneğini veya \n yüklemeyi güvenli bir şekilde sonlandırmak için &quot;Kurulumdan Çık&quot; seçeneğini tıklayın."/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10'da uyumlu bir Data Services versiyonu yok. Alanınızda Data Services yüklüyse bu yüklemeye devam etmeyin."/>
+<string id="ExitMessage" value="Çıkmak için Ctrl+X tuşlarına, devam etmek için ise Enter tuşuna basın."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

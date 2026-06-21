@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Java 웹 응용 프로그램 선택"/>
+<string id="ChooseWebAppServerSubtitle" value="Java 웹 응용 프로그램 서버 솔루션을 선택합니다."/>
+<string id="ChooseWebAppServerFooter" value="선택하려면 []Tab], []Up] 또는 []Down] 키를, 뒤로 가려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter]를 누르십시오."/>
+<string id="InstallJWAS" value="Java 웹 응용 프로그램 및 서버 설치"/>
+<string id="InstallTomcat" value="기본 Tomcat Java 웹 응용 프로그램 서버를 설치하고 웹 응용 프로그램을 자동으로 배포합니다."/>
+<string id="ManualDeploy" value="설치 후 지원되는 Java 웹 응용 프로그램 서버에 웹 응용 프로그램을 수동으로 배포합니다."/>
+<string id="InstallWACS" value="웹 응용 프로그램 컨테이너 서버를 설치하고 웹 응용 프로그램을 자동으로 배포합니다."/>
+<string id="SharePointIntegrationTitle" value="Microsoft SharePoint 소프트웨어용 통합 옵션 4.0"/>
+<string id="SharePointIntegrationText" value="Microsoft Sharepoint 소프트웨어용 통합 옵션 4.0은 64비트 Sharepoint용 추가 기능 폴더에서 별도로 설치해야 사용할 수 있습니다. 추가 기능 폴더 링크에 대한 설치 후 지침을 참조하십시오."/>
+<string id="SharePointIntegrationCheck" value="설치 종료 시 추가 기능 폴더 위치 표시"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="잘못된 UseIntegratedWebAppServer 값([UseIntegratedWebAppServer]): 0이나 1이어야 합니다(INS00255)."/>
+</context>
+</uitext>

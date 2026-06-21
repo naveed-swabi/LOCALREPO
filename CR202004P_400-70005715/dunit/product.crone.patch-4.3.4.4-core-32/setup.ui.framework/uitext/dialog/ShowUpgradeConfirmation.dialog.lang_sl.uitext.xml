@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="Message1" value="Posodobitev produkta"/>
+<string id="Message2" value="Zaznana je bila prejšnja verzija tega produkta. Če nadaljujete s to namestitvijo, bo produkt posodobljen. Kliknite Naprej za nadaljevanje ali Prekinitev za izhod iz namestitve."/>
+<string id="MessageUnix" value="Zaznana je bila prejšnja verzija tega produkta. Če nadaljujete s to namestitvijo, bo produkt posodobljen. Pritisnite [Enter] za nadaljevanje ali [Ctrl-X] za izhod iz namestitve."/>
+</context>
+</uitext>

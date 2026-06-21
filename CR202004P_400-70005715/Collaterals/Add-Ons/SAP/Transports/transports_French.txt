@@ -1,0 +1,23 @@
+﻿Il existe deux jeux de fichiers de transports utilisables avec le BusinessObjects Enterprise Integration Kit for SAP. Il s'agit des jeux ANSI et Unicode activé. 
+
+Le jeu de transports à utiliser dépend du système BASIS sur lequel s'exécute votre système SAP. De plus, chaque transport comprend un fichier de données et un fichier de code, répertoriés entre parenthèses après le nom du transport.
+
+Si votre système SAP s'exécute sur un système BASIS version 6.20 ou ultérieure, vous devez utiliser les fichiers ci-dessous :
+
+(Il s'agit de fichiers Unicode activé.)
+
+* Transport de connectivité Open SQL (K900085.SDD et R900085.SDD)
+* Transport de connectivité InfoSet (K900043.SDD et R900043.SDD)
+* Transport de définition de la sécurité de niveau de ligne (K900051.SDD et·R900051.SDD)
+* Transport de définition de clusters (K900039.SDD et R900039.SDD)
+* Transport des programmes d'aide à l'authentification (K900041.SDD et R900041.SDD)
+
+
+Les fichiers ci-dessous doivent être utilisés sur un système SAP BW :
+
+(Il s'agit de fichiers Unicode activé.)
+
+* Transport d'administration du contenu (K900098.SDD et R900098.SDD)
+* Transport de personnalisation (K900045.SDD et R900045.SDD)
+* Transport de connectivité de requête MDX (K900014.SDD et R900014.SDD)
+* Transport de connectivité ODS (K900042.SDD et R900042.SDD)

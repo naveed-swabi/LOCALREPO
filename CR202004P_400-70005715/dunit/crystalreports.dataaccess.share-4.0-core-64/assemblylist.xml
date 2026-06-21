@@ -1,0 +1,802 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{1A1A7D64-D6F2-480B-800C-15935E88BA59}">
+    <registryValue name="" type="string">IQEParameterValue</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{02F72D63-4756-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F5-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQETables</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29E61DE1-7A1C-11D4-AAC8-00D0B75DB31F}">
+    <registryValue name="" type="string">IQERowsetHierarchy</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29E61DE1-7A1C-11D4-AAC8-00D0B75DB31F}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29E61DE1-7A1C-11D4-AAC8-00D0B75DB31F}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29E61DE1-7A1C-11D4-AAC8-00D0B75DB31F}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29E61DE1-7A1C-11D4-AAC8-00D0B75DB31F}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{4A0D1C61-0B5E-44B1-83E9-D5BC9464B1AB}">
+    <registryValue name="" type="string">IQEFetchTableOptions</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{4A0D1C61-0B5E-44B1-83E9-D5BC9464B1AB}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{4A0D1C61-0B5E-44B1-83E9-D5BC9464B1AB}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{4A0D1C61-0B5E-44B1-83E9-D5BC9464B1AB}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{4A0D1C61-0B5E-44B1-83E9-D5BC9464B1AB}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F5-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{602E3C21-72D9-11D4-AAC5-00902741F1FC}">
+    <registryValue name="" type="string">IQEBase</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{602E3C21-72D9-11D4-AAC5-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{602E3C21-72D9-11D4-AAC5-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{602E3C21-72D9-11D4-AAC5-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{602E3C21-72D9-11D4-AAC5-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{62DC80F5-7619-4ADD-BFCD-6BF5A1AF982F}">
+    <registryValue name="" type="string">IQELinks</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{62DC80F5-7619-4ADD-BFCD-6BF5A1AF982F}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{62DC80F5-7619-4ADD-BFCD-6BF5A1AF982F}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{62DC80F5-7619-4ADD-BFCD-6BF5A1AF982F}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{62DC80F5-7619-4ADD-BFCD-6BF5A1AF982F}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F5-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7695C635-6A32-11D4-AAC4-00902741F1FC}">
+    <registryValue name="" type="string">IQERangeValue</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7695C635-6A32-11D4-AAC4-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7695C635-6A32-11D4-AAC4-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7695C635-6A32-11D4-AAC4-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7695C635-6A32-11D4-AAC4-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7B1A9771-998A-11D4-AACA-00D0B75DB31F}">
+    <registryValue name="" type="string">IQEPersist</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7B1A9771-998A-11D4-AACA-00D0B75DB31F}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7B1A9771-998A-11D4-AACA-00D0B75DB31F}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7B1A9771-998A-11D4-AACA-00D0B75DB31F}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7B1A9771-998A-11D4-AACA-00D0B75DB31F}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F5-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{87112AF1-EA8B-40DE-873C-89C7B97D6E72}">
+    <registryValue name="" type="string">IQELink</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{87112AF1-EA8B-40DE-873C-89C7B97D6E72}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{87112AF1-EA8B-40DE-873C-89C7B97D6E72}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{87112AF1-EA8B-40DE-873C-89C7B97D6E72}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{87112AF1-EA8B-40DE-873C-89C7B97D6E72}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C1-429B-11D4-BF2A-00609708411E}">
+    <registryValue name="" type="string">IQEDatabaseField</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C1-429B-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C1-429B-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C1-429B-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C1-429B-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F5-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C3-429B-11D4-BF2A-00609708411E}">
+    <registryValue name="" type="string">IQEExpressionField</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C3-429B-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C3-429B-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C3-429B-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C3-429B-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C5-429B-11D4-BF2A-00609708411E}">
+    <registryValue name="" type="string">IQESummaryField</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C5-429B-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C5-429B-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C5-429B-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{882CF9C5-429B-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F9-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQETable</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9866E222-5E24-11D4-BF2A-00609708411E}">
+    <registryValue name="" type="string">IQERowsets</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9866E222-5E24-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9866E222-5E24-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9866E222-5E24-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9866E222-5E24-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9E69AB40-3A10-11D4-BF2A-00609708411E}">
+    <registryValue name="" type="string">IQESortField</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9E69AB40-3A10-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9E69AB40-3A10-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9E69AB40-3A10-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{9E69AB40-3A10-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F9-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA3-7396-11D4-AAC5-00902741F1FC}">
+    <registryValue name="" type="string">IQEForeignKeyInfoItems</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA3-7396-11D4-AAC5-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA3-7396-11D4-AAC5-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA3-7396-11D4-AAC5-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA3-7396-11D4-AAC5-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA5-7396-11D4-AAC5-00902741F1FC}">
+    <registryValue name="" type="string">IQEForeignKeyInfo</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA5-7396-11D4-AAC5-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA5-7396-11D4-AAC5-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA5-7396-11D4-AAC5-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A6C27DA5-7396-11D4-AAC5-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F9-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8605D-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQESession</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8605D-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8605D-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8605D-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8605D-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86061-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEProperties</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86061-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86061-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86061-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86061-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F9-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86063-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEProperty</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86063-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86063-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86063-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86063-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86065-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEConnections</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86065-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86065-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86065-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86065-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F9-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86067-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEConnection</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86067-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86067-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86067-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86067-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606A-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEServerFunctionCategories</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606A-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606A-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606A-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606A-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{02F72D63-4756-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FC-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEFields</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606C-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEServerFunctionCategory</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606C-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606C-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606C-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606C-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606E-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEServerFunctions</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606E-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606E-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606E-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8606E-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FC-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86070-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEServerFunction</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86070-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86070-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86070-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86070-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86072-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEServerFunctionArguments</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86072-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86072-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86072-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86072-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FC-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86074-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEServerFunctionArgument</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86074-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86074-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86074-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86074-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86076-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQETypeMappingItems</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86076-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86076-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86076-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86076-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FC-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86078-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQETypeMappingItem</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86078-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86078-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86078-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E86078-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607A-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEExplorer</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607A-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607A-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607A-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607A-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FC-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607C-329E-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEExplorerNode</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607C-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607C-329E-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607C-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{B7E8607C-329E-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467025-9ECD-11D4-AACA-00D0B75DB31F}">
+    <registryValue name="" type="string">IQESessionLoader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467025-9ECD-11D4-AACA-00D0B75DB31F}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467025-9ECD-11D4-AACA-00D0B75DB31F}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467025-9ECD-11D4-AACA-00D0B75DB31F}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467025-9ECD-11D4-AACA-00D0B75DB31F}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FE-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEField</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467027-9ECD-11D4-AACA-00D0B75DB31F}">
+    <registryValue name="" type="string">IQESessionSaver</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467027-9ECD-11D4-AACA-00D0B75DB31F}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467027-9ECD-11D4-AACA-00D0B75DB31F}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467027-9ECD-11D4-AACA-00D0B75DB31F}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D1467027-9ECD-11D4-AACA-00D0B75DB31F}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD181-4789-11D4-BF2A-00609708411E}">
+    <registryValue name="" type="string">IQEJoinNode</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD181-4789-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD181-4789-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD181-4789-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD181-4789-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FE-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD183-4789-11D4-BF2A-00609708411E}">
+    <registryValue name="" type="string">IQELinkNode</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD183-4789-11D4-BF2A-00609708411E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD183-4789-11D4-BF2A-00609708411E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD183-4789-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{DC2FD183-4789-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FE-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FE-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37FE-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{02F72D63-4756-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3800-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEParameters</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3800-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3800-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3800-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3800-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3802-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEParameter</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3802-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3802-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3802-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3802-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{02F72D63-4756-11D4-BF2A-00609708411E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3804-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEIndexes</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3804-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3804-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3804-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3804-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3806-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEIndex</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3806-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3806-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3806-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3806-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F3-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEExplorerNodes</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3808-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEQueryInfo</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3808-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3808-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3808-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3808-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380A-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQESortFields</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380A-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380A-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380A-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380A-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F3-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380C-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEParameterValues</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380C-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380C-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380C-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380C-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380E-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQERowset</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380E-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380E-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380E-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D380E-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F3-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3811-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQERowsetColumns</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3811-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3811-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3811-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3811-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3813-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQERowsetColumn</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3813-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3813-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3813-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3813-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F3-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381C-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQERangeInfoNodes</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381C-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381C-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381C-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381C-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381E-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQERangeInfoNode</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381E-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381E-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381E-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D381E-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D37F3-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3820-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEErrors</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3820-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3820-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3820-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3820-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3822-32A9-11D4-AAA2-00902741F1FC}">
+    <registryValue name="" type="string">IQEError</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3822-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3822-32A9-11D4-AAA2-00902741F1FC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3822-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="" type="string">{B7E86051-329E-11D4-AAA2-00902741F1FC}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{210D3822-32A9-11D4-AAA2-00902741F1FC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="crlov.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1923072"/>
+    <file name="crqe.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2760192"/>
+  </sourcedir>
+</assembly>

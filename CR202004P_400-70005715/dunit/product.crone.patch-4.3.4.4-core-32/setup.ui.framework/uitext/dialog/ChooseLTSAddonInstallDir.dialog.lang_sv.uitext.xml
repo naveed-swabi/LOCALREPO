@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Konfigurera destinationsmapp"/>
+<string id="ChooseInstallDirSubtitle" value="Ange hela destinationssökvägen till platsen där produkten ska installeras."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Ange hela destinationssökvägen till platsen där produkten ska installeras."/>
+<string id="DestinationFolderGroupBox" value="Information om destinationsmapp"/>
+<string id="DestinationFolder" value="Destinationsmapp:"/>
+<string id="Browse" value="Bläddra"/>
+<string id="BrowseInstallDirectory" value="Välj en installationsplats"/>
+<string id="DirGenericError" value="Destinationsmappen är ogiltig. Välj en annan destinationsmapp. INS00029"/>
+<string id="DirNetworkError" value="Destinationsmappen kan inte vara en nätverksenhet. Välj en annan plats."/>
+<string id="DirEmptyError" value=" Du måste välja en destinationsmapp. INS00029"/>
+<string id="DirAbsolutePathError" value="Destinationsmappen måste ha en fullständig sökväg. INS00029"/>
+<string id="DirInvalidCharWinError" value="Destinationsmappen kan endast innehålla siffror, bokstäver eller följande tecken: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Sökvägen för destinationsmappen är för lång. Använd en sökväg som har färre än 150 tecken. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Destinationsmappen innehåller en inkompatibel produkt. Välj en annan plats. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Ogiltig installationskatalog. Använd en giltig absolut sökväg som bara innehåller alfanumeriska tecken eller något av följande: _ - \ . ( ). Katalogen måste ligga på en fast enhet och den fullständiga sökvägen får inte ha fler än 150 tecken. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Ogiltig installationskatalog. Använd en giltig absolut sökväg för vilken du också har läs-, skriv- och körningsbehörighet. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Installationskatalogen kan inte innehålla blanksteg."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Följande tecken tillåts inte i installationskatalogen:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Tryck på []Tabb] för att automatiskt fylla i katalogelement, []Ctrl-X] för att avsluta eller []Retur] för att fortsätta."/>
+</context>
+</uitext>

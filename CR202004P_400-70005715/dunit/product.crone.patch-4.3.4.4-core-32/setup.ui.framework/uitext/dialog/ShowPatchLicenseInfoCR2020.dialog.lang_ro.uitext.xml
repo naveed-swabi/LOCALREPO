@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Cerință cheie de licență nouă"/>
+<string id="YouMustAgree" value="O cheie de cerință nouă este necesară pentru #product.fullproductnamenospace#update."/>
+<string id="IAccept" value="Am citit documentația și am înțeles procesul de solicitare a noii chei de licență. Sunt de acord să adaug noua cheie de licență după instalarea actualizării."/>
+<string id="subtitle1" value="Pentru SAP Crystal Reports cumpărat ca parte din SAP Business Intelligence Platform, puteți accesa legătura de mai jos pentru a afla cum să solicitați noua cheie de licență."/>
+<string id="subtitle2" value="Pentru SAP Crystal Reports cumpărat separat, ar trebui să vizitați SAP Store și să cumpărați o cheie de licență pentru upgrade."/>
+<string id="subtitle3" value="Ați introdus noua cheie de licență în License Manager când ați lansat aplicația, după instalarea actualizării."/>
+</context>
+</uitext>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# je bil uspešno nameščen."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# je zaznal napake med procesom namestitve."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# je zaznal napake med procesom odstranitve."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# je bil uspešno odstranjen."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# je bil uspešno nameščen z opozorili."/>
+<string id="Description" value="Za izhod kliknite Zaključek."/>
+<string id="FailedDescription" value="Za izhod kliknite Zaključek."/>
+<string id="Description_unix" value="Pritisnite []Enter] za izhod."/>
+<string id="FailedDescription_unix" value="Pritisnite []D] za več detajlov ali []Enter] za izhod."/>
+<string id="LaunchWDeploy" value="Avtomatični zagon orodja WDeploy"/>
+<string id="LaunchWDeployUNIX" value="Po zaključku namestitvenega programa zaženite [EnterpriseDir]wdeploy/wdeployGUI.sh."/>
+<string id="CustomNextButton" value="Zaključek"/>
+<string id="ViewLogButton" value="Prikaz zapisnika"/>
+<string id="HyperlinkText" value="Kliknite tukaj za detajle"/>
+</context>
+</uitext>

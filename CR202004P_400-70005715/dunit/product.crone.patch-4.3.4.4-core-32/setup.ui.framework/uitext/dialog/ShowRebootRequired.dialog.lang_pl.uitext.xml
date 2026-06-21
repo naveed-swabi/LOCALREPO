@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="RebootWarning" value="Niektóre pliki zostały zablokowane podczas instalacji, co uniemożliwiło instalatorowi ich zaktualizowanie. Można opóźnić ponowne uruchomienie systemu, ale zaleca się wykonanie operacji ponownego uruchomienia przed użyciem produktu."/>
+<string id="RebootQuestion" value="Czy chcesz teraz uruchomić ponownie komputer?"/>
+<string id="RestartLater" value="Uruchom ponownie później"/>
+<string id="RestartNow" value="Uruchom ponownie teraz"/>
+</context>
+</uitext>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/jdbc">
+    <file name="teradatahu.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="14808"/>
+    <file name="teradatahu.stg" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="516"/>
+    <file name="teradatahu.cod" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc" size="4445"/>
+  </sourcedir>
+</assembly>

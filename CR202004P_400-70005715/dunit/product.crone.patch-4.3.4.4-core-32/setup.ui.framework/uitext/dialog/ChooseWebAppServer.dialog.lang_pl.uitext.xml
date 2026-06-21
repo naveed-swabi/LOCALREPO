@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Wybór serwera aplikacji internetowych Java"/>
+<string id="ChooseWebAppServerSubtitle" value="Wybierz serwer aplikacji internetowych Java."/>
+<string id="ChooseWebAppServerFooter" value="Naciśnij klawisz []Tab], []Strzałka w górę] lub []Strzałka w dół], aby wybrać, klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby kontynuować."/>
+<string id="InstallJWAS" value="Zainstaluj aplikację internetową Java i serwery"/>
+<string id="InstallTomcat" value="Zainstaluj domyślny serwer aplikacji internetowych Java Tomcat i automatycznie wdróż aplikacje internetowe"/>
+<string id="ManualDeploy" value="Po instalacji ręcznie wdróż aplikacje internetowe na obsługiwanym serwerze aplikacji internetowych Java"/>
+<string id="InstallWACS" value="Zainstaluj serwer kontenera aplikacji internetowych i automatycznie wdróż aplikacje internetowe"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integration Option for Microsoft SharePoint Software 4.0"/>
+<string id="SharePointIntegrationText" value="Oprogramowanie SAP BusinessObjects Integration Option for Microsoft SharePoint Software 4.0 jako osobna instalacja w folderze dodatków add-on dla 64-bitowego produktu Sharepoint. Łącze do folderu dodatków add-on można znaleźć w instrukcjach poinstalacyjnych."/>
+<string id="SharePointIntegrationCheck" value="Pokaż mi lokalizację folderu dodatków add-on po zakończeniu instalacji"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Nieprawidłowa wartość ustawienia UseIntegratedWebAppServer ([UseIntegratedWebAppServer]) — powinna to być wartość 0 lub 1. INS00255"/>
+</context>
+</uitext>

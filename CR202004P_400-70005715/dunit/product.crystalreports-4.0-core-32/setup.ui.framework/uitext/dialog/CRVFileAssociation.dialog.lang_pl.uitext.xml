@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="DlgTitle" value="Kojarzenie plików"/>
+<string id="DlgSummary" value="Ustawianie domyślnej przeglądarki raportów programu Crystal Reports."/>
+<string id="ReplaceFileAssoc" value="Program Crystal Reports Viewer nie jest aktualnie domyślną przeglądarką raportów programu Crystal Reports. Czy chcesz ustawić go jako domyślną przeglądarkę?"/>
+<string id="Yes" value="Tak"/>
+<string id="No" value="Nie"/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informatie over bestaande #productname#-implementatie"/>
+<string id="SpecifyRemoteCMS" value="Geef de aanmeldingsgegevens voor de beheerder van uw bestaande implementatie op."/>
+<string id="RemoteCMSConnectionInfo" value="Verbindingsgegevens voor bestaande #productname#"/>
+<string id="RemoteCMSName" value="Naam"/>
+<string id="RemoteCMSPort" value="Poort"/>
+<string id="RemoteCMSAdminLogonInfo" value="Aanmeldingsgegevens van beheerder"/>
+<string id="RemoteCMSUser" value="Gebruiker"/>
+<string id="RemoteCMSPassword" value="Wachtwoord"/>
+<string id="ErrRemoteCMSConnectionInfo" value="De externe SAP Lumira-server voor teams kan niet worden bereikt of de aanmeldingsgegevens zijn onjuist. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="De externe SAP Lumira-server voor teams kan niet worden bereikt of de aanmeldingsgegevens zijn onjuist. INS00013\nWilt u uw gegevens opnieuw invoeren?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Het wachtwoord mag niet het woord &quot;Administrator&quot; of bijzondere tekens zoals &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab} bevatten"/>
+</context>
+</uitext>

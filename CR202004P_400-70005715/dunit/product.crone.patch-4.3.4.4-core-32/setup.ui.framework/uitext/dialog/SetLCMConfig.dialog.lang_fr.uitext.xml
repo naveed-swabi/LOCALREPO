@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="SetLCMConfigTitle" value="Configurer Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Entrez le port et le nom d'utilisateur pour le système de contrôle de version Subversion."/>
+<string id="repoInfoGroup" value="Informations du référentiel de Subversion"/>
+<string id="repoName" value="Nom du référentiel :"/>
+<string id="repoPort" value="Port du référentiel :"/>
+<string id="repoPortInline" value="Port Subversion :"/>
+<string id="repoUserInfoGroup" value="Informations de l'utilisateur du référentiel Subversion"/>
+<string id="repoUserName" value="Compte utilisateur du référentiel :"/>
+<string id="repoUserPass" value="Mot de passe du compte du référentiel :"/>
+<string id="repoUserPassInline" value="Mot de passe du compte utilisateur du référentiel :"/>
+<string id="repoUserPass2" value="Confirmer le mot de passe :"/>
+<string id="Mismatch_LCMPassword" value="Les mots de passe ne concordent pas. Vérifiez et réessayez. INS00267"/>
+<string id="Invalid_LCMPassword" value="Le mot de passe est trop simple. Le mot de passe doit contenir au moins six caractères et doit toujours contenir au moins deux des classes de caractères suivants : majuscules et minuscules. INS00127"/>
+</context>
+</uitext>

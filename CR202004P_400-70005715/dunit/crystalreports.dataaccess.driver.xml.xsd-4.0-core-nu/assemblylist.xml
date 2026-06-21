@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/crystalreports.dataaccess/java/xsd">
+    <file name="wsdl.xsd" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/java/xsd" size="12210"/>
+    <file name="wsdl_encoding.xsd" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/java/xsd" size="19204"/>
+  </sourcedir>
+</assembly>

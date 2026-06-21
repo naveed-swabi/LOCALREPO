@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.designer-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="29189484">
+    <requiredDeploymentUnit ref="crystalreports.cpp.charthelp-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.help-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.keycode.defn-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.share-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.crystalcommon.dotnet-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.designers.java.launcher-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.webreporting.common-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.version.crw-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.designer.templates-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.designer.tp-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.designer.jar-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.tracelog-4.0-core"/>
+    <requiredDeploymentUnit ref="olap.analysis.implementation.cpp.activex-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.java-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.engine.sharedregistry-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.keycode.decoder.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.keycode.licmgr-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.apache.commons.java-3.1-core"/>
+    <requiredDeploymentUnit ref="tp.azalea-5.5-core"/>
+    <requiredDeploymentUnit ref="tp.gzip-1.2.3-core"/>
+    <requiredDeploymentUnit ref="tp.ibm.icu.cpp-3.0.1-core"/>
+    <requiredDeploymentUnit ref="tp.ibm.icu.java-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.shared.pvlocale.pvlocale-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.civetweb-1.15-core"/>
+    <requiredDeploymentUnit ref="tp.microsoft.webview2-1.0.902.49-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="F9B400E2-1DA4-4C3D-AFA7-1AC0198050EC"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

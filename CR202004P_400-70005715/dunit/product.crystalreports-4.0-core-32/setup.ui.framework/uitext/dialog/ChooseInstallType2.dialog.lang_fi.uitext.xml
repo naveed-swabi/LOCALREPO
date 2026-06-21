@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="UnknownInstallType" value="Määritetty asennustyyppi on tuntematon. Kelvolliset arvot ovat Tyypillinen ja Mukautettu."/>
+<string id="ChooseInstallType" value="Valitse asennustyyppi"/>
+<string id="SelectAnInstallType" value="Valitse asennuksen tyyppi."/>
+<string id="Full" value="Tyypillinen"/>
+<string id="FullDescription" value="Asenna täydellinen #product.nameonly# -järjestelmä"/>
+<string id="Custom" value="Mukautettu"/>
+<string id="CustomDescription" value="Valitse sovellustoiminnot, jotka haluat asentaa, tai lisää tai poista olemassa olevan #product.nameonly# -järjestelmän toimintoja"/>
+<string id="Invalid_InstallType" value="Virheellinen asennustyyppi ([InstallType]): arvon tulee olla Tyypillinen tai Mukautettu."/>
+</context>
+</uitext>

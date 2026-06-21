@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="Tuotteen #product.fullproductnamenospace# asennuksen poisto onnistui."/>
+<string id="UninstallFailedMessage" value="Tuotteen #product.fullproductnamenospace# asennuksen poisto epäonnistui."/>
+<string id="Description" value="Lopeta asennuksen poisto valitsemalla Valmis."/>
+<string id="FailedDescription" value="Lopeta asennuksen poisto valitsemalla Valmis."/>
+<string id="ShowUninstall_Footer" value="Siirry takaisin painamalla näppäinyhdistelmää []Ctrl-B] tai lopeta asennuksen poisto painamalla []Enter]-näppäintä."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Lopeta asennuksen poisto painamalla []Enter]-näppäintä."/>
+<string id="CustomNextButton" value="Valmis"/>
+<string id="ViewLogButton" value="Näytä loki"/>
+</context>
+</uitext>

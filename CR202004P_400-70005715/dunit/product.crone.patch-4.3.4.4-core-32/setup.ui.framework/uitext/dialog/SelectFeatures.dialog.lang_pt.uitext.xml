@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="SelectFeaturesTitle" value="Selecionar recursos"/>
+<string id="SelectFeaturesSubtitle" value="Selecione os recursos que você deseja instalar."/>
+<string id="SelectFeaturesFooter" value="Pressione []Tab], []Seta para cima] ou []Seta para baixo] para destacar, []Espaço] para expandir, []X] para alternar o estado, []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+<string id="DiskCost" value="Custo do disco"/>
+<string id="Drive Select" value="Você está selecionando"/>
+<string id="Disk Costing" value="Determinação de custo do disco"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Tamanho do disco"/>
+<string id="Available" value="Disponível"/>
+<string id="Required" value="Obrigatório"/>
+<string id="Difference" value="Diferença"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Tentar novamente"/>
+<string id="Cancel" value="Cancelar"/>
+<string id="Invalid_DiskSpace" value="Você não tem espaço suficiente para instalar o produto. Libere espaço em disco ou selecione um local de instalação diferente. Espaço exigido: [RequiredSpace] bytes."/>
+</context>
+</uitext>

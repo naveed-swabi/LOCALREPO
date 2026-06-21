@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<uitext>
+	<language langcode="dev"/>
+
+	<context id="ChooseInstallDir_CR.dialog">
+		<string id="ChooseDestination" value="Specify the Destination Folder"/>
+		<string id="SpecifyDestination" value="The destination folder is where the product will be installed. Click Browse to select a different location."/>
+		<string id="DestinationFolder" value="Destination Folder"/>
+		<string id="Browse" value="Browse"/>
+		<string id="BrowseInstallDirectory" value="Choose an install location"/>
+		<string id="PWClientFolderTitle" value="Client Destination Folder"/>
+		<string id="PWServerFolderTitle" value="Server Destination Folder"/>
+
+		<string id="Invalid_InstallDirWindows" value="Invalid install directory. Please use a valid absolute path which contains only alphanumeric characters or any of the following: _ - \ . ( ). The directory must reside on a fixed drive and the full path cannot be more than 150 characters long. INS00029"/>
+		<string id="Invalid_InstallDirUnix" value="Invalid install directory. Please use a valid absolute path for which you also have read, write, and execute permissions. INS00029"/>
+	</context>
+		
+</uitext>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="InvalidProductKey" value="Você inseriu uma chave de produto inválida."/>
+<string id="EnterProductKeyTitle" value="Configurar registro do produto"/>
+<string id="EnterProductKeySubtitle" value="Inserir a chave do produto #product.nameandversionwithoutpatch#."/>
+<string id="ProductkeyLabel" value="Chave do produto:"/>
+<string id="ProductkeyInfoGroup" value="Informações da chave do produto"/>
+<string id="Invalid_ProductKey" value="A chave do produto não é válida. INS00140"/>
+</context>
+</uitext>

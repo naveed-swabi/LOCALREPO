@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secPSE1">
+    <registryValue name="NAME" type="string">JD Edwards EnterpriseOne</registryValue>
+    <registryValue name="OBJTYPENAME" type="string">JD Edwards EnterpriseOne</registryValue>
+    <registryValue name="PROGID" type="string">secPSE1</registryValue>
+    <registryValue name="SharedClassesInstallDir" type="string">[INSTALLDIR]\SAP BusinessObjects Enterprise XI 4.0\java\lib\</registryValue>
+    <registryValue name="VERSION" type="string">14.0</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.library.common">
+    <file name="secPSE1.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="228352"/>
+    <file name="pseoneserverloader.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="54784"/>
+    <file name="pseonessoconnector.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="267264"/>
+    <file name="pseonessoserver.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="133120"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/iface/deployment_files/neutral">
+    <file name="secPSEOne_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2057"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/images">
+    <file name="secPSEOne.gif" sourcename="icon.gif" installdir="[INSTALLDIR]setup/packagestemp" size="572"/>
+  </sourcedir>
+</assembly>

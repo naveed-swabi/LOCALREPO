@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="is"/>
+<context>
+<string id="DlgTitle" value="iAsociación de archivosi"/>
+<string id="DlgSummary" value="iDéfinition de l'application du visualiseur Crystal Reports par défaut.i"/>
+<string id="ReplaceFileAssoc" value="iCrystal Reports Viewer ist derzeit nicht Ihr Standard-Viewer für Crystal Reports-Berichte. Möchten Sie die Anwendung als Standard-Viewer festlegen?i"/>
+<string id="Yes" value="iKylläi"/>
+<string id="No" value="iNeini"/>
+</context>
+</uitext>

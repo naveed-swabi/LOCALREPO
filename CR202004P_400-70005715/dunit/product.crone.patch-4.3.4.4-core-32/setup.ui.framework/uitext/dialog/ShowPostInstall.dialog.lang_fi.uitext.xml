@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Asennuksen jälkeiset vaiheet"/>
+<string id="PostInstallDetails" value="Asennus on valmis. Viimeistele käyttöönotto noudattamalla seuraavia asennuksen jälkeisiä ohjeita."/>
+<string id="PostUninstallSteps" value="Asennuksen poiston jälkeiset vaiheet"/>
+<string id="PostUninstallDetails" value="Asennuksen poisto on melkein valmis. Viimeistele prosessi noudattamalla seuraavia ohjeita."/>
+<string id="PostInstallStep_Header" value="{b}Asennuksen jälkeiset ohjeet:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Asennuksen jälkeiset ohjeet:"/>
+<string id="PostUninstallStep_Header" value="{b}Asennuksen poiston jälkeiset ohjeet:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Asennuksen poiston jälkeiset ohjeet:"/>
+<string id="CRPostInstallUIText1" value="Tuotteen rekisteröinti{br}Rekisteröi tuotteesi verkossa napsauttamalla {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}tätä{/a}."/>
+<string id="PostInstallStep_Footer" value="Asennus on valmis. Jatka painamalla []Enter]-näppäintä"/>
+<string id="PostUnInstallStep_Footer" value="Asennuksen poisto on valmis. Jatka painamalla []Enter]-näppäintä"/>
+</context>
+</uitext>

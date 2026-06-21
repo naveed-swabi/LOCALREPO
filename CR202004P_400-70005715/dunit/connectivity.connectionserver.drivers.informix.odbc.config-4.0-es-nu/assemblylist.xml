@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/Connectivity/dataAccess/connectionServer/odbc">
+    <file name="informixes.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="12495"/>
+    <file name="informixes.stg" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="800"/>
+    <file name="informixes.cod" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/odbc" size="5491"/>
+  </sourcedir>
+</assembly>

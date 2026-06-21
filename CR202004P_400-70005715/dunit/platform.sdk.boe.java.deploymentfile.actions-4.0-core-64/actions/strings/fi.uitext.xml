@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="progress.UpdateRepository" value="Päivitetään tietovarastoa"/>
+<string id="progress.SetHyperLink" value="Määritetään järjestelmäasetukset"/>
+</context>
+</uitext>

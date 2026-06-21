@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Iniciar instalación"/>
+<string id="ShowInstallSummarySubtitle" value="La instalación está preparada para instalar #product.fullproductnamenospace#. Haga clic en Atrás para realizar cambios en la información de instalación.\n\nHaga clic en Siguiente para iniciar la instalación."/>
+<string id="ShowInstallSummaryUnixDescription" value="¿Está preparado para que el asistente de instalación de #product.fullproductnamenospace# inicie la instalación?"/>
+<string id="ShowInstallSummaryFooter" value="Pulse []Ctrl-B] para volver, []Ctrl-X] para salir o []Intro] para instalar."/>
+<string id="DiskCost" value="Coste de disco"/>
+<string id="Drive Select" value="Está seleccionando"/>
+<string id="Disk Costing" value="Coste de disco"/>
+<string id="Volume" value="Volumen"/>
+<string id="Disk Size" value="Espacio en disco"/>
+<string id="Available" value="Disponible"/>
+<string id="Required" value="Necesario"/>
+<string id="Difference" value="Diferencia"/>
+<string id="Ok" value="Aceptar"/>
+<string id="Retry" value="Volver a intentar"/>
+<string id="Cancel" value="Cancelar"/>
+<string id="ShowCacheSummaryTitle" value="Instalación por etapas"/>
+<string id="ShowCacheSummarySubtitle" value="Iniciar el almacenamiento en caché"/>
+<string id="ShowCacheSummaryDescription" value="El almacenamiento en caché es el proceso de of copiar el software al directorio de instalación. Durante el almacenamiento en caché, no se produce ningún tiempo de parada del sistema y puede seguir trabajando en el sistema."/>
+<string id="Invalid_DiskSpace" value="No tiene espacio suficiente para instalar el producto. Libere espacio de disco o seleccione una ubicación de instalación distinta. Espacio disponible: [AvailableSpace] MB. Espacio necesario: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Durante la fase de instalación después del almacenamiento en caché, el software se instala en el sistema y provoca en este un poco de tiempo de inactividad."/>
+<string id="ShowResumetitle" value="Instalación por etapas"/>
+<string id="ShowResumeSubtitle" value="Reanudar la instalación"/>
+<string id="ShowResumeFooter" value="Pulse []Ctrl-B] para volver, []Ctrl-X] para salir o []Intro] para instalar."/>
+<string id="MessageCache" value="Haga clic en Siguiente para iniciar la fase de almacenamiento en caché."/>
+<string id="MessageResume" value="Haga clic en Siguiente para iniciar la instalación."/>
+</context>
+</uitext>

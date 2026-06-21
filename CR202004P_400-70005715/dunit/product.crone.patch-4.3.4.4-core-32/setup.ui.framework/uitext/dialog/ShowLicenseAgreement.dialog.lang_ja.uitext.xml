@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="NotAcceptedEULA" value="EULA に同意する必要があります。終了しています。"/>
+<string id="LicenseAgreement" value="使用許諾契約"/>
+<string id="YouMustAgree" value="次の手順に進むには、使用許諾契約に同意する必要があります。"/>
+<string id="IAccept" value="使用許諾契約に同意する"/>
+<string id="IDoNotAccept" value="使用許諾契約に同意しない"/>
+<string id="Invalid_IsAcceptEULA" value="無効な IsAcceptEULA ([IsAcceptEULA]): 有効なのは 1のみです。"/>
+<string id="AcceptOrNotAccept" value="使用する場合は &lt;ENTER&gt; を押し、使用しない場合は &lt;CTRL-X&gt; を押します。"/>
+</context>
+</uitext>

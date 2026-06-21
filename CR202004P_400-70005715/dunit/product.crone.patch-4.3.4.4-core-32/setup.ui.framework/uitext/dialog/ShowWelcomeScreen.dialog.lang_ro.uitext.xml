@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Message" value="Bine aţi venit la asistentul de instalare pt. #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Ecran de întâmpinare"/>
+<string id="ShowWelcomeScreenSubtitle" value="Bine aţi venit la asistentul de instalare pt. #product.fullproductnamenospace#."/>
+<string id="Description" value="Vă recomandăm cu tărie să ieşiţi din toate programele Windows înainte de execuţia acestui program de configurare.\n\nFaceţi click pe Anulare pt. a ieşi din Configurare şi a închide programele în curs de execuţie. Faceţi click pe Următor pt. a continua programul de configurare.\n\nAVERTIZARE: acest program este protejat de legea drepturilor de autor şi de tratate internaţionale.\n\n\nReproducerea neautorizată sau distribuţia acestui program sau a oricărei părţi din acesta, poate fi supusă unor sancţiuni civile şi penale şi va fi pedepsită conform legii."/>
+<string id="Description_unix" value="AVERTIZARE: acest program este protejat de legea privind drepturile de autor şi de tratate internaţionale.\n\n\nReproducerea sau distribuţia neautorizată a acestui program sau a oricărei părţi din acesta poate atrage sancţiuni civile şi penale  severe şi va fi pedepsită conform legii.\n\n\nNOTĂ : pentru informaţii suplimentare privind platformele suportate, vizitaţi: http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Apăsaţi []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+<string id="PamHyperLinkWelcome" value="Pentru mai multe informaţii despre platformele suportate, vă rugăm să vizitaţi"/>
+</context>
+</uitext>

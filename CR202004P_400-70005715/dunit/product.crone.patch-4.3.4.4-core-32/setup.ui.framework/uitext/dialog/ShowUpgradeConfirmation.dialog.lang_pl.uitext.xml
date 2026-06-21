@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Message1" value="Aktualizacja produktu"/>
+<string id="Message2" value="Została wykryta poprzednia wersja tego produktu. Jeśli będziesz kontynuować tę instalację, produkt zostanie uaktualniony. Kliknij przycisk Dalej, aby kontynuować, lub kliknij przycisk Anuluj, aby zakończyć instalację."/>
+<string id="MessageUnix" value="Została wykryta poprzednia wersja tego produktu. Jeśli będziesz kontynuować tę instalację, produkt zostanie uaktualniony. Naciśnij klawisz []Enter], aby kontynuować, lub naciśnij klawisze []Ctrl-X], aby zakończyć instalację."/>
+</context>
+</uitext>

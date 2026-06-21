@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Powiadomienie o nieaktualnych produktach i funkcjach"/>
+<string id="YouMustAgree" value="Niektóre produkty i funkcje nie są już aktualne w #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Zapoznałem się z dokumentacją i skutkami stosowania niezalecanych produktów i funkcji platformy BI. Wyrażam zgodę na wykonanie zalecanych czynności po aktualizacji."/>
+<string id="subtitle1" value="Aplikacje, takie jak SAP BusinessObjects Explorer i SAP BusinessObjects Dashboards są nieaktualne w BI 4.3. Pełną listę nieaktualnych aplikacji oraz szczegółowe informacje na temat tej czynności stopniowego wycofywania znajdują się pod adresem"/>
+<string id="subtitle2" value="Sprawdź możliwe skutki i wykonaj zalecane czynności zgodnie z opisem w blogu."/>
+<string id="AcceptOrNotAccept" value="Naciśnij &lt;ENTER&gt;, aby potwierdzić zapoznanie się z wpływem nieaktualnych produktów i funkcji platformy BI i wyrazić zgodę na wykonanie zalecanych czynności po aktualizacji."/>
+<string id="DeprecatedProductDescription" value="Aplikacje, takie jak SAP BusinessObjects Explorer i SAP BusinessObjects Dashboards są nieaktualne w BI 4.3. Pełną listę nieaktualnych aplikacji oraz szczegółowe informacje na temat tej czynności stopniowego wycofywania znajdują się pod adresem https://launchpad.support.sap.com/#/notes/2801797. \n\nSprawdź możliwe skutki i wykonaj zalecane czynności zgodnie z opisem w blogu.\n\n"/>
+<string id="CRServiceDescription" value="Usługi SAP Crystal Reports 2020 nie są już obsługiwane na systemach operacyjnych Linux i Unix. Dlatego w trakcie upgrade’u zostaną one usunięte. Jednak dokumenty SAP Crystal Reports 2020 pozostaną na platformie BI i będą nadal obsługiwane. Aby uzyskać więcej informacji na temat rozdziału wymaganych usług na serwerze Windows, sprawdź artykuł bazy wiedzy SAP pod adresem https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

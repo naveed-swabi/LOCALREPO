@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Title" value="Viacfázová inštalácia"/>
+<string id="SubTitle" value="Ukladanie do vyrovnávacej pamäte sa dokončilo"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Ak chcete skončiť viacfázovú inštaláciu, stlačte kláves [Enter]"/>
+<string id="Description" value="Ak chcete pokračovať v inštalácii po uložení do vyrovnávacej pamäte, znovu spustite inštalačný súbor. Počas inštalácie po uložení do vyrovnávacej pamäte dochádza k odstávke systému. Túto fázu inštalácie môžete vykonať, keď máte k dispozícii čas na údržbu."/>
+<string id="FinishMessage" value="Ak chcete skončiť viacfázovú inštaláciu, kliknite na tlačidlo Dokončiť."/>
+<string id="Finish" value="Dokončiť"/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Información de despliegue de CMS existente"/>
+<string id="SpecifyRemoteCMS" value="Especifique la información de inicio de sesión del CMS y del administrador del despliegue de CMS existente."/>
+<string id="RemoteCMSConnectionInfo" value="Información de conexión del CMS existente"/>
+<string id="RemoteCMSName" value="Nombre del CMS"/>
+<string id="RemoteCMSPort" value="Puerto del CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Información de inicio de sesión de administrador de CMS"/>
+<string id="RemoteCMSUser" value="Usuario"/>
+<string id="RemoteCMSPassword" value="Contraseña"/>
+<string id="ErrRemoteCMSConnectionInfo" value="No se puede alcanzar el CMS remoto o las credenciales de inicio de sesión no son correctas. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="El CMS remoto no se puede alcanzar o las credenciales de inicio de sesión son incorrectas. INS00013\n¿Desea introducir las credenciales de nuevo?"/>
+<string id="Invalid_SymbolInCMSPassword" value="En la contraseña del CMS no se admiten barras invertidas finales (por ejemplo, xxx\) ni los siguientes caracteres: &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="En la contraseña del CMS no se admiten barras invertidas finales (por ejemplo, xxx\) ni los siguientes caracteres: &quot;  '  INS00099"/>
+</context>
+</uitext>

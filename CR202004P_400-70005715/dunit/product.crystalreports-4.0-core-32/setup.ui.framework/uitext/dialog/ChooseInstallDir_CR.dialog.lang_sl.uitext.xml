@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ChooseDestination" value="Določite ciljno mapo"/>
+<string id="SpecifyDestination" value="Produkt bo nameščen v ciljno mapo. Za izbiro druge lokacije kliknite Prebrskaj."/>
+<string id="DestinationFolder" value="Ciljna mapa"/>
+<string id="Browse" value="Brskanje"/>
+<string id="BrowseInstallDirectory" value="Izbira lokacije namestitve"/>
+<string id="PWClientFolderTitle" value="Ciljna mapa klientov"/>
+<string id="PWServerFolderTitle" value="Ciljna mapa strežnikov"/>
+<string id="Invalid_InstallDirWindows" value="Neveljaven namestitveni direktorij. Prosim, uporabite veljavno absolutno pot, ki vsebuje samo alfanumerične znake ali katere od naslednjih: _ - \ . ( ). Direktorij mora biti na lokalnem trdem disku in celotna pot ne sme biti daljša od 150 znakov. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Neveljaven namestitveni direktorij. Prosim, uporabite veljavno absolutno pot, za katero imate tudi avtorizacijo za branje, pisanje in izvajanje. INS00029"/>
+</context>
+</uitext>

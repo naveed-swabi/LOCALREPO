@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="pl"/>
+  <context>
+    <string id="INS00270" value="Napotkano błąd instalatora MSI %1 podczas instalowania produktu %2. (INS00270)"/>
+    <string id="INS00271" value="Napotkano błąd instalatora MSI %1 podczas odinstalowywania produktu %2. (INS00271)"/>
+    <string id="INS00272" value="Napotkano błąd (%1) w pliku %2 podczas instalowania produktu %3. (INS00272)"/>
+    <string id="INS00273" value="Napotkano błąd (%1) w pliku %2 podczas odinstalowywania produktu %3. (INS00273)"/>
+  </context>
+</uitext>

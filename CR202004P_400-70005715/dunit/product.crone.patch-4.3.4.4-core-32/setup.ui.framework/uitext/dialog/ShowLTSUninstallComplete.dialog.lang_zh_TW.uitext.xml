@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# 已成功解除安裝。"/>
+<string id="UninstallFailedMessage" value="無法解除安裝 #product.fullproductnamenospace#。"/>
+<string id="Description" value="按一下 [完成] 以完成此解除安裝。"/>
+<string id="FailedDescription" value="按一下 [完成] 結束這個解除安裝。"/>
+<string id="ShowUninstall_Footer" value="按 []Ctrl-B] 返回，或按 []Enter] 結束這個解除安裝。"/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="按 []Enter] 結束這個解除安裝。"/>
+<string id="CustomNextButton" value="完成"/>
+<string id="ViewLogButton" value="檢視記錄"/>
+</context>
+</uitext>

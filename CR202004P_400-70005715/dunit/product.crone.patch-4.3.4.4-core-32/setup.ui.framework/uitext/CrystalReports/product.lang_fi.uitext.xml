@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="Tuotteen #product.fullproductnamenospace# päivitys"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language#- #productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#, #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version#, #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="Tuotteen #product.fullproductnamenospace# päivitys"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# on asennettu"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="Tämä on päivitys on tuotetta #productname# varten. Kyseistä tuotetta ei löydy järjestelmästä. Asenna se ensin, jotta voit jatkaa tätä asennusta."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="Uudemman version korjaustiedostoa ei ole"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="Järjestelmässä on havaittu korjaustiedosto, jonka versio on uudempi kuin tämän paketin versio. Tämän paketin päivityksiä ei voi asentaa tähän versioon. Jatkaminen ei ole suositeltavaa."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="Tukipaketin versio on tasoa [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="Tuotteen tukipaketin version on oltava [CurrentSupportPackage], jotta tätä päivitystä voi jatkaa. Päivitä nykyinen järjestelmän versio tai käytä asianmukaista päivitystä."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="Alaversio on tasoa [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="Tuotteen alaversion on oltava [CurrentMinorVersion], jotta tätä päivitystä voi jatkaa. Päivitä nykyinen järjestelmän versio tai käytä asianmukaista päivitystä."/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Luo ja muokkaa muotoiltuja tietoraportteja (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC-tietolähteen järjestelmänvalvoja"/>
+<string id="product.shortcutODBC.description" value="Lisää, poistaa ja määrittää Open Database Connectivity (ODBC) -tietolähteitä ja -ohjaimia."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bittisen tietolähteen järjestelmänvalvoja"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Ohjattu raportin lataus"/>
+<string id="product.shortcutWizard.description" value="Ohjattu raportin lataus"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="Uusi DataDirect-ohjaimen versio 7.1.5 on asennettu. Ohjeita uuteen DataDirect-ohjaimen versioon siirtymiseen on dokumentaatiossa."/>
+</context>
+</uitext>

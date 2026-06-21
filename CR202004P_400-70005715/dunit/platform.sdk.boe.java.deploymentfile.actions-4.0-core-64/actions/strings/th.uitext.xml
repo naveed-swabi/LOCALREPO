@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="progress.UpdateRepository" value="กำลังอัปเดตพื้นที่เก็บข้อมูล"/>
+<string id="progress.SetHyperLink" value="กำลังกำหนดการตั้งค่าระบบ"/>
+</context>
+</uitext>

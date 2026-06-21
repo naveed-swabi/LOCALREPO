@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="RebootWarning" value="Noen filer ble låst under installasjonen, noe som hindret installasjonsprogrammet fra å oppdatere dem. Du kan utsette den nye starten av systemet, men det anbefales at du starter på nytt før du bruker produktet."/>
+<string id="RebootQuestion" value="Vil du starte datamaskinen på nytt nå?"/>
+<string id="RestartLater" value="Start på nytt senere"/>
+<string id="RestartNow" value="Start på nytt nå"/>
+</context>
+</uitext>

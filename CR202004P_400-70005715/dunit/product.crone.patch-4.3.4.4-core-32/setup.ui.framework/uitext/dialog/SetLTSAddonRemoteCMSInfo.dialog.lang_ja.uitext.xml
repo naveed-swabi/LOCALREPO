@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="ConfigureRemoteCMS" value="既存の CMS デプロイメント情報"/>
+<string id="SpecifyRemoteCMS" value="処理を開始するには、既存の CMS および Administrator ログオン情報を指定してください。"/>
+<string id="RemoteCMSConnectionInfo" value="既存の CMS の接続情報"/>
+<string id="RemoteCMSName" value="CMS 名"/>
+<string id="RemoteCMSPort" value="CMS ポート"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS Administrator ログオン情報"/>
+<string id="RemoteCMSUser" value="ユーザ"/>
+<string id="RemoteCMSPassword" value="パスワード"/>
+<string id="ErrRemoteCMSConnectionInfo" value="リモート CMS に接続できないか、ログオン認証情報が間違っています。INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="リモート CMS に接続できないか、ログオン認証情報が間違っています。INS00013\n認証情報をもう一度入力しますか?"/>
+<string id="Invalid_SymbolInCMSPassword" value="CMS パスワードに次の文字を使用することはできません:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

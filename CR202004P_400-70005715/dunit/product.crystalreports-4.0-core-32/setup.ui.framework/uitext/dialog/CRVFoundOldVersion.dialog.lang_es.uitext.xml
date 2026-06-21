@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="DlgTitle" value="Actualización del producto"/>
+<string id="DlgSummary" value="Se ha detectado otra versión de este producto."/>
+<string id="ProceedOrNot" value="Se ha detectado otra versión de Visor de Crystal Reports. Si continúa con esta instalación, se actualizará dicha versión a Visor de Crystal Reports 2010. Si desea continuar, haga clic en Siguiente. Si desea cancelar la instalación, haga clic en Cancelar para salir de la instalación."/>
+</context>
+</uitext>

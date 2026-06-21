@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Message" value="Bem-vindo ao assistente de instalação do #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Tela de boas vindas"/>
+<string id="ShowWelcomeScreenSubtitle" value="Bem-vindo ao assistente de instalação do #product.fullproductnamenospace#."/>
+<string id="Description" value="É extremamente recomendável que você saia de todos os programas do Windows antes de executar este programa de instalação.\n\nClique em Cancelar para sair da instalação e feche qualquer programa que estiver sendo executado. Clique em Próximo para continuar o programa de instalação.\n\nAVISO: este programa está protegido por leis de direitos autorais e tratados internacionais.\n\n\nA reprodução ou distribuição não autorizada deste programa, ou de qualquer parte dele, resultará na imposição de rigorosas penas civis e criminais e será objeto de ação judicial promovida na máxima extensão possível nos termos da lei."/>
+<string id="Description_unix" value="AVISO: este programa está protegido pela lei de direitos autorais e por tratados internacionais.\n\n\nA reprodução ou distribuição não autorizada deste programa, ou de qualquer parte dele, resultará na imposição de rigorosas penas civis e criminais e será objeto de ação judicial promovida na máxima extensão possível nos termos da lei.n\n\nNOTA: para obter mais informações sobre as plataformas com suporte, acesse o site http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Pressione []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+<string id="PamHyperLinkWelcome" value="Para obter mais informações sobre as plataformas com suporte, acesse o site:"/>
+</context>
+</uitext>

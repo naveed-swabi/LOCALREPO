@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Select Language Packages"/>
+<string id="SelectLanguagePackSubtitle" value="Select all additional Language Packages that the users will interact with in the product."/>
+<string id="SelectLanguagePackFooter" value="Press []Tab], []Up], or []Down] to highlight, []Space] or []X] to toggle state, []Ctrl-B] to go back, []Ctrl-X] to quit, or []Enter] to continue."/>
+<string id="alllang" value="All Languages"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Property SelectedLanguagePacks '[SelectedLanguagePacks]' must include the system locale."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Property SelectedLanguagePacks '[SelectedLanguagePacks]' must include 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Property SelectedLanguagePacks '[SelectedLanguagePacks]' must be a subset of the available language packs."/>
+</context>
+</uitext>

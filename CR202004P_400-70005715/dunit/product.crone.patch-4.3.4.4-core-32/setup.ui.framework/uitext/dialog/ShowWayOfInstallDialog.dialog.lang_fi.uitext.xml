@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Title" value="Valitse asennustila"/>
+<string id="SubTitle" value="Valitse asennuksen tila"/>
+<string id="Standard_InstallationName" value="Vakioasennus"/>
+<string id="Standard_InstallationText" value="Asennus tehdään yhdessä vaiheessa"/>
+<string id="PhaseWise_InstallationName" value="Vaiheittainen asennus"/>
+<string id="PhaseWise_InstallationText" value="Asennus suoritetaan kahdessa vaiheessa – &quot;Välimuistiin tallennus&quot; ja &quot;Asennus välimuistiin tallennuksen jälkeen&quot;. Välimuistiin tallennuksen aikana järjestelmässä ei ole käyttökatkoa ja voit jatkaa työskentelyä järjestelmässä. Välimuistiin tallennuksen jälkeen tehtävän asennuksen aikana ohjelmisto asennetaan järjestelmään, jolloin järjestelmässä on käyttökatko."/>
+<string id="CachingCompletedSubTitle" value="Välimuistiin tallennus on valmis"/>
+<string id="Resume_InstallationSubTitle" value="Jatka asennusta välimuistiin tallennuksen jälkeen. Välimuistiin tallennuksen jälkeen tehtävä asennus on varsinainen asennusprosessi, jonka aikana on järjestelmän käyttökatko."/>
+<string id="ShowWayOfInstallFooter" value="Palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai asenna tuote painamalla []Enter]-näppäintä."/>
+</context>
+</uitext>

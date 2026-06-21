@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Preverite, ali je navedena pot namestitve pravilna, da se bo namestitev uspešno končana. \n\n Za novo namestitev – nov direktorij datotek. \n Za namestitev popravkov – Direktorij datotek z namestitvijo prejšnje različice #productname#. \n\n\n Kliknite V redu, da nadaljujete, ali Izhod, da znova vnesete pravilno pot namestitve. \n"/>
+<string id="ExitMessage" value="Pritisnite Ctrl + X za izhod ali Enter za nadaljevanje."/>
+<string id="WarnDialogTitle" value="POGOVORNO OKNO Z INFORMACIJAMI"/>
+<string id="WarnDialogSubtitle" value="Informacije:"/>
+</context>
+</uitext>

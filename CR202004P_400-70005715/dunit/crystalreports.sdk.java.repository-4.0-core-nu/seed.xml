@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.sdk.java.repository-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="189988">
+    <requiredDeploymentUnit ref="crystalreports.sdk.java.sdkcommon-4.0-core"/>
+    <requiredDeploymentUnit ref="cvom.java-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.java-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.xerces.java-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.java-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="5EB702B6-2567-407E-B1EE-93D48949D973"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

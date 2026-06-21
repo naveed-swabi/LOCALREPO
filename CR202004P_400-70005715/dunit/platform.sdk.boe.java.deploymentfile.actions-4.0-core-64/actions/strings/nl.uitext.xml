@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="progress.UpdateRepository" value="Gegevensopslagruimte bijwerken"/>
+<string id="progress.SetHyperLink" value="Systeeminstellingen configureren"/>
+</context>
+</uitext>

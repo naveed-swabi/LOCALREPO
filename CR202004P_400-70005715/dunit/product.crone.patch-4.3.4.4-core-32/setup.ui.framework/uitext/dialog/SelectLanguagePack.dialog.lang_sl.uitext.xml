@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Izbira jezikovnih paketov"/>
+<string id="SelectLanguagePackSubtitle" value="Izberite dodatne jezikovne pakete, ki uporabnikom omogočajo uporabo produkta."/>
+<string id="SelectLanguagePackFooter" value="Pritisnite []Tab], []Navzgor] ali []Navzdol] za poudarek, []Preslednico] ali []X] za preklop stanja, []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+<string id="alllang" value="Vsi jeziki"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Lastnost SelectedLanguagePacks '[SelectedLanguagePacks]' mora vključevati območne nastavitve sistema."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Lastnost SelectedLanguagePacks '[SelectedLanguagePacks]' mora vključevati 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Lastnost SelectedLanguagePacks '[SelectedLanguagePacks]' mora biti podmnožica razpoložljivih jezikovnih paketov."/>
+</context>
+</uitext>

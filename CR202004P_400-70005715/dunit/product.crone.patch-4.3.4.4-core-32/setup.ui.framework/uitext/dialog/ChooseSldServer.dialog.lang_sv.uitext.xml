@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ChooseSldServerLocation" value="Välj plats för SLD-server"/>
+<string id="SpecifySldServerLocation" value="Ange plats för SLD-server"/>
+<string id="SldHostnameExample" value="Ange SLD-serverns adress (t.ex. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Ange inloggningsinformation."/>
+<string id="SldHostname" value="Värdnamn"/>
+<string id="SldPort" value="Port"/>
+<string id="SldUsername" value="Användarnamn"/>
+<string id="SldPassword" value="Lösenord"/>
+</context>
+</uitext>

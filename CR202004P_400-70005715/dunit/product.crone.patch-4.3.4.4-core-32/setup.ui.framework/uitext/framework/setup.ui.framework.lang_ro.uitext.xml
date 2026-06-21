@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="ro"/>
+  <context>
+    <string id="Yes" value="Da"/>
+    <string id="No" value="Nu"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="Anulare"/>
+    <string id="Abort" value="Anulare"/>
+    <string id="Continue" value="Continuare"/>
+    <string id="Ignore" value="Ignorare"/>
+    <string id="Next" value="Următor"/>
+    <string id="Previous" value="Înapoi"/>
+    <string id="Info" value="Info"/>
+    <string id="Warning" value="Avertizare"/>
+    <string id="Error" value="Eroare"/>
+    <string id="FatalError" value="Eroare gravă"/>
+    <string id="ErrorDialogTitle" value="Eroare"/>
+    <string id="ErrorDialogSubtitle" value="A apărut o eroare."/>
+    <string id="ErrorDialogFooter" value="Apăsaţi Enter pt. a continua."/>
+    <string id="WarnDialogTitle" value="Avertizare"/>
+    <string id="WarnDialogSubtitle" value="A apărut o avertizare."/>
+    <string id="WarnDialogFooter" value="Apăsaţi Ctrl+B pentru a merge înapoi sau apăsaţi Enter pt. a continua."/>
+    <string id="InfoDialogTitle" value="Informaţii"/>
+    <string id="InfoDialogSubtitle" value="Următoarele informaţii sunt furnizate:"/>
+    <string id="InfoDialogFooter" value="Apăsaţi Enter pt. a continua."/>
+    <string id="DefaultUnixFooter" value="Apăsaţi Tab pentru a trece la câmpul următor, Ctrl+B pt. a trece la câmpul anterior, Ctrl+X pentru a ieşi sau Enter pt. a continua."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Apăsaţi Tab pt. a trece la câmpul următor, Ctrl+X pt. a ieşi sau Enter pt. a continua."/>
+    <string id="ProgressDialogUnixFooter" value="Apăsaţi Ctrl+X pt. a ieşi."/>
+    <string id="CancelCaption" value="Anulare"/>
+    <string id="CancelExitSetup" value="Ieşire configurare"/>
+    <string id="CancelMsg" value="Dacă ieşiţi acum, programul nu va fi instalat. Nu puteţi executa programul de configurare mai târziu pt. a finaliza instalarea.\nPt. a continua instalarea, faceţi clic pe Reluare. Pt. a ieşi din instalare, faceţi clic pe Ieşire din configurare."/>
+    <string id="CancelResume" value="Reluare"/>
+    <string id="DialogCaption" value="configurare #product.fullproductnamenospace#"/>
+    <string id="outofspace" value="Spaţiu pe disc insuficient"/>
+    <string id="CanceledModifier" value="%1 (anulare)"/>
+    <string id="ValidationCaption" value="Rezultat validare"/>
+    <string id="ValidationError" value="Eroare:"/>
+    <string id="ValidationToDo" value="Faceţi clic pe OK pt. a corecta eroarea de validare. Dacă există doar avertizări, puteţi face clic pe Da pt. a continua sau pe Nu pt. a corecta eroarea."/>
+    <string id="ValidationWarning" value="Avertizare:"/>
+    <string id="Validation.MissingFields" value="Câmpuri obligatorii trebuie completate înainte ca instalarea să poată continua."/>
+    <string id="ValidationFailed.Blocking" value="Progresul a fost întrerupt deoarece acţiunea următoare nu a fost validată: "/>
+    <string id="ValidationFailed.Optional" value="Validarea opţională nu a fost reuşită pt. următoarea acţiune: "/>
+    <string id="action.InstallDUBundle" value="Instalare unitate de implementare:"/>
+    <string id="action.UninstallDUBundle" value="Dezinstalare unitate de implementare"/>
+    <string id="action.RegisterBinary" value="Înregistrare binară"/>
+    <string id="action.UnregisterBinary" value="Anulare înregistrare binară"/>
+    <string id="action.ConfigureTomcat" value="Configurare Tomcat"/>
+    <string id="action.BOBJTextReplace" value="Efectuaţi Înlocuire text"/>
+    <string id="action.RunCommand" value="Execuţie Executabil linie comandă"/>
+    <string id="action.RunCommandConditional" value="Execuţie Executabil linie comandă pt. anumite condiţii"/>
+    <string id="action.EnsureFolderExists" value="Asiguraţi-vă că există un folder"/>
+    <string id="action.CreateShortcut" value="Creare Shortcut meniu Start"/>
+    <string id="action.AddARPEntry" value="Adăugaţi intrare în Adăugare/eliminare programe"/>
+    <string id="action.RemoveARPEntry" value="Eliminaţi intrare în Adăugare/eliminare programe"/>
+    <string id="action.BOBJRegasm" value="Execuţie Înregistrare ansamblu"/>
+    <string id="action.BOBJUnRegasm" value="Eliminare Înregistrare ansamblu"/>
+    <string id="sequence.InstallPreReqs" value="Instalare condiţii preliminare"/>
+    <string id="sequence.SetInitialProperties" value="Setare proprietăţi iniţiale"/>
+    <string id="sequence.SetMyProperties" value="Setare proprietăţi produs"/>
+    <string id="sequence.InstallDUBase" value="Instalare acţiuni"/>
+    <string id="sequence.InstallDUBundles" value="Instalare unităţi de implementare"/>
+    <string id="sequence.CreateSymLinks" value="Creare symlink-uri"/>
+    <string id="sequence.ConfigureDUBase" value="Configurare unităţi de implementare"/>
+    <string id="sequence.PopulateRegistry" value="Completare registru"/>
+    <string id="sequence.InstallServices" value="Instalare servicii"/>
+    <string id="sequence.ConfigureServices" value="Configurare servicii"/>
+    <string id="sequence.StartServices" value="Lansare servicii"/>
+    <string id="sequence.StopServices" value="Oprire servicii"/>
+    <string id="sequence.UninstallServices" value="Dezinstalare servicii"/>
+    <string id="sequence.UnPopulateRegistry" value="Anulare completare registru"/>
+    <string id="sequence.UninstallDUBase" value="Dezinstalare acţiuni"/>
+    <string id="sequence.UnconfigureDUBase" value="Anulare configurare unităţi de implementare"/>
+    <string id="sequence.RemoveSymLinks" value="Eliminare symlink-uri"/>
+    <string id="sequence.UninstallDUBundles" value="Dezinstalare unităţi de implementare:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Ştergere foldere goale"/>
+    <string id="Dialog.title" value="Mesaj de configurare"/>
+    <string id="PleaseWait" value="Aşteptare..."/>
+    <string id="LongCalculation" value="Un calcul lung este în curs. Aşteptaţi..."/>
+    <string id="DiskCostInProgress" value="Estimarea costului pt. disc este în curs."/>
+    <string id="Confirm.title" value="Confirmare"/>
+    <string id="Permissions.title" value="Configurare permisiuni"/>
+    <string id="NoPermissionsOperation" value="Nu aveţi drepturi de acces pentru efectuarea operaţiilor în această instalaţie."/>
+    <string id="NoPermissionsFile" value="Nu aveţi drepturi de acces pentru accesarea fişierului următor: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Instalatorul a găsit o versiune mai veche de #productname# instalată. Acest pachet de instalare completă nu poate fi aplicat când o versiune mai veche este instalată. Utilizaţi pachetul de întreţinere #product.fullproductname# pt. actualizarea instalării curente."/>
+    <string id="OlderCryptoDllFound" value="Instalatorul a găsit variabila de mediu R_SHLIB_LD_LIBRARY_PATH setată la binare criptografice care au o versiune mai veche decât binarele necesare pentru instalare. Urmaţi instrucţiunile din documentul legat pt. finalizare instalaţie."/>
+    <string id="CmdLine.title" value="Linie de comandă configurare"/>
+    <string id="InvalidCmdLine" value="Linie de comnadă nevalabilă"/>
+    <string id="ExpectedCmdLine" value="Linia de comandă prevăzută este: %1"/>
+    <string id="ActionFailed" value="Acţiune definită de utilizator nu a fost reuşită"/>
+    <string id="ActionFailedArg" value="Acţiune definită de utilizator nu a fost reuşită: %1"/>
+    <string id="ActionFailedWithCode" value="Acţiune definită de utilizator nu a reuşit şi a afişat codul de eroare:"/>
+    <string id="RegistrationFailed" value="Binar nu a putut înregistra: %1"/>
+    <string id="NoFindFile" value="Nu a fost găsit fişierul: %1"/>
+    <string id="NoCMS" value="Conectare la CMS imposibilă"/>
+    <string id="NoCMSArg" value="Conectare la CMS la %1 imposibilă"/>
+    <string id="DFOFailed" value="Încărcare DFO nu a fost reuşită"/>
+    <string id="wdeployFailed" value="wDeploy nu a putut implementa aplicaţia."/>
+    <string id="ScriptFailed" value="Script nu a putut fi executat: %1"/>
+    <string id="CmdFailed" value="Imposibil de executat linie de comandă: %1"/>
+    <string id="ServerStartFailed" value="Server nu a putut fi lansat: %1"/>
+    <string id="ServerStopFailed" value="Server nu a putut fi oprit: %1"/>
+    <string id="ExitCode" value="Cod de ieşire: %1"/>
+    <string id="DBInitFail" value="Imposibil de iniţializat bază de date"/>
+    <string id="ShortcutFail" value="Creare shortcut imposibilă: %1"/>
+    <string id="ARPFail" value="Imposibil de creat o intrare Adăugare/eliminare programe pt. produsul %1"/>
+    <string id="CreateFolderFail" value="Creare folder imposibilă: %1"/>
+    <string id="SamplesFail" value="Adăugare exemple imposibilă"/>
+    <string id="LicenseKeyFail" value="Imposibil de adăugat cheie de licenţă"/>
+    <string id="Tomcatfail" value="Imposibil de configurat Tomcat"/>
+    <string id="PropertyFail" value="Nu s-a putut obţine valoare proprietate: %1"/>
+    <string id="dev" value="Engleză dezvoltator"/>
+    <string id="aa" value="Afar"/>
+    <string id="ab" value="Abhaziană"/>
+    <string id="af" value="Afrikaans"/>
+    <string id="am" value="Amhară"/>
+    <string id="ar" value="Arabă"/>
+    <string id="as" value="Assameză"/>
+    <string id="ay" value="Aymara"/>
+    <string id="az" value="Azeră"/>
+    <string id="ba" value="Başchiră"/>
+    <string id="be" value="Bielorusă"/>
+    <string id="bg" value="Bulgară"/>
+    <string id="bh" value="Bihari"/>
+    <string id="bi" value="Bislama"/>
+    <string id="bn" value="Bengali"/>
+    <string id="bo" value="Tibetană"/>
+    <string id="br" value="Bretonă"/>
+    <string id="ca" value="Catalană"/>
+    <string id="co" value="Corsicană"/>
+    <string id="cs" value="Cehă"/>
+    <string id="cy" value="Galeză"/>
+    <string id="da" value="Daneză"/>
+    <string id="de" value="Germană"/>
+    <string id="dz" value="Dzongkha"/>
+    <string id="el" value="Greacă"/>
+    <string id="en" value="Engleză"/>
+    <string id="eo" value="Esperanto"/>
+    <string id="es" value="Spaniolă"/>
+    <string id="et" value="Estoniană"/>
+    <string id="eu" value="Bască"/>
+    <string id="fa" value="Persană"/>
+    <string id="fi" value="Finlandeză"/>
+    <string id="fj" value="Fiji"/>
+    <string id="fo" value="Faroeză"/>
+    <string id="fr" value="Franceză"/>
+    <string id="fy" value="Friziană"/>
+    <string id="ga" value="Irlandeză"/>
+    <string id="gd" value="Galeză scoţiană"/>
+    <string id="gl" value="Galiciană"/>
+    <string id="gn" value="Guarani"/>
+    <string id="gu" value="Gujarati"/>
+    <string id="ha" value="Hausa"/>
+    <string id="he" value="Ebraică"/>
+    <string id="hi" value="Hindi"/>
+    <string id="hr" value="Croată"/>
+    <string id="hu" value="Maghiară"/>
+    <string id="hy" value="Armeană"/>
+    <string id="ia" value="Interlingua"/>
+    <string id="id" value="Indoneziană"/>
+    <string id="ie" value="Interlingue"/>
+    <string id="ik" value="Inupiak"/>
+    <string id="is" value="Islandeză"/>
+    <string id="it" value="Italiană"/>
+    <string id="iu" value="Inuktitut"/>
+    <string id="ja" value="Japoneză"/>
+    <string id="jw" value="Javaneză"/>
+    <string id="ka" value="Georgiană"/>
+    <string id="kk" value="Cazacă"/>
+    <string id="kl" value="Groenlandeză"/>
+    <string id="km" value="Cambodgiană"/>
+    <string id="kn" value="Kanadeză"/>
+    <string id="ko" value="Coreeană"/>
+    <string id="ks" value="Caşmiră"/>
+    <string id="ku" value="Kurdă"/>
+    <string id="ky" value="Kirghiză"/>
+    <string id="la" value="Latină"/>
+    <string id="ln" value="Lingala"/>
+    <string id="lo" value="Laoţiană"/>
+    <string id="lt" value="Lituaniană"/>
+    <string id="lv" value="Letonă"/>
+    <string id="mg" value="Malgaşă"/>
+    <string id="mi" value="Maori"/>
+    <string id="mk" value="Macedoneană"/>
+    <string id="ml" value="Malayalam"/>
+    <string id="mn" value="Mongolă"/>
+    <string id="mo" value="Moldovenească"/>
+    <string id="mr" value="Marathi"/>
+    <string id="ms" value="Malaeziană"/>
+    <string id="mt" value="Malteză"/>
+    <string id="my" value="Birmană"/>
+    <string id="na" value="Nauruană"/>
+    <string id="nb" value="Norvegiană"/>
+    <string id="ne" value="Nepaleză"/>
+    <string id="nl" value="Olandeză"/>
+    <string id="oc" value="Occitană"/>
+    <string id="om" value="Oromo"/>
+    <string id="or" value="Oriya"/>
+    <string id="pa" value="Punjabi"/>
+    <string id="pl" value="Poloneză"/>
+    <string id="ps" value="Paşto"/>
+    <string id="pt" value="Portugheză"/>
+    <string id="qu" value="Quechua"/>
+    <string id="rm" value="Retoromană"/>
+    <string id="rn" value="Kirundi"/>
+    <string id="ro" value="Română"/>
+    <string id="ru" value="Rusă"/>
+    <string id="rw" value="Kinyarwanda"/>
+    <string id="sa" value="Sanscrită"/>
+    <string id="sd" value="Sindhi"/>
+    <string id="sg" value="Sangho"/>
+    <string id="sh" value="Sârbă-croată"/>
+    <string id="si" value="Sinhaleză"/>
+    <string id="sk" value="Slovacă"/>
+    <string id="sl" value="Slovenă"/>
+    <string id="sm" value="Samoană"/>
+    <string id="sn" value="Shona"/>
+    <string id="so" value="Somaleză"/>
+    <string id="sq" value="Albaneză"/>
+    <string id="sr" value="Sârbă"/>
+    <string id="ss" value="Siswati"/>
+    <string id="st" value="Sesoto"/>
+    <string id="su" value="Sundaleză"/>
+    <string id="sv" value="Suedeză"/>
+    <string id="sw" value="Swahili"/>
+    <string id="ta" value="Tamilă"/>
+    <string id="te" value="Telugu"/>
+    <string id="tg" value="Tadjică"/>
+    <string id="th" value="Thailandeză"/>
+    <string id="ti" value="Tigrinia"/>
+    <string id="tk" value="Turkmenă"/>
+    <string id="tl" value="Tagalog"/>
+    <string id="tn" value="Setswana"/>
+    <string id="to" value="Tonga"/>
+    <string id="tr" value="Turcă"/>
+    <string id="ts" value="Tsonga"/>
+    <string id="tt" value="Tătară"/>
+    <string id="tw" value="Twi"/>
+    <string id="ug" value="Uigură"/>
+    <string id="uk" value="Ucraineană"/>
+    <string id="ur" value="Urdu"/>
+    <string id="uz" value="Uzbekă"/>
+    <string id="vi" value="Vietnameză"/>
+    <string id="vo" value="Volapuk"/>
+    <string id="wo" value="Wolof"/>
+    <string id="xh" value="Xhosa"/>
+    <string id="yi" value="Idiş"/>
+    <string id="yo" value="Yoruba"/>
+    <string id="za" value="Zhuang"/>
+    <string id="zh_CN" value="Chineză simplificată"/>
+    <string id="zh_TW" value="Chineză tradiţională"/>
+    <string id="zu" value="Zulu"/>
+    <string id="SetupInitSh.root" value="Pt. configurare, iniţializaţi scripturi, conectaţi-vă ca rădăcină şi apoi executaţi."/>
+    <string id="SetupInitSh.fail" value="Scripturi de iniţializare sistem nu au avut succes."/>
+    <string id="property.InstallDir.description" value="Director instalare"/>
+    <string id="property.SetupUILanguage.description" value="Limbă UI de configurare"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Limbi UI de configurare disponibile sortate"/>
+    <string id="property.SelectedLanguagePacks.description" value="Pachete de limbă selectate pentru instalare"/>
+    <string id="property.ProductKey.description" value="Cod cheie produs"/>
+    <string id="property.RegisteredCompany.description" value="Companie înregistrată"/>
+    <string id="property.RegisteredUser.description" value="Utilizator înregistrat"/>
+    <string id="property.InstallCompatibilityMode.description" value="Upgradaţi un produs anterior sau instalaţi grupat"/>
+    <string id="property.IsAcceptEULA.description" value="Sistem acceptă EULA?"/>
+    <string id="property.FormattedString.description" value="Formatare un şir ţintă"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="Lansaţi wDeploy"/>
+    <string id="description.cmsname" value="Nume CMS"/>
+    <string id="description.cmsport" value="Port CMS"/>
+    <string id="description.cmsusername" value="Nume de utilizator CMS"/>
+    <string id="description.cmspassword" value="Parolă CMS"/>
+    <string id="description.cmsauth" value="Autorizaţie CMS"/>
+    <string id="description.sianame" value="Nume SIA"/>
+    <string id="description.siaport" value="Port SIA"/>
+    <string id="property.CMSPassword.description" value="Parolă administrator CMS"/>
+    <string id="property.CMSPort.description" value="Port conexiune CMS"/>
+    <string id="property.CryptoKey.description" value="Cheie cluster CMS"/>
+    <string id="property.EnableServers.description" value="Lansare servere după instalare: 0 sau 1"/>
+    <string id="property.UsingAuditDBType.description" value="Tip bază de date de audit"/>
+    <string id="property.UsingCMSDBType.description" value="Tip bază de date CMS"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Bază de date (BD) de audit existentă"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Parolă BD de audit existentă"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Port BD de audit existentă"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Marcator de resetare BD de audit existentă: 0 sau 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Marcator de autentificare externă utilizare BD de audit existentă: 0 sau 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Server BD de audit existentă"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Nume de utilizator BD de audit existentă"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Bază de date (BD) CMS existentă"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Parolă BD CMS existentă"/>
+    <string id="property.ExistingCMSDBPort.description" value="Port BD CMS existent"/>
+    <string id="property.ExistingCMSDBReset.description" value="Marcator de resetare BD CMS existentă: 0 sau 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Marcator de autentificare externă utilizare BD CMS existentă: 0 sau 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Server BD CMS existentă"/>
+    <string id="property.ExistingCMSDBUser.description" value="Nume utilizator BD CMS existentă"/>
+    <string id="property.NewOrExpandInstall.description" value="Mod de instalare: nou, extins"/>
+    <string id="property.MySQLBOEUserName.description" value="Nume de utilizator bază de date grupată pt. utilizator platformă BI"/>
+    <string id="property.MySQLBOEUserPassword.description" value="Parolă bază de date grupată pt. utilizator platformă BI"/>
+    <string id="property.MySQLPort.description" value="Port conector bază de date grupată"/>
+    <string id="property.MySQLRootPassword.description" value="Parolă utilizator rădăcină bază de date grupată"/>
+    <string id="property.RemoteCMSAdminName.description" value="Nume administrator CMS la distanţă"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="Parolă administrator CMS la distanţă"/>
+    <string id="property.RemoteCMSName.description" value="Nume CMS la distanţă"/>
+    <string id="property.RemoteCMSPort.description" value="Port CMS la distanţă"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Omiteți avertizarea de conectare CMS la distanță"/>
+    <string id="property.MaintenanceMode.description" value="Operația de întreținere de efectuat"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Instalare bază de date integrată: 0 sau 1 "/>
+    <string id="property.SIAName.description" value="Nume nod SIA"/>
+    <string id="property.SIAPort.description" value="Port conector SIA"/>
+    <string id="property.TomcatConnectionPort.description" value="Port conexiune Tomcat"/>
+    <string id="property.TomcatRedirectPort.description" value="Port redirecţionare Tomcat"/>
+    <string id="property.TomcatShutdownPort.description" value="Port de oprire Tomcat"/>
+    <string id="property.WACSPort.description" value="Port WACS"/>
+    <string id="property.WebAppServerType.description" value="Tip server aplicaţie web: Tomcat, manual sau WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Nume server manager soluţie"/>
+    <string id="property.SolMgr_Port.description" value="Port server manager soluţie"/>
+    <string id="property.SolMgr_Username.description" value="Nume de utilizator pt. conectare la manager de soluţii"/>
+    <string id="property.SolMgr_Password.description" value="Parolă pt. conectare la manager de soluţii"/>
+    <string id="property.SolMgr_UseHttps.description" value="Utilizare HTTPS pt. conectare la manager de soluţii: 0 sau 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="Proprietate utilizată pt. menţinere şir pt, SharedAlwaysFailureMessage"/>
+    <string id="property.SMDAgent_HOST.description" value="Nume gazdă agent SMD"/>
+    <string id="property.SMDAgent_PORT.description" value="Număr port agent SMD"/>
+    <string id="property.UPGRADE.description" value="Marcator permitere upgradare silenţioasă: 0 sau 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Integrare agent Solution Manager Diagnostics (SMD): integrare sau fără integrare"/>
+    <string id="property.ChooseSLDIntegration.description" value="Integrare SLD: integrare sau fără integrare"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Integrare Introscope Enterprise Manager: integrare sau fără integrare"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Nume gazdă Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Număr port pt.Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Instrumentare Introscope Enterprise Manager"/>
+    <string id="property.NewOrExistingLCM.description" value="Instalare LCM nou sau utilizare existent: nou sau existent"/>
+    <string id="property.LCMName.description" value="Nume server LCM"/>
+    <string id="property.LCMUserName.description" value="Nume utilizator LCM"/>
+    <string id="property.LCMPassword.description" value="Parolă LCM"/>
+    <string id="property.LCMPort.description" value="Port LCM"/>
+    <string id="property.InstallType.description" value="Tip de instalare: implicită sau definită de utilizator"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Are utilizatorul drepturi administrative pt. condiţii preliminare Crystal Reports?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Director de instalare pt. instalare per computer pt. vizualizator Crystal Reports"/>
+    <string id="PatchUpdateCheck" value="Verificare actualizări de produs"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Nivel de patch pt.sistemul de operare"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Sistemul de operare nu atinge nivelul de patch minim necesar pentru instalarea acestui produs. Consultaţi documentaţia cu cerinţele de bază ale platformei."/>
+    <string id="prereq.pingLocalhost" value="Setări reţea"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Efectuare ping nereuşită pentru gazdă locală, 127.0.0.1, sau pentru numele de gazdă al computerului. Trebuie să configuraţi computerul pentru a le contacta înainte ca instalarea să poată continua. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Verificare spațiu pe disc"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Asigurați-vă că spațiul pe disc necesar este disponibil pentru a continua instalarea. Pentru informații suplimentare, consultați https://apps.support.sap.com/sap/support/pam."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Drepturi de administrator"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Trebuie să vă conectaţi cu un cont de utilizator care are drepturi administrative. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 sau o versiune ulterioară"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Instalați Microsoft .NET Framework 4.0 sau o versiune ulterioară."/>
+    <string id="prereq.RootUserPreReqText" value="Drepturi utilizator rădăcină"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Instalarea nu poate continua pe contul de utilizator rădăcină pe care sunteţi conectat. Trebuie să vă conectaţi pe un utilizator non-rădăcină pentru a instala produsul. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="Sistem de operare pe 64 de biţi"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Acest produs trebuie instalat pe un sistem de operare de 64 de biţi. Verificaţi dacă sistemul de operare respectă această cerinţă de bază. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Versiune Windows"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Acest produs trebuie instalat pe un sistem de operare (SO) Windows 8.1 sau Server 2012 R2 sau pe o versiune mai recentă. Verificaţi dacă sistemul dvs. de operare corespunde cu această cerinţă."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Versiune Windows"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Acest produs trebuie instalat pe Windows Server 2012 R2 sau pe o versiune mai recentă de Windows Server. Verificaţi dacă versiunea dvs. de Windows respectă aceste cerinţe."/>
+    <string id="prereq.SQLExpressPreReqText" value="Cerinţe bază de date integrată"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Instalaţi Microsoft .NET Framework 3.5 SP1 sau o versiune ulterioară şi Windows Installer 4.5."/>
+    <string id="prereq.SQLExpressRequirementText" value="Cerinţe pt.MS SQL Express"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express necesită Microsoft .NET Framework 3.5 SP1 şi Windows Installer 4.5. Instalaţi ambele pachete înainte de a încerca să instalaţi SQL Express."/>
+    <string id="prereq.PendingStatusPreReqText" value="Repornire suprimată"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="O cerere de repornire este suprimată pe computerul local. Reporniţi computerul pentru a continua această instalare. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Versiunea 4.x a produsului nu a fost instalată."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Versiunea 4.x a produsului a fost instalată."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Bază de date integrată - director principal"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Baza de date integrată necesită setarea a 755 drepturi de acces în directorul principal al utilizatorului. Trebuie să setaţi drepturile de acces înainte de a putea instala baza de date."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Bază de date integrată - directoare"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 necesită ca nici ~/sqllib, nici ~/$USER să existe. Trebuie să ştergeţi directoarele, dacă ele există, înainte ca baza de date DB2 integrată să fie instalată."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="#product.mini_bip_name# or #product.cr_server_name# nu poate fi instalat"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname# nu poate fi instalat pe acelaşi computer ca şi #product.mini_bip_name# sau #product.cr_server_name#.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="#product.boe64_name# sau #product.cr_server_name# nu poate fi instalat"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="Fie nu puteţi instala #productname#; #product.boe64_name#, fie #product.cr_server_name# este deja instalat INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="#product.ras_name# nu poate fi instalat"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname# nu poate fi instalat pe acelaşi computer ca şi #product.ras_name#.  INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="Compatibilitate între #product.IS_name# şi #product.DS_name#"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="Implementare SAP #product.DS_name# şi/sau #product.IS_name# a fost detectat pe computerul dvs. Înainte de a continua, citiţi nota SAP 1740516 (http://service.sap.com/sap/support/notes/1740516) pt. informaţii despre compatibilitate şi informaţii despre impactul acestor produse. INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Programul de configurare a găsit o instalare existentă şi trebuie să fie executat cu comanda UPGRADE=1. Acum se va ieşi din program."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Program de instalare nu poate continua pt.că o condiţie preliminară critică nu a fost îndeplinită."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="Central Management Server cu opţiune bază de date integrată este selectat, însă opţiunea este dezactivată deoarece cerinţele preliminare nu au fost respectate. Înainte ca instalarea să poată continua, trebuie să rezolvaţi următoarele cerinţe preliminare:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Utilizatorul curent nu are drepturi de acces administrative şi nu are permisiunea de a executa instalatorul."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Spaţiul pe disc în /tmp"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="Spaţiu liber insuficient în folderul /tmp. Trebuie să eliberaţi spaţiu înainte ca instalarea să poată continua. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Spaţiu pe disc în /var"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="Folderul /var nu are suficient spaţiu pe disc disponibil. Trebuie să puneţi la dispoziţie 20 MB sau mai mult de spaţiu pe disc înainte ca instalarea să poată continua."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Bază de date integrată - utilizator şi grup"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Denumire grup de utilizatori nereuşită din cauza unei restricţii DB2. Pentru informaţii, accesaţi http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 şi căutaţi &quot;restricţii ID utiliazator&quot;."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Bază de date integrată - UID şi GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2 necesită ca UID şi GID să fie mai mici de 65536. Trebuie să introduceţi un număr mai mic înainte de a putea utiliza baza de date DB2 integrată."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Bază de date integrată - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2 necesită ca gunzip să fie în calea de sistem. Trebuie să editaţi calea de sistem înainte de a putea utiliza baza de date DB2 integrată."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="BD grupată - îndeplineşte setări minime kernel HPUX pentru DB2"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Setări kernel nu îndeplinesc cerinţele minime pt.DB2"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013 nu este suportată în SUSE 11 şi versiuni ulterioare."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="Microsoft .NET Framework 3.5 sau o versiune ulterioară să fie necesară pentru BOE .NET SDK pe 64 de biţi. Trebuie să instalaţi .NET Framework înainte de a putea instala BOE .NET SDK pe 64 de biţi."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 sau o versiune ulterioară"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Instalaţi Microsoft .NET Framework 3.0 sau o versiune ulterioară."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime nu a fost găsit. Trebuie să îl instalaţi înainte ca această instalaţie să poată continua."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 sau o versiune ulterioară"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003 sau o versiune ulterioară nu a fost găsit. Trebuie să îl instalaţi înainte ca această instalare să poată continua."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Versiune minimă support package"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="Această actualizare este pt. #productname# #product_version##product_sp_version#, care nu a fost găsit pe sistem. Trebuie să îl instalaţi înainte ca această instalare să poată continua."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="Această actualizare este pt. #productname# #product_version##product_sp_version#, care nu a fost găsit pe sistem. Trebuie să îl instalaţi înainte ca această instalare să poată continua."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Actualizări pot fi aplicate"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# este o versiune mai recentă decât această actualizare. Nu continuaţi această actualizare."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Versiune minimă versiune minoră"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="Această actualizare este pt. #productname# #product_version#, care nu a fost găsit în sistem. Trebuie să îl instalaţi înainte ca această instalare să poată continua."/>
+    <string id="prereq.OEMInstalledPreReqText" value="#productname_short# #productname_preversion# customizat instalat"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="Această actualizare este pt. #productname_short# #productname_preversion# definit de utilizator, care nu a fost găsit în sistem. Trebuie să îl instalaţi înainte ca această instalare să poată continua."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Instalare produs compatibil"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Acest produs este deja instalat şi este disponibil pt. utilizatori."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Serviciu de instalare Windows"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Instalarea a fost întreruptă deoarece Serviciul de instalare Windows este dezactivat (tip pornire=dezactivat) sau nu este disponibil. Trebuie să îl instalaţi şi să activaţi serviciul înainte ca această instalare să poată continua."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="Pentru a finaliza actualizarea clusterului, după ce instalarea este încheiată pe toate computerele din cluster, reporniţi fiecare Central Management Server (CMS). Trebuie să vă conectaţi la Central Management Console pentru a reporni CMS-urile."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Conectaţi-vă la Central Management Console (CMC) pt. a continua configurarea sistemului. Pentru a porni CMC, selectaţi Start &gt; #product.boe64_name# &gt; Central Management Console."/>
+    <string id="postinstall.message.manualdeploy.common" value="Aplicaţiile web şi serviciile web Java nu au fost implementate pe un server de aplicaţii web. Executaţi instrumentul wDeploy pt. a implementa aplicaţiile web şi serviciile web Java."/>
+    <string id="postinstall.message.manualdeploy.windows" value="Pt. lansarea instrumentului wDeploy, selectaţi Start &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy."/>
+    <string id="postinstall.message.manualdeploy.unix" value="Instrumentul wDeploy este localizat la [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="Pt. finalizarea instalării sistemului, executaţi următorul script cu permisiuni root: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Trebuie să definiţi URL-ul vizualizatorului implicit pt. OpenDocument. Acest computer nu este înregistrat ca server implicit de aplicaţii web pentru gestiunea cererilor de vizualizare documente. E posibil să trebuiască să îl înregistraţi ca server implicit de aplicaţii web pe Central Management Server. Utilizaţi Central Management Console pt. a edita pagina de proprietăţi OpenDocument."/>
+    <string id="PostInstall.message.monitoring" value="Pt. a accesa instrumentul de monitorizare pt. execuţia testelor de diagnoză, conectaţi-vă la Central Management Console, faceţi click pe Monitorizare şi deschideţi tabul Analize."/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}RESTful Web Services{/b} şi {b}Insight to Action Framework{/b} sunt caracteristici noi puse la dispoziţie în această actualizare. Pentru a activa funcţiile, efectuaţi o modificare a instalării de bază şi adăugaţi noile caracteristici."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful Web Services:{/b} SDK serviciu web RESTful platformă Business Intelligence vă permite să accesaţi platforma BI via protocolul HTTP. Puteţi utiliza SDK-ul pentru a vă conecta la platformă, a naviga la repository-ul platformei BI, a accesa resursele şi a efectua programarea de bază a resurselor. Această caracteristică este necesară pt. a salva modelele de tablouri de bord şi documentele Live Office în repository după actualizare."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action Framework:{/b} Insight to Action Framework vă permite să invocaţi tranzacţii operaţionale în aplicaţii SAP şi non-SAP care sunt definite via interfaţa raport-raport în NetWeaver. Această caracteristică este suportată de tablourile de bord Crystal Reports şi BusinessObjects."/>
+    <string id="postInstall.message.new.features.announce.unix" value="RESTful Web Services şi Insight to Action Framework sunt caracteristici noi puse la dispoziţie în această actualizare. Pentru a activa funcţiile, efectuaţi o modificare a instalării de bază şi adăugaţi noile caracteristici."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful Web Services: SDK serviciu web RESTful platformă Business Intelligence vă permite să accesaţi platforma BI via protocolul HTTP. Puteţi utiliza SDK-ul pentru a vă conecta la platformă, a naviga la repository-ul platformei BI, a accesa resursele şi a efectua programarea de bază a resurselor. Această caracteristică este necesară pt. a salva modelele de tablouri de bord şi documentele Live Office în repository după actualizare."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action Framework: Insight to Action Framework vă permite să invocaţi tranzacţii operaţionale în aplicaţii SAP şi non-SAP care sunt definite via interfaţa raport-raport în NetWeaver. Această caracteristică este suportată de tablourile de bord Crystal Reports şi BusinessObjects."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Instalatorul a găsit MySQL client 5.0, care nu mai este suportat, drept conexiune la baza de date. Trebuie să faceţi upgrade la MySQL client 5.1 pt. a vă asigura că sistemul dvs. va continua să fie suportat."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile Servers este o caracteristică nouă care oferă acces la datele Business Intelligence de pe dispozitive mobile. Pt. a activa această caracteristică, efectuaţi o modificare a instalării de bază şi selectaţi Mobile Servers."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Tomcat grupat este actualizat la Tomcat 9. Orice setare definită de utilizator pe care ați aplicat-o pentru Tomcat este migrată de la versiunea veche de Tomcat 9. Totuși, vă recomandăm cu tărie să validați dacă setările definite de utilizator sunt disponibile în Tomcat 9."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value=" SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Pachet de întreţinere: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Pachet de întreţinere: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Pachet întreținere: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Pachet de întreţinere\n\n"/>
+    <string id="product.boe64_name" value="Platforma BI SAP BusinessObjects"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="Server platformă BI "/>
+    <string id="product.boec_bip_name" value="Platforma BI SAP BusinessObjects"/>
+    <string id="product.boec_client_name" value="Instrumente client"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="Client platformă BI"/>
+    <string id="product.boeruntime_name" value="Platforma BI SAP BusinessObjects.NET SDK redistribuibilă"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="Vizualizator SAP Crystal Reports 2020"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Servicii de date"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="Add-on BI SAP BusinessObjects pt. SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="Add-on BI pt. SAP Lumira"/>
+    <string id="product.mini_bip_name" value="Servicii platformă de informaţii"/>
+    <string id="product.mini_bip_shortname" value="Servicii platformă de informaţii"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="Integrare SAP pt.Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Opţiune de integrare pt.software Microsoft SharePoint"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="Ediţie OEM"/>
+    <string id="product.ras_shortname" value="Server de aplicaţii de rapoarte"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="Platformă BI 4 SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.minibip" value="Servicii platformă de informaţii 4"/>
+    <string id="shortcut.folder.name.boclient" value="Instrumente client platformă BI 4 SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM Edition"/>
+    <string id="shortcut.folder.name.crv" value="Vizualizator SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Pornire, oprire şi servicii de configurare platformă"/>
+    <string id="shortcut.link.name.boserver.CMC" value="Central Management Console platformă BI SAP BusinessObjects"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="Central Management Console WACS platformă BI SAP BusinessObjects"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="Central Management Console SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="Central Management Console WACS SAP Crystal Server"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Central Management Console servicii platformă de informaţii"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Central Management Console WACS servicii platformă de informaţii"/>
+    <string id="shortcut.link.description.CMC" value="Access Management Console"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="Launchpad platformă SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="Launch Pad BI WACS platformă BI SAP BusinessObjects"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="Launch Pad BI Java SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="Launch Pad BI WACS SAP Crystal Server"/>
+    <string id="shortcut.link.description.BILaunchpad" value="Pornire Launch Pad BI"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Instrument de gestiune upgrade"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Efectuare upgrade pt. implementări anterioare la platformă BI 4 SAP BusinessObjects"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Promotion Management Wizard"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="Export, import și copiere conținut CMS pt. implementări 4.x via o interfață de utilizator etapă cu etapă."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Upgrade implementări anterioare la SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Efectuare upgrade pt. implementări anterioare la servicii platformă de informaţii 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="Administrator sursă de date ODBC de 32 de biţi"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="Administrator sursă de date ODBC"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Adăugare, eliminare şi configurare surse de date şi driveri Open Database Connectivity (ODBC)"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Documentaţie online"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Accesare documentaţie online"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Administraţie Tomcat"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Accesare administraţie Tomcat"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Configuraţie Tomcat"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Accesare configuraţie Tomcat"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="Pornire instrument wDeploy"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widgeturi"/>
+    <string id="shortcut.link.description.BIWidgets" value="Pornire widgeturi"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Manager imagini activitate"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Pornire Manager imagini activitate"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Instrument de administrare Data Federation"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Porneşte instrumentul de administrare federaţie de date"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Instrument de design informaţii"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Porneşte instrumentul de design informaţii"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Designer Query As a Web Service"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Porneşte designer Query As a Web Service"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Instrument de conversie raport"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Porneşte instrument de conversie raport"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Instrument de gestiune traducere"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Porneşte instrument de gestiune traducere"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Instrument de design univers"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Porneşte instrumentul de design univers"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Porneşte Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Lansează Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Creează şi modifică rapoarte de date formatate (.RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Asistent pt. încărcare rapoarte"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Porneşte asistent pt. încărcare rapoarte"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="Vizualizator SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRViewer" value="Vizualizare rapoarte de date formatate (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Launch pad server de aplicaţii de rapoarte"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Pornire launch pad server de aplicaţii de rapoarte"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Pornire Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Pornire Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Pornire Dashboards Add-on Packager"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Lansează SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Lansează SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects consolă de administrare BI WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects consolă de administrare BI"/>
+    <string id="shortcut.link.description.ADC" value="Accesare consolă de administrare"/>
+    <string id="OverhangingPatchMessage" value="Dacă instalarea continuă, e posibil ca unele reparări să fie eliminate din sistem. Asiguraţi-vă că instalaţi un pachet compatibil."/>
+    <string id="Installing41PatchOver40" value="Creaţi manual o copie de rezervă a sistemului 4.0 actual înainte de a continua. Nu puteţi dezinstala actualizarea 4.1 după ce ea este aplicată. Dacă va trebui să recuperaţi starea de sistem, trebuie să utilizaţi copia de rezervă."/>
+    <string id="Block41PatchUninstall" value="Actualizarea 4.1 nu poate fi dezinstalată în mod automat. Pt. a reveni la starea de sistem 4.0, eliminaţi binarele existente şi utilizaţi copia de backup 4.0 pe care aţi creat-o pentru a reinstaura sistemul 4.0."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# necesită o cheie de licenţă nouă. Descărcaţi cheia de licenţă nouă de la SAP Service Market Place; ştergeţi cheia de licenţe veche şi adăugaţi cheia de licenţă nouă în Central Management Console. Pt. mai multe informaţii, consultaţi documentaţia."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="Câteva produse și caracteristici au fost învechite în #product.fullproductnamenospace#. You should perform the prescribed actions as mentioned in the SAP Note 2801797 after the update."/>
+    <string id="DeployLaterDescription" value="Mod implementare aplicaţie web"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Versiune supraordonată de patch pt. hotfix instalată"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Acest hotfix este pt. #productname# #product_version# #product_sp_version# Patch #patch_id#. Trebuie să instalaţi patch-ul înainte ca această instalare să poată continua.Verificaţi Nota SAP 2257993 pentru mai multe detalii."/>
+  </context>
+</uitext>

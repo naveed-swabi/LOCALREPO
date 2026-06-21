@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Действия после установки"/>
+<string id="PostInstallDetails" value="Установка завершена. Следуйте инструкции после установки внизу для завершения развертывания."/>
+<string id="PostUninstallSteps" value="Действия после удаления"/>
+<string id="PostUninstallDetails" value="Удаление практически завершено. Следуйте инструкции внизу для завершения процесса."/>
+<string id="PostInstallStep_Header" value="{b}Инструкции по действиям после установки:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Инструкции по действиям после установки:"/>
+<string id="PostUninstallStep_Header" value="{b}Инструкции :{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Инструкции по действиям после удаления:"/>
+<string id="CRPostInstallUIText1" value="Регистрация продукта{br}Зарегистрируйте продукт, щелкнув {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}здесь{/a}. "/>
+<string id="PostInstallStep_Footer" value="Установка завершена. Чтобы продолжить, нажмите []Enter]"/>
+<string id="PostUnInstallStep_Footer" value="Удаление завершено. Чтобы продолжить, нажмите []Enter]"/>
+</context>
+</uitext>

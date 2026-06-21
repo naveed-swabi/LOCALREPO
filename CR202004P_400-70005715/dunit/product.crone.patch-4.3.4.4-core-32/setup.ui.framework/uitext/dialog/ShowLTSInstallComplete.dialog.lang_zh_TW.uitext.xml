@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# 已成功安裝。"/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# 在安裝程序期間發生錯誤。"/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# 在解除安裝程序期間發生錯誤。"/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# 已成功解除安裝。"/>
+<string id="Description" value="按一下 [完成] 以完成此安裝並啟動應用程式。"/>
+<string id="CustomDescription" value="按一下 [完成] 以完成此安裝。"/>
+<string id="FailedDescription" value="按一下 [完成] 以結束此安裝。"/>
+<string id="Description_unix" value="按 []Ctrl-B] 返回，或按 []Enter] 以結束此安裝。"/>
+<string id="FailedDescription_unix" value="按 []D] 以取得詳細資料，或按 []Enter] 以結束此安裝。"/>
+<string id="CustomNextButton" value="完成"/>
+<string id="ViewLogButton" value="檢視記錄"/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Meglévő CMS-implementáció adatai"/>
+<string id="SpecifyRemoteCMS" value="Adja meg a meglévő CMS-implementáció CMS- és adminisztrátori bejelentkezési adatait."/>
+<string id="RemoteCMSConnectionInfo" value="Meglévő CMS kapcsolatadatai"/>
+<string id="RemoteCMSName" value="CMS-név"/>
+<string id="RemoteCMSPort" value="CMS-port"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS-adminisztrátor bejelentkezési adatai"/>
+<string id="RemoteCMSUser" value="Felhasználó"/>
+<string id="RemoteCMSPassword" value="Jelszó"/>
+<string id="ErrRemoteCMSConnectionInfo" value="A távoli CMS nem érhető el, vagy a bejelentkezési hitelesítő adatok helytelenek. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="A távoli CMS nem érhető el, vagy a bejelentkezési hitelesítő adatok helytelenek. INS00013\nSzeretné újból megadni a hitelesítő adatokat?"/>
+<string id="Invalid_SymbolInCMSPassword" value="A záró fordított perjel (például: xxx\) és a következő karakterek nincsenek engedélyezve a CMS-jelszóban:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="A záró fordított perjel (például: xxx\) és a következő karakterek nincsenek engedélyezve a CMS-jelszóban:  &quot;  '  INS00099"/>
+</context>
+</uitext>

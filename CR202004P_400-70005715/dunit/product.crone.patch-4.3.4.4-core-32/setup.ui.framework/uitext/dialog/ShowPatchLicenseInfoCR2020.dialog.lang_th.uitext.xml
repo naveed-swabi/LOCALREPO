@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="NewLicensePatchAgreement" value="ข้อกำหนดของคีย์การให้สิทธิ์ใช้งานใหม่"/>
+<string id="YouMustAgree" value="ต้องใช้คีย์การให้สิทธิ์ใช้งานใหม่สำหรับ #product.fullproductnamenospace#update"/>
+<string id="IAccept" value="ฉันอ่านเอกสารอ้างอิงนี้และเข้าใจกระบวนการขอคีย์การให้สิทธิ์ใช้งานใหม่แล้ว ฉันตกลงที่จะเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่หลังจากการติดตั้งการอัปเดต"/>
+<string id="subtitle1" value="สำหรับ SAP Crystal Reports ที่ซื้อโดยเป็นส่วนหนึ่งของ SAP Business Intelligence Platform คุณสามารถไปที่ลิงค์ด้านล่างแล้วเรียนรู้วิธีการขอคีย์การให้สิทธิ์ใช้งานใหม่"/>
+<string id="subtitle2" value="สำหรับ SAP Crystal Reports ที่ซื้อต่างหาก คุณควรไปที่ร้านค้าของ SAP แล้วซื้อคีย์การให้สิทธิ์ใช้งานแบบอัปเกรด"/>
+<string id="subtitle3" value="คุณต้องป้อนคีย์การให้สิทธิ์ใช้งานใหม่ลงในโปรแกรมจัดการสิทธิ์ใช้งานเมื่อคุณเริ่มใช้งานแอปพลิเคชันหลังจากการติดตั้งการอัปเดต"/>
+</context>
+</uitext>

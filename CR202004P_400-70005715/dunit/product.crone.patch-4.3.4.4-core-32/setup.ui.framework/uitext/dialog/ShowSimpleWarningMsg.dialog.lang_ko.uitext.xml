@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="ko"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10에는 호환되는 Data Services 버전이 없습니다. 랜드스케이프에 Data Services가 설치된 경우 설치를 계속하지 마십시오.\n\n\n 설치를 계속하려면 '확인'을 클릭하십시오.\n 또는 지금 설치를 안전하게 종료하려면 '설치 끝내기'를 클릭합니다."/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10에는 호환되는 Data Services 버전이 없습니다. 랜드스케이프에 Data Services가 설치된 경우 설치를 계속하지 마십시오."/>
+<string id="ExitMessage" value="끝내려면 Ctrl+X를, 계속하려면 Enter를 누르십시오."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

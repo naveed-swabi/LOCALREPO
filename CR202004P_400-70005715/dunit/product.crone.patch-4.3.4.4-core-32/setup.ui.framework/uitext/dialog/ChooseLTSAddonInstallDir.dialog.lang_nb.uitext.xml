@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Konfigurer målmappe"/>
+<string id="ChooseInstallDirSubtitle" value="Angi hele målbanen der produktet skal installeres."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Angi hele målbanen der produktet skal installeres."/>
+<string id="DestinationFolderGroupBox" value="Målmappeinformasjon"/>
+<string id="DestinationFolder" value="Målmappe:"/>
+<string id="Browse" value="Bla gjennom"/>
+<string id="BrowseInstallDirectory" value="Velg en installasjonsplassering"/>
+<string id="DirGenericError" value="Målmappen er ugyldig. Velg en annen målmappe. INS00029"/>
+<string id="DirNetworkError" value="Målmappen kan ikke være en nettverksplassering. Velg en annen plassering."/>
+<string id="DirEmptyError" value="Du må velge en målmappe. INS00029"/>
+<string id="DirAbsolutePathError" value="Målmappen må være en fullstendig bane. INS00029"/>
+<string id="DirInvalidCharWinError" value="Målmappen kan bare bruke tall, bokstaver eller de følgende tegnene: _ - . \ ( ) INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Målmappebanen er for lang. Bruk en bane som inneholder færre enn 150 tegn. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Målmappen inneholder et inkompatibelt produkt. Velg en annen plassering. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Ugyldig installasjonskatalog. Bruk en gyldig absolutt bane som inneholder bare alfanumeriske tegn eller hvilke som helst av de følgende: _ - \ . ( ). Katalogen må ligge på en fast disk og den fullstendige banen kan ikke inneholde mer enn 150 tegn. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Ugyldig installasjonskatalog. Bruk en gyldig absolutt bane som du også har lese-, skrive- og utføringstillatelser til. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Installasjonskatalogen kan ikke inneholde mellomrom."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Følgende tegn er ikke tillatt i installasjonskatalogen: &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Trykk på []Tab] hvis du vil fylle ut katalogelementer, []Ctrl-X] hvis du vil avslutte eller []Enter] hvis du vil fortsette."/>
+</context>
+</uitext>

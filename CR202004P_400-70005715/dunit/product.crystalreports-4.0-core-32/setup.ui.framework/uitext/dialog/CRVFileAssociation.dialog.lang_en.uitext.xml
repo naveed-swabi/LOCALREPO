@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="DlgTitle" value="File Association"/>
+<string id="DlgSummary" value="Setting default Crystal Report viewer application."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer is not currently your default Crystal report viewer. Would you like to make it your default viewer?"/>
+<string id="Yes" value="Yes"/>
+<string id="No" value="No"/>
+</context>
+</uitext>

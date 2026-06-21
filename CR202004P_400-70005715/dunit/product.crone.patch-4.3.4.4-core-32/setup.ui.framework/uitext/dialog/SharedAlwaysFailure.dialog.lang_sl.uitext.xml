@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Nadaljevanje namestitve ni možno"/>
+<string id="ExpandInstallMessage_2" value="Opišite težave, ki so blokirale namestitev"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Pritisnite CTRL-X za izhod iz namestitve"/>
+<string id="AlwaysFailureGeneralMessage" value="Namestitve ni možno nadaljevati\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Verificați dacă calea de instalare specificată este corectă pentru terminarea cu succes a instalației prevăzute. \n\n Pentru instalare nouă – Director de fișiere nou. \n Pentru instalare patch – director de fișiere cu instalare versiune anterioară #productname#. \n\n\n Faceți click pe OK pentru a continua sau click pe Terminare pentru a reintroduce calea corectă de instalare. \n"/>
+<string id="ExitMessage" value="Apăsați Ctrl+X pt. a ieșir sau Enter pt. a continua."/>
+<string id="WarnDialogTitle" value="DIALOG INFORMAȚII"/>
+<string id="WarnDialogSubtitle" value="Informații : "/>
+</context>
+</uitext>

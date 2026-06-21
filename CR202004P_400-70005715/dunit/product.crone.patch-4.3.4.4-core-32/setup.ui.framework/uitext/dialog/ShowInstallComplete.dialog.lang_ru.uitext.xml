@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="Message" value="Приложение #product.fullproductnamenospace# установлено успешно."/>
+<string id="InstallFailedMessage" value="В процессе установки #product.fullproductnamenospace# обнаружены ошибки."/>
+<string id="UninstallFailedMessage" value="В процессе удаления #product.fullproductnamenospace# обнаружены ошибки."/>
+<string id="UninstallMessage" value="Приложение #product.fullproductnamenospace# удалено успешно."/>
+<string id="InstallationWithWarnings" value="Приложение #product.fullproductnamenospace# установлено успешно с предупреждениями."/>
+<string id="Description" value="Нажмите &quot;Готово&quot; для выхода из процесса установки."/>
+<string id="FailedDescription" value="Нажмите &quot;Готово&quot; для выхода из процесса установки."/>
+<string id="Description_unix" value="Нажмите []Ctrl-B] для возврата назад или []Enter] для выхода из программы установки."/>
+<string id="Customized_Description_unix" value="Нажмите []Enter] для выхода из программы установки."/>
+<string id="FailedDescription_unix" value="Нажмите []П] для просмотра дополнительных сведений или []Enter] для выхода из программы установки."/>
+<string id="CustomNextButton" value="Завершение"/>
+<string id="ViewLogButton" value="Просмотреть журнал"/>
+<string id="HyperlinkText" value="Щелкните здесь для получения подробностей"/>
+</context>
+</uitext>

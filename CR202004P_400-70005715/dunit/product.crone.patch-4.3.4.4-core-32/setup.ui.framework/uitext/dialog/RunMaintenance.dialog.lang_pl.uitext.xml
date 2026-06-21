@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Określono nieprawidłowy tryb konserwacji. Dopuszczalne wartości to Modyfikuj, Napraw lub Usuń"/>
+<string id="ChooseMaintenanceMode" value="Konserwacja aplikacji"/>
+<string id="SelectMaintenanceMode" value="Wybierz operację konserwacji do wykonania. Pomoc w rozwiązywaniu problemów można uzyskać pod następującym adresem: http://support.sap.com."/>
+<string id="SelectMaintenanceMode_win" value="Wybierz operację konserwacji do wykonania."/>
+<string id="Modify" value="Modyfikuj"/>
+<string id="ModifyDescription" value="Umożliwia zmianę zainstalowanych funkcji aplikacji. Powoduje wyświetlenie okna dialogowego Wybór funkcji, w którym można skonfigurować poszczególne funkcje."/>
+<string id="Repair" value="Napraw"/>
+<string id="RepairDescription" value="Umożliwia ponowne zainstalowanie brakujących lub uszkodzonych plików, kluczy rejestru i skrótów. Preferencjom zapisanym w rejestrze mogą zostać przywrócone wartości domyślne."/>
+<string id="Remove" value="Usuń"/>
+<string id="RemoveDescription" value="Odinstaluj produkt #product.nameonly# z tego komputera."/>
+<string id="Invalid_Maintenance_Mode" value="Nieprawidłowy typ trybu konserwacji ([MaintenanceMode]) — powinna to być wartość modify (modyfikuj), repair (napraw) lub remove (usuń). INS00283"/>
+<string id="HyperLinkMaint" value="Pomoc w rozwiązywaniu problemów można uzyskać w następującym miejscu: "/>
+</context>
+</uitext>

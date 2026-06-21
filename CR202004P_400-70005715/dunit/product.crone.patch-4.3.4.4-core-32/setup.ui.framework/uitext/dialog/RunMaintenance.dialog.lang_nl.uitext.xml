@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Onbekende onderhoudsmodus opgegeven. Geldige waarden zijn: Bewerken, Herstellen of Verwijderen"/>
+<string id="ChooseMaintenanceMode" value="Toepassingsonderhoud"/>
+<string id="SelectMaintenanceMode" value="Selecteer de uit te voeren onderhoudsbewerking. Ga naar http://support.sap.com voor hulp bij probleemoplossing."/>
+<string id="SelectMaintenanceMode_win" value="Selecteer de uit te voeren onderhoudsbewerking."/>
+<string id="Modify" value="Wijzigen"/>
+<string id="ModifyDescription" value="Wijzigen welke functies van de toepassing worden geïnstalleerd. Hiermee wordt het dialoogvenster Functies selecteren weergegeven, waarin u afzonderlijke functies kunt configureren."/>
+<string id="Repair" value="Herstellen"/>
+<string id="RepairDescription" value="Ontbrekende of beschadigde bestanden, registersleutels en snelkoppelingen opnieuw installeren. In het register opgeslagen voorkeuren worden mogelijk teruggezet naar standaardwaarden."/>
+<string id="Remove" value="Verwijderen"/>
+<string id="RemoveDescription" value="#product.nameonly# van deze computer verwijderen."/>
+<string id="Invalid_Maintenance_Mode" value="Ongeldig type Invalid MaintenanceMode ([MaintenanceMode]): moet 'modify', 'repair' of 'remove' zijn. INS00283"/>
+<string id="HyperLinkMaint" value="Ga voor hulp bij probleemoplossing naar:"/>
+</context>
+</uitext>

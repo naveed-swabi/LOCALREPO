@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ChooseDestination" value="De doelmap opgeven"/>
+<string id="SpecifyDestination" value="In de doelmap wordt het product geïnstalleerd. Klik op 'Bladeren' om een andere locatie te selecteren."/>
+<string id="DestinationFolder" value="Doelmap"/>
+<string id="Browse" value="Bladeren"/>
+<string id="BrowseInstallDirectory" value="Een installatielocatie kiezen"/>
+<string id="PWClientFolderTitle" value="Doelmap van client"/>
+<string id="PWServerFolderTitle" value="Doelmap op server"/>
+<string id="Invalid_InstallDirWindows" value="Ongeldige installatiemap. Gebruik een geldig absoluut pad dat alleen alfanumerieke tekens of de volgende tekens bevat: _ - \ . ( ). De map moet zich bevinden op een vast station en het volledige pad mag niet meer dan 150 tekens bevatten. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Ongeldige installatiemap. Gebruik een geldig absoluut pad waarvoor u ook lees-, schrijf- en uitvoerrechten hebt. INS00029"/>
+</context>
+</uitext>

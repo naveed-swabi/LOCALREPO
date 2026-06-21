@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="th"/>
+  <context>
+    <string id="Yes" value="ใช่"/>
+    <string id="No" value="ไม่ใช่"/>
+    <string id="Ok" value="ตกลง"/>
+    <string id="Cancel" value="ยกเลิก"/>
+    <string id="Abort" value="ยุติการทำงาน"/>
+    <string id="Continue" value="ดำเนินการต่อ"/>
+    <string id="Ignore" value="ละเว้น"/>
+    <string id="Next" value="ถัดไป"/>
+    <string id="Previous" value="ย้อนกลับ"/>
+    <string id="Info" value="ข้อมูล"/>
+    <string id="Warning" value="คำเตือน"/>
+    <string id="Error" value="ข้อผิดพลาด"/>
+    <string id="FatalError" value="ข้อผิดพลาดร้ายแรง"/>
+    <string id="ErrorDialogTitle" value="ข้อผิดพลาด"/>
+    <string id="ErrorDialogSubtitle" value="เกิดข้อผิดพลาดขึ้น"/>
+    <string id="ErrorDialogFooter" value="กด Enter เพื่อดำเนินการต่อ"/>
+    <string id="WarnDialogTitle" value="คำเตือน"/>
+    <string id="WarnDialogSubtitle" value="มีคำเตือน"/>
+    <string id="WarnDialogFooter" value="กด Ctrl+B เพื่อย้อนกลับ หรือกด Enter เพื่อดำเนินการต่อ"/>
+    <string id="InfoDialogTitle" value="ข้อมูล"/>
+    <string id="InfoDialogSubtitle" value="มีข้อมูลดังต่อไปนี้ให้:"/>
+    <string id="InfoDialogFooter" value="กด Enter เพื่อดำเนินการต่อ"/>
+    <string id="DefaultUnixFooter" value="กด Tab เพื่อไปยังฟิลด์ถัดไป กด Ctrl+B เพื่อไปยังฟิลด์ก่อนหน้า กด Ctrl+X เพื่อจบการทำงาน หรือกด Enter เพื่อดำเนินการต่อ"/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="กด Tab เพื่อไปยังฟิลด์ถัดไป กด Ctrl+X เพื่อจบการทำงาน หรือกด Enter เพื่อดำเนินการต่อ"/>
+    <string id="ProgressDialogUnixFooter" value="กด Ctrl+X เพื่อจบการทำงาน"/>
+    <string id="CancelCaption" value="ยกเลิก"/>
+    <string id="CancelExitSetup" value="ออกจากการติดตั้ง"/>
+    <string id="CancelMsg" value="ถ้าคุณจบการทำงานในตอนนี้ โปรแกรมจะไม่ได้รับการติดตั้ง คุณสามารถรันโปรแกรมติดตั้งได้ในภายหลังเพื่อดำเนินการติดตั้งให้เสร็จสมบูรณ์\nเมื่อต้องการดำเนินการติดตั้งต่อ ให้คลิก ดำเนินการต่อ เมื่อต้องการออกจากการติดตั้ง ให้คลิก ออกจากการติดตั้ง"/>
+    <string id="CancelResume" value="ดำเนินการต่อ"/>
+    <string id="DialogCaption" value="การติดตั้ง #product.fullproductnamenospace#"/>
+    <string id="outofspace" value="พื้นที่ว่างบนดิสก์ไม่เพียงพอ"/>
+    <string id="CanceledModifier" value="%1 (กำลังยกเลิก)"/>
+    <string id="ValidationCaption" value="ผลการตรวจสอบ"/>
+    <string id="ValidationError" value="ข้อผิดพลาด:"/>
+    <string id="ValidationToDo" value="คลิก ตกลง เพื่อแก้ไขข้อผิดพลาดจากการตรวจสอบ ถ้ามีเฉพาะคำเตือนเท่านั้น คุณสามารถคลิก ใช่ เพื่อดำเนินการต่อ หรือคลิก ไม่ใช่ เพื่อแก้ไขข้อผิดพลาดนั้น"/>
+    <string id="ValidationWarning" value="คำเตือน:"/>
+    <string id="Validation.MissingFields" value="ต้องระบุฟิลด์ที่จำเป็นก่อนจึงจะสามารถดำเนินการติดตั้งต่อได้"/>
+    <string id="ValidationFailed.Blocking" value="ไม่มีความคืบหน้าเนื่องจากการดำเนินการต่อไปนี้ไม่ได้รับการตรวจสอบ: "/>
+    <string id="ValidationFailed.Optional" value="การตรวจสอบแบบเลือกได้สำหรับการดำเนินการต่อไปนี้ไม่สำเร็จ: "/>
+    <string id="action.InstallDUBundle" value="กำลังติดตั้งหน่วยการปรับใช้:"/>
+    <string id="action.UninstallDUBundle" value="กำลังถอนการติดตั้งหน่วยการปรับใช้:"/>
+    <string id="action.RegisterBinary" value="ลงทะเบียนไบนารี"/>
+    <string id="action.UnregisterBinary" value="ถอนการลงทะเบียนไบนารี"/>
+    <string id="action.ConfigureTomcat" value="กำลังกำหนดค่า Tomcat"/>
+    <string id="action.BOBJTextReplace" value="ดำเนินการแทนที่ข้อความ"/>
+    <string id="action.RunCommand" value="รันไฟล์ปฏิบัติการของบรรทัดคำสั่ง"/>
+    <string id="action.RunCommandConditional" value="รันไฟล์ปฏิบัติการของบรรทัดคำสั่งตามเงื่อนไขบางอย่าง"/>
+    <string id="action.EnsureFolderExists" value="ตรวจสอบให้แน่ใจว่ามีโฟลเดอร์อยู่"/>
+    <string id="action.CreateShortcut" value="สร้างช็อตคัทเมนู 'เริ่ม'"/>
+    <string id="action.AddARPEntry" value="เพิ่มรายการ 'เพิ่ม/เอาโปรแกรมออก'"/>
+    <string id="action.RemoveARPEntry" value="เอารายการ 'เพิ่ม/เอาโปรแกรมออก' ออก"/>
+    <string id="action.BOBJRegasm" value="รันการลงทะเบียนแอสเซมบลี"/>
+    <string id="action.BOBJUnRegasm" value="เอาการลงทะเบียนแอสเซมบลีออก"/>
+    <string id="sequence.InstallPreReqs" value="ติดตั้งข้อกำหนดเบื้องต้น"/>
+    <string id="sequence.SetInitialProperties" value="ตั้งค่าคุณสมบัติเริ่มต้น"/>
+    <string id="sequence.SetMyProperties" value="ตั้งค่าคุณสมบัติผลิตภัณฑ์"/>
+    <string id="sequence.InstallDUBase" value="ติดตั้งการดำเนินการ"/>
+    <string id="sequence.InstallDUBundles" value="ติดตั้งหน่วยการปรับใช้"/>
+    <string id="sequence.CreateSymLinks" value="สร้างลิงค์อ้างอิง"/>
+    <string id="sequence.ConfigureDUBase" value="กำหนดค่าหน่วยการปรับใช้"/>
+    <string id="sequence.PopulateRegistry" value="ป้อนข้อมูลรีจิสทรี"/>
+    <string id="sequence.InstallServices" value="ติดตั้งบริการ"/>
+    <string id="sequence.ConfigureServices" value="กำหนดค่าบริการ"/>
+    <string id="sequence.StartServices" value="เริ่มบริการ"/>
+    <string id="sequence.StopServices" value="หยุดบริการ"/>
+    <string id="sequence.UninstallServices" value="ถอนการติดตั้งบริการ"/>
+    <string id="sequence.UnPopulateRegistry" value="ยกเลิกการป้อนข้อมูลรีจิสทรี"/>
+    <string id="sequence.UninstallDUBase" value="ถอนการติดตั้งการดำเนินการ"/>
+    <string id="sequence.UnconfigureDUBase" value="ยกเลิกการกำหนดค่าหน่วยการปรับใช้"/>
+    <string id="sequence.RemoveSymLinks" value="เอาลิงค์อ้างอิงออก"/>
+    <string id="sequence.UninstallDUBundles" value="ถอนการติดตั้งหน่วยการปรับใช้:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="ลบโฟลเดอร์ที่ไม่มีข้อมูล"/>
+    <string id="Dialog.title" value="ข้อความการติดตั้ง"/>
+    <string id="PleaseWait" value="รอสักครู่..."/>
+    <string id="LongCalculation" value="กำลังคำนวณระยะเวลาที่ต้องใช้ โปรดรอสักครู่..."/>
+    <string id="DiskCostInProgress" value="กำลังคำนวณพื้นที่ดิสก์ที่ต้องใช้"/>
+    <string id="Confirm.title" value="ยืนยัน"/>
+    <string id="Permissions.title" value="สิทธิ์ในการติดตั้ง"/>
+    <string id="NoPermissionsOperation" value="คุณไม่มีสิทธิ์ในการดำเนินการที่เกี่ยวข้องกับการติดตั้งนี้"/>
+    <string id="NoPermissionsFile" value="คุณไม่มีสิทธิ์เข้าถึงไฟล์ต่อไปนี้: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Installer ตรวจพบว่ามีการติดตั้ง #productname# เวอร์ชันที่เก่ากว่าไว้แล้ว ซึ่งไม่สามารถนำแพคเกจการติดตั้งแบบเต็มนี้ไปใช้ได้ในกรณีที่มีการติดตั้งเวอร์ชันที่เก่ากว่าไว้แล้ว โปรดใช้แพคเกจดูแลรักษาสำหรับ #product.fullproductname# เพื่ออัปเดตการติดตั้งปัจจุบันของคุณ"/>
+    <string id="OlderCryptoDllFound" value="Installer ตรวจพบตัวแปรระบบ R_SHLIB_LD_LIBRARY_PATH ซึ่งกำหนดให้กับไบนารีการเข้ารหัสลับที่มีเวอร์ชันต่ำกว่าไบนารีที่จำเป็นต้องใช้ในการติดตั้งนี้ ให้ทำตามคำแนะนำในเอกสารที่ลิงค์ไว้เพื่อดำเนินการติดตั้งให้เสร็จสมบูรณ์"/>
+    <string id="CmdLine.title" value="บรรทัดคำสั่งการติดตั้ง"/>
+    <string id="InvalidCmdLine" value="บรรทัดคำสั่งไม่ถูกต้อง"/>
+    <string id="ExpectedCmdLine" value="บรรทัดคำสั่งที่ต้องการคือ: %1"/>
+    <string id="ActionFailed" value="การดำเนินการที่กำหนดเองไม่สำเร็จ"/>
+    <string id="ActionFailedArg" value="การดำเนินการที่กำหนดเองไม่สำเร็จ: %1"/>
+    <string id="ActionFailedWithCode" value="การดำเนินการที่กำหนดเองไม่สำเร็จและแสดงรหัสข้อผิดพลาด:"/>
+    <string id="RegistrationFailed" value="ไบนารีไม่สามารถลงทะเบียนได้: %1"/>
+    <string id="NoFindFile" value="ไม่พบไฟล์: %1"/>
+    <string id="NoCMS" value="ไม่สามารถเชื่อมต่อกับ CMS ได้"/>
+    <string id="NoCMSArg" value="ไม่สามารถเชื่อมต่อกับ CMS ที่ %1"/>
+    <string id="DFOFailed" value="การอัปโหลด DFO ไม่สำเร็จ"/>
+    <string id="wdeployFailed" value="wDeploy ไม่สามารถปรับใช้แอปพลิเคชันได้"/>
+    <string id="ScriptFailed" value="สคริปต์ไม่สามารถรันได้: %1"/>
+    <string id="CmdFailed" value="ไม่สามารถรันบรรทัดคำสั่ง: %1"/>
+    <string id="ServerStartFailed" value="เซิร์ฟเวอร์ไม่สามารถเริ่มทำงานได้: %1"/>
+    <string id="ServerStopFailed" value="เซิร์ฟเวอร์ไม่สามารถหยุดทำงานได้: %1"/>
+    <string id="ExitCode" value="รหัสจบการทำงาน: %1"/>
+    <string id="DBInitFail" value="ไม่สามารถเตรียมใช้งานฐานข้อมูลได้"/>
+    <string id="ShortcutFail" value="ไม่สามารถสร้างช็อตคัท: %1"/>
+    <string id="ARPFail" value="ไม่สามารถสร้างรายการ 'เพิ่ม/เอาโปรแกรมออก' สำหรับผลิตภัณฑ์ %1 ได้"/>
+    <string id="CreateFolderFail" value="ไม่สามารถสร้างโฟลเดอร์: %1"/>
+    <string id="SamplesFail" value="ไม่สามารถเพิ่มตัวอย่าง"/>
+    <string id="LicenseKeyFail" value="ไม่สามารถเพิ่มคีย์การให้สิทธิ์ใช้งาน"/>
+    <string id="Tomcatfail" value="ไม่สามารถกำหนดค่า Tomcat"/>
+    <string id="PropertyFail" value="ไม่สามารถรับค่าของคุณสมบัติ: %1"/>
+    <string id="dev" value="ภาษาอังกฤษสำหรับนักพัฒนา"/>
+    <string id="aa" value="อาฟาร์"/>
+    <string id="ab" value="อับฮาเซีย"/>
+    <string id="af" value="แอฟริกา"/>
+    <string id="am" value="อัมฮาริก"/>
+    <string id="ar" value="อาหรับ"/>
+    <string id="as" value="อัสสัม"/>
+    <string id="ay" value="ไอย์มารา"/>
+    <string id="az" value="อาเซอร์ไบจาน"/>
+    <string id="ba" value="บัชคีร์"/>
+    <string id="be" value="เบลารุส"/>
+    <string id="bg" value="บัลแกเรีย"/>
+    <string id="bh" value="บิฮาริ"/>
+    <string id="bi" value="บิสลามา"/>
+    <string id="bn" value="เบงกาลี"/>
+    <string id="bo" value="ธิเบต"/>
+    <string id="br" value="บริตานีย์"/>
+    <string id="ca" value="แคตะโลเนีย"/>
+    <string id="co" value="คอร์ซิกา"/>
+    <string id="cs" value="เช็ก"/>
+    <string id="cy" value="เวลช์"/>
+    <string id="da" value="เดนมาร์ก"/>
+    <string id="de" value="เยอรมัน"/>
+    <string id="dz" value="ภูฏาน"/>
+    <string id="el" value="กรีก"/>
+    <string id="en" value="อังกฤษ"/>
+    <string id="eo" value="เอสเปรันโต"/>
+    <string id="es" value="สเปน"/>
+    <string id="et" value="เอสโตเนีย"/>
+    <string id="eu" value="บาสก์"/>
+    <string id="fa" value="เปอร์เซีย"/>
+    <string id="fi" value="ฟินแลนด์"/>
+    <string id="fj" value="ฟิจิ"/>
+    <string id="fo" value="แฟโร"/>
+    <string id="fr" value="ฝรั่งเศส"/>
+    <string id="fy" value="ฟรีเซีย"/>
+    <string id="ga" value="ไอริช"/>
+    <string id="gd" value="สกอตส์เกลิก"/>
+    <string id="gl" value="เกลิเซียน"/>
+    <string id="gn" value="กัวรานี"/>
+    <string id="gu" value="คุชราตี"/>
+    <string id="ha" value="เฮาซา"/>
+    <string id="he" value="ฮิบรู"/>
+    <string id="hi" value="ฮินดี"/>
+    <string id="hr" value="โครเอเชีย"/>
+    <string id="hu" value="ฮังการี"/>
+    <string id="hy" value="อาร์เมเนีย"/>
+    <string id="ia" value="อินเทอร์ลิงกวา"/>
+    <string id="id" value="อินโดนีเซีย"/>
+    <string id="ie" value="อินเทอร์ลิงก์"/>
+    <string id="ik" value="อีนูเปียค"/>
+    <string id="is" value="ไอซ์แลนด์"/>
+    <string id="it" value="อิตาลี"/>
+    <string id="iu" value="อินุกติตัต"/>
+    <string id="ja" value="ญี่ปุ่น"/>
+    <string id="jw" value="ชวา"/>
+    <string id="ka" value="จอร์เจีย"/>
+    <string id="kk" value="คาซัคสถาน"/>
+    <string id="kl" value="กรีนแลนด์"/>
+    <string id="km" value="กัมพูชา"/>
+    <string id="kn" value="กรณาฏกะ"/>
+    <string id="ko" value="เกาหลี"/>
+    <string id="ks" value="แคชเมียร์"/>
+    <string id="ku" value="เคอร์ดิซ"/>
+    <string id="ky" value="เคอร์กิซ"/>
+    <string id="la" value="ละติน"/>
+    <string id="ln" value="ลิงกาลา"/>
+    <string id="lo" value="ลาว"/>
+    <string id="lt" value="ลิทัวเนีย"/>
+    <string id="lv" value="ลัตเวีย"/>
+    <string id="mg" value="มาลากาซี"/>
+    <string id="mi" value="เมารี"/>
+    <string id="mk" value="มาซิโดเนีย"/>
+    <string id="ml" value="มะละยาลัม"/>
+    <string id="mn" value="มองโกเลีย"/>
+    <string id="mo" value="มอลโดวา"/>
+    <string id="mr" value="มาราฐี"/>
+    <string id="ms" value="มาเลเซีย"/>
+    <string id="mt" value="มอลตา"/>
+    <string id="my" value="พม่า"/>
+    <string id="na" value="นาอูรู"/>
+    <string id="nb" value="นอร์เวย์"/>
+    <string id="ne" value="เนปาล"/>
+    <string id="nl" value="ดัตช์"/>
+    <string id="oc" value="อ็อกซิทาเนีย  "/>
+    <string id="om" value="โอโรโม"/>
+    <string id="or" value="โอริยา"/>
+    <string id="pa" value="ปัญจาบ"/>
+    <string id="pl" value="โปแลนด์"/>
+    <string id="ps" value="พาชโต"/>
+    <string id="pt" value="โปรตุเกส"/>
+    <string id="qu" value="เคชวา"/>
+    <string id="rm" value="เรโต-โรแมนซ์"/>
+    <string id="rn" value="คิรุนดี"/>
+    <string id="ro" value="โรมาเนีย"/>
+    <string id="ru" value="รัสเซีย"/>
+    <string id="rw" value="คินยาร์วานดา"/>
+    <string id="sa" value="สันสกฤต"/>
+    <string id="sd" value="สินธิ"/>
+    <string id="sg" value="แซงโก"/>
+    <string id="sh" value="เซอร์เบีย-โครเอเชีย"/>
+    <string id="si" value="สิงหล"/>
+    <string id="sk" value="สโลวัก"/>
+    <string id="sl" value="สโลวีเนีย"/>
+    <string id="sm" value="ซามัว"/>
+    <string id="sn" value="โชนา"/>
+    <string id="so" value="โซมาลี"/>
+    <string id="sq" value="แอลเบเนีย"/>
+    <string id="sr" value="เซอร์เบีย"/>
+    <string id="ss" value="สวาติ"/>
+    <string id="st" value="เซโซโท"/>
+    <string id="su" value="ซุนดา"/>
+    <string id="sv" value="สวีเดน"/>
+    <string id="sw" value="สวาฮีลี"/>
+    <string id="ta" value="ทมิฬ"/>
+    <string id="te" value="เตลุกู"/>
+    <string id="tg" value="ทาจิก"/>
+    <string id="th" value="ไทย"/>
+    <string id="ti" value="ทีกรินยา"/>
+    <string id="tk" value="เติร์ก"/>
+    <string id="tl" value="ตากาล็อก"/>
+    <string id="tn" value="เซซวานา"/>
+    <string id="to" value="ทองกา"/>
+    <string id="tr" value="ตุรกี"/>
+    <string id="ts" value="ซองกา"/>
+    <string id="tt" value="ตาตาร์"/>
+    <string id="tw" value="ทวิ"/>
+    <string id="ug" value="อยูเหอ  "/>
+    <string id="uk" value="ยูเครน"/>
+    <string id="ur" value="อูรดู"/>
+    <string id="uz" value="อุซเบกิสถาน"/>
+    <string id="vi" value="เวียดนาม"/>
+    <string id="vo" value="โวลาพึค"/>
+    <string id="wo" value="โวลอฟ"/>
+    <string id="xh" value="โคซา"/>
+    <string id="yi" value="ยิดดิช"/>
+    <string id="yo" value="โยรูบา"/>
+    <string id="za" value="จ้วง"/>
+    <string id="zh_CN" value="จีนประยุกต์"/>
+    <string id="zh_TW" value="จีนดั้งเดิม"/>
+    <string id="zu" value="ซูลู"/>
+    <string id="SetupInitSh.root" value="เมื่อต้องการตั้งค่าสคริปต์เริ่มต้น ให้ล็อกออนในฐานะ root แล้วจึงเรียกใช้"/>
+    <string id="SetupInitSh.fail" value="รันสคริปต์การเตรียมใช้งานระบบไม่สำเร็จ"/>
+    <string id="property.InstallDir.description" value="ไดเรคทอรีการติดตั้ง"/>
+    <string id="property.SetupUILanguage.description" value="ภาษาอินเตอร์เฟซผู้ใช้สำหรับการติดตั้ง"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="ภาษาอินเตอร์เฟซผู้ใช้สำหรับการติดตั้งที่มีอยู่และเรียงตามลำดับ"/>
+    <string id="property.SelectedLanguagePacks.description" value="ชุดภาษาที่เลือกที่จะติดตั้ง"/>
+    <string id="property.ProductKey.description" value="รหัสคีย์ผลิตภัณฑ์"/>
+    <string id="property.RegisteredCompany.description" value="บริษัทที่ลงทะเบียน"/>
+    <string id="property.RegisteredUser.description" value="ผู้ใช้ที่ลงทะเบียน"/>
+    <string id="property.InstallCompatibilityMode.description" value="อัปเกรดผลิตภัณฑ์ก่อนหน้านี้หรือติดตั้งร่วมกัน"/>
+    <string id="property.IsAcceptEULA.description" value="ระบบยอมรับ EULA หรือไม่"/>
+    <string id="property.FormattedString.description" value="จัดรูปแบบสตริงเป้าหมาย"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="เริ่ม wDeploy"/>
+    <string id="description.cmsname" value="ชื่อ CMS"/>
+    <string id="description.cmsport" value="พอร์ต CMS"/>
+    <string id="description.cmsusername" value="ชื่อผู้ใช้ CMS"/>
+    <string id="description.cmspassword" value="รหัสผ่าน CMS"/>
+    <string id="description.cmsauth" value="สิทธิ์ CMS"/>
+    <string id="description.sianame" value="ชื่อ SIA"/>
+    <string id="description.siaport" value="พอร์ต SIA"/>
+    <string id="property.CMSPassword.description" value="รหัสผ่านสำหรับผู้ดูแลระบบ CMS"/>
+    <string id="property.CMSPort.description" value="พอร์ตการเชื่อมต่อ CMS"/>
+    <string id="property.CryptoKey.description" value="คีย์คลัสเตอร์ของ CMS"/>
+    <string id="property.EnableServers.description" value="เริ่มเซิร์ฟเวอร์หลังการติดตั้ง: 0 หรือ 1"/>
+    <string id="property.UsingAuditDBType.description" value="ประเภทฐานข้อมูลการตรวจสอบ"/>
+    <string id="property.UsingCMSDBType.description" value="ประเภทฐานข้อมูล CMS"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="ฐานข้อมูลการตรวจสอบที่มีอยู่ (DB)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="รหัสผ่าน DB การตรวจสอบที่มีอยู่"/>
+    <string id="property.ExistingAuditingDBPort.description" value="พอร์ต DB การตรวจสอบที่มีอยู่"/>
+    <string id="property.ExistingAuditingDBReset.description" value="แฟลกการรีเซ็ต DB การตรวจสอบที่มีอยู่: 0 หรือ 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="แฟลกการใช้การตรวจสอบพิสูจน์ภายนอกสำหรับ DB การตรวจสอบที่มีอยู่: 0 หรือ 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="เซิร์ฟเวอร์ DB การตรวจสอบที่มีอยู่"/>
+    <string id="property.ExistingAuditingDBUser.description" value="ชื่อผู้ใช้ DB การตรวจสอบที่มีอยู่"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="ฐานข้อมูลของ CMS ที่มีอยู่ (DB)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="รหัสผ่าน DB ของ CMS ที่มีอยู่"/>
+    <string id="property.ExistingCMSDBPort.description" value="พอร์ต DB ของ CMS ที่มีอยู่"/>
+    <string id="property.ExistingCMSDBReset.description" value="แฟลกการรีเซ็ต DB ของ CMS ที่มีอยู่: 0 หรือ 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="แฟลกการใช้การตรวจสอบพิสูจน์ภายนอกสำหรับ DB ของ CMS ที่มีอยู่: 0 หรือ 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="เซิร์ฟเวอร์ DB ของ CMS ที่มีอยู่"/>
+    <string id="property.ExistingCMSDBUser.description" value="ชื่อผู้ใช้ DB ของ CMS ที่มีอยู่"/>
+    <string id="property.NewOrExpandInstall.description" value="โหมดการติดตั้ง: ใหม่, เพิ่มเติม"/>
+    <string id="property.MySQLBOEUserName.description" value="ชื่อผู้ใช้ฐานข้อมูลแบบกลุ่มสำหรับผู้ใช้ BI Platform"/>
+    <string id="property.MySQLBOEUserPassword.description" value="รหัสผ่านฐานข้อมูลแบบกลุ่มสำหรับผู้ใช้ BI Platform"/>
+    <string id="property.MySQLPort.description" value="พอร์ตตัวเชื่อมต่อฐานข้อมูลแบบกลุ่ม"/>
+    <string id="property.MySQLRootPassword.description" value="รหัสผ่านผู้ใช้ Root ของฐานข้อมูลแบบกลุ่ม"/>
+    <string id="property.RemoteCMSAdminName.description" value="ชื่อผู้ดูแลระบบ CMS ระยะไกล"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="รหัสผ่านสำหรับผู้ดูแลระบบ CMS ระยะไกล"/>
+    <string id="property.RemoteCMSName.description" value="ชื่อ CMS ระยะไกล"/>
+    <string id="property.RemoteCMSPort.description" value="พอร์ต CMS ระยะไกล"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="ข้ามคำเตือนการล็อกอินเข้าสู่ CMS ระยะไกล"/>
+    <string id="property.MaintenanceMode.description" value="การดูแลรักษาที่จะดำเนินการ"/>
+    <string id="property.SelectIntegratedDatabase.description" value="ติดตั้งฐานข้อมูลแบบรวม: 0 หรือ 1"/>
+    <string id="property.SIAName.description" value="ชื่อโหนด SIA"/>
+    <string id="property.SIAPort.description" value="พอร์ตตัวเชื่อมต่อ SIA"/>
+    <string id="property.TomcatConnectionPort.description" value="พอร์ตการเชื่อมต่อ Tomcat"/>
+    <string id="property.TomcatRedirectPort.description" value="พอร์ตเปลี่ยนเส้นทาง Tomcat"/>
+    <string id="property.TomcatShutdownPort.description" value="พอร์ตปิดระบบ Tomcat"/>
+    <string id="property.WACSPort.description" value="พอร์ต WACS"/>
+    <string id="property.WebAppServerType.description" value="ประเภทเซิร์ฟเวอร์ของแอปพลิเคชันเว็บ: Tomcat, ด้วยตนเอง หรือ WACS"/>
+    <string id="property.SolMgr_Loc.description" value="ชื่อเซิร์ฟเวอร์ของ Solution Manager"/>
+    <string id="property.SolMgr_Port.description" value="พอร์ตเซิร์ฟเวอร์ของ Solution Manager"/>
+    <string id="property.SolMgr_Username.description" value="ชื่อผู้ใช้สำหรับการเชื่อมต่อกับ Solution Manager"/>
+    <string id="property.SolMgr_Password.description" value="รหัสผ่านในการเชื่อมต่อกับ Solution Manager"/>
+    <string id="property.SolMgr_UseHttps.description" value="ใช้ HTTPS ในการเชื่อมต่อกับ Solution Manager: 0 หรือ 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="คุณสมบัติที่ใช้เก็บสตริงสำหรับ SharedAlwaysFailureMessage"/>
+    <string id="property.SMDAgent_HOST.description" value="ชื่อโฮสต์ของเอเจนต์ SMD"/>
+    <string id="property.SMDAgent_PORT.description" value="หมายเลขพอร์ตของเอเจนต์ SMD"/>
+    <string id="property.UPGRADE.description" value="อนุญาตแฟลกการอัปเกรดเบื้องหลัง: 0 หรือ 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="ผสานรวมเอเจนต์ Solution Manager Diagnostics (SMD): integrate หรือ nointegrate"/>
+    <string id="property.ChooseSLDIntegration.description" value="ผสานรวม SLD: integrate หรือ nointegrate"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="ผสานรวม Introscope Enterprise Manager: integrate หรือ nointegrate"/>
+    <string id="property.Introscope_ENT_HOST.description" value="ชื่อโฮสต์ของ Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_PORT.description" value="หมายเลขพอร์ตของ Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="การอินสตรูเมนต์ Introscope Enterprise Manager"/>
+    <string id="property.NewOrExistingLCM.description" value="ติดตั้ง LCM ใหม่หรือใช้ LCM ที่มีอยู่: ใหม่ หรือ ที่มีอยู่"/>
+    <string id="property.LCMName.description" value="ชื่อเซิร์ฟเวอร์ของ LCM"/>
+    <string id="property.LCMUserName.description" value="ชื่อผู้ใช้ของ LCM"/>
+    <string id="property.LCMPassword.description" value="รหัสผ่านของ LCM"/>
+    <string id="property.LCMPort.description" value="พอร์ต LCM"/>
+    <string id="property.InstallType.description" value="ประเภทการติดตั้ง: ดีฟอลต์ หรือ กำหนดเอง"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="ตามข้อกำหนดเบื้องต้นของ Crystal Reports ผู้ใช้มีสิทธิ์ระดับผู้ดูแลระบบหรือไม่"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="ไดเรคทอรีการติดตั้งสำหรับการติดตั้ง Crystal Reports Viewer แต่ละเครื่อง"/>
+    <string id="PatchUpdateCheck" value="ตรวจหาการอัปเดตผลิตภัณฑ์"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="ระดับโปรแกรมแก้ไขของระบบปฏิบัติการ"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="ระบบปฏิบัติการไม่ตรงตามระดับขั้นต่ำของโปรแกรมแก้ไขที่จำเป็นสำหรับการติดตั้งผลิตภัณฑ์นี้ โปรดดูเอกสารอ้างอิงเกี่ยวกับข้อกำหนดของแพลตฟอร์ม"/>
+    <string id="prereq.pingLocalhost" value="การตั้งค่าเครือข่าย"/>
+    <string id="prereq.pingLocalhostNotOkText" value="การรัน ping สำหรับ localhost, 127.0.0.1 หรือชื่อโฮสต์ของเครื่องไม่สำเร็จ คุณต้องกำหนดค่าให้เครื่องติดต่อกับโฮสต์ดังกล่าวก่อนจึงจะสามารถดำเนินการต่อได้  INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="การตรวจสอบพื้นที่ดิสก์"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="โปรดตรวจสอบให้แน่ใจว่ามีพื้นที่ดิสก์ที่จำเป็นเพื่อดำเนินการติดตั้งต่อไป สำหรับข้อมูลเพิ่มเติม ให้ดู https://apps.support.sap.com/sap/support/pam"/>
+    <string id="prereq.AdminPrivilegePreReqText" value="สิทธิ์ระดับผู้ดูแลระบบ"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="คุณต้องล็อกออนด้วยบัญชีผู้ใช้ที่มีสิทธิ์ระดับผู้ดูแลระบบ INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 หรือเวอร์ชันที่ใหม่กว่า"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="โปรดติดตั้ง Microsoft .NET Framework 4.0 หรือเวอร์ชันที่ใหม่กว่า"/>
+    <string id="prereq.RootUserPreReqText" value="สิทธิ์ผู้ใช้ระดับ root"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="การติดตั้งนี้ไม่สามารถดำเนินการต่อไปได้กรณีที่มีการล็อกออนด้วยบัญชีผู้ใช้ root คุณต้องล็อกอินเป็นผู้ใช้อื่นที่ไม่ใช่ root เพื่อให้สามารถติดตั้งผลิตภัณฑ์นี้ได้ INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="ระบบปฏิบัติการแบบ 64 บิต"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="ผลิตภัณฑ์นี้จะต้องได้รับการติดตั้งบนระบบปฏิบัติการแบบ 64 บิต โปรดตรวจสอบว่าระบบปฏิบัติการของคุณตรงตามข้อกำหนดนี้หรือไม่ INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="เวอร์ชัน Windows"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="ผลิตภัณฑ์นี้ต้องได้รับการติดตั้งบนระบบปฏิบัติการ (OS) Windows 8.1 หรือ Server 2012 R2 หรือเวอร์ชันที่ใหม่กว่า โปรดตรวจสอบ OS ของคุณว่าตรงตามข้อกำหนดนี้หรือไม่"/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="เวอร์ชัน Windows"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="ผลิตภัณฑ์นี้ต้องได้รับการติดตั้งบน Windows Server 2012 R2 หรือ Windows Server เวอร์ชันที่ใหม่กว่า โปรดตรวจสอบเวอร์ชัน Windows ของคุณว่าตรงตามข้อกำหนดเหล่านี้หรือไม่"/>
+    <string id="prereq.SQLExpressPreReqText" value="ข้อกำหนดของฐานข้อมูลแบบรวม"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="ติดตั้ง Microsoft .NET Framework 3.5 SP1 หรือเวอร์ชันที่สูงกว่าและ Windows Installer 4.5"/>
+    <string id="prereq.SQLExpressRequirementText" value="ข้อกำหนดของ MS SQL Express"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express จำเป็นต้องใช้ Microsoft .NET Framework 3.5 SP1 และ Windows Installer 4.5 โปรดติดตั้งทั้งสองแพคเกจก่อนที่จะพยายามติดตั้ง SQL Express"/>
+    <string id="prereq.PendingStatusPreReqText" value="การรีบูตถูกระงับ"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="คำขอเริ่มต้นระบบใหม่ถูกระงับสำหรับเครื่องเฉพาะที่ โปรดเริ่มต้นระบบใหม่เพื่อดำเนินการติดตั้งต่อ INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="เวอร์ชัน 4.x ของผลิตภัณฑ์ยังไม่ได้รับการติดตั้งแล้ว"/>
+    <string id="prereq.4xNotInstalledNotOkText" value="เวอร์ชัน 4.x ของผลิตภัณฑ์ได้รับการติดตั้งแล้ว"/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="ฐานข้อมูลแบบรวม - ไดเรคทอรีโฮม"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="ฐานข้อมูลแบบรวมกำหนดให้ต้องตั้งค่าสิทธิ์ที่ระดับ 755 ในไดเรคทอรีโฮมของผู้ใช้ คุณต้องกำหนดสิทธิ์ดังกล่าวก่อนจึงจะสามารถติดตั้งฐานข้อมูลได้"/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="ฐานข้อมูลแบบรวม - ไดเรคทอรี"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 กำหนดว่าจะต้องไม่มี ~/sqllib หรือ ~/$USER อยู่ คุณต้องลบไดเรคทอรีดังกล่าว (ถ้ามี) ก่อนจึงจะสามารถติดตั้งฐานข้อมูล DB2 แบบรวมได้"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="ไม่สามารถติดตั้ง #product.mini_bip_name# หรือ #product.cr_server_name# ได้"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="ไม่สามารถติดตั้ง #productname# ในเครื่องเดียวกันกับ #product.mini_bip_name# หรือ #product.cr_server_name#  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="ไม่สามารถติดตั้ง #product.boe64_name# หรือ #product.cr_server_name# ได้"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="คุณไม่สามารถติดตั้ง #productname# ได้; #product.boe64_name# หรือ #product.cr_server_name# ได้รับการติดตั้งแล้ว INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="ไม่สามารถติดตั้ง #product.ras_name# ได้"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="ไม่สามารถติดตั้ง #productname# ในเครื่องเดียวกันกับ #product.ras_name# INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="ความเข้ากันได้ของ #product.IS_name# กับ #product.DS_name#"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="ตรวจพบการปรับใช้ SAP #product.DS_name# และ/หรือ #product.IS_name# ในเครื่องของคุณ ก่อนที่จะดำเนินการต่อ โปรดอ่าน SAP Note 1740516 (http://service.sap.com/sap/support/notes/1740516) สำหรับข้อมูลเกี่ยวกับความเข้ากันได้และผลกระทบที่จะเกิดขึ้นกับผลิตภัณฑ์ดังกล่าว  INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="โปรแกรมติดตั้งตรวจพบว่ามีการติดตั้งอยู่แล้วและต้องรันโดยใช้คำสั่ง UPGRADE=1 โปรแกรมจะจบการทำงานเดี๋ยวนี้"/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Installer ไม่สามารถดำเนินการต่อได้เนื่องจากไม่เป็นไปตามข้อกำหนดเบื้องต้นที่สำคัญ"/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="มีการเลือก Central Management Server พร้อมกับตัวเลือกฐานข้อมูลแบบรวม แต่ตัวเลือกดังกล่าวถูกปิดใช้งานอยู่เนื่องจากไม่เป็นไปตามข้อกำหนดเบื้องต้น ก่อนที่จะดำเนินการติดตั้งต่อ คุณจะต้องแก้ไขรายการที่ไม่สอดคล้องกับข้อกำหนดเบื้องต้นต่อไปนี้:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="ผู้ใช้ปัจจุบันไม่มีสิทธิ์ระดับผู้ดูแลระบบและไม่ได้รับอนุญาตให้รันตัวติดตั้ง"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="พื้นที่ดิสก์ใน /tmp"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="มีพื้นที่ว่างในโฟลเดอร์ /tmp ไม่เพียงพอ คุณต้องเพิ่มพื้นที่ว่างก่อนจึงจะสามารถดำเนินการติดตั้งต่อได้ INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="พื้นที่ดิสก์ใน /var"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="โฟลเดอร์ /var มีพื้นที่ว่างบนดิสก์ไม่เพียงพอ คุณต้องเพิ่มพื้นที่ว่างอย่างน้อย 20 เมกะไบต์ก่อนที่จะดำเนินการติดตั้งต่อ"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="ฐานข้อมูลแบบรวม - ผู้ใช้และกลุ่ม"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="การตั้งชื่อกลุ่มผู้ใช้ไม่เป็นไปตามข้อจำกัดของ DB2 ข้อใดข้อหนึ่ง สำหรับข้อมูลเพิ่มเติม โปรดไปที่ http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 และค้นหาคำว่า 'user ID restrictions'"/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="ฐานข้อมูลแบบรวม - UID และ GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2 กำหนดให้ UID และ GID จะต้องมีน้อยกว่า 65536 คุณต้องป้อนตัวเลขที่น้อยกว่าก่อนจึงจะสามารถใช้ฐานข้อมูล DB2 แบบรวมได้"/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="ฐานข้อมูลแบบรวม - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2 กำหนดให้ gunzip ต้องอยู่ในพาธระบบ คุณต้องแก้ไขพาธระบบก่อนจึงจะสามารถใช้ฐานข้อมูล DB2 แบบรวมได้"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="ฐานข้อมูลแบบกลุ่ม - ตรงตามการตั้งค่าขั้นต่ำของเคอร์เนล HPUX สำหรับ DB2"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="การตั้งค่าเคอร์เนลไม่เป็นไปตามข้อกำหนดขั้นต่ำของ DB2"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013 ไม่สามารถใช้ได้กับ SUSE 11 และเวอร์ชันที่สูงกว่า"/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="จำเป็นต้องใช้ Microsoft .NET Framework 3.5 หรือเวอร์ชันที่สูงกว่าสำหรับ BOE .NET SDK แบบ 64 บิต คุณต้องติดตั้ง .NET Framework ก่อนจึงจะสามารถติดตั้ง BOE .NET SDK แบบ 64 บิตได้"/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 หรือเวอร์ชันที่สูงกว่า"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="ติดตั้ง Microsoft .NET Framework 3.0 หรือเวอร์ชันที่สูงกว่า"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="ไม่พบ Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime คุณต้องติดตั้งก่อนจึงจะสามารถดำเนินการติดตั้งนี้ต่อได้"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 หรือเวอร์ชันที่สูงกว่า"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="ไม่พบ Microsoft Office 2003 หรือเวอร์ชันที่สูงกว่า คุณต้องติดตั้งก่อนจึงจะสามารถดำเนินการติดตั้งนี้ต่อได้"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="เวอร์ชันแพคเกจสนับสนุนขั้นต่ำ"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="โปรแกรมอัปเดตนี้มีไว้สำหรับ #productname# #product_version##product_sp_version# ซึ่งตรวจไม่พบในระบบ คุณต้องติดตั้งก่อนจึงจะสามารถดำเนินการติดตั้งนี้ต่อได้"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="โปรแกรมอัปเดตนี้มีไว้สำหรับ #productname# #product_version##product_sp_version# ซึ่งตรวจไม่พบในระบบ คุณต้องติดตั้งก่อนจึงจะสามารถดำเนินการติดตั้งนี้ต่อได้"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="การอัปเดตที่ใช้ได้"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# มีเวอร์ชันสูงกว่าโปรแกรมอัปเดตนี้ ดังนั้นจึงไม่สามารถใช้โปรแกรมอัปเดตนี้ดำเนินการต่อได้"/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="เวอร์ชันขั้นต่ำของรุ่นรอง"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="โปรแกรมอัปเดตนี้มีไว้สำหรับ #productname# #product_version# ซึ่งตรวจไม่พบในระบบ คุณต้องติดตั้งก่อนจึงจะสามารถดำเนินการติดตั้งนี้ต่อได้"/>
+    <string id="prereq.OEMInstalledPreReqText" value="ติดตั้ง#productname_short# #productname_preversion# แบบกำหนดเอง"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="โปรแกรมอัปเดตนี้มีไว้สำหรับ #productname_short# #productname_preversion# แบบกำหนดเอง ซึ่งตรวจไม่พบในระบบ คุณต้องติดตั้งก่อนจึงจะสามารถดำเนินการติดตั้งนี้ต่อได้"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="การติดตั้งผลิตภัณฑ์ที่เข้ากันได้"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="ผลิตภัณฑ์นี้ได้รับการติดตั้งและพร้อมใช้งานสำหรับผู้ใช้แล้ว"/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows Installer Service"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="การติดตั้งหยุดชั่วขณะเนื่องจาก Windows Installer Service ถูกปิดใช้งาน (ประเภทการเริ่มต้นใช้งาน = ปิดใช้งาน) หรือไม่พร้อมใช้งาน คุณต้องติดตั้งก่อนจึงจะสามารถดำเนินการติดตั้งนี้ต่อได้"/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="เมื่อต้องการดำเนินการอัปเดตคลัสเตอร์ให้เสร็จสมบูรณ์ หลังจากเสร็จสิ้นการติดตั้งบนเครื่องทั้งหมดภายในคลัสเตอร์แล้ว ให้รีสตาร์ท Central Management Server (CMS) แต่ละรายการ คุณต้องล็อกออนเข้าสู่ Central Management Console เพื่อรีสตาร์ท CMS ดังกล่าว"/>
+    <string id="PostInstall.message.logoncmc.windows" value="ล็อกออนเข้าสู่ Central Management Console (CMC) เพื่อดำเนินการกำหนดค่าระบบของคุณต่อ หากต้องการเริ่ม CMC ให้เลือก เริ่ม &gt; #product.boe64_name# &gt; Central Management Console"/>
+    <string id="postinstall.message.manualdeploy.common" value="ยังไม่มีการปรับใช้แอปพลิเคชันเว็บ Java และบริการบนเว็บในเซิร์ฟเวอร์ของแอปพลิเคชันเว็บ โปรดรันเครื่องมือ wDeploy เพื่อปรับใช้แอปพลิเคชันเว็บ Java และบริการบนเว็บ"/>
+    <string id="postinstall.message.manualdeploy.windows" value="เมื่อต้องการเริ่มใช้เครื่องมือ wDeploy ให้เลือก เริ่ม &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy"/>
+    <string id="postinstall.message.manualdeploy.unix" value="เครื่องมือ wDeploy อยู่ที่ [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh"/>
+    <string id="postinstall.message.systeminstall" value="เพื่อให้การติดตั้งโดยระบบเสร็จสมบูรณ์ ให้ดำเนินการสคริปต์นี้โดยใช้สิทธิ์ root: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="คุณต้องกำหนด URL ของโปรแกรมดูดีฟอลต์สำหรับ OpenDocument เครื่องนี้ยังไม่ได้ลงทะเบียนเป็นเซิร์ฟเวอร์ดีฟอลต์ของแอปพลิเคชันเว็บสำหรับจัดการคำขอดูเอกสาร คุณอาจต้องลงทะเบียนเครื่องนี้กับ Central Management Server ให้เป็นเซิร์ฟเวอร์ดีฟอลต์ของแอปพลิเคชันเว็บ เมื่อต้องการแก้ไขหน้าคุณสมบัติของ OpenDocument ให้ใช้ Central Management Console"/>
+    <string id="PostInstall.message.monitoring" value="เมื่อต้องการเข้าถึงเครื่องมือการติดตามตรวจสอบเพื่อรันการทดสอบวิเคราะห์ ให้ล็อกออนเข้าสู่ Central Management Console คลิก &quot;การติดตามตรวจสอบ&quot; แล้วเปิดแท็บ &quot;การตรวจสอบ&quot;"/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}บริการบนเว็บ RESTful{/b} และ {b}Insight to Action Framework{/b} คือคุณลักษณะใหม่ที่มีอยู่ในการอัปเดตนี้ หากต้องการเปิดใช้งานคุณลักษณะเหล่านี้ ให้แก้ไขการติดตั้งพื้นฐานและเพิ่มคุณลักษณะใหม่"/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}บริการบนเว็บ RESTful:{/b} SDK ของบริการบนเว็บ RESTful สำหรับ Business Intelligence Platform จะให้คุณเข้าถึง BI Platform โดยใช้โปรโตคอล HTTP คุณสามารถใช้ SDK นี้ในการล็อกออนเข้าสู่แพลตฟอร์ม, ไปยังพื้นที่เก็บข้อมูลของ BI Platform, เข้าถึงทรัพยากร และวางกำหนดการทรัพยากรพื้นฐาน โปรดทราบว่าคุณลักษณะนี้จำเป็นต้องบันทึกตัวแบบ Dashboards และเอกสาร Live Office ลงในพื้นที่เก็บข้อมูลหลังการอัปเดต"/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action Framework:{/b} Insight to Action Framework จะช่วยให้คุณสามารถเรียกใช้การดำเนินการทั้งในแอปพลิเคชัน SAP และแอปพลิเคชันที่ไม่ใช่ SAP ซึ่งกำหนดโดยใช้ Report-Report Interface (RRI) ใน SAP Netweaver คุณลักษณะนี้ได้รับการสนับสนุนจาก SAP Crystal Reports และ SAP BusinessObjects Dashboards"/>
+    <string id="postInstall.message.new.features.announce.unix" value="บริการบนเว็บ RESTful และ Insight to Action Framework คือคุณลักษณะใหม่ที่มีอยู่ในการอัปเดตนี้ หากต้องการเปิดใช้งานคุณลักษณะเหล่านี้ ให้แก้ไขการติดตั้งพื้นฐานและเพิ่มคุณลักษณะใหม่"/>
+    <string id="postInstall.message.new.feature.restful.unix" value="บริการบนเว็บ RESTful: SDK ของบริการบนเว็บ RESTful สำหรับ Business Intelligence Platform จะให้คุณเข้าถึง BI Platform โดยใช้โปรโตคอล HTTP คุณสามารถใช้ SDK นี้ในการล็อกออนเข้าสู่แพลตฟอร์ม, ไปยังพื้นที่เก็บข้อมูลของ BI Platform, เข้าถึงทรัพยากร และวางกำหนดการทรัพยากรพื้นฐาน โปรดทราบว่าคุณลักษณะนี้จำเป็นต้องบันทึกตัวแบบ Dashboards และเอกสาร Live Office ลงในพื้นที่เก็บข้อมูลหลังการอัปเดต"/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action Framework: Insight to Action Framework จะช่วยให้คุณสามารถเรียกใช้การดำเนินการทั้งในแอปพลิเคชัน SAP และแอปพลิเคชันที่ไม่ใช่ SAP ซึ่งกำหนดโดยใช้ Report-Report Interface (RRI) ใน SAP Netweaver คุณลักษณะนี้ได้รับการสนับสนุนจาก Crystal Reports และ BusinessObjects Dashboards"/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Installer ตรวจพบ MySQL Client 5.0 ซึ่งไม่ได้รับการสนับสนุนแล้วเมื่อทำการเชื่อมต่อฐานข้อมูล คุณต้องอัปเกรดเป็น MySQL Client 5.1 เพื่อให้แน่ใจว่าระบบของคุณจะยังคงได้รับการสนับสนุนอยู่"/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="เซิร์ฟเวอร์ Mobile คือคุณลักษณะใหม่ที่ให้การเข้าถึงข้อมูล Business Intelligence จากอุปกรณ์เคลื่อนที่ หากต้องการเปิดใช้งานคุณลักษณะนี้ ให้แก้ไขการติดตั้งพื้นฐานแล้วเลือกเซิร์ฟเวอร์ Mobile"/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Tomcat ในบันเดิลได้รับการอัปเดตเป็น Tomcat 9 การตั้งค่าแบบกำหนดเองทั้งหมดที่คุณใช้กับ Tomcat จะได้รับการโยกย้ายจากเวอร์ชันเก่าไปยัง Tomcat 9 อย่างไรก็ตาม เราขอแนะนำให้คุณตรวจสอบว่าการตั้งค่าแบบกำหนดเองดังกล่าวสามารถใช้งานได้ใน Tomcat 9"/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="แพคเกจดูแลรักษา: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="แพคเกจดูแลรักษา: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="แพคเกจการดูแลรักษา: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="แพคเกจดูแลรักษา\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI Platform"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="เซิร์ฟเวอร์ BI Platform"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI Platform"/>
+    <string id="product.boec_client_name" value="เครื่องมือไคลเอนต์"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="ไคลเอนต์ BI Platform"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI Platform .NET SDK รุ่นที่สามารถแจกจ่ายได้"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports สำหรับ Enterprise"/>
+    <string id="product.crviewer_name" value="โปรแกรมดู SAP Crystal Reports 2020"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="Add-on ของ SAP BusinessObjects BI สำหรับ SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="Add-on ของ BI สำหรับ SAP Lumira"/>
+    <string id="product.mini_bip_name" value="บริการแพลตฟอร์มข้อมูล"/>
+    <string id="product.mini_bip_shortname" value="บริการแพลตฟอร์มข้อมูล"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="การผสานรวม SAP สำหรับ Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="ตัวเลือกการผสานรวมสำหรับซอฟต์แวร์ Microsoft SharePoint"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="รุ่น OEM"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI Platform 4"/>
+    <string id="shortcut.folder.name.minibip" value="บริการแพลตฟอร์มข้อมูล 4"/>
+    <string id="shortcut.folder.name.boclient" value="เครื่องมือไคลเอนต์ SAP BusinessObjects BI Platform 4"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports สำหรับ Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020 รุ่น OEM"/>
+    <string id="shortcut.folder.name.crv" value="โปรแกรมดู SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="เครื่องมือไคลเอนต์สำหรับ SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="เริ่มต้น หยุด และกำหนดค่าบริการแพลตฟอร์ม"/>
+    <string id="shortcut.link.name.boserver.CMC" value="Central Management Console ของ SAP BusinessObjects BI Platform"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="Central Management Console ของ  WACS สำหรับ SAP BusinessObjects BI Platform"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="Central Management Console ของ SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="Central Management Console ของ WACS สำหรับ SAP Crystal Server"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Central Management Console ของบริการแพลตฟอร์มข้อมูล"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Central Management Console ของ WACS สำหรับบริการแพลตฟอร์มข้อมูล"/>
+    <string id="shortcut.link.description.CMC" value="เข้าถึงคอนโซลการจัดการ"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="ลอนช์แพดสำหรับ SAP BusinessObjects BI Platform"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="ลอนช์แพด BI ของ WACS สำหรับ SAP BusinessObjects BI Platform"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="ลอนช์แพด Java BI ของ SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="ลอนช์แพด BI ของ WACS สำหรับ SAP Crystal Server"/>
+    <string id="shortcut.link.description.BILaunchpad" value="เริ่มลอนช์แพด BI"/>
+    <string id="shortcut.link.name.UpgradeManager" value="เครื่องมือการจัดการอัปเกรด"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="อัปเกรดการปรับใช้ก่อนหน้าเป็น SAP BusinessObjects BI Platform 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="วิซาร์ดการจัดการการเลื่อนระดับ"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="เอ็กซ์ปอร์ต อิมปอร์ต และคัดลอกการปรับใช้เนื้อหา CMS 4.x ผ่านทางอินเตอร์เฟซผู้ใช้แบบทีละขั้นตอน"/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="อัปเกรดการปรับใช้ก่อนหน้าเป็น SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="อัปเกรดการปรับใช้ก่อนหน้าเป็นบริการแพลตฟอร์มข้อมูล 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="ตัวจัดการแหล่งข้อมูล ODBC แบบ 32 บิต"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ตัวจัดการแหล่งข้อมูล ODBC"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="เพิ่ม เอาออก และกำหนดค่าไดรเวอร์และแหล่งข้อมูล Open Database Connectivity (ODBC)"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="เอกสารอ้างอิงแบบออนไลน์"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="เข้าถึงเอกสารอ้างอิงแบบออนไลน์"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="การดูแลระบบ Tomcat"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="เข้าถึงการดูแลระบบ Tomcat"/>
+    <string id="shortcut.link.name.TomcatConfig" value="การกำหนดค่า Tomcat"/>
+    <string id="shortcut.link.description.TomcatConfig" value="เข้าถึงการกำหนดค่า Tomcat"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="เริ่มเครื่องมือ wDeploy"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widget"/>
+    <string id="shortcut.link.description.BIWidgets" value="เริ่ม Widget"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="โปรแกรมจัดการมุมมองธุรกิจ"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="เริ่มโปรแกรมจัดการมุมมองธุรกิจ"/>
+    <string id="shortcut.link.name.DFAdminTool" value="เครื่องมือการดูแลระบบรวมข้อมูล"/>
+    <string id="shortcut.link.description.DFAdminTool" value="เริ่มเครื่องมือการดูแลระบบรวมข้อมูล"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="เครื่องมือการออกแบบข้อมูล"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="เริ่มเครื่องมือการออกแบบข้อมูล"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="โปรแกรมออกแบบการสืบค้นแบบบริการบนเว็บ"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="เริ่มโปรแกรมออกแบบการสืบค้นแบบบริการบนเว็บ"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="เครื่องมือการแปลงรายงาน"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="เริ่มเครื่องมือการแปลงรายงาน"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="เครื่องมือการจัดการการแปล"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="เริ่มเครื่องมือการจัดการการแปล"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="เครื่องมือการออกแบบ Universe"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="เริ่มเครื่องมือการออกแบบ Universe"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="เริ่ม Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="เริ่มใช้งาน Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="สร้างและแก้ไขรายงานข้อมูลที่มีการจัดรูปแบบ (.RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="วิซาร์ดการอัปโหลดรายงาน"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="เริ่มวิซาร์ดการอัปโหลดรายงาน"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports สำหรับ Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="โปรแกรมดู SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRViewer" value="ดูรายงานข้อมูลที่มีการจัดรูปแบบ (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="ลอนช์แพด Report Application Server"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="เริ่มลอนช์แพด Report Application Server"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="เริ่ม Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="เริ่ม Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="Add-on Packager ของ SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="เริ่ม Add-on Packager ของ Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="เริ่มใช้งาน SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="Add-On Packager ของ SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="เริ่มใช้งาน Add-On Packager ของ SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="WACS สำหรับคอนโซลการดูแลระบบ BI ของ SAP BusinessObjects"/>
+    <string id="shortcut.link.name.boserver.ADC" value="คอนโซลการดูแลระบบ BI ของ SAP BusinessObjects"/>
+    <string id="shortcut.link.description.ADC" value="เข้าถึงคอนโซลการดูแลระบบ"/>
+    <string id="OverhangingPatchMessage" value="ถ้าดำเนินการติดตั้งนี้ต่อ โปรแกรมแก้ไขอาจถูกเอาออกจากระบบ โปรดตรวจสอบให้แน่ใจว่าคุณกำลังติดตั้งแพคเกจที่เข้ากันได้"/>
+    <string id="Installing41PatchOver40" value="ก่อนที่จะดำเนินการต่อ ให้สร้างสำเนาสำรองของระบบ 4.0 ปัจจุบันด้วยตนเองก่อน คุณไม่สามารถถอนการติดตั้งโปรแกรมอัปเดต 4.1 หลังจากที่มีการนำไปใช้แล้วได้ ถ้าคุณต้องการกู้คืนสถานะของระบบ คุณต้องใช้สำเนาสำรองดังกล่าว"/>
+    <string id="Block41PatchUninstall" value="ไม่สามารถถอนการติดตั้งโปรแกรมอัปเดต 4.1 โดยอัตโนมัติได้ เมื่อต้องการกลับสู่สถานะของระบบ 4.0 ให้เอาไบนารีที่มีอยู่ออกแล้วใช้สำเนาสำรอง 4.0 ที่คุณได้สร้างไว้เพื่อคืนค่าสถานะของระบบ 4.0 อีกครั้ง"/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# ต้องการคีย์การให้สิทธิ์ใช้งานใหม่ ให้ดาวน์โหลดคีย์การให้สิทธิ์ใช้งานใหม่จาก SAP Service Market Place ลบคีย์การให้สิทธิ์ใช้งานเดิมแล้วเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่ใน Central Management Console สำหรับข้อมูลเพิ่มเติม โปรดดูเอกสารอ้างอิง"/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="ไม่แนะนำให้ใช้ผลิตภัณฑ์และคุณลักษณะบางรายการใน #product.fullproductnamenospace# คุณควรดำเนินการตามที่กำหนดที่ระบุใน SAP Note 2801797 หลังจากการอัปเดต"/>
+    <string id="DeployLaterDescription" value="โหมดการปรับใช้แอปพลิเคชันเว็บ"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="ติดตั้งเวอร์ชันโปรแกรมแก้ไขหลักสำหรับ hot fix แล้ว"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="hot fix นี้มีไว้สำหรับ #productname# #product_version# #product_sp_version# โปรแกรมแก้ไข #patch_id# คุณต้องติดตั้งโปรแกรมแก้ไขก่อนจึงจะดำเนินการติดตั้งนี้ต่อได้ตรวจสอบรายละเอียดเพิ่มเติมใน SAP Note 2257993"/>
+  </context>
+</uitext>

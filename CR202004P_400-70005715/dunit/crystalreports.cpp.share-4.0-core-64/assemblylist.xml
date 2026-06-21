@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="CacheSrvAdmin.dll" sourcename="CachePageServerAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2188288"/>
+    <file name="PageSrvAdmin.dll" sourcename="CachePageServerAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2188288"/>
+    <file name="dsconfig.xml" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="935"/>
+    <file name="HelpMgr.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="309760"/>
+    <file name="jvmmanager.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="27136"/>
+    <file name="lovconvertor.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="369152"/>
+    <file name="ReportAdd.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="27648"/>
+    <file name="ReportAdd.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="488960"/>
+    <file name="ReportPromptEMF.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="443392"/>
+    <file name="ReportSourceBridge.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1071104"/>
+    <file name="SAWebAdmin.dll" sourcename="sawebadminplugin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1779712"/>
+    <file name="vle.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="610816"/>
+    <file name="reportrenderer.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1782784"/>
+    <file name="cmscon.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="405504"/>
+  </sourcedir>
+</assembly>

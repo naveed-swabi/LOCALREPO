@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Értesítés termékek és funkciók elavulttá minősítéséről"/>
+<string id="YouMustAgree" value="A(z) #product.fullproductnamenospace# rendszerhez tartozó egyes termékek és funkciók elavulttá váltak."/>
+<string id="IAccept" value="Elolvastam a dokumentációt és megértettem, hogy az elavult termékek és funkciók milyen hatást gyakorolnak a BI platform működésére, és vállalom, hogy a frissítés után végrehajtom az előírt műveleteket."/>
+<string id="subtitle1" value="A BI 4.3 verzióban egyes alkalmazások (például az SAP BusinessObjects Explorer és az SAP BusinessObjects Dashboards) elavulttá lettek minősítve. Az elavult alkalmazások teljes listáját, illetve az elavulttá minősítés folyamatával kapcsolatos további tájékoztatást itt nézheti meg:"/>
+<string id="subtitle2" value="Ellenőriznie kell ezek hatását, illetve azt követően végre kell hajtani az előírt műveleteket a blogban jelzetteknek megfelelően."/>
+<string id="AcceptOrNotAccept" value="Nyomja meg az &lt;ENTER&gt; gombot annak visszaigazolására, hogy elolvasta a dokumentációt és megértette, hogy az elavult termékek és funkciók milyen hatást gyakorolnak a BI platform működésére, és vállalja, hogy a frissítés után végrehajtja az előírt műveleteket."/>
+<string id="DeprecatedProductDescription" value="A BI 4.3 verzióban egyes alkalmazások (például az SAP BusinessObjects Explorer és az SAP BusinessObjects Dashboards) elavulttá lettek minősítve. Az elavult alkalmazások teljes listáját, illetve az elavulttá minősítés folyamatával kapcsolatos további tájékoztatást itt nézheti meg: https://launchpad.support.sap.com/#/notes/2801797. \n\nEllenőriznie kell ezek hatását, illetve azt követően végre kell hajtani az előírt műveleteket a blogban jelzetteknek megfelelően.\n\n"/>
+<string id="CRServiceDescription" value="Az SAP Crystal Reports 2020 szolgáltatások már nincsenek támogatva Linux és Unix rendszereken. A frissítés során el lesznek távolítva. Az SAP Crystal Reports 2020 dokumentumok azonban megmaradnak a BI-platformon, és továbbra is támogatva lesznek. Ha további információt szeretne azzal kapcsolatban, hogy hogyan oszthatja szét a szükséges szolgáltatásokat Windows-szerverekre, olvassa el a https://launchpad.support.sap.com/#/notes/3032096 címen található SAP Knowledge Base Article-t."/>
+</context>
+</uitext>

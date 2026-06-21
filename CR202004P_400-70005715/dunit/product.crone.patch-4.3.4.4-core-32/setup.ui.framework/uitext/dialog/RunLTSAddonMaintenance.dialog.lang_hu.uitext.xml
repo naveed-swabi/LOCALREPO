@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Ismeretlen karbantartási üzemmód van megadva, az érvényes értékek: Módosítás, Javítás és Eltávolítás"/>
+<string id="ChooseMaintenanceMode" value="Alkalmazás karbantartása"/>
+<string id="SelectMaintenanceMode" value="Válassza ki a végrehajtandó karbantartási műveletet."/>
+<string id="Modify" value="Módosítás"/>
+<string id="ModifyDescription" value="Az alkalmazás telepített szolgáltatásainak módosítása. A megjelenő Szolgáltatások kiválasztása párbeszédpanelen külön beállíthatja a kívánt szolgáltatásokat."/>
+<string id="Repair" value="Javítás"/>
+<string id="RepairDescription" value="Hiányzó vagy sérült fájlok újratelepítése. Lehet, hogy a beállításjegyzékben tárolt beállítások visszaállnak az alapértelmezett értékekre."/>
+<string id="Remove" value="Eltávolítás"/>
+<string id="RemoveDescription" value="A(z) #product.nameonly# eltávolítása a számítógépről."/>
+<string id="Invalid_Maintenance_Mode" value="A MaintenanceMode típusa érvényelen ([MaintenanceMode]). A lehetséges értékek: ''modify'', ''repair'' és ''remove''. INS00283"/>
+</context>
+</uitext>

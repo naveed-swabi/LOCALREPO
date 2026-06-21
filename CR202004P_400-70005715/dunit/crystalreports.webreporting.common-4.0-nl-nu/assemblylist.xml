@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/crviewer">
+    <file name="strings_nl.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="17088"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/prompting/js">
+    <file name="promptengine_strings_nl.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/js" size="2833"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/dhtmllib/language/nl">
+    <file name="labels.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/language/nl" size="1891"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers">
+    <file name="allStrings_nl.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="21812"/>
+  </sourcedir>
+</assembly>

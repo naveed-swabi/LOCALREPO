@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="Title" value="Vyberte režim instalace"/>
+<string id="SubTitle" value="Vyberte režim instalace"/>
+<string id="Standard_InstallationName" value="Standardní instalace"/>
+<string id="Standard_InstallationText" value="Instalace je provedena během jediné fáze"/>
+<string id="PhaseWise_InstallationName" value="Instalace podle fází"/>
+<string id="PhaseWise_InstallationText" value="Instalace probíhá ve dvou fázích – „Ukládání do mezipaměti“ a „Instalace po uložení do mezipaměti“. Během ukládání do mezipaměti nedochází k výpadku systému a v systému můžete dále pracovat. Během instalace po uložení do mezipaměti je software nainstalován v systému s určitým výpadkem."/>
+<string id="CachingCompletedSubTitle" value="Ukládání do mezipaměti dokončeno"/>
+<string id="Resume_InstallationSubTitle" value="Obnovit instalaci po uložení do mezipaměti. Instalace po uložení do mezipaměti je vlastní proces instalace, kdy dochází ukládání k výpadku systému."/>
+<string id="ShowWayOfInstallFooter" value="Stisknutím kláves []Ctrl-B] přejdete zpět, stiskutím kláves []Ctrl-X] ukončíte program a stisknutím klávesy []Enter] zahájíte instalaci."/>
+</context>
+</uitext>

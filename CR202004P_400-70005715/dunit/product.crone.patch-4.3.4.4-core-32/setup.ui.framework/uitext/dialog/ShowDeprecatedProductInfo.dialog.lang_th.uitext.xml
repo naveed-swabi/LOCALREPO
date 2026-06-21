@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="DeprecatedProductAgreement" value="การประกาศเกี่ยวกับผลิตภัณฑ์และคุณลักษณะที่ไม่แนะนำให้ใช้"/>
+<string id="YouMustAgree" value="มีผลิตภัณฑ์และคุณลักษณะสองสามรายการที่ไม่แนะนำให้ใช้ใน #product.fullproductnamenospace#"/>
+<string id="IAccept" value="ฉันอ่านเอกสารอ้างอิงและเข้าใจผลกระทบของผลิตภัณฑ์และคุณลักษณะที่ไม่แนะนำให้ใช้ของ BI Platform และยอมรับที่จะดำเนินการตามที่กำหนดหลังจากการอัปเดต"/>
+<string id="subtitle1" value="แอปพลิเคชัน เช่น SAP BusinessObjects Explorer และ SAP BusinessObjects Dashboards ไม่แนะนำให้ใช้แล้วใน BI 4.3 คุณสามารถตรวจสอบลิสต์ทั้งหมดของแอปพลิเคชันที่ไม่แนะนำให้ใช้และรับข้อมูลเพิ่มเติมเกี่ยวกับการไม่แนะนำให้ใช้ดังกล่าวนี้ได้ที่"/>
+<string id="subtitle2" value="คุณต้องตรวจทานผลกระทบแล้วดำเนินการที่กำหนดตามที่กล่าวถึงในบล็อก"/>
+<string id="AcceptOrNotAccept" value="กด &lt;ENTER&gt; เพื่อยอมรับว่าคุณอ่านเอกสารอ้างอิงและเข้าใจผลกระทบของผลิตภัณฑ์และคุณลักษณะที่ไม่แนะนำให้ใช้ของ BI Platform และยอมรับที่จะดำเนินการที่กำหนดหลังจากการอัปเดต"/>
+<string id="DeprecatedProductDescription" value="แอปพลิเคชัน เช่น SAP BusinessObjects Explorer และ SAP BusinessObjects Dashboards ไม่แนะนำให้ใช้แล้วใน BI 4.3 คุณสามารถตรวจสอบลิสต์ทั้งหมดของแอปพลิเคชันที่ไม่แนะนำให้ใช้ และรับข้อมูลเพิ่มเติมเกี่ยวกับการไม่แนะนำให้ใช้ดังกล่าวนี้ได้ที่ https://launchpad.support.sap.com/#/notes/2801797 \n\nคุณต้องตรวจทานผลกระทบแล้วดำเนินการที่กำหนดตามที่กล่าวถึงในบล็อก\n\n"/>
+<string id="CRServiceDescription" value="บริการ SAP Crystal Reports 2020 ไม่ได้รับการสนับสนุนแล้วใน Linux และ Unix ดังนั้นจะถูกเอาออกระหว่างการอัปเกรดนี้ อย่างไรก็ตาม เอกสารของ SAP Crystal Reports 2020 จะอยู่ใน BI Platform และยังคงได้รับการสนับสนุน เมื่อต้องการทราบรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการกระจายบริการที่จำเป็นไปสู่เซิร์ฟเวอร์ Windows ให้ดู SAP Knowledge Base Article ที่ https://launchpad.support.sap.com/#/notes/3032096"/>
+</context>
+</uitext>

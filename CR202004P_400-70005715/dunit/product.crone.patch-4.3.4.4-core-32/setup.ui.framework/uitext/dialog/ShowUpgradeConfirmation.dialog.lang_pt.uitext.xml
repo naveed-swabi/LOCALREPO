@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Message1" value="Atualização do produto"/>
+<string id="Message2" value="Uma versão anterior desse produto foi detectada. Se você continuar a instalação, o produto será atualizado. Clique em Avançar para continuar ou em Cancelar para sair da instalação."/>
+<string id="MessageUnix" value="Uma versão anterior desse produto foi detectada. Se você continuar a instalação, o produto será atualizado. Pressione [Enter] para continuar ou [Ctrl-X] para sair da instalação."/>
+</context>
+</uitext>

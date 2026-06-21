@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="เลือกเซิร์ฟเวอร์ของแอปพลิเคชันเว็บ Java"/>
+<string id="ChooseWebAppServerSubtitle" value="เลือกโซลูชันเซิร์ฟเวอร์ของแอปพลิเคชันเว็บ Java"/>
+<string id="ChooseWebAppServerFooter" value="กด []Tab], []Up] หรือ []Down] เพื่อเลือก กด []Ctrl-B] เพื่อย้อนกลับ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อดำเนินการต่อ"/>
+<string id="InstallJWAS" value="ติดตั้งเซิร์ฟเวอร์และแอปพลิเคชันเว็บ Java"/>
+<string id="InstallTomcat" value="ติดตั้งเซิร์ฟเวอร์แอปพลิเคชันเว็บ Tomcat แบบ Java ดีฟอลต์ และปรับใช้แอปพลิเคชันเว็บโดยอัตโนมัติ"/>
+<string id="ManualDeploy" value="ปรับใช้แอปพลิเคชันเว็บกับเซิร์ฟเวอร์ของแอปพลิเคชันเว็บ Java ที่สนับสนุนด้วยตนเองหลังการติดตั้ง"/>
+<string id="InstallWACS" value="ติดตั้งเซิร์ฟเวอร์ที่จัดเก็บแอปพลิเคชันเว็บและปรับใช้แอปพลิเคชันเว็บโดยอัตโนมัติ"/>
+<string id="SharePointIntegrationTitle" value="ตัวเลือกการผสานรวม SAP BusinessObjects สำหรับซอฟต์แวร์ Microsoft SharePoint 4.0"/>
+<string id="SharePointIntegrationText" value="ตัวเลือกการผสานรวม SAP BusinessObjects สำหรับซอฟต์แวร์ Microsoft SharePoint 4.0 จะพร้อมใช้งานในรูปของการติดตั้งแยกต่างหากในโฟลเดอร์ Add-on สำหรับ Sharepoint แบบ 64 บิต สำหรับลิงค์ไปยังโฟลเดอร์ Add-on ให้ดูในคำแนะนำเกี่ยวกับขั้นตอนภายหลังการติดตั้ง"/>
+<string id="SharePointIntegrationCheck" value="แสดงที่ตั้งของโฟลเดอร์ Add-on เมื่อการติดตั้งสิ้นสุดแล้ว"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="ค่า UseIntegratedWebAppServer ([UseIntegratedWebAppServer]) ไม่ถูกต้อง: ควรเป็น 0 หรือ 1 INS00255"/>
+</context>
+</uitext>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# başarıyla kuruldu."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# yükleme sırasında hatalarla karşılaştı."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# kaldırma sırasında hatalarla karşılaştı."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# başarıyla kaldırıldı."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# uyarılarla birlikte başarıyla yüklendi."/>
+<string id="Description" value="Bu kurulumdan çıkmak için Son'u tıklayın."/>
+<string id="FailedDescription" value="Bu kurulumdan çıkmak için Son'u tıklayın."/>
+<string id="Description_unix" value="Bu kurulumdan çıkmak için []Enter] tuşuna basın."/>
+<string id="FailedDescription_unix" value="Ayrıntıları görüntülemek için []D], kurulumdan çıkmak için []Enter] tuşuna basın."/>
+<string id="PatchUpdateCheck" value="Ürün güncellemeleri kontrol et"/>
+<string id="CustomNextButton" value="Son"/>
+<string id="CustomButtonRegister" value="Kaydol"/>
+<string id="ViewLogButton" value="Günlüğü Görüntüle"/>
+<string id="HyperlinkText" value="Ayrıntılar için burayı tıklayın"/>
+</context>
+</uitext>

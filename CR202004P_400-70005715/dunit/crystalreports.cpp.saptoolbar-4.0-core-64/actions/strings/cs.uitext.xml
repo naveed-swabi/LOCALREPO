@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="progress.BWRegServer" value="Konfigurace integrace SAP"/>
+<string id="progress.BWUnregServer" value="Konfigurace integrace SAP"/>
+</context>
+</uitext>

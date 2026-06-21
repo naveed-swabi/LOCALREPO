@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="SelectedInvalidLocale" value="Nem támogatott területi beállítást adott meg."/>
+<string id="SetupLanguageTitle" value="Telepítő nyelvének kiválasztása"/>
+<string id="SetupLanguageSubtitle" value="Válassza ki a telepítés nyelvét."/>
+<string id="SetupLanguageUnixSubtitle" value="Válassza ki a telepítés nyelvét."/>
+<string id="CreateLogFile" value="Naplófájl létrehozása a telepítés során"/>
+<string id="Invalid_SetupLanguage" value="Érvénytelen telepítési nyelv ([SetupUILanguage]): A következők egyike lehet: &quot;[$available.ui.langs]&quot;. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="Érvénytelen IsEnableSetupLog ([IsEnableSetupLog]). A lehetséges értékek: 0 és 1."/>
+<string id="SelectUILanguageFooter" value="A kijelöléshez nyomja meg a []Tab], a []Fel] vagy a []Le] billentyűt, a kilépéshez a []Ctrl-X] billentyűkombinációt, a folytatáshoz pedig az []Enter] billentyűt."/>
+</context>
+</uitext>

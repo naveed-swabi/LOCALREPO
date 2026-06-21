@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="DlgTitle" value="파일 연결"/>
+<string id="DlgSummary" value="기본 Crystal Report 뷰어 응용 프로그램 설정"/>
+<string id="ReplaceFileAssoc" value="Crystal Reports 뷰어가 현재 기본 Crystal 보고서 뷰어가 아닙니다. 기본 뷰어로 설정하시겠습니까?"/>
+<string id="Yes" value="예"/>
+<string id="No" value="아니요"/>
+</context>
+</uitext>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="DlgTitle" value="Dateizuordnung"/>
+<string id="DlgSummary" value="Crystal Reports Viewer-Standardanwendung wird eingestellt."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer ist derzeit nicht Ihr Standard-Viewer für Crystal Reports-Berichte. Möchten Sie die Anwendung als Standard-Viewer festlegen?"/>
+<string id="Yes" value="Ja"/>
+<string id="No" value="Nein"/>
+</context>
+</uitext>

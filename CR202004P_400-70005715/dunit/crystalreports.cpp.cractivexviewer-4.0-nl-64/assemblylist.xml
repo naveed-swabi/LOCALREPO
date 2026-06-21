@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="CRViewer_res_nl.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="127488"/>
+    <file name="CSelExpt_res_nl.ocx" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="22528"/>
+    <file name="sviewhlp_res_nl.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="12288"/>
+    <file name="swebrs_res_nl.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="14336"/>
+  </sourcedir>
+</assembly>

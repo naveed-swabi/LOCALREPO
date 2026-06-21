@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace#이(가) 설치되었습니다."/>
+<string id="SuccessInstallDescription" value="설치를 끝내려면 [마침]을 클릭하십시오."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# 설치 프로세스 중에 오류가 발생했습니다."/>
+<string id="FailureInstallDescription" value="설치를 끝내려면 [마침]을 클릭하십시오."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace#이(가) 제거되었습니다."/>
+<string id="SuccessUnInstallDescription" value="제거하지 않고 끝내려면 [마침]을 클릭하십시오."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace#이(가) 설치되었으며 경고가 있습니다."/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# 제거 프로세스 중에 오류가 발생했습니다."/>
+<string id="FailureUnInstallDescription" value="설치를 끝내려면 [마침]을 클릭하십시오."/>
+<string id="FinishButton" value="마침"/>
+<string id="ViewLogButton" value="로그 보기"/>
+<string id="LaunchWDeploy" value="설치 후 WDeploy 도구를 자동으로 실행합니다."/>
+<string id="LaunchSSW" value="시스템 설치 마법사 시작"/>
+<string id="HyperlinkText" value="자세한 내용을 보려면 여기를 클릭하십시오."/>
+</context>
+</uitext>

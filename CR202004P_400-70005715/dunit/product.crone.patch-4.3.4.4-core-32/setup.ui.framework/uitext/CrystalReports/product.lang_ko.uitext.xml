@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#product.fullproductnamenospace# 업데이트"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version# #productname_patch_prespace# (#productname_language#)"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# 업데이트"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# 설치됨"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="이 업데이트는 #productname#용이며, 이 버전은 시스템에서 검색되지 않았습니다. 설치를 계속하려면 먼저 이 제품을 설치하십시오."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="상위 버전 패치 없음"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="이 패키지보다 상위 버전의 패치가 시스템에서 검색되었습니다. 이 패키지의 업데이트를 적용할 수 없습니다. 작업을 취소하는 것이 좋습니다."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="지원 패키지 버전: [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="이 업데이트를 진행하려면 제품의 지원 패키지 버전이 [CurrentSupportPackage]이어야 합니다. 기존 시스템을 업그레이드하거나 해당 업데이트를 적용하십시오."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="부 버전: [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="이 업데이트를 진행하려면 제품의 부 버전이 [CurrentMinorVersion]이어야 합니다. 기존 시스템을 업그레이드하거나 해당 업데이트를 적용하십시오"/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="서식이 지정된 데이터 보고서(.RPT)를 만들고 수정합니다."/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC 데이터 소스 관리자"/>
+<string id="product.shortcutODBC.description" value="ODBC(Open Database Connectivity) 데이터 소스와 드라이버를 추가, 제거 및 구성합니다."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32비트 데이터 소스 관리자"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\보고서 업로드 마법사"/>
+<string id="product.shortcutWizard.description" value="보고서 업로드 마법사"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="DataDirect 드라이버 7.1.5의 새 버전이 설치됩니다. DataDirect 드라이버 새 버전을 마이그레이션하려면 설명서를 참조하십시오."/>
+</context>
+</uitext>

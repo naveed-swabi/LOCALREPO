@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Message" value="Potwierdzenie odinstalowania"/>
+<string id="Description" value="To spowoduje usunięcie programu #product.fullproductnamenospace# z komputera."/>
+<string id="ConfirmUninstall" value="Czy na pewno chcesz odinstalować program?"/>
+<string id="ConfirmUninstall_Footer" value="Naciśnij klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby kontynuować."/>
+</context>
+</uitext>

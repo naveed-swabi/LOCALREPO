@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Vælg sprogpakker"/>
+<string id="SelectLanguagePackSubtitle" value="Vælg alle de øvrige sprogpakker, som brugerne vil operere med i produktet  "/>
+<string id="SelectLanguagePackFooter" value="Tryk på []Tab], []Pil op], eller []Pil ned] for at fremhæve, []Mellemrumstasten] eller []X] for til/fra-status, []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte, eller []Enter] for at fortsætte."/>
+<string id="alllang" value="Alle sprog"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Property Selected LanguagePacks '[SelectedLanguagePacks]' skal inkludere systemets landestandard."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Egenskaben SelectedLanguagePacks '[SelectedLanguagePacks]' skal inkludere 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Egenskaben SelectedLanguagePacks '[SelectedLanguagePacks]' skal være et undersæt til de tilgængelige sprogpakker. the available language packs."/>
+</context>
+</uitext>

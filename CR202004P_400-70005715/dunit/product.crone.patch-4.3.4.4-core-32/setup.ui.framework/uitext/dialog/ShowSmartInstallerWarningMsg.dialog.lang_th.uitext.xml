@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="ตรวจสอบว่าพาธการติดตั้งที่ระบุถูกต้องเพื่อให้สามารถทำการติดตั้งที่ต้องการได้สำเร็จ \n\n สำหรับการติดตั้งใหม่ – ไดเรคทอรีไฟล์ของการติดตั้งใหม่ \n สำหรับการติดตั้งโปรแกรมแก้ไข – ไดเรคทอรีไฟล์ที่มีการติดตั้ง #productname# เวอร์ชันก่อนหน้า \n\n\n คลิก ตกลง เพื่อดำเนินการต่อ หรือคลิก ออก เพื่อป้อนพาธการติดตั้งที่ถูกต้อง \n"/>
+<string id="ExitMessage" value="กด Ctrl+X เพื่อจบการทำงาน หรือกด Enter เพื่อดำเนินการต่อ"/>
+<string id="WarnDialogTitle" value="กล่องโต้ตอบข้อมูล"/>
+<string id="WarnDialogSubtitle" value="ข้อมูล :"/>
+</context>
+</uitext>

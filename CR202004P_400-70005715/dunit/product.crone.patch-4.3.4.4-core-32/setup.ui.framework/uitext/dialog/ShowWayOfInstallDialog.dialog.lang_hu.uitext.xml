@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Title" value="Telepítési mód kiválasztása"/>
+<string id="SubTitle" value="Válassza ki a telepítés módját"/>
+<string id="Standard_InstallationName" value="Normál telepítés"/>
+<string id="Standard_InstallationText" value="A telepítés egy lépésben készül el"/>
+<string id="PhaseWise_InstallationName" value="Lépésalapú telepítés"/>
+<string id="PhaseWise_InstallationText" value="A telepítés két lépésben zajlik - gyorsítótárazás és gyorsítótárazás utáni telepítés. A gyorsítótárazás közben a rendszer üzemben van és használható. A gyorsítótárazást követő telepítés közben a szoftver leállást követel a rendszertől."/>
+<string id="CachingCompletedSubTitle" value="Gyorsítótárazás kész"/>
+<string id="Resume_InstallationSubTitle" value="Folytassa a telepítést a gyorsítótárazás után. A gyorsítótárazás utáni telepítés a tényleges telepítési folyamat, amikor a rendszerleállás is történik."/>
+<string id="ShowWayOfInstallFooter" value="A visszalépéshez nyomja meg a []Ctrl-B], a kilépéshez a []Ctrl-X] billentyűkombinációt, míg a folytatáshoz az []Enter] billentyűt."/>
+</context>
+</uitext>

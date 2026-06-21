@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="ChooseSldServerLocation" value="Valitse SLD-palvelimen sijainti"/>
+<string id="SpecifySldServerLocation" value="Anna SLD-palvelimen sijainti"/>
+<string id="SldHostnameExample" value="Anna SLD-palvelimen osoite (esim. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Anna sisäänkirjautumistiedot"/>
+<string id="SldHostname" value="Isäntänimi"/>
+<string id="SldPort" value="Portti"/>
+<string id="SldUsername" value="Käyttäjätunnus"/>
+<string id="SldPassword" value="Salasana"/>
+</context>
+</uitext>

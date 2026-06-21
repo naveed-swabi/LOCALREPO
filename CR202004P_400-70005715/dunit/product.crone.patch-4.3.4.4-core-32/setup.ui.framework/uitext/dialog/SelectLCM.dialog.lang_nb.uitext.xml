@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="SelectLCMTitle" value="Velg versjonsstyring"/>
+<string id="SelectLCMSubtitle" value="Velg om du vil installere standard versjonsstyringssystem eller bruke et eksisterende system for versjonsstyring."/>
+<string id="SelectLCMFooter" value="Trykk på []Tab], []Opp] eller []Ned] for å velge, []Ctrl-B] for å gå tilbake, []Ctrl-X] for å avslutte eller []Enter] for å fortsette."/>
+<string id="NewLCMInstall" value="Konfigurer og installer Subversion"/>
+<string id="ExistingLCMInstall" value="Ikke konfigurer versjonsstyringssystem nå"/>
+<string id="Invalid_SelectLCM" value="Ugyldig NewOrExistingLCM-type ([NewOrExistingLCM]): Kan bare være &quot;ny&quot; eller &quot;eksisterende&quot;. INS00284"/>
+</context>
+</uitext>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="InvalidProductKey" value="您輸入的產品識別碼無效。"/>
+<string id="EnterProductKeyTitle" value="設定產品註冊"/>
+<string id="EnterProductKeySubtitle" value="輸入 #product.nameandversionwithoutpatch# 產品識別碼。"/>
+<string id="ProductkeyLabel" value="產品識別碼:"/>
+<string id="ProductkeyInfoGroup" value="產品識別碼資訊"/>
+<string id="Invalid_ProductKey" value="產品識別碼無效。INS00140"/>
+</context>
+</uitext>

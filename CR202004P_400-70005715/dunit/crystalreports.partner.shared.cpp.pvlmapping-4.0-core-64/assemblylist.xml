@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\SAP\PVL Mapping">
+    <registryValue name="DefaultMapping" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\DefaultMapping.properties</registryValue>
+    <registryValue name="OverrideMapping" type="string">No</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.partner.shared.cpp">
+    <file name="DefaultMapping.properties" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1885"/>
+  </sourcedir>
+</assembly>

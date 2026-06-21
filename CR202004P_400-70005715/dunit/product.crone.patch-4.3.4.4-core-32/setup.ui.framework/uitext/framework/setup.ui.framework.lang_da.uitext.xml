@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="da"/>
+  <context>
+    <string id="Yes" value="Ja"/>
+    <string id="No" value="Nej"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="Annuller"/>
+    <string id="Abort" value="Afbryd"/>
+    <string id="Continue" value="Fortsæt"/>
+    <string id="Ignore" value="Ignorer"/>
+    <string id="Next" value="Næste"/>
+    <string id="Previous" value="Tilbage"/>
+    <string id="Info" value="Info"/>
+    <string id="Warning" value="Advarsel"/>
+    <string id="Error" value="Fejl"/>
+    <string id="FatalError" value="Alvorlig fejl"/>
+    <string id="ErrorDialogTitle" value="Fejl"/>
+    <string id="ErrorDialogSubtitle" value="Der er opstået en fejl."/>
+    <string id="ErrorDialogFooter" value="Tryk på Enter for at fortsætte."/>
+    <string id="WarnDialogTitle" value="Advarsel"/>
+    <string id="WarnDialogSubtitle" value="Der er opstået en advarsel."/>
+    <string id="WarnDialogFooter" value="Tryk på Ctrl-B for at gå tilbage eller Enter for at fortsætte."/>
+    <string id="InfoDialogTitle" value="Oplysninger"/>
+    <string id="InfoDialogSubtitle" value="Følgende oplysninger er angivet:"/>
+    <string id="InfoDialogFooter" value="Tryk på Enter for at fortsætte."/>
+    <string id="DefaultUnixFooter" value="Tryk på Tab for at gå til næste felt, Ctrl-B for at gå til forrige felt, Ctrl-X for at afslutte eller Enter for at fortsætte."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Tryk på Tab for at gå til næste felt, Ctrl-X for at afslutte eller Enter for at fortsætte."/>
+    <string id="ProgressDialogUnixFooter" value="Tryk på Ctrl-X for at afslutte."/>
+    <string id="CancelCaption" value="Annuller"/>
+    <string id="CancelExitSetup" value="Afslut installation"/>
+    <string id="CancelMsg" value="Hvis du afslutter nu, bliver programmet ikke installeret. Du kan køre installationsprogrammet på et senere tidspunkt for at fuldføre installationen.\n\nKlik på Fortsæt for at fortsætte installationen. Klik på Afslut installation for at afslutte installationen."/>
+    <string id="CancelResume" value="Fortsæt"/>
+    <string id="DialogCaption" value="Installation af #product.fullproductnamenospace#"/>
+    <string id="outofspace" value="Der er ikke mere diskplads"/>
+    <string id="CanceledModifier" value="%1 (annullerer)"/>
+    <string id="ValidationCaption" value="Valideringsresultat"/>
+    <string id="ValidationError" value="Fejl:"/>
+    <string id="ValidationToDo" value="Tryk på OK for at rette valideringsfejlen. Hvis der kun er advarsler, skal du trykke på Ja for at fortsætte eller på Nej for at rette advarslen."/>
+    <string id="ValidationWarning" value="Advarsel:"/>
+    <string id="Validation.MissingFields" value="Påkrævne felter skal udfyldes, før installationen kan fortsætte."/>
+    <string id="ValidationFailed.Blocking" value="Fremskridt standset, fordi følgende handling ikke blev valideret:"/>
+    <string id="ValidationFailed.Optional" value="Valgfri validering lykkedes ikke for følgende handling: "/>
+    <string id="action.InstallDUBundle" value="Installerer implementeringsenhed:"/>
+    <string id="action.UninstallDUBundle" value="Afinstallerer implementeringsenhed:"/>
+    <string id="action.RegisterBinary" value="Registrer binær"/>
+    <string id="action.UnregisterBinary" value="Fjern registrering af binær"/>
+    <string id="action.ConfigureTomcat" value="Konfigurerer Tomcat"/>
+    <string id="action.BOBJTextReplace" value="Udfør teksterstatning"/>
+    <string id="action.RunCommand" value="Kør eksekverbar kommandolinje"/>
+    <string id="action.RunCommandConditional" value="Kør eksekverbar kommandolinje på visse betingelser"/>
+    <string id="action.EnsureFolderExists" value="Sørg for, at en mappe findes"/>
+    <string id="action.CreateShortcut" value="Opret genvej til startmenu"/>
+    <string id="action.AddARPEntry" value="Tilføj posten Tilføj/fjern programmer"/>
+    <string id="action.RemoveARPEntry" value="Fjern posten Tilføj/fjern programmer"/>
+    <string id="action.BOBJRegasm" value="Kør samlingsregistrering"/>
+    <string id="action.BOBJUnRegasm" value="Fjern samlingsregistrering"/>
+    <string id="sequence.InstallPreReqs" value="Installer forudsætninger"/>
+    <string id="sequence.SetInitialProperties" value="Indstil startegenskaber"/>
+    <string id="sequence.SetMyProperties" value="Indstil produktegenskaber"/>
+    <string id="sequence.InstallDUBase" value="Installationshandlinger"/>
+    <string id="sequence.InstallDUBundles" value="Installer implementeringsenheder"/>
+    <string id="sequence.CreateSymLinks" value="Opret symlinks"/>
+    <string id="sequence.ConfigureDUBase" value="Konfigurer implementeringsenheder"/>
+    <string id="sequence.PopulateRegistry" value="Udfyld registreringsdatabase"/>
+    <string id="sequence.InstallServices" value="Installer tjenester"/>
+    <string id="sequence.ConfigureServices" value="Konfigurer tjenester"/>
+    <string id="sequence.StartServices" value="Start tjenester"/>
+    <string id="sequence.StopServices" value="Stop tjenester"/>
+    <string id="sequence.UninstallServices" value="Afinstaller tjenester"/>
+    <string id="sequence.UnPopulateRegistry" value="Annuller udfyldning af registreringsdatabase"/>
+    <string id="sequence.UninstallDUBase" value="Afinstallationshandlinger"/>
+    <string id="sequence.UnconfigureDUBase" value="Annuller konfiguration af implementeringsenheder"/>
+    <string id="sequence.RemoveSymLinks" value="Fjern symlinks"/>
+    <string id="sequence.UninstallDUBundles" value="Afinstaller implementeringsenheder:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Slet tomme mapper"/>
+    <string id="Dialog.title" value="Installationsmeddelelse"/>
+    <string id="PleaseWait" value="Vent..."/>
+    <string id="LongCalculation" value="Der er en langvarig beregning i gang. Vent..."/>
+    <string id="DiskCostInProgress" value="Beregning af diskomkostninger er i gang."/>
+    <string id="Confirm.title" value="Bekræft"/>
+    <string id="Permissions.title" value="Konfigurer tilladelser"/>
+    <string id="NoPermissionsOperation" value="Du har ikke adgangsrettigheder til at udføre handlinger i denne installation."/>
+    <string id="NoPermissionsFile" value="Du har ikke adgangsrettigheder til at tilgå følgende fil: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Installationsprogrammet har registreret, at en ældre version af #productname# er installeret. Denne fulde installationspakke kan ikke anvendes på en computer, hvor der allerede er installeret en ældre version. Anvend vedligeholdelsepakken til #product.fullproductname# til at opdatere den eksisterende installation."/>
+    <string id="OlderCryptoDllFound" value="Installationsprogrammet fandt, at miljøvariablen R_SHLIB_LD_LIBRARY_PATH er indstillet til kryptobinære, der er en lavere version end de binære, der kræves til denne installation. Følg instruktionerne i det relaterede dokument for af fuldføre installationen."/>
+    <string id="CmdLine.title" value="Installationskommandolinje"/>
+    <string id="InvalidCmdLine" value="Ugyldig kommandolinje"/>
+    <string id="ExpectedCmdLine" value="Den forventede kommandolinje er: %1"/>
+    <string id="ActionFailed" value="Brugerdefineret handling lykkedes ikke"/>
+    <string id="ActionFailedArg" value="Brugerdefineret handling lykkedes ikke: %1"/>
+    <string id="ActionFailedWithCode" value="Brugerdefineret handling lykkedes ikke og viste fejlkode:"/>
+    <string id="RegistrationFailed" value="Binær kunne ikke registreres: %1"/>
+    <string id="NoFindFile" value="Kunne ikke finde fil: %1"/>
+    <string id="NoCMS" value="Kunne ikke oprette forbindelse til CMS"/>
+    <string id="NoCMSArg" value="Kunne ikke oprette forbindelse til CMS ved %1"/>
+    <string id="DFOFailed" value="DFO-upload lykkedes ikke"/>
+    <string id="wdeployFailed" value="wDeploy kunne ikke installere applikationen."/>
+    <string id="ScriptFailed" value="Script kunne ikke køres: %1"/>
+    <string id="CmdFailed" value="Kunne ikke køre kommandolinje: %1"/>
+    <string id="ServerStartFailed" value="Server kunne ikke startes: %1"/>
+    <string id="ServerStopFailed" value="Server kunne ikke standses: %1"/>
+    <string id="ExitCode" value="Afslutningskode: %1"/>
+    <string id="DBInitFail" value="Kunne ikke initialisere database"/>
+    <string id="ShortcutFail" value="Kunne ikke oprette genvej: %1"/>
+    <string id="ARPFail" value="Kunne ikke oprette en post for produktet %1 i Tilføj/fjern programmer"/>
+    <string id="CreateFolderFail" value="Kunne ikke oprette mappe: %1"/>
+    <string id="SamplesFail" value="Kunne ikke tilføje eksempler"/>
+    <string id="LicenseKeyFail" value="Licensnøglen kunne ikke tilføjes"/>
+    <string id="Tomcatfail" value="Tomcat kunne ikke konfigureres"/>
+    <string id="PropertyFail" value="Kunne ikke hente værdien af egenskaben: %1"/>
+    <string id="dev" value="Udvikler engelsk"/>
+    <string id="aa" value="Afar "/>
+    <string id="ab" value="Abkhasisk"/>
+    <string id="af" value="Afrikaans"/>
+    <string id="am" value="Amharisk"/>
+    <string id="ar" value="Arabisk"/>
+    <string id="as" value="Assamesisk"/>
+    <string id="ay" value="Aymara"/>
+    <string id="az" value="Aserbajdsjansk"/>
+    <string id="ba" value="Basjkirisk"/>
+    <string id="be" value="Belarussisk"/>
+    <string id="bg" value="Bulgarsk"/>
+    <string id="bh" value="Biharisk"/>
+    <string id="bi" value="Bislama"/>
+    <string id="bn" value="Bengalsk"/>
+    <string id="bo" value="Tibetansk"/>
+    <string id="br" value="Bretonsk"/>
+    <string id="ca" value="Katalansk"/>
+    <string id="co" value="Korsikansk"/>
+    <string id="cs" value="Tjekkisk"/>
+    <string id="cy" value="Walisisk"/>
+    <string id="da" value="Dansk"/>
+    <string id="de" value="Tysk"/>
+    <string id="dz" value="Bhutansk"/>
+    <string id="el" value="Græsk"/>
+    <string id="en" value="Engelsk"/>
+    <string id="eo" value="Esperanto"/>
+    <string id="es" value="Spansk"/>
+    <string id="et" value="Estisk"/>
+    <string id="eu" value="Baskisk"/>
+    <string id="fa" value="Persisk"/>
+    <string id="fi" value="Finsk"/>
+    <string id="fj" value="Fiji"/>
+    <string id="fo" value="Færøsk"/>
+    <string id="fr" value="Fransk"/>
+    <string id="fy" value="Frisisk"/>
+    <string id="ga" value="Irsk"/>
+    <string id="gd" value="Skotsk gælisk"/>
+    <string id="gl" value="Galicisk"/>
+    <string id="gn" value="Guarani"/>
+    <string id="gu" value="Gujarati"/>
+    <string id="ha" value="Hausa"/>
+    <string id="he" value="Hebræisk"/>
+    <string id="hi" value="Hindi"/>
+    <string id="hr" value="Kroatisk"/>
+    <string id="hu" value="Ungarsk"/>
+    <string id="hy" value="Armensk"/>
+    <string id="ia" value="Interlingua"/>
+    <string id="id" value="Indonesisk"/>
+    <string id="ie" value="Interlingua"/>
+    <string id="ik" value="Inupiak"/>
+    <string id="is" value="Islandsk"/>
+    <string id="it" value="Italiensk"/>
+    <string id="iu" value="Inuktitut"/>
+    <string id="ja" value="Japansk"/>
+    <string id="jw" value="Javanesisk"/>
+    <string id="ka" value="Georgisk"/>
+    <string id="kk" value="Kasakhisk"/>
+    <string id="kl" value="Grønlandsk"/>
+    <string id="km" value="Cambodjansk"/>
+    <string id="kn" value="Kannada"/>
+    <string id="ko" value="Koreansk"/>
+    <string id="ks" value="Kashmiri"/>
+    <string id="ku" value="Kurdisk"/>
+    <string id="ky" value="Kirgisisk"/>
+    <string id="la" value="Latin"/>
+    <string id="ln" value="Lingala"/>
+    <string id="lo" value="Laotisk"/>
+    <string id="lt" value="Litauisk"/>
+    <string id="lv" value="Lettisk"/>
+    <string id="mg" value="Malagasy"/>
+    <string id="mi" value="Maori"/>
+    <string id="mk" value="Makedonsk"/>
+    <string id="ml" value="Malayalam"/>
+    <string id="mn" value="Mongolsk"/>
+    <string id="mo" value="Moldavisk"/>
+    <string id="mr" value="Marathi"/>
+    <string id="ms" value="Malaysisk"/>
+    <string id="mt" value="Maltesisk"/>
+    <string id="my" value="Burmesisk"/>
+    <string id="na" value="Nauru"/>
+    <string id="nb" value="Norsk"/>
+    <string id="ne" value="Nepalesisk"/>
+    <string id="nl" value="Nederlandsk"/>
+    <string id="oc" value="Occitansk"/>
+    <string id="om" value="Oromo"/>
+    <string id="or" value="Oriya"/>
+    <string id="pa" value="Punjabi"/>
+    <string id="pl" value="Polsk"/>
+    <string id="ps" value="Pashto"/>
+    <string id="pt" value="Portugisisk"/>
+    <string id="qu" value="Quechua"/>
+    <string id="rm" value="Rætoromansk"/>
+    <string id="rn" value="Kirundi"/>
+    <string id="ro" value="Rumænsk"/>
+    <string id="ru" value="Russisk"/>
+    <string id="rw" value="Kinyarwanda"/>
+    <string id="sa" value="Sanskrit"/>
+    <string id="sd" value="Sindhi"/>
+    <string id="sg" value="Sangho"/>
+    <string id="sh" value="Serbokroatisk"/>
+    <string id="si" value="Singalesisk"/>
+    <string id="sk" value="Slovakisk"/>
+    <string id="sl" value="Slovensk"/>
+    <string id="sm" value="Samoansk"/>
+    <string id="sn" value="Shona"/>
+    <string id="so" value="Somali"/>
+    <string id="sq" value="Albansk"/>
+    <string id="sr" value="Serbisk"/>
+    <string id="ss" value="Siswati"/>
+    <string id="st" value="Sesotho"/>
+    <string id="su" value="Sundanesisk"/>
+    <string id="sv" value="Svensk"/>
+    <string id="sw" value="Swahili"/>
+    <string id="ta" value="Tamil"/>
+    <string id="te" value="Telugu"/>
+    <string id="tg" value="Tajik"/>
+    <string id="th" value="Thai"/>
+    <string id="ti" value="Tigrinya"/>
+    <string id="tk" value="Turkmensk"/>
+    <string id="tl" value="Tagalog"/>
+    <string id="tn" value="Setswana"/>
+    <string id="to" value="Tonga"/>
+    <string id="tr" value="Tyrkisk"/>
+    <string id="ts" value="Tsonga"/>
+    <string id="tt" value="Tatarisk"/>
+    <string id="tw" value="Twi"/>
+    <string id="ug" value="Uighur"/>
+    <string id="uk" value="Ukrainsk"/>
+    <string id="ur" value="Urdu"/>
+    <string id="uz" value="Usbekisk"/>
+    <string id="vi" value="Vietnamesisk"/>
+    <string id="vo" value="Volapyk"/>
+    <string id="wo" value="Wolof"/>
+    <string id="xh" value="Xhosa"/>
+    <string id="yi" value="Jiddisch"/>
+    <string id="yo" value="Yoruba"/>
+    <string id="za" value="Zhuang"/>
+    <string id="zh_CN" value="Forenklet kinesisk"/>
+    <string id="zh_TW" value="Traditionelt kinesisk"/>
+    <string id="zu" value="Zulu"/>
+    <string id="SetupInitSh.root" value="Log på som rod, og kør for at konfigurere init-scripts."/>
+    <string id="SetupInitSh.fail" value="Systeminitialiseringsscripts mislykkedes."/>
+    <string id="property.InstallDir.description" value="Installationsmappe"/>
+    <string id="property.SetupUILanguage.description" value="Konfigurer UI-sprog"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Tilgængelige UI-sprog til installation sorteret"/>
+    <string id="property.SelectedLanguagePacks.description" value="Sprogpakker, der er valgt til installation"/>
+    <string id="property.ProductKey.description" value="Produktnøglekode"/>
+    <string id="property.RegisteredCompany.description" value="Registreret virksomhed"/>
+    <string id="property.RegisteredUser.description" value="Registreret bruger"/>
+    <string id="property.InstallCompatibilityMode.description" value="Opgrader et tidligere produkt, eller installer side om side"/>
+    <string id="property.IsAcceptEULA.description" value="Godkender systemet slutbrugerlicensaftalen?"/>
+    <string id="property.FormattedString.description" value="Formater en målstreng"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="Start wDeploy"/>
+    <string id="description.cmsname" value="CMS-navn"/>
+    <string id="description.cmsport" value="CMS-port"/>
+    <string id="description.cmsusername" value="CMS-brugernavn"/>
+    <string id="description.cmspassword" value="CMS-adgangskode"/>
+    <string id="description.cmsauth" value="CMS-godkendelse"/>
+    <string id="description.sianame" value="SIA-navn"/>
+    <string id="description.siaport" value="SIA-port"/>
+    <string id="property.CMSPassword.description" value="CMS-administratoradgangskode"/>
+    <string id="property.CMSPort.description" value="CMS-forbindelsesport"/>
+    <string id="property.CryptoKey.description" value="CMS-klyngenøgle"/>
+    <string id="property.EnableServers.description" value="Start serverne efter installation: 0 eller 1"/>
+    <string id="property.UsingAuditDBType.description" value="Kontroldatabasetype"/>
+    <string id="property.UsingCMSDBType.description" value="CMS-databasetype"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Eksisterende kontroldatabase (DB)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Eksisterende kontrol-DB-adgangskode"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Eksisterende kontrol-DB-port"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Flag for nulstilling af eksisterende kontroldatabase: 0 eller 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Eksisterende kontrol-DB - Brug eksternt godkendelsesflag: 0 eller 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Eksisterende kontrol-DB-server"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Eksisterende kontrol-DB-brugernavn"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Eksisterende CMS-database (DB)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Eksisterende CMS-DB-adgangskode"/>
+    <string id="property.ExistingCMSDBPort.description" value="Eksisterende CMS-DB-port"/>
+    <string id="property.ExistingCMSDBReset.description" value="Flag for nulstilling af eksisterende CMS-database: 0 eller 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Eksisterende CMS-DB - Brug eksternt godkendelsesflag: 0 eller 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Eksisterende CMS-DB-server"/>
+    <string id="property.ExistingCMSDBUser.description" value="Eksisterende CMS-DB-brugernavn"/>
+    <string id="property.NewOrExpandInstall.description" value="Installationstilstand: ny, ekspanderet"/>
+    <string id="property.MySQLBOEUserName.description" value="Samlet databasebrugernavn for BI-platformsbruger"/>
+    <string id="property.MySQLBOEUserPassword.description" value="Samlet databaseadgangskode for BI-platformsbruger"/>
+    <string id="property.MySQLPort.description" value="Tilslutningsport for samlet database"/>
+    <string id="property.MySQLRootPassword.description" value="Rodbrugeradgangskode for samlet database"/>
+    <string id="property.RemoteCMSAdminName.description" value="Administratornavn for ekstern CMS"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="Administratoradgangskode for ekstern CMS"/>
+    <string id="property.RemoteCMSName.description" value="Navn på ekstern CMS"/>
+    <string id="property.RemoteCMSPort.description" value="Port for ekstern CMS"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Spring over ekstern CMS-logonadvarsel"/>
+    <string id="property.MaintenanceMode.description" value="Vedligeholdelseshandling, der skal udføres"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Installer integreret database: 0 eller 1"/>
+    <string id="property.SIAName.description" value="SIA-nodenavn"/>
+    <string id="property.SIAPort.description" value="SIA-tilslutningsport"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat-forbindelsesport"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat-omdirigeringsport"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat-lukningsport"/>
+    <string id="property.WACSPort.description" value="WACS-port"/>
+    <string id="property.WebAppServerType.description" value="Webapplikationsservertype: Tomcat, manuel eller WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Solution Manager-servernavn"/>
+    <string id="property.SolMgr_Port.description" value="Solution Manager-serverport"/>
+    <string id="property.SolMgr_Username.description" value="Brugernavn til oprettelse af forbindelse til Solution Manager"/>
+    <string id="property.SolMgr_Password.description" value="Adgangskode til oprettelse af forbindelse til Solution Manager"/>
+    <string id="property.SolMgr_UseHttps.description" value="Brug HTTPS til at oprette forbindelse til Solution Manager: 0 eller 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="Egenskab, der bruges til at holde strengen for SharedAlwaysFailureMessage"/>
+    <string id="property.SMDAgent_HOST.description" value="SMD Agent-værtsnavn"/>
+    <string id="property.SMDAgent_PORT.description" value="SMD Agent-portnummer"/>
+    <string id="property.UPGRADE.description" value="Tillad stille opgraderingsflag: 0 eller 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Integrer Solution Manager Diagnostics (SMD) Agent: integration eller ingen integration"/>
+    <string id="property.ChooseSLDIntegration.description" value="Integrer SLD: integration eller ingen integration"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Integrer Introscope Enterprise Manager: integration eller ingen integration"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Manager-værtsnavn"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager-portnummer"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Manager-instrumentering"/>
+    <string id="property.NewOrExistingLCM.description" value="Installer en ny eller brug en eksisterende LCM: ny eller eksisterende"/>
+    <string id="property.LCMName.description" value="LCM-servernavn"/>
+    <string id="property.LCMUserName.description" value="LCM-brugernavn"/>
+    <string id="property.LCMPassword.description" value="LCM-adgangskode"/>
+    <string id="property.LCMPort.description" value="LCM-port"/>
+    <string id="property.InstallType.description" value="Installationstype: standard eller brugerdefineret"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="I forbindelse med Crystal Reports-forudsætninger, har brugeren administratorrettigheder?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Installationsmappen for pr. computer-installationen af Crystal Reports Viewer"/>
+    <string id="PatchUpdateCheck" value="Kontroller for produktopdateringer"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Operativsystemets fejlretningsniveau"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Operativsystemet lever ikke op til minimumfejlretningsniveauet, der kræves for at installere dette produkt. Se platformskravdokumentationen."/>
+    <string id="prereq.pingLocalhost" value="Netværksindstillinger"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Ping kunne ikke køres for lokalvært 127.0.0.1 eller maskinens værtsnavn. Du skal konfigurere maskinen til at kontakte dem, før installationen kan fortsætte. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Kontrol af diskplads"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Sørg for, at den nødvendige diskplads er tilgængelig for at fortsætte med installationen. Se https://apps.support.sap.com/sap/support/pam for at få yderligere oplysninger."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Administratorrettigheder"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Du skal logge ind med en brugerkonto med administrative rettigheder. INS00287."/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 eller nyere"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Installer Microsoft .NET Framework 4.0 eller nyere."/>
+    <string id="prereq.RootUserPreReqText" value="Rodbrugerrettigheder"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Installationen kan ikke fortsætte under den rodbrugerkonto, som du er logget på. Du skal logge på som en ikke-rodbruger for at kunne installere produktet. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64-bit operativsystem"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Dette produkt skal installeres på et 64-bit-operativsystem. Kontroller, om dit operativsystem opfylder dette krav. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows-version"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Dette produkt skal installeres på et Windows 8.1 - eller Server 2012 R2 SP1-operativsystem (OS) eller nyere. Kontroller, om dit operativsystem opfylder dette krav."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows-version"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Dette produkt skal installeres på Windows Server 2012 R2 eller en nyere Windows Server-version. Kontroller, om din Windows-version opfylder disse krav."/>
+    <string id="prereq.SQLExpressPreReqText" value="Integrerede databasekrav"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Installer Microsoft .NET Framework 3.5 SP1 eller nyere og Windows Installer 4.5."/>
+    <string id="prereq.SQLExpressRequirementText" value="MS SQL Express-krav"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express kræver Microsoft .NET Framework 3.5 SP1 og Windows Installer 4.5. Installer begge pakker, før du forsøger at installere SQL Express."/>
+    <string id="prereq.PendingStatusPreReqText" value="Undertrykt genstart"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="En anmodning om genstart er undertrykt på lokalmaskinen. Genstart maskinen for at fortsætte installationen. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Version 4.x af produktet blev ikke installeret."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Version 4.x af produktet blev installeret."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Integreret database - hjem-mappe"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Den integrerede database kræver 755 adgangsrettigheder, der skal angives i brugerens hjem-mappe. Du skal angive adgangsrettighederne, før du kan installere databasen."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Integreret database - mapper"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 kræver, at hverken ~/sqllib eller ~/$USER findes. Du skal slette mapperne, hvis de findes, før den integrerede DB2-database kan installeres."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="#product.mini_bip_name# eller #product.cr_server_name# kan ikke installeres"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname# kan ikke installeres på samme computer som #product.mini_bip_name# eller #product.cr_server_name#.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="#product.boe64_name# eller #product.cr_server_name# kan ikke installeres"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="Du kan ikke installere #productname#; #product.boe64_name# eller #product.cr_server_name# er allerede installeret INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="#product.ras_name# kan ikke installeres"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname# kan ikke installeres på samme computer som #product.ras_name#.  INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="Kompatibilitet mellem #product.IS_name# og #product.DS_name#"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="Der blev fundet en SAP #product.DS_name#- og/eller #product.IS_name#-implementering på din computer. Læs SAP-note 1740516 (http://service.sap.com/sap/support/notes/1740516), før du fortsætter, for at få kompatibilitetsoplysninger og oplysninger om påvirkningen på disse produkter.  INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Installationsprogrammet registrerede en eksisterende installation og skal køres med kommando UPGRADE=1. Installationsprogrammet afsluttes nu."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Installationsprogrammet kan ikke fortsætte, fordi en kritisk forudsætning ikke blev opfyldt."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="Central Management Server med den integrerede databaseindstilling er valgt, men indstillingen er deaktiveret, da forudsætningerne ikke blev opfyldt. Før installationen kan fortsætte, skal du afhjælpe følgende forudsætninger:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Den nuværende bruger har ikke administrative adgangsrettigheder og må ikke køre installationsprogrammet."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Diskplads i /tmp"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="Der er ikke tilstrækkelig ledig diskplads i /tmp-mappen. Du skal frigøre plads, før installationen kan fortsætte. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Diskplads i /var"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="Mappen /var har ikke tilstrækkelig ledig diskplads. Du skal frigive 20 MB eller mere, før installationen kan fortsætte."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Integreret database - bruger og gruppe"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Brugergruppenavngivningen overholdt ikke en af DB2's restriktioner. Gå til http://publib.boulder.ibm.com/infocenter/db2luw/v9r7, og søg efter &quot;Bruger-id-restriktioner&quot; for at få flere oplysninger."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Integreret database - UID og GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2 kræver, at UID og GID er mindre end 65536. Du skal indtaste et lavere nummer, før du kan bruge den integrerede DB2-database. "/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Integreret database - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2 kræver, at gunzip er i systemstien. Du skal redigere systemstien, før du kan bruge den integrerede DB2-database."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Samlet DB - overhold minimum-HPUX-kerneindstillinger for DB2"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Kerneindstillingerne overholder ikke minimumkravene til DB2"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013 understøttes ikke i SUSE 11 og nyere."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="Microsoft .NET Framework 3.5 eller nyere kræves for 64-bit BOE .NET SDK. Du skal installere .NET Framework, før du kan installere 64-bit BOE .NET SDK."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 eller nyere"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Installer Microsoft .NET Framework 3.0 eller nyere."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime blev ikke fundet. Du skal installere den, før installationen kan fortsætte."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 eller nyere"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003 eller nyere blev ikke fundet. Du skal installere den, før installationen kan fortsætte."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Minimumversion af supportpakke"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="Denne opdatering er til #productname# #product_version##product_sp_version#, der ikke blev fundet i systemet. Du skal installere den, før installationen kan fortsætte."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="Denne opdatering er til #productname# #product_version##product_sp_version#, der ikke blev fundet i systemet. Du skal installere den, før installationen kan fortsætte."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Opdateringer er relevante"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# er en senere version end denne opdatering. Fortsæt ikke med opdateringen."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Minimumversion for underordnet release"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="Denne opdatering er til  #productname# #product_version#, der ikke blev fundet i systemet. Du skal installere den, før installationen kan fortsætte."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Brugerdefineret #productname_short# #productname_preversion# installeret"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="Denne opdatering er til den brugerdefinerede #productname_short# #productname_preversion#, der ikke blev fundet i systemet. Du skal installere den, før installationen kan fortsætte."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Kompatibel produktinstallation"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Dette produkt er allerede installeret og tilgængeligt for brugere."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows Installer-tjeneste"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Installationen blev midlertidigt afbrudt, da Windows Installer-tjenesten er deaktiveret (Startup type=Disabled) eller ikke tilgængelig. Du skal installere den og aktivere tjenesten, før installationen kan fortsætte."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="For at afslutte klyngeopdateringen efter at installationen er afsluttet på alle maskiner i klyngen, skal du genstarte hver Central Management Server (CMS). Du skal logge ind på Central Management Console for at genstarte CMS'erne."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Log ind på Central Management Console (CMC) for at fortsætte konfigurationen af systemet. For at starte CMC skal du vælge Start &gt; #product.boe64_name# &gt; Central Management Console."/>
+    <string id="postinstall.message.manualdeploy.common" value="Java-webapplikationer og -webtjenester implementeres ikke på en webapplikationsserver. Kør wDeploy-værktøjet for at implementere Java-webapplikationer og webtjenester."/>
+    <string id="postinstall.message.manualdeploy.windows" value="For at starte wDeploy-værktøjet skal du vælge Start &amp;lt; #shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy."/>
+    <string id="postinstall.message.manualdeploy.unix" value="WDeploy-værktøjet er placeret her: [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="For at afslutte systeminstallationen skal du køre dette script med rodtilladelser: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Du skal definere standardvisnings-URL for OpenDocument. Denne maskine er ikke registreret som standardwebapplikationsserver til håndtering af dokumentvisningsanmodninger. Det kan være nødvendigt at registrere den som standardwebapplikationsserver på Central Management Server. Brug Central Management Console til at redigere OpenDocument-egenskabssiden."/>
+    <string id="PostInstall.message.monitoring" value="For at få adgang til overvågningsværktøjet til kørsel af diagnosetest skal du logge på Central Management Console, klikke på Overvågning og åbne fanen Prøver."/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}RESTful Web Services{/b} og {b}Insight to Action Framework{/b} er nye funktioner i denne opdatering. For at aktivere funktionerne skal du redigere installationen på grundinstallationen og tilføje de nye funktioner."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful Web Services:{/b} Business Intelligence-platformen RESTful Web Service SDK giver dig adgang til BI-platformen vha. HTTP-protokollen. Du kan bruge SDK til at logge på platformen, navigere i BI-platformlageret, tilgå ressourcer og udføre grundlæggende ressourceplanlægning. Denne funktion kræves for at kunne gemme Dashboard-modeller og Live Office-dokumenter i lageret efter opdateringen."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action Framework:{/b} Insight to Action Framework giver dig mulighed for at aktivere driftstransaktioner i SAP- og ikke-SAP-applikationer, der defineres vha. rapport-rapport-brugerfladen i NetWeaver. Denne funktion understøttes af Crystal Reports og BusinessObjects Dashboards."/>
+    <string id="postInstall.message.new.features.announce.unix" value="RESTful Web Services og Insight to Action Framework er nye funktioner i denne opdatering. For at aktivere funktionerne skal du redigere installationen på grundinstallationen og tilføje de nye funktioner."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful Web Services: Business Intelligence-platformen RESTful Web Service SDK giver dig adgang til BI-platformen vha. HTTP-protokollen. Du kan bruge SDK til at logge på platformen, navigere i BI-platformlageret, tilgå ressourcer og udføre grundlæggende ressourceplanlægning. Denne funktion kræves for at kunne gemme Dashboard-modeller og Live Office-dokumenter i lageret efter opdateringen."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action Framework: Insight to Action Framework giver dig mulighed for at aktivere driftstransaktioner i SAP- og ikke-SAP-applikationer, der defineres vha. rapport-rapport-brugerfladen i NetWeaver. Denne funktion understøttes af Crystal Reports og BusinessObjects Dashboards."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Installationsprogrammet fandt MySQL-klient 5.0, der ikke længere understøttes, som databaseforbindelse. Du skal opgradere til MySQL-klient 5.1 for at sikre, at dit system stadig understøttes."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile Servers er en ny funktion, der giver adgang til Business Intelligence-data fra mobile enheder. For at aktivere denne funktion skal du redigere installationen på grundinstallationen og vælge Mobile Servers."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Den bundtede Tomcat opdateres til Tomcat 9. Alle brugerdefinerede indstillinger, du har foretaget i Tomcat, migreres fra den gamle version til Tomcat 9. Vi anbefaler dog kraftigt, at du kontrollerer, om de brugerdefinerede indstillinger er tilgængelige i Tomcat 9."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Vedligeholdelsespakke: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Vedligeholdelsespakke: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Vedligeholdelsespakke: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Vedligeholdelsespakke\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI-platform"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI-platformsserver"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI-platform"/>
+    <string id="product.boec_client_name" value="Klientværktøj"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="BI-platformsclient"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI platform .NET SDK Redistributable"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="SAP BusinessObjects BI-tilføjelsesprogram til SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="BI-tilføjelsesprogram til SAP Lumira"/>
+    <string id="product.mini_bip_name" value="Information Platform Services"/>
+    <string id="product.mini_bip_shortname" value="Information Platform Services"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="SAP-integration til Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Integration Option for Microsoft SharePoint Software"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM-udgave"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI-platform 4"/>
+    <string id="shortcut.folder.name.minibip" value="Information Platform Services 4"/>
+    <string id="shortcut.folder.name.boclient" value="Klientværktøjer til SAP BusinessObjects BI-platform 4"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM-udgave"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Start, stop og konfigurer platformtjenester"/>
+    <string id="shortcut.link.name.boserver.CMC" value="SAP BusinessObjects BI-platform Central Management Console"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="SAP BusinessObjects BI Platform WACS Central Management Console"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="SAP Crystal Server Central Management Console"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="SAP Crystal Server WACS Central Management Console"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Information Platform Services Central Management Console"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Information Platform Services WACS Central Management Console"/>
+    <string id="shortcut.link.description.CMC" value="Få adgang til Management Console"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="SAP BusinessObjects BI-platform startplatform"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="SAP BusinessObjects BI-platform WACS BI-startplatform"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="SAP Crystal Server Java BI-startplatform"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="SAP Crystal Server WACS BI-startplatform"/>
+    <string id="shortcut.link.description.BILaunchpad" value="Start BI-startplatform"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Opgraderingsstyringsværktøj"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Opgrader tidligere implementeringer til SAP BusinessObjects BI-platform 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Promotion Management-guide"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="Eksporter, importer og kopier CMS-indhold af 4.x-implementeringer via en trin-for-trin-brugergrænseflade."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Opgrader tidligere implementeringer til SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Opgrader tidligere implementeringer til Information Platform Services 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32-bit ODBC-datakildeadministrator"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC-datakildeadministrator"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Tilføjer, fjerner og konfigurerer Open Database Connectivity (ODBC)-datakilder og drivere"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Onlinedokumentation"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Få adgang til onlinedokumentation"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat-administration"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Få adgang til Tomcat-administation"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat-konfiguration"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Få adgang til Tomcat-konfiguration"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="Starter wDeploy-værktøjet"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widgets"/>
+    <string id="shortcut.link.description.BIWidgets" value="Starter widgets"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Business View Manager"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Starter Business View Manager"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Administrationsværktøj for datasammenkobling"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Starter administrationsværktøj for datasammenkobling"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Informationsdesignfunktion"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Starter informationsdesignfunktion"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Forespørgsel som en webtjenestedesigner"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Starter forespørgsel som en webtjenestedesigner"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Værktøj til rapportkonvertering"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Starter værktøj til rapportkonvertering"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Oversættelsesstyringsværktøj"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Starter oversættelsesstyringsværktøj"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Universdesignværktøj"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Starter universdesignværktøj"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Starter Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Starter Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Opretter og ændrer formaterede datarapporter (.RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Guiden Rapportoverførsel"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Starter guiden Rapportoverførsel"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="shortcut.link.description.CRViewer" value="Vis formaterede datarapporter (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Report Application Server-startplatform"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Starter Report Application Server-startplatform"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Start Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Starter Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Start Dashboards Add-on Packager"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Starter SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Starter SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects-BI-administrationskonsol WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects-BI-administrationskonsol"/>
+    <string id="shortcut.link.description.ADC" value="Åbn administrationskonsol"/>
+    <string id="OverhangingPatchMessage" value="Hvis installationen fortsætter, kan opdateringer blive fjernet fra systemet. Sørg for, at du installerer en kompatibel pakke."/>
+    <string id="Installing41PatchOver40" value="Før du fortsætter, skal du manuelt oprette en sikkerhedskopi af det aktuelle 4.0-system. Du kan ikke afinstallere 4.1-opdateringen, når den er implementeret. Hvis du vil genskabe systemet, skal du bruge sikkerhedskopien."/>
+    <string id="Block41PatchUninstall" value="4.1-opdateringen kan ikke afinstalleres automatisk. For at vende tilbage til 4.0-systemtilstanden skal du fjerne eksisterende binære og bruge den 4.0-sikkerhedskopi, du oprettede, til at genskabe 4.0-systemet."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# kræver en ny licensnøgle. Hent den nye licensnøgle fra SAP Service Market Place, slet den gamle licensnøgle, og tilføj den nye licensnøgle i Central Management Console. Se dokumentationen for yderligere oplysninger."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="Nogle få produkter og funktioner frarådes i #product.fullproductnamenospace#. Du bør udføre de foreskrevne handlinger som nævnt i SAP-note 2801797 efter opdateringen."/>
+    <string id="DeployLaterDescription" value="Implementeringstilstand for webapplikation"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Overordnet programrettelsesversion for hotfix er installeret"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Denne hotfix er til #productname# #product_version# #product_sp_version# programrettelse #patch_id#. Du skal installere programrettelsen, før installationen kan fortsætte. Se SAP-note 2257993 for at få flere oplysninger."/>
+  </context>
+</uitext>

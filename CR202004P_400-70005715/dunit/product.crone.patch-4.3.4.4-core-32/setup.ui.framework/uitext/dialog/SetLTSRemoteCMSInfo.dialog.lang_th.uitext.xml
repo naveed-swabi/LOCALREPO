@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ConfigureRemoteCMS" value="ข้อมูลการปรับใช้ #productname# ที่มีอยู่"/>
+<string id="SpecifyRemoteCMS" value="ระบุข้อมูลการล็อกออนของผู้ดูแลระบบสำหรับการปรับใช้ที่มีอยู่ของคุณ"/>
+<string id="RemoteCMSConnectionInfo" value="ข้อมูลการเชื่อมต่อสำหรับ #productname# ที่มีอยู่"/>
+<string id="RemoteCMSName" value="ชื่อ"/>
+<string id="RemoteCMSPort" value="พอร์ต"/>
+<string id="RemoteCMSAdminLogonInfo" value="ข้อมูลการล็อกออนของผู้ดูแลระบบ"/>
+<string id="RemoteCMSUser" value="ผู้ใช้"/>
+<string id="RemoteCMSPassword" value="รหัสผ่าน"/>
+<string id="ErrRemoteCMSConnectionInfo" value="ไม่สามารถเข้าถึงเซิร์ฟเวอร์ SAP Lumira ระยะไกลสำหรับทีมได้ หรือข้อมูลประจำตัวการล็อกออนไม่ถูกต้อง INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="ไม่สามารถเข้าถึงเซิร์ฟเวอร์ SAP Lumira ระยะไกลสำหรับทีมได้ หรือข้อมูลประจำตัวการล็อกออนไม่ถูกต้อง INS00013\nคุณต้องการป้อนข้อมูลประจำตัวอีกครั้งหรือไม่"/>
+<string id="Invalid_SymbolInCMSPassword" value="รหัสผ่านต้องไม่มีคำว่า &quot;Administrator&quot; หรืออักขระพิเศษ เช่น: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

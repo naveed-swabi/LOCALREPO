@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="ChooseInstallDirTitle" value="インストールフォルダの設定"/>
+<string id="ChooseInstallDirSubtitle" value="製品がインストールされる完全インストール先パスを入力します。"/>
+<string id="ChooseInstallDirUnixSubtitle" value="製品がインストールされる完全インストール先パスを入力します。"/>
+<string id="DestinationFolderGroupBox" value="インストール先フォルダ情報"/>
+<string id="DestinationFolder" value="インストール先フォルダ:"/>
+<string id="Browse" value="参照"/>
+<string id="BrowseInstallDirectory" value="インストール先の選択"/>
+<string id="DirGenericError" value="出力先フォルダが無効です。別の出力フォルダを選択してください。INS00029"/>
+<string id="DirNetworkError" value="インストール先フォルダはネットワークロケーションにできません。異なるロケーションを選択してください。"/>
+<string id="DirEmptyError" value="出力先フォルダを選択する必要があります。INS00029"/>
+<string id="DirAbsolutePathError" value="出力先フォルダは完全パスにする必要があります。INS00029"/>
+<string id="DirInvalidCharWinError" value="出力先フォルダには英数字か次の文字のみを使用できます: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="出力先フォルダパスが長すぎます。150 文字より短いパスを使用してください。INS00029"/>
+<string id="DirInvalidInstallverseError" value="インストール先フォルダに互換性のない製品が含まれています。異なるロケーションを選択してください。INS00029"/>
+<string id="Invalid_InstallDirWindows" value="インストールディレクトリが無効です。英数字および次の文字のみを含む有効な絶対パスを使用してください: _ - \ . ( )。このディレクトリは固定ドライブ上にある必要があり、また完全パスの文字数は 150 を超えることができません。INS00029"/>
+<string id="Invalid_InstallDirUnix" value="インストールディレクトリが無効です。読み取り権限、書き込み権限、および実行権限のある有効な絶対パスを使用してください。INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="インストールディレクトリにスペースを含めることはできません。"/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="インストールディレクトリに次の文字を使用することはできません: &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="ディレクトリ要素を自動入力するには []Tab] キーを押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+</context>
+</uitext>

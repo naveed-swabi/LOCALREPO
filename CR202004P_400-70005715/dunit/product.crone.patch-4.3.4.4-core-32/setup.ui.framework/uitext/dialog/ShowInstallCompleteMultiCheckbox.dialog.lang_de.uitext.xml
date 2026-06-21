@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# wurde erfolgreich installiert."/>
+<string id="SuccessInstallDescription" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Installation zu beenden."/>
+<string id="FailureInstallTitle" value="Bei der Installation von #product.fullproductnamenospace# sind Fehler aufgetreten."/>
+<string id="FailureInstallDescription" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Installation zu beenden."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# wurde erfolgreich deinstalliert."/>
+<string id="SuccessUnInstallDescription" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Deinstallation zu beenden."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# wurde mit Warnungen installiert."/>
+<string id="FailureUnInstallTitle" value="Bei der Deinstallation von #product.fullproductnamenospace# sind Fehler aufgetreten."/>
+<string id="FailureUnInstallDescription" value="Klicken Sie auf &quot;Fertig stellen&quot;, um diese Deinstallation zu beenden."/>
+<string id="FinishButton" value="Fertig stellen"/>
+<string id="ViewLogButton" value="Protokoll anzeigen"/>
+<string id="LaunchWDeploy" value="WDeploy-Tool nach der Installation automatisch starten."/>
+<string id="LaunchSSW" value="Assistenten für die Systemkonfiguration starten"/>
+<string id="HyperlinkText" value="Klicken Sie hier für Details"/>
+</context>
+</uitext>

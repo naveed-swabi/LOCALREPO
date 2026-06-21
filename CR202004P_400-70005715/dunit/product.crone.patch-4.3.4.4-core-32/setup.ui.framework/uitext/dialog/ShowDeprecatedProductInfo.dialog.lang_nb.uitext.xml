@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Annonsering av foreldede produkter og funksjoner"/>
+<string id="YouMustAgree" value="Noen få produkter og funksjoner er foreldet i #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Jeg har lest dokumentasjonen og forstått virkningen av de foreldede produktene og funksjonene på Bi-plattformen, og jeg samtykker i å utføre de avgitte handlingene etter oppdateringen."/>
+<string id="subtitle1" value="Applikasjoner som SAP BusinessObjects Explorer og SAP BusinessObjects Dashboards er foreldet i BI 4.3. Du kan se den fullstendige listen over foreldede applikasjoner og få mer informasjon om denne foreldelsesaktiviteten her:"/>
+<string id="subtitle2" value="Du må kontrollere virkningen og deretter utføre de angitte handlingene som er nevnt i bloggen."/>
+<string id="AcceptOrNotAccept" value="Trykk på &lt;ENTER&gt; for å samtykke i at du har lest dokumentasjonen og forstått virkningen av de foreldede produktene og funksjonene på BI-plattformen, og samtykk i at du utfører de avgitte handlingene etter oppdateringen."/>
+<string id="DeprecatedProductDescription" value="Applikasjoner som SAP BusinessObjects Explorer og SAP BusinessObjects Dashboards er foreldet i BI 4.3. Du kan se den fullstendige listen over foreldede applikasjoner og få mer informasjon om denne foreldelsesaktiviteten her: https://launchpad.support.sap.com/#/notes/2801797. \n\n.Du må kontrollere virkningen og deretter utføre de angitte handlingene som er nevnt i bloggen."/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020-tjenestene støttes ikke lenger på Linux og Unix. De blir dermed fjernet i denne oppgraderingen. SAP Crystal Reports 2020-dokumenter blir imidlertid værende i BI-plattformen, og de blir fremdeles støttet. Du finner mer informasjon om hvordan du distribuerer nødvendige tjenester til en Windows-server, i SAP Knowledge Base Article: https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

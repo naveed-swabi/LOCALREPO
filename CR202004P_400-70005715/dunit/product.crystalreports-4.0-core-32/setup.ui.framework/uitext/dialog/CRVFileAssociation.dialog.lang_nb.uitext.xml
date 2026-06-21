@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="DlgTitle" value="Filtilknytning"/>
+<string id="DlgSummary" value="Angir standardvisningsapplikasjon for Crystal Reports."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer er for tiden ikke ditt standard visningsprogram for Crystal Reports. Vil du gjøre det til standard visningsprogram?"/>
+<string id="Yes" value="Ja"/>
+<string id="No" value="Nei"/>
+</context>
+</uitext>

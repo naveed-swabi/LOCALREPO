@@ -1,0 +1,24 @@
+﻿有两组可用于 BusinessObjects Enterprise Integration Kit for SAP 的传输文件。一组支持 ANSI， 一组支持 Unicode。 
+
+需使用的传输文件组取决于运行 SAP 系统的 BASIS 系统。此外，每个传输包括一个数据文件和一个控制文件， 它们在传输名后的括号中列出。
+
+
+如果 SAP 系统运行在 6.20 或更新版本的 BASIS 系统上，则必须使用下列文件：
+
+（这些文件支持 Unicode。）
+
+* OpenSQL 传输（K900085.SDD 和 R900085.SDD）
+* InfoSet 连接传输（K900043.SDD 和 R900043.SDD）
+* 行级安全定义传输（K900051.SDD 和 R900051.SDD）
+* 群集定义传输（K900039.SDD 和 R900039.SDD）
+* 身份验证辅助程序传输（K900041.SDD 和 R900041.SDD）
+
+
+下列文件必须使用在 SAP BW 系统上：
+
+（这些文件支持 Unicode。）
+
+* 内容管理传输（K900098.SDD 和 R900098.SDD）
+* 个性化传输（K900045.SDD 和 R900045.SDD）
+* MDX 查询连接传输（K900014.SDD 和 R900014.SDD）
+* ODS 连接传输（K900042.SDD 和 R900042.SDD）

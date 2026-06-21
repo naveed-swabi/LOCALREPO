@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="SelectLanguagePackTitle" value="언어 패키지 선택"/>
+<string id="SelectLanguagePackSubtitle" value="사용자가 제품에서 사용할 추가 언어 패키지를 모두 선택합니다."/>
+<string id="SelectLanguagePackFooter" value="강조표시하려면 []Tab], []Up] 또는 []Down] 키를, 상태를 전환하려면 []Space] 또는 []X]를, 뒤로 가려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter]를 누르십시오."/>
+<string id="alllang" value="모든 언어"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="SelectedLanguagePacks '[SelectedLanguagePacks]' 속성은 시스템 로캘을 포함해야 합니다."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="SelectedLanguagePacks '[SelectedLanguagePacks]' 속성은 'en'을 포함해야 합니다."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="SelectedLanguagePacks '[SelectedLanguagePacks]' 속성은 사용 가능한 언어 팩의 하위 집합이어야 합니다."/>
+</context>
+</uitext>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="SelectFeaturesTitle" value="Izbira funkcij"/>
+<string id="SelectFeaturesSubtitle" value="Izberite funkcije, ki jih želite namestiti."/>
+<string id="SelectFeaturesFooter" value="Pritisnite []Tab], []Navzgor] ali []Navzdol] za poudarek, []Preslednico] za razširitev, []X] za preklop stanja, []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+<string id="DiskCost" value="Prostor, potreben na disku"/>
+<string id="Drive Select" value="Izbirate"/>
+<string id="Disk Costing" value="Izračun velikosti diska"/>
+<string id="Volume" value="Nosilec"/>
+<string id="Disk Size" value="Velikost diska"/>
+<string id="Available" value="Razpoložljivo"/>
+<string id="Required" value="Zahtevano"/>
+<string id="Difference" value="Razlika"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Vnovični poskus"/>
+<string id="Cancel" value="Preklic"/>
+<string id="Invalid_DiskSpace" value="Nimate dovolj prostora za namestitev produkta. Prosim, sprostite prostor na disku ali izberite drugo lokacijo za namestitev. Zahtevani prostor: [RequiredSpace] bajtov."/>
+</context>
+</uitext>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="cs"/>
+  <context>
+    <string id="INS00270" value="Byly zjištěna chyba MSI %1 při instalaci produktu %2. (INS00270)"/>
+    <string id="INS00271" value="Byly zjištěna chyba MSI %1 při odinstalaci produktu %2. (INS00271)"/>
+    <string id="INS00272" value="Byla zjištěna chyba (%1) u souboru %2 při instalaci produktu %3. (INS00272)"/>
+    <string id="INS00273" value="Byla zjištěna chyba (%1) u souboru %2 při odinstalaci produktu %3. (INS00273)"/>
+  </context>
+</uitext>

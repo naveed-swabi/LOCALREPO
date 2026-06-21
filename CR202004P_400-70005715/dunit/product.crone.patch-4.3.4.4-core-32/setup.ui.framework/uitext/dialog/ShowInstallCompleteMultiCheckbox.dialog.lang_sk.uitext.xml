@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="SuccessInstallTitle" value="Produkt #product.fullproductnamenospace# sa úspešne nainštaloval."/>
+<string id="SuccessInstallDescription" value="Ak chcete skončiť túto inštaláciu, kliknite na tlačidlo Dokončiť."/>
+<string id="FailureInstallTitle" value="Počas procesu inštalácie produktu #product.fullproductnamenospace# sa vyskytli chyby."/>
+<string id="FailureInstallDescription" value="Ak chcete ukončiť túto inštaláciu, kliknite na tlačidlo Dokončiť."/>
+<string id="SuccessUnInstallTitle" value="Produkt #product.fullproductnamenospace# sa úspešne odinštaloval."/>
+<string id="SuccessUnInstallDescription" value="Ak chcete skončiť toto odinštalovanie, kliknite na tlačidlo Dokončiť."/>
+<string id="InstallationWithWarnings" value="Produkt #product.fullproductnamenospace# sa úspešne nainštaloval s upozorneniami."/>
+<string id="FailureUnInstallTitle" value="Počas procesu odinštalovania produktu #product.fullproductnamenospace# sa vyskytli chyby."/>
+<string id="FailureUnInstallDescription" value="Ak chcete ukončiť toto odinštalovanie, kliknite na tlačidlo Dokončiť."/>
+<string id="FinishButton" value="Dokončiť"/>
+<string id="ViewLogButton" value="Zobraziť denník"/>
+<string id="LaunchWDeploy" value="Po inštalácii automaticky spustiť nástroj WDeploy."/>
+<string id="LaunchSSW" value="Spustiť Sprievodcu nastavením systému"/>
+<string id="HyperlinkText" value="Kliknutím sem zobrazíte podrobnosti"/>
+</context>
+</uitext>

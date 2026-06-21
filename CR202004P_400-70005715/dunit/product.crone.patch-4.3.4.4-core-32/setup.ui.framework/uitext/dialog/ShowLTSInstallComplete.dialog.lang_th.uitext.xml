@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# ได้รับการติดตั้งเรียบร้อยแล้ว"/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# พบข้อผิดพลาดระหว่างกระบวนการติดตั้ง"/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# พบข้อผิดพลาดระหว่างกระบวนการถอนการติดตั้ง"/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# ได้รับการถอนการติดตั้งเรียบร้อยแล้ว"/>
+<string id="Description" value="คลิก เสร็จสิ้น เพื่อดำเนินการติดตั้งนี้ให้เสร็จสมบูรณ์และเริ่มใช้งานแอปพลิเคชัน"/>
+<string id="CustomDescription" value="คลิก เสร็จสิ้น เพื่อดำเนินการติดตั้งนี้ให้เสร็จสมบูรณ์"/>
+<string id="FailedDescription" value="คลิก เสร็จสิ้น เพื่อออกจากการติดตั้งนี้"/>
+<string id="Description_unix" value="กด []Ctrl-B] เพื่อย้อนกลับ หรือกด []Enter] เพื่อออกจากการติดตั้งนี้"/>
+<string id="FailedDescription_unix" value="กด []D] สำหรับรายละเอียดเพิ่มเติม หรือกด []Enter] เพื่อออกจากการติดตั้งนี้"/>
+<string id="CustomNextButton" value="เสร็จสิ้น"/>
+<string id="ViewLogButton" value="ดูไฟล์บันทึก"/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# は正常にインストールされました。"/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# のインストールプロセスでエラーが発生しました。"/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# のアンインストールプロセスでエラーが発生しました。"/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# はアンインストールされました。"/>
+<string id="Description" value="完了をクリックしてインストールを完了し、アプリケーションを起動します。"/>
+<string id="CustomDescription" value="インストールを完了するには、完了をクリックしてください。"/>
+<string id="FailedDescription" value="インストールを終了するには、[完了] をクリックしてください。"/>
+<string id="Description_unix" value="[]Ctrl-B] を押して戻るか、[]Enter] を押してインストールを終了してください。"/>
+<string id="FailedDescription_unix" value="[]D] を押して詳細を参照するか、[]Enter] を押してインストールを終了してください。"/>
+<string id="CustomNextButton" value="完了"/>
+<string id="ViewLogButton" value="ログの表示"/>
+</context>
+</uitext>

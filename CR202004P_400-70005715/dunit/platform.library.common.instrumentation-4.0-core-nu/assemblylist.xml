@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/src/platform.library.common/libs/cpp/instrumentation">
+    <file name="corba.lst" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/conf/lst" size="228"/>
+  </sourcedir>
+</assembly>

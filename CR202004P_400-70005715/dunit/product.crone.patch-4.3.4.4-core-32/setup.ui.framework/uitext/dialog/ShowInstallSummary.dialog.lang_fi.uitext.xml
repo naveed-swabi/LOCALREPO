@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Aloita asennus"/>
+<string id="ShowInstallSummarySubtitle" value="Asennusohjelma on valmis asentamaan tuotteen #product.fullproductnamenospace#. Voit muuttaa asennustietoja valitsemalla Takaisin.\n\nVoit aloittaa asennuksen valitsemalla seuraava."/>
+<string id="ShowInstallSummaryUnixDescription" value="Haluatko, että tuotteen #product.fullproductnamenospace# ohjattu asennustoiminto aloittaa asentamisen?"/>
+<string id="ShowInstallSummaryFooter" value="Palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai asenna tuote painamalla []Enter]-näppäintä."/>
+<string id="DiskCost" value="Levykustannukset"/>
+<string id="Drive Select" value="Olet valitsemassa"/>
+<string id="Disk Costing" value="Levytilan tarkistus"/>
+<string id="Volume" value="Taltio"/>
+<string id="Disk Size" value="Levykoko"/>
+<string id="Available" value="Käytettävissä"/>
+<string id="Required" value="Pakollinen"/>
+<string id="Difference" value="Ero"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Yritä uudelleen"/>
+<string id="Cancel" value="Peruuta"/>
+<string id="ShowCacheSummaryTitle" value="Vaiheittainen asennus"/>
+<string id="ShowCacheSummarySubtitle" value="Aloita tallentaminen välimuistiin"/>
+<string id="ShowCacheSummaryDescription" value="Välimuistiin tallentaminen on prosessi, jossa ohjelmisto kopioidaan asennushakemistoon. Prosessi ei aiheuta käyttökatkoa, joten voit jatkaa järjestelmän käyttöä sen aikana."/>
+<string id="Invalid_DiskSpace" value="Tila ei riitä tuotteen asentamiseen. Vapauta levytilaa tai valitse toinen asennuspaikka. Käytettävissä oleva tila: [AvailableSpace] Mt. Tarvittava tila: [RequiredSpace] Mt."/>
+<string id="Resume_Description" value="Välimuistiin tallennuksen jälkeen ohjelmisto asennetaan järjestelmään, jolloin järjestelmässä on lyhyt käyttökatko."/>
+<string id="ShowResumetitle" value="Vaiheittainen asennus"/>
+<string id="ShowResumeSubtitle" value="Jatka asennusta"/>
+<string id="ShowResumeFooter" value="Palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai asenna tuote painamalla []Enter]-näppäintä."/>
+<string id="MessageCache" value="Aloita välimuistiin tallennusvaihe valitsemalla Seuraava."/>
+<string id="MessageResume" value="Aloita asennus valitsemalla Seuraava."/>
+</context>
+</uitext>

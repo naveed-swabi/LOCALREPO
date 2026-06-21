@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# başarıyla kuruldu."/>
+<string id="SuccessInstallDescription" value="Bu kurulumdan çıkmak için Son'u tıklayın."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# yükleme sırasında hatalarla karşılaştı."/>
+<string id="FailureInstallDescription" value="Bu kurulumdan çıkmak için Son'u tıklayın."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# başarıyla kaldırıldı."/>
+<string id="SuccessUnInstallDescription" value="Bu kaldırma işleminden çıkmak için Son'u tıklayın."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# uyarılarla birlikte başarıyla yüklendi."/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# kaldırma sırasında hatalarla karşılaştı."/>
+<string id="FailureUnInstallDescription" value="Bu kaldırma işleminden çıkmak için Son'u tıklayın."/>
+<string id="FinishButton" value="Son"/>
+<string id="ViewLogButton" value="Günlüğü Görüntüle"/>
+<string id="LaunchWDeploy" value="Kurulumdan sonra WDeploy aracını otomatik olarak başlat."/>
+<string id="LaunchSSW" value="Sistem Kurulum Sihirbazını Başlat"/>
+<string id="HyperlinkText" value="Ayrıntılar için burayı tıklayın"/>
+</context>
+</uitext>

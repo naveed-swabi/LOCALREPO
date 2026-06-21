@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Implementationsinformation för befintligt CMS"/>
+<string id="SpecifyRemoteCMS" value="Ange inloggningsuppgifter för CMS och administratör för din befintliga CMS-implementation."/>
+<string id="RemoteCMSConnectionInfo" value="Anslutningsinformation om befintlig CMS"/>
+<string id="RemoteCMSName" value="CMS-namn"/>
+<string id="RemoteCMSPort" value="CMS-port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Inloggningsuppgifter för CMS-administratör"/>
+<string id="RemoteCMSUser" value="Användare"/>
+<string id="RemoteCMSPassword" value="Lösenord"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Antingen går inte fjärr-CMS att nå eller så är inloggningsuppgifterna felaktiga. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Antingen kan fjärr-CMS inte nås eller så är inloggningsuppgifterna inte korrekta. INS00013\nVill du ange uppgifterna igen?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Avslutande bakstreck (t.ex. xxx\) och följande tecken tillåts inte i CMS-lösenord:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Avslutande bakstreck (t.ex. xxx\) och följande tecken tillåts inte i CMS-lösenord:  &quot;  '  INS00099"/>
+</context>
+</uitext>

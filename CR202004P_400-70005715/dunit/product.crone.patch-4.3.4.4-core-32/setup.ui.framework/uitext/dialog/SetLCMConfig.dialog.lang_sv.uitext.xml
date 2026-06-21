@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="SetLCMConfigTitle" value="Konfigurera underordnad version"/>
+<string id="SetLCMConfigSubtitle" value="Ange port och användarnamn på versionskontrollsystem för underordnad version."/>
+<string id="repoInfoGroup" value="Lagringsplatsinformation för Subversion"/>
+<string id="repoName" value="Namn på lagringsplats:"/>
+<string id="repoPort" value="Port för lagringsplats:"/>
+<string id="repoPortInline" value="Port för underordnad version:"/>
+<string id="repoUserInfoGroup" value="Användarinformation för lagringsplats till underordnad version"/>
+<string id="repoUserName" value="Användarkonto för lagringsplats:"/>
+<string id="repoUserPass" value="Lösenord för lagringsplats:"/>
+<string id="repoUserPassInline" value="Lösenord till användarkonto för lagringsplats:"/>
+<string id="repoUserPass2" value="Bekräfta lösenord:"/>
+<string id="Mismatch_LCMPassword" value="Lösenorden stämmer inte överens. Verifiera och försök igen. INS00267"/>
+<string id="Invalid_LCMPassword" value="Lösenordet är för enkelt. Det måste vara minst sex tecken långt och måste alltid innehålla minst två av följande teckenklasser: Stora bokstäver och små bokstäver. INS00127"/>
+</context>
+</uitext>

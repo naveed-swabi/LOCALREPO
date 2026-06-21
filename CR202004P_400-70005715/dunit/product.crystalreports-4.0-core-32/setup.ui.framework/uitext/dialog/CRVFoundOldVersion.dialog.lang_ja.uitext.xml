@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="DlgTitle" value="製品アップグレード"/>
+<string id="DlgSummary" value="この製品の別のバージョンが検出されました。"/>
+<string id="ProceedOrNot" value="別のバージョンの Crystal Reports Viewer が検出されました。このインストールを続行すると、バージョンが Crystal Reports Viewer 2010 にアップグレードされます。続行する場合は、[次へ] をクリックしてください。このインストールをキャンセルする場合は、[キャンセル] をクリックしてインストールを終了してください。"/>
+</context>
+</uitext>

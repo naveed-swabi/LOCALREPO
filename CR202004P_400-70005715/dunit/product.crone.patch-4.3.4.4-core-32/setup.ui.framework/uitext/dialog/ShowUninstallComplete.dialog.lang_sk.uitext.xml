@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="Produkt #product.fullproductnamenospace# sa úspešne odinštaloval."/>
+<string id="UninstallFailedMessage" value="Produkt #product.fullproductnamenospace# sa nepodarilo odinštalovať."/>
+<string id="Description" value="Ak chcete ukončiť toto odinštalovanie, kliknite na tlačidlo Dokončiť."/>
+<string id="FailedDescription" value="Ak chcete ukončiť toto odinštalovanie, kliknite na tlačidlo Dokončiť."/>
+<string id="ShowUninstall_Footer" value="Ak sa chcete vrátiť späť, stlačte []Ctrl-B]. Ak chcete skončiť toto odinštalovanie, stlačte []Enter]."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Ak chcete skončiť toto odinštalovanie, stlačte kláves []Enter]."/>
+<string id="CustomNextButton" value="Dokončiť"/>
+<string id="ViewLogButton" value="Zobraziť denník"/>
+</context>
+</uitext>

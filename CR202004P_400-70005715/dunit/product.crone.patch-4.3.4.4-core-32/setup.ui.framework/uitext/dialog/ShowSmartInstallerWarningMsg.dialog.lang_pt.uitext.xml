@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Verifique se o caminho de instalação especificado está correto para a instalação pretendida ser realizada com sucesso. \n\n Para nova instalação: novo diretório de arquivos. \n Para instalação de patch: diretório de arquivos com a instalação da versão anterior do #productname#. \n\n\n Clique em OK para continuar ou em Sair para entrar novamente no caminho de instalação correto. \n"/>
+<string id="ExitMessage" value="Pressione Ctrl+X para sair ou Enter para continuar."/>
+<string id="WarnDialogTitle" value="CAIXA DE DIÁLOGO DE INFORMAÇÕES"/>
+<string id="WarnDialogSubtitle" value="Informações: "/>
+</context>
+</uitext>

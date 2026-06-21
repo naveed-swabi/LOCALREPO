@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# a fost instalat cu succes."/>
+<string id="Description" value="Click pe Terminare pt.a ieşi din această instalare."/>
+<string id="MonitorToolCheck" value="Executare instrument de monitorizare software"/>
+<string id="CustomNextButton" value="Finalizare"/>
+</context>
+</uitext>

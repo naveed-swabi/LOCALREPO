@@ -1,0 +1,24 @@
+﻿Vi sono due tipi di file di trasporto che possono essere utilizzati con BusinessObjects Enterprise Integration Kit for SAP. Un tipo è ANSI, mentre l'altro è Unicode. 
+
+Il tipo di file di trasporto da utilizzare dipende dal sistema BASIS nel quale viene eseguito il sistema SAP. Inoltre, ciascun file di trasporto è composto da un file di dati e da un cofile, entrambi elencati tra parentesi dopo i nomi dei file di trasporto.
+
+
+Se il sistema SAP è in esecuzione in un sistema BASIS 6.20 o versione successiva, utilizzare i file elencati di seguito:
+
+Questi file sono Unicode.
+
+* Trasporto Connettività Open SQL (K900085.SDD e R900085.SDD)
+* Trasporto Connettività Info Set (K900043.SDD e R900043.SDD)
+* Trasporto Definizione protezione a livello di riga (K900051.SDD e R900051.SDD)
+* Trasporto Definizione cluster (K900039.SDD e R900039.SDD)
+* Trasporto Supporti autenticazione (K900041.SDD e R900041.SDD)
+
+
+Utilizzare i seguenti file in un sistema SAP BW:
+
+Questi file sono Unicode.
+
+* Trasporto Amministrazione contenuto (K900098.SDD e R900098.SDD)
+* Trasporto personalizzazione (K900045.SDD e R900045.SDD)
+* Trasporto Connettività query MDX (K900014.SDD e R900014.SDD)
+* Trasporto Connettività ODS (K900042.SDD e R900042.SDD)

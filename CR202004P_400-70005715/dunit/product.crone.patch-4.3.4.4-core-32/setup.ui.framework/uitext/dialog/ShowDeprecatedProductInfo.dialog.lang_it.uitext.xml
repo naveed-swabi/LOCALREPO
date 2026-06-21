@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Comunicazione di prodotti e funzionalità obsoleti"/>
+<string id="YouMustAgree" value="Alcuni prodotti e funzionalità sono stati posti in obsolescenza in #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Ho letto la documentazione e compreso l'impatto creato dall'obsolescenza di prodotti e funzionalità della piattaforma BI. Dopo l'aggiornamento, accetto di effettuare le azioni prescritte."/>
+<string id="subtitle1" value="Applicazioni quali SAP BusinessObjects Explorer e SAP BusinessObjects Dashboards sono poste in obsolescenza in BI 4.3. È possibile consultare l'elenco completo delle applicazioni obsolete e ricevere maggiori informazioni sull'attività di messa in obsolescenza all'indirizzo"/>
+<string id="subtitle2" value="È necessario rivedere l'impatto, quindi effettuare le azioni prescritte come indicato nel blog."/>
+<string id="AcceptOrNotAccept" value="Premere &lt;INVIO&gt; per confermare di aver letto la documentazione e compreso l'impatto creato dall'obsolescenza di prodotti e funzionalità della piattaforma BI, e per accettare di effettuare le azioni prescritte dopo l'aggiornamento."/>
+<string id="DeprecatedProductDescription" value="Applicazioni quali SAP BusinessObjects Explorer e SAP BusinessObjects Dashboards sono poste in obsolescenza in BI 4.3. È possibile consultare l'elenco completo delle applicazioni obsolete e ricevere maggiori informazioni sull'attività di messa in obsolescenza all'indirizzo https://launchpad.support.sap.com/#/notes/2801797. \n\nÈ necessario rivedere l'impatto, quindi effettuare le azioni prescritte come indicato nel blog.\n\n"/>
+<string id="CRServiceDescription" value="I servizi SAP Crystal Reports 2020 non sono più supportati su Linux e Unix, pertanto verranno rimossi durante questo aggiornamento. Tuttavia, i documenti SAP Crystal Reports 2020 resteranno nella piattaforma BI e saranno ancora supportati. Per ulteriori dettagli sulle modalità di distribuzione dei servizi richiesti in un server Windows, fare riferimento a SAP Knowledge Base Article all'indirizzo https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

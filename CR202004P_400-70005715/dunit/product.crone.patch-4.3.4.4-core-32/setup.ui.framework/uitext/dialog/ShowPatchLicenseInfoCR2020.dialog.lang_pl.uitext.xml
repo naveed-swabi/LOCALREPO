@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Wymóg nowego klucza licencji"/>
+<string id="YouMustAgree" value="Wymagany jest nowy klucz licencji dla aktualizacji #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Potwierdzam zapoznanie się z dokumentacją i znajomość procesu żądania nowego klucza licencji. Wyrażam zgodę na dodanie nowego klucza licencji po instalacji aktualizacji."/>
+<string id="subtitle1" value="W przypadku rozwiązania SAP Crystal Reports zakupionego jako część platformy SAP Business Intelligence można użyć odsyłacza poniżej, aby dowiedzieć się, jak uzyskać nowy klucz licencji."/>
+<string id="subtitle2" value="W przypadku rozwiązania SAP Crystal Reports zakupionego osobno, należy przejść do witryny SAP Store i zakupić klucz licencji dla upgrade'u."/>
+<string id="subtitle3" value="Nowy klucz licencji należy wprowadzić w Menedżerze licencji podczas uruchamiania aplikacji po instalacji aktualizacji."/>
+</context>
+</uitext>

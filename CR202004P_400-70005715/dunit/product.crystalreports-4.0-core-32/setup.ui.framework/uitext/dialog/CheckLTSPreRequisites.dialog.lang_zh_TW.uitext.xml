@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="檢查必要條件"/>
+<string id="CheckPreRequisitesSubTitle" value="任何遺失的關鍵性或選擇性必要條件的摘要。"/>
+<string id="PreRequsitiesDetails" value="要繼續安裝前必須先處理失敗的關鍵性相依性，然而失敗的選擇性相依性可能導致某些元件未安裝。"/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="必要條件"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="類型"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="狀態"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="關鍵性"/>
+<string id="Column_Type_Optional" value="選擇性"/>
+<string id="Column_Status_Succeeded" value="成功"/>
+<string id="Column_Status_Missing" value="失敗"/>
+<string id="Hints_Why_Fails" value="如果必要條件失敗，則請按一下失敗的項目以取得如何解決此問題的相關資訊。"/>
+<string id="Failure_Reason" value="資訊: "/>
+<string id="PreRequisitesUIText_Failure" value="必要條件檢查失敗"/>
+<string id="Retry_Button" value="重試"/>
+<string id="Back_Button" value="上一步"/>
+<string id="Exit_Button" value="關閉"/>
+</context>
+</uitext>

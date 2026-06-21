@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Iniciar instalação"/>
+<string id="ShowInstallSummarySubtitle" value="A instalação está pronta para instalar #product.fullproductnamenospace#. Clique em Voltar para fazer alterações em suas informações de instalação.\n\nClique em Próximo para iniciar a instalação."/>
+<string id="ShowInstallSummaryUnixDescription" value="Você está pronto para que o assistente de instalação #product.fullproductnamenospace# inicie a instalação?"/>
+<string id="ShowInstallSummaryFooter" value="Pressione []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para instalar."/>
+<string id="DiskCost" value="Custo do disco"/>
+<string id="Drive Select" value="Você está selecionando"/>
+<string id="Disk Costing" value="Determinação de custo do disco"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Tamanho do disco"/>
+<string id="Available" value="Disponível"/>
+<string id="Required" value="Obrigatório"/>
+<string id="Difference" value="Diferença"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Tentar novamente"/>
+<string id="Cancel" value="Cancelar"/>
+<string id="ShowCacheSummaryTitle" value="Instalação em fases"/>
+<string id="ShowCacheSummarySubtitle" value="Iniciar armazenamento em cache"/>
+<string id="ShowCacheSummaryDescription" value="Armazenamento em cache é o processo de copiar o software para o diretório de instalação. Durante o armazenamento em cache, não há tempo de espera do sistema e você pode continuar a trabalhar no sistema."/>
+<string id="Invalid_DiskSpace" value="Espaço insuficiente para instalar o produto. Libere espaço em disco ou selecione um local de instalação diferente. Espaço disponível: [AvailableSpace] MB. Espaço necessário: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Durante a instalação após o armazenamento em cache, há um tempo de inatividade do sistema enquanto o software é instalado."/>
+<string id="ShowResumetitle" value="Instalação em fases"/>
+<string id="ShowResumeSubtitle" value="Continuar instalação"/>
+<string id="ShowResumeFooter" value="Pressione []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para instalar."/>
+<string id="MessageCache" value="Clique em Próximo para começar a Fase de armazenamento em cache."/>
+<string id="MessageResume" value="Clique em Próximo para começar a instalação."/>
+</context>
+</uitext>

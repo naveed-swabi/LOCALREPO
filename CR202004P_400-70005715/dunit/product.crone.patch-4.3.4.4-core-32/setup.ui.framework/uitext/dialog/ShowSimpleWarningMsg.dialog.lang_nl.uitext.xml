@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="nl"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10 heeft geen compatibele Data Services-versie. Ga niet door met deze installatie als Data Services in uw landschap is geïnstalleerd.\n\n\n Klik op ‘OK’ om door te gaan met deze installatie of \n Klik op ‘Setup afsluiten’ om de installatie nu veilig te beëindigen."/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10 heeft geen compatibele Data Services-versie. Ga niet door met deze installatie als Data Services in uw landschap is geïnstalleerd."/>
+<string id="ExitMessage" value="Druk op Ctrl+X om af te sluiten of op Enter om door te gaan."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

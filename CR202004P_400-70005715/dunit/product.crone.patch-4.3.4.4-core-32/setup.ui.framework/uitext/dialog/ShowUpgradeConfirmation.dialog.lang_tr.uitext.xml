@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="Message1" value="Ürün Güncellemesi"/>
+<string id="Message2" value="Bu ürünün eski bir versiyonu algılandı. Bu kuruluma devam ederseniz ürün güncellenecek. Devam etmek için İleri'yi, kurulumdan çıkmak için İptal'i tıklayın."/>
+<string id="MessageUnix" value="Bu ürünün eski bir versiyonu algılandı. Bu kuruluma devam ederseniz ürün güncellenecek. Devam etmek için [Enter] tuşuna, kurulumdan çıkmak için [Ctrl-X] tuşlarına basın."/>
+</context>
+</uitext>

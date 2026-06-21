@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Title" value="インストールモードの選択"/>
+<string id="SubTitle" value="インストールのモードを選択します"/>
+<string id="Standard_InstallationName" value="標準インストール"/>
+<string id="Standard_InstallationText" value="インストールがフェーズごとに実行されます"/>
+<string id="PhaseWise_InstallationName" value="フェーズ別インストール"/>
+<string id="PhaseWise_InstallationText" value="インストールが、&quot;キャッシュ&quot; と &quot;キャッシュ後のインストール&quot; の 2 つのフェーズで実行されます。キャッシュ中には、システムダウンタイムは発生せず、システムでの処理を続行できます。キャッシュ後のインストール中には、ソフトウェアがシステムにインストールされ、システムダウンタイムが発生します。"/>
+<string id="CachingCompletedSubTitle" value="キャッシュ完了"/>
+<string id="Resume_InstallationSubTitle" value="キャッシュ後のインストールを再開します。キャッシュ後のインストールは、システムダウンタイムが発生する実際のインストールプロセスです。"/>
+<string id="ShowWayOfInstallFooter" value="戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。インストールするには []Enter] を押します。"/>
+</context>
+</uitext>

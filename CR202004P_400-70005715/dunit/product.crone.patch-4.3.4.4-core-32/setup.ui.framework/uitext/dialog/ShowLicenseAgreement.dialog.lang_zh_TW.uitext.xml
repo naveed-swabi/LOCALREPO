@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="NotAcceptedEULA" value="您必須接受 EULA。結束中。"/>
+<string id="LicenseAgreement" value="授權合約"/>
+<string id="YouMustAgree" value="您必須同意授權條件才能繼續。"/>
+<string id="IAccept" value="我接受授權合約"/>
+<string id="IDoNotAccept" value="我不接受授權合約"/>
+<string id="Invalid_IsAcceptEULA" value="IsAcceptEULA ([IsAcceptEULA]) 無效: 其應僅可為 1"/>
+<string id="AcceptOrNotAccept" value="按 &lt;ENTER&gt; 鍵接受，按 &lt;CTRL-X&gt; 鍵不接受。"/>
+</context>
+</uitext>

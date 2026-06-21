@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/crystalreports.cpp/java">
+    <file name="CrystalFormulas.jar" installdir="[INSTALLDIR]Crystal Reports/java/lib" size="591085"/>
+    <file name="CrystalReportingCommon.jar" installdir="[INSTALLDIR]Crystal Reports/java/lib" size="432568"/>
+    <file name="u211java.jar" installdir="[INSTALLDIR]Crystal Reports/java/lib" size="3105"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="SelectedInvalidLocale" value="Du har angitt regionale innstillinger som ikke støttes."/>
+<string id="SetupLanguageTitle" value="Velg språk for installasjonsprogram"/>
+<string id="SetupLanguageSubtitle" value="Velg installasjonsspråk."/>
+<string id="SetupLanguageUnixSubtitle" value="Velg installasjonsspråk."/>
+<string id="CreateLogFile" value="Opprett loggfil under installasjon"/>
+<string id="Invalid_SetupLanguage" value="Ugyldig installasjonsspråk ([SetupUILanguage]): Det må være ett av '[$available.ui.langs]'. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="Ugyldig IsEnableSetupLog ([IsEnableSetupLog]): Kan bare være 0 eller 1."/>
+<string id="SelectUILanguageFooter" value="Trykk på []Tab], []Opp] eller []Ned] for å velge, []Ctrl-X] for å avslutte eller []Enter] for å fortsette."/>
+</context>
+</uitext>

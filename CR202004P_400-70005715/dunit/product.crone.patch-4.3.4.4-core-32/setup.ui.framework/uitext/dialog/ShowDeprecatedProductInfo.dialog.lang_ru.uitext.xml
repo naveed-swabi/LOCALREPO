@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Объявление о прекращении поддержки продуктов и функций"/>
+<string id="YouMustAgree" value="Поддержка некоторых продуктов и функций прекращена в #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Я прочитал(-а) документацию и понимаю, какое влияние оказывает прекращение поддержки продуктов и функций BI Platform. Я соглашаюсь выполнить необходимые действия после обновления."/>
+<string id="subtitle1" value="Такие приложения как SAP BusinessObjects Explorer и SAP BusinessObjects Dashboards больше не поддерживаются и считаются устаревшими в BI 4.3. Полный список больше не поддерживаемых приложений и информацию о результате итого изменения см. по ссылке"/>
+<string id="subtitle2" value="Проверьте описание влияния и выполните действия, указанные в блоге."/>
+<string id="AcceptOrNotAccept" value="Нажмите &lt;ENTER&gt;, чтобы подтвердить, что вы прочитали документацию и понимаете, какое влияние оказывает прекращение поддержки продуктов и функций BI Platform, и что вы согласны выполнить необходимые действия после обновления."/>
+<string id="DeprecatedProductDescription" value="Такие приложения как SAP BusinessObjects Explorer и SAP BusinessObjects Dashboards больше не поддерживаются и считаются устаревшими в BI 4.3. Полный список больше не поддерживаемых приложений и информацию о результате этого изменения см. по ссылке https://launchpad.support.sap.com/#/notes/2801797. \n\nПроверьте описание влияния и выполните действия, указанные в блоге.\n\n"/>
+<string id="CRServiceDescription" value="Сервисы SAP Crystal Reports 2020 больше не поддерживаются в Linux and Unix и будут удалены в ходе этого апгрейда. При этом документы, созданные в SAP Crystal Reports 2020, останутся на платформе BI Platform и будут по-прежнему поддерживаться. Для получения подробных сведений о том, как распределить необходимые сервисы на сервер Windows, см. SAP Knowledge Base Article по адресу https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

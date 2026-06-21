@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Message" value="Conferma disinstallazione"/>
+<string id="Description" value="#product.fullproductnamenospace# verrà rimosso dal computer."/>
+<string id="ConfirmUninstall" value="Disinstallare?"/>
+<string id="ConfirmUninstall_Footer" value="Premere []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per continuare."/>
+</context>
+</uitext>

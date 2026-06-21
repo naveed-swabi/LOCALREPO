@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Pasos posteriores a la instalación"/>
+<string id="PostInstallDetails" value="Instalación finalizada. Siga las instrucciones posteriores a la instalación para completar su despliegue."/>
+<string id="PostUninstallSteps" value="Pasos posteriores a la desinstalación"/>
+<string id="PostUninstallDetails" value="Casi ha finalizado la desinstalación. Siga las instrucciones a continuación para completar el proceso."/>
+<string id="PostInstallStep_Header" value="{b}Instrucciones para después de la instalación:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Instrucciones posteriores a la instalación:"/>
+<string id="PostUninstallStep_Header" value="{b}Instrucciones para después de la instalación:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Instrucciones posteriores a la desinstalación:"/>
+<string id="CRPostInstallUIText1" value="Registro de producto{br}Registre su producto en línea; haga clic: {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}aquí{/a}."/>
+<string id="PostInstallStep_Footer" value="Instalación finalizada. Pulse [Intro] para continuar"/>
+<string id="PostUnInstallStep_Footer" value="Desinstalación finalizada. Pulse [Intro] para continuar"/>
+</context>
+</uitext>

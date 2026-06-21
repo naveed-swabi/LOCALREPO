@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Voraussetzungen überprüfen"/>
+<string id="CheckPreRequisitesSubTitle" value="Übersicht jeglicher fehlender kritischer und optionaler Voraussetzungen."/>
+<string id="PreRequsitiesDetails" value="Fehlgeschlagene kritische Abhängigkeiten müssen korrigiert werden, bevor die Installation fortgesetzt werden kann. Fehlgeschlagene optionale Abhängigkeiten führen lediglich dazu, dass einige Komponenten nicht installiert werden."/>
+<string id="AcceptKBAInfo" value="Ich habe den SAP-Wissensdatenbankartikel 1794601 gelesen und die Informationen darin überprüft, um sicherzustellen, dass das geplante Update empfohlen und unterstützt wird."/>
+<string id="AcceptKBAInfoUnix" value="Drücken Sie die [Eingabetaste], wenn Sie den SAP-Wissensdatenbankartikel 1794601 gelesen und die Informationen darin überprüft haben, um sicherzustellen, dass das geplante Update empfohlen und unterstützt wird."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Voraussetzung"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Typ"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Status"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Kritisch"/>
+<string id="Column_Type_Optional" value="Optional"/>
+<string id="Column_Status_Succeeded" value="Aktion erfolgreich abgeschlossen"/>
+<string id="Column_Status_Missing" value="Fehlgeschlagen"/>
+<string id="Hints_Why_Fails" value="Wenn eine Voraussetzung fehlgeschlagen ist, klicken Sie auf das fehlgeschlagene Element, um Informationen zur Behebung anzuzeigen."/>
+<string id="Failure_Reason" value="Informationen:"/>
+<string id="PreRequisitesUIText_Failure" value="Voraussetzungsüberprüfung fehlgeschlagen"/>
+<string id="Retry_Button" value="Wiederholen"/>
+<string id="Back_Button" value="Zurück"/>
+</context>
+</uitext>

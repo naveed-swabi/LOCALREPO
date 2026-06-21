@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="SelectedInvalidLocale" value="Antamaasi aluetta ei tueta."/>
+<string id="SetupLanguageTitle" value="Valitse asennusohjelman kieli"/>
+<string id="SetupLanguageSubtitle" value="Valitse asennuskieli."/>
+<string id="SetupLanguageUnixSubtitle" value="Valitse asennuskieli."/>
+<string id="CreateLogFile" value="Luo lokitiedosto asennuksen aikana"/>
+<string id="Invalid_SetupLanguage" value="Virheellinen asennuskieli ([SetupUILanguage]): Asetuksen on oltava jokin seuraavista '[$available.ui.langs]'. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="Virheellinen IsEnableSetupLog ([IsEnableSetupLog]): Arvon on oltava vain joko 0 tai 1."/>
+<string id="SelectUILanguageFooter" value="Valitse kohde []Sarkain]-, []Ylänuoli]- tai []Alanuoli]-näppäimillä, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+</context>
+</uitext>

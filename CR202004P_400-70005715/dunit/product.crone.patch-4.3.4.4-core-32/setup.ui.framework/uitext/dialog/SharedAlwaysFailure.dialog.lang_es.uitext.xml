@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="ExpandInstallMessage_1" value="La instalación no puede continuar"/>
+<string id="ExpandInstallMessage_2" value="Describa los problemas que han impedido que la instalación pueda continuar"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Pulse CTRL-X para salir de la instalación"/>
+<string id="AlwaysFailureGeneralMessage" value="La instalación no puede continuar\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="Dezinstalare #product.fullproductnamenospace# reuşită."/>
+<string id="UninstallFailedMessage" value="Dezinstalare #product.fullproductnamenospace# nereuşită."/>
+<string id="Description" value="Click pe Terminare pt.a ieşi din această dezinstalare."/>
+<string id="FailedDescription" value="Click pe Terminare pt.a ieşi din această dezinstalare."/>
+<string id="ShowUninstall_Footer" value="Apăsaţi []Ctrl-B] pt. a vă întoarce sau []Enter] pt. a ieşi din acestă instalare."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Apăsaţi []Enter] pt. a ieşi din această dezinstalare."/>
+<string id="CustomNextButton" value="Finalizare"/>
+<string id="ViewLogButton" value="Jurnal imagine"/>
+</context>
+</uitext>

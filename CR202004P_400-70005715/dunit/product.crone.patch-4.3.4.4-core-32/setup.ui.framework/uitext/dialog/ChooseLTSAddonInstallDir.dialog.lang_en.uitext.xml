@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Configure Destination Folder"/>
+<string id="ChooseInstallDirSubtitle" value="Enter the full destination path where the product will be installed."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Enter the full destination path where the product will be installed."/>
+<string id="DestinationFolderGroupBox" value="Destination Folder Information"/>
+<string id="DestinationFolder" value="Destination Folder:"/>
+<string id="Browse" value="Browse"/>
+<string id="BrowseInstallDirectory" value="Choose an install location"/>
+<string id="DirGenericError" value="The destination folder is invalid. Please choose a different destination folder. INS00029"/>
+<string id="DirNetworkError" value="The destination folder cannot be a network location. Please choose a different location."/>
+<string id="DirEmptyError" value=" You must choose an destination folder. INS00029"/>
+<string id="DirAbsolutePathError" value="The destination folder must be a full path. INS00029"/>
+<string id="DirInvalidCharWinError" value="The destination folder may only use numbers, letters, or the following characters: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="The destination folder path is too long. Please use a path that is fewer than 150 characters. INS00029"/>
+<string id="DirInvalidInstallverseError" value="The destination folder contains an incompatible product. Please select a different location. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Invalid install directory. Please use a valid absolute path which contains only alphanumeric characters or any of the following: _ - \ . ( ). The directory must reside on a fixed drive and the full path cannot be more than 150 characters long. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Invalid install directory. Please use a valid absolute path for which you also have read, write, and execute permissions. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Install directory cannot contain any spaces."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="The following characters are not allowed in the install directory:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Press []Tab] to auto fill directory elements, []Ctrl-X] to quit, or []Enter] to continue."/>
+</context>
+</uitext>

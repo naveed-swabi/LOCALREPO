@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="DeprecatedProductAgreement" value="הודעה על מוצרים ומאפיינים שיצאו משימוש"/>
+<string id="YouMustAgree" value="מספר מוצרים ומאפיינים יצאו משימוש ב-#product.fullproductnamenospace#."/>
+<string id="IAccept" value="קראתי את התיעוד והבנתי את ההשפעה של מוצרים ומאפיינים של פלטפורמת בינה עסקית שיצאו בשימוש, ואני מסכים לבצע את הפעולות שצוינו לאחר העדכון."/>
+<string id="subtitle1" value="יישומים כמו SAP BusinessObjects Explorer ו-SAP BusinessObjects Dashboards יצאו משימוש ב-BI 4.3. ניתן לבדוק את הרשימה המלאה של יישומים שיצאו משימוש ולקבל מידע נוסף לגבי פעילות ההוצאה משימוש בכתובת"/>
+<string id="subtitle2" value="עליך לסקור את ההשפעה ולאחר מכן לבצע את הפעולות שצוינו כפי שהוזכר בבלוג."/>
+<string id="AcceptOrNotAccept" value="הקש על &lt;ENTER&gt; כדי להסכים שקראת את התיעוד והבנת את ההשפעה של מוצרים ומאפיינים של פלטפורמת בינה עסקית שיצאו בשימוש, ואני מסכים לבצע את הפעולות שצוינו לאחר העדכון."/>
+<string id="DeprecatedProductDescription" value="יישומים כמו SAP BusinessObjects Explorer ו-SAP BusinessObjects Dashboards יצאו משימוש ב-BI 4.3. ניתן לבדוק את הרשימה המלאה של יישומים שיצאו משימוש ולקבל מידע נוסף לגבי פעילות ההוצאה משימוש בכתובת https://launchpad.support.sap.com/#/notes/2801797. \n\nעליך לסקור את ההשפעה ולאחר מכן לבצע את הפעולות שצוינו כפי שהוזכר בבלוג.\n\n"/>
+<string id="CRServiceDescription" value="שירותי SAP Crystal Reports 2020 כבר לא נתמכים ב-Linux ו-Unix, לכן הם יוסרו במהלך שדרוג זה. אולם מסמכים של SAP Crystal Reports 2020 יישארו בפלטפורמת בינה עסקית ועדיין ייתמכו שם. כדי לקבל פרטים נוספים לגבי הפצת שירותים נדרשים בשרת Windows עיין ב-SAP Knowledge Base Article בכתובת https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

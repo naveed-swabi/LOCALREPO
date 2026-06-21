@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="InvalidProductKey" value="Il codice prodotto immesso non è valido."/>
+<string id="EnterProductKeyTitle" value="Configura Registrazione Prodotto"/>
+<string id="EnterProductKeySubtitle" value="Immettere il codice prodotto di #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Premere []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per continuare."/>
+<string id="ProductkeyInfoGroup" value="Informazioni sul codice prodotto"/>
+<string id="ProductkeyLabel" value="Codice prodotto:"/>
+<string id="Invalid_ProductKey" value="Il codice prodotto non è valido. INS00140"/>
+</context>
+</uitext>

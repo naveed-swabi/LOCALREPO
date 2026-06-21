@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="SetLCMConfigTitle" value="Configurar subversão"/>
+<string id="SetLCMConfigSubtitle" value="Insira a porta e o nome de usuário do sistema de controle de versão da subversão."/>
+<string id="repoInfoGroup" value="Informações do repositório do Subversion"/>
+<string id="repoName" value="Nome do repositório:"/>
+<string id="repoPort" value="Porta do repositório:"/>
+<string id="repoPortInline" value="Porta da subversão:"/>
+<string id="repoUserInfoGroup" value="Informações do usuário do repositório da subversão"/>
+<string id="repoUserName" value="Conta de usuário do repositório:"/>
+<string id="repoUserPass" value="Senha da conta do repositório:"/>
+<string id="repoUserPassInline" value="Senha da conta do usuário do repositório:"/>
+<string id="repoUserPass2" value="Confirmar senha:"/>
+<string id="Mismatch_LCMPassword" value="As senhas não coincidem. Verifique e tente novamente. INS00267"/>
+<string id="Invalid_LCMPassword" value="A senha é muito simples. A senha deve ter, pelo menos, seis caracteres e ter pelo menos duas das seguintes classes de caracteres: letras maiúsculas e minúsculas.. INS00127"/>
+</context>
+</uitext>

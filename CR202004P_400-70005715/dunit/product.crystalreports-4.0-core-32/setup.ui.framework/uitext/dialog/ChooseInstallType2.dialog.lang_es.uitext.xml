@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="UnknownInstallType" value="Se especificó un tipo de instalación desconocido, los valores válidos son: Típica o Personalizada."/>
+<string id="ChooseInstallType" value="Seleccione el tipo de instalación"/>
+<string id="SelectAnInstallType" value="Seleccione el tipo de instalación."/>
+<string id="Full" value="Típica"/>
+<string id="FullDescription" value="Instale un sistema #product.nameonly# completo"/>
+<string id="Custom" value="Personalizada"/>
+<string id="CustomDescription" value="Seleccione las funciones de la aplicación que desee instalar, o agregue o quite las funciones de un sistema #product.nameonly# existente"/>
+<string id="Invalid_InstallType" value="Tipo de instalación no válido ([InstallType]): debe ser Típico o Personalizado."/>
+</context>
+</uitext>

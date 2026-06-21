@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="SLDIntegrateTitle" value="Integracija za SAP Solution Manager"/>
+<string id="SLDIntegrateTitleSub" value="Ali integrirate s SAP Solution Managerjem?"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="Integracija za SAP Solution Manager"/>
+<string id="IntegrateBtn" value="Integracija s SAP Solution Managerjem. Pozvani boste k vnosu informacij."/>
+<string id="NoIntegrateBtn" value="Brez integracije s SAP Solution Managerjem."/>
+<string id="Invalid_SLDIntegrateSelection" value="Neveljaven ChooseSLDIntegration ([ChooseSLDIntegration]): Biti mora 'Integracija' ali 'Brez integracije'. INS00285"/>
+</context>
+</uitext>

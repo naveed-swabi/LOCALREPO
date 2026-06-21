@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="SelectedInvalidLocale" value="Você inseriu um local não suportado."/>
+<string id="SetupLanguageTitle" value="Selecionar idioma do instalador"/>
+<string id="SetupLanguageSubtitle" value="Selecionar idioma de configuração."/>
+<string id="SetupLanguageUnixSubtitle" value="Selecionar idioma de configuração."/>
+<string id="CreateLogFile" value="Criar arquivo de log durante a instalação"/>
+<string id="Invalid_SetupLanguage" value="Idioma de instalação inválido ([SetupUILanguage]): deveria ser um de '[$available.ui.langs]'. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="IsEnableSetupLog inválido ([IsEnableSetupLog]): deveria ser apenas 0 ou 1."/>
+<string id="SelectUILanguageFooter" value="Pressione []Tab], []Seta para cima] ou []Seta para baixo] para selecionar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+</context>
+</uitext>

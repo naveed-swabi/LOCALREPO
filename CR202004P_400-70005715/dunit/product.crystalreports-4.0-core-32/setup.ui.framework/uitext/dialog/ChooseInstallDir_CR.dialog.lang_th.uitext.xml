@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ChooseDestination" value="ระบุโฟลเดอร์ปลายทาง"/>
+<string id="SpecifyDestination" value="โฟลเดอร์ปลายทางคือตำแหน่งที่จะติดตั้งผลิตภัณฑ์ ให้คลิก ''เรียกดู'' เพื่อเลือกที่ตั้งอื่น"/>
+<string id="DestinationFolder" value="โฟลเดอร์ปลายทาง"/>
+<string id="Browse" value="เรียกดู"/>
+<string id="BrowseInstallDirectory" value="เลือกตำแหน่งติดตั้ง"/>
+<string id="PWClientFolderTitle" value="โฟลเดอร์ปลายทางของไคลเอนต์"/>
+<string id="PWServerFolderTitle" value="โฟลเดอร์ปลายทางของเซิร์ฟเวอร์"/>
+<string id="Invalid_InstallDirWindows" value="ไดเรคทอรีการติดตั้งไม่ถูกต้อง โปรดใช้พาธสัมบูรณ์ที่ถูกต้องซึ่งมีได้เฉพาะอักขระที่เป็นตัวอักษรผสมตัวเลข หรืออักขระใดอักขระหนึ่งต่อไปนี้เท่านั้น: _ - \ . ( ) ไดเรคทอรีต้องอยู่บนไดรฟ์แบบคงที่และพาธแบบเต็มมีอักขระได้ไม่เกิน 150 ตัว INS00029"/>
+<string id="Invalid_InstallDirUnix" value="ไดเรคทอรีการติดตั้งไม่ถูกต้อง โปรดใช้พาธสัมบูรณ์ที่ถูกต้องซึ่งคุณได้รับอนุญาตให้อ่าน เขียน และดำเนินการได้ INS00029"/>
+</context>
+</uitext>

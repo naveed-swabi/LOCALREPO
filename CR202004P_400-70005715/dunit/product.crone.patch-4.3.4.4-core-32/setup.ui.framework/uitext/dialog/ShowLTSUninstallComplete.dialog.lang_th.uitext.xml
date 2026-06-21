@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# ถูกถอนการติดตั้งเรียบร้อยแล้ว"/>
+<string id="UninstallFailedMessage" value="การถอนการติดตั้ง #product.fullproductnamenospace# ล้มเหลว"/>
+<string id="Description" value="คลิก เสร็จสิ้น เพื่อดำเนินการถอนการติดตั้งนี้ให้เสร็จสมบูรณ์"/>
+<string id="FailedDescription" value="คลิก เสร็จสิ้น เพื่อออกจากการถอนการติดตั้ง"/>
+<string id="ShowUninstall_Footer" value="กด []Ctrl-B] เพื่อย้อนกลับ หรือกด []Enter] เพื่อออกจากการถอนการติดตั้งนี้"/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="กด []Enter] เพื่อออกจากการถอนการติดตั้งนี้"/>
+<string id="CustomNextButton" value="เสร็จสิ้น"/>
+<string id="ViewLogButton" value="ดูไฟล์บันทึก"/>
+</context>
+</uitext>

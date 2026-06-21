@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="Title" value="Aşamalı Kurulum"/>
+<string id="SubTitle" value="Önbelleğe Alma Tamamlandı"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Aşamalı kurulumdan çıkmak için [Enter] tuşuna basın"/>
+<string id="Description" value="Önbelleğe alma işleminden sonra yükleme işlemini gerçekleştirmek için kurulum dosyasını tekrar yürütün. Önbelleğe alma işleminden sonra yükleme sırasında sistem kapanır. Yüklemenin bu aşamasını, bakım döneminde gerçekleştirebilirsiniz."/>
+<string id="FinishMessage" value="Aşamalı kurulumdan çıkmak için Son'u tıklayın."/>
+<string id="Finish" value="Son"/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# はアンインストールされました。"/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# はアンインストールされませんでした。"/>
+<string id="Description" value="[完了] をクリックしてこのアンインストールを終了します。"/>
+<string id="FailedDescription" value="[完了] をクリックしてこのアンインストールを終了します。"/>
+<string id="ShowUninstall_Footer" value="[]Ctrl-B] を押して戻るか、[]Enter] を押してアンインストールを終了してください。"/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="アンインストールを終了するには、[]Enter] を押してください。"/>
+<string id="CustomNextButton" value="完了"/>
+<string id="ViewLogButton" value="ログの表示"/>
+</context>
+</uitext>

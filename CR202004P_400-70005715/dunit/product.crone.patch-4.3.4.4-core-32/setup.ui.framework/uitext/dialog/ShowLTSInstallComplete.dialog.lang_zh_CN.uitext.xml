@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="Message" value="已成功安装 #product.fullproductnamenospace#。"/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# 在安装过程中出错。"/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# 在卸载过程中出错。"/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# 已成功卸载。"/>
+<string id="Description" value="单击“完成”完成此安装并启动应用程序。"/>
+<string id="CustomDescription" value="单击“完成”完成此安装。"/>
+<string id="FailedDescription" value="单击“完成”退出此安装。"/>
+<string id="Description_unix" value="按 [Ctrl-B] 返回，或者按 [Enter] 退出此安装。"/>
+<string id="FailedDescription_unix" value="按 [D] 获取更多详细信息，或者按 [Enter] 退出此安装。"/>
+<string id="CustomNextButton" value="完成"/>
+<string id="ViewLogButton" value="查看日志"/>
+</context>
+</uitext>

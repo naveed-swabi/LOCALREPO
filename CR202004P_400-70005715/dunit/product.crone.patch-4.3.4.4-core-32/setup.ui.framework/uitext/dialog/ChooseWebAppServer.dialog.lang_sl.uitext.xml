@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Izbira spletnega aplikacijskega strežnika Java"/>
+<string id="ChooseWebAppServerSubtitle" value="Izberite rešitev spletnega aplikacijskega strežnika Java."/>
+<string id="ChooseWebAppServerFooter" value="Pritisnite []Tab], []Navzgor] ali []Navzdol] za izbiro, []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+<string id="InstallJWAS" value="Namestitev spletne aplikacije in strežnikov za Java"/>
+<string id="InstallTomcat" value="Namestitev privzetega spletnega aplikacijskega strežnika Java Tomcat in samodejna postavitev spletnih aplikacij"/>
+<string id="ManualDeploy" value="Ročna postavitev spletnih aplikacij v podprti spletni aplikacijski strežnik Java po namestitvi"/>
+<string id="InstallWACS" value="Namestitev strežnika zbirnika spletnih aplikacij in samodejna postavitev spletnih aplikacij"/>
+<string id="SharePointIntegrationTitle" value="Opcija integracije za programsko opremo Microsoft SharePoint 4.0 za SAP BusinessObjects"/>
+<string id="SharePointIntegrationText" value="Opcija integracije za programsko opremo Microsoft SharePoint 4.0 za SAP BusinessObjects je na razpolago kot ločena namestitev v mapi z dodatki za 64-bitni SharePoint. Povezavo do mape z dodatki najdete v navodilih za ravnanje po namestitvi."/>
+<string id="SharePointIntegrationCheck" value="Prikaz lokacije mape z dodatki po koncu namestitve"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Neveljavna vrednost UseIntegratedWebAppServer ([UseIntegratedWebAppServer]): Biti mora 0 ali 1. INS00255"/>
+</context>
+</uitext>

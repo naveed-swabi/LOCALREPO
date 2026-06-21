@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="SelectLanguagePackTitle" value="言語パッケージの選択"/>
+<string id="SelectLanguagePackSubtitle" value="製品でユーザが使用するすべての追加言語パッケージを選択します。"/>
+<string id="SelectLanguagePackFooter" value="強調表示するには []Tab]、[]上矢印]、または []下矢印] キーを押します。状態を切り替えるには []スペース] または []X] キーを押します。戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+<string id="alllang" value="すべての言語"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="プロパティ SelectedLanguagePacks '[SelectedLanguagePacks]' にはシステムロケールを含める必要があります。"/>
+<string id="Invalid_SelectedLangPacksHasEN" value="プロパティ SelectedLanguagePacks '[SelectedLanguagePacks]' には 'en' を含める必要があります。"/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="プロパティ SelectedLanguagePacks '[SelectedLanguagePacks]' は使用可能な言語パックのサブセットにする必要があります。"/>
+</context>
+</uitext>

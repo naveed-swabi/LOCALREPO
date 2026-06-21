@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="SetLCMConfigTitle" value="Konfigurer Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Angiv port- og brugernavn til versionskontrolsystemet til Subversion."/>
+<string id="repoInfoGroup" value="Oplysninger om Subversion-lager"/>
+<string id="repoName" value="Lagernavn"/>
+<string id="repoPort" value="Lagerport:"/>
+<string id="repoPortInline" value="Subversion-port:"/>
+<string id="repoUserInfoGroup" value="Oplysninger om Subversion-lager"/>
+<string id="repoUserName" value="Brugerkonto til lager:"/>
+<string id="repoUserPass" value="Adgangskode til lagerkonto:"/>
+<string id="repoUserPassInline" value="Adgangskode til lagerbrugerkonto"/>
+<string id="repoUserPass2" value="Bekræft adgangskode:"/>
+<string id="Mismatch_LCMPassword" value="Adgangskoder stemmer ikke overens. Kontroller, og prøv igen. INS00267"/>
+<string id="Invalid_LCMPassword" value="Adgangskoden er for enkel. Adgangskoden skal være mindst seks tegn lang og skal altid indeholde mindst to af følgende tegnklasser: Store bogstaver og små bogstaver. INS00127"/>
+</context>
+</uitext>

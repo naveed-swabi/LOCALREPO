@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="sl"/>
+  <context>
+    <string id="Yes" value="Da"/>
+    <string id="No" value="Ne"/>
+    <string id="Ok" value="V redu"/>
+    <string id="Cancel" value="Prekinitev"/>
+    <string id="Abort" value="Prekinitev"/>
+    <string id="Continue" value="Nadaljevanje"/>
+    <string id="Ignore" value="Ne upoštevaj"/>
+    <string id="Next" value="Naprej"/>
+    <string id="Previous" value="Nazaj"/>
+    <string id="Info" value="Informacije"/>
+    <string id="Warning" value="Opozorilo"/>
+    <string id="Error" value="Napaka"/>
+    <string id="FatalError" value="Usodna napaka"/>
+    <string id="ErrorDialogTitle" value="Napaka"/>
+    <string id="ErrorDialogSubtitle" value="Prišlo je do napake."/>
+    <string id="ErrorDialogFooter" value="Pritisnite Enter za nadaljevanje."/>
+    <string id="WarnDialogTitle" value="Opozorilo"/>
+    <string id="WarnDialogSubtitle" value="Pojavilo se je opozorilo."/>
+    <string id="WarnDialogFooter" value="Pritisnite Ctrl+B za vrnitev ali Enter za nadaljevanje."/>
+    <string id="InfoDialogTitle" value="Informacije"/>
+    <string id="InfoDialogSubtitle" value="Navedena je naslednja informacija:"/>
+    <string id="InfoDialogFooter" value="Pritisnite Enter za nadaljevanje."/>
+    <string id="DefaultUnixFooter" value="Pritisnite Tab za premik na naslednje polje, Ctrl+B za vrnitev na predhodno polje, Ctrl+X za izhod ali Enter za nadaljevanje."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Pritisnite Tab za premik na naslednje polje, Ctrl+X za izhod ali Enter za nadaljevanje."/>
+    <string id="ProgressDialogUnixFooter" value="Pritisnite Ctrl+X za izhod."/>
+    <string id="CancelCaption" value="Prekinitev"/>
+    <string id="CancelExitSetup" value="Izhod iz namestitvenega programa"/>
+    <string id="CancelMsg" value="Če končate zdaj, program ne bo nameščen. Namestitveni program lahko zaženete pozneje, da zaključite namestitev.\nZa nadaljevanje namestitve kliknite Nadaljevanje. Če želite zapustiti namestitev, kliknite Izhod iz namestitve."/>
+    <string id="CancelResume" value="Nadaljevanje"/>
+    <string id="DialogCaption" value="Namestitev #product.fullproductnamenospace#"/>
+    <string id="outofspace" value="Premalo prostora na disku"/>
+    <string id="CanceledModifier" value="%1 (preklicevanje)"/>
+    <string id="ValidationCaption" value="Rezultat validacije"/>
+    <string id="ValidationError" value="Napaka:"/>
+    <string id="ValidationToDo" value="Za popravek napake validacije kliknite OK. Če obstajajo samo opozorila, lahko kliknete Da za nadaljevanje ali Ne za popravek napak."/>
+    <string id="ValidationWarning" value="Opozorilo:"/>
+    <string id="Validation.MissingFields" value="Preden nadaljujete nastavitev, morate izpolniti obvezna polja."/>
+    <string id="ValidationFailed.Blocking" value="Izvajanje se je zaustavilo, ker naslednja akcija ni bila validirana: "/>
+    <string id="ValidationFailed.Optional" value="Opcijska validacija ni bila uspešna za naslednjo akcijo: "/>
+    <string id="action.InstallDUBundle" value="Namestitev enote postavitve:"/>
+    <string id="action.UninstallDUBundle" value="Odstranitev enote postavitve:"/>
+    <string id="action.RegisterBinary" value="Registracija binarnih datotek"/>
+    <string id="action.UnregisterBinary" value="Preklic registracije binarnih datotek"/>
+    <string id="action.ConfigureTomcat" value="Konfiguracija Tomcata"/>
+    <string id="action.BOBJTextReplace" value="Izvedba zamenjave teksta"/>
+    <string id="action.RunCommand" value="Zagon izvršljivih datotek iz ukazne vrstice"/>
+    <string id="action.RunCommandConditional" value="Zagon izvršljivih datotek iz ukazne vrstice za določene pogoje"/>
+    <string id="action.EnsureFolderExists" value="Zagotovite, da obstaja mapa"/>
+    <string id="action.CreateShortcut" value="Kreiranje bližnjice do začetnega menija"/>
+    <string id="action.AddARPEntry" value="Dodajanje vnosa Dodajanje/odstranjevanje programov"/>
+    <string id="action.RemoveARPEntry" value="Odstranitev vnosa Dodajanje/odstranjevanje programov"/>
+    <string id="action.BOBJRegasm" value="Izvedba registracije sklopa"/>
+    <string id="action.BOBJUnRegasm" value="Odstranitev registracije sklopa"/>
+    <string id="sequence.InstallPreReqs" value="Namestitev predpogojev"/>
+    <string id="sequence.SetInitialProperties" value="Nastavitev začetnih lastnosti"/>
+    <string id="sequence.SetMyProperties" value="Nastavitev lastnosti produkta"/>
+    <string id="sequence.InstallDUBase" value="Namestitev akcij"/>
+    <string id="sequence.InstallDUBundles" value="Namestitev enot postavitve"/>
+    <string id="sequence.CreateSymLinks" value="Kreiranje symlinks"/>
+    <string id="sequence.ConfigureDUBase" value="Konfiguracija enot postavitve"/>
+    <string id="sequence.PopulateRegistry" value="Izpolnitev registra"/>
+    <string id="sequence.InstallServices" value="Namestitev storitev"/>
+    <string id="sequence.ConfigureServices" value="Konfiguracija storitev"/>
+    <string id="sequence.StartServices" value="Zagon storitev"/>
+    <string id="sequence.StopServices" value="Zaustavitev storitev"/>
+    <string id="sequence.UninstallServices" value="Odstranitev storitev"/>
+    <string id="sequence.UnPopulateRegistry" value="Ostranitev iz registra"/>
+    <string id="sequence.UninstallDUBase" value="Odstranitev akcij"/>
+    <string id="sequence.UnconfigureDUBase" value="Razveljavitev konfiguracije enot postavitve"/>
+    <string id="sequence.RemoveSymLinks" value="Odstranitev symlinks"/>
+    <string id="sequence.UninstallDUBundles" value="Odstranitev enot postavitve:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Brisanje praznih map"/>
+    <string id="Dialog.title" value="Sporočilo namestitve"/>
+    <string id="PleaseWait" value="Čakanje..."/>
+    <string id="LongCalculation" value="Dolg izračun poteka. Čakanje..."/>
+    <string id="DiskCostInProgress" value="Izračun velikosti diska poteka."/>
+    <string id="Confirm.title" value="Potrditev"/>
+    <string id="Permissions.title" value="Nastavite dovoljenj"/>
+    <string id="NoPermissionsOperation" value="Nimate pravic za dostop za izvedbo operacij pri tej namestitvi."/>
+    <string id="NoPermissionsFile" value="Nimate pravic za dostop do naslednje datoteke: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Namestitveni program je zaznal, da imate nameščeno starejšo verzijo #productname#. Tega popolnega namestitvenega paketa ni mogoče uporabiti, če je nameščena starejša verzija. Uporabite paket vzdrževanja za #product.fullproductname# za posodobitev trenutne namestitve."/>
+    <string id="OlderCryptoDllFound" value="Namestitveni program je zaznal, da je variabla okolja R_SHLIB_LD_LIBRARY_PATH nastavljena na kriptografske binarne datoteke, starejše od binarnih datotek, zahtevanih za to namestitev. Sledite navodilom v povezanem dokumentu, da zaključite namestitev."/>
+    <string id="CmdLine.title" value="Namestitev ukazne vrstice"/>
+    <string id="InvalidCmdLine" value="Neveljavna ukazna vrstica"/>
+    <string id="ExpectedCmdLine" value="Pričakovana ukazna vrstica je: %1"/>
+    <string id="ActionFailed" value="Uporabniško definirana akcija ni bila uspešna"/>
+    <string id="ActionFailedArg" value="Uporabniško definirana akcija ni bila uspešna: %1"/>
+    <string id="ActionFailedWithCode" value="Uporabniško definirana akcija ni bila uspešna in je prikazala kodo:"/>
+    <string id="RegistrationFailed" value="Registracija binarnih datotek ni uspela: %1"/>
+    <string id="NoFindFile" value="Datoteke ni bilo možno najti: %1"/>
+    <string id="NoCMS" value="Povezava s CMS ni možna"/>
+    <string id="NoCMSArg" value="Povezava s CMS pri %1 ni možna"/>
+    <string id="DFOFailed" value="Nalaganje DFO ni uspelo"/>
+    <string id="wdeployFailed" value="WDeploy ni mogel postaviti aplikacije."/>
+    <string id="ScriptFailed" value="Izvajanje Scripta ni bilo možno: %1"/>
+    <string id="CmdFailed" value="Izvajanje ukazne vrstice ni možno: %1"/>
+    <string id="ServerStartFailed" value="Zagon strežnika ni uspel: %1"/>
+    <string id="ServerStopFailed" value="Zaustavitev strežnika ni uspela: %1"/>
+    <string id="ExitCode" value="Izhodna koda: %1"/>
+    <string id="DBInitFail" value="Inicializacija baze podatkov ni mogoča"/>
+    <string id="ShortcutFail" value="Kreiranje bližnjice ni možno: %1"/>
+    <string id="ARPFail" value="Kreiranje vnosa Dodajanje/odstranjevanje programov za produkt %1 ni mogoče"/>
+    <string id="CreateFolderFail" value="Kreiranje mape ni možno: %1"/>
+    <string id="SamplesFail" value="Dodajanje vzorcev ni možno"/>
+    <string id="LicenseKeyFail" value="Dodajanje licenčnega ključa ni mogoče"/>
+    <string id="Tomcatfail" value="Konfiguracija Tomcata ni mogoča"/>
+    <string id="PropertyFail" value="Priklic vrednosti lastnosti ni možen: %1"/>
+    <string id="dev" value="Angleščina razvijalcev"/>
+    <string id="aa" value="Afarščina"/>
+    <string id="ab" value="Abhaščina"/>
+    <string id="af" value="Afrikanščina"/>
+    <string id="am" value="Amharščina"/>
+    <string id="ar" value="Arabščina"/>
+    <string id="as" value="Asamščina"/>
+    <string id="ay" value="Ajmarščina"/>
+    <string id="az" value="Azerbajdžanščina"/>
+    <string id="ba" value="Baškirščina"/>
+    <string id="be" value="Beloruščina"/>
+    <string id="bg" value="Bolgarščina"/>
+    <string id="bh" value="Biharščina"/>
+    <string id="bi" value="Bislamščina"/>
+    <string id="bn" value="Bengalščina"/>
+    <string id="bo" value="Tibetanščina"/>
+    <string id="br" value="Bretonščina"/>
+    <string id="ca" value="Katalonščina"/>
+    <string id="co" value="Korzijščina"/>
+    <string id="cs" value="Češčina"/>
+    <string id="cy" value="Valizijščina"/>
+    <string id="da" value="Danščina"/>
+    <string id="de" value="Nemščina"/>
+    <string id="dz" value="Butanščina"/>
+    <string id="el" value="Grščina"/>
+    <string id="en" value="Angleščina"/>
+    <string id="eo" value="Esperanto"/>
+    <string id="es" value="Španščina"/>
+    <string id="et" value="Estonščina"/>
+    <string id="eu" value="Baskovščina"/>
+    <string id="fa" value="Perzijščina"/>
+    <string id="fi" value="Finščina"/>
+    <string id="fj" value="Fidžijščina"/>
+    <string id="fo" value="Ferščina"/>
+    <string id="fr" value="Francoščina"/>
+    <string id="fy" value="Frizijščina"/>
+    <string id="ga" value="Irščina"/>
+    <string id="gd" value="Škotska gelščina"/>
+    <string id="gl" value="Galicijščina"/>
+    <string id="gn" value="Gvaranščina"/>
+    <string id="gu" value="Gujarati"/>
+    <string id="ha" value="Havščina"/>
+    <string id="he" value="Hebrejščina"/>
+    <string id="hi" value="Hindujščina"/>
+    <string id="hr" value="Hrvaščina"/>
+    <string id="hu" value="Madžarščina"/>
+    <string id="hy" value="Armenščina"/>
+    <string id="ia" value="Interlingua"/>
+    <string id="id" value="Indonezijščina"/>
+    <string id="ie" value="Interlingue"/>
+    <string id="ik" value="Inupiakščina"/>
+    <string id="is" value="Islandščina"/>
+    <string id="it" value="Italijanščina"/>
+    <string id="iu" value="Inuktituščina"/>
+    <string id="ja" value="Japonščina"/>
+    <string id="jw" value="Javanščina"/>
+    <string id="ka" value="Gruzinščina"/>
+    <string id="kk" value="Kazahstanščina"/>
+    <string id="kl" value="Grenlandščina"/>
+    <string id="km" value="Kamboščina"/>
+    <string id="kn" value="Kanadščina"/>
+    <string id="ko" value="Korejščina"/>
+    <string id="ks" value="Kašmirščina"/>
+    <string id="ku" value="Kurdščina"/>
+    <string id="ky" value="Kirgizijščina"/>
+    <string id="la" value="Latinščina"/>
+    <string id="ln" value="Lingalščina"/>
+    <string id="lo" value="Laoščina"/>
+    <string id="lt" value="Litovščina"/>
+    <string id="lv" value="Latvijščina"/>
+    <string id="mg" value="Malgaščina"/>
+    <string id="mi" value="Maorščina"/>
+    <string id="mk" value="Makedonščina"/>
+    <string id="ml" value="Malajalamščina"/>
+    <string id="mn" value="Mongolščina"/>
+    <string id="mo" value="Moldavščina"/>
+    <string id="mr" value="Marathi"/>
+    <string id="ms" value="Malajščina"/>
+    <string id="mt" value="Malteščina"/>
+    <string id="my" value="Burmanščina"/>
+    <string id="na" value="Nauruanščina"/>
+    <string id="nb" value="Norveščina"/>
+    <string id="ne" value="Nepalščina"/>
+    <string id="nl" value="Nizozemščina"/>
+    <string id="oc" value="Okcitanščina"/>
+    <string id="om" value="Oromščina"/>
+    <string id="or" value="Orijščina"/>
+    <string id="pa" value="Pandžabščina"/>
+    <string id="pl" value="Poljščina"/>
+    <string id="ps" value="Paštunščina"/>
+    <string id="pt" value="Portugalščina"/>
+    <string id="qu" value="Kečuanščina"/>
+    <string id="rm" value="Retoromanščina"/>
+    <string id="rn" value="Kirundščina"/>
+    <string id="ro" value="Romunščina"/>
+    <string id="ru" value="Ruščina"/>
+    <string id="rw" value="Kinjaruandščina"/>
+    <string id="sa" value="Sanskrt"/>
+    <string id="sd" value="Sindščina"/>
+    <string id="sg" value="Sango"/>
+    <string id="sh" value="Srbohrvaščina"/>
+    <string id="si" value="Sinhalščina"/>
+    <string id="sk" value="Slovaščina"/>
+    <string id="sl" value="Slovenščina"/>
+    <string id="sm" value="Samoanščina"/>
+    <string id="sn" value="Sona"/>
+    <string id="so" value="Somalščina"/>
+    <string id="sq" value="Albanščina"/>
+    <string id="sr" value="Srbščina"/>
+    <string id="ss" value="Sisvatščina"/>
+    <string id="st" value="Sesoto"/>
+    <string id="su" value="Sundanščina"/>
+    <string id="sv" value="Švedščina"/>
+    <string id="sw" value="Svahili"/>
+    <string id="ta" value="Tamilščina"/>
+    <string id="te" value="Telugu"/>
+    <string id="tg" value="Tadžiščina"/>
+    <string id="th" value="Tajščina"/>
+    <string id="ti" value="Tigrinščina"/>
+    <string id="tk" value="Turkmenščina"/>
+    <string id="tl" value="Tagaloščina"/>
+    <string id="tn" value="Setsvanščina"/>
+    <string id="to" value="Tonga"/>
+    <string id="tr" value="Turščina"/>
+    <string id="ts" value="Tsonga"/>
+    <string id="tt" value="Tatarščina"/>
+    <string id="tw" value="Tviščina"/>
+    <string id="ug" value="Ujgurščina"/>
+    <string id="uk" value="Ukrajinščina"/>
+    <string id="ur" value="Urdu"/>
+    <string id="uz" value="Uzbekistanščina"/>
+    <string id="vi" value="Vietnamščina"/>
+    <string id="vo" value="Volapuk"/>
+    <string id="wo" value="Wolofščina"/>
+    <string id="xh" value="Xhosa"/>
+    <string id="yi" value="Jidiš"/>
+    <string id="yo" value="Joruba"/>
+    <string id="za" value="Žuang"/>
+    <string id="zh_CN" value="Poenostavljena kitajščina"/>
+    <string id="zh_TW" value="Tradicionalna kitajščina"/>
+    <string id="zu" value="Zulu"/>
+    <string id="SetupInitSh.root" value="Za nastavitev Scriptov za inicializacijo se prijavite kot korenski uporabnik in nato izvedite zagon."/>
+    <string id="SetupInitSh.fail" value="Scripti inicializacije sistema niso bili uspešni."/>
+    <string id="property.InstallDir.description" value="Direktorij namestitev"/>
+    <string id="property.SetupUILanguage.description" value="Namestitev jezika za uporabniški vmesnik"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Razvrščene razpoložljive namestitve jezikov za uporabniški vmesnik"/>
+    <string id="property.SelectedLanguagePacks.description" value="Jezikovni paketi izbrani za namestitev"/>
+    <string id="property.ProductKey.description" value="Koda proizvoda"/>
+    <string id="property.RegisteredCompany.description" value="Registrirano podjetje"/>
+    <string id="property.RegisteredUser.description" value="Registriran uporabnik"/>
+    <string id="property.InstallCompatibilityMode.description" value="Nadgradite predhodni produkt ali namestite vzporedno"/>
+    <string id="property.IsAcceptEULA.description" value="Sli sistem sprejme licenčno pogodbo?"/>
+    <string id="property.FormattedString.description" value="Oblikovanje ciljnega niza"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="Zažene WDeploy"/>
+    <string id="description.cmsname" value="CMS naziv"/>
+    <string id="description.cmsport" value="CMS vrata"/>
+    <string id="description.cmsusername" value="Uporabniško ime CMS:"/>
+    <string id="description.cmspassword" value="Geslo za CMS"/>
+    <string id="description.cmsauth" value="Avtorizacija za CMS"/>
+    <string id="description.sianame" value="SIA-naziv"/>
+    <string id="description.siaport" value="Vrata za SIA"/>
+    <string id="property.CMSPassword.description" value="Geslo administratorja CMS"/>
+    <string id="property.CMSPort.description" value="Vrata za povezavo CMS"/>
+    <string id="property.CryptoKey.description" value="Ključ gruče CMS"/>
+    <string id="property.EnableServers.description" value="Zagon strežnikov po namestitvi: 0 ali 1"/>
+    <string id="property.UsingAuditDBType.description" value="Tip baze podatkov revidiranja"/>
+    <string id="property.UsingCMSDBType.description" value="Tip baze podatkov CMS"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Obstoječa baza podatkov revidiranja (baza podatkov)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Geslo obstoječe baze podatkov revidiranja"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Obstoječa vrata baze podatkov revidiranja"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Oznaka za ponastavitev obstoječe baze podatkov revidiranja: 0 ali 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Oznaka zunanjega preverjanja pristnosti uporabe obstoječe zbirke podatkov revidiranja: 0 ali 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Strežnik obstoječe baze podatkov revidiranja"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Uporabniško ime obstoječe baze podatkov revidiranja"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Obstoječa baza podatkov CMS (baza podatkov)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Geslo obstoječe baze podatkov CMS"/>
+    <string id="property.ExistingCMSDBPort.description" value="Vrata obstoječe baze podatkov CMS"/>
+    <string id="property.ExistingCMSDBReset.description" value="Oznaka za ponastavitev obstoječe baze podatkov CMS: 0 ali 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Oznaka zunanjega preverjanja pristnosti uporabe obstoječe zbirke podatkov CMS: 0 ali 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Strežnik obstoječe baze podatkov CMS"/>
+    <string id="property.ExistingCMSDBUser.description" value="Uporabniško ime obstoječe baze podatkov CMS"/>
+    <string id="property.NewOrExpandInstall.description" value="Modus namestitve: nova, razširjena"/>
+    <string id="property.MySQLBOEUserName.description" value="Uporabniško ime paketne baze podatkov za uporabnika BI-platforme"/>
+    <string id="property.MySQLBOEUserPassword.description" value="Geslo paketne baze podatkov za uporabnika BI-platforme"/>
+    <string id="property.MySQLPort.description" value="Vrata konektorja paketne baze podatkov"/>
+    <string id="property.MySQLRootPassword.description" value="Geslo korenskega uporabnika paketne baze podatkov"/>
+    <string id="property.RemoteCMSAdminName.description" value="Ime administratorja oddaljenega CMS"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="Geslo administratorja oddaljenega CMS"/>
+    <string id="property.RemoteCMSName.description" value="Naziv oddaljenega CMS"/>
+    <string id="property.RemoteCMSPort.description" value="Vrata oddaljenega CMS"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Preskok opozorila za oddaljeno prijavo v CMS"/>
+    <string id="property.MaintenanceMode.description" value="Operacija vzdrževanja za izvedbo"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Namestitev integrirane baze podatkov: 0 ali 1 "/>
+    <string id="property.SIAName.description" value="Naziv SIA-vozlišča"/>
+    <string id="property.SIAPort.description" value="Vrata SIA-konektorja"/>
+    <string id="property.TomcatConnectionPort.description" value="Vrata za povezavo s Tomcatom"/>
+    <string id="property.TomcatRedirectPort.description" value="Vrata za preusmeritev za Tomcat"/>
+    <string id="property.TomcatShutdownPort.description" value="Vrata za zaustavitev za Tomcat"/>
+    <string id="property.WACSPort.description" value="WACS-vrata"/>
+    <string id="property.WebAppServerType.description" value="Tip spletnega aplikacijskega strežnika: Tomcat, ročni ali WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Naziv strežnika za Solution Manager"/>
+    <string id="property.SolMgr_Port.description" value="Vrata strežnika za Solution Manager"/>
+    <string id="property.SolMgr_Username.description" value="Uporabniško ime za povezavo s Solution Managerjem"/>
+    <string id="property.SolMgr_Password.description" value="Geslo za povezavo s Solution Managerjem"/>
+    <string id="property.SolMgr_UseHttps.description" value="Uporaba HTTPS za povezavno s Solution Managerjem: 0 ali 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="Lastnost, uporabljena za shranjevanje niza SharedAlwaysFailureMessage"/>
+    <string id="property.SMDAgent_HOST.description" value="Naziv gostitelja SMD Agenta"/>
+    <string id="property.SMDAgent_PORT.description" value="Številka vrat SMD Agenta"/>
+    <string id="property.UPGRADE.description" value="Oznaka Dovoli tiho nadgradnjo: 0 ali 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Integracija Solution Manager Diagnostics (SMD) Agenta: integracija ali brez integracije"/>
+    <string id="property.ChooseSLDIntegration.description" value="Integracija SLD: integracija ali brez integracije"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Integracija Introscope Enterprise Managerja: integracija ali brez integracije"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Naziv gostitelja Introscope Enterprise Managerja"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Številka vrat Introscope Enterprise Managerja"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Instrumentacija Introscope Enterprise Managerja"/>
+    <string id="property.NewOrExistingLCM.description" value="Namestitev novega ali uporaba obstoječega LCM: nov ali obstoječi"/>
+    <string id="property.LCMName.description" value="Naziv strežnika LCM"/>
+    <string id="property.LCMUserName.description" value="Uporabniško ime za LCM"/>
+    <string id="property.LCMPassword.description" value="Geslo za LCM"/>
+    <string id="property.LCMPort.description" value="Vrata za LCM"/>
+    <string id="property.InstallType.description" value="Tip namestitve: privzeta ali uporabniško definirana"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Ali ima uporabnik administratorske pravice za predpogoje za Crystal Reports?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Direktorij namestitve za namestitev pregledovalnika Crystal Reports Viewer za posamezni računalnik"/>
+    <string id="PatchUpdateCheck" value="Iskanje posodobitev produkta "/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Raven popravkov operacijskega sistema"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Operacijski sistem nima minimalne ravni popravkov, potrebne za namestitev tega produkta. Preberite si dokumentacijo glede zahtev platforme."/>
+    <string id="prereq.pingLocalhost" value="Nastavitve omrežja"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Pošiljanje pinga na localhost, 127.0.0.1 ali nazivu gostitelja računalnika ni uspelo. Računalnik morate konfigurirati, tako da bo dosegljiv in se bo namestitev lahko nadaljevala. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Kontrola prostora na disku"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Preverite, da je na disku dovolj prostora za nadaljevanje nameščanja. Več informacij najdete na naslovu https://apps.support.sap.com/sap/support/pam."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Administrativne pravice"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Prijavite se morate z uporabniškim računom z administrativnimi pravicami. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 ali novejši"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Prosim, namestite Microsoft .NET Framework 4.0 ali novejšega."/>
+    <string id="prereq.RootUserPreReqText" value="Pravice korenskega uporabnika"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Te namestitve ni mogoče nadaljevati z računom korenskega uporabnika, s katerim ste prijavljeni. Če želite namestiti ta produkt, se morate prijaviti kot nekorenski uporabnik. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64-bitni operacijski sistem"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Ta produkt morate namestiti v 64-bitni operacijski sistem. Preverite, ali vaš operacijski sistem ustreza tej zahtevi. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Verzija programa Windows"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Ta produkt je treba namestiti v operacijski sistem (OS) Windows 8.1 ali Server 2012 R2 oz. novejši. Prosim, preverite, ali vaš OS ustreza tej zahtevi."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Verzija programa Windows"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Ta produkt je treba namestiti v Windows Server 2012 R2 oz. novejši. Prosim, preverite, ali vaša verzija sistema Windows ustreza tem zahtevam."/>
+    <string id="prereq.SQLExpressPreReqText" value="Zahteve integrirane baze podatkov"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Namestite Microsoft .NET Framework 3.5 SP1 ali novejšega in Windows Installer 4.5."/>
+    <string id="prereq.SQLExpressRequirementText" value="Zahteve za MS SQL Express"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express zahteva Microsoft .NET Framework 3.5 SP1 in Windows Installer 4.5. Namestite oba paketa, preden nameravate namestiti SQL Express."/>
+    <string id="prereq.PendingStatusPreReqText" value="Preprečen vnovični zagon"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="Vnovični zagon lokalnega računalnika je bil preprečen. Če želite nadaljevati z namestitvijo, znova zaženite računalnik. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Verzija 4.x produkta ni bila nameščena."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Verzija 4.x produkta je bila nameščena."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Integrirana baza podatkov - domači direktorij"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Za integrirano bazo podatkov je treba za uporabnikov domači direktorij nastaviti pravice za dostop 755. Preden namestite bazo podatkov, morate nastaviti pravice za dostop."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Integrirana baza podatkov - direktoriji"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="Za namestitev DB2 ~/sqllib ali ~/$USER ne sme obstajati. Če direktoriji obstajajo, jih morate izbrisati, preden lahko namestite integrirano bazo podatkov DB2."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="#product.mini_bip_name# ali #product.cr_server_name# ni mogoče namestiti"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname# ni mogoče namestiti v isti računalnik kot #product.mini_bip_name# ali #product.cr_server_name#.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="#product.boe64_name# ali #product.cr_server_name#ni mogoče namestiti"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="Ne morete namestiti #productname#; #product.boe64_name# ali #product.cr_server_name# je že nameščen INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="#product.ras_name# ni možno namestiti"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname# ni možno namestiti v isti računalnik kot #product.ras_name#.  INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="Kompatibilnost #product.IS_name# ali #product.DS_name#"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="Postavitev SAP #product.DS_name# in/ali #product.IS_name# je bila izbrisana iz vašega računalnika. Preden nadaljujete, preberite SAP-navodilo 1740516 (http://service.sap.com/sap/support/notes/1740516) za infomacije o kompatibilnosti in informacije o vplivu na te produkte.  INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Namestitveni program je zaznal obstoječo namestitev in se mora zagnati z ukazom UPGRADE=1.  Program bo zdaj končal."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Namestitveni program ne more nadaljevati, ker kritični predpogoj ni bil izpolnjen."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="Central Management Server je izbran z opcijo integrirane baze podatkov, vendar je opcija onemogočena, ker predpogoji niso bili izpolnjeni. Preden nadaljujete namestitev, morate rešiti naslednje predpogoje:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Trenutni uporabnik nima administratorskih pravic za dostop in ne sme zagnati namestitvenega programa."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Prostor na disku v /tmp"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="V mapi /tmp ni na razpolago dovolj prostora na disku. Preden nadaljujete namestitev, sprostite nekaj prostora. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Prostor na disku v /var"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="Mapa /var nima na razpolago dovolj prostora na disku. Preden nadaljujete namestitev, morate zagotoviti 20 MB ali več razpoložljivega prostora na disku."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Integrirana baza podatkov - uporabnik in skupina"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Poimenovanje skupine uporabnikov ne izpolnjuje omejitve DB2. Za več informacij pojdite na http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 in poiščite &quot;User ID restrictions&quot; (omejitve ID uporabnika)."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Integrirana baza podatkov - UID in GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2 zahteva, da sta UID in GID manjša od 65536. Vnesite manjše števlo, če želite uporabiti integrirano bazo podatkov DB2."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Integrirana baza podatkov - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2 zahteva, da je gunzip v sistemski poti. Uredite sistemsko pot, če želite uporabiti integrirano bazo podatkov DB2."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Paketna baza podatkov - izpolnjevanje minimalnih nastavitev HPUX-jedra za DB2"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Nastavitve jedra ne izpolnjujejo minimalnih zahtev za DB2"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Crystal Reports 2013 ni podprt v SUSE 11 in novejšem."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="Za 64-bitni BOE .NET SDK potrebujete Microsoft .NET Framework 3.5 ali novejšega. Preden namestite 64-bitni BOE .NET SDK, morate namestiti .NET Framework."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3,0 ali novejši"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Namestite Microsoft .NET Framework 3.0 ali novejšega."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime ni bil najden. Preden nadaljujete s to namestitvijo, morate najprej namestiti ta produkt."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 ali novejši"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003 ali novejši ni bil najden. Preden nadaljujete s to namestitvijo, morate najprej namestiti ta produkt."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Minimalna verzija paketa podpore"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="To je posodobitev za #productname# #product_version##product_sp_version#, ki ni bil zaznan v sistemu. Preden nadaljujete s to namestitvijo, morate najprej namestiti ta produkt."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="To je posodobitev za #productname# #product_version##product_sp_version#, ki ni bil zaznan v sistemu. Preden nadaljujete s to namestitvijo, morate najprej namestiti ta produkt."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Posodobitve so na voljo"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# je novejša verzija kot ta posodobitev. Ne nadaljujte s to posodobitvijo."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Minimalna verzija manjše izdaje"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="To je posodobitev za #productname# #product_version#, ki ni bil zaznan v sistemu. Preden nadaljujete s to namestitvijo, morate najprej namestiti ta produkt."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Prilagojen #productname_short# #productname_preversion# nameščen"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="To je posodobitev za prilagojeni #productname_short# #productname_preversion#, ki ni bil zaznan v sistemu.  Preden nadaljujete s to namestitvijo, morate najprej namestiti ta produkt."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Namestitev kompatibilnega produkta"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Ta produkt je že nameščen in je na voljo uporabnikom."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Storitev Windows Installer"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Namestitev je bila začasno prekinjena, ker je storitev Windows Installer onemogočena (tip zagona=onemogočeno) ali pa ni razpoložljiva.  Preden nadaljujete s to namestitvijo, morate najprej namestiti ta produkt in omogočiti storitev."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="Za zaključitev posodobitve za gručo morate znova zagnati vse Central Management Serverje (CMS-e), potem ko se zaključi namestitev v vseh računalnikih v gruči. Za vnovični zagon CMS-jev se prijavite v Central Management Console."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Prijavite se v Central Management Console (CMC) za nadaljnje konfiguriranje sistema. Za zagon CMC-ja izberite Start &gt; #product.boe64_name# &gt; Central Management Console."/>
+    <string id="postinstall.message.manualdeploy.common" value="Spletne aplikacije in spletne storitve Java niso postavljene v spletnem aplikacijskem strežniku. Za postavitev spletnih aplikacij in spletnih storitev Java zaženite orodje WDeploy."/>
+    <string id="postinstall.message.manualdeploy.windows" value="Za zagon orodja wDeploy izberite Start &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy."/>
+    <string id="postinstall.message.manualdeploy.unix" value="Orodje WDeploy se nahaja na lokaciji [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="Za zaključek namestitve sistema izvedite ta Script s korenskimi dovoljenji: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Definirati morate URL privzetega pregledovalnika za OpenDocument. Ta računalnik ni registriran kot privzeti spletni aplikacijski strežnik za upravljanje zahtev za ogled dokumentov. Ta računalnik boste v Central Management Serverju morda morali registrirati kot privzeti spletni aplikacijski strežnik. Uporabite Central Management Console za urejanje strani lastnosti OpenDocument."/>
+    <string id="PostInstall.message.monitoring" value="Za dostop do orodja za nadzor za izvajanje diagnostičnih testov se prijavite v Central Management Console, kliknite Nadzor in nato odprite jeziček Analize."/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}Spletne storitve RESTful{/b} in {b}okvir Insight to Action{/b} sta novi funkciji, razpoložljivi v tej posodobitvi. Da omogočite te funkcije, spremenite osnovno namestitev in dodajte nove funkcije."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}Spletne storitve RESTful:{/b} SDK spletne storitve RESTful platforme Business Intelligence vam omogoča dostop do BI-platforme z uporabo HTTP-protokola. SDK lahko uporabite za prijavo na BI-platformo, navigacijo po odložišču BI-platforme, dostop do resursov in izvedbo osnovnega planiranja virov. Ta funkcija je potrebna za shranjevanje modelov Dashboards in dokumentov Live Office v odložišče po posodobitvi."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Okvir Insight to Action:{/b} Z okvirjem Insight to Action lahko prikličete operativne transakcije v SAP-jevih in ne-SAP-jevih aplikacijah, ki so definirane z uporabo vmesnika poročilo-poročilo v NetWeaverju. To funkcijo podpirata aplikaciji Crystal Reports in BusinessObjects Dashboards."/>
+    <string id="postInstall.message.new.features.announce.unix" value="Spletne storitve RESTful in okvir Insight to Action sta novi funkciji, razpoložljivi v tej posodobitvi. Da omogočite te funkcije, spremenite osnovno namestitev in dodajte nove funkcije."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="Spletne storitve RESTful: SDK spletne storitve RESTful platforme Business Intelligence vam omogoča dostop do BI-platforme z uporabo HTTP-protokola. SDK lahko uporabite za prijavo na BI-platformo, navigacijo po odložišču BI-platforme, dostop do resursov in izvedbo osnovnega planiranja virov. Ta funkcija je potrebna za shranjevanje modelov Dashboards in dokumentov Live Office v odložišče po posodobitvi."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Okvir Insight to Action: Z okvirjem Insight to Action lahko prikličete operativne transakcije v SAP-jevih in ne-SAP-jevih aplikacijah, ki so definirane z uporabo vmesnika poročilo-poročilo v NetWeaverju. To funkcijo podpirata aplikaciji Crystal Reports in BusinessObjects Dashboards."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Namestitveni program je kot povezavo do baze podatkov zaznal klienta MySQL 5.0, ki ni več podprt. Če želite, da vaš sistem ohrani podporo, morate nadgraditi na klienta MySQL 5.1."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobile Servers je nova funkcija, ki zagotavlja dostop do podatkov Business Intelligence z mobilnih naprav. Da omogočite to funkcijo, spremenite osnovno namestitev in izberite Mobile Servers."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Paketna verzija Tomcat je posodobljena na verzijo Tomcat 9. Vse uporabniške nastavitve, ki ste jih uporabili za Tomcat, so migrirane iz stare verzije v verzijo Tomcat 9. Vendar pa priporočamo, da preverite, ali so uporabniške nastavitve na voljo v verziji Tomcat 9."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="PO4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Paket vzdrževanja: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Paket vzdrževanja: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Paket vzdrževanja: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Paket vzdrževanja\n\n"/>
+    <string id="product.boe64_name" value="Platforma SAP BusinessObjects BI"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="Strežnik BI-platforme"/>
+    <string id="product.boec_bip_name" value="Platforma SAP BusinessObjects BI"/>
+    <string id="product.boec_client_name" value="Orodja klienta"/>
+    <string id="product.boec_client_name.wrc" value="Bogati odjemalec Web Intelligence"/>
+    <string id="product.boec_shortname" value="Klient BI-platforme"/>
+    <string id="product.boeruntime_name" value="Namestitvena datoteka za .NET SDK platforme SAP BusinessObjects BI"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Podatkovne storitve"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Raziskovalec"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="Dodatek SAP BusinessObjects BI za SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="Dodatek BI za SAP Lumira"/>
+    <string id="product.mini_bip_name" value="Storitve informacijske platforme"/>
+    <string id="product.mini_bip_shortname" value="Storitve informacijske platforme"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="SAP integracija za Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Opcija integracije za programsko opremo Microsoft SharePoint"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="Izdaja OEM"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="Platforma SAP BusinessObjects BI 4"/>
+    <string id="shortcut.folder.name.minibip" value="Storitve informacijske platforme 4"/>
+    <string id="shortcut.folder.name.boclient" value="Orodja klienta za platformo SAP BusinessObjects BI 4"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="Strežnik SAP Crystal Reports Server 2020, izdaja OEM"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.folder.name.crystalserver" value="Strežnik SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="Orodja klienta za strežnik SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Zagon, zaustavitev in konfiguriranje storitev platforme"/>
+    <string id="shortcut.link.name.boserver.CMC" value="Central Management Console platforme SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="WACS Central Management Console platforme SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="Central Management Console strežnika SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="WACS Central Management Console strežnika SAP Crystal Server"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Central Management Console storitev informacijske platforme"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="WACS Central Management Console storitev informacijske platforme"/>
+    <string id="shortcut.link.description.CMC" value="Dostop do konzole za administracijo"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="Launchpad platforme SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="WACS BI Launchpad platforme SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="Java BI Launchpad strežnika SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="WACS BI Launchpad strežnika SAP Crystal Server"/>
+    <string id="shortcut.link.description.BILaunchpad" value="Zaženi BI Launchpad"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Orodje za upravljanje nadgradnje"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Nadgradnja prejšnjih postavitev na platformo SAP BusinessObjects BI 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Čarovnik upravljanja napredovanja"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="Izvozite, uvozite in kopirajte CMS-vsebino postavitev 4.x z uporabniškim vmesnikom po korakih."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Nadgradnja prejšnjih postavitev v strežnik SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Nadgradnja prejšnjih postavitev v storitve informacijske platforme 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32-bitni administrator izvorov podatkov ODBC"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="Administrator izvorov podatkov ODBC"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Doda, odstrani in konfigurira izvore podatkov in gonilnike Open Database Connectivity (ODBC)"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Spletna dokumentacija"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Dostop do spletne dokumentacije"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat administracija"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Dostop do administracije Tomcat"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat konfiguracija"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Dostop do konfiguracije Tomcat"/>
+    <string id="shortcut.link.name.WDeploy" value="WDeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="Zažene orodje WDeploy"/>
+    <string id="shortcut.link.name.BIWidgets" value="Okenski programčki"/>
+    <string id="shortcut.link.description.BIWidgets" value="Zažene Widgets"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Upravitelj poslovnih pogledov"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Zažene upravitelja poslovnih pogledov"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Orodje za administracijo združevanja podatkov"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Zažene orodje za administracijo združevanja podatkov"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Informacijsko orodje za oblikovanje"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Zažene informacijsko orodje za oblikovanje"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Query As a Web Service Designer"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Zažene Query As a Web Service Designer"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Orodje za pretvorbo poročila"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Zažene orodje za pretvorbo poročila"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Orodje za upravljanje prevodov"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Zažene orodje za upravljanje prevodov"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Orodje za oblikovanje Universov"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Zažene orodje za oblikovanje Universov"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Bogati odjemalec Web Intelligence"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Zažene bogatega odjemalca Web Intelligence"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Bogati odjemalec Web Intelligence"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Zažene bogatega odjemalca Web Intelligence"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Kreira in spremeni poročila z oblikovanimi podatki (.RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Čarovnik za nalaganje poročil"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Zažene čarovnika za nalaganje poročil"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.link.description.CRViewer" value="Prikaz poročil z oblikovanimi podatki (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Launchpad strežnika Report Application Server"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Zaženi Launchpad strežnika Report Application Server"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Zaženi Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Zaženi nadzorne plošče"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Zaženi Dashboards Add-on Packager"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Zažene SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="Add-on Packager za SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Zažene Add-on Packager za SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="WACS konzole za administracijo BI SAP BusinessObjects"/>
+    <string id="shortcut.link.name.boserver.ADC" value="Konzola za administracijo BI SAP BusinessObjects"/>
+    <string id="shortcut.link.description.ADC" value="Dostop do konzole za administracijo"/>
+    <string id="OverhangingPatchMessage" value="Če nadaljujete s to namestitvijo, bodo popravki morda odstranjeni iz sistema. Prepričajte se, da nameščate kompatibilen paket."/>
+    <string id="Installing41PatchOver40" value="Pred nadaljevanjem ročno naredite varnostno kopijo trenutnega sistema verzije 4.0. Odstranitev posodobitve na verzijo 4.1 po izvedbi ni več mogoča. Če želite obnoviti stanje sistema, morate uporabiti varnostno kopijo."/>
+    <string id="Block41PatchUninstall" value="Avtomatična odstranitev posodobitve na verzijo 4.1 ni mogoča. Za vnovično aktiviranje sistema verzije 4.0 odstranite obstoječe binarne datoteke in uporabite varnostno kopijo verzije 4.0, ki ste jo ustvarili za vnovično aktiviranje sistema verzije 4.0."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# zahteva nov licenčni ključ. Prenesite novi licenčni ključ s SAP Service Marketplacea, izbrišite stari licenčni ključ in dodajte novi licenčni ključ v Central Management Console. Za več informacij glejte dokumentacijo."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="Nekaj produktov in funkcij ni več priporočenih v #product.fullproductnamenospace#. Po posodobitvi izvedite predpisane akcije, kot je opisano v SAP-navodilu 2801797."/>
+    <string id="DeployLaterDescription" value="Modus postavitve spletne aplikacije"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Nadrejena verzija popravka ima nameščen hitri popravek"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Hitri popravek je za #productname# #product_version# #product_sp_version# Patch #patch_id#. Preden nadaljujete s to namestitvijo, morate namestiti ta popravek. Za več detajlov glejte SAP-navodilo 2257993."/>
+  </context>
+</uitext>

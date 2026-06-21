@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="SelectFeaturesTitle" value="Wybór funkcji"/>
+<string id="SelectFeaturesSubtitle" value="Wybierz funkcje, które chcesz zainstalować."/>
+<string id="SelectFeaturesFooter" value="Naciśnij klawisz []Tab], []Strzałka w górę] lub []Strzałka w dół], aby wyróżnić, klawisz []Spacja], aby rozwinąć, klawisz []X], aby przełączyć stan, klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby kontynuować."/>
+<string id="DiskCost" value="Koszt dysku"/>
+<string id="Drive Select" value="Wybierasz"/>
+<string id="Disk Costing" value="Określanie ilości miejsca na dysku"/>
+<string id="Volume" value="Wolumin"/>
+<string id="Disk Size" value="Rozmiar dysku"/>
+<string id="Available" value="Dostępne"/>
+<string id="Required" value="Wymagane"/>
+<string id="Difference" value="Różnica"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Ponów próbę"/>
+<string id="Cancel" value="Anuluj"/>
+<string id="Invalid_DiskSpace" value="Za mało miejsca, aby można było zainstalować ten produkt. Zwolnij miejsce na dysku lub wybierz inną lokalizację instalacji. Wymagana ilość miejsca: [RequiredSpace] B."/>
+</context>
+</uitext>

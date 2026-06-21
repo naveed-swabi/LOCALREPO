@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="LicenseAgreement" value="Új licenckulcsot kell megadni"/>
+<string id="YouMustAgree" value="Új licenckulcsot kell megadni a(z) #product.fullproductname# szoftverhez."/>
+<string id="SelectLicenseChangeSubtitle" value="Új licenckulcsot kell megadni a(z) #product.fullproductname# szoftverhez."/>
+<string id="IAccept" value="Elolvastam a dokumentációt, és megismertem az új licenckulcs igénylésének folyamatát, valamint beleegyezem a korábbi licenckulcs törlésébe és az új licenckulcs frissítő telepítés utáni hozzáadásába."/>
+<string id="subtitle1" value="A(z) #product.fullproductname# új licenckulcsot igényel."/>
+<string id="subtitle2" value="Kérelmezzen új licenckulcsot. A licenckulcs kérelmezésével kapcsolatos további információkért látogasson el a következő weboldalra:"/>
+<string id="subtitle3" value="A(z) #product.fullproductname# telepítése után jelentkezzen be a Központi kezelőkonzolba (CMC), törölje a korábbi licenckulcsot, és adja hozzá az újat. Az új licenckulcs hozzáadásáig minden szolgáltatás le lesz tiltva."/>
+<string id="subtitle4" value="Itt kérelmezhet új licenckulcsot:"/>
+<string id="AcceptOrNotAccept" value="Ha beleegyezik a korábbi licenckulcs törlésébe és az új licenckulcs frissítő telepítés utáni hozzáadásába, nyomja meg az &lt;ENTER&gt; billentyűt."/>
+<string id="Description_Patch_License" value="A(z) #product.fullproductname# új licenckulcsot igényel.\n\nKérelmezzen új licenckulcsot. A licenckulcs kérelmezésével kapcsolatos további információkért látogasson el a következő weboldalra: http://scn.sap.com/docs/DOC-70095. \n\nA(z) #product.fullproductname# telepítése után jelentkezzen be a Központi kezelőkonzolba (CMC), törölje a korábbi licenckulcsot, és adja hozzá az újat. Az új licenckulcs hozzáadásáig minden szolgáltatás le lesz tiltva."/>
+</context>
+</uitext>

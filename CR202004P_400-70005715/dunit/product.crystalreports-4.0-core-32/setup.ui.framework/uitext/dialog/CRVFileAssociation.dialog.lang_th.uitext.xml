@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="DlgTitle" value="การเชื่อมโยงไฟล์"/>
+<string id="DlgSummary" value="การตั้งค่าแอปพลิเคชันโปรแกรมดูรายงาน Crystal Reports เป็นดีฟอลต์"/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer ไม่ใช่โปรแกรมดีฟอลต์สำหรับดูรายงาน Crystal Reports คุณต้องการทำให้โปรแกรมนี้เป็นโปรแกรมดีฟอลต์หรือไม่"/>
+<string id="Yes" value="ใช่"/>
+<string id="No" value="ไม่ใช่"/>
+</context>
+</uitext>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="SelectLCMTitle" value="Valitse versionhallinta"/>
+<string id="SelectLCMSubtitle" value="Valitse, asennetaanko ohjausjärjestelmän oletusversio vai käytetäänkö olemassa olevaa järjestelmää versionhallintaan."/>
+<string id="SelectLCMFooter" value="Valitse kohde []Sarkain]-, []Ylänuoli]- tai []Alanuoli]-näppäimillä, palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+<string id="NewLCMInstall" value="Määritä ja asenna Subversion"/>
+<string id="ExistingLCMInstall" value="Älä määritä versionhallintajärjestelmää nyt"/>
+<string id="Invalid_SelectLCM" value="Virheellinen NewOrExistingLCM-tyyppi ([NewOrExistingLCM]): valitse joko uusi tai olemassa oleva. INS00284"/>
+</context>
+</uitext>

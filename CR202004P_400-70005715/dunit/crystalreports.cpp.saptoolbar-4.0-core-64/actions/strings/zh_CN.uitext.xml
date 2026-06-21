@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="progress.BWRegServer" value="正在配置 SAP 集成"/>
+<string id="progress.BWUnregServer" value="正在配置 SAP 集成"/>
+</context>
+</uitext>

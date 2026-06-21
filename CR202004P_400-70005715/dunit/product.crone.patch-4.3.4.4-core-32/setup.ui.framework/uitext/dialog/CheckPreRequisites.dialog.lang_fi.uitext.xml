@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Tarkista edellytykset"/>
+<string id="CheckPreRequisitesSubTitle" value="Puuttuvien kriittisten tai valinnaisten edellytysten yhteenveto."/>
+<string id="PreRequsitiesDetails" value="Epäonnistuneet kriittiset riippuvuudet on korjattava, ennen kuin asennusta voidaan jatkaa. Epäonnistuneet valinnaiset riippuvuudet voivat puolestaan aiheuttaa sen, että osa komponenteista ei asennu."/>
+<string id="AcceptKBAInfo" value="Olen lukenut SAP Knowledge Base Article -asiakirjan 1794601 ja perehtynyt tarjottuihin tietoihin varmistaakseni että päivitys on suositeltu ja tuettu."/>
+<string id="AcceptKBAInfoUnix" value="Valitse []Enter] kun olet lukenut SAP Knowledge Base Article -asiakirjan 1794601 ja perehtynyt tarjottuihin tietoihin varmistaaksesi että päivitys on suositeltu ja tuettu."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Edellytyst"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Tyyppi"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Tila"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Kriittinen"/>
+<string id="Column_Type_Optional" value="Valinnainen"/>
+<string id="Column_Status_Succeeded" value="Onnistui"/>
+<string id="Column_Status_Missing" value="Epäonnistui"/>
+<string id="Hints_Why_Fails" value="Jos edellystys epäonnistui, saat näkyviin ratkaisuohjeet napsauttamalla epäonnistunutta kohdetta."/>
+<string id="Failure_Reason" value="Tiedot:"/>
+<string id="PreRequisitesUIText_Failure" value="Edellytysten tarkistus epäonnistui"/>
+<string id="Retry_Button" value="Yritä uudelleen"/>
+<string id="Back_Button" value="Edellinen"/>
+</context>
+</uitext>

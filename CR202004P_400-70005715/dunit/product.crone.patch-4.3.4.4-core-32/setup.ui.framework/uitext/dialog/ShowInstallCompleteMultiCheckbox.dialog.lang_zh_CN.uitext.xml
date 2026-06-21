@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="SuccessInstallTitle" value="已成功安装 #product.fullproductnamenospace#。"/>
+<string id="SuccessInstallDescription" value="单击“完成”退出此安装。"/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# 在安装过程中出错。"/>
+<string id="FailureInstallDescription" value="单击“完成”退出此安装。"/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# 已成功卸载。"/>
+<string id="SuccessUnInstallDescription" value="单击“完成”退出此卸载。"/>
+<string id="InstallationWithWarnings" value="已成功安装 #product.fullproductnamenospace#，但出现警告。"/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# 在卸载过程中出错。"/>
+<string id="FailureUnInstallDescription" value="单击“完成”退出此卸载。"/>
+<string id="FinishButton" value="完成"/>
+<string id="ViewLogButton" value="查看日志"/>
+<string id="LaunchWDeploy" value="安装后自动启动 WDeploy 工具。"/>
+<string id="LaunchSSW" value="启动系统设置向导"/>
+<string id="HyperlinkText" value="请单击此处获得详细信息"/>
+</context>
+</uitext>

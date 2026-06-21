@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="SetLCMConfigTitle" value="Konfigurer Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Angi port og brukernavn for versjonsstyringssystemet for Subversion."/>
+<string id="repoInfoGroup" value="Registerinformasjon for Subversion"/>
+<string id="repoName" value="Registernavn:"/>
+<string id="repoPort" value="Registerport:"/>
+<string id="repoPortInline" value="Subversion-port:"/>
+<string id="repoUserInfoGroup" value="Informasjon om registerbruker for Subversion"/>
+<string id="repoUserName" value="Registerbrukerkonto:"/>
+<string id="repoUserPass" value="Passord for registerkonto:"/>
+<string id="repoUserPassInline" value="Passord for registerbrukerkonto:"/>
+<string id="repoUserPass2" value="Bekreft passord:"/>
+<string id="Mismatch_LCMPassword" value="Passordene er ikke like. Kontroller dem og prøv på nytt. INS00267"/>
+<string id="Invalid_LCMPassword" value="Passordet er for enkelt. Passord må bestå av minst seks tegn, og de må alltid inneholde minst to av de følgende tegnklassene: store bokstaver og små bokstaver. INS00127"/>
+</context>
+</uitext>

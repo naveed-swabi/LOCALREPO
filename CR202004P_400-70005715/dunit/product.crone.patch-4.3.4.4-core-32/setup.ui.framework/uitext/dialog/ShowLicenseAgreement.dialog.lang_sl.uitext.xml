@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="NotAcceptedEULA" value="Sprejeti morate licenčno pogodbo. Izhod."/>
+<string id="LicenseAgreement" value="Licenčna pogodba"/>
+<string id="YouMustAgree" value="Če želite nadaljevati, morate sprejeti pogoje te licenčne pogodbe."/>
+<string id="IAccept" value="Sprejemam pogoje licenčne pogodbe"/>
+<string id="IDoNotAccept" value="Ne sprejemam pogojev licenčne pogodbe"/>
+<string id="Invalid_IsAcceptEULA" value="Neveljaven IsAcceptEULA ([IsAcceptEULA]): Biti mora samo 1"/>
+<string id="AcceptOrNotAccept" value="Pritisnite &lt;ENTER&gt;, da sprejmete, ali &lt;CTRL-X&gt;, da zavrnete."/>
+</context>
+</uitext>

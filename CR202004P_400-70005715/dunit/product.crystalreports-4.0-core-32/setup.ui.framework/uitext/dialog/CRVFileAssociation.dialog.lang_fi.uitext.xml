@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="DlgTitle" value="Tiedostojen kytkentä"/>
+<string id="DlgSummary" value="Määritetään oletusarvoista Crystal Report -raporttien katseluohjelmaa."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports -katseluohjelma ei ole tällä hetkellä Crystal-raporttien oletuskatseluohjelma. Haluatko asettaa sen oletuskatseluohjelmaksi?"/>
+<string id="Yes" value="Kyllä"/>
+<string id="No" value="Ei"/>
+</context>
+</uitext>

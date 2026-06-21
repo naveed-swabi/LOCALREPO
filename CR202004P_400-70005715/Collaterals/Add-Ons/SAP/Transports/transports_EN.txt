@@ -1,0 +1,28 @@
+There are two sets of transport files, which can be used with BusinessObjects Enterprise Integration Kit for SAP. One set is ANSI and the other set is Unicode enabled. 
+
+The set of transports you must use depends on the BASIS system your SAP system is running on. Additionally, each transport consists of a data file and a cofile, which are listed in brackets behind the transport names.
+
+If your SAP system is running on a 6.20 BASIS system or later, you must use the files listed below:
+
+(These files are Unicode enabled. Please import "Open SQL Connectivity transport (K900085.SDD and R900085.SDD)" at first)
+
+
+* Open SQL Connectivity transport (K900085.SDD and R900085.SDD)
+* Info Set Connectivity transport (K900043.SDD and R900043.SDD)
+* Row-level Security Definition transport (K900051.SDD and R900051.SDD)
+* Cluster Definition transport (K900039.SDD and R900039.SDD)
+* Authentication Helpers transport (K900041.SDD and R900041.SDD)
+
+
+The following files must be used on an SAP BW system:
+
+(These files are Unicode enabled.)
+
+* Content Administration transport (K900098.SDD and R900098.SDD)
+* Personalization transport (K900045.SDD and R900045.SDD)
+* ODS Connectivity transport (K900042.SDD and R900042.SDD)
+* MDX Query Connectivity transport (K900014.SDD and R900014.SDD)
+
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Vybrat jazykové balíčky"/>
+<string id="SelectLanguagePackSubtitle" value="Vyberte další jazykové balíčky, které uživatelé budou v produktu používat."/>
+<string id="SelectLanguagePackFooter" value="Stisknutím kláves []Tab], []Up] nebo []Down] zvýrazníte položky, stisknutím []Space] nebo klávesy []X] přepnete stav, stisknutím kláves []Ctrl-B] přejděte zpět, stisknutím kláves []Ctrl-X] program ukončíte nebo stisknutím klávesy []Enter] budete pokračovat."/>
+<string id="alllang" value="Všechny jazyky"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Vlastnost SelectedLanguagePacks '[SelectedLanguagePacks]' musí zahrnovat místní nastavení systému."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Vlastnost SelectedLanguagePacks '[SelectedLanguagePacks]' musí zahrnovat 'cs'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Vlastnost SelectedLanguagePacks '[SelectedLanguagePacks]' musí být dílčí sadou dostupných jazykových balíčků."/>
+</context>
+</uitext>

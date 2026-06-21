@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="ChooseDestination" value="Geben Sie den Zielordner an"/>
+<string id="SpecifyDestination" value="Der Zielordner ist der Ort, an dem das Produkt installiert wird. Klicken Sie auf &quot;Durchsuchen&quot;, um einen anderen Speicherort auszuwählen."/>
+<string id="DestinationFolder" value="Zielordner"/>
+<string id="Browse" value="Durchsuchen"/>
+<string id="BrowseInstallDirectory" value="Wählen Sie ein Installationsverzeichnis aus"/>
+<string id="PWClientFolderTitle" value="Client-Zielordner"/>
+<string id="PWServerFolderTitle" value="Server-Zielordner"/>
+<string id="Invalid_InstallDirWindows" value="Ungültiges Installationsverzeichnis. Verwenden Sie einen gültigen absoluten Pfad, der nur alphanumerische oder eines der folgenden Zeichen enthält: _ - \ . ( ). Das Verzeichnis muss sich auf einem lokalen Laufwerk befinden, und der gesamte Pfad darf nicht mehr als 150 Zeichen umfassen. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Ungültiges Installationsverzeichnis. Verwenden Sie einen gültigen absoluten Pfad, für den Sie auch über Berechtigungen zum Lesen, Schreiben und Ausführen verfügen. INS00029"/>
+</context>
+</uitext>

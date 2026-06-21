@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Ilmoitus käytöstä poistetuista tuotteista ja toiminnoista"/>
+<string id="YouMustAgree" value="Jotkin seuraavista tuotteista ja toiminnoista ovat vanhentuneet: #product.fullproductnamenospace#"/>
+<string id="IAccept" value="Olen lukenut dokumentaation ja ymmärrän BI-alustan käytöstä poistettujen tuotteiden ja toimintojen vaikutuksen ja suostun suorittamaan määrätyt toimet päivityksen jälkeen."/>
+<string id="subtitle1" value="Sovellukset, kuten SAP BusinessObjects Explorer ja SAP BusinessObjects Dashboards, poistetaan käytöstä BI 4.3:ssa. Voit tarkistaa täydellisen luettelon käytöstä poistetuista sovelluksista ja saada lisätietoja tästä poistotoiminnasta osoitteessa"/>
+<string id="subtitle2" value="Sinun tulee tarkistaa vanhentumisen vaikutus ja suorittaa pyydetyt toimet blogin ohjeiden mukaisesti."/>
+<string id="AcceptOrNotAccept" value="Paina &lt;ENTER&gt; vahvistaaksesi että olet lukenut dokumentaation ja ymmärrät vanhentuneiden tuotteiden ja toimintojen vaikutuksen BI Platform -alustaan, ja että sitoudut suorittamaan pyydetyt toimet päivityksen jälkeen."/>
+<string id="DeprecatedProductDescription" value="Sovellukset, kuten SAP BusinessObjects Explorer ja SAP BusinessObjects Dashboards, poistetaan käytöstä BI 4.3:ssa. Voit tarkistaa täydellisen luettelon käytöstä poistetuista sovelluksista ja saada lisätietoja tästä poistotoiminnasta osoitteessa https://launchpad.support.sap.com/#/notes/2801797. \n\nSinun täytyy tarkistaa vaikutus ja suorittaa sitten blogissa mainitut toimenpiteet."/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020 -palveluja ei enää tueta Linuxissa ja Unixissa, joten ne poistetaan tämän päivityksen aikana. SAP Crystal Reports 2020 -asiakirjat pysyvät kuitenkin BI-alustassa ja niitä tuetaan edelleen. Lisätietoja tarvittavien palvelujen jakamisesta Windows-palvelimelle on SAP Knowledge Base -artikkelissa osoitteessa https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

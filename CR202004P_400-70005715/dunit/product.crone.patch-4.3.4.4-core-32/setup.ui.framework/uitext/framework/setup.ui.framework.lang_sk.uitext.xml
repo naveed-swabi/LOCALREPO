@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="sk"/>
+  <context>
+    <string id="Yes" value="Áno"/>
+    <string id="No" value="Nie"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="Zrušiť"/>
+    <string id="Abort" value="Prerušiť"/>
+    <string id="Continue" value="Pokračovať"/>
+    <string id="Ignore" value="Ignorovať"/>
+    <string id="Next" value="Ďalej"/>
+    <string id="Previous" value="Naspäť"/>
+    <string id="Info" value="Informácie"/>
+    <string id="Warning" value="Upozornenie"/>
+    <string id="Error" value="Chyba"/>
+    <string id="FatalError" value="Závažná chyba"/>
+    <string id="ErrorDialogTitle" value="Chyba"/>
+    <string id="ErrorDialogSubtitle" value="Vyskytla sa chyba."/>
+    <string id="ErrorDialogFooter" value="Ak chcete pokračovať, stlačte kláves Enter."/>
+    <string id="WarnDialogTitle" value="Upozornenie"/>
+    <string id="WarnDialogSubtitle" value="Vyskytlo sa upozornenie."/>
+    <string id="WarnDialogFooter" value="Ak sa chcete vrátiť späť, stlačte klávesy Ctrl+B. Ak chcete pokračovať, stlačte kláves Enter."/>
+    <string id="InfoDialogTitle" value="Informácie"/>
+    <string id="InfoDialogSubtitle" value="K dispozícii sú nasledujúce informácie:"/>
+    <string id="InfoDialogFooter" value="Ak chcete pokračovať, stlačte kláves Enter."/>
+    <string id="DefaultUnixFooter" value="Ak chcete prejsť do ďalšieho poľa, stlačte kláves Tab. Ak sa chcete vrátiť do predchádzajúceho poľa, stlačte klávesy Ctrl+B. Ak chcete skončiť, stlačte klávesy Ctrl+X. Ak chcete pokračovať, stlačte kláves Enter."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Ak chcete prejsť do ďalšieho poľa, stlačte kláves Tab. Ak chcete skončiť, stlačte klávesy Ctrl+X. Ak chcete pokračovať, stlačte kláves Enter."/>
+    <string id="ProgressDialogUnixFooter" value="Ak chcete skončiť, stlačte klávesy Ctrl+X."/>
+    <string id="CancelCaption" value="Zrušiť"/>
+    <string id="CancelExitSetup" value="Ukončiť inštaláciu"/>
+    <string id="CancelMsg" value="Ak teraz skončíte, program sa nenainštaluje. Inštalačný program môžete spustiť a inštaláciu tak môžete dokončiť aj neskôr.\nAk chcete pokračovať v inštalácii, kliknite na tlačidlo Pokračovať. Ak chcete inštaláciu ukončiť, kliknite na tlačidlo Ukončiť inštaláciu."/>
+    <string id="CancelResume" value="Pokračovať"/>
+    <string id="DialogCaption" value="Inštalácia produktu #product.fullproductnamenospace#"/>
+    <string id="outofspace" value="Nedostatok miesta na disku"/>
+    <string id="CanceledModifier" value="%1 (ruší sa)"/>
+    <string id="ValidationCaption" value="Výsledok overenia"/>
+    <string id="ValidationError" value="Chyba:"/>
+    <string id="ValidationToDo" value="Ak chcete opraviť chybu overenia, kliknite na tlačidlo OK. Ak sa vyskytli iba upozornenia a chcete pokračovať, kliknite na položku Áno. Ak chcete opraviť tieto upozornenia, kliknite na položku Nie."/>
+    <string id="ValidationWarning" value="Upozornenie:"/>
+    <string id="Validation.MissingFields" value="V inštalácii môžete pokračovať až po vyplnení povinných polí."/>
+    <string id="ValidationFailed.Blocking" value="Spracovanie sa zastavilo, pretože nebola overená nasledujúca akcia: "/>
+    <string id="ValidationFailed.Optional" value="Voliteľné overenie nebolo úspešné pre nasledujúcu akciu: "/>
+    <string id="action.InstallDUBundle" value="Inštaluje sa jednotka nasadenia:"/>
+    <string id="action.UninstallDUBundle" value="Prebieha odinštalovanie jednotky nasadenia:"/>
+    <string id="action.RegisterBinary" value="Registrovať binárnu hodnotu"/>
+    <string id="action.UnregisterBinary" value="Zrušiť registráciu binárnej hodnoty"/>
+    <string id="action.ConfigureTomcat" value="Konfigurácia servera Tomcat"/>
+    <string id="action.BOBJTextReplace" value="Vykonať nahradenie textu"/>
+    <string id="action.RunCommand" value="Spustiť spustiteľný súbor príkazového riadka"/>
+    <string id="action.RunCommandConditional" value="Spustiť spustiteľný súbor príkazového riadka za určitých podmienok"/>
+    <string id="action.EnsureFolderExists" value="Skontrolovať existenciu priečinka"/>
+    <string id="action.CreateShortcut" value="Vytvoriť odkaz v ponuke Štart"/>
+    <string id="action.AddARPEntry" value="Pridať položku do zoznamu Pridanie alebo odstránenie programov"/>
+    <string id="action.RemoveARPEntry" value="Odstrániť položku zo zoznamu Pridanie alebo odstránenie programov"/>
+    <string id="action.BOBJRegasm" value="Spustiť registráciu zostavy"/>
+    <string id="action.BOBJUnRegasm" value="Odstrániť registráciu zostavy"/>
+    <string id="sequence.InstallPreReqs" value="Inštalovať požadované položky"/>
+    <string id="sequence.SetInitialProperties" value="Nastaviť počiatočné vlastnosti"/>
+    <string id="sequence.SetMyProperties" value="Nastaviť vlastnosti produktov"/>
+    <string id="sequence.InstallDUBase" value="Inštalovať akcie"/>
+    <string id="sequence.InstallDUBundles" value="Inštalovať jednotky nasadenia"/>
+    <string id="sequence.CreateSymLinks" value="Vytvoriť symbolické odkazy"/>
+    <string id="sequence.ConfigureDUBase" value="Konfigurovať jednotky nasadenia"/>
+    <string id="sequence.PopulateRegistry" value="Vyplniť databázu Registry"/>
+    <string id="sequence.InstallServices" value="Inštalovať služby"/>
+    <string id="sequence.ConfigureServices" value="Konfigurovať služby"/>
+    <string id="sequence.StartServices" value="Spustiť služby"/>
+    <string id="sequence.StopServices" value="Zastaviť služby"/>
+    <string id="sequence.UninstallServices" value="Odinštalovať služby"/>
+    <string id="sequence.UnPopulateRegistry" value="Zrušiť vyplnenie databázy Registry"/>
+    <string id="sequence.UninstallDUBase" value="Odinštalovať akcie"/>
+    <string id="sequence.UnconfigureDUBase" value="Zrušiť konfiguráciu jednotiek nasadenia"/>
+    <string id="sequence.RemoveSymLinks" value="Odstrániť symbolické odkazy"/>
+    <string id="sequence.UninstallDUBundles" value="Odinštalovať jednotky nasadenia:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Odstrániť prázdne priečinky"/>
+    <string id="Dialog.title" value="Správa inštalácie"/>
+    <string id="PleaseWait" value="Čakať..."/>
+    <string id="LongCalculation" value="Prebieha dlhý výpočet, počkajte..."/>
+    <string id="DiskCostInProgress" value="Počíta sa miesto na disku."/>
+    <string id="Confirm.title" value="Potvrdiť"/>
+    <string id="Permissions.title" value="Nastaviť povolenia"/>
+    <string id="NoPermissionsOperation" value="Nemáte prístupové práva na vykonávanie operácií v tejto inštalácii."/>
+    <string id="NoPermissionsFile" value="Nemáte prístupové práva na prístup k nasledujúcemu súboru: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Inštalátor našiel nainštalovanú staršiu verziu produktu #productname#. Tento balík na úplnú inštaláciu sa nemôže použiť, ak je nainštalovaná staršia verzia. Ak chcete aktualizovať aktuálnu inštaláciu, použite balík údržby pre produkt #product.fullproductname#."/>
+    <string id="OlderCryptoDllFound" value="Inštalátor našiel premennú prostredia R_SHLIB_LD_LIBRARY_PATH nastavenú na šifrované binárne súbory s nižšou verziou než je verzia binárnych súborov potrebná pre túto inštaláciu. Inštaláciu dokončite podľa pokynov v prepojenom dokumente."/>
+    <string id="CmdLine.title" value="Príkazový riadok inštalácie"/>
+    <string id="InvalidCmdLine" value="Neplatný príkazový riadok"/>
+    <string id="ExpectedCmdLine" value="Očakávaný príkazový riadok: %1"/>
+    <string id="ActionFailed" value="Vlastná akcia bola neúspešná"/>
+    <string id="ActionFailedArg" value="Vlastná akcia bola neúspešná: %1"/>
+    <string id="ActionFailedWithCode" value="Vlastná akcia bola neúspešná a zobrazil sa kód chyby:"/>
+    <string id="RegistrationFailed" value="Registrácia binárnych údajov nebola možná: %1"/>
+    <string id="NoFindFile" value="Nepodarilo sa nájsť súbor: %1"/>
+    <string id="NoCMS" value="Nie je možné sa pripojiť k systému CMS"/>
+    <string id="NoCMSArg" value="Nie je možné sa pripojiť k systému CMS v %1"/>
+    <string id="DFOFailed" value="Odovzdanie DFO bolo neúspešné"/>
+    <string id="wdeployFailed" value="Nástroju wDeploy sa nepodarilo nasadiť aplikáciu."/>
+    <string id="ScriptFailed" value="Skript nebolo možné spustiť: %1"/>
+    <string id="CmdFailed" value="Nemožno spustiť príkazový riadok: %1"/>
+    <string id="ServerStartFailed" value="Server nebolo možné spustiť: %1"/>
+    <string id="ServerStopFailed" value="Server nebolo možné zastaviť: %1"/>
+    <string id="ExitCode" value="Kód ukončenia: %1"/>
+    <string id="DBInitFail" value="Nemožno inicializovať databázu"/>
+    <string id="ShortcutFail" value="Nepodarilo sa vytvoriť odkaz: %1"/>
+    <string id="ARPFail" value="Nie je možné vytvoriť záznam na pridanie alebo odstránenie programov pre produkt %1"/>
+    <string id="CreateFolderFail" value="Nepodarilo sa vytvoriť priečinok: %1"/>
+    <string id="SamplesFail" value="Nie je možné pridať vzorky"/>
+    <string id="LicenseKeyFail" value="Nie je možné pridať licenčný kľúč"/>
+    <string id="Tomcatfail" value="Nie je možné konfigurovať server Tomcat"/>
+    <string id="PropertyFail" value="Nepodarilo sa získať hodnotu vlastnosti: %1"/>
+    <string id="dev" value="Angličtina vývojára"/>
+    <string id="aa" value="Afarčina"/>
+    <string id="ab" value="Abcházština"/>
+    <string id="af" value="Afrikánčina"/>
+    <string id="am" value="Amharčina"/>
+    <string id="ar" value="Arabčina"/>
+    <string id="as" value="Asámčina"/>
+    <string id="ay" value="Aymarčina"/>
+    <string id="az" value="Azerbajčina"/>
+    <string id="ba" value="Baškirčina"/>
+    <string id="be" value="Bieloruština"/>
+    <string id="bg" value="Bulharčina"/>
+    <string id="bh" value="Biharčina"/>
+    <string id="bi" value="Bislamčina"/>
+    <string id="bn" value="Bengálčina"/>
+    <string id="bo" value="Tibetčina"/>
+    <string id="br" value="Bretónčina"/>
+    <string id="ca" value="Katalánčina"/>
+    <string id="co" value="Korzičtina"/>
+    <string id="cs" value="Čeština"/>
+    <string id="cy" value="Waleština"/>
+    <string id="da" value="Dánčina"/>
+    <string id="de" value="Nemčina"/>
+    <string id="dz" value="Butánčina"/>
+    <string id="el" value="Gréčtina"/>
+    <string id="en" value="Angličtina"/>
+    <string id="eo" value="Esperanto"/>
+    <string id="es" value="Španielčina"/>
+    <string id="et" value="Estónčina"/>
+    <string id="eu" value="Baskičtina"/>
+    <string id="fa" value="Perzština"/>
+    <string id="fi" value="Fínčina"/>
+    <string id="fj" value="Fidžijčina"/>
+    <string id="fo" value="Faerčina"/>
+    <string id="fr" value="Francúzština"/>
+    <string id="fy" value="Frizijčina"/>
+    <string id="ga" value="Írčina"/>
+    <string id="gd" value="Škótska gaelčina"/>
+    <string id="gl" value="Galícijčina"/>
+    <string id="gn" value="Guarančina"/>
+    <string id="gu" value="Gudžarátčina"/>
+    <string id="ha" value="Hauština"/>
+    <string id="he" value="Hebrejčina"/>
+    <string id="hi" value="Hindčina"/>
+    <string id="hr" value="Chorvátčina"/>
+    <string id="hu" value="Maďarčina"/>
+    <string id="hy" value="Arménčina"/>
+    <string id="ia" value="Interlingua"/>
+    <string id="id" value="Indonézština"/>
+    <string id="ie" value="Interlingue"/>
+    <string id="ik" value="Inupiačtina"/>
+    <string id="is" value="Islandčina"/>
+    <string id="it" value="Taliančina"/>
+    <string id="iu" value="Inuktitutčina"/>
+    <string id="ja" value="Japončina"/>
+    <string id="jw" value="Jávčina"/>
+    <string id="ka" value="Gruzínčina"/>
+    <string id="kk" value="Kazaština"/>
+    <string id="kl" value="Grónčina"/>
+    <string id="km" value="Kambodžština"/>
+    <string id="kn" value="Kannadčina"/>
+    <string id="ko" value="Kórejčina"/>
+    <string id="ks" value="Kašmírčina"/>
+    <string id="ku" value="Kurdčina"/>
+    <string id="ky" value="Kirgizčina"/>
+    <string id="la" value="Latinčina"/>
+    <string id="ln" value="Lingálčina"/>
+    <string id="lo" value="Laoština"/>
+    <string id="lt" value="Litovčina"/>
+    <string id="lv" value="Lotyština"/>
+    <string id="mg" value="Malagaština"/>
+    <string id="mi" value="Maorijčina"/>
+    <string id="mk" value="Macedónčina"/>
+    <string id="ml" value="Malajálamčina"/>
+    <string id="mn" value="Mongolčina"/>
+    <string id="mo" value="Moldavčina"/>
+    <string id="mr" value="Maráthčina"/>
+    <string id="ms" value="Malayčina"/>
+    <string id="mt" value="Maltčina"/>
+    <string id="my" value="Barmčina"/>
+    <string id="na" value="Naurčina"/>
+    <string id="nb" value="Nórština"/>
+    <string id="ne" value="Nepálčina"/>
+    <string id="nl" value="Holandština"/>
+    <string id="oc" value="Okcitánčina"/>
+    <string id="om" value="Oromčina"/>
+    <string id="or" value="Uríjčina"/>
+    <string id="pa" value="Pandžábčina"/>
+    <string id="pl" value="Poľština"/>
+    <string id="ps" value="Paštčina"/>
+    <string id="pt" value="Portugalčina"/>
+    <string id="qu" value="Kečuánčina"/>
+    <string id="rm" value="Rétorománčina"/>
+    <string id="rn" value="Kirundčina"/>
+    <string id="ro" value="Rumunčina"/>
+    <string id="ru" value="Ruština"/>
+    <string id="rw" value="Kinyarwandčina"/>
+    <string id="sa" value="Sanskrit"/>
+    <string id="sd" value="Sindhčina"/>
+    <string id="sg" value="Sango"/>
+    <string id="sh" value="Srbochorvátčina"/>
+    <string id="si" value="Sinhálčina"/>
+    <string id="sk" value="Slovenčina"/>
+    <string id="sl" value="Slovinčina"/>
+    <string id="sm" value="Samojčina"/>
+    <string id="sn" value="Šončina"/>
+    <string id="so" value="Somálčina"/>
+    <string id="sq" value="Albánčina"/>
+    <string id="sr" value="Srbčina"/>
+    <string id="ss" value="Swazijčina"/>
+    <string id="st" value="Sesotčina"/>
+    <string id="su" value="Sundčina"/>
+    <string id="sv" value="Švédčina"/>
+    <string id="sw" value="Swahilčina"/>
+    <string id="ta" value="Tamilčina"/>
+    <string id="te" value="Telugčina"/>
+    <string id="tg" value="Tadžičtina"/>
+    <string id="th" value="Thajčina"/>
+    <string id="ti" value="Tigriňa"/>
+    <string id="tk" value="Turkménčina"/>
+    <string id="tl" value="Tagalogčina"/>
+    <string id="tn" value="Setswančina"/>
+    <string id="to" value="Tongčina"/>
+    <string id="tr" value="Turečtina"/>
+    <string id="ts" value="Tsongčina"/>
+    <string id="tt" value="Tatárčina"/>
+    <string id="tw" value="Twičtina"/>
+    <string id="ug" value="Ujgurčina"/>
+    <string id="uk" value="Ukrajinčina"/>
+    <string id="ur" value="Urdčina"/>
+    <string id="uz" value="Uzbečtina"/>
+    <string id="vi" value="Vietnamčina"/>
+    <string id="vo" value="Volapučina"/>
+    <string id="wo" value="Wolofčina"/>
+    <string id="xh" value="Xhoština"/>
+    <string id="yi" value="Jidiština"/>
+    <string id="yo" value="Jorubčina"/>
+    <string id="za" value="Zhuangčina"/>
+    <string id="zh_CN" value="Zjednodušená čínština"/>
+    <string id="zh_TW" value="Tradičná čínština"/>
+    <string id="zu" value="Zuluština"/>
+    <string id="SetupInitSh.root" value="Ak chcete nastaviť inicializačné skripty, prihláste sa ako koreňový používateľ a potom vykonajte spustenie."/>
+    <string id="SetupInitSh.fail" value="Skripty na inicializáciu systému boli neúspešné."/>
+    <string id="property.InstallDir.description" value="Inštalačný adresár"/>
+    <string id="property.SetupUILanguage.description" value="Nastaviť jazyk používateľského rozhrania"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Zoradené dostupné jazyky používateľského rozhrania inštalácie"/>
+    <string id="property.SelectedLanguagePacks.description" value="Jazykové balíčky vybrané pre inštaláciu"/>
+    <string id="property.ProductKey.description" value="Kód produktu"/>
+    <string id="property.RegisteredCompany.description" value="Registrovaná spoločnosť"/>
+    <string id="property.RegisteredUser.description" value="Registrovaný používateľ"/>
+    <string id="property.InstallCompatibilityMode.description" value="Inovovať predchádzajúci produkt alebo inštalovať vedľa seba"/>
+    <string id="property.IsAcceptEULA.description" value="Akceptuje systém Licenčnú zmluvu koncového používateľa?"/>
+    <string id="property.FormattedString.description" value="Formátovať cieľový reťazec"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="Spustiť nástroj wDeploy"/>
+    <string id="description.cmsname" value="Názov servera CMS"/>
+    <string id="description.cmsport" value="Port servera CMS"/>
+    <string id="description.cmsusername" value="Meno používateľa CMS"/>
+    <string id="description.cmspassword" value="Heslo servera CMS"/>
+    <string id="description.cmsauth" value="Overenie servera CMS"/>
+    <string id="description.sianame" value="Názov SIA"/>
+    <string id="description.siaport" value="Port SIA"/>
+    <string id="property.CMSPassword.description" value="Heslo správcu servera CMS"/>
+    <string id="property.CMSPort.description" value="Port pripojenia servera CMS"/>
+    <string id="property.CryptoKey.description" value="Kľúč klastra servera CMS"/>
+    <string id="property.EnableServers.description" value="Spustiť servery po inštalácii: 0 alebo 1"/>
+    <string id="property.UsingAuditDBType.description" value="Typ databázy auditovania"/>
+    <string id="property.UsingCMSDBType.description" value="Typ databázy servera CMS"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Existujúca DB auditovania - databáza"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Existujúca DB auditovania - heslo"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Existujúca DB auditovania - port"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Existujúca DB auditovania - znak resetu: 0 alebo 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Príznak externej autentifikácie použitia existujúcej DB auditovania: 0 alebo 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Existujúca DB auditovania - server"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Existujúca DB auditovania - meno používateľa"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Existujúca DB CMS - databáza"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Existujúca DB CMS - heslo"/>
+    <string id="property.ExistingCMSDBPort.description" value="Existujúca DB CMS - port"/>
+    <string id="property.ExistingCMSDBReset.description" value="Existujúca DB CMS - znak resetu: 0 alebo 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Príznak externej autentifikácie použitia existujúcej DB CMS: 0 alebo 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Existujúca DB CMS - server"/>
+    <string id="property.ExistingCMSDBUser.description" value="Existujúca DB CMS - meno používateľa"/>
+    <string id="property.NewOrExpandInstall.description" value="Režim inštalácie: new, expand"/>
+    <string id="property.MySQLBOEUserName.description" value="Meno používateľa integrovanej databázy pre používateľa platformy BI"/>
+    <string id="property.MySQLBOEUserPassword.description" value="Heslo integrovanej databázy pre používateľa platformy BI"/>
+    <string id="property.MySQLPort.description" value="Port konektora integrovanej databázy"/>
+    <string id="property.MySQLRootPassword.description" value="Heslo koreňového používateľa integrovanej databázy"/>
+    <string id="property.RemoteCMSAdminName.description" value="Meno správcu vzdialeného servera CMS"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="Heslo správcu vzdialeného servera CMS"/>
+    <string id="property.RemoteCMSName.description" value="Názov vzdialeného servera CMS"/>
+    <string id="property.RemoteCMSPort.description" value="Port vzdialeného servera CMS"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Upozornenie na preskočenie prihlásenia do vzdialeného CMS"/>
+    <string id="property.MaintenanceMode.description" value="Operácia údržby na vykonanie"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Inštalovať integrovanú databázu: 0 alebo 1 "/>
+    <string id="property.SIAName.description" value="Názov uzla SIA"/>
+    <string id="property.SIAPort.description" value="Port konektora SIA"/>
+    <string id="property.TomcatConnectionPort.description" value="Port pripojenia Tomcat"/>
+    <string id="property.TomcatRedirectPort.description" value="Port presmerovania Tomcat"/>
+    <string id="property.TomcatShutdownPort.description" value="Port pre vypnutie Tomcat"/>
+    <string id="property.WACSPort.description" value="Port WACS"/>
+    <string id="property.WebAppServerType.description" value="Typ webového aplikačného servera: Tomcat, manuálny alebo WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Názov servera Solution Manager"/>
+    <string id="property.SolMgr_Port.description" value="Port servera Solution Manager"/>
+    <string id="property.SolMgr_Username.description" value="Meno používateľa pre pripojenie k nástroju Solution Manager"/>
+    <string id="property.SolMgr_Password.description" value="Heslo pre pripojenie k aplikácii Solution Manager"/>
+    <string id="property.SolMgr_UseHttps.description" value="Použiť protokol HTTPS na pripojenie k nástroju Solution Manager: 0 alebo 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="Vlastnosť slúžiaca na uloženie reťazca pre SharedAlwaysFailureMessage"/>
+    <string id="property.SMDAgent_HOST.description" value="Názov hostiteľa agenta SMD"/>
+    <string id="property.SMDAgent_PORT.description" value="Číslo portu agenta SMD"/>
+    <string id="property.UPGRADE.description" value="Príznak Povoliť tichú inováciu: 0 alebo 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Integrovať agenta diagnostiky v SAP Solution Manager (SMD): integrovať alebo neintegrovať"/>
+    <string id="property.ChooseSLDIntegration.description" value="Integrovať SLD: integrovať alebo neintegrovať"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Integrovať Introscope Enterprise Manager: integrovať alebo neintegrovať"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Názov hostiteľa správcu Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Číslo portu správcu Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Inštrumentácia správcu Introscope Enterprise Manager"/>
+    <string id="property.NewOrExistingLCM.description" value="Nainštalovať novú alebo použiť existujúcu LCM: nová alebo existujúca"/>
+    <string id="property.LCMName.description" value="Názov servera LCM"/>
+    <string id="property.LCMUserName.description" value="Meno používateľa LCM"/>
+    <string id="property.LCMPassword.description" value="Heslo LCM"/>
+    <string id="property.LCMPort.description" value="Port LCM"/>
+    <string id="property.InstallType.description" value="Typ inštalácie: predvolená alebo vlastná"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Má používateľ práva správcu (nevyhnutná podmienka produktu Crystal Reports)?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Inštalačný adresár zobrazovača Crystal Reports pri inštalácii v jednotlivých počítačoch"/>
+    <string id="PatchUpdateCheck" value="Vyhľadať aktualizácie produktu "/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Úroveň opravy operačného systému"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Operačný systém nedosahuje požadovanú minimálnu úroveň opravy na inštaláciu tohto produktu. Pozrite si dokumentáciu k požiadavkám na platformu."/>
+    <string id="prereq.pingLocalhost" value="Nastavenie siete"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Spustenie príkazu ping pre localhost, 127.0.0.1 alebo názov hostiteľa počítača bolo neúspešné. Počítač je nutné nakonfigurovať tak, aby ich bolo možné kontaktovať, a až potom bude možné pokračovať v inštalácii. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Kontrola miesta na disku"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Skontrolujte, či na disku je k dispozícii miesto potrebné na pokračovanie v inštalácii. Ďalšie informácie nájdete na https://apps.support.sap.com/sap/support/pam."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Oprávnenia správcu"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Je nutné prihlásiť sa s používateľským kontom, ktoré má oprávnenia správcu. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework, verzia 4.0 alebo novšia"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Nainštalujte Microsoft .NET Framework, verziu 4.0 alebo novšiu."/>
+    <string id="prereq.RootUserPreReqText" value="Oprávnenia koreňového používateľa"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Táto inštalácia nemôže pokračovať na konte koreňového používateľa, do ktorého ste sa prihlásili. Ak chcete nainštalovať produkt, je nutné prihlásiť sa ako iný než koreňový používateľ. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64-bitový operačný systém"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Tento produkt je nutné nainštalovať v 64-bitovom operačnom systéme. Skontrolujte, či váš operačný systém spĺňa túto požiadavku. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Verzia systému Windows"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Tento produkt je potrebné nainštalovať do operačného systému Windows 8,1 alebo Windows Server 2012 R2, prípadne do novších verzií oboch systémov. Overte, či váš operačný systém spĺňa túto požiadavku."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Verzia systému Windows"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Tento produkt je potrebné nainštalovať do systému Windows Server 2012 R2 alebo novšej verzie systému Windows Server. Overte, či vaša verzia systému Windows spĺňa tieto požiadavky."/>
+    <string id="prereq.SQLExpressPreReqText" value="Požiadavky na integrovanú databázu"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Nainštalujte balík Microsoft .NET Framework 3.5 SP1 alebo novší a program Windows Installer 4.5."/>
+    <string id="prereq.SQLExpressRequirementText" value="Požiadavky programu MS SQL Express"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Program Microsoft SQL Express vyžaduje balíky Microsoft .NET Framework 3.5 SP1 a Windows Installer 4.5. Skôr než sa pokúsite nainštalovať program SQL Express, nainštalujte oba balíky."/>
+    <string id="prereq.PendingStatusPreReqText" value="Potlačené reštartovanie"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="Požiadavka na reštart v lokálnom počítači je potlačená. Ak chcete pokračovať v inštalácii, reštartujte počítač. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Verzia 4.x produktu sa nenainštalovala."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Verzia 4.x produktu sa nainštalovala."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Integrovaná databáza – domovský adresár"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Integrovaná databáza vyžaduje, aby bolo v domovskom adresári používateľa nastavených 755 prístupových práv. Ak chcete nainštalovať databázu, je najprv nutné nastaviť prístupové práva."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Integrovaná databáza – adresáre"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="Databáza DB2 vyžaduje, aby neexistoval adresár ~/sqllib ani adresár ~/$USER. Ak tieto adresáre existujú, integrovanú databázu DB2 môžete nainštalovať až po ich odstránení."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="Produkt #product.mini_bip_name# alebo #product.cr_server_name# nemožno nainštalovať"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="Produkt #productname# nemožno nainštalovať do toho istého počítača ako produkt #product.mini_bip_name# alebo produkt #product.cr_server_name#. INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="Produkt #product.boe64_name# alebo #product.cr_server_name# nemožno nainštalovať"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="Nemôžete nainštalovať produkt #productname#. Produkt #product.boe64_name# alebo #product.cr_server_name# je už nainštalovaný INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="Produkt #product.ras_name# nemožno nainštalovať"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="Produkt #productname# nemožno nainštalovať do toho istého počítača ako produkt #product.ras_name#. INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="Kompatibilita produktov #product.IS_name# a #product.DS_name#"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="V počítači bol zistený nasadený produkt SAP #product.DS_name# alebo produkt #product.IS_name#. Skôr než budete pokračovať, prečítajte si pokyn SAP Note 1740516 (http://service.sap.com/sap/support/notes/1740516), kde nájdete informácie o kompatibilite a informácie o vplyve na tieto produkty. INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Inštalačný program našiel existujúcu inštaláciu a musí sa spustiť pomocou príkazu UPGRADE=1. Program sa teraz ukončí."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Inštalátor nemôže pokračovať, pretože nebola splnená kritická nevyhnutná podmienka."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="Server Central Management Server je vybraný s možnosťou integrovanej databázy, ale táto možnosť je zakázaná, pretože neboli splnené predpoklady. Inštalácia bude môcť pokračovať až po splnení nasledujúcich predpokladov:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Aktuálny používateľ nemá prístupové práva správcu a nemá povolené spustiť inštalátor."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Miesto na disku v priečinku /tmp"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="V priečinku /tmp nie je k dispozícii dostatok voľného miesta. V inštalácii bude možné pokračovať až po uvoľnení určitého miesta. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Miesto na disku v priečinku /var"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="V priečinku /var nie je k dispozícii dostatok voľného miesta. Inštalácia môže pokračovať až po sprístupnení minimálne 20 MB miesta na disku."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Integrovaná databáza – používateľ a skupina"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Pomenovanie skupiny používateľov nespĺňa obmedzenie databázy DB2. Ak chcete získať ďalšie informácie, prejdite na stránku http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 a vyhľadajte slovné spojenie „obmedzenia ID používateľa“."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Integrovaná databáza – UID a GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="Databáza DB2 vyžaduje, aby počet identifikátorov UID a GID bol menší ako 65 536. Ak chcete používať integrovanú databázu DB2, je najprv nutné zadať menší počet."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Integrovaná databáza – gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="Databáza DB2 vyžaduje, aby sa pomôcka gunzip nachádzala na systémovej ceste. Ak chcete používať integrovanú databázu DB2, je najprv nutné upraviť systémovú cestu."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Integrovaná databáza - dodržať minimálne nastavenia jadra HPUX pre DB2"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Nastavenie jadra nespĺňa minimálne požiadavky pre DB2"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Produkt Crystal Reports 2013 nie je podporovaný v systéme SUSE, verzii 11 alebo novšej."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="64-bitová verzia produktu BOE .NET SDK vyžaduje platformu Microsoft .NET Framework, verziu 3.5 alebo novšiu. Ak chcete nainštalovať 64-bitovú verziu produktu BOE .NET SDK, musíte najprv nainštalovať platformu .NET Framework."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework, verzia 3.0 alebo novšia"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Nainštalujte platformu Microsoft .NET Framework, verziu 3.0 alebo novšiu."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Nástroje Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime sa nenašli. Táto inštalácia môže pokračovať až po ich nainštalovaní."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office, verzia 2003 alebo novšia"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Balík Microsoft Office, verzia 2003 alebo novšia, sa nenašiel. Táto inštalácia môže pokračovať až po jeho nainštalovaní."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Minimálna verzia balíka podpory"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="Táto aktualizácia je určená pre produkt #productname# #product_version# #product_sp_version#, ktorý sa v systéme nenašiel. V tejto inštalácii možno pokračovať až po jeho nainštalovaní."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="Táto aktualizácia je určená pre produkt #productname# #product_version# #product_sp_version#, ktorý sa v systéme nenašiel. V tejto inštalácii možno pokračovať až po jeho nainštalovaní."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Existujú použiteľné aktualizácie"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="Verzia produktu #productname# #product_majorversion# je novšia než verzia tejto aktualizácie. Nepokračujte v tejto aktualizácii."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Minimálna vedľajšia verzia"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="Táto aktualizácia je určená pre produkt #productname# #product_version#, ktorý sa v systéme nenašiel. V tejto inštalácii možno pokračovať až po jeho nainštalovaní."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Nainštalovaný prispôsobený produkt #productname_short# #productname_preversion#"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="Táto aktualizácia je určená pre prispôsobený produkt #productname_short# #productname_preversion#, ktorý sa v systéme nenašiel. V tejto inštalácii možno pokračovať až po jeho nainštalovaní."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Inštalácia kompatibilného produktu"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Tento produkt je už nainštalovaný a je k dispozícii pre používateľov."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Služba Windows Installer"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Inštalácia sa pozastavila, pretože služba Windows Installer je zakázaná (typ spustenia = Zakázané) alebo nie je k dispozícii. Táto inštalácia môže pokračovať až po nainštalovaní a povolení tejto služby."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="Ak chcete dokončiť aktualizáciu klastra, po skončení inštalácie vo všetkých počítačoch v klastri reštartujte centrálny server správy (CMS). Ak chcete reštartovať CMS, prihláste sa do centrálnej riadiacej konzoly."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Ak chcete pokračovať v konfigurovaní svojho systému, prihláste sa do centrálnej riadiacej konzoly (CMC). Ak chcete spustiť konzolu CMC, vyberte položky Štart &gt; #product.boe64_name# &gt; Central Management Console."/>
+    <string id="postinstall.message.manualdeploy.common" value="Webové aplikácie a webové služby Java nie sú nasadené na webovom aplikačnom serveri. Ak chcete nasadiť webové aplikácie a webové služby Java, spustite nástroj wDeploy."/>
+    <string id="postinstall.message.manualdeploy.windows" value="Ak chcete spustiť nástroj wDeploy, vyberte položky Štart &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy."/>
+    <string id="postinstall.message.manualdeploy.unix" value="Umiestnenie nástroja wDeploy: [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="Na dokončenie inštalácie systému spustite tento skript s povoleniami koreňového používateľa: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Musíte definovať predvolený zobrazovač URL pre formát OpenDocument.Tento počítač nie je zaregistrovaný ako predvolený webový aplikačný server na spracovanie požiadaviek na zobrazovanie dokumentov. Možno bude potrebné zaregistrovať ho so serverom Central Management Server ako predvolený webový aplikačný server. Použite centrálnu riadiacu konzolu na úpravu stránky vlastností formátu OpenDocument."/>
+    <string id="PostInstall.message.monitoring" value="Ak chcete získať prístup k nástroju monitorovania na spúšťanie diagnostických testov, prihláste sa do centrálnej riadiacej konzoly, kliknite na položku Monitorovanie a otvorte kartu Sondy."/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}Webové služby RESTful{/b} a {b}rámec Insight to Action{/b} sú nové funkcie sprístupnené v tejto aktualizácii. Ak chcete tieto funkcie povoliť, vykonajte inštaláciu s úpravou základnej inštalácie a pridajte nové funkcie."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}Webové služby RESTful:{/b} súprava SDK webových služieb RESTful platformy Business Intelligence vám umožňuje získať prístup k platforme BI pomocou protokolu HTTP. Túto súpravu SDK môžete použiť na prihlásenie sa do platformy BI, na navigáciu v odkladacom priestore platformy BI, na prístup k prostriedkom a na základné plánovanie prostriedkov. Táto funkcia je potrebná na uloženie modelov Dashboard a dokumentov Live Office do odkladacieho priestoru po aktualizácii."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Rámec Insight to Action:{/b} rámec Insight to Action umožňuje vyvolať operačné transakcie v aplikáciách SAP aj iných aplikáciách, ktoré sú definované pomocou rozhrania RRI (rozhranie zostava - zostava) v nástroji NetWeaver. Túto funkciu podporujú aplikácie Crystal Reports a BusinessObjects Dashboards."/>
+    <string id="postInstall.message.new.features.announce.unix" value="Webové služby RESTful a rámec Insight to Action sú nové funkcie sprístupnené v tejto aktualizácii. Ak chcete povoliť tieto funkcie, vykonajte inštaláciu s úpravou základnej inštalácie a pridajte nové funkcie."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="Webové služby RESTful: súprava SDK webových služieb RESTful platformy Business Intelligence vám umožňuje získať prístup k platforme BI pomocou protokolu HTTP. Túto súpravu SDK môžete použiť na prihlásenie sa do platformy, na navigáciu v odkladacom priestore platformy BI, na prístup k prostriedkom a na základné plánovanie prostriedkov. Táto funkcia je potrebná na uloženie modelov Dashboard a dokumentov Live Office do odkladacieho priestoru po aktualizácii."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Rámec Insight to Action: rámec Insight to Action umožňuje vyvolať operačné transakcie v aplikáciách SAP aj iných aplikáciách, ktoré sú definované pomocou rozhrania RRI (rozhranie zostava - zostava) v nástroji  NetWeaver. Túto funkciu podporujú aplikácie Crystal Reports a BusinessObjects Dashboards."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Inštalátor našiel ako databázové pripojenie klienta MySQL 5.0, ktorý už nie je podporovaný. Ak chcete zabezpečiť, aby bol systém naďalej podporovaný, je nutné inovovať na klienta MySQL 5.1."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobilné servery sú novou funkciou, ktorá poskytuje prístup k údajom Business Intelligence z mobilných zariadení. Ak chcete povoliť túto funkciu, vykonajte inštaláciu s úpravou základnej inštalácie a vyberte možnosť pre mobilné servery."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Balík Tomcat je aktualizovaný na Tomcat 9. Všetky vlastné nastavenia, ktoré ste použili na Tomcat, sa migrujú zo staršej verzie do verzie Tomcat 9. Dôrazne vám však odporúčame overiť, či vlastné nastavenia sú k dispozícii vo verzii Tomcat 9."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value=" SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Balík údržby: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Balík údržby: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Maintenance Package: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Balík údržby\n\n"/>
+    <string id="product.boe64_name" value="Platforma BI SAP BusinessObjects"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="Server platformy BI"/>
+    <string id="product.boec_bip_name" value="Platforma BI SAP BusinessObjects"/>
+    <string id="product.boec_client_name" value="Nástroje klienta"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="Klient platformy BI"/>
+    <string id="product.boeruntime_name" value="Redistribuovateľná súprava .NET SDK platformy SAP BusinessObjects BI"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Údajové služby"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="Doplnok add-on SAP BusinessObjects BI pre SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="Doplnok add-on BI pre SAP Lumira"/>
+    <string id="product.mini_bip_name" value="Služby informačnej platformy"/>
+    <string id="product.mini_bip_shortname" value="Služby informačnej platformy"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="Integrácia SAP pre Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Možnosť integrácie pre softvér Microsoft SharePoint"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="Vydanie OEM"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="Klient správy používateľov SAP"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="Platforma BI SAP BusinessObjects 4"/>
+    <string id="shortcut.folder.name.minibip" value="Služby informačnej platformy 4"/>
+    <string id="shortcut.folder.name.boclient" value="Nástroje klienta platformy BI SAP BusinessObjects 4"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM Edition"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Spustiť, zastaviť a konfigurovať služby platformy"/>
+    <string id="shortcut.link.name.boserver.CMC" value="Centrálna riadiaca konzola platformy SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="Centrálna riadiaca konzola WACS platformy BI SAP BusinessObjects"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="Centrálna riadiaca konzola SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="Centrálna riadiaca konzola WACS SAP Crystal Server"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Centrálna riadiaca konzola služieb informačnej platformy"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Centrálna riadiaca konzola WACS služieb informačnej platformy"/>
+    <string id="shortcut.link.description.CMC" value="Prístup ku konzole správy"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="Panel spustenia platformy BI SAP BusinessObjects"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="Panel spustenia WACS BI platformy BI SAP BusinessObjects"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="Panel spustenia Java BI SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="Panel spustenia WACS BI SAP Crystal Server"/>
+    <string id="shortcut.link.description.BILaunchpad" value="Spustiť hlavný panel BI"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Nástroj na správu inovácií"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Inovovať predchádzajúce nasadenia na platformu BI SAP BusinessObjects 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Sprievodca správou povýšení"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="Exportujte, importujte a kopírujte obsah CMS nasadení verzie 4.x pomocou používateľského rozhrania sprievodcu."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Inovovať predchádzajúce nasadenia na SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Inovovať predchádzajúce nasadenia na služby informačnej platformy 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="Administrátor 32-bitového zdroja údajov ODBC"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="Administrátor zdroja údajov ODBC"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Pridáva, odstraňuje a konfiguruje zdroje údajov a ovládače Open Database Connectivity (ODBC)"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Dokumentácia online"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Prístup k dokumentácii online"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Správa serverov Tomcat"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Prístup k správe serverov Tomcat"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Konfigurácia serverov Tomcat"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Prístup ku konfigurácii serverov Tomcat"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="Spustí nástroj wDeploy"/>
+    <string id="shortcut.link.name.BIWidgets" value="Miniaplikácie"/>
+    <string id="shortcut.link.description.BIWidgets" value="Spustí miniaplikácie"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Business View Manager"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Spustí aplikáciu Business View Manager"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Nástroj na správu federovania údajov"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Spustí Nástroj na správu federovania údajov"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Nástroj pre návrh informácií"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Spustí Nástroj pre návrh informácií"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Query As a Web Service Designer"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Spustí nástroj Query As a Web Service Designer"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Nástroj pre konverziu zostáv"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Spustí Nástroj pre konverziu zostáv"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Nástroj pre správu prekladu"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Spustí Nástroj pre správu prekladu"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Nástroj pre návrh univerz"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Spustí Nástroj pre návrh univerz"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Spustí klienta Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Spustí klienta Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Vytvorí a upraví formátované zostavy údajov (.RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Sprievodca odovzdávaním zostáv"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Spustí Sprievodcu odovzdávaním zostáv"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.link.description.CRViewer" value="Zobraziť formátované zostavy údajov (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Panel spustenia servera Report Application Server"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Spustiť hlavný panel servera Report Application Server"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Spustiť Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Spustiť Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Spustiť Dashboards Add-on Packager"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Spustí SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Spustí SAP Crystal Presentation Design 2020 Add-on Packager"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="WACS konzoly správy SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.ADC" value="Konzola správy SAP BusinessObjects BI"/>
+    <string id="shortcut.link.description.ADC" value="Získať prístup ku konzole správy"/>
+    <string id="OverhangingPatchMessage" value="Ak táto inštalácia bude pokračovať, opravy sa môžu odstrániť zo systému. Skontrolujte, či inštalujete kompatibilný balík."/>
+    <string id="Installing41PatchOver40" value="Skôr než budete pokračovať, manuálne vytvorte záložnú kópiu aktuálnej verzie 4.0 systému. Po použití aktualizácie na verziu 4.1 už odinštalovanie tejto aktualizácie nie je možné. Ak potrebujete obnoviť stav systému, musíte použiť záložnú kópiu."/>
+    <string id="Block41PatchUninstall" value="Aktualizáciu na verziu 4.1 nie je možné odinštalovať automaticky. Ak sa chcete vrátiť do stavu systému zodpovedajúceho verzii 4.0, odstráňte existujúce binárne hodnoty a použite záložnú kópiu verzie 4.0, ktorú ste vytvorili na obnovenie verzie 4.0 systému."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="Produkt #product.fullproductname# vyžaduje nový licenčný kľúč. Stiahnite nový licenčný kľúč z lokality SAP Service Market Place, odstráňte starý licenčný kľúč a pridajte nový licenčný kľúč do centrálnej riadiacej konzoly (CMC). Ďalšie informácie nájdete v dokumentácii."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="Používanie niektorých produktov a funkcií produktu #product.fullproductnamenospace# bolo ukončené. Po aktualizácii jed potrebné vykonať predpísané akcie, ako je uvedené v pokyne SAP Note 2801797."/>
+    <string id="DeployLaterDescription" value="Režim nasadenia webovej aplikácie"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Verzia nadradenej opravy pre nainštalovanú rýchlu opravu"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Táto rýchla oprava je pre #productname# #product_version# #product_sp_version#, opravu #patch_id#. Táto inštalácia môže pokračovať až po nainštalovaní opravy. Ďalšie podrobnosti nájdete v pokyne SAP Note 2257993."/>
+  </context>
+</uitext>

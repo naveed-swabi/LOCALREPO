@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="SelectFeaturesTitle" value="Özellik Seç"/>
+<string id="SelectFeaturesSubtitle" value="Yüklemek istediğiniz özellikleri seçin."/>
+<string id="SelectFeaturesFooter" value="Vurgulamak için []Tab], []Yukarı] veya []Aşağı], genişletmek için []Boşluk], durumu değiştirmek için []X], geri dönmek için []Ctrl-B], çıkmak için []Ctrl-X] veya devam etmek için []Enter] tuşlarına basın."/>
+<string id="DiskCost" value="Disk Maliyeti"/>
+<string id="Drive Select" value="Seçtiğiniz"/>
+<string id="Disk Costing" value="Gerekli Disk Alanı"/>
+<string id="Volume" value="Birim"/>
+<string id="Disk Size" value="Disk Boyutu"/>
+<string id="Available" value="Kullanılabilir"/>
+<string id="Required" value="Zorunlu"/>
+<string id="Difference" value="Fark"/>
+<string id="Ok" value="Tamam"/>
+<string id="Retry" value="Yeniden Dene"/>
+<string id="Cancel" value="İptal"/>
+<string id="Invalid_DiskSpace" value="Ürünü kurmak için yeterli alanınız yok. Lütfen disk alanını boşaltın veya farklı bir kurulum konumu seçin. Gerekli Alan: [RequiredSpace] bayt."/>
+</context>
+</uitext>

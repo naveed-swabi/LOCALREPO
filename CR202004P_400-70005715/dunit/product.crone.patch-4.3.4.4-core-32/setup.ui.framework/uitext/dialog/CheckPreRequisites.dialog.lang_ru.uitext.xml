@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Проверка предварительных условий"/>
+<string id="CheckPreRequisitesSubTitle" value="Сводка всех невыполненных предварительных условий - критически важных и необязательных."/>
+<string id="PreRequsitiesDetails" value="Для продолжения установки необходимо устранить нарушения критических зависимостей; нарушение необязательных зависимостей может помешать установке отдельных компонентов."/>
+<string id="AcceptKBAInfo" value="Я прочитал(-а) статью SAP Knowledge Base Article 1794601 и просмотрел(-а) предоставленную информацию, чтобы убедиться в том, что запланированное обновление рекомендуется и поддерживается."/>
+<string id="AcceptKBAInfoUnix" value="Нажмите [Enter], после того как вы прочитали статью SAP Knowledge Base Article 1794601 и просмотрели предоставленную информацию, чтобы убедиться в том, что запланированное обновление рекомендуется и поддерживается."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Условие"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Тип"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Статус"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Критический"/>
+<string id="Column_Type_Optional" value="Дополнительно"/>
+<string id="Column_Status_Succeeded" value="Успешно"/>
+<string id="Column_Status_Missing" value="Не выполнено"/>
+<string id="Hints_Why_Fails" value="Если какое-либо условие не выполнено, щелкните соответствующий пункт для получения сведений о том, как решить проблему."/>
+<string id="Failure_Reason" value="Информация: "/>
+<string id="PreRequisitesUIText_Failure" value="Проверить предварительные условия не удалось"/>
+<string id="Retry_Button" value="Повтор"/>
+<string id="Back_Button" value="Назад"/>
+</context>
+</uitext>

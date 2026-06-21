@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="Message1" value="Produktopdatering"/>
+<string id="Message2" value="Der er fundet en tidligere version af dette produkt. Hvis du fortsætter installationen, opdateres produktet. Klik på Næste for at fortsætte eller Annuller for at afslutte installationen."/>
+<string id="MessageUnix" value="Der er fundet en tidligere version af dette produkt. Hvis du fortsætter installationen, opdateres produktet. Klik på [Enter] for at fortsætte eller [Ctrl-X] for at afslutte installationen."/>
+</context>
+</uitext>

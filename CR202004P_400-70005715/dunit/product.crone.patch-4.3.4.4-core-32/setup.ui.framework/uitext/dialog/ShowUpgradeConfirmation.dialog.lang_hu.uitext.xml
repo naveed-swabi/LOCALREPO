@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Message1" value="Termékfrissítés"/>
+<string id="Message2" value="A termék korábbi verziója észlelhető. Ha folytatja a telepítést, a termék frissül. A folytatáshoz kattintson a Tovább gombra; a telepítőből való kilépéshez kattintson a Mégse gombra."/>
+<string id="MessageUnix" value="A termék korábbi verziója észlelhető. Ha folytatja a telepítést, a termék frissül. A folytatáshoz nyomja meg az [Enter] billentyűt; a telepítőből való kilépéshez nyomja meg a [Ctrl-X] billentyűkombinációt."/>
+</context>
+</uitext>

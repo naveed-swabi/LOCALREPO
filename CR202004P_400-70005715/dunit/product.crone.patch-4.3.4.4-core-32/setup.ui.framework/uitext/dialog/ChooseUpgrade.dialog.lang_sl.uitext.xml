@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Naveden je neznan ChooseUpgrade, veljavni vrednosti sta: 0 ali 1"/>
+<string id="ChooseUpgrade" value="Zaznana je prejšnja verzija #productname#"/>
+<string id="SelectUpgrade" value="Izberite, ali je treba izvesti namestitev nadgradnje."/>
+<string id="SideBySide" value="Izvedba vzporedne namestitve"/>
+<string id="SideBySideDescription" value="Namesti to verzijo za #productname# k trenutno nameščeni verziji."/>
+<string id="SimpleUpgrade" value="Izvedba enostavne nadgradnje"/>
+<string id="SimpleUpgradeDescription" value="Zaznana je bila prejšnja verzija #productname#. Pred nadaljevanjem morate odstraniti prejšnjo verzijo ali izbrati to opcijo za izvedbo neposredne nadgradnje."/>
+<string id="Invalid_ChooseUpgrade" value="Neveljaven ChooseUpgrade ([ChooseUpgrade]): Biti mora 0 ali 1"/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Сведения о развертывании существующего CMS"/>
+<string id="SpecifyRemoteCMS" value="Введите учетные данные CMS и администратора для существующего развертывания."/>
+<string id="RemoteCMSConnectionInfo" value="Сведения для подключения к существующему CMS"/>
+<string id="RemoteCMSName" value="Имя CMS"/>
+<string id="RemoteCMSPort" value="Порт CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Сведения для входа администратора CMS"/>
+<string id="RemoteCMSUser" value="Пользователь"/>
+<string id="RemoteCMSPassword" value="Пароль"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Удаленный сервер CMS недоступен или учетные данные для входа неверны. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Удаленный сервер CMS недоступен или регистрационные данные неверны. INS00013\nХотите повторно ввести регистрационные данные?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Концевая обратная косая черта (например: xxx\) и следующие символы не разрешены в пароле CMS:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Концевая обратная косая черта (например: xxx\) и следующие символы не разрешены в пароле CMS:  &quot;  '  INS00099"/>
+</context>
+</uitext>

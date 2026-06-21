@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Vybrať jazykové balíky"/>
+<string id="SelectLanguagePackSubtitle" value="Vyberte všetky dodatočné jazykové balíky, s ktorými budú používatelia v produkte vstupovať do interakcií."/>
+<string id="SelectLanguagePackFooter" value="Ak chcete zvýrazňovať, stlačte kláves []Tab], []šípka nahor] alebo []šípka nadol]. Ak chcete prepnúť stav, stlačte kláves []medzerník] alebo []X]. Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete pokračovať, stlačte kláves []Enter]."/>
+<string id="alllang" value="Všetky jazyky"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Vlastnosť SelectedLanguagePacks [SelectedLanguagePacks] musí obsahovať miestne nastavenie systému."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Vlastnosť SelectedLanguagePacks [SelectedLanguagePacks] musí obsahovať hodnotu en."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Vlastnosť SelectedLanguagePacks [SelectedLanguagePacks] musí byť podmnožinou dostupných jazykových balíkov."/>
+</context>
+</uitext>

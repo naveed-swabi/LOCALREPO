@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="DlgTitle" value="Dodelitev datoteke"/>
+<string id="DlgSummary" value="Nastavitev privzete aplikacije pregledovalnika Crystal Reports."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer trenutno ni vaš privzeti pregledovalnik poročil Crystal. Ga želite določiti za privzeti pregledovalnik?"/>
+<string id="Yes" value="Da"/>
+<string id="No" value="Ne"/>
+</context>
+</uitext>

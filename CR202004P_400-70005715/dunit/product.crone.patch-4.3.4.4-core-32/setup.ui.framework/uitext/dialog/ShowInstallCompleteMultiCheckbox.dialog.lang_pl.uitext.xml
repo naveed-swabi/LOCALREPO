@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="SuccessInstallTitle" value="Pomyślnie zainstalowano oprogramowanie #product.fullproductnamenospace#."/>
+<string id="SuccessInstallDescription" value="Kliknij przycisk Zakończ, aby zakończyć instalację."/>
+<string id="FailureInstallTitle" value="Produkt #product.fullproductnamenospace# napotkał błędy podczas procesu instalowania."/>
+<string id="FailureInstallDescription" value="Kliknij przycisk Zakończ, aby zakończyć instalację."/>
+<string id="SuccessUnInstallTitle" value="Pomyślnie odinstalowano produkt #product.fullproductnamenospace#."/>
+<string id="SuccessUnInstallDescription" value="Kliknij przycisk Zakończ, aby zakończyć odinstalowywanie."/>
+<string id="InstallationWithWarnings" value="Instalowanie produktu #product.fullproductnamenospace# powiodło się z ostrzeżeniami."/>
+<string id="FailureUnInstallTitle" value="Produkt #product.fullproductnamenospace# napotkał błędy podczas procesu odinstalowywania."/>
+<string id="FailureUnInstallDescription" value="Kliknij przycisk Zakończ, aby zakończyć odinstalowywanie."/>
+<string id="FinishButton" value="Zakończ"/>
+<string id="ViewLogButton" value="Wyświetl dziennik"/>
+<string id="LaunchWDeploy" value="Automatycznie uruchom narzędzie WDeploy po instalacji."/>
+<string id="LaunchSSW" value="Uruchom kreator konfiguracji systemu"/>
+<string id="HyperlinkText" value="Kliknij tutaj, aby wyświetlić szczegóły"/>
+</context>
+</uitext>

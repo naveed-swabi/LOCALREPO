@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="th"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10 ไม่มี Data Services เวอร์ชันที่เข้ากันได้ อย่าดำเนินการติดตั้งนี้ต่อหากมี Data Services ติดตั้งอยู่ในระบบของคุณ\n\n\n คลิก ‘ตกลง’ เพื่อดำเนินการนี้ต่อ หรือ\n คลิก ‘ออกจากการติดตั้ง’ เพื่อสิ้นสุดการติดตั้งทันทีอย่างปลอดภัย"/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10 ไม่มี Data Services เวอร์ชันที่เข้ากันได้ อย่าดำเนินการติดตั้งนี้ต่อหากมี Data Services ติดตั้งอยู่ในระบบของคุณ"/>
+<string id="ExitMessage" value="กด Ctrl+X เพื่อจบการทำงาน หรือกด Enter เพื่อดำเนินการต่อ"/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

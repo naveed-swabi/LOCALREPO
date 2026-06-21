@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ChooseSldServerLocation" value="Vybrať umiestnenie servera SLD"/>
+<string id="SpecifySldServerLocation" value="Zadať umiestnenie servera SLD"/>
+<string id="SldHostnameExample" value="Zadať adresu servera SLD (napr. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Zadať prihlasovacie údaje."/>
+<string id="SldHostname" value="Názov hosta"/>
+<string id="SldPort" value="Port"/>
+<string id="SldUsername" value="Meno používateľa"/>
+<string id="SldPassword" value="Heslo"/>
+</context>
+</uitext>

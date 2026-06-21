@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="UnknownMaintenanceMode" value="È stata fornita una modalità di manutenzione sconosciuta. I valori validi sono: Modifica, Ripristina o Rimuovi."/>
+<string id="ChooseMaintenanceMode" value="Manutenzione applicazione"/>
+<string id="SelectMaintenanceMode" value="Selezionare l'operazione di mantenimento da eseguire. Visitare il sito http://support.sap.com per assistenza nella risoluzione del problema."/>
+<string id="SelectMaintenanceMode_win" value="Selezionare l'operazione di manutenzione da eseguire."/>
+<string id="Modify" value="Modifica"/>
+<string id="ModifyDescription" value="Modificare le funzionalità delle applicazioni installate. Visualizza la finestra di dialogo Seleziona funzionalità, che consente di configurare le singole funzionalità."/>
+<string id="Repair" value="Ripristina"/>
+<string id="RepairDescription" value="Reinstallare i file, le chiavi di registro e i collegamenti mancanti o danneggiati. Le preferenze memorizzate nel registro possono essere reimpostate sui valori predefiniti."/>
+<string id="Remove" value="Rimuovi"/>
+<string id="RemoveDescription" value="Disinstallare #product.nameonly# da questo computer."/>
+<string id="Invalid_Maintenance_Mode" value="Tipo MaintenanceMode non valido ([MaintenanceMode]): deve essere 'modifica', 'ripristina' o 'rimuovi'. INS00283"/>
+<string id="HyperLinkMaint" value="Per assistenza nella risoluzione del problema, visitare: "/>
+</context>
+</uitext>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="NotAcceptedEULA" value="EULA'yı kabul etmeniz gerekir.. Çıkış yapılıyor."/>
+<string id="LicenseAgreement" value="Lisans Sözleşmesi"/>
+<string id="YouMustAgree" value="Devam etmek için lisans koşullarını kabul etmeniz gerekir."/>
+<string id="IAccept" value="Lisans Sözleşmesi'ni kabul ediyorum"/>
+<string id="IDoNotAccept" value="Lisans Sözleşmesi'ni kabul etmiyorum"/>
+<string id="Invalid_IsAcceptEULA" value="Geçersiz IsAcceptEULA ([IsAcceptEULA]): Yalnızca 1 olmalıdır"/>
+<string id="AcceptOrNotAccept" value="Kabul etmek için &lt;ENTER&gt;, kabul etmemek için &lt;CTRL-X&gt; tuşlarına basın"/>
+</context>
+</uitext>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="ChooseInstallDirTitle" value="대상 폴더 구성"/>
+<string id="ChooseInstallDirSubtitle" value="제품이 설치되는 전체 대상 경로를 입력하십시오."/>
+<string id="ChooseInstallDirUnixSubtitle" value="제품이 설치되는 전체 대상 경로를 입력하십시오."/>
+<string id="DestinationFolderGroupBox" value="대상 폴더 정보"/>
+<string id="DestinationFolder" value="대상 폴더:"/>
+<string id="Browse" value="찾아보기"/>
+<string id="BrowseInstallDirectory" value="설치 위치 선택"/>
+<string id="DirGenericError" value="대상 폴더가 올바르지 않습니다. 다른 대상 폴더를 선택하십시오. INS00029"/>
+<string id="DirNetworkError" value="대상 폴더는 네트워크 위치가 될 수 없습니다. 다른 위치를 선택하십시오."/>
+<string id="DirEmptyError" value="대상 폴더를 선택해야 합니다. INS00029"/>
+<string id="DirAbsolutePathError" value="대상 폴더는 전체 경로를 사용해야 합니다. INS00029"/>
+<string id="DirInvalidCharWinError" value="대상 폴더에는 숫자, 문자 또는 _ - . \ ( ) 문자만 사용할 수 있습니다.  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="대상 폴더 경로가 너무 깁니다. 150자 미만의 경로를 사용하십시오. INS00029"/>
+<string id="DirInvalidInstallverseError" value="대상 폴더에 호환되지 않는 제품이 포함되어 있습니다. 다른 위치를 선택하십시오. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="설치 디렉터리가 잘못되었습니다. 영숫자 또는 _ - \ . ( ) 문자만 포함된 유효한 절대 경로를 사용하십시오. 디렉터리는 고정 드라이버에 있어야 하며 전체 경로 길이는 150자 이하여야 합니다. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="I설치 디렉터리가 잘못되었습니다. 읽기, 쓰기 및 실행 권한을 가진 유효한 절대 경로를 사용하십시오. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="설치 디렉터리에는 공백을 사용할 수 없습니다."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value=" &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : , 문자는 설치 디렉터리에 사용할 수 없습니다."/>
+<string id="ChooseInstallDirFooter" value="디렉터리 요소를 자동으로 채우려면 []Tab] 키를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter]를 누르십시오."/>
+</context>
+</uitext>

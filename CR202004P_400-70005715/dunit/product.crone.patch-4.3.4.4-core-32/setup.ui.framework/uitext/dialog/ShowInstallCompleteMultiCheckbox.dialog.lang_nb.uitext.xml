@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# er installert."/>
+<string id="SuccessInstallDescription" value="Klikk på Fullfør for å avslutte installasjonen."/>
+<string id="FailureInstallTitle" value="Det oppstod feil i #product.fullproductnamenospace# under installeringen."/>
+<string id="FailureInstallDescription" value="Klikk på Fullfør for å avslutte denne installasjonen."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# er avinstallert."/>
+<string id="SuccessUnInstallDescription" value="Klikk på Fullfør for å avslutte denne avinstallasjonen."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# er installert med advarsler."/>
+<string id="FailureUnInstallTitle" value="Det oppstod feil i #product.fullproductnamenospace# under avinstalleringen."/>
+<string id="FailureUnInstallDescription" value="Klikk på Fullfør for å avslutte denne avinstallasjonen."/>
+<string id="FinishButton" value="Fullfør"/>
+<string id="ViewLogButton" value="Vis logg"/>
+<string id="LaunchWDeploy" value="Start WDeploy-verktøyet automatisk etter installasjon"/>
+<string id="LaunchSSW" value="Veiviser for start av systemoppsett"/>
+<string id="HyperlinkText" value="Klikk her hvis du vil ha detaljer"/>
+</context>
+</uitext>

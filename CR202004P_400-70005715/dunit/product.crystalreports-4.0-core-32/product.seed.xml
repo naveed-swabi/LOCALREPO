@@ -1,0 +1,1325 @@
+<?xml version="1.0"?>
+<productSeed>
+  <product id="product.crystalreports-4.0-core-32" type="core" defaultObjectModel="64" productShortName="CrystalReports" installiverseId="aurora" revision="14.3.4.4938" schemaVersion="4" minimumSetupEngineVersion="60" sizeInCache="80265320">
+    <feature id="CrystalReportsRoot" description="#feature.CrystalReportsRoot.description#" display="expand" name="#feature.CrystalReportsRoot.name#" defaultState="install">
+      <feature id="installer.runtime" description="" display="hidden" name="" defaultState="install">
+        <instance id="installer.runtime">
+          <deploymentUnitRef ref="setup.core-4.0-core"/>
+          <deploymentUnitRef ref="product.crystalreports.arp-4.0-core" defaultObjectModel="32"/>
+          <deploymentUnitRef ref="product.crystalreports.actions-4.0-core" defaultObjectModel="64"/>
+          <deploymentUnitRef ref="product.crystalreports.eula-4.0-core" defaultObjectModel="64"/>
+          <deploymentUnitRef ref="product.crystalreports.shortcut.odbc-4.0-core" defaultObjectModel="64"/>
+          <deploymentUnitRef ref="product.shared.installiverse.reg-4.0-core"/>
+          <deploymentUnitRef ref="product.crystalreports.langpackproperty-4.0-core"/>
+          <deploymentUnitRef ref="product.crystalreports.productfamilyid-4.0-core"/>
+          <deploymentUnitRef ref="shared.tp.aurora.microsoft.vcredist12-4.0-core" defaultObjectModel="64"/>
+        </instance>
+      </feature>
+      <feature id="OEMZips" description="#feature.OEMZips.description#" display="hidden" name="#feature.OEMZips.name#" defaultState="install">
+        <instance id="OEMZips">
+          <deploymentUnitRef ref="product.crystalreports.oemzips-4.0-core"/>
+        </instance>
+      </feature>
+      <feature id="JRE" description="#feature.JRE.description#" display="hidden" name="#feature.JRE.name#" defaultState="install">
+        <instance id="JRE">
+          <deploymentUnitRef ref="crystalreports.dataaccess.driver.siebel-4.0-core"/>
+          <deploymentUnitRef ref="platform.library.common.authentication.siebel-4.0-core"/>
+          <deploymentUnitRef ref="platform.sdk.boe.java.siebel-4.0-core"/>
+          <deploymentUnitRef ref="crystalreports.dataaccess.driver.jde-4.0-core"/>
+          <deploymentUnitRef ref="platform.library.common.authentication.jdedwards-4.0-core"/>
+          <deploymentUnitRef ref="platform.sdk.boe.java.jdedwards-4.0-core"/>
+          <deploymentUnitRef ref="crystalreports.dataaccess.driver.sforce-4.0-core"/>
+          <deploymentUnitRef ref="crystalreports.dataaccess.driver.xml-4.0-core"/>
+          <deploymentUnitRef ref="crystalreports.dataaccess.driver.odata-4.0-core"/>
+        </instance>
+      </feature>
+      <feature id="crw" description="#feature.crw.description#" display="collapse" name="#feature.crw.name#" defaultState="install">
+        <feature id="crw-root" description="" display="hidden" name="crw-root" defaultState="install">
+          <instance id="crw">
+            <deploymentUnitRef ref="shared.library.keycode.decoder.cpp-4.0-core"/>
+            <deploymentUnitRef ref="shared.library.keycode.licmgr-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.cpp.designer-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.cpp.erom-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.cpp.businessview.clients.crw-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.cpp.ras.bv-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.cpp.cractivexviewer-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.boe.sdkplugins.java.crlov-4.0-core"/>
+            <deploymentUnitRef ref="product.crystalreports.shortcut.crw-4.0-core" defaultObjectModel="64"/>
+          </instance>
+        </feature>
+        <feature id="Export" description="#feature.Export.description#" display="hidden" name="#feature.Export.name#" defaultState="install">
+          <feature id="Excel" description="#feature.Excel.description#" display="collapse" name="#feature.Excel.name#" defaultState="install">
+            <instance id="Excel">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fxls-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="HTML" description="#feature.HTML.description#" display="collapse" name="#feature.HTML.name#" defaultState="install">
+            <instance id="HTML">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fhtml-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="PDF" description="#feature.PDF.description#" display="collapse" name="#feature.PDF.name#" defaultState="install">
+            <instance id="PDF">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fpdf-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="CrystalReports" description="#feature.CrystalReports.description#" display="collapse" name="#feature.CrystalReports.name#" defaultState="install">
+            <instance id="CrystalReports">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fcr-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="RichTextFormat" description="#feature.RichTextFormat.description#" display="collapse" name="#feature.RichTextFormat.name#" defaultState="install">
+            <instance id="RichTextFormat">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2frtf-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="WordforWindows" description="#feature.WordforWindows.description#" display="collapse" name="Microsoft Word (97-2003) Format" defaultState="install">
+            <instance id="WordforWindows">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fwordw-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="Text" description="#feature.Text.description#" display="collapse" name="#feature.Text.name#" defaultState="install">
+            <instance id="Text">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2ftext-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="ODBC" description="#feature.ODBC.description#" display="collapse" name="#feature.ODBC.name#" defaultState="install">
+            <instance id="ODBC">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fodbc-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="Record" description="#feature.Record.description#" display="collapse" name="#feature.Record.name#" defaultState="install">
+            <instance id="Record">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2frec-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="ReportDefinition" description="#feature.ReportDefinition.description#" display="collapse" name="#feature.ReportDefinition.name#" defaultState="install">
+            <instance id="ReportDefinition">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2frdef-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="CharacterSeparated" description="#feature.CharacterSeparated.description#" display="collapse" name="feature.CharacterSeparated.name" defaultState="install">
+            <instance id="CharacterSeparated">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fsepv-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="XMLExport" description="#feature.XMLExport.description#" display="collapse" name="#feature.XMLExport.name#" defaultState="install">
+            <instance id="XMLExport">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fxml2-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="LegacyXMLExport" description="#feature.LegacyXMLExport.description#" display="collapse" name="#feature.LegacyXMLExport.name#" defaultState="install">
+            <instance id="LegacyXMLExport">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2fxml-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="Application" description="#feature.Application.description#" display="collapse" name="#feature.Application.name#" defaultState="install">
+            <instance id="Application">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2dapp-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="DiskFile" description="#feature.DiskFile.description#" display="collapse" name="#feature.DiskFile.name#" defaultState="install">
+            <instance id="DiskFile">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2ddisk-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="LotusNotesMail" description="#feature.LotusNotesMail.description#" display="collapse" name="#feature.LotusNotesMail.name#" defaultState="install">
+            <instance id="LotusNotesMail">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2dvim-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="LotusNotes" description="#feature.LotusNotes.description#" display="collapse" name="#feature.LotusNotes.name#" defaultState="install">
+            <instance id="LotusNotes">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2dnotes-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="ExchangeFolders" description="#feature.ExchangeFolders.description#" display="collapse" name="#feature.ExchangeFolders.name#" defaultState="install">
+            <instance id="ExchangeFolders">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2dpost-4.0-core"/>
+            </instance>
+          </feature>
+          <feature id="MicrosoftMail" description="#feature.MicrosoftMail.description#" display="collapse" name="#feature.MicrosoftMail.name#" defaultState="install">
+            <instance id="MicrosoftMail">
+              <deploymentUnitRef ref="crystalreports.cpp.exporting.u2dmapi-4.0-core"/>
+            </instance>
+          </feature>
+        </feature>
+      </feature>
+      <feature id="DataAccess" description="#feature.DataAccess.description#" display="collapse" name="#feature.DataAccess.name#" defaultState="install">
+        <feature id="Universe" description="#feature.Universe.description#" display="collapse" name="#feature.Universe.name#" defaultState="install">
+          <instance id="Universe">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.universe-4.0-core" defaultObjectModel="64"/>
+          </instance>
+        </feature>
+        <feature id="Access.DataDirect7.1" description="#feature.DataDirectODBC.description#" display="hidden" name="#feature.DataDirectODBC.name#" defaultState="install">
+          <instance id="Access.DataDirect7.1">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.access-4.0-core"/>
+            <deploymentUnitRef ref="shared.tp.aurora.datadirect.cpp-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="RDO" description="#feature.RDO.description#" display="collapse" name="#feature.RDO.name#" defaultState="install">
+          <instance id="RDO">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.odbc-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="MyCube" description="#feature.MyCube.description#" display="collapse" name="#feature.MyCube.name#" defaultState="install">
+          <instance id="MyCube">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.olap-4.0-core"/>
+            <deploymentUnitRef ref="olap.analysis.implementation.cpp.activex-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="OLE_DB_Data" description="#feature.OLE_DB_Data.description#" display="collapse" name="#feature.OLE_DB_Data.name#" defaultState="install">
+          <instance id="OLE_DB_Data">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.ado-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="ADO_DOT_NET_Interop" description="" display="hidden" name="" defaultState="notinstalled">
+          <instance id="ADO_DOT_NET_Interop">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.adodotnetinterop-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="Comm_Rep" description="#feature.Comm_Rep.description#" display="collapse" name="#feature.Comm_Rep.name#" defaultState="install">
+          <instance id="Comm_Rep">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.access-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="XML" description="#feature.XML.description#" display="collapse" name="#feature.XML.name#" defaultState="install">
+          <instance id="XML">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.xml-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="SFORCE" description="#feature.SFORCE.description#" display="hidden" name="#feature.SFORCE.name#" defaultState="install">
+          <instance id="SFORCE">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.sforce-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="ADO.NET" description="#feature.ADO.NET.description#" display="collapse" name="#feature.ADO.NET.name#" defaultState="notinstalled">
+          <instance id="ADO.NET">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.adoplus-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="COMData" description="#feature.COMData.description#" display="expand" name="#feature.COMData.name#" defaultState="install">
+          <instance id="COMData">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.com-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="JavaData" description="#feature.JavaData.description#" display="expand" name="#feature.JavaData.name#" defaultState="install">
+          <instance id="JavaData">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.javabeans-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.java-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="JDBC" description="#feature.JDBC.description#" display="collapse" name="#feature.JDBC.name#" defaultState="install">
+          <instance id="JDBC">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.jdbc-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="OptionalDataDirectODBC" description="#feature.OptionalDataDirectODBC.description#" display="hidden" name="#feature.OptionalDataDirectODBC.name#" defaultState="notinstalled">
+          <instance id="DataAccess.OptionalDataDirectODBC">
+            <deploymentUnitRef ref="shared.tp.aurora.datadirect.cpp.optional-4.0-core" defaultObjectModel="64"/>
+          </instance>
+        </feature>
+        <feature id="OptionalDataDirectODBC.DataDirect7" description="#feature.OptionalDataDirectODBC.description#" display="hidden" name="#feature.OptionalDataDirectODBC.name#" defaultState="notinstalled">
+          <instance id="DataAccess.OptionalDataDirectODBC.DataDirect7">
+            <deploymentUnitRef ref="shared.tp.aurora.datadirect.cpp.optional-4.0-core" defaultObjectModel="64"/>
+          </instance>
+        </feature>
+        <feature id="OptionalDataDirectODBC.DataDirect7.1" description="#feature.OptionalDataDirectODBC.description#" display="expand" name="#feature.OptionalDataDirectODBC.name#" defaultState="notinstalled">
+          <instance id="DataAccess.OptionalDataDirectODBC.DataDirect7.1">
+            <deploymentUnitRef ref="shared.tp.aurora.datadirect.cpp.optional-4.0-core" defaultObjectModel="64"/>
+          </instance>
+        </feature>
+        <feature id="SymantecACT" description="#feature.SymantecACT.description#" display="collapse" name="#feature.SymantecACT.name#" defaultState="install">
+          <instance id="SymantecACT">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.act-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="BDE" description="#feature.BDE.description#" display="hidden" name="#feature.BDE.name#" defaultState="install">
+          <instance id="BDE">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.p2bbde-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="FieldDefinitions" description="#feature.FieldDefinitions.description#" display="expand" name="#feature.FieldDefinitions.name#" defaultState="install">
+          <instance id="FieldDefinitions">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.fielddef-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="FileSystem" description="#feature.FileSystem.description#" display="collapse" name="#feature.FileSystem.name#" defaultState="install">
+          <instance id="FileSystem">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.filesystem-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="DB2" description="#feature.DB2.description#" display="collapse" name="#feature.DB2.name#" defaultState="install">
+          <instance id="DB2">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.db2-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="Informix" description="#feature.Informix.description#" display="hidden" name="#feature.Informix.name#" defaultState="install">
+          <instance id="Informix">
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.informix.odbc-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.informix.odbc.config-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="NTEventLog" description="#feature.NTEventLog.description#" display="collapse" name="#feature.NTEventLog.name#" defaultState="install">
+          <instance id="NTEventLog">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.p2sevt-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="WebActivityLog" description="#feature.WebActivityLog.description#" display="collapse" name="#feature.WebActivityLog.name#" defaultState="install">
+          <instance id="WebActivityLog">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.p2slog-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="Exchange" description="#feature.Exchange.description#" display="collapse" name="#feature.Exchange.name#" defaultState="install">
+          <instance id="Exchange">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.p2sexchange-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.cpp.exporting.u2dpost-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="Oracle" description="#feature.Oracle.description#" display="collapse" name="#feature.Oracle.name#" defaultState="install">
+          <instance id="Oracle">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.oracle-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="Btrieve" description="#feature.Btrieve.description#" display="hidden" name="#feature.Btrieve.name#" defaultState="install">
+          <instance id="Btrieve"/>
+        </feature>
+        <feature id="dBase" description="#feature.dBase.description#" display="expand" name="#feature.dBase.name#" defaultState="install">
+          <instance id="dBase">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.p2dbase-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="MicrosoftOutlook" description="#feature.MicrosoftOutlook.description#" display="collapse" name="#feature.MicrosoftOutlook.name#" defaultState="install">
+          <instance id="MicrosoftOutlook">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.p2soutlk-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="Sybase" description="#feature.Sybase.description#" display="collapse" name="#feature.Sybase.name#" defaultState="install">
+          <instance id="Sybase">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.sybase-4.0-core"/>
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.sybase.ctlib-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.sybase.ctlib.config-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="MySQL_DataAccess" description="#feature.MySQL_DataAccess.description#" display="collapse" name="#feature.MySQL_DataAccess.name#" defaultState="install">
+          <instance id="MySQL_DataAccess">
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.mysql.jdbc-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.mysql.jdbc-4.0-core"/>
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.mysql.odbc-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.mysql.odbc.config-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="NETEZZA" description="#feature.NETEZZA.description#" display="collapse" name="#feature.NETEZZA.name#" defaultState="install">
+          <instance id="NETEZZA">
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.netezza.jdbc-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.netezza.jdbc-4.0-core"/>
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.netezza.odbc-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.netezza.odbc.config-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="NCRTeradata" description="#feature.NCRTeradata.description#" display="collapse" name="#feature.NCRTeradata.name#" defaultState="install">
+          <instance id="NCRTeradata">
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.teradata.jdbc-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.teradata.jdbc-4.0-core"/>
+            <deploymentUnitRef ref="connectivity.connectionserver.drivers.teradata.odbc-4.0-core"/>
+            <deploymentUnitRef ref="informationengine.qt.drivers.teradata.odbc.config-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="UWSC" description="#feature.UWSC.description#" display="hidden" name="#feature.UWSC.name#" defaultState="install">
+          <instance id="UWSC">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.wic-4.0-core"/>
+          </instance>
+        </feature>
+      </feature>
+      <feature id="IntegrationOptions" description="#feature.IntegrationOptions.description#" display="collapse" name="#feature.IntegrationOptions.name#" defaultState="install">
+        <feature id="SAP" description="#feature.SAP.description#" display="collapse" name="#feature.SAP.name#" defaultState="install">
+          <instance id="SAP">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.sap-4.0-core"/>
+            <deploymentUnitRef ref="crystalreports.cpp.saptoolbar-4.0-core"/>
+            <deploymentUnitRef ref="platform.library.common.authentication.sap-4.0-core"/>
+            <deploymentUnitRef ref="platform.sdk.boe.java.sap-4.0-core"/>
+            <deploymentUnitRef ref="platform.sdk.boe.java.sap.plugins_bundle-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="PSFT" description="#feature.PSFT.description#" display="collapse" name="#feature.PSFT.name#" defaultState="install">
+          <instance id="PSFT">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.psenterprise-4.0-core"/>
+            <deploymentUnitRef ref="platform.library.common.authentication.peoplesoft-4.0-core"/>
+            <deploymentUnitRef ref="platform.sdk.boe.java.peoplesoft-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="JDE" description="#feature.JDE.description#" display="collapse" name="#feature.JDE.name#" defaultState="install">
+          <instance id="JDE">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.jde-4.0-core"/>
+            <deploymentUnitRef ref="platform.library.common.authentication.jdedwards-4.0-core"/>
+            <deploymentUnitRef ref="platform.sdk.boe.java.jdedwards-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="SIEBEL" description="#feature.SIEBEL.description#" display="collapse" name="#feature.SIEBEL.name#" defaultState="install">
+          <instance id="SIEBEL">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.siebel-4.0-core"/>
+            <deploymentUnitRef ref="platform.library.common.authentication.siebel-4.0-core"/>
+            <deploymentUnitRef ref="platform.sdk.boe.java.siebel-4.0-core"/>
+          </instance>
+        </feature>
+        <feature id="EBS" description="#feature.EBS.description#" display="collapse" name="#feature.EBS.name#" defaultState="install">
+          <instance id="EBS">
+            <deploymentUnitRef ref="crystalreports.dataaccess.driver.ebs-4.0-core"/>
+            <deploymentUnitRef ref="platform.library.common.authentication.oracle-4.0-core"/>
+            <deploymentUnitRef ref="platform.sdk.boe.java.oracle-4.0-core"/>
+          </instance>
+        </feature>
+      </feature>
+      <feature id="PGEditor" description="#feature.PGEditor.description#" display="collapse" name="#feature.PGEditor.name#" defaultState="install">
+        <instance id="PGEditor">
+          <deploymentUnitRef ref="shared.tp.aurora.threedgraphics.pgsdk.cpp-4.0-core"/>
+        </instance>
+      </feature>
+      <feature id="Mapping" description="#feature.Mapping.description#" display="collapse" name="#feature.Mapping.name#" defaultState="install">
+        <instance id="Mapping">
+          <deploymentUnitRef ref="tp.mapwingis.cpp-4.9.6-core"/>
+        </instance>
+      </feature>
+      <feature id="UploadWizard" description="#feature.UploadWizard.description#" display="collapse" name="#feature.UploadWizard.name#" defaultState="install">
+        <instance id="UploadWizard">
+          <deploymentUnitRef ref="crystalreports.rptpubwiz.cpp-4.0-core"/>
+          <deploymentUnitRef ref="product.crystalreports.shortcut.rptpubwiz-4.0-core" defaultObjectModel="32"/>
+        </instance>
+      </feature>
+    </feature>
+  </product>
+  <properties>
+    <propertyDeclaration id="RegisteredCompany" defaultValue="" description="#property.RegisteredCompany.description#"/>
+    <propertyDeclaration id="RegisteredUser" defaultValue="" description="#property.RegisteredUser.description#"/>
+    <propertyDeclaration id="IsAcceptEULA" defaultValue="0" description="#property.IsAcceptEULA.description#"/>
+    <propertyDeclaration id="InstallCompatibilityMode" description="#property.InstallCompatibilityMode.description#"/>
+    <propertyDeclaration id="InstallType" defaultValue="default" description="#property.InstallType.description#"/>
+    <propertyDeclaration id="MaintenanceMode" description="#property.MaintenanceMode.description#"/>
+    <propertyDeclaration id="IsRootDirFinalized" description="#property.IsRootDirFinalized.description#"/>
+    <propertyDeclaration id="ShowInstallDirDlg" description="#property.ShowInstallDirDlg.description#" defaultValue="false"/>
+    <propertyDeclaration id="RootFolderPropertyId" description="#property.RootFolderPropertyId.description#"/>
+    <propertyDeclaration id="RootFolderPropertyValue" description="#property.RootFolderPropertyValue.description#"/>
+    <propertyDeclaration id="MsiNetAssembly11_64" description="#property.MsiNetAssembly25_64.description#"/>
+    <propertyDeclaration id="MsiNetAssembly11" description="#property.MsiNetAssembly20.description#"/>
+    <propertyDeclaration id="MsiNetAssembly20_64" description="#property.MsiNetAssembly25_64.description#"/>
+    <propertyDeclaration id="MsiNetAssembly20" description="#property.MsiNetAssembly20.description#"/>
+    <propertyDeclaration id="MsiNetAssembly35_64" description="#property.MsiNetAssembly35_64.description#"/>
+    <propertyDeclaration id="MsiNetAssembly35" description="#property.MsiNetAssembly35.description#"/>
+    <propertyDeclaration id="MsiNetAssembly40_64" description="#property.MsiNetAssembly40_64.description#"/>
+    <propertyDeclaration id="MsiNetAssembly40" description="#property.MsiNetAssembly40.description#"/>
+    <propertyDeclaration id="AdminPrivilege" description="#property.AdminPrivilege.description#"/>
+    <propertyDeclaration id="RunPatchUpdate" description="#property.RunPatchUpdate.description#"/>
+    <propertyDeclaration id="HasBlockingPreReq" description="#property.HasBlockingPreReq.description#"/>
+    <propertyDeclaration id="InstallDirFromRegistry" description=""/>
+    <propertyDeclaration id="AlwaysFailureMessage" description="#property.AlwaysFailureMessage.description#"/>
+    <propertyDeclaration id="SharedAlwaysFailureMessage" description="#property.SharedAlwaysFailureMessage.description#"/>
+    <propertyDeclaration id="dummyvariableneverexist" description="#property.dummyvariableneverexist.description#"/>
+    <propertyDeclaration id="DisableJRE" description="#property.DisableJRE.description#"/>
+    <propertyDeclaration id="FoundOlderRSADLL" defaultValue="false" description=""/>
+    <propertyDeclaration id="FoundNewerRSADLL" defaultValue="false" description=""/>
+    <propertyDeclaration id="checkforDiskSpace" defaultValue="0" description=""/>
+  </properties>
+  <prerequisite id="getAdminPrivilegePreReq" description="#prereq.AdminPrivilegePreReqText#" reason="#prereq.AdminPrivilegePreReqNotOkText#" type="error">
+    <action id="DetectAdminPrivilege">
+      <arg name="Property" value="AdminPrivilege"/>
+    </action>
+    <condition istrue="AdminPrivilege"/>
+  </prerequisite>
+  <prerequisite id="checkforDiskSpace" description="#prereq.checkforDiskSpacePreReqText#" reason="#prereq.checkforDiskSpacePreReqNotOkText#" type="error">
+    <action id="checkforDiskSpace">
+      <arg name="InstallDir" value="[InstallDir]"/>
+      <arg name="productSize" value="3000"/>
+      <arg name="bufferSize" value="5000"/>
+      <arg name="PropertyName" value="checkforDiskSpace"/>
+    </action>
+    <condition property="checkforDiskSpace" value="1"/>
+  </prerequisite>
+  <prerequisite id="Platform64bitPreReq" description="#prereq.Platform64bitPreReq#" reason="#prereq.Platform64bitPreReqNotOkText#" type="error">
+    <condition property="$os.memoryarchitecture" value="64"/>
+  </prerequisite>
+  <prerequisite id="getWindowsVersionPreReq" description="#prereq.WindowsVersionPreReqText#" reason="#prereq.WindowsVersionPreReqNotOkText#" type="error">
+    <action id="CompareVersion">
+      <arg name="maxVersion" value=""/>
+      <arg name="minVersion" value="6.3"/>
+      <arg name="VersionNeedToCompare" value="[$os.version]"/>
+      <arg name="Property" value="Windows81Above"/>
+      <arg name="AllowedSuffix" value="WORKSTATION"/>
+    </action>
+    <action id="CompareVersion">
+      <arg name="maxVersion" value=""/>
+      <arg name="minVersion" value="6.3"/>
+      <arg name="VersionNeedToCompare" value="[$os.version]"/>
+      <arg name="Property" value="Windows2012R2Above"/>
+      <arg name="AllowedSuffix" value="Server"/>
+    </action>
+    <condition>
+      <or>
+        <condition property="Windows81Above" value="1"/>
+        <condition property="Windows2012R2Above" value="1"/>
+      </or>
+    </condition>
+  </prerequisite>
+  <prerequisite id="detectMSIServiceStartupTypePreReq" description="#prerequisite.PassWindowsInstallerService.description#" reason="prerequisite.PassWindowsInstallerService.reason" type="error">
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\msiserver"/>
+      <arg name="RegistryName" value="Start"/>
+      <arg name="RegistryType" value="2"/>
+      <arg name="PropertyName" value="MSIServiceStartupType"/>
+    </action>
+    <condition>
+      <and>
+        <not>
+          <condition property="MSIServiceStartupType" value="4"/>
+        </not>
+        <not>
+          <condition property="MSIServiceStartupType" value=""/>
+        </not>
+      </and>
+    </condition>
+  </prerequisite>
+  <prerequisite id="NetAssembly40PreReq" description="#prereq.MsNetAssemblyPreReqText#" reason="#prereq.MsNetAssemblyPreReqNotOkText#" type="error">
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full"/>
+      <arg name="RegistryName" value="Install"/>
+      <arg name="RegistryType" value="18"/>
+      <arg name="PropertyName" value="MsiNetAssembly40_64"/>
+    </action>
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full"/>
+      <arg name="RegistryName" value="Install"/>
+      <arg name="RegistryType" value="2"/>
+      <arg name="PropertyName" value="MsiNetAssembly40"/>
+    </action>
+    <condition>
+      <or>
+        <condition property="MsiNetAssembly40_64" value="1"/>
+        <condition property="MsiNetAssembly40" value="1"/>
+      </or>
+    </condition>
+  </prerequisite>
+  <productSequence/>
+  <productSequence/>
+  <productSequence/>
+  <actionDeclaration id="BOBJOutOfBoxDeployment">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="BOBJOutOfBoxDeployment"/>
+      <rollback entryPoint="RollbackBOBJOutOfBoxDeployment"/>
+    </source>
+    <param name="WebAppServer"/>
+    <param name="AppServerDir"/>
+    <param name="EnterpriseDir"/>
+    <param name="InstallDir"/>
+    <param name="Mode"/>
+    <param name="RollbackMode"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJTextReplace" actionText="#progress.BOBJTextReplace#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="BOBJTextReplace"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="File"/>
+    <param name="SearchWord"/>
+    <param name="ReplaceWord"/>
+    <param name="Condition" default=""/>
+    <param name="Attributes" default="0"/>
+    <param name="SensitiveData" default=""/>
+    <param name="AllowReplaceWordEmpty" default="false"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJTextReplace1" actionText="#progress.BOBJTextReplace#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="BOBJTextReplace1"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="File"/>
+    <param name="SearchWord"/>
+    <param name="ReplaceWord"/>
+    <param name="Condition" default=""/>
+    <param name="Attributes" default="0"/>
+    <param name="SensitiveData" default=""/>
+    <param name="AllowReplaceWordEmpty" default="false"/>
+  </actionDeclaration>
+  <actionDeclaration id="InstallDUBundle" actionText="#progress.InstallDUBundle#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="InstallDUBundle"/>
+      <rollback entryPoint="UnInstallDUBundle"/>
+    </source>
+    <defaultActionSequence install="InstallDUBundles" uninstall="MyUninstallActionSequence"/>
+    <param name="Props" default=""/>
+    <param name="DUBundle" default="[$du.dir]content.msi"/>
+    <param name="guid" default=""/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="UninstallDUBundle" actionText="#progress.UninstallDUBundle#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="UnInstallDUBundle"/>
+      <rollback entryPoint="InstallDUBundle"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallDUBundles"/>
+    <param name="DUBundle" default="[$du.dir]content.msi"/>
+    <param name="Props"/>
+    <param name="guid" default=""/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="CopyUserConfigFile" actionText="#progress.CopyUserConfigFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="CopyUserConfigFile"/>
+      <rollback entryPoint="RollbackCopyUserConfigFile"/>
+    </source>
+    <defaultActionSequence install="InstallDUBundles"/>
+    <param name="SrcFileName"/>
+    <param name="DestDirName"/>
+    <param name="DestFileName"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveUserConfigFile" actionText="#progress.RemoveUserConfigFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveUserConfigFile"/>
+      <rollback entryPoint="RollbackRemoveUserConfigFile"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallDUBundles"/>
+    <param name="DirName"/>
+    <param name="FileName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CreateUserConfigRegistryKey" actionText="#progress.CreateUserConfigRegistryKey#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="CreateUserConfigRegistryKey"/>
+    </source>
+    <defaultActionSequence install="InstallUserConfigRegistryKeys"/>
+    <param name="RegistryPath"/>
+    <param name="RegistryValueName"/>
+    <param name="RegistryValueData"/>
+    <param name="RegistryType"/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveUserConfigRegistryKey" actionText="#progress.RemoveUserConfigRegistryKey#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveUserConfigRegistryKey"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallUserConfigRegistryKeys"/>
+    <param name="RegistryPath"/>
+    <param name="RegistryValueName"/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommand" actionText="#progress.RunCommand#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommand"/>
+      <rollback entryPoint="RunRollBackCommand"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="RunOnDuAction" default=""/>
+    <param name="MaxRetriesAllowed" default="0"/>
+    <param name="RetryInterval" default="30"/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandConditional" actionText="#progress.RunCommand#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommandConditional"/>
+      <rollback entryPoint="RunRollBackCommand"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="ConditionPropertyToCheck" default=""/>
+    <param name="PropertyValueCompareWith" default=""/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandOnNormalAndRepair" actionText="#progress.RunCommandOnNormalAndRepair#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommandOnNormalAndRepair"/>
+      <rollback entryPoint="RunRollBackCommand"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="DUInstallAction"/>
+    <param name="CmdLineOnRepair"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="EnsureFolderExists" actionText="#progress.EnsureFolderExists#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="EnsureFolderExists"/>
+    </source>
+    <param name="FolderName"/>
+  </actionDeclaration>
+  <actionDeclaration id="RegistrySearch" actionText="#progress.RegistrySearch#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegistrySearch"/>
+    </source>
+    <param name="RegistryKey"/>
+    <param name="RegistryName"/>
+    <param name="RegistryType" default="2"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CreateShortcut" actionText="#progress.CreateShortcut#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="CreateShortcut"/>
+      <rollback entryPoint="RemoveShortcut"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="linkFullPath"/>
+    <param name="pathToTarget"/>
+    <param name="arguments" default=""/>
+    <param name="description" default=""/>
+    <param name="iconPath" default=""/>
+    <param name="iconIndex" default=""/>
+    <param name="runAsUser" default="false"/>
+    <param name="showCmd" default=""/>
+    <param name="workingDir" default=""/>
+    <param name="runAction" default="1"/>
+  </actionDeclaration>
+  <actionDeclaration id="AddARPEntry" actionText="#progress.AddARPEntry#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="AddARPEntry"/>
+      <rollback entryPoint="RemoveARPEntry"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="PRODUCT_CODE"/>
+    <param name="INSTALL_DIR"/>
+    <param name="DISPLAY_NAME"/>
+    <param name="PRODUCT_ID" default="[$product.id]"/>
+    <param name="PER_USER_INSTALL" default="[setup.core.prime-4.0-core$PerUserInstall]"/>
+    <param name="DISPLAY_ICON" default=""/>
+    <param name="DISPLAY_VERSION" default="14.3.4.4938"/>
+    <param name="ESTIMATED_SIZE" default=""/>
+    <param name="INSTALL_LOCATION" default=""/>
+    <param name="INSTALL_SOURCE" default=""/>
+    <param name="NO_MODIFY" default=""/>
+    <param name="NO_REPAIR" default=""/>
+    <param name="LANGUAGE" default=""/>
+    <param name="PUBLISHER" default="SAP"/>
+    <param name="HELP_LINK" default="http://www.sap.com"/>
+    <param name="INFO_LINK" default="http://www.sap.com"/>
+    <param name="UPDATE_LINK" default="http://www.sap.com"/>
+    <param name="LAUNCH_AS_UNINSTALL" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJRegasm" actionText="#progress.BOBJRegasm#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RunExe"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="32"/>
+  </actionDeclaration>
+  <actionDeclaration id="RegasmCheck">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegasmCheck"/>
+    </source>
+    <output id="RegasmPath" property="RegasmPath"/>
+  </actionDeclaration>
+  <actionDeclaration id="RegasmCheck64">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegasmCheck64"/>
+    </source>
+    <output id="RegasmPath64" property="RegasmPath64"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJUnRegasm" actionText="#progress.BOBJUnRegasm#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RunExe"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="32"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveARPEntry" actionText="#progress.RemoveARPEntry#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RemoveARPEntry"/>
+      <rollback entryPoint="AddARPEntry"/>
+    </source>
+    <defaultActionSequence uninstall="UnconfigureDUBase"/>
+    <param name="PRODUCT_CODE"/>
+    <param name="INSTALL_DIR"/>
+    <param name="DISPLAY_NAME"/>
+    <param name="PRODUCT_ID" default="[$product.id]"/>
+    <param name="PER_USER_INSTALL" default="[setup.core.prime-4.0-core$PerUserInstall]"/>
+    <param name="DISPLAY_ICON" default=""/>
+    <param name="DISPLAY_VERSION" default=""/>
+    <param name="ESTIMATED_SIZE" default=""/>
+    <param name="INSTALL_LOCATION" default=""/>
+    <param name="INSTALL_SOURCE" default=""/>
+    <param name="NO_MODIFY" default=""/>
+    <param name="NO_REPAIR" default=""/>
+    <param name="LANGUAGE" default=""/>
+    <param name="PUBLISHER" default="SAP"/>
+    <param name="HELP_LINK" default=""/>
+    <param name="INFO_LINK" default=""/>
+    <param name="UPDATE_LINK" default=""/>
+    <param name="LAUNCH_AS_UNINSTALL" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveShortcut" actionText="#progress.RemoveShortcut#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveShortcut"/>
+      <rollback entryPoint="CreateShortcut"/>
+    </source>
+    <defaultActionSequence uninstall="UnconfigureDUBase"/>
+    <param name="linkFullPath"/>
+    <param name="pathToTarget"/>
+    <param name="arguments" default=""/>
+    <param name="description" default=""/>
+    <param name="iconPath" default=""/>
+    <param name="iconIndex" default=""/>
+    <param name="runAsUser" default="false"/>
+    <param name="showCmd" default=""/>
+    <param name="workingDir" default=""/>
+    <param name="runAction" default="1"/>
+  </actionDeclaration>
+  <actionDeclaration id="AddNTService" actionText="#progress.AddNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="CreateBOBJNTService"/>
+    </source>
+    <defaultActionSequence install="InstallServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+    <param name="DISPLAYNAME_BOBJNTService"/>
+    <param name="DESCRIPTION_BOBJNTService"/>
+    <param name="SERVICE_BIN_PATH_BOBJNTService"/>
+  </actionDeclaration>
+  <actionDeclaration id="StartNTService" actionText="#progress.StartNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="StartBOBJNTService"/>
+    </source>
+    <defaultActionSequence install="StartServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveNTService" actionText="#progress.RemoveNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DeleteBOBJNTService"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+    <param name="RunOnDuAction" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="StopNTService" actionText="#progress.StopNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="StopBOBJNTService"/>
+    </source>
+    <defaultActionSequence uninstall="StopServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetWScriptLocation" actionText="#progress.SetWScriptLocation#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="SetWScriptLocation"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="UnzipOEMFiles" actionText="#progress.UnzipOEMFiles#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="UnzipOEMFiles"/>
+    </source>
+    <param name="UnzipTo"/>
+  </actionDeclaration>
+  <actionDeclaration id="FindMsiComponentPath" actionText="#progress.FindMsiComponentPath#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="FindMsiComponentPath"/>
+    </source>
+    <param name="MsiProductCode"/>
+    <param name="MsiComponentID"/>
+    <param name="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="NotifyAssocChange" actionText="#progress.NotifyAssocChange#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="SHAssocChangeNotify"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandAndSetProperty" actionText="#progress.RunCommand#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommandAndSetProperty"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="WriteProperty"/>
+    <param name="ReturnCodesSet"/>
+    <param name="ValuesSet"/>
+    <param name="Default"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetPrivilege" actionText="#progress.SetPrivilege#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="SetPrivilege"/>
+    </source>
+    <param name="Privilege"/>
+    <param name="DomainUser" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="MoveRegistry" actionText="#progress.MoveRegistry#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="MoveRegistry"/>
+    </source>
+    <param name="RegistryHive"/>
+    <param name="RegistryKeySrc"/>
+    <param name="RegistryKeyTgt"/>
+    <param name="RegistryType" default="M"/>
+    <param name="RegistryWOW64" default="true"/>
+  </actionDeclaration>
+  <actionDeclaration id="FontRegister" actionText="#progress.FontRegister#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegisterFont"/>
+    </source>
+    <param name="FontPath" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="FontUnRegister" actionText="#progress.FontUnRegister#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="UnRegisterFont"/>
+    </source>
+    <param name="FontPath" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="ConfigureEnvironment" actionText="#progress.ConfigureEnvironment#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="ConfigureEnvironment"/>
+    </source>
+    <param name="ENV_NAME"/>
+    <param name="ENV_VALUE"/>
+    <param name="ACTION"/>
+    <param name="BROADCAST" default="1"/>
+    <param name="TIMEOUT_MILLI_SECONDS" default="500"/>
+  </actionDeclaration>
+  <actionDeclaration id="RefreshDesktopWindow" actionText="#progress.RefreshDesktopWindow#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RefreshDesktopWindow"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="DeleteRegistryKey" actionText="#progress.DeleteRegistryKey#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="DeleteRegistryKey"/>
+    </source>
+    <param name="Root" default=""/>
+    <param name="Path" default=""/>
+    <param name="Value" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="TranslateString" actionText="#progress.TranslateString#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="TranslateString"/>
+    </source>
+    <param name="LangCode" default="[SetupUILanguage]"/>
+    <param name="UITextFile" default="[$du.dir]/actions/strings/[SetupUILanguage].uitext.xml"/>
+    <param name="StringToTranslate"/>
+    <output id="TranslatedString"/>
+  </actionDeclaration>
+  <actionDeclaration id="TranslateStringIfConditionsEqual" actionText="#progress.TranslateStringIfConditionsEqual#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="TranslateStringIfConditionsEqual"/>
+    </source>
+    <param name="LangCode" default="[SetupUILanguage]"/>
+    <param name="UITextFile" default="[$du.dir]/actions/strings/[SetupUILanguage].uitext.xml"/>
+    <param name="StringToTranslate"/>
+    <param name="LHSCondition"/>
+    <param name="RHSCondition"/>
+    <output id="TranslatedString"/>
+  </actionDeclaration>
+  <actionDeclaration id="WriteStringToFile" actionText="#progress.WriteStringToFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="WriteStringToFile"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="FileName"/>
+    <param name="Content"/>
+  </actionDeclaration>
+  <actionDeclaration id="DeleteFile" actionText="#progress.DeleteFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="DeleteFile"/>
+    </source>
+    <defaultActionSequence uninstall="UnconfigureDUBase"/>
+    <param name="FileName"/>
+  </actionDeclaration>
+  <actionDeclaration id="AddNamedSetToMap" actionText="#progress.AddNamedSetToMap#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="AddNamedSetToMap"/>
+    </source>
+    <param name="SerializedNamedSetMap"/>
+    <param name="SetName"/>
+    <param name="SerializedSetContents"/>
+    <output id="SerializedNamedSetMapProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveNamedSetFromMap" actionText="#progress.RemoveNamedSetFromMap#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveNamedSetFromMap"/>
+    </source>
+    <param name="SerializedNamedSetMap"/>
+    <param name="SetName"/>
+    <output id="SerializedNamedSetMapProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="GetUnifiedSetValues" actionText="#progress.GetUnifiedSetValues#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="GetUnifiedSetValues"/>
+    </source>
+    <param name="SerializedNamedSetMap"/>
+    <param name="OutputDelimiter"/>
+    <output id="UnifiedSetValuesProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="ProductOSDefaultInstallLocation">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="GetProductOSDefaultInstallLocation"/>
+    </source>
+    <param name="InstallFolderName" default="SAP BusinessObjects"/>
+    <param name="Use64BitLocation" default="false"/>
+    <param name="InstallDirValue" default=""/>
+    <param name="PerUserInstall" default="false"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="ProductAction_FormatString">
+    <source type="sharedlib" name="installframework">
+      <execute entryPoint="ProductAction_FormatString"/>
+    </source>
+    <param name="StringToFormat"/>
+    <output id="FormattedString"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetWindowsSystemFolderProps">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="SetWindowsSystemFolderProps"/>
+    </source>
+    <param name="ArgPerUserInstall" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectAdminPrivilege">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectAdminPrivilege"/>
+    </source>
+    <param name="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectInstalledMSIProduct">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectInstalledMSIProduct"/>
+    </source>
+    <param name="MsiProductCode"/>
+    <param name="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="DrLocator">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DrLocator"/>
+    </source>
+    <param name="Directory"/>
+    <param name="FileName"/>
+    <param name="MinVersion" default=""/>
+    <param name="MaxVersion" default=""/>
+    <param name="Depth" default=""/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectInstalledProductByUpgradeCode">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectInstalledProductByUpgradeCode"/>
+    </source>
+    <param name="MsiUpgradeCode"/>
+    <param name="MaxVersion"/>
+    <param name="MinVersion"/>
+    <param name="Property"/>
+    <param name="ProductCodeFound"/>
+  </actionDeclaration>
+  <actionDeclaration id="checkSharepointExists">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="CheckSharePointExists"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="checkSPSAdmin">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="CheckBOBJNTService"/>
+    </source>
+    <param name="SERVICENAME_BOBJNTService"/>
+    <param name="Property_Flag"/>
+  </actionDeclaration>
+  <actionDeclaration id="getSharepointSites">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="EnumSharePointServers"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="DetectIISVersion">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectIISVersion"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="GetCMSLogonToken">
+    <source type="sharedlib" name="multiplatformactionsaurora">
+      <execute entryPoint="GetCMSLogonToken"/>
+    </source>
+    <param name="JavaExe"/>
+    <param name="JarFile"/>
+    <param name="CMSName"/>
+    <param name="CMSPort" default="6400"/>
+    <param name="CMSUser" default="Administrator"/>
+    <param name="CMSPassword"/>
+    <param name="CMSAuthentication" default="secEnterprise"/>
+    <param name="ExpireInMinute" default="1"/>
+    <param name="NumberOfLogon" default="1"/>
+    <param name="SetProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetUILanguage">
+    <source type="sharedlib" name="LanguageConfig.dll">
+      <execute entryPoint="MapSystemLocaleToInstallerLangCode"/>
+    </source>
+    <param name="SystemLocale"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetSelectedLangPacks">
+    <source type="sharedlib" name="LanguageConfig.dll">
+      <execute entryPoint="SetSelectedLangPacksWithSystemLocale"/>
+    </source>
+    <param name="CurrentLangPacks" default="[_$SelectedLanguagePacks]"/>
+    <param name="RequiredLangPacks"/>
+  </actionDeclaration>
+  <actionDeclaration id="ChangeFeatureState">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="ChangeFeatureState"/>
+    </source>
+    <param name="State"/>
+    <param name="FeatureID"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckDiskCost">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CheckDiskCost"/>
+    </source>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="PropIsEnoughSpace" default="IsEnoughDiskSpace"/>
+    <param name="PropRequiredSpace" default="RequiredSpace"/>
+    <param name="PropAvailableSpace" default="AvailableSpace"/>
+  </actionDeclaration>
+  <actionDeclaration id="CompareVersion">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CompareVersion"/>
+    </source>
+    <param name="maxVersion"/>
+    <param name="minVersion"/>
+    <param name="VersionNeedToCompare"/>
+    <param name="Property"/>
+    <param name="AllowedSuffix" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckandSetPortInternally">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CheckandSetPortInternally"/>
+    </source>
+    <param name="PropertyId"/>
+    <param name="portValue"/>
+    <param name="minRange" default="2000"/>
+    <param name="maxRange" default="9000"/>
+    <output id="Property"/>
+    <output id="CMSPort"/>
+    <output id="SIAPort"/>
+    <output id="SQLAnywherePort"/>
+    <output id="WACSPort"/>
+  </actionDeclaration>
+  <actionDeclaration id="turnofffeature">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="ChangeFeatureState"/>
+    </source>
+    <param name="State"/>
+    <param name="FeatureID"/>
+  </actionDeclaration>
+  <actionDeclaration id="DisplayFeatureInstallingState">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="DisplayFeatureInstallingState"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="CheckForBlockingProductPreReqs">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CheckForBlockingProductPreReqs"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="EvaluateFeaturePreReqs">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="EvaluateFeaturePreReqs"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="EvaluateTargetFeaturePreReqs">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="EvaluateTargetFeaturePreReqs"/>
+    </source>
+    <param name="FeatureID"/>
+    <param name="FeatureID"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectOverhangingPatch">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="DetectOverhangingPatch"/>
+    </source>
+    <param name="ForwardFitDataFile" default="[$du.actionsdir]ffdata.txt"/>
+    <param name="CurrentPatchLevel"/>
+  </actionDeclaration>
+  <actionDeclaration id="SortAvailableSetupLanguages">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="SortAvailableSetupLanguages"/>
+    </source>
+    <param name="PrioritizedLanguage" default="en;fr;de;ru;tr;zh_CN;zh_TW;ja;ko"/>
+    <param name="WriteProperty" default="SortedAvailableSetupLanguages"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckIfContainSubstring">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckIfContainSubstring"/>
+    </source>
+    <param name="String"/>
+    <param name="Substring"/>
+    <param name="WriteProperty" default="IsSubstring"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandAndCaptureOutput">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="RunCommandAndCaptureOutput"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="WriteProperty" default="ReturnCode"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectPatchOnLowerSP">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="DetectPatchOnLowerSP"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="InstallingRevision"/>
+    <param name="PropertyName"/>
+    <param name="PatchBuildRev"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectPatchOrSPOnHigherRevision">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="DetectPatchOrSPOnHigherRevision"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="InstallingRevision"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="checkforPatchDUHotFix">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="checkforPatchDUHotFix"/>
+    </source>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="productCoreDuId"/>
+    <param name="productDUversion"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="checkforDiskSpace">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="checkforDiskSpace"/>
+    </source>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="productSize"/>
+    <param name="bufferSize"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckValidMinorRelease">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckValidMinorRelease"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="InstallingRevision"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="GetProductPatchLevel">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="GetProductPatchLevel"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetSIAName">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="SetSIAName"/>
+    </source>
+    <param name="MachineName" default="[$os.machinename]"/>
+    <param name="PropertyId" default="SIAName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckCmsDatabaseSubsystem">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckCmsDatabaseSubsystem"/>
+    </source>
+    <param name="EnterpriseDir"/>
+    <param name="DatabaseSubSystem"/>
+    <param name="FileExt" default=".dbinfo"/>
+    <param name="DriverPrefix" default="dbDriver"/>
+    <param name="SetProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckFileExist">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckFileExist"/>
+    </source>
+    <param name="FileName"/>
+    <param name="MinFileSize" default="0"/>
+    <param name="SetProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="IsProcessRunning">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="IsProcessRunning"/>
+    </source>
+    <param name="Executable"/>
+    <output id="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="MatchProductRevisionWithInstalledDUs">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="MatchProductRevisionWithInstalledDUs"/>
+    </source>
+    <param name="InstalledDUs"/>
+    <param name="RevisionDepth"/>
+    <param name="CompareOperator"/>
+    <output id="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="MatchProductPatchRevisionWithInstalledDUs">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="MatchProductPatchRevisionWithInstalledDUs"/>
+    </source>
+    <param name="InstalledDUs"/>
+    <param name="RevisionDepth"/>
+    <param name="RevisionPatchtest"/>
+    <param name="CompareOperator"/>
+    <param name="CompareSPlevel"/>
+    <output id="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckMemoryRequirement">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckMemoryRequirement"/>
+    </source>
+    <param name="Min_Memory" default="2"/>
+    <output id="MeetMemoryReq"/>
+  </actionDeclaration>
+  <actionDeclaration id="ReadfolderPhaseWise">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="ReadfolderPhaseWise"/>
+    </source>
+    <param name="InstallDir"/>
+    <param name="WriteProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="CreatefolderPhaseWise">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CreatefolderPhaseWise"/>
+    </source>
+    <param name="InstallDir"/>
+    <param name="WriteProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="DeletefolderPhaseWise">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="DeletefolderPhaseWise"/>
+    </source>
+    <param name="InstallDir"/>
+  </actionDeclaration>
+  <actionDeclaration id="LogInstallationStatus">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="LogInstallationStatus"/>
+    </source>
+    <param name="InstallFailedStatus"/>
+  </actionDeclaration>
+</productSeed>

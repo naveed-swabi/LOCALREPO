@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.java.classes-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="9724945">
+    <requiredDeploymentUnit ref="foundation.bcm.java.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.javalibs.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.tracelog.java.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.axis2-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.derby.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.log4j.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.eclipse.aspectj.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.java.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.xpp3.classes-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="72019985-AEE4-4367-841F-AEBCFABF49BD"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

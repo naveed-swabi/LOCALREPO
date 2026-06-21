@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# sikeresen telepítve."/>
+<string id="Description" value="A telepítésből való kilépéshez kattintson a Befejezés gombra."/>
+<string id="MonitorToolCheck" value="A Software Monitoring Tool futtatása"/>
+<string id="CustomNextButton" value="Befejezés"/>
+</context>
+</uitext>

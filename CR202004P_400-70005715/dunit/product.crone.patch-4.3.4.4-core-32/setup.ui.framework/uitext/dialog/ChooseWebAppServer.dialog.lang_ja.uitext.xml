@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Java Web アプリケーションサーバの選択"/>
+<string id="ChooseWebAppServerSubtitle" value="Java Web アプリケーションサーバソリューションを選択します。"/>
+<string id="ChooseWebAppServerFooter" value="選択するには []Tab]、[]上矢印]、または []下矢印] キーを押します。戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+<string id="InstallJWAS" value="Java Web アプリケーションおよびサーバのインストール"/>
+<string id="InstallTomcat" value="デフォルトの Tomcat Java Web アプリケーションサーバをインストールし、Web アプリケーションを自動でデプロイします"/>
+<string id="ManualDeploy" value="インストール後に、Web アプリケーションを手動でサポートされている Java Web アプリケーションサーバにデプロイします"/>
+<string id="InstallWACS" value="Web アプリケーションコンテナサーバをインストールし、Web アプリケーションを自動でデプロイします"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integration Option for Microsoft SharePoint software 4.0"/>
+<string id="SharePointIntegrationText" value="SAP BusinessObjects Integration Option for Microsoft SharePoint software 4.0 は、64 ビット Sharepoint の add-ons フォルダで、個別インストールとして利用できます。add-ons フォルダへのリンクについては、インストール後の手順を参照してください。"/>
+<string id="SharePointIntegrationCheck" value="インストールの終了時に、add-ons フォルダの場所を表示する"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="無効な UseIntegratedWebAppServer 値 ([UseIntegratedWebAppServer]): 値は 0 または 1 である必要があります。INS00255"/>
+</context>
+</uitext>

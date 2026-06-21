@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Message" value="Bevestiging van verwijdering"/>
+<string id="Description" value="Hiermee verwijdert u #product.fullproductnamenospace# van uw computer."/>
+<string id="ConfirmUninstall" value="Weet u zeker dat u wilt verwijderen?"/>
+<string id="ConfirmUninstall_Footer" value="Druk op []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om door te gaan."/>
+</context>
+</uitext>

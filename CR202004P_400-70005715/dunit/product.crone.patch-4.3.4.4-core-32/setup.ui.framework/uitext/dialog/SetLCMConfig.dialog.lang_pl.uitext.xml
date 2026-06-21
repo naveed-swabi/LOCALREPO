@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="SetLCMConfigTitle" value="Konfiguracja programu Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Wprowadź numer portu i nazwę użytkownika dla systemu kontroli wersji Subversion."/>
+<string id="repoInfoGroup" value="Informacje repozytorium programu Subversion"/>
+<string id="repoName" value="Nazwa repozytorium:"/>
+<string id="repoPort" value="Port repozytorium"/>
+<string id="repoPortInline" value="Port programu Subversion:"/>
+<string id="repoUserInfoGroup" value="Dane użytkownika repozytorium programu Subversion"/>
+<string id="repoUserName" value="Konto użytkownika repozytorium:"/>
+<string id="repoUserPass" value="Hasło do konta repozytorium:"/>
+<string id="repoUserPassInline" value="Hasło do konta użytkownika repozytorium:"/>
+<string id="repoUserPass2" value="Potwierdź hasło:"/>
+<string id="Mismatch_LCMPassword" value="Hasła nie zgadzają się. Sprawdź je i spróbuj ponownie. INS00267"/>
+<string id="Invalid_LCMPassword" value="Hasło jest zbyt proste. Hasło musi składać się z co najmniej sześciu znaków. Muszą być w nim zastosowane co najmniej dwa następujące typy znaków: wielkie litery i małe litery. INS00127"/>
+</context>
+</uitext>

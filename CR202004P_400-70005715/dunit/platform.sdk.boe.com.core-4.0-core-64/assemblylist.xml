@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Options">
+    <registryValue name="CInfoDirectory" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\CMSClusterMembers">
+    <registryValue name="" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Logging">
+    <registryValue name="loggingPluginDir" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secEnterprise">
+    <registryValue name="CLSID" type="string">{EEF23B32-CA8F-4A32-96D1-EB5942AE86D4}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secEnterprise">
+    <registryValue name="NAME" type="string">Enterprise</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secEnterprise">
+    <registryValue name="OBJTYPENAME" type="string">Enterprise</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secEnterprise">
+    <registryValue name="PROGID" type="string">secEnterprise</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secEnterprise">
+    <registryValue name="Version" type="string">14.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secLDAP">
+    <registryValue name="CLSID" type="string">{076FDBD4-FC03-4003-A9B0-4187562F9222}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secLDAP">
+    <registryValue name="NAME" type="string">LDAP</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secLDAP">
+    <registryValue name="OBJTYPENAME" type="string">LDAP</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secLDAP">
+    <registryValue name="PROGID" type="string">secLDAP</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secLDAP">
+    <registryValue name="VERSION" type="string">14.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\PluginMgr">
+    <registryValue name="InstallRetryIntervalInMinute" type="dword">2</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secWinAD">
+    <registryValue name="CLSID" type="string">{EF2AA9B4-8AB4-464B-BC70-62DB7F064335}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secWinAD">
+    <registryValue name="NAME" type="string">Windows AD</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secWinAD">
+    <registryValue name="OBJTYPENAME" type="string">SecWinAD</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secWinAD">
+    <registryValue name="PROGID" type="string">secWinAD</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secWinAD">
+    <registryValue name="VERSION" type="string">14.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{0077ED04-78B1-4AE3-BB46-C4B173AEAAB1}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{0589A1B1-F8C4-4C7A-BF2D-15CD16D5E606}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{078B8C3F-4589-4B03-AC90-6EBF8526C600}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{175C4A7A-0EAA-43FD-AA90-DC16ED6C04E6}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{194E4195-69F8-4EAD-ACE7-FE0032C231E4}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{214B31B9-9DE7-41CF-986C-367CEF61E6CB}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{25FCA5F9-3DA1-4379-A11D-011030187EBA}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{28DA5797-9235-410C-9CAA-3D6642D213B2}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{2A702933-7732-47C4-A430-B2A104A284CF}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{2C55ED82-52AA-461B-A38A-01779E448FC1}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{2FD9FADA-F21F-4EA7-9F6D-1BF7081D6D1C}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{31AD7821-0A06-4E27-B76B-D5373DDC4D99}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{352A1643-B040-4BB0-A8C3-09498F872490}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{39414D24-A988-416D-9CC3-5464DE43EAA5}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{3A1636B5-8767-4AA7-9CDB-FB686910D86F}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{469E8105-8383-461F-B5C4-1E40A0A4ED05}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{61500B7F-1F30-4DFF-8C6D-D10B05D95E33}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{644951C8-2093-4BD9-9CAB-DF4EC80458D0}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{64955DA2-8D77-47F1-967B-2E51B751E28D}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{7E5B83CF-6385-4759-A985-12C4DB2E141F}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{7F369251-6A98-43F7-87A5-8742C65416C1}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{8294C350-7C84-4C05-9BB3-BAAB5E63F7EB}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{83102522-010B-42AA-B771-64A791575070}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{85ECC2C9-815C-458A-A314-092C60A748E0}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{8983528C-E733-40CA-BFFD-5B3E3511C06D}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{8D5AA85A-EF79-4B9B-8C43-28EE903C742C}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{91C93EF3-907D-4553-A317-6A1E465A3BAD}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{91C988DA-5623-40DE-8AC7-2C367EFE54E1}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{91D937E0-38B4-475B-8B18-177A86702C5C}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{AAB88741-056D-48E7-A29B-EDC8BAFC42ED}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{ABD2F54E-6F86-4512-9F9E-FF0CB6C4002D}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{AFD25AA0-3034-4F9B-9846-6B60FABE709E}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{B3846B82-5F8E-41AA-BA26-DDA4CD63478B}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{B7102032-9059-4898-BF06-6F67896A1C80}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{BBA3CFDE-2E4A-4D28-A81D-7E61CA90582F}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0053574-AF4D-4C0C-B71F-1528FBEADA05}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0501D4B-8FE6-47F9-9A51-A2D752D59621}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C054956B-2A28-45DE-AB8F-3F6E77BC8C2B}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C05CCC94-4C05-460C-9DF8-D114AE4AED1A}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C05E9C44-0219-4C8A-A54F-A517270C7803}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C05EB078-D931-44F4-B1B3-5FDCBDD7F32E}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0778628-FB5B-4C56-8E1A-3B8028AE40A9}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0834020-D14B-4AC0-90EF-6482581A561B}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C08D5237-501A-45FF-98E0-E1880EAA72E8}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C08F7F9C-BC26-4ECC-A4C8-75875A10C61F}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C09A8BE8-615E-4958-A09B-4352A28BECD0}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C09DB837-A0FA-48C8-B1FD-DA65439ECEA4}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0A5409A-9F95-4628-B5B1-12F163AFC88C}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0A90CCF-4E09-43F9-87B9-E710671C9D79}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0B0DC68-BE45-4D76-BA0E-8CFCA93F9D1F}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0C37475-9BA1-484A-94B2-989E0B9777DB}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0C86BBA-8760-405D-8D29-6B8243661AF0}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0CFA985-981E-407D-B08E-F326D866C07F}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0E6BB1B-A856-4A2E-B75D-7DCE6CA31DB5}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0E760A6-1676-4D43-9D1C-FC38D30B1EB3}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0E87AB0-6EFC-4331-A6FA-401D907DC7E7}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0EB9B45-4B07-4243-BCB1-BCFD871BE6E1}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0EF2583-ACFC-47DB-B152-7390A53909FD}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0F37963-EADC-42AA-B249-61B7007B4B2E}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0F444D9-241A-4BCF-BE67-8FDA4964AF45}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0F6823E-6000-4123-8D93-856B51E1EA48}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C5020B2C-FD89-487A-BA21-09786D06A275}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C56875FF-D880-4CEA-B281-7803D9AF449B}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{CEE9B096-10F4-466F-9CAA-4A62CE5C3584}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{D8EF3F27-FB88-4101-A1B0-4CCA7FC875A6}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{DFEA0536-9C22-4F83-8C70-90883CE6AD66}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{E12DEAF1-1B82-4F4B-AFD4-8538CC15FC3E}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{E68CED6C-1714-471C-9160-73526493DE9D}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{E78106B0-84AC-4015-BEB9-F85CF4CF7CE9}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{EB301C9C-97CC-4B7B-9387-526D3E70C57D}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{EC0FF718-BAC6-4A58-ACDE-D9DE4D96CD72}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{F0C56992-6006-4EFB-B2B7-86B7BCBCD73A}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{F3CE8660-A0B4-41BA-8EC9-C9FDCCE37D3C}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{FF683418-3F77-4650-9329-1BD67FFEE43D}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{ADBDC453-4349-44B9-AB2C-77688E03C87D}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C00C228C-17C9-43A8-8880-256A23544C49}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0267B8C-7A5C-43E2-8ECF-EE95AA135F83}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{C0F2D96B-9C84-4872-AFCB-9B92CADE78BA}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{F7233E6B-917E-4BE6-928E-0CD337ACB4C1}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{0FFEB09D-D46C-4AA5-A8CA-4E373603A25E}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{28EED73A-6D74-48AD-9F17-243438D3B3DF}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{2E1F72B2-F8BE-41AE-AD4E-C3CD318DAC3A}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{54C0CBB3-515D-4E60-AF35-48D8D6E54DC9}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{8E0C7DD6-1AA3-455F-996A-0E6976661A4A}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{D64998A6-E16F-4033-95D3-B427A447B187}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{F0409D34-0E63-44F6-B76A-84E1073D8B0C}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{F273D28D-4B93-41B2-8134-1BD0A956D975}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{F46A67A0-8744-4201-8B99-BEB0B5075BEF}">
+    <registryValue name="Compatibility Flags" type="dword">1024</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.sdk.boe.com">
+    <file name="EnterpriseFramework.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="4947968"/>
+    <file name="InfoStor.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="7493632"/>
+    <file name="PluginManager.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="867328"/>
+    <file name="CorporateCategory.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="393728"/>
+    <file name="PersonalCategory.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="317440"/>
+    <file name="secEnterpriseAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="377344"/>
+    <file name="secWinADAdmin.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="391168"/>
+    <file name="Fips.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="316416"/>
+  </sourcedir>
+</assembly>

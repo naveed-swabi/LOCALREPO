@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# a fost instalat cu succes."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# a găsit erori la procesul de instalare."/>
+<string id="UninstallFailedMessage" value="Au apărut erori la proces dezinstalare #product.fullproductnamenospace#."/>
+<string id="UninstallMessage" value="Dezinstalare reuşită #product.fullproductnamenospace#."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# a fost instalat cu succes fără avertizări."/>
+<string id="Description" value="Click pe Terminare pt.a ieşi din această instalare."/>
+<string id="FailedDescription" value="Click pe Terminare pt. a ieşi din această instalare."/>
+<string id="Description_unix" value="Apăsaţi []Ctrl-B] pt. a vă întoarce sau []Enter] pt. a ieşi din această instalare."/>
+<string id="Customized_Description_unix" value="Apăsaţi []Enter] pt. a ieşi din instalare."/>
+<string id="FailedDescription_unix" value="Apăsaţi []D] pt. mai multe detalii sau []Enter] pt. a ieşi din instalare."/>
+<string id="CustomNextButton" value="Finalizare"/>
+<string id="ViewLogButton" value="Jurnal imagine"/>
+<string id="HyperlinkText" value="Faceţi click aici pentru detalii"/>
+</context>
+</uitext>

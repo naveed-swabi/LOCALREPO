@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Installationen kan inte fortsättas"/>
+<string id="ExpandInstallMessage_2" value="Beskriv orsakerna som förhindrade att installationen kunde fortsätta"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Tryck på CTRL-X för att avsluta installationen"/>
+<string id="AlwaysFailureGeneralMessage" value="Installationen kan inte fortsätta\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

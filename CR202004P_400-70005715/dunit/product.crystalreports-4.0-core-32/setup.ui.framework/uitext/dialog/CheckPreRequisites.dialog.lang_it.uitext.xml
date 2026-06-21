@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Controlla prerequisiti"/>
+<string id="CheckPreRequisitesSubTitle" value="Riepilogo di eventuali prerequisiti critici o facoltativi mancanti."/>
+<string id="PreRequsitiesDetails" value="Le dipendenze critiche con errori devono essere gestite prima di proseguire con l'installazione, mentre le dipendenze facoltative con errori possono impedire l'installazione di alcuni componenti."/>
+<string id="AcceptKBAInfo" value="Ho letto SAP Knowledge Base Article 1794601 e verificato le informazioni condivise per garantire che l'aggiornamento pianificato sia consigliato e supportato."/>
+<string id="AcceptKBAInfoUnix" value="Premere []Invio] dopo aver letto SAP Knowledge Base Article 1794601 e verificato le informazioni condivise per garantire che l'aggiornamento pianificato sia consigliato e supportato."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Prerequisito"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Tipo"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Stato"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Critico"/>
+<string id="Column_Type_Optional" value="Facoltativo"/>
+<string id="Column_Status_Succeeded" value="Operazione eseguita"/>
+<string id="Column_Status_Missing" value="Errore"/>
+<string id="Hints_Why_Fails" value="Se un prerequisito non viene soddisfatto, fare clic su di esso per reperire informazioni sulla sua risoluzione."/>
+<string id="Failure_Reason" value="Informazioni: "/>
+<string id="PreRequisitesUIText_Failure" value="Verifica prerequisiti non riuscita"/>
+<string id="Retry_Button" value="Riprova"/>
+<string id="Back_Button" value="Indietro"/>
+</context>
+</uitext>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="ru"/>
+  <context>
+    <string id="Yes" value="Да"/>
+    <string id="No" value="Нет"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="Отмена"/>
+    <string id="Abort" value="Прервать"/>
+    <string id="Continue" value="Продолжить"/>
+    <string id="Ignore" value="Пропустить"/>
+    <string id="Next" value="Далее"/>
+    <string id="Previous" value="Назад"/>
+    <string id="Info" value="Сведения"/>
+    <string id="Warning" value="Предупреждение"/>
+    <string id="Error" value="Ошибка"/>
+    <string id="FatalError" value="Неустранимая ошибка"/>
+    <string id="ErrorDialogTitle" value="Ошибка"/>
+    <string id="ErrorDialogSubtitle" value="Произошла ошибка."/>
+    <string id="ErrorDialogFooter" value="Нажмите ВВОД для продолжения."/>
+    <string id="WarnDialogTitle" value="Предупреждение"/>
+    <string id="WarnDialogSubtitle" value="Выдано предупреждение."/>
+    <string id="WarnDialogFooter" value="Нажмите CTRL+B для возврата или ВВОД для продолжения."/>
+    <string id="InfoDialogTitle" value="Информация"/>
+    <string id="InfoDialogSubtitle" value="Предоставлены следующие сведения:"/>
+    <string id="InfoDialogFooter" value="Нажмите ВВОД для продолжения."/>
+    <string id="DefaultUnixFooter" value="Нажмите TAB для перехода к следующему полю, CTRL+B для перехода к предыдущему полю, CTRL+X для выхода или ВВОД для продолжения."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Нажмите TAB для перехода к следующему полю, CTRL+X для выхода или ВВОД для продолжения."/>
+    <string id="ProgressDialogUnixFooter" value="Нажмите CTRL+X для выхода."/>
+    <string id="CancelCaption" value="Отмена"/>
+    <string id="CancelExitSetup" value="Выход из настройки"/>
+    <string id="CancelMsg" value="Если выйти сейчас, программа не будет установлена. Для завершения установки можно запустить программу установки позднее.\nЧтобы продолжить установку, нажмите кнопку &quot;Возобновить&quot;. Чтобы завершить работу программы установки, нажмите &quot;Выход&quot;."/>
+    <string id="CancelResume" value="Возобновить"/>
+    <string id="DialogCaption" value="Установка #product.fullproductnamenospace#"/>
+    <string id="outofspace" value="Нет свободного места на жестком диске"/>
+    <string id="CanceledModifier" value="%1 (отмена)"/>
+    <string id="ValidationCaption" value="Результат проверки"/>
+    <string id="ValidationError" value="Ошибка:"/>
+    <string id="ValidationToDo" value="Нажмите кнопку &quot;OK&quot; для исправления ошибки проверки. При наличии только предупреждений, нажмите &quot;Да&quot;, чтобы продолжить, или &quot;Нет&quot;, чтобы исправить ошибку."/>
+    <string id="ValidationWarning" value="Предупреждение:"/>
+    <string id="Validation.MissingFields" value="Прежде чем продолжить установку, заполните обязательные поля."/>
+    <string id="ValidationFailed.Blocking" value="Выполнение остановлено, поскольку не удалось проверить следующее действие:"/>
+    <string id="ValidationFailed.Optional" value="Не удалось выполнить необязательную проверку для следующего действия:"/>
+    <string id="action.InstallDUBundle" value="Установка модуля развертывания:"/>
+    <string id="action.UninstallDUBundle" value="Удаление модуля развертывания:"/>
+    <string id="action.RegisterBinary" value="Зарегистрировать двоичный файл"/>
+    <string id="action.UnregisterBinary" value="Отменить регистрацию двоичного файла"/>
+    <string id="action.ConfigureTomcat" value="Настройка Tomcat"/>
+    <string id="action.BOBJTextReplace" value="Выполнить замену текста"/>
+    <string id="action.RunCommand" value="Запустить исполняемый файл командной строки"/>
+    <string id="action.RunCommandConditional" value="Запустить исполняемый файл командной строки при определенных условиях"/>
+    <string id="action.EnsureFolderExists" value="Убедитесь, что папка существует"/>
+    <string id="action.CreateShortcut" value="Создать ярлык в меню &quot;Пуск&quot;"/>
+    <string id="action.AddARPEntry" value="Добавить запись в компонент &quot;Установка и удаление программ&quot;"/>
+    <string id="action.RemoveARPEntry" value="Удалить запись из компонента &quot;Установка и удаление программ&quot;"/>
+    <string id="action.BOBJRegasm" value="Выполнить регистрацию сборки"/>
+    <string id="action.BOBJUnRegasm" value="Удалить регистрацию сборки"/>
+    <string id="sequence.InstallPreReqs" value="Предварительные условия установки"/>
+    <string id="sequence.SetInitialProperties" value="Установить исходные свойства"/>
+    <string id="sequence.SetMyProperties" value="Установить свойства продукта"/>
+    <string id="sequence.InstallDUBase" value="Действия по установке"/>
+    <string id="sequence.InstallDUBundles" value="Установка модулей развертывания"/>
+    <string id="sequence.CreateSymLinks" value="Создать Symlinks"/>
+    <string id="sequence.ConfigureDUBase" value="Настройка модулей развертывания"/>
+    <string id="sequence.PopulateRegistry" value="Заполнить реестр"/>
+    <string id="sequence.InstallServices" value="Установка служб"/>
+    <string id="sequence.ConfigureServices" value="Настройка служб"/>
+    <string id="sequence.StartServices" value="Запустить службы"/>
+    <string id="sequence.StopServices" value="Остановить службы"/>
+    <string id="sequence.UninstallServices" value="Удаление служб"/>
+    <string id="sequence.UnPopulateRegistry" value="Отменить заполнение реестра"/>
+    <string id="sequence.UninstallDUBase" value="Удаление действий"/>
+    <string id="sequence.UnconfigureDUBase" value="Отмена настройки модулей развертывания"/>
+    <string id="sequence.RemoveSymLinks" value="Удалить Symlinks"/>
+    <string id="sequence.UninstallDUBundles" value="Удаление модулей развертывания:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Удалить пустые папки"/>
+    <string id="Dialog.title" value="Сообщение программы установки"/>
+    <string id="PleaseWait" value="Подождите..."/>
+    <string id="LongCalculation" value="Выполняется длительное вычисление, подождите..."/>
+    <string id="DiskCostInProgress" value="Выполняется оценка дискового пространства."/>
+    <string id="Confirm.title" value="Подтвердить"/>
+    <string id="Permissions.title" value="Настройка разрешений"/>
+    <string id="NoPermissionsOperation" value="Отсутствуют права на выполнение операций с установленным экземпляром."/>
+    <string id="NoPermissionsFile" value="Отсутствуют права на доступ к следующему файлу: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Программа установки обнаружила, что уже установлена более старая версия приложения #productname#. Данная  программа установки является полным пакетом установки и не может применяться на компьютере с установленной старой версией. Используйте пакет обслуживания #product.fullproductname#, чтобы обновить существующую установку."/>
+    <string id="OlderCryptoDllFound" value="Программа установки обнаружила, что установлена переменная среды R_SHLIB_LD_LIBRARY_PATH, и двоичные криптографические файлы имеют версию ниже необходимой для продолжения установки. Откройте документ по следующей ссылке и следуйте приведенным в нем инструкциям, чтобы выполнить установку."/>
+    <string id="CmdLine.title" value="Командная строка программы установки"/>
+    <string id="InvalidCmdLine" value="Недопустимая командная строка"/>
+    <string id="ExpectedCmdLine" value="Ожидаемая командная строка: %1"/>
+    <string id="ActionFailed" value="Сбой пользовательского действия"/>
+    <string id="ActionFailedArg" value="Сбой пользовательского действия: %1"/>
+    <string id="ActionFailedWithCode" value="Сбой пользовательского действия с кодом ошибки:"/>
+    <string id="RegistrationFailed" value="Не удалось зарегистрировать двоичный файл: %1"/>
+    <string id="NoFindFile" value="Файл не найден: %1"/>
+    <string id="NoCMS" value="Не удалось подключиться к CMS"/>
+    <string id="NoCMSArg" value="Не удалось подключиться к CMS в %1"/>
+    <string id="DFOFailed" value="Сбой загрузки DFO"/>
+    <string id="wdeployFailed" value="wDeploy не удалось развернуть приложение."/>
+    <string id="ScriptFailed" value="Не удалось выполнить скрипт: %1"/>
+    <string id="CmdFailed" value="Не удалось выполнить командную строку: %1"/>
+    <string id="ServerStartFailed" value="Не удалось запустить сервер: %1"/>
+    <string id="ServerStopFailed" value="Не удалось остановить сервер: %1"/>
+    <string id="ExitCode" value="Код выхода: %1"/>
+    <string id="DBInitFail" value="Не удалось инициализировать базу данных"/>
+    <string id="ShortcutFail" value="Не удалось создать ярлык: %1"/>
+    <string id="ARPFail" value="Не удалось создать запись продукта %1 в компоненте &quot;Установка и удаление программ&quot;"/>
+    <string id="CreateFolderFail" value="Не удалось создать папку: %1"/>
+    <string id="SamplesFail" value="Не удалось добавить примеры"/>
+    <string id="LicenseKeyFail" value="Не удалось добавить ключ лицензии"/>
+    <string id="Tomcatfail" value="Не удалось настроить Tomcat"/>
+    <string id="PropertyFail" value="Не удалось получить значение свойства: %1"/>
+    <string id="dev" value="Английский (разработка)"/>
+    <string id="aa" value="Афарский"/>
+    <string id="ab" value="Абхазский"/>
+    <string id="af" value="Африкаанс"/>
+    <string id="am" value="Амхарский"/>
+    <string id="ar" value="Арабский"/>
+    <string id="as" value="Ассамский"/>
+    <string id="ay" value="Аймара"/>
+    <string id="az" value="Азербайджанский"/>
+    <string id="ba" value="Башкирский"/>
+    <string id="be" value="Белорусский"/>
+    <string id="bg" value="Болгарский"/>
+    <string id="bh" value="Бихарский"/>
+    <string id="bi" value="Бислама"/>
+    <string id="bn" value="Бенгальский"/>
+    <string id="bo" value="Тибетский"/>
+    <string id="br" value="Бретонский"/>
+    <string id="ca" value="Каталанский"/>
+    <string id="co" value="Корсиканский"/>
+    <string id="cs" value="Чешский"/>
+    <string id="cy" value="Уэльский"/>
+    <string id="da" value="Датский"/>
+    <string id="de" value="Немецкий"/>
+    <string id="dz" value="Бутанский"/>
+    <string id="el" value="Греческий"/>
+    <string id="en" value="Английский"/>
+    <string id="eo" value="Эсперанто"/>
+    <string id="es" value="Испанский"/>
+    <string id="et" value="Эстонский"/>
+    <string id="eu" value="Баскский"/>
+    <string id="fa" value="Персидский"/>
+    <string id="fi" value="Финский"/>
+    <string id="fj" value="Фиджийский"/>
+    <string id="fo" value="Фарерский"/>
+    <string id="fr" value="Французский"/>
+    <string id="fy" value="Фризский"/>
+    <string id="ga" value="Ирландский"/>
+    <string id="gd" value="Шотландский гэльский"/>
+    <string id="gl" value="Галисийский"/>
+    <string id="gn" value="Гуарани"/>
+    <string id="gu" value="Гуджарати"/>
+    <string id="ha" value="Хауса"/>
+    <string id="he" value="Иврит"/>
+    <string id="hi" value="Хинди"/>
+    <string id="hr" value="Хорватский"/>
+    <string id="hu" value="Венгерский"/>
+    <string id="hy" value="Армянский"/>
+    <string id="ia" value="Интерлингва"/>
+    <string id="id" value="Индонезийский"/>
+    <string id="ie" value="Интерлингве"/>
+    <string id="ik" value="Инупиак"/>
+    <string id="is" value="Исландский"/>
+    <string id="it" value="Итальянский"/>
+    <string id="iu" value="Инуктитут"/>
+    <string id="ja" value="Японский"/>
+    <string id="jw" value="Яванский"/>
+    <string id="ka" value="Грузинский"/>
+    <string id="kk" value="Казахский"/>
+    <string id="kl" value="Гренландский"/>
+    <string id="km" value="Камбоджийский"/>
+    <string id="kn" value="Каннада"/>
+    <string id="ko" value="Корейский"/>
+    <string id="ks" value="Кашмири"/>
+    <string id="ku" value="Курдский"/>
+    <string id="ky" value="Киргизский"/>
+    <string id="la" value="Латинский"/>
+    <string id="ln" value="Лингала"/>
+    <string id="lo" value="Лаосский"/>
+    <string id="lt" value="Литовский"/>
+    <string id="lv" value="Латвийский"/>
+    <string id="mg" value="Малагасийский"/>
+    <string id="mi" value="Маори"/>
+    <string id="mk" value="Македонский"/>
+    <string id="ml" value="Малайялам"/>
+    <string id="mn" value="Монгольский"/>
+    <string id="mo" value="Молдавский"/>
+    <string id="mr" value="Маратхский"/>
+    <string id="ms" value="Малайский"/>
+    <string id="mt" value="Мальтийский"/>
+    <string id="my" value="Бирманский"/>
+    <string id="na" value="Науру"/>
+    <string id="nb" value="Норвежский"/>
+    <string id="ne" value="Непальский"/>
+    <string id="nl" value="Нидерландский"/>
+    <string id="oc" value="Окситанский"/>
+    <string id="om" value="Оромо"/>
+    <string id="or" value="Ория"/>
+    <string id="pa" value="Панджаби"/>
+    <string id="pl" value="Польский"/>
+    <string id="ps" value="Пушту"/>
+    <string id="pt" value="Португальский"/>
+    <string id="qu" value="Кечуа"/>
+    <string id="rm" value="Ретороманский"/>
+    <string id="rn" value="Кирунди"/>
+    <string id="ro" value="Румынский"/>
+    <string id="ru" value="Русский"/>
+    <string id="rw" value="Киньяруанда"/>
+    <string id="sa" value="Санскрит"/>
+    <string id="sd" value="Синдхи"/>
+    <string id="sg" value="Сангхо"/>
+    <string id="sh" value="Сербохорватский"/>
+    <string id="si" value="Сингальский"/>
+    <string id="sk" value="Словацкий"/>
+    <string id="sl" value="Словенский"/>
+    <string id="sm" value="Самоанский"/>
+    <string id="sn" value="Шона"/>
+    <string id="so" value="Сомалийский"/>
+    <string id="sq" value="Албанский"/>
+    <string id="sr" value="Сербский"/>
+    <string id="ss" value="Сисвати"/>
+    <string id="st" value="Сесото"/>
+    <string id="su" value="Сунданский"/>
+    <string id="sv" value="Шведский"/>
+    <string id="sw" value="Суахили"/>
+    <string id="ta" value="Тамильский"/>
+    <string id="te" value="Телугу"/>
+    <string id="tg" value="Таджикский"/>
+    <string id="th" value="Тайский"/>
+    <string id="ti" value="Тигринья"/>
+    <string id="tk" value="Туркменский"/>
+    <string id="tl" value="Тагальский"/>
+    <string id="tn" value="Сетсвана"/>
+    <string id="to" value="Тонга"/>
+    <string id="tr" value="Турецкий"/>
+    <string id="ts" value="Тсонга"/>
+    <string id="tt" value="Татарский"/>
+    <string id="tw" value="Чви"/>
+    <string id="ug" value="Уйгурский"/>
+    <string id="uk" value="Украинский"/>
+    <string id="ur" value="Урду"/>
+    <string id="uz" value="Узбекский"/>
+    <string id="vi" value="Вьетнамский"/>
+    <string id="vo" value="Волапюк"/>
+    <string id="wo" value="Волоф"/>
+    <string id="xh" value="Коса"/>
+    <string id="yi" value="Идиш"/>
+    <string id="yo" value="Йоруба"/>
+    <string id="za" value="Чжуанский"/>
+    <string id="zh_CN" value="Упрощенный китайский"/>
+    <string id="zh_TW" value="Традиционный китайский"/>
+    <string id="zu" value="Зулусский"/>
+    <string id="SetupInitSh.root" value="Выполните вход с учетной записью пользователя root и запустите программу, чтобы настроить скрипты инициализации."/>
+    <string id="SetupInitSh.fail" value="Сбой скриптов инициализации системы."/>
+    <string id="property.InstallDir.description" value="Каталог установки"/>
+    <string id="property.SetupUILanguage.description" value="Язык пользовательского интерфейса программы установки"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Отсортированные доступные языки интерфейса программы установки"/>
+    <string id="property.SelectedLanguagePacks.description" value="Выбранные для установки языковые пакеты"/>
+    <string id="property.ProductKey.description" value="Код ключа продукта"/>
+    <string id="property.RegisteredCompany.description" value="Зарегистрировано на компанию"/>
+    <string id="property.RegisteredUser.description" value="Зарегистрировано на пользователя"/>
+    <string id="property.InstallCompatibilityMode.description" value="Обновление предыдущего продукта или параллельная установка"/>
+    <string id="property.IsAcceptEULA.description" value="Принимает ли система лицензионное соглашение с конечным пользователем?"/>
+    <string id="property.FormattedString.description" value="Формат целевой строки"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="Запуск wDeploy"/>
+    <string id="description.cmsname" value="Имя CMS"/>
+    <string id="description.cmsport" value="Порт CMS"/>
+    <string id="description.cmsusername" value="Имя пользователя CMS"/>
+    <string id="description.cmspassword" value="Пароль CMS"/>
+    <string id="description.cmsauth" value="Авторизация CMS"/>
+    <string id="description.sianame" value="Имя SIA"/>
+    <string id="description.siaport" value="Порт SIA"/>
+    <string id="property.CMSPassword.description" value="Пароль администратора CMS"/>
+    <string id="property.CMSPort.description" value="Порт соединения CMS"/>
+    <string id="property.CryptoKey.description" value="Ключ кластера CMS"/>
+    <string id="property.EnableServers.description" value="Запустить серверы после установки: 0 или 1"/>
+    <string id="property.UsingAuditDBType.description" value="Тип базы данных аудита"/>
+    <string id="property.UsingCMSDBType.description" value="Тип базы данных CMS"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Существующяя база данных аудита (БД)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Пароль существующей базы данных аудита"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Порт существующей базы данных аудита"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Флаг сброса существующей БД аудита: 0 или 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Флаг &quot;Использовать внешнюю аутентификацию&quot; существующей БД аудита: 0 или 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Сервер существующей базы данных аудита"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Имя пользователя существующей базы данных аудита"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Существующяя база данных CMS (БД)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Пароль существующей базы данных CMS"/>
+    <string id="property.ExistingCMSDBPort.description" value="Порт существующей базы данных CMS"/>
+    <string id="property.ExistingCMSDBReset.description" value="Флаг сброса существующей базы данных CMS: 0 или 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Флаг &quot;Использовать внешнюю аутентификацию&quot; существующей БД CMS: 0 или 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Сервер существующей базы данных CMS"/>
+    <string id="property.ExistingCMSDBUser.description" value="Имя пользователя существующей базы данных CMS"/>
+    <string id="property.NewOrExpandInstall.description" value="Режим установки: new, expand"/>
+    <string id="property.MySQLBOEUserName.description" value="Имя пользователя связанной базы данных для пользователя платформы BI"/>
+    <string id="property.MySQLBOEUserPassword.description" value="Пароль связанной базы данных для пользователя платформы BI"/>
+    <string id="property.MySQLPort.description" value="Порт коннектора связанной базы данных"/>
+    <string id="property.MySQLRootPassword.description" value="Пароль пользователя root связанной базы данных"/>
+    <string id="property.RemoteCMSAdminName.description" value="Имя администратора удаленного CMS"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="Пароль администратора удаленного CMS"/>
+    <string id="property.RemoteCMSName.description" value="Имя удаленного CMS"/>
+    <string id="property.RemoteCMSPort.description" value="Порт удаленного CMS"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Пропустиь предупреждение удаленного CMS о входе"/>
+    <string id="property.MaintenanceMode.description" value="Операция обслуживания для выполнения"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Установить интегрированную базу данных: 0 или 1 "/>
+    <string id="property.SIAName.description" value="Имя узла SIA"/>
+    <string id="property.SIAPort.description" value="Порт коннектора SIA"/>
+    <string id="property.TomcatConnectionPort.description" value="Порт соединения Tomcat"/>
+    <string id="property.TomcatRedirectPort.description" value="Порт перенаправления Tomcat"/>
+    <string id="property.TomcatShutdownPort.description" value="Порт завершения работы Tomcat"/>
+    <string id="property.WACSPort.description" value="Порт WACS"/>
+    <string id="property.WebAppServerType.description" value="Тип сервера веб-приложений: Tomcat, настраиваемый вручную или WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Имя сервера Solution Manager"/>
+    <string id="property.SolMgr_Port.description" value="Порт сервера Solution Manager"/>
+    <string id="property.SolMgr_Username.description" value="Имя пользователя для соединения с Solution Manager"/>
+    <string id="property.SolMgr_Password.description" value="Пароль для соединения с Solution Manager"/>
+    <string id="property.SolMgr_UseHttps.description" value="Использовать протокол HTTPS для соединения с Solution Manager: 0 или 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="Это свойство содержит строку SharedAlwaysFailureMessage"/>
+    <string id="property.SMDAgent_HOST.description" value="Имя хоста агента SMD"/>
+    <string id="property.SMDAgent_PORT.description" value="Номер порта агента SMD"/>
+    <string id="property.UPGRADE.description" value="Флаг разрешения обновления без вывода сообщений: 0 или 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Интеграция агента Solution Manager Diagnostics (SMD): integrate или nointegrate"/>
+    <string id="property.ChooseSLDIntegration.description" value="Интеграция SLD: integrate или nointegrate"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Интеграция Introscope Enterprise Manager: integrate или nointegrate"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Имя хоста Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Номер порта Introscope Enterprise Manager"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Инструментарий Introscope Enterprise Manager"/>
+    <string id="property.NewOrExistingLCM.description" value="Установка нового или использование существующего LCM: new или existing"/>
+    <string id="property.LCMName.description" value="Имя сервера LCM"/>
+    <string id="property.LCMUserName.description" value="Имя пользователя LCM"/>
+    <string id="property.LCMPassword.description" value="Пароль LCM"/>
+    <string id="property.LCMPort.description" value="Порт LCM"/>
+    <string id="property.InstallType.description" value="Тип установки: default или custom"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Предварительные условия Crystal Reports: обладает ли пользователь правами администратора?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Каталог для установки Crystal Reports Viewer на отдельные компьютеры"/>
+    <string id="PatchUpdateCheck" value="Проверить обновления продуктов"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Уровень исправлений операционной системы"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Операционная система не соответствует минимальному уровню исправлений, необходимому для установки данного продукта. См. документацию по требованиям к платформе."/>
+    <string id="prereq.pingLocalhost" value="Настройки сети"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Тестовый опрос локального хоста 127.0.0.1 или имени хоста компьютера завершен неудачно. Для продолжения установки настройте компьютер так, чтобы с ним можно было связаться. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Проверка дискового пространства"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Убедитесь, что дисковое пространство, необходимое для продолжения установки, доступно. Дополнительные сведения см. на веб-сайте https://apps.support.sap.com/sap/support/pam."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Права администратора"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Необходимо войти в систему, используя учетную запись пользователя с правами администратора. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 или более поздней версии"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Установите Microsoft .NET Framework 4.0 или более поздней версии."/>
+    <string id="prereq.RootUserPreReqText" value="Права пользователя root"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Эту установку нельзя продолжить с учетной записью пользователя root. Для установки продукта войдите с учетной записью другого пользователя. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64-разрядная операционная система"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Для установки этого продукта необходима 64-разрядная операционная система. Убедитесь, что операционная система соответствует этому требованию."/>
+    <string id="prereq.WindowsVersionPreReqText" value="Версия Windows"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Для установки этого продукта необходима операционная система (ОС) Windows 8.1 или Server 2012 R2 или более поздней версии. Убедитесь, что ОС удовлетворяет этому требованию."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Версия Windows"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Для установки этого продукта необходима ОС Windows Server 2012 R2 или более поздняя версия Windows Server. Убедитесь, что используемая версия Windows удовлетворяет этим требованиям."/>
+    <string id="prereq.SQLExpressPreReqText" value="Требования для интегрированной базы данных"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Установите Microsoft .NET Framework 3.5 SP1 или более поздней версии и установщик Windows 4.5."/>
+    <string id="prereq.SQLExpressRequirementText" value="Требования для MS SQL Express"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Для Microsoft SQL Express требуются Microsoft .NET Framework 3.5 SP1 и Windows Installer 4.5. Установите эти пакеты, прежде чем устанавливать SQL Express."/>
+    <string id="prereq.PendingStatusPreReqText" value="Перезагрузка запрещена"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="Запрос на перезагрузку на локальном компьютере был подавлен. Для продолжения установки перезагрузите компьютер. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Версия 4.x продукта не установлена."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Версия 4.x продукта установлена."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Интегрированная база данных - домашний каталог"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Для интегрированной базы данных в домашнем каталоге пользователя должны быть заданы права доступа 755. Задайте их, чтобы установить базу данных."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Интегрированная база данных - каталоги"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="Для DB2 наличие на компьютере каталогов ~/sqllib и ~/$USER запрещено. Если эти каталоги существуют, необходимо удалить их, чтобы использовать интегрированную базу данных DB2."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="Невозможна установка #product.mini_bip_name# или #product.cr_server_name#"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="#productname# нельзя установить на том же компьютере, где установлено приложение #product.mini_bip_name# или #product.cr_server_name#.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="Невозможна установка #product.boe64_name# или #product.cr_server_name#"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="Невозможно установить #productname#; #product.boe64_name# или уже установлено приложение #product.cr_server_name# INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="Нельзя установить приложение #product.ras_name#"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="#productname# нельзя установить на том же компьютере, где установлено приложение #product.ras_name#.  INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="Совместимость #product.IS_name# и #product.DS_name#"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="На компьютере обнаружено развертывание SAP #product.DS_name# и/или #product.IS_name#. Прежде чем продолжить, ознакомьтесь с информацией о совместимости и особенностях использования этих продуктов в SAP-ноте 1740516 (http://service.sap.com/sap/support/notes/1740516).  INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Программа установки обнаружила существующую установку и должна выполняться с командой UPGRADE=1. Программа установки будет закрыта."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Продолжение работы установщика невозможно из-за невыполнения критического предварительного условия."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="Выбран центральный сервер управления с параметром интегрированной базы данных, однако этот параметр отключен из-за невыполнения предварительных условий. Для продолжения установки устраните нарушения следующих условий:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Текущий пользователь не имеет прав доступа администратора и не може запускать программу установки."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Дисковое пространство в /tmp"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="В папке /tmp недостаточно места. Для продолжения установки освободите место на диске. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Дисковое пространство в /var"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="В папке /var недостаточно свободного дискового пространства. Для продолжения установки освободите как минимум 20 МБ на диске."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Интегрированная база данных - пользователь и группа"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Имя группы пользователей не удовлетворяет одному из ограничений DB2. Для получения дополнительных сведений перейдите на страницу http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 и найдите подраздел &quot;Ограничения идентификаторов пользователей&quot;."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Интегрированная база данных - UID и GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="Для DB2 требуется, чтобы значения UID и GID были меньше 65536. Введите меньшее число, чтобы использовать интегрированную базу данных DB2."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Интегрированная база данных - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="Для DB2 требуется наличие gunzip на системном пути. Измените системный путь,чтобы использовать интегрированную базу данных DB2."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Связанная DB - соответствие минимальным настройкам ядра HPUX для DB2"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Настройки ядра не удовлетворяют минимальным требованиям для DB2"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Приложение Crystal Reports 2013 не поддерживается в SUSE 11 или более поздней версии."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="Для 64-разрядной версии BOE .NET SDK требуется Microsoft .NET Framework 3.5 или более поздней версии. Перед установкой 64-разрядной версии BOE .NET SDK необходимо установить .NET Framework."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 или более поздней версии"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Установите Microsoft .NET Framework 3.0 или более поздней версии."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Средства Microsoft Visual Studio 2005 для Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Не установлена среда выполнения Microsoft Visual Studio 2005 Tools for Office Second Edition. Установите ее, перед тем как продолжать эту установку."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 или более поздней версии"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Не установлен пакет Microsoft Office 2003 или более поздней версии. Установите его, прежде чем продолжать эту установку."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Минимальная версия пакета поддержки"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="Это обновление относится к приложению #productname# #product_version##product_sp_version#, которое в системе не обнаружено. Установите его, перед тем как продолжать эту установку."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="Это обновление относится к приложению #productname# #product_version##product_sp_version#, которое в системе не обнаружено. Установите его, перед тем как продолжать эту установку."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Обновления применимы"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# имеет более позднюю версию, чем это обновление. Не устанавливайте это обновление."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Минимальный дополнительный номер выпуска"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="Это обновление относится к версии #productname# #product_version#, которая в системе не обнаружена. Установите ее, перед тем как продолжать эту установку."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Установлено настроенное приложение #productname_short# #productname_preversion#"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="Это обновление относится к настроенному приложению #productname_short# #productname_preversion#, которое в системе не обнаружено. Установите его, перед тем как продолжать эту установку."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Установка совместимого продукта"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Этот продукт уже установлен и доступен пользователям."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Служба установки Windows"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Установка приостановлена из-за недоступности или отключения службы установщика Windows (Startup type=Disabled). Установите и включите эту службу, чтобы продолжить установку."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="Чтобы завершить обновление кластера, после окончания установки на всех компьютерах кластера перезапустите все центральные серверы управления (CMS). Для этого потребуется войти в консоль Central Management Console."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Выполните вход в консоль Central Management Console (CMC) для дальнейшей настройки системы. Чтобы запустить CMC, выберите &quot;Пуск&quot; &gt; #product.boe64_name# &gt; Central Management Console."/>
+    <string id="postinstall.message.manualdeploy.common" value="На сервере веб-приложений не развернуты веб-приложения и веб-службы Java. Запустите средство wDeploy, чтобы развернуть их."/>
+    <string id="postinstall.message.manualdeploy.windows" value="Чтобы запустить средство wDeploy, выберите &quot;Пуск &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy&quot;."/>
+    <string id="postinstall.message.manualdeploy.unix" value="Средство wDeploy находится в [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="Для завершения установки системы выполните этот скрипт с разрешениями пользователя root: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Определите URL-адрес средства просмотра по умолчанию для OpenDocument. Этот компьютер еще не зарегистрирован в качестве сервера веб-приложений по умолчанию для обработки запросов на просмотр документов. Может потребоваться зарегистрировать его на центральном сервере управления в качестве сервера веб-приложений по умолчанию. Для изменения страницы свойств OpenDocument используйте Central Management Console."/>
+    <string id="PostInstall.message.monitoring" value="Чтобы получить доступ к средству мониторинга для запуска тестов диагностики, выполните вход в Central Management Console, нажмите кнопку &quot;Мониторинг&quot; и перейдите на вкладку &quot;Зонды&quot;."/>
+    <string id="postInstall.message.new.features.announce.windows" value="В этом обновлении представлены два новых компонента: {b}веб-службы RESTful{/b} и {b}платформа Insight to Action{/b}. Чтобы использовать эти компоненты, выполните изменение базовой системы и добавьте новые компоненты."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}Веб-службы RESTful{/b}: пакет SDK веб-служб RESTful для платформы Business Intelligence  обеспечивает доступ к платформе BI по протоколу HTTP. С помощью этого пакета вы можете входить на платформу BI, просматривать ее репозиторий, получать доступ к ресурсам и выполнять базовые операции планирования ресурсов. Этот компонент необходим для сохранения моделей Dashboards и документов Live Office в репозитории после обновления."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Платформа Insight to Action{/b} обеспечивает вызов операционных транзакций в приложениях SAP и сторонних поставщиков, которые определены с использованием интерфейса Report-Report Interface в NetWeaver. Этот компонент поддерживается в приложениях Crystal Reports и BusinessObjects Dashboards."/>
+    <string id="postInstall.message.new.features.announce.unix" value="В этом обновлении представлены два новых компонента: веб-службы RESTful и платформа Insight to Action. Чтобы использовать их, выполните изменение базовой системы и добавьте новые компоненты."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="Веб-службы RESTful: пакет SDK веб-служб RESTful для платформы Business Intelligence  обеспечивает доступ к платформе BI по протоколу HTTP. С помощью этого пакета вы можете входить на платформу BI, просматривать ее репозиторий, получать доступ к ресурсам и выполнять базовые операции планирования ресурсов. Этот компонент необходим для сохранения моделей Dashboards и документов Live Office в репозитории после обновления."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Платформа Insight to Action обеспечивает вызов операционных транзакций в приложениях SAP и сторонних поставщиков, которые определены с использованием интерфейса Report-Report Interface в NetWeaver. Этот компонент поддерживается в приложениях Crystal Reports и BusinessObjects Dashboards."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Программа установки обнаружила клиент MySQL 5.0, который более не поддерживается в качестве соединения с базой данных. Чтобы обеспечить работу системы, обновите клиент MySQL до версии 5.1."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Новый компонент Mobile Servers обеспечивает доступ к данным Business Intelligence с мобильных устройств. Чтобы активировать этот компонент, выполните изменение базовой установки и выберите Mobile Servers."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Связанный сервер Tomcat обновлен до Tomcat 9. Все пользовательские настройки, примененные для Tomcat, перенесены из старой версии в Tomcat 9. Тем не менее, настоятельно рекомендуется проверить доступность пользовательских настроек в Tomcat 9."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Пакет по обслуживанию: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Пакет по обслуживанию: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Пакет по обслуживанию: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Пакет по обслуживанию\n\n"/>
+    <string id="product.boe64_name" value="Платформа SAP BusinessObjects BI"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="Сервер платформы BI"/>
+    <string id="product.boec_bip_name" value="Платформа SAP BusinessObjects BI"/>
+    <string id="product.boec_client_name" value="Средства клиента"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="Клиент платформы BI"/>
+    <string id="product.boeruntime_name" value="Распространяемый пакет .NET SDK для платформы SAP BusinessObjects BI"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports для Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="Дополнительный компонент SAP BusinessObjects BI для SAP Lumira"/>
+    <string id="product.lumiraboe_shortname" value="Дополнительный компонент BI для SAP Lumira"/>
+    <string id="product.mini_bip_name" value="Службы информационной платформы"/>
+    <string id="product.mini_bip_shortname" value="Службы информационной платформы"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="Интеграция SAP с ПО Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Интеграция SAP BusinessObjects с ПО Microsoft SharePoint"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM-версия"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP User Management Client"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="Платформа SAP BusinessObjects BI 4"/>
+    <string id="shortcut.folder.name.minibip" value="Службы информационной платформы 4"/>
+    <string id="shortcut.folder.name.boclient" value="Средства клиента для платформы SAP BusinessObjects BI 4"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports для Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM-версия"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="Средства клиента SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Запуск, остановка и настройка служб платформы"/>
+    <string id="shortcut.link.name.boserver.CMC" value="Консоль Central Management Console для платформы SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="Консоль Central Management Console сервера WACS платформы SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="Консоль Central Management Console для SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="Консоль Central Management Console WACS для SAP Crystal Server"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Консоль Central Management Console для служб информационной платформы"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Консоль Central Management Console сервера WACS для служб информационной платформы"/>
+    <string id="shortcut.link.description.CMC" value="Доступ к консоли управления"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="Стартовая панель платформы SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="Стартовая панель BI сервера WACS для платформы SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="Стартовая панель BI Java для SAP Crystal Server"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="Стартовая панель BI WACS для SAP Crystal Server"/>
+    <string id="shortcut.link.description.BILaunchpad" value="Запуск стартовой панели BI"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Средство управления обновлением"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Обновление предыдущих развертываний до платформы SAP BusinessObjects BI 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Мастер Диспетчера переноса объектов"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="Пользовательский интерфейс для пошагового выполнения экспорта, импорта и копирования содержимого CMS развертываний 4.x."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Обновление предыдущих развертываний до SAP Crystal Server 2020"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Обновление предыдущих развертываний до служб информационной платформы версии 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="Администратор 32-разрядного источника данных ODBC"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="Администратор источника данных ODBC"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Добавление, удаление и настройка источников данных и драйверов ODBC"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Онлайн-документация"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Доступ к онлайн-документации"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Администрирование Tomcat"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Доступ к администрированию Tomcat"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Конфигурация Tomcat"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Доступ к конфигурации Tomcat"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="Запуск средства wDeploy"/>
+    <string id="shortcut.link.name.BIWidgets" value="Виджеты"/>
+    <string id="shortcut.link.description.BIWidgets" value="Запуск виджетов"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Business View Manager"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Запуск Business View Manager"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Средство администрирования объединения данных"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Запуск средства администрирования объединения данных"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Cредство дизайна информации"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Запуск средства дизайна информации"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Конструктор Query as a Web Service"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Запуск конструктора Query as a Web Service"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Средство преобразования отчетов"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Запуск средства преобразования отчетов"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Средство управления переводами"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Запуск средства управления переводами"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Средство создания юниверсов"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Запуск средства создания юниверсов"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Запуск Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Запускает Web Intelligence Rich Client"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Создание и изменение форматированных информационных отчетов (RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Мастер загрузки отчетов"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Запуск мастера загрузки отчетов"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports для Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 Viewer"/>
+    <string id="shortcut.link.description.CRViewer" value="Просмотр форматированных информационных отчетов (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Стартовая панель сервера приложений отчетов"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Запуск стартовой панели сервера приложений отчетов"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Запуск Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Запуск Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="Пакет дополнительных компонентов SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Запуск пакета дополнительных компонентов Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Запускает SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="Пакет дополнительных компонентов SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Запускает пакет дополнительных компонентов SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="WACS консоли администрирования SAP BusinessObjects BI"/>
+    <string id="shortcut.link.name.boserver.ADC" value="Консоль администрирования SAP BusinessObjects BI"/>
+    <string id="shortcut.link.description.ADC" value="Доступ к консоли администрирования"/>
+    <string id="OverhangingPatchMessage" value="При продолжении установки из системы могут быть удалены исправления. Убедитесь, что выполняется установка совместимого пакета."/>
+    <string id="Installing41PatchOver40" value="Прежде чем продолжить, вручную создайте резервную копию существующей системы 4.0. Удалить установленное обновление 4.1 невозможно. Для восстановления состояния системы потребуется разеревная копия."/>
+    <string id="Block41PatchUninstall" value="Автоматическое удаление обновления 4.1 невозможно. Чтобы восстановить состояние системы версии 4.0, удалите существующие двоичные файлы и воспользуйтесь созданной резервной копией системы версии 4.0."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="Для продукта #product.fullproductname# требуется новый ключ лицензии. Загрузите новый ключ лицензии с сайта SAP Service Market Place; удалите старый ключ лицензии и добавьте новый в Central Management Console. Дополнительные сведения см. в документации."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="В #product.fullproductnamenospace# исключен ряд продуктов и функций. После обновления следует выполнить действия, предписанные в SAP-ноте 2801797."/>
+    <string id="DeployLaterDescription" value="Режим разработки веб-приложения"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Версия родительского исправления для установленного hotfix"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Этот hotfix относится к исправлению #patch_id# для приложения #productname# #product_version# #product_sp_version#.Это исправление необходимо установить перед продолжением данной установки. Дополнительные сведения см. в SAP-ноте 2257993."/>
+  </context>
+</uitext>

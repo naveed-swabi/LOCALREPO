@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="SuccessInstallTitle" value="Tuotteen #product.fullproductnamenospace# asennus onnistui."/>
+<string id="SuccessInstallDescription" value="Lopeta asennus valitsemalla Lopeta."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# havaitsi virheitä asennuksen aikana."/>
+<string id="FailureInstallDescription" value="Lopeta asennus valitsemalla Lopeta."/>
+<string id="SuccessUnInstallTitle" value="Tuotteen #product.fullproductnamenospace# asennuksen poisto onnistui."/>
+<string id="SuccessUnInstallDescription" value="Lopeta asennuksen poisto valitsemalla Lopeta."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace#, asennettiin; varoituksia ilmeni."/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# havaitsi virheitä asennuksen poiston aikana."/>
+<string id="FailureUnInstallDescription" value="Lopeta asennuksen poisto valitsemalla Lopeta."/>
+<string id="FinishButton" value="Lopeta"/>
+<string id="ViewLogButton" value="Näytä loki"/>
+<string id="LaunchWDeploy" value="Käynnistä WDeploy-työkalu automaattisesti asennuksen jälkeen."/>
+<string id="LaunchSSW" value="Käynnistä järjestelmän asennusavustaja"/>
+<string id="HyperlinkText" value="Saat lisätietoja napsauttamalla tätä"/>
+</context>
+</uitext>

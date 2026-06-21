@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="InvalidProductKey" value="Annoit virheellisen tuoteavaimen."/>
+<string id="EnterProductKeyTitle" value="Määritä tuotteen rekisteröinti"/>
+<string id="EnterProductKeySubtitle" value="Anna tuotteen #product.nameandversionwithoutpatch# tuoteavain."/>
+<string id="EnterProductKeyFooter" value="Palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+<string id="ProductkeyInfoGroup" value="Tuoteavaimen tiedot"/>
+<string id="ProductkeyLabel" value="Tuoteavain:"/>
+<string id="Invalid_ProductKey" value="Tuoteavain ei kelpaa. INS00140"/>
+</context>
+</uitext>

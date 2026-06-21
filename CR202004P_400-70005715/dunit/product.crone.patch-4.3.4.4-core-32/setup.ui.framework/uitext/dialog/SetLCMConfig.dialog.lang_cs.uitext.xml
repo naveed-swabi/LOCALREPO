@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="SetLCMConfigTitle" value="Konfigurovat produkt Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Zadejte port a uživatelské jméno systému pro řízení verze produktu Subversion."/>
+<string id="repoInfoGroup" value="Informace o úložišti produktu Subversion"/>
+<string id="repoName" value="Název úložiště:"/>
+<string id="repoPort" value="Port úložiště:"/>
+<string id="repoPortInline" value="Port produktu Subversion:"/>
+<string id="repoUserInfoGroup" value="Informace o uživateli úložiště produktu Subversion"/>
+<string id="repoUserName" value="Účet uživatele úložiště:"/>
+<string id="repoUserPass" value="Heslo účtu úložiště:"/>
+<string id="repoUserPassInline" value="Heslo účtu uživatele úložiště:"/>
+<string id="repoUserPass2" value="Potvrdit heslo:"/>
+<string id="Mismatch_LCMPassword" value="Hesla se neshodují. Ověřte je a opakujte akci. INS00267"/>
+<string id="Invalid_LCMPassword" value="Heslo je příliš jednoduché. Heslo musí být dlouhé alespoň šest znaků a musí vždy obsahovat alespoň dva znaky z následujících tříd znaků: velká písmena a malá písmena. INS00127"/>
+</context>
+</uitext>

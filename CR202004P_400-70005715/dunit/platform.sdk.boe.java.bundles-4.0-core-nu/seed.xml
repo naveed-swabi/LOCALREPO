@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.sdk.boe.java.bundles-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win32_x86" installiverseId="aurora" sizeInCache="13148961">
+    <requiredDeploymentUnit ref="foundation.bcm.java.bundle-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.javalibs.bundle-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.sdk.boe.java-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.apache.axis2.bundle-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.java.bundle-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.xpp3.bundle-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="8ABA6936-F9FA-4ED8-9AD7-7A1A86FA404C"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

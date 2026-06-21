@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="SetLCMConfigTitle" value="Configurar subversión"/>
+<string id="SetLCMConfigSubtitle" value="Introduzca el puerto y el nombre de usuario para el sistema de control de versiones de subversión."/>
+<string id="repoInfoGroup" value="Información de repositorio de Subversion"/>
+<string id="repoName" value="Nombre del repositorio:"/>
+<string id="repoPort" value="Puerto del repositorio:"/>
+<string id="repoPortInline" value="Puerto de subversión:"/>
+<string id="repoUserInfoGroup" value="Información de usuario del repositorio de subversión"/>
+<string id="repoUserName" value="Cuenta de usuario de repositorio:"/>
+<string id="repoUserPass" value="Contraseña de cuenta del repositorio:"/>
+<string id="repoUserPassInline" value="Contraseña de cuenta de usuario de repositorio:"/>
+<string id="repoUserPass2" value="Confirmar contraseña:"/>
+<string id="Mismatch_LCMPassword" value="Las contraseñas no coinciden. Compruébelo e inténtelo de nuevo. INS00267"/>
+<string id="Invalid_LCMPassword" value="La contraseña es demasiado simple. La longitud de la contraseña debe ser de seis caracteres como mínimo y siempre debe contener una de las siguientes clases de caracteres: mayúsculas y minúsculas. INS00127"/>
+</context>
+</uitext>

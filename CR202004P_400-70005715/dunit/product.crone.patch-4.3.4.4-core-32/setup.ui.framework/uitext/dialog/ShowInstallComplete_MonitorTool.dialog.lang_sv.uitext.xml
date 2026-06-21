@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# har  installerats utan fel."/>
+<string id="Description" value="Klicka på Slutför för att avsluta installationen."/>
+<string id="MonitorToolCheck" value="Kör programövervakningsverktyg"/>
+<string id="CustomNextButton" value="Slutför"/>
+</context>
+</uitext>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# has been successfully installed."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# has encountered errors during the install process."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# has encountered errors during the uninstall process."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# has been successfully uninstalled."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# has been successfully installed with warnings."/>
+<string id="Description" value="Click Finish to exit."/>
+<string id="FailedDescription" value="Click Finish to exit."/>
+<string id="Description_unix" value="Press []Enter] to exit."/>
+<string id="FailedDescription_unix" value="Press []D] for more details, or []Enter] to exit."/>
+<string id="LaunchWDeploy" value="Automatically launch WDeploy tool"/>
+<string id="LaunchWDeployUNIX" value="Please launch [EnterpriseDir]wdeploy/wdeployGUI.sh after the installer exits."/>
+<string id="CustomNextButton" value="Finish"/>
+<string id="ViewLogButton" value="View Log"/>
+<string id="HyperlinkText" value="Click here for details"/>
+</context>
+</uitext>

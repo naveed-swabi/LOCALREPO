@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="InvalidProductKey" value="Du har angett en felaktig produktnyckel."/>
+<string id="EnterProductKeyTitle" value="Konfigurera produktregistrering"/>
+<string id="EnterProductKeySubtitle" value="Ange produktnyckel för #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Tryck på []Ctrl-B] för att gå bakåt, []Ctrl-X] för att avsluta eller []Retur] för att fortsätta."/>
+<string id="ProductkeyInfoGroup" value="Information om produktnyckel"/>
+<string id="ProductkeyLabel" value="Produktnyckel:"/>
+<string id="Invalid_ProductKey" value="Produktnyckeln är inte giltig. INS00140"/>
+</context>
+</uitext>

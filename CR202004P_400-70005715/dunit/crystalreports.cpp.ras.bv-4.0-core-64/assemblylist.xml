@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Instances\[S__OS.MACHINENAME].RAS">
+    <registryValue name="AuditLogFilesDirectory" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\Auditing</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server">
+    <registryValue name="AuditLogFilesDirectory" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\Auditing</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Server">
+    <registryValue name="DataEngineName" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\crpe32.dll</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\InprocServer">
+    <registryValue name="DataEngineName" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\crpe32.dll</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\InprocServer\LocalConnectionMgr">
+    <registryValue name="ConnectionDirectoryPath" type="string">c:\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Server">
+    <registryValue name="ProcessingExtensionPath" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\ProcessExt</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\InprocServer">
+    <registryValue name="ProcessingExtensionPath" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\ProcessExt</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90A-7129-11D3-9173-00902741EE7C}">
+    <registryValue name="" type="string">ILocalConnectionMgr</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90A-7129-11D3-9173-00902741EE7C}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EA1FEEA4-E8B9-11D3-9DE9-00902741EE80}">
+    <registryValue name="" type="string">ILocalConnectionMgrOptions</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EA1FEEA4-E8B9-11D3-9DE9-00902741EE80}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EA1FEEA4-E8B9-11D3-9DE9-00902741EE80}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EA1FEEA4-E8B9-11D3-9DE9-00902741EE80}\TypeLib">
+    <registryValue name="" type="string">{8EF41D4D-5D9E-11D4-9E16-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EA1FEEA4-E8B9-11D3-9DE9-00902741EE80}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90A-7129-11D3-9173-00902741EE7C}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90A-7129-11D3-9173-00902741EE7C}\TypeLib">
+    <registryValue name="" type="string">{8EF41D4D-5D9E-11D4-9E16-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90A-7129-11D3-9173-00902741EE7C}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90B-7129-11D3-9173-00902741EE7C}">
+    <registryValue name="" type="string">ILocalReportMgr</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90B-7129-11D3-9173-00902741EE7C}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90B-7129-11D3-9173-00902741EE7C}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90B-7129-11D3-9173-00902741EE7C}\TypeLib">
+    <registryValue name="" type="string">{8EF41D4D-5D9E-11D4-9E16-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A1F8B90B-7129-11D3-9173-00902741EE7C}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server">
+    <registryValue name="InstallPath" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Server\LocalConnectionMgr">
+    <registryValue name="ConnectionDirectoryPath" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\Samples\En\Reports\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Server">
+    <registryValue name="PrintJobsCacheMaxDataAge(sec)" type="string">1200</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Server\LocalConnectionMgr">
+    <registryValue name="ReportDirectoryPath" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\Samples\En\Reports\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Keycode">
+    <registryValue name="KeycodeDefinitions" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\BusinessObjects_KCDefinitions_dfo.xml</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="rasauditingw.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="811008"/>
+    <file name="dtsagent.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2031104"/>
+    <file name="localcon.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="343552"/>
+  </sourcedir>
+</assembly>

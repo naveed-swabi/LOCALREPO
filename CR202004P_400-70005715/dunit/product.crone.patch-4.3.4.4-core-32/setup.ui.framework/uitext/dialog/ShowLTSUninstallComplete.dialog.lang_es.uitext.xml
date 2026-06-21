@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# se ha desinstalado correctamente."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# no se ha podido desinstalar."/>
+<string id="Description" value="Haga clic en Finalizar para completar esta desinstalación."/>
+<string id="FailedDescription" value="Haga clic en Finalizar para salir de la desinstalación."/>
+<string id="ShowUninstall_Footer" value="Pulse []Ctrl-B] para volver, o []Intro] para salir de la desinstalación."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Pulse [Intro] para salir de la desinstalación."/>
+<string id="CustomNextButton" value="Finalizar"/>
+<string id="ViewLogButton" value="Ver registro"/>
+</context>
+</uitext>

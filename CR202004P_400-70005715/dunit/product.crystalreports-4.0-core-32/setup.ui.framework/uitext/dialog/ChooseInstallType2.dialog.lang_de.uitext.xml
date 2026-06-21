@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="UnknownInstallType" value="Unbekannter Installationstyp angegeben, gültige Werte sind &quot;Standard&quot; oder &quot;Benutzerdefiniert&quot;."/>
+<string id="ChooseInstallType" value="Installationsart auswählen"/>
+<string id="SelectAnInstallType" value="Wählen Sie die Art der Installation aus."/>
+<string id="Full" value="Standard"/>
+<string id="FullDescription" value="Vollständiges #product.nameonly#-System installieren"/>
+<string id="Custom" value="Benutzerdefiniert"/>
+<string id="CustomDescription" value="Wählen Sie die zu installierenden Anwendungsfunktionen aus, oder entfernen bzw. fügen Sie Funktionen zu einem vorhandenen  #product.nameonly#-System hinzu"/>
+<string id="Invalid_InstallType" value="Ungültiger Installationstyp ([InstallType]): Der Installationstyp muss &quot;Standard&quot; oder &quot;Benutzerdefiniert&quot; sein."/>
+</context>
+</uitext>

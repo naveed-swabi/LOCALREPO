@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/platform.sdk.boe.java/java">
+    <file name="com.businessobjects.boesdk.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/bundles" size="9288594"/>
+    <file name="com.businessobjects.biarengine.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/bundles" size="3769122"/>
+    <file name="com.businessobjects.plugins.slplugins.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/bundles" size="43271"/>
+  </sourcedir>
+</assembly>

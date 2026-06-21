@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="Message" value="歡迎使用 #product.fullproductnamenospace# 的安裝精靈。"/>
+<string id="ShowWelcomeScreenTitle" value="歡迎畫面"/>
+<string id="ShowWelcomeScreenSubtitle" value="歡迎使用 #product.fullproductnamenospace# 的安裝精靈。"/>
+<string id="Description" value="強烈建議您在執行此設定程式前先結束所有 Windows 程式。\n\n按一下 [取消] 結束設定並關閉任何您正在執行中的程式。按一下 [下一步] 繼續設定程式。\n\n警告: 這個電腦程式受著作權法及國際條約保護。\n\n\n未經授權擅自複製或分發這個程式 (或其任何部分) 可能導致嚴厲的民事與刑事責任，並將以相關法律允許的最大限度提起訴訟。"/>
+<string id="Description_unix" value="警告: 這個電腦程式受著作權法及國際條約保護。\n\n\n未經授權擅自複製或分發這個程式 (或其任何部分) 可能導致嚴厲的民事與刑事責任，並將以相關法律允許的最大限度提起訴訟。\n\n\n注意: 如需更多有關支援平台的資訊，請造訪 http://support.sap.com/pam。"/>
+<string id="ShowWelcomeScreenFooter" value="按 []Ctrl-B] 返回，按 []Ctrl-X] 結束，或按 []Enter] 繼續。"/>
+<string id="PamHyperLinkWelcome" value="如需有關支援平台的更多資訊，請造訪"/>
+</context>
+</uitext>

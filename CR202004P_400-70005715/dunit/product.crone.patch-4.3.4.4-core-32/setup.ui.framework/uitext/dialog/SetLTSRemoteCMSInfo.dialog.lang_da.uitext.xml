@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Information om eksisterende #productname#-implementering"/>
+<string id="SpecifyRemoteCMS" value="Angiv administratorlogonoplysninger til din eksisterende implementering."/>
+<string id="RemoteCMSConnectionInfo" value="Forbindelsesoplysninger for eksisterende #productname#"/>
+<string id="RemoteCMSName" value="Navn"/>
+<string id="RemoteCMSPort" value="Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Administratorlogonoplysninger"/>
+<string id="RemoteCMSUser" value="Bruger"/>
+<string id="RemoteCMSPassword" value="Adgangskode"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Enten kan den eksterne SAP Lumira-server for teams ikke nås, eller også er logonoplysningerne forkerte. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Den eksterne SAP Lumira-server for teams kan enten ikke nås, eller også er logonoplysningerne forkerte. INS00013\nVil du indtaste dine legitimationsoplysninger igen?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Adgangskoden må ikke indeholde ordet &quot;Administrator&quot; eller specialtegn som &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

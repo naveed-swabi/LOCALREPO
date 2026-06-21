@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="RebootWarning" value="설치 관리자가 업데이트하지 못하도록 일부 파일이 설치 도중 잠겼습니다. 시스템을 나중에 다시 시작할 수 있지만, 제품을 사용하기 전에는 다시 부팅하는 것이 좋습니다."/>
+<string id="RebootQuestion" value="컴퓨터를 지금 다시 시작하시겠습니까?"/>
+<string id="RestartLater" value="나중에 다시 시작"/>
+<string id="RestartNow" value="지금 다시 시작"/>
+</context>
+</uitext>

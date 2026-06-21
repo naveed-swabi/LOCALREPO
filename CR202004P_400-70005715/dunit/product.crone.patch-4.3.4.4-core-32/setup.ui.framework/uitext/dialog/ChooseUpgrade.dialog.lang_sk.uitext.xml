@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Bolo zadané neznáme ChooseUpgrade, platné hodnoty sú: 0 alebo 1"/>
+<string id="ChooseUpgrade" value="Bola zistená predchádzajúca verzia produktu #productname#"/>
+<string id="SelectUpgrade" value="Vyberte, či sa má vykonať inštalácia inovácie."/>
+<string id="SideBySide" value="Vykonať súbežnú inštaláciu"/>
+<string id="SideBySideDescription" value="Táto verzia produktu #productname# sa nainštaluje popri aktuálne nainštalovanej verzii."/>
+<string id="SimpleUpgrade" value="Vykonať jednoduchú inováciu"/>
+<string id="SimpleUpgradeDescription" value="Zistila sa predchádzajúca verzia produktu #productname#. Skôr ako budete pokračovať, musíte odinštalovať predchádzajúcu verziu alebo výberom tejto možnosti vykonať inováciu na mieste."/>
+<string id="Invalid_ChooseUpgrade" value="Neplatné ChooseUpgrade ([ChooseUpgrade]): Má byť 0 alebo 1"/>
+</context>
+</uitext>

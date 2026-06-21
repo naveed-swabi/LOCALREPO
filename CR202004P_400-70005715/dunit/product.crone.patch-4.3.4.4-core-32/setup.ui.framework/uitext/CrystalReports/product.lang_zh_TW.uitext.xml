@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#product.fullproductnamenospace# 更新"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# 更新"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="已安裝 #productname# #productname_preversion#"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="此更新適用於系統中尚未偵測到的 #productname#。請先安裝此產品，以繼續進行此安裝。"/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="沒有更高版本的更新程式"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="系統上已偵測到有高於此套件的更新程式版本。此套件中沒有可套用的更新。不建議您繼續。"/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="支援套件版本為 [CurrentSupportPackage] "/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="產品的支援套件版本必須位在 [CurrentSupportPackage] 才可繼續進行此更新。請升級現有系統或套用適當的更新。"/>
+<string id="prereq.MinorVersionMatchPreReqText" value="次要版本為 [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="產品的次要版本必須位在 [CurrentMinorVersion] 才可繼續進行此更新。請升級現有系統或套用適當的更新。"/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="建立和修改格式化資料報表 (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC 資料來源管理員"/>
+<string id="product.shortcutODBC.description" value="新增、移除和設定開放式資料庫連接 (ODBC) 資料來源與驅動程式。"/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32 位元資料來源管理員"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\報表上傳精靈"/>
+<string id="product.shortcutWizard.description" value="報表上傳精靈"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="已安裝新版本的 DataDirect 驅動程式 7.1.5。若要移轉到新版本的 DataDirect 驅動程式，請參閱文件。"/>
+</context>
+</uitext>

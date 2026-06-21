@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informaţii de implementare pt.CMS existent"/>
+<string id="SpecifyRemoteCMS" value="Specificaţi informaţii de conectare pt.CMS şi administrator pt.implementarea dvs.CMS existentă."/>
+<string id="RemoteCMSConnectionInfo" value="Informaţii conexiune pt.CMS existent"/>
+<string id="RemoteCMSName" value="Nume CMS"/>
+<string id="RemoteCMSPort" value="Port CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informaţii de conectare pt.administrator CMS"/>
+<string id="RemoteCMSUser" value="Utilizator"/>
+<string id="RemoteCMSPassword" value="Parolă"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Fie CMS la distanţă nu poate fi contactat, fie acreditările de conectare sunt incorecte. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="CMS la distanţă nu poate fi atins sau acreditări conectare sunt incorecte. INS00013\nDoriţi să introduceţi din nou acreditările dvs.?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Bara oblică inversă finală (de exemplu, xxx\) și următoarele caractere nu sunt permise în parola CMS:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Bara oblică inversă finală (de exemplu, xxx\) și următoarele caractere nu sunt permise în parola CMS:  &quot;  '  INS00099"/>
+</context>
+</uitext>

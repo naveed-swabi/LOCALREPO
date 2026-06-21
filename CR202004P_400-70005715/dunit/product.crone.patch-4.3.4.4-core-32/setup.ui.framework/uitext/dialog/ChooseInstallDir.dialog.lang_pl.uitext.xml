@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Konfiguracja folderu docelowego"/>
+<string id="ChooseInstallDirSubtitle" value="Wprowadź pełną ścieżkę do lokalizacji docelowej, w której zostanie zainstalowany produkt."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Wprowadź pełną ścieżkę do lokalizacji docelowej, w której zostanie zainstalowany produkt."/>
+<string id="DestinationFolderGroupBox" value="Informacje o folderze docelowym"/>
+<string id="DestinationFolder" value="Folder docelowy:"/>
+<string id="Browse" value="Przeglądaj"/>
+<string id="BrowseInstallDirectory" value="Wybierz lokalizację instalacji"/>
+<string id="DirGenericError" value="Folder docelowy jest nieprawidłowy. Wybierz inny folder docelowy. INS00029"/>
+<string id="DirNetworkError" value="Folder docelowy nie może być lokalizacją sieciową. Wybierz inną lokalizację."/>
+<string id="DirEmptyError" value=" Należy wybrać folder docelowy. INS00029"/>
+<string id="DirAbsolutePathError" value="W celu określenia folderu docelowego należy podać pełną ścieżkę. INS00029"/>
+<string id="DirInvalidCharWinError" value="Określając folder docelowy, należy używać tylko cyfr, liter i następujących znaków: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Ścieżka do folderu docelowego jest zbyt długa. Podaj ścieżkę, która będzie zawierać mniej niż 150 znaków. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Folder docelowy zawiera niekompatybilny produkt. Wybierz inną lokalizację. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Nieprawidłowy katalog instalacyjny. Użyj prawidłowej ścieżki bezwzględnej zawierającej tylko znaki alfanumeryczne i następujące znaki: _ - \ . ( ). Katalog musi znajdować się na stałym dysku, a pełna ścieżka nie może zawierać więcej niż 150 znaków. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Nieprawidłowy katalog instalacyjny. Użyj prawidłowej ścieżki bezwzględnej do miejsca, w przypadku którego masz uprawnienia do odczytu, zapisu i wykonywania. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Nazwa katalogu instalacyjnego nie może zawierać spacji."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="W ścieżce do katalogu instalacyjnego nie są dozwolone następujące znaki:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Naciśnij klawisz []Tab], aby automatycznie wypełnić elementy ścieżki do katalogu, klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby kontynuować."/>
+</context>
+</uitext>

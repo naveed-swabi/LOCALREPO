@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="PreviousVersionDetected" value="Eerdere versie van #product.nameonly# gedetecteerd"/>
+<string id="PreviousVersionDetectedSub" value="Selecteer of u een upgrade of een zij-aan-zij-installatie wilt uitvoeren"/>
+<string id="UpgradeInstallBtn" value="Upgrade-installatie uitvoeren"/>
+<string id="SideBySideInstallBtn" value="Zij-aan-zij-installatie uitvoeren"/>
+<string id="UpgradeInstallMsg" value="Vervang de momenteel geïnstalleerde versie van #product.nameonly# door deze versie"/>
+<string id="SideBySideInstallMsg" value="Hiermee wordt deze versie van #product.nameonly# naast de huidige versie geïnstalleerd"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Ongeldige installatiemodus ([InstallCompatibilityMode]): moet 'upgrade' of 'zij-aan-zij' zijn"/>
+</context>
+</uitext>

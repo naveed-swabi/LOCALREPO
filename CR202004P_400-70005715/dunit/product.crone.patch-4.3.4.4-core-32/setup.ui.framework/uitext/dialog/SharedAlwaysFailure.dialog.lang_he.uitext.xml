@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Installation cannot proceed"/>
+<string id="ExpandInstallMessage_2" value="Describe the blocking issues that prevented the installation from proceeding"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Press CTRL-X to exit this installation"/>
+<string id="AlwaysFailureGeneralMessage" value="Installation cannot proceed\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

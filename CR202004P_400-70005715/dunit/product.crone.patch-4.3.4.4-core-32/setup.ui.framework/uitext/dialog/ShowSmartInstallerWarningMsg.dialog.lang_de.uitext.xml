@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Stellen Sie sicher, dass das angegebene Installationsverzeichnis für die Ausführung der geplanten Installation richtig ist. \n\n Bei Neuinstallation – Neues Dateiverzeichnis. \n Bei Patch-Installation – Dateiverzeichnis mit Installation der vorherigen Version von #productname#. \n\n\n Klicken Sie auf OK, um fortzufahren, oder auf &quot;Beenden&quot;, um das richtige Installationsverzeichnis erneut einzugeben. \n"/>
+<string id="ExitMessage" value="Drücken Sie Strg+X, um zu beenden oder die Eingabetaste, um fortzufahren."/>
+<string id="WarnDialogTitle" value="INFORMATIONSDIALOG"/>
+<string id="WarnDialogSubtitle" value="Informationen: "/>
+</context>
+</uitext>

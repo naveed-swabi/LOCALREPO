@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="DlgTitle" value="Filtilknytning"/>
+<string id="DlgSummary" value="Angiver standard-Crystal Reports-fremviser."/>
+<string id="ReplaceFileAssoc" value="Crystal Reports Viewer er i øjeblikket ikke din standard-Crystal Reports-fremviser. Vil du gøre den til di standardfremviser?"/>
+<string id="Yes" value="Ja"/>
+<string id="No" value="Nej"/>
+</context>
+</uitext>

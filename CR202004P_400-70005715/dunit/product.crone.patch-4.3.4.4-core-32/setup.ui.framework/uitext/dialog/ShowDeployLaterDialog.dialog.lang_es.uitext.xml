@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="Title" value="Despliegue de aplicaciones Web"/>
+<string id="Subtitle" value="Desplegar contenido web más adelante"/>
+<string id="DeploylaterDescription" value="Se ha encontrado el servidor de aplicaciones web Java Tomcat predeterminado. ¿Desea desplegar las aplicaciones web ahora o más tarde?"/>
+<string id="TxtDeployLater" value="Desplegar aplicaciones web más adelante."/>
+<string id="TxtDeployNow" value="Desplegar aplicaciones web ahora."/>
+<string id="Footer" value="Pulse [Tabulador], [Arriba] o [Abajo] para seleccionar, [Ctrl-B] para volver, [Ctrl-X] para salir o [Intro] para continuar."/>
+</context>
+</uitext>

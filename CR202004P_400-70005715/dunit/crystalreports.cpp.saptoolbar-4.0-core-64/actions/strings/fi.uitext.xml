@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="progress.BWRegServer" value="Määritetään SAP-integrointia"/>
+<string id="progress.BWUnregServer" value="Määritetään SAP-integrointia"/>
+</context>
+</uitext>

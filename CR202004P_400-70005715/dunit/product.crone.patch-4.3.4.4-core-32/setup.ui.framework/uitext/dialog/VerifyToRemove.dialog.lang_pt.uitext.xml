@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Message" value="Confirmação de desinstalação"/>
+<string id="Description" value="Isto irá remover #product.fullproductnamenospace# de sua máquina."/>
+<string id="ConfirmUninstall" value="Tem certeza de que deseja desinstalar?"/>
+<string id="ConfirmUninstall_Footer" value="Pressione []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+</context>
+</uitext>

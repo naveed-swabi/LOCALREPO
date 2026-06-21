@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="SelectLCMTitle" value="버전 관리 선택"/>
+<string id="SelectLCMSubtitle" value="기본 버전 관리 시스템을 설치할 것인지 아니면 버전 관리를 위한 기존 시스템을 사용할 것인지 여부를 선택합니다."/>
+<string id="SelectLCMFooter" value="선택하려면 []Tab], []Up] 또는 []Down] 키를, 뒤로 가려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter]를 누르십시오."/>
+<string id="NewLCMInstall" value="Subversion 구성 및 설치"/>
+<string id="ExistingLCMInstall" value="버전 관리 시스템을 지금 구성하지 않음"/>
+<string id="Invalid_SelectLCM" value="잘못된 NewOrExistingLCM 유형([NewOrExistingLCM]): '신규' 또는 '기존'이어야 합니다(INS00284)."/>
+</context>
+</uitext>

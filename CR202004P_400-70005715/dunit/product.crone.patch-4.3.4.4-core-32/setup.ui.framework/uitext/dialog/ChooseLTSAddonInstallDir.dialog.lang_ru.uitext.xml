@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Настройка папки назначения"/>
+<string id="ChooseInstallDirSubtitle" value="Введите полный путь к папке, в которую будет установлен продукт."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Введите полный путь к папке, в которую будет установлен продукт."/>
+<string id="DestinationFolderGroupBox" value="Сведения о папке назначения"/>
+<string id="DestinationFolder" value="Папка назначения:"/>
+<string id="Browse" value="Обзор"/>
+<string id="BrowseInstallDirectory" value="Выберите место установки"/>
+<string id="DirGenericError" value="Недопустимая папка назначения. Выберите другую папку. INS00029"/>
+<string id="DirNetworkError" value="Папка назначения не может быть сетевым расположением. Выберите другое расположение."/>
+<string id="DirEmptyError" value="Необходимо выбрать папку назначения. INS00029"/>
+<string id="DirAbsolutePathError" value="Необходимо указать полный путь к папке назначения. INS00029"/>
+<string id="DirInvalidCharWinError" value="В имени папки назначения можно использовать только цифры, буквы и следующие символы: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Слишком длинный путь к папке назначения. Используйте путь, состоящий менее чем из 150 символов. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Папка назначения содержит несовместимый продукт. Выберите другое расположение. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Недопустимый каталог установки. Используйте допустимый абсолютный путь, содержащий только буквы, цифры и символы _ - \ . ( ). Каталог должен находиться на фиксированном диске, и полный путь к нему должен состоять не более чем из 150 символов. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Недопустимый каталог установки. Используйте допустимый абсолютный путь к каталогу, для которого у вас имеются разрешения на чтение, запись и выполнение. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Каталог установки не может содержать пробелы."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="В папке каталога запрещается использовать следующие символы:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Нажмите []Tab], чтобы автоматически заполнить элементы каталога, []Ctrl-X] для выхода или []Enter] для продолжения."/>
+</context>
+</uitext>

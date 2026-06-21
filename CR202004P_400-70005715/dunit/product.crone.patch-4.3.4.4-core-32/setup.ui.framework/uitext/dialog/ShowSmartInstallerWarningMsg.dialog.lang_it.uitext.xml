@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Per un corretto completamento, verificare che il percorso di installazione specificato per l'installazione intesa. \n\n Per l'installazione Fresh – Directory file Fresh. \n Per installazione Patch – Directory file con installazione versione #productname# precedente. \n\n\n fare clic su Ok per continuare o su Esci per reimmettere il percorso di installazione corretto. \n"/>
+<string id="ExitMessage" value="Premere Ctrl+X per uscire o Invio per continuare."/>
+<string id="WarnDialogTitle" value="FINESTRA DI DIALOGO DI INFORMAZIONI"/>
+<string id="WarnDialogSubtitle" value="Informazioni:"/>
+</context>
+</uitext>

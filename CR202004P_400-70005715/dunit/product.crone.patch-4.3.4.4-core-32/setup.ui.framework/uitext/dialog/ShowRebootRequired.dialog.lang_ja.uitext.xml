@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="RebootWarning" value="インストール中に一部のファイルがロックされたため、インストーラはこれらのファイルを更新できませんでした。システムの再起動は後で行うこともできますが、製品を使用する前に再起動することを強くお勧めします。"/>
+<string id="RebootQuestion" value="今すぐコンピュータを再起動しますか?"/>
+<string id="RestartLater" value="後で再起動"/>
+<string id="RestartNow" value="今すぐ再起動"/>
+</context>
+</uitext>

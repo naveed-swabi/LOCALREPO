@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="RebootWarning" value="Nekatere datoteke so bile med nameščanjem zaklenjene, kar je preprečevalo, da bi se med nameščanjem posodobile. Lahko zakasnite ponovni zagon sistema, priporočljivo pa je, da ga ponovno zaženete pred uporabo produkta."/>
+<string id="RebootQuestion" value="Želite ponovno zagnati računalnik zdaj?"/>
+<string id="RestartLater" value="Ponovni zagon pozneje"/>
+<string id="RestartNow" value="Ponovni zagon zdaj"/>
+</context>
+</uitext>

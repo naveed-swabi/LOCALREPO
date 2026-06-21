@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="LicenseAgreement" value="Requisito di nuovo codice di licenza"/>
+<string id="YouMustAgree" value="Per #product.fullproductname# è richiesto un nuovo codice di licenza."/>
+<string id="SelectLicenseChangeSubtitle" value="Per #product.fullproductname# è richiesto un nuovo codice di licenza."/>
+<string id="IAccept" value="Ho letto la documentazione e ho compreso il processo di richiesta del nuovo codice di licenza. Inoltre, accetto di eliminare il codice di licenza precedente e di aggiungere quello nuovo dopo l'installazione dell'aggiornamento."/>
+<string id="subtitle1" value="#product.fullproductname# richiede un nuovo codice di licenza."/>
+<string id="subtitle2" value="Richiedere la nuova chiave di licenza. Per maggiori informazioni su come farlo, visitare"/>
+<string id="subtitle3" value="Al completamento dell'installazione di #product.fullproductname#, accedere alla CMC (Central Management Console), eliminare il codice di licenza precedente e aggiungere quello nuovo. Finché non si aggiunge il nuovo codice di licenza, tutti i servizi saranno disabilitati."/>
+<string id="subtitle4" value="Richiedere il nuovo codice di licenza all'indirizzo"/>
+<string id="AcceptOrNotAccept" value="Premere &lt;INVIO&gt; per eliminare il codice di licenza precedente e aggiungere quello nuovo dopo l'installazione dell'aggiornamento."/>
+<string id="Description_Patch_License" value="Per #product.fullproductname# è necessaria una nuova chiave di licenza.\n\nRichiedere la nuova chiave di licenza. Per maggiori informazioni su come farlo, visitare http://scn.sap.com/docs/DOC-70095. \n\nAl completamento dell'installazione di #product.fullproductname#, accedere alla CMC (Central Management Console), eliminare il codice di licenza precedente e aggiungere quello nuovo. Finché non si aggiunge il nuovo codice di licenza, tutti i servizi saranno disabilitati."/>
+</context>
+</uitext>

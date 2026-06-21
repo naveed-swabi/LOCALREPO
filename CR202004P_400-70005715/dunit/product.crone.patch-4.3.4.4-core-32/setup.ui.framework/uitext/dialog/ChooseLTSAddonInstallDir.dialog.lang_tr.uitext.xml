@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Hedef Klasörü Konfigüre Et"/>
+<string id="ChooseInstallDirSubtitle" value="Ürünün yükleneceği tam hedef yolu girin."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Ürünün yükleneceği tam hedef yolu girin."/>
+<string id="DestinationFolderGroupBox" value="Hedef Klasör Bilgileri"/>
+<string id="DestinationFolder" value="Hedef Klasör:"/>
+<string id="Browse" value="Gözat"/>
+<string id="BrowseInstallDirectory" value="Bir yükleme konumu seçin"/>
+<string id="DirGenericError" value="Hedef klasör geçersiz. Lütfen farklı bir hedef klasör seçin. INS00029"/>
+<string id="DirNetworkError" value="Hedef klasör bir ağ konumu olamaz. Lütfen farklı bir konum seçin."/>
+<string id="DirEmptyError" value="Hedef dosya seçmeniz gerekiyor. INS00029"/>
+<string id="DirAbsolutePathError" value="Hedef klasör, tam yol olmalıdır. INS00029"/>
+<string id="DirInvalidCharWinError" value="Hedef klasör yalnızca rakam, harf veya şu karakterleri kullanabilir: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Hedef klasör yolu çok uzun. Lütfen 150 karakterden daha kısa bir yol kullanın. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Hedef klasör uyumsuz bir ürün içeriyor. Lütfen farklı bir konum seçin. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Kurulum dizini geçersiz. Lütfen yalnızca alfasayısal karakterleri veya şu karakterlerden herhangi birini içeren mutlak bir yol kullanın: _ - \ . ( ). Dizin sabit bir sürücüde olmaı ve tam yol en fazla 150 karakter uzunluğunda olmalıdır. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Kurulum dizini geçersiz. Lütfen sizin de okuma, yazma ve yürütme izinlerine sahip olduğunuz geçerli bir mutlak yol kullanın. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Kurulum dizininde boşluk olamaz."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Kurulum dizininde lu karakterlere izin verilmez:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Dizin öğelerini otomatik olarak doldurmak için []Tab], çıkmak için []Ctrl-X], devam etmek için []Enter] tuşlarına basın."/>
+</context>
+</uitext>

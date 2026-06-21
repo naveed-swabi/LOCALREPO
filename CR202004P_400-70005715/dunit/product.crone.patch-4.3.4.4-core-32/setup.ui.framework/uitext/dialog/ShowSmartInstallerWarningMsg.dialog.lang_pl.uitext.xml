@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Sprawdź, czy podana ścieżka instalacji jest prawidłowa, aby zamierzona instalacja mogła zostać pomyślnie zakończona. \n\n W przypadku nowej instalacji powinna wskazywać katalog nowych plików. \n W przypadku instalacji poprawki powinna wskazywać katalog plików instalacji poprzedniej wersji produktu #productname#. \n\n\n Kliknij przycisk OK, aby kontynuować, lub kliknij przycisk Zakończ, aby ponownie wprowadzić prawidłową ścieżkę instalacji. \n"/>
+<string id="ExitMessage" value="Naciśnij klawisze Ctrl+X, aby zakończyć, lub naciśnij klawisz Enter, aby kontynuować."/>
+<string id="WarnDialogTitle" value="OKNO DIALOGOWE INFORMACJI"/>
+<string id="WarnDialogSubtitle" value="Informacje: "/>
+</context>
+</uitext>

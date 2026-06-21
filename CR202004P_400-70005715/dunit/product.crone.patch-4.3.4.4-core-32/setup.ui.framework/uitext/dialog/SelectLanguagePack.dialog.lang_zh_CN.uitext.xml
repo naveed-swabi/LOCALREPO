@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="SelectLanguagePackTitle" value="选择语言包"/>
+<string id="SelectLanguagePackSubtitle" value="选择用户在产品中将交互所使用的所有其他语言包。"/>
+<string id="SelectLanguagePackFooter" value="按 [Tab]、[上箭头] 或 [下箭头] 突出显示，按空格键或 [X] 切换状态，按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或按 [Enter] 继续。"/>
+<string id="alllang" value="所有语言"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="属性 SelectedLanguagePacks '[SelectedLanguagePacks]' 必须包含系统区域设置。"/>
+<string id="Invalid_SelectedLangPacksHasEN" value="属性 SelectedLanguagePacks '[SelectedLanguagePacks]' 必须包含 'en'。"/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="属性 SelectedLanguagePacks '[SelectedLanguagePacks]' 必须是可用语言包的子集。"/>
+</context>
+</uitext>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="Message" value="Pozdravljeni v čarovniku za namestitev za #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Pozdravni ekran"/>
+<string id="ShowWelcomeScreenSubtitle" value="Pozdravljeni v čarovniku za namestitev za #product.fullproductnamenospace#."/>
+<string id="Description" value="Močno priporočamo, da zaprete vse Windowsove programe, preden zaženete ta namestitveni program.\n\nKliknite Prekinitev za izhod iz namestitve in zaprite vse programe, ki se izvajajo. Kliknite Naprej za nadaljevanje namestitvenega programa.\n\nOPOZORILO: Ta program je zaščiten z zakonom o avtorskih pravicah in mednarodnimi pogodbami.\n\n\nNepooblaščeno razmnoževanje ali distribucija tega programa ali katerega od njegovih delov se lahko konča z resnimi civilnimi in kazenskimi posledicami. Kršilci zakona bodo preganjani v največji možni meri, ki jo omogoča zakon."/>
+<string id="Description_unix" value="OPOZORILO: Ta program je zaščiten z zakonom o avtorskih pravicah in mednarodnimi pogodbami.\n\n\nNepooblaščeno razmnoževanje ali distribucija tega programa ali katerega od njegovih delov ima lahko resne civilne in kazenske posledice. Kršilci zakona bodo preganjani v največji možni meri, ki jo omogoča zakon.\n\n\nOPOMBA: Za več informacij o podprtih platformah obiščite http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Pritisnite []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+<string id="PamHyperLinkWelcome" value="Za več informacij o podprtih platformah obiščite"/>
+</context>
+</uitext>

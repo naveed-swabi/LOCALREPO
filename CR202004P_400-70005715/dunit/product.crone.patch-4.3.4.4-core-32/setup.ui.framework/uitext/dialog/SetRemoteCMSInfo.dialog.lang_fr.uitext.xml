@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informations sur le déploiement du CMS existant"/>
+<string id="SpecifyRemoteCMS" value="Spécifiez les informations de connexion au CMS et à l'administrateur pour le déploiement de votre CMS existant."/>
+<string id="RemoteCMSConnectionInfo" value="Informations de connexion du CMS existant"/>
+<string id="RemoteCMSName" value="Nom du CMS"/>
+<string id="RemoteCMSPort" value="Port du CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informations de connexion de l'administrateur du CMS"/>
+<string id="RemoteCMSUser" value="Utilisateur"/>
+<string id="RemoteCMSPassword" value="Mot de passe"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Le CMS distant est inaccessible ou les informations d'authentification pour la connexion sont incorrectes. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Le CMS distant est inaccessible ou les informations d'authentification pour la connexion sont incorrectes. INS00013. INS00013\nVoulez-vous saisir à nouveau vos informations d'authentification ?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Les barres obliques inverses à la fin (ex : xxx\) et les caractères suivants ne sont pas autorisés dans le mot de passe du CMS : &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Les barres obliques inverses à la fin (ex : xxx\) et les caractères suivants ne sont pas autorisés dans le mot de passe du CMS : &quot;  '  INS00099"/>
+</context>
+</uitext>

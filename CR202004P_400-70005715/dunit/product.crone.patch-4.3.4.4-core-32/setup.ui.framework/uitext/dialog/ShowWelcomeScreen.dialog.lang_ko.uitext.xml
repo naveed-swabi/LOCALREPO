@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# 설치 마법사를 시작합니다."/>
+<string id="ShowWelcomeScreenTitle" value="시작 화면"/>
+<string id="ShowWelcomeScreenSubtitle" value="#product.fullproductnamenospace# 설치 마법사를 시작합니다."/>
+<string id="Description" value="이 설치 프로그램을 실행하기 전에 반드시 모든 Windows 프로그램을 끝내십시오.\n\n설치를 중단하고 실행 중인 프로그램을 닫으려면 [취소]를 클릭하십시오. 설치 프로그램을 계속하려면 [다음]을 클릭하십시오.\n\n경고: 이 프로그램은 저작권법과 국제 협약의 보호를 받습니다.\n\n\n이 프로그램의 전부 또는 일부를 무단으로 복제, 배포하는 행위는 민사 및 형사법에 의해 엄격히 규제되어 있으며, 기소 사유가 됩니다."/>
+<string id="Description_unix" value="경고: 이 프로그램은 저작권법과 국제 협약의 보호를 받습니다.\n\n\n이 프로그램의 전부 또는 일부를 무단으로 복제, 배포하는 행위는 민사 및 형사법에 의해 엄격히 규제되어 있으며, 기소 사유가 됩니다.\n\n\n참고: 지원되는 플랫폼에 대한 자세한 내용을 보려면 http://support.sap.com/pam 사이트를 참조하십시오."/>
+<string id="ShowWelcomeScreenFooter" value="뒤로 이동하려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter] 키를 누르십시오."/>
+<string id="PamHyperLinkWelcome" value="지원되는 플랫폼에 대한 자세한 내용을 보려면 다음 사이트를 참조하십시오."/>
+</context>
+</uitext>

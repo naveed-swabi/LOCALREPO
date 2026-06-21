@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/src/crystalreports.cpp/export/content/Templates/zh_CN">
+    <file name="Block_Blue_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="118784"/>
+    <file name="Corporate - Page Sections Only_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="107520"/>
+    <file name="Corporate_Blue_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="123392"/>
+    <file name="Corporate_Green_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="123392"/>
+    <file name="DoubleSidedPageHeadersFooters_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="174592"/>
+    <file name="ExecutiveTitlePage_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="172544"/>
+    <file name="Form_Maroon_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="152064"/>
+    <file name="Gray_Scale_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="128000"/>
+    <file name="High_Contrast_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="176640"/>
+    <file name="Index_Contrast_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="120320"/>
+    <file name="TableGrid_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="52736"/>
+    <file name="Wave_Blue_ZH_CN.rpt" installdir="[INSTALLDIR]Crystal Reports/Templates/zh_CN" size="159744"/>
+  </sourcedir>
+</assembly>

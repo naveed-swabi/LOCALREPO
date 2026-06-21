@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="UnknownChooseUpgrade" value="ไม่รู้จัก ChooseUpgrade ที่ระบุ ค่าที่ถูกต้องคือ: 0 หรือ 1"/>
+<string id="ChooseUpgrade" value="ตรวจพบ #productname# เวอร์ชันก่อนหน้า"/>
+<string id="SelectUpgrade" value="เลือกว่าจะดำเนินการติดตั้งแบบอัปเกรดหรือไม่"/>
+<string id="SideBySide" value="ดำเนินการติดตั้งร่วมกัน"/>
+<string id="SideBySideDescription" value="ติดตั้ง #productname# เวอร์ชันนี้ควบคู่กับเวอร์ชันที่ติดตั้งอยู่ในปัจจุบัน"/>
+<string id="SimpleUpgrade" value="ดำเนินการอัปเกรดอย่างง่าย"/>
+<string id="SimpleUpgradeDescription" value="ตรวจพบเวอร์ชันก่อนหน้านี้ของ #productname# คุณต้องถอนการติดตั้งเวอร์ชันก่อนหน้านี้ออกก่อนที่จะดำเนินการต่อ หรือเลือกตัวเลือกนี้เพื่อดำเนินการอัปเกรดแบบแทนที่"/>
+<string id="Invalid_ChooseUpgrade" value="ChooseUpgrade ([ChooseUpgrade]) ไม่ถูกต้อง: ควรเป็น 0 หรือ 1"/>
+</context>
+</uitext>

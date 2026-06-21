@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="설치 후 단계"/>
+<string id="PostInstallDetails" value="설치가 완료되었습니다. 아래 설치 후 지침에 따라 배포를 완료하십시오"/>
+<string id="PostUninstallSteps" value="설치 제거 후 단계"/>
+<string id="PostUninstallDetails" value="설치 제거가 거의 완료되었습니다. 아래 지침에 따라 프로세스를 완료하십시오."/>
+<string id="PostInstallStep_Header" value="{b}설치 후 지침:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="설치 후 지침:"/>
+<string id="PostUninstallStep_Header" value="{b}설치 제거 후 지침:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="설치 제거 후 지침:"/>
+<string id="CRPostInstallUIText1" value="제품 등록{br}{a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}여기{/a}를 클릭하여 온라인으로 제품을 등록하십시오."/>
+<string id="PostInstallStep_Footer" value="설치가 완료되었습니다. 계속하려면 []Enter]를 누르십시오."/>
+<string id="PostUnInstallStep_Footer" value="설치 제거가 완료되었습니다. 계속하려면 []Enter]를 누르십시오."/>
+</context>
+</uitext>

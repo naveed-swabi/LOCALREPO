@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="Приложение #product.fullproductnamenospace# удалено успешно."/>
+<string id="UninstallFailedMessage" value="Не удалось удалить приложение #product.fullproductnamenospace#."/>
+<string id="Description" value="Нажмите &quot;Готово&quot; для выхода из процесса удаления."/>
+<string id="FailedDescription" value="Нажмите &quot;Готово&quot; для выхода из процесса удаления."/>
+<string id="ShowUninstall_Footer" value="Нажмите []Ctrl-B] для возврата назад или []Enter] для выхода из процесса удаления."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Нажмите []Enter] для выхода из процесса удаления."/>
+<string id="CustomNextButton" value="Готово"/>
+<string id="ViewLogButton" value="Просмотреть журнал"/>
+</context>
+</uitext>

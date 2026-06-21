@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Message" value="Produkt #product.fullproductnamenospace# sa úspešne nainštaloval."/>
+<string id="InstallFailedMessage" value="Počas procesu inštalácie produktu #product.fullproductnamenospace# sa vyskytli chyby."/>
+<string id="UninstallFailedMessage" value="Počas procesu odinštalovania produktu #product.fullproductnamenospace# sa vyskytli chyby."/>
+<string id="UninstallMessage" value="Produkt #product.fullproductnamenospace# sa úspešne odinštaloval."/>
+<string id="InstallationWithWarnings" value="Produkt #product.fullproductnamenospace# sa úspešne nainštaloval s upozorneniami."/>
+<string id="Description" value="Skončite kliknutím na položku Dokončiť."/>
+<string id="FailedDescription" value="Skončite kliknutím na položku Dokončiť."/>
+<string id="Description_unix" value="Ak chcete skončiť, stlačte kláves []Enter]."/>
+<string id="FailedDescription_unix" value="Ak chcete zobraziť ďalšie podrobnosti, stlačte kláves []D]. Ak chcete skončiť, stlačte kláves []Enter]."/>
+<string id="LaunchWDeploy" value="Automaticky spustiť nástroj WDeploy"/>
+<string id="LaunchWDeployUNIX" value="Po dokončení práce inštalátora spustite súbor [EnterpriseDir]wdeploy/wdeployGUI.sh."/>
+<string id="CustomNextButton" value="Dokončiť"/>
+<string id="ViewLogButton" value="Zobraziť denník"/>
+<string id="HyperlinkText" value="Kliknutím sem zobrazíte podrobnosti"/>
+</context>
+</uitext>

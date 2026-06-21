@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Yeni Lisans Anahtarı Gereksinimi"/>
+<string id="YouMustAgree" value="#product.fullproductnamenospace#update için yeni bir lisans anahtarı gereklidir."/>
+<string id="IAccept" value="Dokümantasyonu okudum ve yeni lisans anahtarını talep etme sürecini anladım. Güncelleme yüklemesinden sonra yeni lisans anahtarını ekleyeceğimi kabul ediyorum."/>
+<string id="subtitle1" value="SAP Business Intelligence Platformu kapsamında satın alınan SAP Crystal Reports için aşağıdaki bağlantıya gidebilir ve yeni lisans anahtarını nasıl talep edeceğinizi öğrenebilirsiniz."/>
+<string id="subtitle2" value="Ayrı olarak satın alınan SAP Crystal Reports için SAP Store'u ziyaret etmeniz ve yükseltme lisans anahtarı satın almanız gerekir."/>
+<string id="subtitle3" value="Güncelleme yüklemesinden sonra uygulamayı başlattığınızda yeni lisans anahtarını Lisans Yöneticisi'ne girmeniz gerekir."/>
+</context>
+</uitext>

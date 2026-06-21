@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ConfigureRemoteCMS" value="A(z) #productname# meglévő telepítésének adatai"/>
+<string id="SpecifyRemoteCMS" value="Adja meg a meglévő telepítés adminisztrátori bejelentkezési adatait."/>
+<string id="RemoteCMSConnectionInfo" value="A(z) #productname# meglévő telepítésének kapcsolatadatai"/>
+<string id="RemoteCMSName" value="Név"/>
+<string id="RemoteCMSPort" value="Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Adminisztrátori bejelentkezési adatai"/>
+<string id="RemoteCMSUser" value="Felhasználó"/>
+<string id="RemoteCMSPassword" value="Jelszó"/>
+<string id="ErrRemoteCMSConnectionInfo" value="A távoli SAP Lumira server for Teams szerver nem érhető el, vagy a bejelentkezési hitelesítő adatok helytelenek. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="A távoli SAP Lumira server for Teams szerver nem érhető el, vagy a bejelentkezési hitelesítő adatok helytelenek. INS00013\nMegadja újból a hitelesítő adatokat?"/>
+<string id="Invalid_SymbolInCMSPassword" value="A jelszó nem tartalmazhatja az Administrator szót, és a következő speciális karakterek sem szerepelhetnek benne: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

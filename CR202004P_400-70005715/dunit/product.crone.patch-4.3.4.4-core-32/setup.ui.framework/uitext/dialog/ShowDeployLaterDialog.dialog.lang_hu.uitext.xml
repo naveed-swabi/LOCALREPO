@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Title" value="Webalkalmazás telepítése"/>
+<string id="Subtitle" value="Webtartalom telepítése később"/>
+<string id="DeploylaterDescription" value="Alapértelmezett Tomcat Java webalkalmazás-szerver észlelhető. Most szeretne webalkalmazásokat telepíteni vagy később?"/>
+<string id="TxtDeployLater" value="Webalkalmazások telepítése később."/>
+<string id="TxtDeployNow" value="Webalkalmazások telepítése most."/>
+<string id="Footer" value="Nyomja meg a []Tab], []Fel], vagy []Le] billentyűt a kiválasztáshoz, a []Ctrl-B] billentyűkombinációt a visszalépéshez, a []Ctrl-X] billentyűkombinációt a kilépéshez, illetve az []Enter] billentyűt a folytatáshoz."/>
+</context>
+</uitext>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="sk"/>
+  <context>
+    <string id="INS00270" value="Vyskytla sa chyba MSI %1 počas inštalácie produktu %2. (INS00270)"/>
+    <string id="INS00271" value="Vyskytla sa chyba MSI %1 počas odinštalovania produktu %2. (INS00271)"/>
+    <string id="INS00272" value="Vyskytla sa chyba (%1) v súbore %2 počas inštalácie produktu %3. (INS00272)"/>
+    <string id="INS00273" value="Vyskytla sa chyba (%1) v súbore %2 počas odinštalovania produktu %3. (INS00273)"/>
+  </context>
+</uitext>

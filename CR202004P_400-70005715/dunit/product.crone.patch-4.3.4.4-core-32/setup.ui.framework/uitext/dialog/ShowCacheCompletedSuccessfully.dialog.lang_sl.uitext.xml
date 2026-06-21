@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="Title" value="Namestitev po fazah"/>
+<string id="SubTitle" value="Predpomnjenje zaključeno"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Pritisnite [Enter] za izhod iz namestitve po fazah"/>
+<string id="Description" value="Za nadaljevanje namestitve po predpomnjenju znova izvedite datoteko za namestitev. Med namestitvijo po predpomnjenju pride do izpada sistema. To fazo namestitve lahko izvedete, ko je na voljo čas za vzdrževanje."/>
+<string id="FinishMessage" value="Pritisnite Zaključek za izhod iz namestitve po fazah."/>
+<string id="Finish" value="Zaključek"/>
+</context>
+</uitext>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="ตรวจสอบข้อกำหนดเบื้องต้น"/>
+<string id="CheckPreRequisitesSubTitle" value="ข้อมูลสรุปเกี่ยวกับข้อกำหนดเบื้องต้นที่สำคัญและแบบเลือกได้ที่ขาดหายไป"/>
+<string id="PreRequsitiesDetails" value="การอ้างอิงสำคัญที่ล้มเหลวต้องได้รับการแก้ไขก่อนจึงจะสามารถดำเนินการติดตั้งต่อไปได้ ขณะที่การอ้างอิงแบบเลือกได้ที่ล้มเหลวก็อาจทำให้ไม่สามารถติดตั้งคอมโพเนนต์บางรายการได้เช่นกัน"/>
+<string id="AcceptKBAInfo" value="ฉันอ่าน SAP Knowledge Base Article 1794601 และตรวจทานข้อมูลที่ใช้ร่วมกันเพื่อให้แน่ใจว่ามีการแนะนำให้ใช้และรองรับการอัปเดตตามแผน"/>
+<string id="AcceptKBAInfoUnix" value="กด []Enter] หลังจากที่คุณอ่าน SAP Knowledge Base Article 1794601 และตรวจทานข้อมูลที่ใช้ร่วมกันเพื่อให้แน่ใจว่ามีการแนะนำให้ใช้และรองรับการอัปเดตตามแผน"/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="ข้อกำหนดเบื้องต้น"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="ประเภท"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="สถานะ"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="จำเป็น"/>
+<string id="Column_Type_Optional" value="ไม่จำเป็น"/>
+<string id="Column_Status_Succeeded" value="สำเร็จ"/>
+<string id="Column_Status_Missing" value="ล้มเหลว"/>
+<string id="Hints_Why_Fails" value="ในกรณีที่ไม่ผ่านเกณฑ์ข้อกำหนดเบื้องต้น โปรดคลิกรายการที่ล้มเหลวนั้นเพื่อดูข้อมูลเกี่ยวกับวิธีแก้ไข"/>
+<string id="Failure_Reason" value="ข้อมูล: "/>
+<string id="PreRequisitesUIText_Failure" value="การตรวจสอบข้อกำหนดเบื้องต้นล้มเหลว"/>
+<string id="Retry_Button" value="ลองใหม่"/>
+<string id="Back_Button" value="ย้อนกลับ"/>
+</context>
+</uitext>

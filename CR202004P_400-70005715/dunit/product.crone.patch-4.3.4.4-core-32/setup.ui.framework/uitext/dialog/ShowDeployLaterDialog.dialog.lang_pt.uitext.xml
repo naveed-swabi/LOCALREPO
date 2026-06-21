@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Title" value="Implementação de aplicativo da Web"/>
+<string id="Subtitle" value="Implementar conteúdo da Web mais tarde"/>
+<string id="DeploylaterDescription" value="Servidor de aplicativos da Web Java Tomcat padrão encontrado. Deseja implementar os aplicativos da web agora ou mais tarde?"/>
+<string id="TxtDeployLater" value="Implementar aplicativos da Web mais tarde."/>
+<string id="TxtDeployNow" value="Implementar aplicativos da Web agora."/>
+<string id="Footer" value="Pressione []Tab], []Seta para cima], ou []Seta para baixo] para selecionar, []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+</context>
+</uitext>

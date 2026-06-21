@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="Message" value="解除安裝確認"/>
+<string id="Description" value="這將從您的電腦移除 #product.fullproductnamenospace#。"/>
+<string id="ConfirmUninstall" value="您確定要解除安裝嗎?"/>
+<string id="ConfirmUninstall_Footer" value="按 []Ctrl-B] 返回、按 []Ctrl-X] 結束，或按 []Enter] 繼續。"/>
+</context>
+</uitext>

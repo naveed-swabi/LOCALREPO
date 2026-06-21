@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="RebootWarning" value="Some files were locked during installation which prevented the installer from updating them. You can delay restarting your system but it is highly recommended to reboot before the product is used."/>
+<string id="RebootQuestion" value="Do you want to restart your computer now?"/>
+<string id="RestartLater" value="Restart Later"/>
+<string id="RestartNow" value="Restart Now"/>
+</context>
+</uitext>

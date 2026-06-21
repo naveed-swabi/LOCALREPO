@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.boe.sdkplugins.java/java">
+    <file name="ceplugins_cr.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib" size="35444"/>
+    <file name="com.businessobjects.plugins.CrystalReports.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/bundles" size="18236280"/>
+    <file name="com.businessobjects.plugins.CrystalReports.merger.jar" installdir="[INSTALLDIR]/SAP BusinessObjects Enterprise XI 4.0/java/lib/bundles" size="535"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/crystalreports.boe.sdkplugins.java/export/iface/deployment_files/ml">
+    <file name="BusinessObjects_CRConfig_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="18927"/>
+    <file name="BusinessObjects_Dep_BusinessCompositeFilter_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4830"/>
+    <file name="BusinessObjects_Dep_BusinessElement_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4534"/>
+    <file name="BusinessObjects_Dep_BusinessElement_Descendent_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4603"/>
+    <file name="BusinessObjects_Dep_BusinessField_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4464"/>
+    <file name="BusinessObjects_Dep_BusinessField_Descendent_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4530"/>
+    <file name="BusinessObjects_Dep_BusinessFilter_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4513"/>
+    <file name="BusinessObjects_Dep_BusinessView_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4446"/>
+    <file name="BusinessObjects_Dep_BusinessView_CrystalReport_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4994"/>
+    <file name="BusinessObjects_Dep_BusinessView_Descendent_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4511"/>
+    <file name="BusinessObjects_Dep_CrystalReport_BusinessView_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="5006"/>
+    <file name="BusinessObjects_Dep_CrystalReport_RepositoryObject_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4693"/>
+    <file name="BusinessObjects_Dep_CrystalReport_RepositoryPromptGroup_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4498"/>
+    <file name="BusinessObjects_Dep_DataConnection_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4505"/>
+    <file name="BusinessObjects_Dep_DataFoundation_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4516"/>
+    <file name="BusinessObjects_Dep_DataFoundation_Descendent_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4588"/>
+    <file name="BusinessObjects_Dep_DataFoundation_FromField_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4551"/>
+    <file name="BusinessObjects_Dep_DataFoundation_ToField_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4492"/>
+    <file name="BusinessObjects_Dep_DataProcedure_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4484"/>
+    <file name="BusinessObjects_Dep_DataProcedure_Fields_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4401"/>
+    <file name="BusinessObjects_Dep_DataTable_DataDBField_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4464"/>
+    <file name="BusinessObjects_Dep_MetaDataRepositoryInfo_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4804"/>
+    <file name="BusinessObjects_Dep_MetaDataRepositoryInfo_Descendent_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4866"/>
+    <file name="BusinessObjects_Dep_RepositoryPromptGroup_Child_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4745"/>
+    <file name="BusinessObjects_Dep_RepositoryPromptGroup_MetaDataRepositoryInfo_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="5220"/>
+    <file name="BusinessObjects_ReportEvent_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="13525"/>
+    <file name="BusinessObjects_Report_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="70695"/>
+    <file name="BusinessObjects_RootReportEventFolder_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="8606"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/crystalreports.boe.sdkplugins.java/export/iface/deployment_files/neutral">
+    <file name="BusinessObjects_CRConfig_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="3752"/>
+    <file name="BusinessObjects_Dep_DatasourceReference_Report_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2426"/>
+    <file name="BusinessObjects_Dep_RelationalConnection_Report_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2149"/>
+    <file name="BusinessObjects_Dep_Report_DatasourceReference_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2426"/>
+    <file name="BusinessObjects_Dep_Report_RelationalConnection_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2164"/>
+    <file name="BusinessObjects_Relation_DatasourceReference_Report_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="5441"/>
+    <file name="BusinessObjects_Relation_RelationalConnection_Report_dfo.xml" installdir="[INSTALLDIR]setup/packagestemp" size="5422"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/crystalreports.boe.sdkplugins.java/export/iface/xsd">
+    <file name="BusinessObjects_CrystalReport.4.0.xsd" installdir="[INSTALLDIR]setup/packagestemp" size="92081"/>
+    <file name="BusinessObjects_ReportEvent.4.0.xsd" installdir="[INSTALLDIR]setup/packagestemp" size="1653"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/crystalreports.boe.sdkplugins.java/export/iface/xsd/Titan">
+    <file name="BusinessObjects_CrystalReport.3.0.xsd" installdir="[INSTALLDIR]setup/packagestemp" size="90221"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="InvalidProductKey" value="Вы ввели неверный ключ продукта."/>
+<string id="EnterProductKeyTitle" value="Настройка регистрации продукта"/>
+<string id="EnterProductKeySubtitle" value="Введите ключ продукта #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Нажмите []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для продолжения."/>
+<string id="ProductkeyInfoGroup" value="Сведения о ключе продукта"/>
+<string id="ProductkeyLabel" value="Ключ продукта:"/>
+<string id="Invalid_ProductKey" value="Недопустимый ключ продукта. INS00140"/>
+</context>
+</uitext>

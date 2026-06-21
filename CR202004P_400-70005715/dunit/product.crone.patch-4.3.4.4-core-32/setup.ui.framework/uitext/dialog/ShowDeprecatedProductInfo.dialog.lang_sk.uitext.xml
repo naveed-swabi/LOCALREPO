@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Oznámenie o ukončení používania produktov a funkcií"/>
+<string id="YouMustAgree" value="Používanie niektorých produktov a funkcií v #product.fullproductnamenospace# bolo ukončené."/>
+<string id="IAccept" value="Prečítal/-a som si dokumentáciu, rozumiem dôsledkom ukončenia používania produktov a funkcií platformy BI a súhlasím s vykonaním predpísaných akcií po aktualizácii."/>
+<string id="subtitle1" value="Používanie aplikácií ako SAP BusinessObjects Explorer a SAP BusinessObjects Dashboards je vo verzii BI 4.3 ukončené. Úplný zoznam aplikácií s ukončeným používaním si môžete pozrieť a ďalšie informácie o tomto ukončení používania nájdete na"/>
+<string id="subtitle2" value="Je potrebné, aby ste skontrolovali dôsledky a vykonali predpísané akcie, ako sú uvedené v blogu."/>
+<string id="AcceptOrNotAccept" value="Stlačením tlačidla &lt;ENTER&gt; potvrďte, že ste si prečítali dokumentáciu, porozumeli ste dôsledkom ukončenia používania produktov a funkcií platformy BI a súhlasíte s vykonaním predpísaných akcií po aktualizácii."/>
+<string id="DeprecatedProductDescription" value="Používanie aplikácií ako SAP BusinessObjects Explorer a SAP BusinessObjects Dashboards je vo verzii BI 4.3 ukončené. Úplný zoznam aplikácií s ukončeným používaním si môžete pozrieť a ďalšie informácie o tomto ukončení používania nájdete na https://launchpad.support.sap.com/#/notes/2801797. \n\nJe potrebné, aby ste skontrolovali dôsledky a vykonali predpísané akcie, ako sú uvedené v blogu.\n\n"/>
+<string id="CRServiceDescription" value="Služby SAP Crystal Reports 2020 už v systémoch Linux a Unix nie sú viac podporované, preto budú počas tejto inovácie odstránené. Dokumenty SAP Crystal Reports 2020 však zostanú na platforme BI Platform a budú naďalej podporované. Ak chcete získať ďalšie detaily o tom, ako distribuovať požadované služby na server Windows, pozrite si článok databázy SAP Knowledge Base na https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

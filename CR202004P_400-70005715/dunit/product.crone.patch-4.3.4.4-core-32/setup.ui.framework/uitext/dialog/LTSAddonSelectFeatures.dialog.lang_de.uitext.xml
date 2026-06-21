@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="SelectFeaturesTitle" value="Funktionen auswählen"/>
+<string id="SelectFeaturesSubtitle" value="Wählen Sie die zu installierenden Funktionen aus."/>
+<string id="SelectFeaturesFooter" value="Drücken Sie die []Tabulatortaste], die []Nach-oben-Taste] oder die []Nach-unten-Taste], um Elemente hervorzuheben, die []Leertaste], um zu erweitern, []X], um den Status zu wechseln, []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um fortzufahren."/>
+<string id="DiskCost" value="Speicherplatz"/>
+<string id="Drive Select" value="Auswahl von"/>
+<string id="Disk Costing" value="Speicherplatzberechnung"/>
+<string id="Volume" value="Volumen"/>
+<string id="Disk Size" value="Festplattengröße"/>
+<string id="Available" value="Verfügbar"/>
+<string id="Required" value="Erforderlich"/>
+<string id="Difference" value="Differenz"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Wiederholen"/>
+<string id="Cancel" value="Abbrechen"/>
+<string id="Invalid_DiskSpace" value="Sie verfügen nicht über genügend Speicherplatz zum Installieren des Produkts. Geben Sie etwas Speicherplatz frei, oder wählen Sie einen anderen Installationsspeicherort. Erforderlicher Speicherplatz: [RequiredSpace] Byte."/>
+</context>
+</uitext>

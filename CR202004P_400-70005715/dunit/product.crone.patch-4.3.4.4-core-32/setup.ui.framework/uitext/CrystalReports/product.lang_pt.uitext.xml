@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="Atualização do #product.fullproductnamenospace#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="Atualização do #product.fullproductnamenospace#"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# instalado"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="Essa atualização é para o #productname#, que não foi detectado no sistema. Instale o produto primeiro antes de prosseguir com a instalação."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="Nenhuma correção de versão superior"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="Uma correção com uma versão mais recente que esse pacote foi detectada no sistema. Nenhuma atualização desse pacote será aplicada. Não é recomendado que você prossiga."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="Versão do pacote de suporte em [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="A versão do pacote de suporte do produto deve estar em [CurrentSupportPackage] para continuar essa atualização. Atualize o sistema existente ou aplique a atualização apropriada."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="Versão inferior em [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="A versão inferior do produto deve estar em [CurrentMinorVersion] para continuar essa atualização. Atualize o sistema existente ou aplique a atualização apropriada."/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Cria e modifica relatórios de dados formatados (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\Administrador da fonte de dados ODBC"/>
+<string id="product.shortcutODBC.description" value="Adiciona, remove e configura fontes de dados e drivers do Open Database Connectivity (ODBC)."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\Administrador da fonte de dados de 32 bits"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Assistente de upload do relatório"/>
+<string id="product.shortcutWizard.description" value="Assistente de upload do relatório"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="A nova versão do driver DataDirect 7.1.5 está instalada. Para migrar para a nova versão do driver DataDirect, consulte a documentação."/>
+</context>
+</uitext>

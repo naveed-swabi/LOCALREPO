@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Message" value="Tuotteen #product.fullproductnamenospace# asennus onnistui."/>
+<string id="Description" value="Lopeta asennus valitsemalla Valmis."/>
+<string id="MonitorToolCheck" value="Käynnistä ohjelmiston valvontatyökalu"/>
+<string id="CustomNextButton" value="Valmis"/>
+</context>
+</uitext>

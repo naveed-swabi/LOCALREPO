@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# has been successfully installed."/>
+<string id="SuccessInstallDescription" value="Click Finish to exit this installation."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# has encountered errors during the install process."/>
+<string id="FailureInstallDescription" value="Click Finish to exit this installation."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# has been successfully uninstalled."/>
+<string id="SuccessUnInstallDescription" value="Click Finish to exit this uninstallation."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# has been successfully installed with warnings."/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# has encountered errors during the uninstall process."/>
+<string id="FailureUnInstallDescription" value="Click Finish to exit this uninstallation."/>
+<string id="FinishButton" value="Finish"/>
+<string id="ViewLogButton" value="View Log"/>
+<string id="LaunchWDeploy" value="Automatically launch WDeploy tool after installation."/>
+<string id="LaunchSSW" value="Launch System Setup Wizard"/>
+<string id="HyperlinkText" value="Click here for details"/>
+</context>
+</uitext>

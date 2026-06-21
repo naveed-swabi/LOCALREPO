@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="ChooseSldServerLocation" value="Choose the SLD Server Location"/>
+<string id="SpecifySldServerLocation" value="Enter the SLD Server Location"/>
+<string id="SldHostnameExample" value="Input the address of the SLD Server (eg. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Input login information."/>
+<string id="SldHostname" value="Hostname"/>
+<string id="SldPort" value="Port"/>
+<string id="SldUsername" value="Username"/>
+<string id="SldPassword" value="Password"/>
+</context>
+</uitext>

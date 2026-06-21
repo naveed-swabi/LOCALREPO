@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.saptoolbar-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="3006763">
+    <requiredDeploymentUnit ref="crystalreports.partner.shared.cpp.pvlmapping-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.sap.nwrfc-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <actionSequence ref="UnconfigureDUBase">
+      <action id="RunCommand" actionText="#progress.BWUnregServer#">
+        <arg name="CmdLine" value="&quot;[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\/BWQueryReportWrapper.exe&quot; /UnregServer"/>
+      </action>
+    </actionSequence>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="A9E26E60-157E-43BD-965B-6C9A67E713BE"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <actionSequence ref="ConfigureDUBase">
+      <action id="RunCommand" actionText="#progress.BWRegServer#">
+        <arg name="CmdLine" value="&quot;[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\/BWQueryReportWrapper.exe&quot; /regServer"/>
+      </action>
+    </actionSequence>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

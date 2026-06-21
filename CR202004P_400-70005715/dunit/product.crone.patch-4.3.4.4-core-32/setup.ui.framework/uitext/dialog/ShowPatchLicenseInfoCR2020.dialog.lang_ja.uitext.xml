@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="NewLicensePatchAgreement" value="新しいライセンスキー要件"/>
+<string id="YouMustAgree" value="#product.fullproductnamenospace# の更新には新しいライセンスキーが必要です。"/>
+<string id="IAccept" value="私はマニュアルを読み、新しいライセンスキーを申請する処理を理解しました。更新のインストール後に新しいライセンスキーを追加することに同意します。"/>
+<string id="subtitle1" value="SAP Business Intelligence プラットフォームの一部として購入された SAP Crystal Reports については、以下のリンクに移動して、新しいライセンスキーを申請する方法を確認できます。"/>
+<string id="subtitle2" value="個別に購入された SAP Crystal Reports については、SAP Store でアップグレードライセンスキーを購入する必要があります。"/>
+<string id="subtitle3" value="更新のインストール後にアプリケーションを起動する際に、新しいライセンスキーをライセンスマネージャに入力する必要があります。"/>
+</context>
+</uitext>

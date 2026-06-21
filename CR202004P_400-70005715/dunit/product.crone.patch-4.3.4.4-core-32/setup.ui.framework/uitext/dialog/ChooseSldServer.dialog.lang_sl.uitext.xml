@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ChooseSldServerLocation" value="Izbira lokacije strežnika SLD"/>
+<string id="SpecifySldServerLocation" value="Vnos lokacije strežnika SLD"/>
+<string id="SldHostnameExample" value="Vnos naslova strežnika SLD (npr. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Vnos informacij za prijavo."/>
+<string id="SldHostname" value="Naziv gostitelja"/>
+<string id="SldPort" value="Vrata"/>
+<string id="SldUsername" value="Uporabniško ime"/>
+<string id="SldPassword" value="Geslo"/>
+</context>
+</uitext>

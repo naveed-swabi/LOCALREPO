@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="InvalidProductKey" value="Aţi introdus o cheie de produs nevalabilă."/>
+<string id="EnterProductKeyTitle" value="Configuraţi înregistrare produs"/>
+<string id="EnterProductKeySubtitle" value="Introduceţi cheia de produs pt. #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Apăsaţi []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+<string id="ProductkeyInfoGroup" value="Informaţii cheie produs"/>
+<string id="ProductkeyLabel" value="Cheie produs:"/>
+<string id="Invalid_ProductKey" value="Cheia de produs nu este valabilă. INS00140"/>
+</context>
+</uitext>

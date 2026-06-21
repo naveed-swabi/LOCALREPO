@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="Title" value="Installazione in fasi"/>
+<string id="SubTitle" value="Cache completata"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Premere [Invio] per uscire dall'installazione in fasi"/>
+<string id="Description" value="Per riprendere l'installazione dopo la memorizzazione nella cache, eseguire nuovamente il file di configurazione. Durante l'installazione dopo la memorizzazione nella cache, si verificano tempi di inattività del sistema. È possibile eseguire questa fase dell'installazione durante i tempi di manutenzione."/>
+<string id="FinishMessage" value="Fare clic su Fine per uscire dall'installazione in fasi."/>
+<string id="Finish" value="Fine"/>
+</context>
+</uitext>

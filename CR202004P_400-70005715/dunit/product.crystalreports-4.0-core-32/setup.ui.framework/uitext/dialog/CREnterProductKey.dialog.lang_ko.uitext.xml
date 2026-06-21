@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="InvalidProductKey" value="입력한 제품 키가 유효한 키로 인식되지 않습니다."/>
+<string id="EnterProductKeyTitle" value="제품 등록 구성"/>
+<string id="EnterProductKeySubtitle" value="#product.nameandversionwithoutpatch# 제품 키를 입력하십시오."/>
+<string id="ProductkeyLabel" value="제품 키:"/>
+<string id="ProductkeyInfoGroup" value="제품 키 정보"/>
+<string id="Invalid_ProductKey" value="제품 키가 잘못되었습니다. INS00140"/>
+</context>
+</uitext>

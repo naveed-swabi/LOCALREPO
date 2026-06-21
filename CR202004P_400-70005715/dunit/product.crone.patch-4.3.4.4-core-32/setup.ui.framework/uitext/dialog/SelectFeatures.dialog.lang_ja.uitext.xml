@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="SelectFeaturesTitle" value="機能の選択"/>
+<string id="SelectFeaturesSubtitle" value="インストールする機能を選択します。"/>
+<string id="SelectFeaturesFooter" value="強調表示するには []Tab]、[]上矢印]、または []下矢印] キーを押します。展開するには []スペース] キーを押します。状態を切り替えるには []X] キーを押します。戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+<string id="DiskCost" value="ディスク領域"/>
+<string id="Drive Select" value="選択内容"/>
+<string id="Disk Costing" value="ディスク領域計算"/>
+<string id="Volume" value="ボリューム"/>
+<string id="Disk Size" value="ディスクサイズ"/>
+<string id="Available" value="利用可能"/>
+<string id="Required" value="必須"/>
+<string id="Difference" value="差"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="再試行"/>
+<string id="Cancel" value="キャンセル"/>
+<string id="Invalid_DiskSpace" value="製品をインストールできるだけの十分なスペースがありません。 ディスク領域を解放するか、別のインストール先を選択してください。必要な領域: [RequiredSpace] バイト。"/>
+</context>
+</uitext>

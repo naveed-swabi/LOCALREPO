@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="ChooseSldServerLocation" value="Vælg SLD-serverens placering"/>
+<string id="SpecifySldServerLocation" value="Angiv SLD-serverens placering"/>
+<string id="SldHostnameExample" value="Angiv adressen på SLD-serveren (f.eks. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Angiv logonoplysninger."/>
+<string id="SldHostname" value="Værtsnavn"/>
+<string id="SldPort" value="Port"/>
+<string id="SldUsername" value="Brugernavn"/>
+<string id="SldPassword" value="Adgangskode"/>
+</context>
+</uitext>

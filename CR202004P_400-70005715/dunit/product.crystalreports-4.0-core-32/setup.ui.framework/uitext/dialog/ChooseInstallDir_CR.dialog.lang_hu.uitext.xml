@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ChooseDestination" value="Adja meg a célmappát"/>
+<string id="SpecifyDestination" value="A célmappa az a mappa, amelybe a termék telepítve lesz. Más cél kiválasztásához kattintson a Tallózás gombra."/>
+<string id="DestinationFolder" value="Célmappa"/>
+<string id="Browse" value="Tallózás"/>
+<string id="BrowseInstallDirectory" value="Válassza ki a telepítés helyét"/>
+<string id="PWClientFolderTitle" value="Kliens célmappája"/>
+<string id="PWServerFolderTitle" value="Szerver célmappája"/>
+<string id="Invalid_InstallDirWindows" value="A telepítési mappa érvénytelen. Csak olyan érvényes abszolút elérési út használható, amely alfanumerikus karaktereken kívül legfeljebb a következő karaktereket tartalmazza: _ - \ . ( ). A mappa csak belső meghajtón lehet, és a teljes elérési út nem lehet 150 karakternél hosszabb. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="A telepítési mappa érvénytelen. Adjon meg olyan érvényes abszolút elérési utat, amelyen olvasási, írási és végrehajtási jogosultsággal rendelkezik. INS00029"/>
+</context>
+</uitext>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="DeprecatedProductAgreement" value="더 이상 사용되지 않는 제품 및 기능 고지"/>
+<string id="YouMustAgree" value="#product.fullproductnamenospace#에서는 몇 가지 제품과 기능이 더 이상 사용되지 않습니다."/>
+<string id="IAccept" value="문서를 읽고 BI 플랫폼에서 사용되지 않는 제품과 기능의 영향을 이해했습니다. 기술된 작업을 업데이트 이후 수행하는 것에 동의합니다."/>
+<string id="subtitle1" value="SAP BusinessObjects Explorer 및 SAP BusinessObjects Dashboards와 같은 응용 프로그램은 BI 4.3에서 사용되지 않습니다. 다음 사이트에서 사용되지 않는 응용 프로그램 전체 목록을 확인하고 이러한 사용 중단 활동에 대한 정보를 확인할 수 있습니다."/>
+<string id="subtitle2" value="설명된 영향을 검토한 후 기술된 작업을 블로그에 나온 설명에 따라 수행해야 합니다."/>
+<string id="AcceptOrNotAccept" value="문서를 읽고 BI 플랫폼에서 사용되지 않는 제품과 기능의 영향을 이해했으며, 기술된 작업을 업데이트 이후 수행하는 것에 동의하면 &lt;ENTER&gt;를 누르십시오."/>
+<string id="DeprecatedProductDescription" value="SAP BusinessObjects Explorer 및 SAP BusinessObjects Dashboards와 같은 응용 프로그램은 BI 4.3에서 사용되지 않습니다. https://launchpad.support.sap.com/#/notes/2801797 사이트에서 사용되지 않는 응용 프로그램 전체 목록을 확인하고 이러한 사용 중단 활동에 대한 정보를 확인할 수 있습니다. \n\n설명된 영향을 검토한 후 기술된 작업을 블로그에 나온 설명에 따라 수행해야 합니다.\n\n"/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020 서비스는 Linux 및 Unix에서 더 이상 지원되지 않으므로 이번 업그레이드 중에 제거됩니다. 그러나 SAP Crystal Reports 2020 문서는 BI 플랫폼에 그대로 유지되며 계속 지원됩니다. Windows 서버에 필요한 서비스를 배포하는 자세한 방법을 보려면 https://launchpad.support.sap.com/#/notes/3032096의 SAP Knowledge Base Article을 참조하십시오."/>
+</context>
+</uitext>

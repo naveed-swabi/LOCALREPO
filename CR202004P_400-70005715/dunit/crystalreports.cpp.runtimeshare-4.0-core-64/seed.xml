@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.runtimeshare-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="10480118">
+    <requiredDeploymentUnit ref="crystalreports.cpp.cslib-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.erom-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.parameterprompt-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.printcontrol-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.registrywrapper-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.share.registry-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.crystalcommon.cpp.crlang-4.0-core"/>
+    <requiredDeploymentUnit ref="crystalreports.dataaccess.share-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.tracelog-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.library.common-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.keycode.decoder.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.keycode.defn-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.curl.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.apache.xalan.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.apache.xerces.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.azalea-5.5-core"/>
+    <requiredDeploymentUnit ref="tp.shared.pvlocale.pvlocale-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.microsoft.mssdk-10.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.sourceforge.libpng.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.threedgraphics.pgsdk.cpp-2.50.16.busobj.1-core"/>
+    <requiredDeploymentUnit ref="tp.ijg.jpeg.cpp-9d-core"/>
+    <requiredDeploymentUnit ref="crystalreports.cpp.ufl-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="54019CB0-36C8-454F-87E3-11FE35115286"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

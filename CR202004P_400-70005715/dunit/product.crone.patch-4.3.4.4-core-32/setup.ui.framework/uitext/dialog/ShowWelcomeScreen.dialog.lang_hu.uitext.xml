@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Message" value="Üdvözli a(z) #product.fullproductnamenospace# telepítővarázslója!"/>
+<string id="ShowWelcomeScreenTitle" value="Üdvözlőképernyő"/>
+<string id="ShowWelcomeScreenSubtitle" value="Üdvözli a(z) #product.fullproductnamenospace# telepítővarázslója!"/>
+<string id="Description" value="A telepítő futtatása előtt ajánlatos az összes Windows-programot bezárni.\n\nA telepítés megszakításához kattintson a Mégse gombra, és zárja be a futó alkalmazásokat. A telepítés folytatásához kattintson a Tovább gombra.\n\nFIGYELEM: a programot szerzői jogi törvények és nemzetközi egyezmények védik.\n\n\nA program, illetve a program bármely részének engedély nélküli másolása vagy terjesztése polgári peres vagy büntetőjogi eljárást vonhat maga után, és a törvény által kiszabható legszigorúbb büntetéssel sújtható."/>
+<string id="Description_unix" value="FIGYELEM! A programot szerzői jogi törvények és nemzetközi egyezmények védik.\n\n\nA program, illetve a program bármely részének engedély nélküli másolása vagy terjesztése polgári peres vagy büntetőjogi eljárást vonhat maga után, és a törvény által kiszabható legszigorúbb büntetéssel sújtható.\n\n\nMEGJEGYZÉS: a http://support.sap.com/pam oldalon tájákozódhat bővebben a támogatott platformokról."/>
+<string id="ShowWelcomeScreenFooter" value="A visszalépéshez nyomja meg a []Ctrl-B], a kilépéshez a []Ctrl-X] billentyűkombinációt, míg a folytatáshoz az []Enter] billentyűt."/>
+<string id="PamHyperLinkWelcome" value="További információk a támogatott platformokról:"/>
+</context>
+</uitext>

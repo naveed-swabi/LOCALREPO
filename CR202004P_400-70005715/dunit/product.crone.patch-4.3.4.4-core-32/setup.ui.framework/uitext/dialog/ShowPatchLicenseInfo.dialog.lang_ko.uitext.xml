@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="LicenseAgreement" value="새 라이센스 키 요구사항"/>
+<string id="YouMustAgree" value="#product.fullproductname#에는 새 라이센스 키가 필요합니다."/>
+<string id="SelectLicenseChangeSubtitle" value="#product.fullproductname#에는 새 라이센스 키가 필요합니다."/>
+<string id="IAccept" value="설명서를 읽고 새 라이센스 키 신청 절차를 이해했으며, 업데이트 설치 후 기존 라이센스 키를 삭제하고 새 라이센스 키를 추가하는 데 동의합니다."/>
+<string id="subtitle1" value="#product.fullproductname#에는 새 라이센스 키가 필요합니다."/>
+<string id="subtitle2" value="새 라이센스 키를 요청합니다. 라이센스 키 요청 방법은 다음 사이트를 참조하십시오."/>
+<string id="subtitle3" value="#product.fullproductname# 설치가 완료된 후 중앙 관리 콘솔(CMC)에 로그온하여 기존 라이센스 키를 삭제하고 새 라이센스 키를 추가하십시오. 새 라이센스 키를 추가해야 모든 서비스를 사용할 수 있습니다."/>
+<string id="subtitle4" value="새 라이센스 키 요청:"/>
+<string id="AcceptOrNotAccept" value="&lt;ENTER&gt; 키를 눌러 업데이트 설치 후 기존 라이센스 키를 삭제하고 새 라이센스 키를 추가하는 데 동의해 주십시오."/>
+<string id="Description_Patch_License" value="#product.fullproductname#에는 새 라이센스 키가 필요합니다.\n\n새 라이센스 키를 요청합니다. 라이센스 키를 요청하는 방법은 http://scn.sap.com/docs/DOC-70095 사이트를 참조하십시오. \n\n#product.fullproductname# 설치가 완료된 후 중앙 관리 콘솔(CMC)에 로그온하여 기존 라이센스 키를 삭제하고 새 라이센스 키를 추가하십시오. 새 라이센스 키를 추가해야 모든 서비스를 사용할 수 있습니다."/>
+</context>
+</uitext>

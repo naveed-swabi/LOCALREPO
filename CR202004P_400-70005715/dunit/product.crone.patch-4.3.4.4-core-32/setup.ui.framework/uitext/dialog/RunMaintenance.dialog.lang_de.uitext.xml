@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Unbekannter Wartungsmodus angegeben. Folgende Werte sind gültig: Ändern, Reparieren oder Entfernen"/>
+<string id="ChooseMaintenanceMode" value="Anwendungswartung"/>
+<string id="SelectMaintenanceMode" value="Wählen Sie den auszuführenden Wartungsvorgang aus. Unter http://support.sap.com erhalten Sie Unterstützung bei der Fehlerbehebung."/>
+<string id="SelectMaintenanceMode_win" value="Auszuführenden Wartungsvorgang auswählen."/>
+<string id="Modify" value="Ändern"/>
+<string id="ModifyDescription" value="Legen Sie fest, welche Anwendungsfunktionen installiert werden sollen. Zeigt das Dialogfeld zum Auswählen von Komponenten an, in dem Sie individuelle Komponenten konfigurieren können."/>
+<string id="Repair" value="Reparieren"/>
+<string id="RepairDescription" value="Installieren Sie fehlende oder beschädigte Dateien, Registrierungsschlüssel und Verknüpfungen neu. In der Registrierung gespeicherte Einstellungen werden u.U. auf die Standardwerte zurückgesetzt."/>
+<string id="Remove" value="Entfernen"/>
+<string id="RemoveDescription" value="Deinstallieren Sie #product.nameonly# von diesem Rechner."/>
+<string id="Invalid_Maintenance_Mode" value="Ungültiger MaintenanceMode-Typ ([MaintenanceMode]): Der Typ sollte &quot;ändern&quot;, &quot;reparieren&quot; oder &quot;entfernen&quot; lauten. INS00283"/>
+<string id="HyperLinkMaint" value="Unterstützung bei der Fehlerbehebung finden Sie unter:"/>
+</context>
+</uitext>

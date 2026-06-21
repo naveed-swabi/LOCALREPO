@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Title" value="การปรับใช้แอปพลิเคชันเว็บ"/>
+<string id="Subtitle" value="ปรับใช้เนื้อหาเว็บภายหลัง"/>
+<string id="DeploylaterDescription" value="พบเซิร์ฟเวอร์แอปพลิเคชันเว็บ Java แบบ Tomcat ที่เป็นค่าดีฟอลต์ คุณต้องการปรับใช้แอปพลิเคชันเว็บตอนนี้หรือในภายหลัง"/>
+<string id="TxtDeployLater" value="ปรับใช้แอปพลิเคชันเว็บภายหลัง"/>
+<string id="TxtDeployNow" value="ปรับใช้แอปพลิเคชันเว็บทันที"/>
+<string id="Footer" value="กด []Tab], []Up] หรือ []Down] เพื่อเลือก กด []Ctrl-B] เพื่อย้อนกลับ []Ctrl-X] เพื่อออก หรือ []Enter] เพื่อดำเนินการต่อ"/>
+</context>
+</uitext>

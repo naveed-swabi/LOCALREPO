@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Aankondiging van als verouderd gemarkeerde producten en functies"/>
+<string id="YouMustAgree" value="Enkele producten en functies zijn als verouderd gemarkeerd in #product.fullproductnamenospace#."/>
+<string id="IAccept" value="Ik heb de documentatie gelezen en ben me bewust van de gevolgen voor als verouderd gemarkeerde producten en functies van het BI-platform. Ik bevestig hierbij dat ik na de update de gespecificeerde acties zal uitvoeren."/>
+<string id="subtitle1" value="Toepassingen als SAP BusinessObjects Explorer en SAP BusinessObjects Dashboards zijn met ingang van BI 4.3 als verouderd gemarkeerd. Voor een volledige lijst met verouderde toepassingen en meer informatie over het uitfaseren van producten en functies gaat u naar"/>
+<string id="subtitle2" value="Bekijk eerst wat de gevolgen zijn en voer vervolgens de acties uit die in de blog worden gespecificeerd."/>
+<string id="AcceptOrNotAccept" value="Druk op &lt;ENTER&gt; om aan te geven dat u de documentatie hebt gelezen en zich bewust bent van de gevolgen voor als verouderd gemarkeerde producten en functies van BI-platform. Verder bevestigt u hiermee dat u na de update de gespecificeerde acties zult uitvoeren."/>
+<string id="DeprecatedProductDescription" value="Toepassingen als SAP BusinessObjects Explorer en SAP BusinessObjects Dashboards zijn met ingang van BI 4.3 als verouderd gemarkeerd. Voor een volledige lijst met verouderde toepassingen en meer informatie over het uitfaseren van producten en functies gaat u naar https://launchpad.support.sap.com/#/notes/2801797. \n\nBekijk eerst wat de gevolgen zijn en voer vervolgens de acties uit die in de blog worden gespecificeerd.\n\n"/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020-services worden niet meer ondersteund op Linux en Unix. Deze services worden tijdens deze upgrade verwijderd. SAP Crystal Reports 2020-documenten blijven behouden op BI-platform en worden nog steeds ondersteund. Raadpleeg het desbetreffende SAP Knowledge Base Article via https://launchpad.support.sap.com/#/notes/3032096 voor meer informatie over hoe u de vereiste services op een Windows-server distribueert."/>
+</context>
+</uitext>

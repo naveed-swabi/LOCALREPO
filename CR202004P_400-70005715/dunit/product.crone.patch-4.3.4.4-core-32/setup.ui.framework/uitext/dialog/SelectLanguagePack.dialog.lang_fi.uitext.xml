@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Valitse kielipaketit"/>
+<string id="SelectLanguagePackSubtitle" value="Valitse kaikki lisäkielipaketit, joita käyttäjät käyttävät tuotteessa."/>
+<string id="SelectLanguagePackFooter" value="Valitse kohde []Sarkain]-, []Ylänuoli]- tai []Alanuoli]-näppäimillä, vaihda tilaa painamalla  []Välilyönti]- tai []X]-näppäintä,palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+<string id="alllang" value="Kaikki kielet"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Ominaisuuden SelectedLanguagePacks '[SelectedLanguagePacks]' täytyy sisältää järjestelmän kieliasetus."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Ominaisuuden SelectedLanguagePacks '[SelectedLanguagePacks]' täytyy sisältää asetus 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Ominaisuuden SelectedLanguagePacks '[SelectedLanguagePacks]' on oltava kaikkien käytettävissä olevien kielipakettien alijoukko."/>
+</context>
+</uitext>

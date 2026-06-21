@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# has been successfully installed."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# has encountered errors during the install process."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# has encountered errors during the uninstall process."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# has been successfully uninstalled."/>
+<string id="Description" value="Click on Finish to complete this installation and launch the application."/>
+<string id="CustomDescription" value="Click on Finish to complete this installation."/>
+<string id="FailedDescription" value="Click Finish to exit this installation."/>
+<string id="Description_unix" value="Press []Ctrl-B] to go back, or []Enter] to exit this installation."/>
+<string id="FailedDescription_unix" value="Press []D] for more details, or []Enter] to exit this installation."/>
+<string id="CustomNextButton" value="Finish"/>
+<string id="ViewLogButton" value="View Log"/>
+</context>
+</uitext>

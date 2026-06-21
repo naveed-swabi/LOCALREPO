@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOCTYPE duseed SYSTEM "schema\Config.dtd"> -->
+<productSeed>
+  <product id="product.crone.patch-4.3.4.4-fi-32" type="fi" revision="14.3.4.4938" defaultObjectModel="64" productShortName="CrystalReports.LP" installiverseId="Aurora" schemaVersion="4" minimumSetupEngineVersion="60" variant="" sizeInCache="654">
+    <feature id="root" description="" display="hidden" name="root" defaultState="install">
+      <instance id="root"/>
+    </feature>
+    <requiredDeploymentUnit ref="product.crone.patch-4.3.4.4-core"/>
+  </product>
+  <productSequence/>
+  <productSequence/>
+  <productSequence/>
+</productSeed>

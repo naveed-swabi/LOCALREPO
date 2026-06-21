@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Announcement of Deprecated Products and Features"/>
+<string id="YouMustAgree" value="A few products and features have been deprecated in #product.fullproductnamenospace#."/>
+<string id="IAccept" value="I have read the documentation and understood the impact of the deprecated products and features of the BI Platform, and agree to perform the prescribed actions after the update."/>
+<string id="subtitle1" value="Applications such as SAP BusinessObjects Explorer and SAP BusinessObjects Dashboards are deprecated in BI 4.3. You can check the complete list of deprecated applications and get more information about this deprecation activity at"/>
+<string id="subtitle2" value="You need to review the impact and then perform the prescribed actions as mentioned in the blog."/>
+<string id="AcceptOrNotAccept" value="Press &lt;ENTER&gt; to agree that you read the documentation and understood the impact of the deprecated products and features of the BI Platform, and agree to perform the prescribed actions after the update."/>
+<string id="DeprecatedProductDescription" value="Applications such as SAP BusinessObjects Explorer and SAP BusinessObjects Dashboards are deprecated in BI 4.3. You can check the complete list of deprecated applications and get more information about this deprecation activity at https://launchpad.support.sap.com/#/notes/2801797. \n\nYou need to review the impact and then, perform the prescribed actions as mentioned in the blog.\n\n"/>
+<string id="CRServiceDescription" value="SAP Crystal Reports 2020 services are no longer supported on Linux and Unix, thus will be removed during this upgrade. However, SAP Crystal Reports 2020 documents will stay in the BI Platform and still be supported. To know more details about how to distribute required services onto a Windows server, refer the SAP Knowledge Base Article at https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

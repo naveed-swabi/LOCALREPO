@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="UnknownChooseUpgrade" value="A megadott ChooseUpgrade ismeretlen, az érvényes értékek: 0 és 1"/>
+<string id="ChooseUpgrade" value="A telepítő a(z) #productname# korábbi verzióját észlelte"/>
+<string id="SelectUpgrade" value="Válassza ki, hogy frissítő telepítést szeretne-e végrehajtani."/>
+<string id="SideBySide" value="Párhuzamos telepítés végrehajtása"/>
+<string id="SideBySideDescription" value="A(z) #productname# aktuális verzióját telepíti a jelenleg telepített verzió mellé."/>
+<string id="SimpleUpgrade" value="Egyszerű frissítés végrehajtása"/>
+<string id="SimpleUpgradeDescription" value="A telepítő a(z) #productname# korábbi verzióját észlelte. A folytatás előtt távolítsa el a korábbi verziót, vagy válassza ezt a beállítást a frissítő telepítés végrehajtásához."/>
+<string id="Invalid_ChooseUpgrade" value="Érvénytelen ChooseUpgrade ([ChooseUpgrade]): értéke 0 vagy 1 lehet"/>
+</context>
+</uitext>

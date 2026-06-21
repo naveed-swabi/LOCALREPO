@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Selectaţi server de aplicaţii web Java"/>
+<string id="ChooseWebAppServerSubtitle" value="Selectaţi o soluţie pt. server de aplicaţii web Java."/>
+<string id="ChooseWebAppServerFooter" value="Apăsaţi []Tab], []Up] sau []Down] pt. a selecta, []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+<string id="InstallJWAS" value="Instalare aplicaţie web Java şi servere"/>
+<string id="InstallTomcat" value="Instalaţi serverul de aplicaţii web Tomcat Java implicit şi a implementa automat aplicaţii web"/>
+<string id="ManualDeploy" value="Implementaţi manual aplicaţiile web pe un server de aplicaţii web Java suportat după instalare"/>
+<string id="InstallWACS" value="Instalaţi server containe de aplicaţii web şi implementaţi automat aplicaţiile web"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integration Option pentru software Microsoft SharePoint 4.0"/>
+<string id="SharePointIntegrationText" value="SAP BusinessObjects Integration Option pentru software Microsoft SharePoint 4.0 este disponibilă pentru instalare separată din folderul de addon-uri pentru Sharepoint pe 64 biţi. Vedeţi şi legătura la folderul de addon-uri din instrucţiunile următoare instalării."/>
+<string id="SharePointIntegrationCheck" value="Afişare amplasare folder programe de completare la sfârşitul instalării"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="UseIntegratedWebAppServer Value ([UseIntegratedWebAppServer]) nevalabilă: trebuie să fie 0 sau 1. INS00255"/>
+</context>
+</uitext>

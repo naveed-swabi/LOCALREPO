@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Message" value="Instalare #product.fullproductnamenospace# reuşită."/>
+<string id="InstallFailedMessage" value="#product.fullproductnamenospace# a găsit erori la procesul de instalare."/>
+<string id="UninstallFailedMessage" value="Au apărut erori la proces dezinstalare #product.fullproductnamenospace#."/>
+<string id="UninstallMessage" value="Dezinstalare reuşită #product.fullproductnamenospace#."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# a fost instalat cu succes, cu avertizări."/>
+<string id="Description" value="Faceţi clic pe Terminare pt. a ieşi."/>
+<string id="FailedDescription" value="Faceţi clic pe Terminare pt. a ieşi."/>
+<string id="Description_unix" value="Apăsaţi []Enter] pt. a ieşi."/>
+<string id="FailedDescription_unix" value="Apăsaţi []D] pt. mai multe detalii sau []Enter] pt. a ieşi."/>
+<string id="LaunchWDeploy" value="Lansare automată instrument WDeploy"/>
+<string id="LaunchWDeployUNIX" value="Lansaţi [EnterpriseDir]wdeploy/wdeployGUI.sh după ieşirea din instalator."/>
+<string id="CustomNextButton" value="Finalizare"/>
+<string id="ViewLogButton" value="Jurnal imagine"/>
+<string id="HyperlinkText" value="Faceţi click aici pentru detalii"/>
+</context>
+</uitext>

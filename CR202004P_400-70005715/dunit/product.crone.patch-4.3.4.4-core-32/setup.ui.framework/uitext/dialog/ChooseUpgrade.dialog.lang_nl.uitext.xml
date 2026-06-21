@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Onbekende ChooseUpgrade opgegeven; geldige waarden zijn: 0 of 1"/>
+<string id="ChooseUpgrade" value="Eerdere versie van #productname# gedetecteerd"/>
+<string id="SelectUpgrade" value="Selecteer of u een upgrade-installatie wilt uitvoeren."/>
+<string id="SideBySide" value="Zij-aan-zij-installatie uitvoeren"/>
+<string id="SideBySideDescription" value="Hiermee wordt deze versie van #productname# naast de huidige versie geïnstalleerd."/>
+<string id="SimpleUpgrade" value="Eenvoudige upgrade uitvoeren"/>
+<string id="SimpleUpgradeDescription" value="Er is een eerdere versie van #productname# gedetecteerd. U moet de installatie van de vorige versie verwijderen voordat u verdergaat of deze optie selecteren om een plaatselijke upgrade uit te voeren."/>
+<string id="Invalid_ChooseUpgrade" value="ChooseUpgrade ([ChooseUpgrade]) ongeldig: dit moet 0 of 1 zijn"/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informaţii de implementare despre #productname# existent"/>
+<string id="SpecifyRemoteCMS" value="Specificaţi informaţiile de conectare administrator pt. implementarea dvs. existentă."/>
+<string id="RemoteCMSConnectionInfo" value="Informaţii de conectare pt. #productname# existent"/>
+<string id="RemoteCMSName" value="Nume"/>
+<string id="RemoteCMSPort" value="Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informaţii de conectare administrator"/>
+<string id="RemoteCMSUser" value="Utilizator"/>
+<string id="RemoteCMSPassword" value="Parolă"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Serverul SAP Lumira la distanţă pt. echipe nu este accesibil sau acreditările de conectare sunt incorecte. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Serverul SAP Lumira la distanţă pt. echipe nu este accesibil sau acreditările de conectare sunt incorecte. INS00013\nDoriţi să introduceţi acreditările din nou?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Parola nu trebuie să conţină cuvântul &quot;Administrator&quot; sau caractere speciale precum : &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

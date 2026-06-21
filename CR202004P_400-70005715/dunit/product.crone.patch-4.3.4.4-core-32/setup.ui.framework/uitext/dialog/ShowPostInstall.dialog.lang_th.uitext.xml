@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="ขั้นตอนภายหลังการติดตั้ง"/>
+<string id="PostInstallDetails" value="การติดตั้งเสร็จสมบูรณ์แล้ว โปรดทำตามคำแนะนำภายหลังการติดตั้งที่อยู่ด้านล่างเพื่อให้การปรับใช้ของคุณเสร็จสมบูรณ์"/>
+<string id="PostUninstallSteps" value="ขั้นตอนภายหลังการถอนการติดตั้ง"/>
+<string id="PostUninstallDetails" value="การถอนการติดตั้งใกล้เสร็จสมบูรณ์แล้ว โปรดทำตามคำแนะนำด้านล่างเพื่อให้การดำเนินการเสร็จสมบูรณ์"/>
+<string id="PostInstallStep_Header" value="{b}คำแนะนำภายหลังการติดตั้ง:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="คำแนะนำหลังการติดตั้ง:"/>
+<string id="PostUninstallStep_Header" value="{b}คำแนะนำภายหลังการถอนการติดตั้ง:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="คำแนะนำหลังการถอนการติดตั้ง:"/>
+<string id="CRPostInstallUIText1" value="การลงทะเบียนผลิตภัณฑ์{br}โปรดลงทะเบียนผลิตภัณฑ์ของคุณแบบออนไลน์โดยการคลิก: {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}ที่นี่{/a}"/>
+<string id="PostInstallStep_Footer" value="การติดตั้งเสร็จสมบูรณ์แล้ว โปรดกด []Enter] เพื่อดำเนินการต่อ"/>
+<string id="PostUnInstallStep_Footer" value="การถอนการติดตั้งเสร็จสมบูรณ์แล้ว โปรดกด []Enter] เพื่อดำเนินการต่อ"/>
+</context>
+</uitext>

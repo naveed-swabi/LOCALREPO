@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="NewLicensePatchAgreement" value="New License Key Requirement"/>
+<string id="YouMustAgree" value="A new license key is required for #product.fullproductnamenospace#update."/>
+<string id="IAccept" value="I have read the documentation and understood the process to request the new license key. I agree to add the new license key after update installation."/>
+<string id="subtitle1" value="For SAP Crystal Reports purchased as part of SAP Business Intelligence Platform, you can go to the link below and learn how to request the new license key."/>
+<string id="subtitle2" value="For SAP Crystal Reports purchased separately, you should visit sap store and purchase an upgrade license key."/>
+<string id="subtitle3" value="You have to enter the new license key in the License Manager when you launch the application after the update installation."/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Existing CMS Deployment Information"/>
+<string id="SpecifyRemoteCMS" value="Specify the CMS and Administrator logon information of your existing CMS deployment."/>
+<string id="RemoteCMSConnectionInfo" value="Connection Information for Existing CMS"/>
+<string id="RemoteCMSName" value="CMS Name"/>
+<string id="RemoteCMSPort" value="CMS Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS Administrator Logon Information"/>
+<string id="RemoteCMSUser" value="User"/>
+<string id="RemoteCMSPassword" value="Password"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Either the remote CMS cannot be reached, or the logon credentials are incorrect. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Either the remote CMS cannot be reached, or the logon credentials are incorrect. INS00013\nDo you want to enter your credentials again?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Trailing backslash (e.g. xxx\) and the following characters are not allowed in CMS password:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Trailing backslash (e.g. xxx\) and the following characters are not allowed in CMS password:  &quot;  '  INS00099"/>
+</context>
+</uitext>

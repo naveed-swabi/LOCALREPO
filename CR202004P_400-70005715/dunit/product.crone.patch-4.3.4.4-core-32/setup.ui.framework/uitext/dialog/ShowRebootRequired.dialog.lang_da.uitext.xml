@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="RebootWarning" value="Nogle filer blev låst under installationen, hvilket forhindrede installationsprogrammet i at opdatere dem. Du kan udsætte genstart af systemet, men det anbefales at genstarte, før produktet tages i brug."/>
+<string id="RebootQuestion" value="Ønsker du at genstarte din computer nu?"/>
+<string id="RestartLater" value="Genstart senere"/>
+<string id="RestartNow" value="Genstart nu"/>
+</context>
+</uitext>

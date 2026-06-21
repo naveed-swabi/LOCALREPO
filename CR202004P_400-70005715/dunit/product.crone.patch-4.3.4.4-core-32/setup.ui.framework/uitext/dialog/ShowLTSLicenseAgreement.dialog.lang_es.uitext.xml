@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="NotAcceptedEULA" value="Debe aceptar el CLUF. Saliendo."/>
+<string id="LicenseAgreement" value="Contrato de licencia"/>
+<string id="YouMustAgree" value="Debe aceptar las condiciones de la licencia para continuar."/>
+<string id="IAccept" value="Acepto el contrato de licencia"/>
+<string id="IDoNotAccept" value="No acepto el contrato de licencia"/>
+<string id="Invalid_IsAcceptEULA" value="IsAcceptEULA ([IsAcceptEULA]) no válido: debe ser solamente 1"/>
+<string id="AcceptOrNotAccept" value="Pulse &lt;ENTER&gt; para aceptar, &lt;CTRL-X&gt; para rechazar"/>
+</context>
+</uitext>

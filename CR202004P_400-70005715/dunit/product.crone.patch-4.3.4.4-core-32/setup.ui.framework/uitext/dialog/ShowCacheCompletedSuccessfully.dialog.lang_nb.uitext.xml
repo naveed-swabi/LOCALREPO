@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="Title" value="Fasevis installering"/>
+<string id="SubTitle" value="Hurtigbufring er fullført"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Trykk på [Enter] hvis du vil avslutte den fasevise installasjonen."/>
+<string id="Description" value="Vil du gjenoppta installeringen etter hurtigbufring, utfører du konfigurasjonsfilen på nytt. Under installering etter hurtigbufring forekommer det nedetid for systemet. Du kan utføre denne fasen av installeringen når det finnes tilgjengelig vedlikeholdstid."/>
+<string id="FinishMessage" value="Klikk på Fullfør for å avslutte den fasevise installeringen."/>
+<string id="Finish" value="Fullfør"/>
+</context>
+</uitext>

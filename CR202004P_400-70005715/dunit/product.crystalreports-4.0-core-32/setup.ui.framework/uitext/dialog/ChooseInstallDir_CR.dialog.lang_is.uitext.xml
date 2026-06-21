@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="is"/>
+<context>
+<string id="ChooseDestination" value="iSpecificare la cartella di destinazionei"/>
+<string id="SpecifyDestination" value="iLe dossier de destination désigne l'emplacement où le produit sera installé. Cliquez sur parcourir pour sélectionner un autre emplacement.i"/>
+<string id="DestinationFolder" value="iCartella di destinazionei"/>
+<string id="Browse" value="iDurchsucheni"/>
+<string id="BrowseInstallDirectory" value="iWählen Sie ein Installationsverzeichnis ausi"/>
+<string id="PWClientFolderTitle" value="iDossier de destination du clienti"/>
+<string id="PWServerFolderTitle" value="iDossier de destination du serveuri"/>
+<string id="Invalid_InstallDirWindows" value="iRépertoire d'installation non valide. Veuillez utiliser un chemin d'accès absolu contenant uniquement des caractères alphanumériques ou l'un des caractères suivants : _ - \ . ( ). Le répertoire doit figurer sur un lecteur fixe et le chemin d'accès complet ne peut pas contenir plus de 150 caractères. INS00029i"/>
+<string id="Invalid_InstallDirUnix" value="iUngültiges Installationsverzeichnis. Verwenden Sie einen gültigen absoluten Pfad, für den Sie auch über Berechtigungen zum Lesen, Schreiben und Ausführen verfügen. INS00029i"/>
+</context>
+</uitext>

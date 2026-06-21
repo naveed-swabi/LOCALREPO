@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Commencer l'installation"/>
+<string id="ShowInstallSummarySubtitle" value="Le programme d'installation est prêt à installer #product.fullproductnamenospace#. Cliquez sur Précédent pour modifier les informations d'installation.\n\nCliquez sur Suivant pour commencer l'installation."/>
+<string id="ShowInstallSummaryUnixDescription" value="L'Assistant d'installation peut-il commencer l'installation de #product.fullproductnamenospace# ?"/>
+<string id="ShowInstallSummaryFooter" value="Appuyez sur les touches []Ctrl-B] pour revenir en arrière, []Ctrl-X] pour fermer, ou []Entrée] pour installer."/>
+<string id="DiskCost" value="Espace disque"/>
+<string id="Drive Select" value="Vous avez sélectionné"/>
+<string id="Disk Costing" value="Evaluation de l'espace disque"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Taille du disque"/>
+<string id="Available" value="Disponible"/>
+<string id="Required" value="Requis"/>
+<string id="Difference" value="Différence"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Réessayer"/>
+<string id="Cancel" value="Annuler"/>
+<string id="ShowCacheSummaryTitle" value="Installation par étapes"/>
+<string id="ShowCacheSummarySubtitle" value="Lancer la mise en cache"/>
+<string id="ShowCacheSummaryDescription" value="La mise en cache est un processus consistant à copier le logiciel vers le répertoire d'installation. Lors de la mise en cache, il n'y a pas de temps d'arrêt du système et vous pouvez continuer de travailler sur le système."/>
+<string id="Invalid_DiskSpace" value="Vous ne disposez pas de l'espace nécessaire pour installer le produit. Libérez de l'espace disque ou sélectionnez un autre emplacement d'installation. Espace disponible : [AvailableSpace] Mo. Espace requis : [RequiredSpace] Mo."/>
+<string id="Resume_Description" value="Lors de l'installation après la mise en cache, le logiciel est installé sur le système avec quelques temps d'arrêt."/>
+<string id="ShowResumetitle" value="Installation par étapes"/>
+<string id="ShowResumeSubtitle" value="Reprendre l'installation"/>
+<string id="ShowResumeFooter" value="Appuyez sur les touches []Ctrl-B] pour revenir en arrière, []Ctrl-X] pour fermer, ou []Entrée] pour installer."/>
+<string id="MessageCache" value="Cliquez sur Suivant pour commencer l'étape de mise en cache."/>
+<string id="MessageResume" value="Cliquez sur Suivant pour commencer l'installation."/>
+</context>
+</uitext>

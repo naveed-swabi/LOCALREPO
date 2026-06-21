@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="SelectFeaturesTitle" value="Selectare caracteristici."/>
+<string id="SelectFeaturesSubtitle" value="Selectaţi caracteristicile pe care doriţi să le instalaţi."/>
+<string id="SelectFeaturesFooter" value="Apăsaţi []Tab], []Up] sau []Down] pentru a evidenţia, []Space] pentru a extinde, []X] pentru a comuta între stări, []Ctrl-B] pentru a merge înapoi, []Ctrl-X] pentru a ieşir sau []Enter] pentru a continua."/>
+<string id="DiskCost" value="Cost disc"/>
+<string id="Drive Select" value="Selectaţi"/>
+<string id="Disk Costing" value="Stabilire preţ disc"/>
+<string id="Volume" value="Volum"/>
+<string id="Disk Size" value="Mărime disc"/>
+<string id="Available" value="Disponibil"/>
+<string id="Required" value="Necesar"/>
+<string id="Difference" value="Diferenţă"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Reîncercare"/>
+<string id="Cancel" value="Anulare"/>
+<string id="Invalid_DiskSpace" value="Nu aveţi spaţiu destul pt. instalarea produsului. Eliberaţi spaţiu pe disc sau selectaţi o locaţie de instalare diferită. Spaţiu necesar: [SpaţiuNecesar] bytes."/>
+</context>
+</uitext>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="NewLicensePatchAgreement" value="새 라이센스 키 요구사항"/>
+<string id="YouMustAgree" value="#Product.fullproductnamenospace#update에는 새 라이센스 키가 필요합니다."/>
+<string id="IAccept" value="새 라이센스 키 요청을 위한 문서를 읽고 프로세스를 이해했습니다. 업데이트 설치 후 새 라이센스 키를 추가하는 데 동의합니다."/>
+<string id="subtitle1" value="SAP Business Intelligence Platform의 일부로 SAP Crystal Reports를 구매한 경우, 아래 링크로 이동하여 새 라이센스 키 요청 방법을 확인하십시오."/>
+<string id="subtitle2" value="SAP Crystal Reports를 별도 구매한 경우, sap 스토어를 방문하여 업그레이드 라이센스 키를 구매해야 합니다."/>
+<string id="subtitle3" value="업그레이드 설치 후 응용 프로그램을 시작할 때 License Manager에서 새 라이센스 키를 입력해야 합니다."/>
+</context>
+</uitext>

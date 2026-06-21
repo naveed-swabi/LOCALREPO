@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="检查先决条件"/>
+<string id="CheckPreRequisitesSubTitle" value="所有缺少的关键先决条件和可选先决条件摘要。"/>
+<string id="PreRequsitiesDetails" value="必须先解决缺少的关键依赖项，然后才能继续安装，而缺少可选依赖项可能导致不安装某些组件。"/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="先决条件"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="类型"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="状态"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="关键"/>
+<string id="Column_Type_Optional" value="可选"/>
+<string id="Column_Status_Succeeded" value="成功"/>
+<string id="Column_Status_Missing" value="失败"/>
+<string id="Hints_Why_Fails" value="如果先决条件失败，请单击失败的项以了解如何解决的信息。"/>
+<string id="Failure_Reason" value="信息："/>
+<string id="PreRequisitesUIText_Failure" value="先决条件检查失败"/>
+<string id="Retry_Button" value="重试"/>
+<string id="Back_Button" value="后退"/>
+<string id="Exit_Button" value="关闭"/>
+</context>
+</uitext>

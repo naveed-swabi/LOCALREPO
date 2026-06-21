@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# is geïnstalleerd."/>
+<string id="InstallFailedMessage" value="Fouten opgetreden tijdens het installeren van #product.fullproductnamenospace#."/>
+<string id="UninstallFailedMessage" value="Fouten opgetreden tijdens het verwijderen van #product.fullproductnamenospace#."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# is verwijderd."/>
+<string id="Description" value="Klik op Voltooien om deze installatie te voltooien en de toepassing te starten."/>
+<string id="CustomDescription" value="Klik op Voltooien om deze installatie te voltooien."/>
+<string id="FailedDescription" value="Klik op Voltooien om deze installatie af te sluiten."/>
+<string id="Description_unix" value="Druk op []Ctrl-B] om terug te gaan, of op []Enter] om deze installatie af te sluiten."/>
+<string id="FailedDescription_unix" value="Druk op []D] voor meer details, of op []Enter] om deze installatie af te sluiten."/>
+<string id="CustomNextButton" value="Voltooien"/>
+<string id="ViewLogButton" value="Log weergeven"/>
+</context>
+</uitext>

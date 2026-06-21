@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="NotAcceptedEULA" value="Du skal acceptere slutbrugerlicensaftalen. Afslutter."/>
+<string id="LicenseAgreement" value="Licensaftale"/>
+<string id="YouMustAgree" value="Du skal acceptere licensbetingelserne for at fortsætte."/>
+<string id="IAccept" value="Jeg accepterer licensaftalen"/>
+<string id="IDoNotAccept" value="Jeg accepterer ikke licensaftalen"/>
+<string id="Invalid_IsAcceptEULA" value="Ugyldig Godkend slutbrugerlicensaftale [IsAcceptEULA]): den skal kun være 1"/>
+<string id="AcceptOrNotAccept" value="Tryk på &lt;ENTER&gt; for at acceptere og &lt;CTRL-X&gt; for ikke at acceptere"/>
+</context>
+</uitext>

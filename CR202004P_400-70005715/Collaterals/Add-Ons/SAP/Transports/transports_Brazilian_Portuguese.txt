@@ -1,0 +1,24 @@
+﻿Existem dois conjuntos de arquivos de transporte que podem ser usados com o BusinessObjects Enterprise Integration Kit for SAP. Um conjunto é ANSI e o outro é de codificação Unicode.
+
+O conjunto de transportes a ser utilizado depende do sistema BASIS no qual o seu sistema SAP está sendo executado. Além disso, cada transporte consiste em um arquivo de dados e um cofile que estão listados entre parênteses após os nomes dos transportes.
+
+
+Se o seu sistema SAP é executado em um sistema BASIS 6.20 ou posterior, você precisa usar os arquivos listados abaixo:
+
+(Estes arquivos são de codificação Unicode.)
+
+* Transporte Conectividade Open SQL (K900085.SDD e R900085.SDD)
+* Transporte Conectividade Info Set (K900043.SDD e R900043.SDD)
+* Transporte Definição de Segurança em Nível de Linha (K900051.SDD e R900051.SDD)
+* Transporte Definição de Cluster (K900039.SDD e R900039.SDD)
+* Transporte Auxiliares de Autenticação (K900041.SDD e R900041.SDD)
+
+
+Os arquivos seguintes devem ser usados em um sistema SAP BW:
+
+(Estes arquivos são de codificação Unicode.)
+
+* Transporte Administração de Conteúdo (K900098.SDD e R900098.SDD)
+* Transporte Personalização (K900045.SDD e R900045.SDD)
+* Transporte Conectividade de Consulta MDX (K900014.SDD e R900014.SDD)
+* Transporte Conectividade ODS (K900042.SDD e R900042.SDD)

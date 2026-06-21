@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_CLASSES_ROOT\Record\{27F84CFD-9F1B-3AFA-8BEF-835AAAF79CCD}\14.0.4000.0">
+    <registryValue name="Class" type="string">CrystalDecisions.Data.ColumnMappingType</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Record\{27F84CFD-9F1B-3AFA-8BEF-835AAAF79CCD}\14.0.4000.0">
+    <registryValue name="Assembly" type="string">CrystalDecisions.Data.AdoDotNetInterop, Version=14.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32">
+    <registryValue name="RuntimeVersion" type="string">v4.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32\14.0.4000.0">
+    <registryValue name="Class" type="string">CrystalDecisions.Data.XMLSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32\14.0.4000.0">
+    <registryValue name="Assembly" type="string">CrystalDecisions.Data.AdoDotNetInterop, Version=14.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32\14.0.4000.0">
+    <registryValue name="RuntimeVersion" type="string">v4.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\ProgId">
+    <registryValue name="" type="string">CrystalDecisions.Data.XMLSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CrystalDecisions.Data.UDTSchemaReader">
+    <registryValue name="" type="string">CrystalDecisions.Data.UDTSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CrystalDecisions.Data.UDTSchemaReader\CLSID">
+    <registryValue name="" type="string">{7842F847-AC91-456E-9088-D2AEF7C80C43}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}">
+    <registryValue name="" type="string">CrystalDecisions.Data.UDTSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32">
+    <registryValue name="" type="string">mscoree.dll</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Record\{27F84CFD-9F1B-3AFA-8BEF-835AAAF79CCD}\14.0.4000.0">
+    <registryValue name="RuntimeVersion" type="string">v4.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32">
+    <registryValue name="ThreadingModel" type="string">Both</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32">
+    <registryValue name="Class" type="string">CrystalDecisions.Data.UDTSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32">
+    <registryValue name="Assembly" type="string">CrystalDecisions.Data.AdoDotNetInterop, Version=14.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32">
+    <registryValue name="RuntimeVersion" type="string">v4.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32\14.0.4000.0">
+    <registryValue name="Class" type="string">CrystalDecisions.Data.UDTSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32\14.0.4000.0">
+    <registryValue name="Assembly" type="string">CrystalDecisions.Data.AdoDotNetInterop, Version=14.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\InprocServer32\14.0.4000.0">
+    <registryValue name="RuntimeVersion" type="string">v4.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{7842F847-AC91-456E-9088-D2AEF7C80C43}\ProgId">
+    <registryValue name="" type="string">CrystalDecisions.Data.UDTSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CrystalDecisions.Data.XMLSchemaReader">
+    <registryValue name="" type="string">CrystalDecisions.Data.XMLSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CrystalDecisions.Data.XMLSchemaReader\CLSID">
+    <registryValue name="" type="string">{4A06F2B5-8B96-4081-93E3-540EADB9AC35}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}">
+    <registryValue name="" type="string">CrystalDecisions.Data.XMLSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32">
+    <registryValue name="" type="string">mscoree.dll</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32">
+    <registryValue name="ThreadingModel" type="string">Both</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32">
+    <registryValue name="Class" type="string">CrystalDecisions.Data.XMLSchemaReader</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CLSID\{4A06F2B5-8B96-4081-93E3-540EADB9AC35}\InprocServer32">
+    <registryValue name="Assembly" type="string">CrystalDecisions.Data.AdoDotNetInterop, Version=14.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess/dotnet4">
+    <file name="CrystalDecisions.Data.AdoDotNetInterop.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64/dotnet" size="32768"/>
+    <file name="CrystalDecisions.Data.AdoDotNetInterop.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64/dotnet/GAC" size="32768"/>
+  </sourcedir>
+</assembly>

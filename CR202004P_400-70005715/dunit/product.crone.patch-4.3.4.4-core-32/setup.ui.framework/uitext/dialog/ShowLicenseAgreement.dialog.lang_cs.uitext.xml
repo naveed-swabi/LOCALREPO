@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="NotAcceptedEULA" value="Musíte souhlasit se smlouvou EULA. Ukončení.."/>
+<string id="LicenseAgreement" value="Licenční smlouva"/>
+<string id="YouMustAgree" value="Pokračovat můžete až po vyjádření souhlasu s licenčními podmínkami."/>
+<string id="IAccept" value="Souhlasím s licenční smlouvou."/>
+<string id="IDoNotAccept" value="Nesouhlasím s licenční smlouvou."/>
+<string id="Invalid_IsAcceptEULA" value="Neplatné IsAcceptEULA ([IsAcceptEULA]): má být jen 1 "/>
+<string id="AcceptOrNotAccept" value="Akceptujte stisknutím &lt;ENTER&gt;, nebo neakceptujte pomocí &lt;CTRL-X&gt;."/>
+</context>
+</uitext>

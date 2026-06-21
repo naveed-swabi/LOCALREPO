@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Title" value="Implementare aplicaţie web"/>
+<string id="Subtitle" value="Implementare conţinut web mai târziu"/>
+<string id="DeploylaterDescription" value="Server de aplicații Tomcat Java Web implicit a fost găsit. Doriți să implementați aplicațiile web acum sau mai târziu?"/>
+<string id="TxtDeployLater" value="Implementare aplicaţii web mai târziu."/>
+<string id="TxtDeployNow" value="Implementare aplicaţii web acum."/>
+<string id="Footer" value="Apăsaţi []Tab], []Up] sau []Down] pt. selectare, []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+</context>
+</uitext>

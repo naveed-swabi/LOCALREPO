@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# is geïnstalleerd."/>
+<string id="SuccessInstallDescription" value="Klik op Voltooien om deze installatie te voltooien."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# heeft fouten aangetroffen tijdens het installatieproces."/>
+<string id="FailureInstallDescription" value="Klik op Voltooien om deze installatie af te sluiten."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# is verwijderd."/>
+<string id="SuccessUnInstallDescription" value="Klik op Voltooien om Installatie ongedaan maken af te sluiten."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# is correct geïnstalleerd met waarschuwingen."/>
+<string id="FailureUnInstallTitle" value="Er zijn fouten opgetreden tijdens het installatieproces van #product.fullproductnamenospace#."/>
+<string id="FailureUnInstallDescription" value="Klik op Voltooien om Installatie ongedaan maken af te sluiten."/>
+<string id="FinishButton" value="Voltooien"/>
+<string id="ViewLogButton" value="Log weergeven"/>
+<string id="LaunchWDeploy" value="WDeploy-hulpprogramma automatisch starten na installatie."/>
+<string id="LaunchSSW" value="Systeeminstallatiewizard starten"/>
+<string id="HyperlinkText" value="Klik hier voor details"/>
+</context>
+</uitext>

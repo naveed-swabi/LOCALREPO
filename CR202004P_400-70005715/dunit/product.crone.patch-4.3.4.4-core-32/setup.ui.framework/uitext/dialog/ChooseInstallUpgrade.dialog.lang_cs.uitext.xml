@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="PreviousVersionDetected" value="Byla zjištěna předchozí verze #product.nameonly#"/>
+<string id="PreviousVersionDetectedSub" value="Určete, zda chcete provést upgrade nebo souběžnou instalaci"/>
+<string id="UpgradeInstallBtn" value="Provést instalaci upgradu"/>
+<string id="SideBySideInstallBtn" value="Provést souběžnou instalaci"/>
+<string id="UpgradeInstallMsg" value="Nahradit nyní nainstalovanou verzi #product.nameonly# touto verzí"/>
+<string id="SideBySideInstallMsg" value="Nainstaluje tuto verzi #product.nameonly# vedle nyní nainstalované verze"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Neplatný režim instalace ([InstallCompatibilityMode]): má být upgrade nebo souběžný"/>
+</context>
+</uitext>

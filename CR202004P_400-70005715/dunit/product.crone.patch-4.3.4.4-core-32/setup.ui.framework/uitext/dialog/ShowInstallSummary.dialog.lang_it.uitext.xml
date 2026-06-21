@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Avvia installazione"/>
+<string id="ShowInstallSummarySubtitle" value="Installazione di #product.fullproductnamenospace# pronta. Fare clic su Indietro per apportare modifiche alle informazioni di installazione.\n\nFare clic su Avanti per avviare l'installazione."/>
+<string id="ShowInstallSummaryUnixDescription" value="Procedere con l'installazione guidata di #product.fullproductnamenospace#?"/>
+<string id="ShowInstallSummaryFooter" value="Premere []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per installare."/>
+<string id="DiskCost" value="Spazio su disco"/>
+<string id="Drive Select" value="Si sta selezionando"/>
+<string id="Disk Costing" value="Spazio su disco"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Dimensione disco"/>
+<string id="Available" value="Disponibile"/>
+<string id="Required" value="Richiesto"/>
+<string id="Difference" value="Differenza"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Riprova"/>
+<string id="Cancel" value="Annulla"/>
+<string id="ShowCacheSummaryTitle" value="Installazione in fasi"/>
+<string id="ShowCacheSummarySubtitle" value="Avvio della cache"/>
+<string id="ShowCacheSummaryDescription" value="La cache è il processo di copia del software nella directory di installazione. Durante la cache, non si verificano tempi di inattività del sistema ed è possibile continuare a utilizzare il sistema."/>
+<string id="Invalid_DiskSpace" value="Non si dispone di spazio sufficiente per installare il prodotto. Liberare spazio su disco o selezionare un altro percorso di installazione. Spazio disponibile: [AvailableSpace] MB. Spazio richiesto: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Durante l'installazione dopo la memorizzazione nella cache, il software viene installato nel sistema con alcuni tempi di inattività."/>
+<string id="ShowResumetitle" value="Installazione in fasi"/>
+<string id="ShowResumeSubtitle" value="Riprendi installazione"/>
+<string id="ShowResumeFooter" value="Premere []Ctrl-B] per tornare indietro, []Ctrl-X] per uscire o []Invio] per installare."/>
+<string id="MessageCache" value="Fare clic su Avanti per iniziare la fase di memorizzazione nella cache."/>
+<string id="MessageResume" value="Fare clic su Avanti per iniziare l'installazione."/>
+</context>
+</uitext>

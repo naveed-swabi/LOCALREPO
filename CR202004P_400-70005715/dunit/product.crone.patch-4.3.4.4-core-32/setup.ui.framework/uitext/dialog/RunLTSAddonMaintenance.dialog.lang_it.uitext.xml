@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Specificata una modalità di manutenzione sconosciuta; i valori validi sono: Modifica, Ripristina, Rimuovi"/>
+<string id="ChooseMaintenanceMode" value="Manutenzione applicazione"/>
+<string id="SelectMaintenanceMode" value="Selezionare l'operazione di manutenzione da eseguire."/>
+<string id="Modify" value="Modifica"/>
+<string id="ModifyDescription" value="Modificare le funzionalità dell'applicazioni installate. Visualizza la finestra di dialogo Seleziona funzionalità che consente di configurare le singole funzionalità."/>
+<string id="Repair" value="Ripara"/>
+<string id="RepairDescription" value="Reinstallare i file mancanti o danneggiati. Le preferenze memorizzate nel registro possono essere reimpostate sui valori predefiniti."/>
+<string id="Remove" value="Rimuovi"/>
+<string id="RemoveDescription" value="Disinstallare #product.nameonly# da questo computer."/>
+<string id="Invalid_Maintenance_Mode" value="Tipo MaintenanceMode non valido ([MaintenanceMode]): deve essere 'modifica', 'ripristina' o 'rimuovi'. INS00283"/>
+</context>
+</uitext>

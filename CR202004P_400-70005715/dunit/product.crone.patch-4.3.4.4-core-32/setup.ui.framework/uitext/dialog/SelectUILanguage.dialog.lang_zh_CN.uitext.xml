@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="SelectedInvalidLocale" value="不支持输入的区域设置。"/>
+<string id="SetupLanguageTitle" value="选择安装程序语言"/>
+<string id="SetupLanguageSubtitle" value="选择安装语言。"/>
+<string id="SetupLanguageUnixSubtitle" value="选择安装语言。"/>
+<string id="CreateLogFile" value="在安装期间创建日志文件"/>
+<string id="Invalid_SetupLanguage" value="安装语言（[SetupUILanguage]）无效：它应该是“[$available.ui.langs]”之一。INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="IsEnableSetupLog ([IsEnableSetupLog]) 无效：它仅应为 0 或 1。"/>
+<string id="SelectUILanguageFooter" value="按 [Tab]、[上箭头] 或 [下箭头] 进行选择，按 [Ctrl-X] 退出，或按 [Enter] 继续。"/>
+</context>
+</uitext>

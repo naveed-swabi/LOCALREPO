@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informacije o obstoječi postavitvi #productname#"/>
+<string id="SpecifyRemoteCMS" value="Določite informacije za prijavo administratorja za svojo obstoječo postavitev."/>
+<string id="RemoteCMSConnectionInfo" value="Informacije o povezavi za obstoječi #productname#"/>
+<string id="RemoteCMSName" value="Ime"/>
+<string id="RemoteCMSPort" value="Vrata"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informacije za prijavo administratorja"/>
+<string id="RemoteCMSUser" value="Uporabnik"/>
+<string id="RemoteCMSPassword" value="Geslo"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Oddaljenega strežnika SAP Lumira za time ni mogoče doseči ali pa so poverilnice za prijavo nepravilne. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Oddaljenega strežnika SAP Lumira za time ni mogoče doseči ali pa so poverilnice za prijavo nepravilne. INS00013\nŽelite znova vnesti svoja dokazila o istovetnosti?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Geslo ne sme vsebovati besede &quot;Administrator&quot; ali posebnih znakov, kot so: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{presledek}{tabulator}"/>
+</context>
+</uitext>

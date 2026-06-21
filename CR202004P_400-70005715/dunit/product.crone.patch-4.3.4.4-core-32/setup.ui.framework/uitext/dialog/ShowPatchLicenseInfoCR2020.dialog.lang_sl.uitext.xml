@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Zahteva za nov licenčni ključ"/>
+<string id="YouMustAgree" value="Nov licenčni ključ je zahtevan za #product.fullproductnamenospace#update."/>
+<string id="IAccept" value="Prebral sem dokumentacijo in razumem postopek za zahtevo novega licenčnega ključa. Strinam se z dodajanjem novega licenčnega ključa po namestitvi posodobitve."/>
+<string id="subtitle1" value="Za program SAP Crystal Reports, kupljen kot del platforme SAP Business Intelligence Platform, lahko obiščete spodnjo povezavo in izveste kako zahtevati nov licenčni ključ."/>
+<string id="subtitle2" value="Za program SAP Crystal Reports, ki je bil kupljen ločeno, obiščite SAP-jevo trgovino in kupite licenčni ključ za nadgradnjo."/>
+<string id="subtitle3" value="Ko zaženete aplikacijo po namestitvi posodobitve, morate vnesti nov licenčni ključ v upravitelja licenc."/>
+</context>
+</uitext>

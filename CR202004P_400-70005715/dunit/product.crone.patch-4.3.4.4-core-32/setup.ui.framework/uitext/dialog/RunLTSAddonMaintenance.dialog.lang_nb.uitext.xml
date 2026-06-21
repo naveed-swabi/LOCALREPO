@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Ukjent vedlikeholdsmodus er angitt, gyldige verdier er: Endre, Reparer eller Fjern"/>
+<string id="ChooseMaintenanceMode" value="Applikasjonsvedlikehold"/>
+<string id="SelectMaintenanceMode" value="Velg vedlikeholdsoperasjonen som skal utføres."/>
+<string id="Modify" value="Endre"/>
+<string id="ModifyDescription" value="Endre hvilke applikasjonsfunksjoner som skal installeres. Viser dialogboksen Velg funksjoner, der du kan konfigurere individuelle funksjoner."/>
+<string id="Repair" value="Reparer"/>
+<string id="RepairDescription" value="Installer manglende eller ødelagte filer på nytt. Du kan tilbakestille preferanser som er lagret i registeret, til standardverdier."/>
+<string id="Remove" value="Fjern"/>
+<string id="RemoveDescription" value="Avinstaller #product.nameonly# fra denne datamaskinen."/>
+<string id="Invalid_Maintenance_Mode" value="Ugyldig MaintenanceMode-type ([MaintenanceMode]): Den skal være &quot;endre&quot;, &quot;reparer&quot; eller &quot;fjern&quot;. INS00283"/>
+</context>
+</uitext>

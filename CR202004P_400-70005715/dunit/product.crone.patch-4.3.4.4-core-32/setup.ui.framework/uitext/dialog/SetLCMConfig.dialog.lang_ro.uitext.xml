@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="SetLCMConfigTitle" value="Configurare Subversiune"/>
+<string id="SetLCMConfigSubtitle" value="Introduceţi portul şi numele de utilizator pt. sistemul de control al versiunii Subversiune."/>
+<string id="repoInfoGroup" value="Informaţii repository subversiune"/>
+<string id="repoName" value="Nume repository:"/>
+<string id="repoPort" value="Port repository:"/>
+<string id="repoPortInline" value="Port Subversiune:"/>
+<string id="repoUserInfoGroup" value="Informaţii utilizator repository subversiune"/>
+<string id="repoUserName" value="Cont utilizator repository:"/>
+<string id="repoUserPass" value="Parolă cont repository:"/>
+<string id="repoUserPassInline" value="Parolă cont utilizator repository:"/>
+<string id="repoUserPass2" value="Confirmare parolă:"/>
+<string id="Mismatch_LCMPassword" value="Parole nu corespund. Verificaţi şi încercaţi din nou. INS00267"/>
+<string id="Invalid_LCMPassword" value="Parola este prea simplă. Parola trebuie să aibă o lungime de cel puţin şase caractere şi trebuie să conţină întotdeauna cel puţin două dintre următoarele clase de caractere: majuscule şi minuscule. INS00127"/>
+</context>
+</uitext>

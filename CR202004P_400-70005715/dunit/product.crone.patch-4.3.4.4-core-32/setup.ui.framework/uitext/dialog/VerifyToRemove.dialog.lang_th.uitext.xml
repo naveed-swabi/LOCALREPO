@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Message" value="การยืนยันการถอนติดตั้ง"/>
+<string id="Description" value="การดำเนินการนี้จะเอา #product.fullproductnamenospace# ออกจากเครื่องของคุณ"/>
+<string id="ConfirmUninstall" value="คุณแน่ใจหรือว่าต้องการถอนการติดตั้ง"/>
+<string id="ConfirmUninstall_Footer" value="กด []Ctrl-B] เพื่อย้อนกลับ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อดำเนินการต่อ"/>
+</context>
+</uitext>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#product.fullproductnamenospace# 更新"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# 更新"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="已安装 #productname# #productname_preversion#"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="此更新用于 #productname#，但在系统上未检测到该产品。请先安装它以便继续此安装。"/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="没有更高版本的修补程序"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="系统上检测到比此包版本更高的修补程序。此包中的更新将均不适用。不建议继续操作。"/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="支持包版本是 [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="产品的支持包版本必须是 [CurrentSupportPackage]，才能继续此更新。请升级现有系统或应用恰当的更新。"/>
+<string id="prereq.MinorVersionMatchPreReqText" value="次版本是 [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="产品的次版本必须是 [CurrentMinorVersion]，才能继续此更新。请升级现有系统或应用恰当的更新。"/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="创建和修改带格式设置的数据报表（.RPT）"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC 数据源管理器"/>
+<string id="product.shortcutODBC.description" value="添加、删除和配置开放数据库连接（ODBC）数据源和驱动程序。"/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32 位数据源管理器"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\报表上载向导"/>
+<string id="product.shortcutWizard.description" value="报表上载向导"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="新版本的 DataDirect 驱动程序 7.1.5 已安装。要迁移到新版本的 DataDirect 驱动程序，请参阅文档。"/>
+</context>
+</uitext>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Ukendt Vælg opgradering angivet, gyldige værdier er: 0 eller 1"/>
+<string id="ChooseUpgrade" value="Tidligere version af #productname# fundet"/>
+<string id="SelectUpgrade" value="Vælg, om der skal udføres en opgraderingsinstallation"/>
+<string id="SideBySide" value="Udfør installation side om side"/>
+<string id="SideBySideDescription" value="Installerer denne version af #productname# ud over den aktuelt installerede version"/>
+<string id="SimpleUpgrade" value="Udfør simpel opgradering"/>
+<string id="SimpleUpgradeDescription" value="En tidligere version af #productname# er fundet. Du skal fjerne den tidligere version, før du fortsætter, eller vælge denne indstilling for at udføre en lokal opgradering."/>
+<string id="Invalid_ChooseUpgrade" value="Ugyldig Vælg opgradering [ChooseUpgrade]): den skal være 0 eller 1"/>
+</context>
+</uitext>

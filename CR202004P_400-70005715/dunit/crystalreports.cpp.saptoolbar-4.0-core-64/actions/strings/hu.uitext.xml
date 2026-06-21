@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="progress.BWRegServer" value="SAP-integráció konfigurálása"/>
+<string id="progress.BWUnregServer" value="SAP-integráció konfigurálása"/>
+</context>
+</uitext>

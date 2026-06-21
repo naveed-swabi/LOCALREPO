@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="DlgTitle" value="Priradenie súboru"/>
+<string id="DlgSummary" value="Nastavenie predvolenej aplikácie Crystal Report Viewer."/>
+<string id="ReplaceFileAssoc" value="Zobrazovač Crystal Reports nie je momentálne vaším predvoleným zobrazovačom zostáv Crystal. Chcete, aby bol vaším predvoleným zobrazovačom?"/>
+<string id="Yes" value="Áno"/>
+<string id="No" value="Nie"/>
+</context>
+</uitext>

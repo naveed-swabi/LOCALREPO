@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informações da implementação existente do #productname#"/>
+<string id="SpecifyRemoteCMS" value="Especifique as informações de login do administrador da sua implementação existente."/>
+<string id="RemoteCMSConnectionInfo" value="Informações de conexão do #productname# existente"/>
+<string id="RemoteCMSName" value="Nome"/>
+<string id="RemoteCMSPort" value="Porta"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informações de login do administrador"/>
+<string id="RemoteCMSUser" value="Usuário"/>
+<string id="RemoteCMSPassword" value="Senha"/>
+<string id="ErrRemoteCMSConnectionInfo" value="O SAP Lumira Server for Teams remoto está inacessível, ou as credenciais de login estão incorretas. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="O SAP Lumira Server for Teams remoto está inacessível, ou as credenciais de login estão incorretas. INS00013\nDeseja inserir suas credenciais novamente?"/>
+<string id="Invalid_SymbolInCMSPassword" value="A senha não pode conter a palavra &quot;Administrador&quot; nem caracteres especiais, como: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{espaço}{tabulação}"/>
+</context>
+</uitext>

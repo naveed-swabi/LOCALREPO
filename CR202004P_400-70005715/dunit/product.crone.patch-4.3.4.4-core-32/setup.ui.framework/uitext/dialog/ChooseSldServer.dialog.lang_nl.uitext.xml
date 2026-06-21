@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ChooseSldServerLocation" value="Kies de SLD-serverlocatie"/>
+<string id="SpecifySldServerLocation" value="Voer de SLD-serverlocatie in"/>
+<string id="SldHostnameExample" value="Voer het adres van de SLD-server in (bijv. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Voer aanmeldgegevens in."/>
+<string id="SldHostname" value="Hostnaam"/>
+<string id="SldPort" value="Poort"/>
+<string id="SldUsername" value="Gebruikersnaam"/>
+<string id="SldPassword" value="Wachtwoord"/>
+</context>
+</uitext>

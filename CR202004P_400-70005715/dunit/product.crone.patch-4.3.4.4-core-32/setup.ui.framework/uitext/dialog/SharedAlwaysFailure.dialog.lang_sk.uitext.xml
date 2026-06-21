@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Inštalácia nemôže pokračovať"/>
+<string id="ExpandInstallMessage_2" value="Popíšte problémy, ktoré zablokovali proces a zabránili pokračovaniu inštalácie"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Ak chcete ukončiť túto inštaláciu, stlačte klávesy CTRL-X"/>
+<string id="AlwaysFailureGeneralMessage" value="Inštalácia nemôže pokračovať\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

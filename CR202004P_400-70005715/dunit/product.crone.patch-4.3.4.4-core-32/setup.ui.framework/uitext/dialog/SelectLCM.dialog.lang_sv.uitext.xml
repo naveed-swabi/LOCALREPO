@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="SelectLCMTitle" value="Välj versionshantering"/>
+<string id="SelectLCMSubtitle" value="Välj om kontrollsystem för standardversion ska installeras eller om ett befintligt system för versionshantering ska användas."/>
+<string id="SelectLCMFooter" value="Tryck på []Tabb], []Uppåtpil] eller []Nedåtpil] för att välja, []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avsluta eller []Retur] för att fortsätta."/>
+<string id="NewLCMInstall" value="Konfigurera och installera underordnad version"/>
+<string id="ExistingLCMInstall" value="Konfigurera inte ett system för versionskontroll just nu"/>
+<string id="Invalid_SelectLCM" value="Ogiltig typ för NewOrExistingLCM ([NewOrExistingLCM]): Den ska vara 'ny' eller 'befintlig'. INS00284"/>
+</context>
+</uitext>

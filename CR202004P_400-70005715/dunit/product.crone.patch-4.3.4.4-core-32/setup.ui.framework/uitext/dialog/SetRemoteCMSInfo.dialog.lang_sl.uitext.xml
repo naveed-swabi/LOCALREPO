@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informacije o obstoječi postavitvi za CMS"/>
+<string id="SpecifyRemoteCMS" value="Določite CMS in informacije za prijavo administratorja za svojo obstoječo postavitev za CMS."/>
+<string id="RemoteCMSConnectionInfo" value="Informacije o povezavi za obstoječi CMS"/>
+<string id="RemoteCMSName" value="CMS naziv"/>
+<string id="RemoteCMSPort" value="CMS vrata"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informacije za prijavo administratorja za CMS"/>
+<string id="RemoteCMSUser" value="Uporabnik"/>
+<string id="RemoteCMSPassword" value="Geslo"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Oddaljenega CMS ni možno doseči ali pa so dokazila o istovetnosti za prijavo nepravilna. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Oddaljenega CMS ni možno doseči ali pa so dokazila o istovetnosti za prijavo nepravilna. INS00013\nŽelite znova vnesti svoja dokazila o istovetnosti?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Končna leva poševnica (npr. xxx\) in naslednji znaki niso dovoljeni v geslu za CMS:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Končna leva poševnica (npr. xxx\) in naslednji znaki niso dovoljeni v geslu za CMS:  &quot;  '  INS00099"/>
+</context>
+</uitext>

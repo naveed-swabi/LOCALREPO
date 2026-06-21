@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Title" value="웹 응용 프로그램 배포"/>
+<string id="Subtitle" value="나중에 웹 컨텐트 배포"/>
+<string id="DeploylaterDescription" value="기본 Tomcat Java 웹 응용 프로그램 서버가 있습니다. 웹 응용 프로그램을 지금 배포하시겠습니까? 아니면 나중에 배포하시겠습니까?"/>
+<string id="TxtDeployLater" value="나중에 웹 응용 프로그램 배포"/>
+<string id="TxtDeployNow" value="지금 웹 응용 프로그램 배포"/>
+<string id="Footer" value="선택하려면 []Tab], []Up] 또는 []Down] 키를, 뒤로 가려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter]를 누르십시오."/>
+</context>
+</uitext>

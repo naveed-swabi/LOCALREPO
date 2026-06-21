@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="NotAcceptedEULA" value="Du må godta sluttbrukerlisensavtalen. Avslutter."/>
+<string id="LicenseAgreement" value="Lisensavtale"/>
+<string id="YouMustAgree" value="Du må godta lisensbetingelsene for å kunne fortsette."/>
+<string id="IAccept" value="Jeg godtar lisensavtalen"/>
+<string id="IDoNotAccept" value="Jeg godtar ikke lisensavtalen"/>
+<string id="Invalid_IsAcceptEULA" value="Ugyldig IsAcceptEULA ([IsAcceptEULA]): Kan bare være 1"/>
+<string id="AcceptOrNotAccept" value="Trykk på &lt;ENTER&gt; for å godta, &lt;CTRL-X&gt; for ikke å godta"/>
+</context>
+</uitext>

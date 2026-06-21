@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Check Prerequisites"/>
+<string id="CheckPreRequisitesSubTitle" value="Summary of any missing critical or optional prerequisites."/>
+<string id="PreRequsitiesDetails" value="Failed critical dependencies must be addressed before the installation can continue, while failed optional dependencies might result in some components not installing."/>
+<string id="AcceptKBAInfo" value="I have read SAP Knowledge Base Article 1794601 and reviewed the information shared to ensure the planned update is recommended and supported."/>
+<string id="AcceptKBAInfoUnix" value="Press []Enter] after you read SAP Knowledge Base Article 1794601 and reviewed the information shared to ensure the planned update is recommended and supported."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Prerequisite"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Type"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Status"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Critical"/>
+<string id="Column_Type_Optional" value="Optional"/>
+<string id="Column_Status_Succeeded" value="Succeeded"/>
+<string id="Column_Status_Missing" value="Failed"/>
+<string id="Hints_Why_Fails" value="If a prerequisite failed, please click on the failed item for information on how to resolve it."/>
+<string id="Failure_Reason" value="Information: "/>
+<string id="PreRequisitesUIText_Failure" value="Prerequisite checking failed"/>
+<string id="Retry_Button" value="Retry"/>
+<string id="Back_Button" value="Back"/>
+</context>
+</uitext>

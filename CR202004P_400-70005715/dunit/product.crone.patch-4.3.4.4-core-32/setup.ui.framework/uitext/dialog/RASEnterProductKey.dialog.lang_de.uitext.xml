@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="InvalidProductKey" value="Sie haben einen ungültigen Produktschlüssel eingegeben."/>
+<string id="EnterProductKeyTitle" value="Produktregistrierung konfigurieren"/>
+<string id="EnterProductKeySubtitle" value="Geben Sie den Produktschlüssel für #product.nameandversionwithoutpatch# ein."/>
+<string id="ProductkeyLabel" value="Produktschlüssel:"/>
+<string id="ProductkeyInfoGroup" value="Produktschlüsselinformationen"/>
+<string id="Invalid_ProductKey" value="Der Produktschlüssel ist nicht gültig. INS00140"/>
+</context>
+</uitext>

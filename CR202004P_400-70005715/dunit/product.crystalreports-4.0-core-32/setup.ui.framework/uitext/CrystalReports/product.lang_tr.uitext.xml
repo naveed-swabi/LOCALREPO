@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Biçimlendirilmiş veri raporlarını (.RPT) oluşturur ve değiştirir"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC Veri Kaynağı Yöneticisi"/>
+<string id="product.shortcutODBC.description" value="Open Database Connectivity (ODBC) veri kaynağı ve sürücülerini ekler, kaldırır ve konfigüre eder."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32 bit Veri Kaynağı Yöneticisi"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Rapor Yükleme Sihirbazı"/>
+<string id="product.shortcutWizard.description" value="Rapor Yükleme Sihirbazı"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB Veri (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Standart OLE DB Sağlayıcıları için destek."/>
+<string id="feature.Comm_Rep.name" value="Repository içinde komut"/>
+<string id="feature.Comm_Rep.description" value="Repository içinde Komut bağlantısı sağlar."/>
+<string id="feature.DiskFile.name" value="Disk Dosyası Hedefi"/>
+<string id="feature.DiskFile.description" value="Dosyaya dışa aktarma desteği."/>
+<string id="feature.NTEventLog.name" value="NT Olay Günlüğü"/>
+<string id="feature.NTEventLog.description" value="NT Olay Günlükleri için destek."/>
+<string id="feature.MyCube.name" value="OLAP Küpü"/>
+<string id="feature.MyCube.description" value="#product.boe64_name# OLAP küpleri için destek."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Progress OpenEdge ile bağlantı sağlar."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="Oracle E-Business Suite için BusinessObjects Entegrasyonu."/>
+<string id="feature.FieldDefinitions.name" value="Alan Tanımları"/>
+<string id="feature.FieldDefinitions.description" value="Metin tabanlı şemalardan rapor tasarlama desteği."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Lotus Domino veritabanları için destek. Öncelikle Lotus Notes İstemcisi'ni kurmalısınız."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="JD Edwards EnterpriseOne için BusinessObjects Entegrasyonu."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003) Biçimi"/>
+<string id="feature.WordforWindows.description" value="Microsoft Word (97-2003) Biçimine (*.doc) dışa aktarma desteği."/>
+<string id="feature.SFORCE.name" value="Salesforce.com Sürücüsü"/>
+<string id="feature.SFORCE.description" value="#productname# ürününü Salesforce.com CRM verilerinize bağlamanızı ve gelişmiş raporlar oluşturmanızı sağlar."/>
+<string id="feature.PDF.name" value="PDF Biçimi"/>
+<string id="feature.PDF.description" value="PDF Biçimine (*.pdf) dışa aktarma desteği."/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003) Biçimi"/>
+<string id="feature.Excel.description" value="Microsoft Excel 97-2003 biçimine (*.xls) dışa aktarma desteği."/>
+<string id="feature.CharacterSeparated.name" value="Karakterlerle Ayrılmış Biçimi"/>
+<string id="feature.CharacterSeparated.description" value="Karakterlerle Ayrılmış biçimine (*.csv) dışa aktarma desteği."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Yerel istemci kullanan Sybase veritabanları için destek. Öncelikle Sybase İstemcisi'ni kurmalısınız."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Çalışma Zamanı Ortamı"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Informix veritabanları için destek. Öncelikle Informix İstemcisi'ni kurmalısınız."/>
+<string id="feature.DataAccess.name" value="Veri Erişimi"/>
+<string id="feature.DataAccess.description" value="Veri erişim bileşenleri #product.crw_name# ile veritabanı bağlantısı yapmak için kullanılır."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="ODBC RDO bağlantısı sağlar"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Crystal Reports Designer uygulamasını kurar"/>
+<string id="feature.XML.name" value="XML ve Web Servisleri"/>
+<string id="feature.XML.description" value="XML verileri için destek."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="ACT! veritabanları için destek."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="MySQL veritabanları ile bağlantı sağlar."/>
+<string id="feature.COMData.name" value="COM Veri Sağlayıcı"/>
+<string id="feature.COMData.description" value="COM nesnelerinin gösterdiği veriler için destek."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino E-posta"/>
+<string id="feature.LotusNotesMail.description" value="Lotus Domino'ya Dışa Aktar"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="ADO.NET'e veri erişimi."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Exchange Klasörleri, Günlükler ve Adres Defterleri gibi Exchange Server verileri için destek."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="IBM DB2 veritabanları için destek. Öncelikle DB2 İstemcisi'ni kurmalısınız."/>
+<string id="feature.Universe.name" value="BusinessObjects Platformu"/>
+<string id="feature.Universe.description" value="Business Objects Platformu için destek."/>
+<string id="feature.ReportDefinition.name" value="Rapor Tanımı Biçimi"/>
+<string id="feature.ReportDefinition.description" value="Rapor Tanımı biçimine dışa aktarma desteği."/>
+<string id="feature.ExchangeFolders.name" value="Microsoft Exchange Genel Klasörler Hedefi"/>
+<string id="feature.ExchangeFolders.description" value="Bir Exchange Klasörüne dışa aktarmayı destekler."/>
+<string id="feature.ODBC.name" value="ODBC Veri Kaynağı Biçimi"/>
+<string id="feature.ODBC.description" value="Kurulu ODBC biçimlerinden herhangi birine dışa aktarma desteği."/>
+<string id="feature.DataDirectODBC.description" value="Markası değiştirilen #productname# DataDirect ODBC sürücüleri"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Markası değiştirilen #productname# İsteğe Bağlı DataDirect ODBC sürücüleri"/>
+<string id="feature.OptionalDataDirectODBC.name" value="İsteğe Bağlı DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="XML Dışa Aktarma"/>
+<string id="feature.XMLExport.description" value="Bir XML belgesine dışa aktarmayı destekler."/>
+<string id="feature.Export.name" value="Dışa Aktarma Desteği"/>
+<string id="feature.Export.description" value="Tamamlanan raporların çeşitli dosya biçimlerinde yayınlanması için."/>
+<string id="feature.PGEditor.name" value="Özel Grafik"/>
+<string id="feature.PGEditor.description" value="Genişletilmiş grafik biçimlendirmesi için grafik uygulaması."/>
+<string id="feature.Btrieve.name" value="Pervasive Database Driver (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Btrieve veri dosyaları için destek. Öncelikle Btrieve İstemcisi'ni kurmalısınız."/>
+<string id="feature.LegacyXMLExport.name" value="Eski XML Dışa Aktarma"/>
+<string id="feature.LegacyXMLExport.description" value="Bir XML belgesine dışa aktarmayı destekler. (Eski XML)"/>
+<string id="feature.LotusNotes.name" value="Lotus Notes Hedefi"/>
+<string id="feature.LotusNotes.description" value="Bir Lotus Notes belgesine dışa aktarma desteği."/>
+<string id="feature.CDO.name" value="Crystal Veri Nesneleri"/>
+<string id="feature.CDO.description" value="Bir bellek dizisinde saklanan verileri raporlama desteği."/>
+<string id="feature.WebActivityLog.name" value="Web/IIS Etkinliği Günlüğü"/>
+<string id="feature.WebActivityLog.description" value="Web Sunucusu Etkinlik Günlükleri için destek. "/>
+<string id="feature.Text.name" value="Metin Biçimi"/>
+<string id="feature.Text.description" value="Metin biçimlerine (*.txt) dışa aktarma desteği."/>
+<string id="feature.BDE.name" value="IDAPI Veritabanı DLL"/>
+<string id="feature.BDE.description" value="dBASE ve Paradox dosyaları için destek. Öncelikle Borland Veritabanı Motoru'nu kurmalısınız."/>
+<string id="feature.CrystalReports.name" value="#productname# Biçimi"/>
+<string id="feature.CrystalReports.description" value="#productname# biçimine (*.rpt) aktarma desteği."/>
+<string id="feature.RichTextFormat.name" value="Zengin Metin Biçimi "/>
+<string id="feature.RichTextFormat.description" value="Zengin Metin Biçimine (*.rtf) dışa aktarma desteği."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Microsoft Access veritabanları için destek."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Outlook verileri için destek."/>
+<string id="feature.FileSystem.name" value="Dosya Sistemi"/>
+<string id="feature.FileSystem.description" value="Dosya sistemi verileri için destek."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="Peoplesoft Enterprise için BusinessObjects Entegrasyonu."/>
+<string id="feature.JavaData.name" value="Java Beans Bağlanabilirliği"/>
+<string id="feature.JavaData.description" value="Java sınıflarının gösterdiği veriler için destek."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Teradata veritabanı ile bağlantı sağlar"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="SAP Solutions için BusinessObjects Entegrasyonu."/>
+<string id="feature.Record.name" value="Kayıt Biçimi (değer sütunları)"/>
+<string id="feature.Record.description" value="Kayıt Stili biçimine (*.rec) dışa aktarma desteği. "/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="NETEZZA ile bağlantı sağlar."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="Siebel için BusinessObjects Entegrasyonu."/>
+<string id="feature.Mapping.name" value="Coğrafi Eşleme"/>
+<string id="feature.Mapping.description" value="Veriler ile coğrafi bölgeler arasındaki ilişkileri görüntüler."/>
+<string id="feature.Application.name" value="Uygulama Hedefi"/>
+<string id="feature.Application.description" value="Bir uygulamaya dışa aktarmayı destekler."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="dBASE veritabanları için destek."/>
+<string id="feature.HTML.name" value="HTML Biçimi"/>
+<string id="feature.HTML.description" value="HTML 3.2 ve HTML 4.0(DHTML) biçimlerine (*.html) dışa aktarma desteği."/>
+<string id="feature.DataSet.name" value="Veri Kümesi Tüketicisi"/>
+<string id="feature.DataSet.description" value="Report Application Server ISCRDataSet nesneleri için destek."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="HP Neoview için destek."/>
+<string id="feature.JDBC.name" value="JDBC (JNDI) Veri Sürücüsü"/>
+<string id="feature.JDBC.description" value="JDBC (JNDI) verileri için destek."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Oracle tabloları için destek. Öncelikle Oracle İstemcisi'ni kurmalısınız."/>
+<string id="feature.MicrosoftMail.name" value="Microsoft Posta Hedefi"/>
+<string id="feature.MicrosoftMail.description" value="Microsoft Posta Hedefi"/>
+<string id="feature.UploadWizard.name" value="Rapor Yükleme Sihirbazı"/>
+<string id="feature.UploadWizard.description" value="Rapor Yükleme Sihirbazı."/>
+<string id="feature.UWSC.name" value="Evrensel Web Servisleri Bağlayıcısı (UWSC)"/>
+<string id="feature.UWSC.description" value="UWSC ile bağlantı sağlar."/>
+<string id="feature.IntegrationOptions.name" value="Entegrasyon Seçenekleri"/>
+<string id="feature.IntegrationOptions.description" value="Entegrasyon Seçenekleri bileşenleri,#product.crw_name# ile diğer kurumsal sistemlerin arasında bağlantı kurmak için kullanılır."/>
+<string id="property.InstallType.description" value="Kurulum türü: varsayılan veya özel"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Yönetici hakları"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Lütfen yönetici ayrıcalıklarına sahip bir hesap kullanın. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64 bit işletim sistemi"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Bu ürünün 64 bit işletim sistemine (OS) kurulması gerekir. Lütfen işletim sisteminizin bu gereksinimi karşıladığından emin olun. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# kurulumu"/>
+</context>
+</uitext>

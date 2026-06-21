@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="InvalidProductKey" value="Zadali ste neplatný kód Product Key."/>
+<string id="EnterProductKeyTitle" value="Konfigurovať registráciu produktu"/>
+<string id="EnterProductKeySubtitle" value="Zadajte kód Product Key produktu #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete pokračovať, stlačte kláves []Enter]."/>
+<string id="ProductkeyInfoGroup" value="Informácie o kóde Product Key"/>
+<string id="ProductkeyLabel" value="Kód Product Key:"/>
+<string id="Invalid_ProductKey" value="Kód Product Key je neplatný. INS00140"/>
+</context>
+</uitext>

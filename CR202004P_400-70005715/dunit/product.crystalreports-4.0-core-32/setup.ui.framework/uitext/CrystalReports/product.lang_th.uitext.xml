@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="สร้างและแก้ไขรายงานข้อมูลที่มีการจัดรูปแบบ (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ตัวจัดการแหล่งข้อมูล ODBC"/>
+<string id="product.shortcutODBC.description" value="เพิ่ม เอาออก และกำหนดค่าแหล่งข้อมูลและไดรเวอร์ Open Database Connectivity (ODBC)"/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\ตัวจัดการแหล่งข้อมูลแบบ 32 บิต"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\วิซาร์ดการอัปโหลดรายงาน"/>
+<string id="product.shortcutWizard.description" value="วิซาร์ดการอัปโหลดรายงาน"/>
+<string id="feature.OLE_DB_Data.name" value="ข้อมูล OLE DB (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="สนับสนุนตัวให้บริการมาตรฐานของ OLE DB"/>
+<string id="feature.Comm_Rep.name" value="คำสั่งในพื้นที่เก็บข้อมูล"/>
+<string id="feature.Comm_Rep.description" value="ให้การเชื่อมต่อกับคำสั่งในพื้นที่เก็บข้อมูล"/>
+<string id="feature.DiskFile.name" value="ปลายทางของไฟล์บนดิสก์"/>
+<string id="feature.DiskFile.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นไฟล์"/>
+<string id="feature.NTEventLog.name" value="ไฟล์บันทึกเหตุการณ์ของ NT"/>
+<string id="feature.NTEventLog.description" value="สนับสนุนไฟล์บันทึกเหตุการณ์ของ NT"/>
+<string id="feature.MyCube.name" value="คิวบ์ OLAP"/>
+<string id="feature.MyCube.description" value="สนับสนุนคิวบ์ OLAP สำหรับ #product.boe64_name#"/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="ให้การเชื่อมต่อกับ Progress OpenEdge"/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration for Oracle E-Business Suite.BusinessObjects Integration สำหรับ Oracle E-Business Suite"/>
+<string id="feature.FieldDefinitions.name" value="ข้อกำหนดฟิลด์"/>
+<string id="feature.FieldDefinitions.description" value="สนับสนุนการออกแบบรายงานจากสคีมาแบบข้อความ"/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="สนับสนุนฐานข้อมูล Lotus Domino คุณต้องติดตั้ง Lotus Notes Client ก่อน"/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects Integration สำหรับ JD Edwards EnterpriseOne"/>
+<string id="feature.WordforWindows.name" value="รูปแบบ Microsoft Word (97-2003)"/>
+<string id="feature.WordforWindows.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบ Microsoft Word (97-2003) (*.doc)"/>
+<string id="feature.SFORCE.name" value="ไดรเวอร์ Salesforce.com"/>
+<string id="feature.SFORCE.description" value="ให้ความสามารถในการเชื่อมต่อ #productname# กับข้อมูล CRM ของ Salesforce.com และสร้างรายงานขั้นสูง"/>
+<string id="feature.PDF.name" value="รูปแบบ PDF"/>
+<string id="feature.PDF.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบ PDF (*.pdf)"/>
+<string id="feature.Excel.name" value="รูปแบบ Microsoft Excel (97-2003)"/>
+<string id="feature.Excel.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบ Microsoft Excel 97-2003 (*.xls)"/>
+<string id="feature.CharacterSeparated.name" value="รูปแบบ Character Separated"/>
+<string id="feature.CharacterSeparated.description" value="สนับสนุนการเอ็กซปอร์ตเป็นรูปแบบ Character Separated (*.csv)"/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="สนับสนุนฐานข้อมูล Sybase โดยใช้ไคลเอนต์ดั้งเดิม คุณต้องติดตั้ง Sybase Client ก่อน"/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="สนับสนุนฐานข้อมูล Informix คุณต้องติดตั้ง Informix Client ก่อน"/>
+<string id="feature.DataAccess.name" value="การเข้าถึงข้อมูล"/>
+<string id="feature.DataAccess.description" value="คอมโพเนนต์ของการเข้าถึงข้อมูลที่ใช้ในการเชื่อมต่อ#product.crw_name# กับฐานข้อมูล"/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="ให้การเชื่อมต่อกับ ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="ติดตั้งแอปพลิเคชันโปรแกรมออกแบบ Crystal Reports"/>
+<string id="feature.XML.name" value="บริการบนเว็บและ XML"/>
+<string id="feature.XML.description" value="สนับสนุนข้อมูล XML"/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="สนับสนุนฐานข้อมูล ACT!"/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="ให้การเชื่อมต่อกับฐานข้อมูล MySQL"/>
+<string id="feature.COMData.name" value="ตัวให้บริการข้อมูล COM "/>
+<string id="feature.COMData.description" value="สนับสนุนข้อมูลที่ได้จากออบเจ็กต์ COM"/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="เอ็กซปอร์ตไปยัง Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="การเข้าถึงข้อมูลเป็น ADO.NET"/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="สนับสนุนข้อมูล Exchange Server เช่น โฟลเดอร์ ไฟล์บันทึก และสมุดที่อยู่ของ Exchange"/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="สนับสนุนฐานข้อมูล IBM DB2 คุณต้องติดตั้ง DB2 Client ก่อน"/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="สนับสนุน Business Objects Universe"/>
+<string id="feature.ReportDefinition.name" value="รูปแบบข้อกำหนดรายงาน"/>
+<string id="feature.ReportDefinition.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบข้อกำหนดรายงาน"/>
+<string id="feature.ExchangeFolders.name" value="ปลายทางโฟลเดอร์สาธารณะของ Microsoft Exchange"/>
+<string id="feature.ExchangeFolders.description" value="สนับสนุนการเอ็กซปอร์ตไปยังโฟลเดอร์ Exchange"/>
+<string id="feature.ODBC.name" value="รูปแบบแหล่งข้อมูล ODBC"/>
+<string id="feature.ODBC.description" value="สนับสนุนการเอ็กซปอร์ตเป็นรูปแบบ ODBC ใดๆ ที่คุณได้ติดตั้งไว้"/>
+<string id="feature.DataDirectODBC.description" value="ไดรเวอร์ DataDirect ODBC ที่ปรับเปลี่ยนแบรนด์ใหม่ของ #productname#"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="ไดรเวอร์ DataDirect ODBC แบบเลือกได้ที่ปรับเปลี่ยนแบรนด์ใหม่ของ #productname#"/>
+<string id="feature.OptionalDataDirectODBC.name" value="DataDirect ODBC แบบเลือกได้"/>
+<string id="feature.XMLExport.name" value="เอ็กซ์ปอร์ตเป็น XML"/>
+<string id="feature.XMLExport.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นเอกสาร XML"/>
+<string id="feature.Export.name" value="การสนับสนุนการเอ็กซ์ปอร์ต"/>
+<string id="feature.Export.description" value="สำหรับการเผยแพร่รายงานที่เสร็จสมบูรณ์แล้วเป็นรูปแบบไฟล์ต่างๆ"/>
+<string id="feature.PGEditor.name" value="การสร้างแผนภูมิแบบกำหนดเอง"/>
+<string id="feature.PGEditor.description" value="แอปพลิเคชันการทำกราฟสำหรับการจัดรูปแบบเพิ่มเติมของกราฟ"/>
+<string id="feature.Btrieve.name" value="ไดรเวอร์ฐานข้อมูล Pervasive (Btrieve)"/>
+<string id="feature.Btrieve.description" value="สนับสนุนไฟล์ข้อมูล Btrieve คุณต้องติดตั้ง Btrieve Client ก่อน"/>
+<string id="feature.LegacyXMLExport.name" value="เอ็กซ์ปอร์ตเป็น XML ดั้งเดิม"/>
+<string id="feature.LegacyXMLExport.description" value="สนับสนุนการเอ็กซปอร์ตเป็นเอกสาร XML (XML ดั้งเดิม)"/>
+<string id="feature.LotusNotes.name" value="ปลายทางของ Lotus Notes"/>
+<string id="feature.LotusNotes.description" value="สนับสนุนการเอ็กซปอร์ตเป็นเอกสาร Lotus Notes"/>
+<string id="feature.CDO.name" value="ออบเจ็กต์ข้อมูล Crystal"/>
+<string id="feature.CDO.description" value="สนับสนุนการจัดทำรายงานของข้อมูลที่จัดเก็บไว้ในอาร์เรย์หน่วยความจำ"/>
+<string id="feature.WebActivityLog.name" value="ไฟล์บันทึกกิจกรรมบนเว็บ/IIS"/>
+<string id="feature.WebActivityLog.description" value="สนับสนุนไฟล์บันทึกกิจกรรมของเว็บเซิร์ฟเวอร์"/>
+<string id="feature.Text.name" value="รูปแบบข้อความ"/>
+<string id="feature.Text.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบข้อความ (*.txt)"/>
+<string id="feature.BDE.name" value="DLL ฐานข้อมูล IDAPI"/>
+<string id="feature.BDE.description" value="สนับสนุนไฟล์ dBASE และ Paradox คุณต้องติดตั้งกลไกจัดการฐานข้อมูลของ Borland ก่อน"/>
+<string id="feature.CrystalReports.name" value="รูปแบบ #productname#"/>
+<string id="feature.CrystalReports.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบ #productname# (*.rpt)"/>
+<string id="feature.RichTextFormat.name" value="รูปแบบ Rich Text"/>
+<string id="feature.RichTextFormat.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็น Rich Text Format (*.rtf)"/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="สนับสนุนฐานข้อมูลของ Microsoft Access"/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="สนับสนุนข้อมูล Outlook"/>
+<string id="feature.FileSystem.name" value="ระบบไฟล์"/>
+<string id="feature.FileSystem.description" value="สนับสนุนข้อมูลของระบบไฟล์"/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects Integration สำหรับ Peoplesoft Enterprise"/>
+<string id="feature.JavaData.name" value="การเชื่อมต่อ Java Beans"/>
+<string id="feature.JavaData.description" value="สนับสนุนข้อมูลที่ได้จากคลาส Java"/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="ให้การเชื่อมต่อกับฐานข้อมูล Teradata"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects Integration สำหรับโซลูชันของ SAP"/>
+<string id="feature.Record.name" value="รูปแบบเรคคอร์ด (คอลัมน์ของค่า)"/>
+<string id="feature.Record.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบ Record Style (*.rec)"/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="ให้การเชื่อมต่อกับ NETEZZA"/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects Integration สำหรับ Siebel"/>
+<string id="feature.Mapping.name" value="การสร้างแผนที่ทางภูมิศาสตร์"/>
+<string id="feature.Mapping.description" value="แสดงความสัมพันธ์ระหว่างข้อมูลและพื้นที่ทางภูมิศาสตร์"/>
+<string id="feature.Application.name" value="ปลายทางของแอปพลิเคชัน"/>
+<string id="feature.Application.description" value="สนับสนุนการเอ็กซ์ปอร์ตไปยังแอปพลิเคชัน"/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="สนับสนุนฐานข้อมูล dBASE"/>
+<string id="feature.HTML.name" value="รูปแบบ HTML"/>
+<string id="feature.HTML.description" value="สนับสนุนการเอ็กซ์ปอร์ตเป็นรูปแบบ HTML 3.2 และ HTML 4.0(DHTML) (*.html)"/>
+<string id="feature.DataSet.name" value="คอนซูเมอร์ชุดข้อมูล"/>
+<string id="feature.DataSet.description" value="สนับสนุนออบเจ็กต์ ISCRDataSet ของ Report Application Server"/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="สนับสนุน HP Neoview"/>
+<string id="feature.JDBC.name" value="ไดรเวอร์ข้อมูล JDBC (JNDI)"/>
+<string id="feature.JDBC.description" value="สนับสนุนข้อมูล JDBC (JNDI)"/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="สนับสนุนตาราง Oracle คุณต้องติดตั้ง Oracle Client ก่อน"/>
+<string id="feature.MicrosoftMail.name" value="ปลายทางของ Microsoft Mail"/>
+<string id="feature.MicrosoftMail.description" value="ปลายทางของ Microsoft Mail"/>
+<string id="feature.UploadWizard.name" value="วิซาร์ดการอัปโหลดรายงาน"/>
+<string id="feature.UploadWizard.description" value="วิซาร์ดการอัปโหลดรายงาน"/>
+<string id="feature.UWSC.name" value="ตัวเชื่อมต่อบริการบนเว็บแบบสากล (UWSC)"/>
+<string id="feature.UWSC.description" value="ให้การเชื่อมต่อกับ UWSC"/>
+<string id="feature.IntegrationOptions.name" value="ตัวเลือกการผสานรวม"/>
+<string id="feature.IntegrationOptions.description" value="คอมโพเนนต์ของตัวเลือกการผสานรวมที่ใช้ในการเชื่อมต่อ#product.crw_name# กับระบบอื่นๆ ขององค์กร"/>
+<string id="property.InstallType.description" value="ประเภทการติดตั้ง: ดีฟอลต์หรือกำหนดเอง"/>
+<string id="prereq.AdminPrivilegePreReqText" value="สิทธิ์ระดับผู้ดูแลระบบ"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="โปรดใช้บัญชีผู้ใช้ที่มีสิทธิ์ระดับผู้ดูแลระบบ INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="ระบบปฏิบัติการแบบ 64 บิต"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="ผลิตภัณฑ์นี้จะต้องได้รับการติดตั้งบนระบบปฏิบัติการ (OS) แบบ 64 บิต โปรดตรวจสอบว่าระบบปฏิบัติการของคุณตรงตามข้อกำหนดนี้หรือไม่ (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="การติดตั้ง #product.fullproductnamenospace#"/>
+</context>
+</uitext>

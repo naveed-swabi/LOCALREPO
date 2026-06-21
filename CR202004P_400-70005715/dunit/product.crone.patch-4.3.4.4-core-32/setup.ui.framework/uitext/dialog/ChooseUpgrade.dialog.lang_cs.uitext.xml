@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Byl zadán neznámý ChooseUpgrade , platné hodnoty jsou: 0 nebo 1"/>
+<string id="ChooseUpgrade" value="Zjištěna předchozí verze produktu #productname#"/>
+<string id="SelectUpgrade" value="Vyberte, zda se má provést instalace upgradu."/>
+<string id="SideBySide" value="Provést souběžnou instalaci"/>
+<string id="SideBySideDescription" value="Nainstaluje tuto verzi produktu #productname# souběžně s právě instalovanou verzí."/>
+<string id="SimpleUpgrade" value="Provést jednoduchý upgrade"/>
+<string id="SimpleUpgradeDescription" value="Byla zjištěna předchozí verze produktu #productname#. Před pokračováním musíte předchozí odinstalovat, nebo k provedení upgradu na místě vyberte tuto možnost."/>
+<string id="Invalid_ChooseUpgrade" value="Neplatný ChooseUpgrade ([ChooseUpgrade]): má být 0 nebo 1"/>
+</context>
+</uitext>

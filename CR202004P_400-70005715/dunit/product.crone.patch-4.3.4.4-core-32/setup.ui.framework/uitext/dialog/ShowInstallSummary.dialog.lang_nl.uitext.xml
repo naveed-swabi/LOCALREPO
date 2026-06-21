@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Installatie starten"/>
+<string id="ShowInstallSummarySubtitle" value="Het installatieprogramma is gereed voor de installatie van #product.fullproductnamenospace#. Klik op Vorige om uw installatie te wijzigen.\n\nKlik op de knop Volgende om de installatie te starten."/>
+<string id="ShowInstallSummaryUnixDescription" value="Wilt u dat de installatiewizard van #product.fullproductnamenospace# begint met installeren?"/>
+<string id="ShowInstallSummaryFooter" value="Druk op []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om te installeren."/>
+<string id="DiskCost" value="Schijfruimte"/>
+<string id="Drive Select" value="U selecteert"/>
+<string id="Disk Costing" value="Berekening van schijfruimte"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Schijfgrootte"/>
+<string id="Available" value="Beschikbaar"/>
+<string id="Required" value="Vereist"/>
+<string id="Difference" value="Verschil"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Opnieuw"/>
+<string id="Cancel" value="Annuleren"/>
+<string id="ShowCacheSummaryTitle" value="Installatie in fasen"/>
+<string id="ShowCacheSummarySubtitle" value="Caching starten"/>
+<string id="ShowCacheSummaryDescription" value="Caching is het proces van het kopiëren van de software naar de installatiemap. Tijdens caching is er geen systeemuitvaltijd en kunt u in het systeem blijven werken."/>
+<string id="Invalid_DiskSpace" value="Er is onvoldoende ruimte om het product te installeren. Maak schijfruimte vrij of selecteer een andere installatielocatie. Beschikbare ruimte: [AvailableSpace] MB. Vereiste ruimte: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Tijdens de installatie na de caching wordt de software met systeemuitvaltijd in het systeem geïnstalleerd."/>
+<string id="ShowResumetitle" value="Installatie in fasen"/>
+<string id="ShowResumeSubtitle" value="Installatie hervatten"/>
+<string id="ShowResumeFooter" value="Druk op []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om te installeren."/>
+<string id="MessageCache" value="Klik op Volgende om de fase In cache plaatsen te starten."/>
+<string id="MessageResume" value="Klik op Volgende om de installatie te starten."/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Eksisterende CMS-implementeringsoplysninger"/>
+<string id="SpecifyRemoteCMS" value="Angiv din eksisterende CMS og dine administratorlogonoplysninger for at starte processen."/>
+<string id="RemoteCMSConnectionInfo" value="Forbindelsesoplysninger for eksisterende CMS"/>
+<string id="RemoteCMSName" value="CMS-navn"/>
+<string id="RemoteCMSPort" value="CMS-port"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS-administratorlogonoplysninger"/>
+<string id="RemoteCMSUser" value="Bruger"/>
+<string id="RemoteCMSPassword" value="Adgangskode"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Enten kan den eksterne CMS ikke nås, eller også er logonoplysningerne forkerte. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Fjern-CMS'en kan enten ikke nås, eller også er logonoplysningerne forkerte. INS00013\nVil du indtaste dine legitimationsoplysninger igen?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Følgende tegn er ikke tilladt i CMS-adgangskoden:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

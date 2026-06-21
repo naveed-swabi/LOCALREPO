@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="SetLCMConfigTitle" value="設定 Subversion"/>
+<string id="SetLCMConfigSubtitle" value="輸入 Subversion 版本控制系統的連接埠和使用者名稱。"/>
+<string id="repoInfoGroup" value="Subversion 儲存機制資訊"/>
+<string id="repoName" value="儲存機制名稱:"/>
+<string id="repoPort" value="儲存機制連接埠:"/>
+<string id="repoPortInline" value="Subversion 連接埠:"/>
+<string id="repoUserInfoGroup" value="Subversion 儲存機制使用者資訊"/>
+<string id="repoUserName" value="儲存機制使用者帳戶:"/>
+<string id="repoUserPass" value="儲存機制帳戶密碼:"/>
+<string id="repoUserPassInline" value="儲存機制使用者帳戶密碼:"/>
+<string id="repoUserPass2" value="確認密碼:"/>
+<string id="Mismatch_LCMPassword" value="密碼不相符。請確認並再試一次。INS00267"/>
+<string id="Invalid_LCMPassword" value="密碼過於簡單。密碼至少必須為六個字元長，且必須一律包含至少下列兩個字元類別: 大寫字母和小寫字母。INS00127"/>
+</context>
+</uitext>

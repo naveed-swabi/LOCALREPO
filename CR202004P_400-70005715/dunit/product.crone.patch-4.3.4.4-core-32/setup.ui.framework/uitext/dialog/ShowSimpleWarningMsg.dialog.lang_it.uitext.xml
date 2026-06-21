@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+<language langcode="it"/>
+<context>
+<string id="Warning_prereq_DS" value="BI 4.1 SP10 non dispone di una versione Data Services compatibile. Se Data Services è installato nel proprio ambiente, non procedere con l'installazione.\n\n\n Fare clic su &quot;OK&quot; per continuare con l'installazione oppure \n Fare clic su &quot;Esci&quot; per chiudere correttamente l'installazione."/>
+<string id="Warning_prereq_DS_unix" value="BI 4.1 SP10 non dispone di una versione Data Services compatibile. Se Data Services è installato nel proprio ambiente, non procedere con l'installazione."/>
+<string id="ExitMessage" value="Premere Ctrl+X per uscire o Invio per continuare."/>
+<string id="WarnDialogTitle" value="WARNING DIALOG"/>
+<string id="WarnDialogSubtitle" value="A warning has occurred:"/>
+</context>
+</uitext>

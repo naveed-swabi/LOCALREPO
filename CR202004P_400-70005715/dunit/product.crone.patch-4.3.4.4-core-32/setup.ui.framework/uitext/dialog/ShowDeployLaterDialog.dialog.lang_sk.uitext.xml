@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Title" value="Nasadenie webovej aplikácie"/>
+<string id="Subtitle" value="Nasadiť webový obsah neskôr"/>
+<string id="DeploylaterDescription" value="Našiel sa predvolený webový aplikačný server Tomcat Java. Chcete nasadiť webové aplikácie teraz alebo neskôr?"/>
+<string id="TxtDeployLater" value="Nasadiť webové aplikácie neskôr."/>
+<string id="TxtDeployNow" value="Nasadiť webové aplikácie teraz."/>
+<string id="Footer" value="Ak chcete vyberať, stlačte kláves [Tab], [šípka nahor] alebo [šípka nadol]. Ak sa chcete vrátiť späť, stlačte klávesy [Ctrl-B]. Ak chcete skončiť, stlačte klávesy [Ctrl-X]. Ak chcete pokračovať, stlačte kláves [Enter]."/>
+</context>
+</uitext>

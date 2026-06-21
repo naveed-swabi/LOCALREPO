@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Java-webtoepassingsserver selecteren"/>
+<string id="ChooseWebAppServerSubtitle" value="Selecteer een oplossing van Java-webtoepassingsserver."/>
+<string id="ChooseWebAppServerFooter" value="Druk op []Tab], []Pijl omhoog] of []Pijl omlaag] om te selecteren, []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om door te gaan."/>
+<string id="InstallJWAS" value="Java-webtoepassing en -servers installeren"/>
+<string id="InstallTomcat" value="De standaard Tomcat Java-webtoepassingsserver installeren en automatisch webtoepassingen implementeren"/>
+<string id="ManualDeploy" value="Handmatig webtoepassingen implementeren op een ondersteunde Jave-webtoepassingsserver na de installatie"/>
+<string id="InstallWACS" value="De Containerserver voor webtoepassingen installeren en automatisch webtoepassingen implementeren"/>
+<string id="SharePointIntegrationTitle" value="SAP BusinessObjects Integratieoptie voor Microsoft SharePoint-software 4.0"/>
+<string id="SharePointIntegrationText" value="De SAP BusinessObjects Integratieoptie voor Microsoft Sharepoint-software 4.0 is beschikbaar als afzonderlijke installatie in de map met invoegtoepassingen voor 64-bits Sharepoint. Zie de Instructies na installatie voor een koppeling naar de map met invoegtoepassingen."/>
+<string id="SharePointIntegrationCheck" value="Toon na installatie de locatie van de map met invoegtoepassingen"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Ongeldige waarde UseIntegratedWebAppServer ([UseIntegratedWebAppServer]): moet 0 of 1 zijn. INS00255"/>
+</context>
+</uitext>

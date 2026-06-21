@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Kurulumu Başlat"/>
+<string id="ShowInstallSummarySubtitle" value="#product.fullproductnamenospace# kurulumu hazır. Kurulum bilgilerinizde değişiklik yapmak için Geri'yi tıklayın.\n\nKurulumu başlatmak için İleri'yi tıklayın."/>
+<string id="ShowInstallSummaryUnixDescription" value="#product.fullproductnamenospace# Kurulum Sihirbazı'nın kurulumu başlatmasına hazır mısınız?"/>
+<string id="ShowInstallSummaryFooter" value="Geri gitmek için []Ctrl-B], çıkmak için []Ctrl-X], kurmak için []Enter] tuşlarına basın."/>
+<string id="DiskCost" value="Gerekli Disk Alanı"/>
+<string id="Drive Select" value="Seçtiğiniz"/>
+<string id="Disk Costing" value="Gerekli Disk Alanı"/>
+<string id="Volume" value="Birim"/>
+<string id="Disk Size" value="Disk Boyutu"/>
+<string id="Available" value="Kullanılabilir"/>
+<string id="Required" value="Zorunlu"/>
+<string id="Difference" value="Fark"/>
+<string id="Ok" value="Tamam"/>
+<string id="Retry" value="Yeniden Dene"/>
+<string id="Cancel" value="İptal"/>
+<string id="ShowCacheSummaryTitle" value="Aşamalı Kurulum"/>
+<string id="ShowCacheSummarySubtitle" value="Önbelleğe Almayı Başlat"/>
+<string id="ShowCacheSummaryDescription" value="Önbelleğe alma, yazılımın kurulum dizinine kopyalanması işlemidir. Önbelleğe alma sırasında sistem kapanması ile karşılaşılmaz ve sistemde çalışmaya devam edebilirsiniz."/>
+<string id="Invalid_DiskSpace" value="Ürünü kurmak için yeterli alanınız yok: Lütfen disk alanı boşaltın veya farklı bir kurulum konumu seçin. Kullanılabilir Alan: [AvailableSpace] MB. Gerekli Alan: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Önbelleğe alma işleminden sonra yükleme sırasında sistem birkaç kez kapandı ve yazılım sisteme yüklendi."/>
+<string id="ShowResumetitle" value="Aşamalı Kurulum"/>
+<string id="ShowResumeSubtitle" value="Kurulumu Sürdür"/>
+<string id="ShowResumeFooter" value="Geri dönmek için []Ctrl-B], çıkmak için []Ctrl-X], kurmak için []Enter] tuşlarına basın."/>
+<string id="MessageCache" value="Önbelleğe Alma Aşamasına başlamak için İleri'yi tklayın."/>
+<string id="MessageResume" value="Kuruluma başlamak için İleri'yi tıklayın."/>
+</context>
+</uitext>

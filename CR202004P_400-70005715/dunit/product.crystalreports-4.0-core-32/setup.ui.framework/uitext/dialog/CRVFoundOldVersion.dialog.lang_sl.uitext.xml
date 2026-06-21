@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="DlgTitle" value="Nadgradnja produkta"/>
+<string id="DlgSummary" value="Zaznana je druga verzija tega produkta."/>
+<string id="ProceedOrNot" value="Zaznana je druga verzija pregledovalnika Crystal Reports Viewer. Če nadaljujete s to namestitvijo, bo ta verzija nadgrajena na Crystal Reports Viewer 2010. Če želite nadaljevati, kliknite Naprej. Če želite preklicati to namestitev, kliknite Preklic za izhod iz namestitve."/>
+</context>
+</uitext>

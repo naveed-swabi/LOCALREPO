@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="progress.UpdateRepository" value="Aktualizace úložiště"/>
+<string id="progress.SetHyperLink" value="Konfigurace systémového nastavení"/>
+</context>
+</uitext>

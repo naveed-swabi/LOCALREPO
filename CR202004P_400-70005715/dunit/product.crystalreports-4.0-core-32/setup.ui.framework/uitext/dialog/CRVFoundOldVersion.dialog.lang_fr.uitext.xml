@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="DlgTitle" value="Mise à niveau du produit"/>
+<string id="DlgSummary" value="Une autre version de ce produit a été détectée."/>
+<string id="ProceedOrNot" value="Une autre version de Crystal Reports Viewer a été détectée. Si vous poursuivez l'installation, cette version sera mise à niveau vers Crystal Reports Viewer 2010. Si vous souhaitez continuer, cliquez sur Suivant. Si vous souhaitez annuler l'installation, cliquez sur Annuler."/>
+</context>
+</uitext>

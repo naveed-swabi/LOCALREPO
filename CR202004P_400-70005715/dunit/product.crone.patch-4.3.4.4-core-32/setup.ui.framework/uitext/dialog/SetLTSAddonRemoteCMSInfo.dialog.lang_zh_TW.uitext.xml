@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="ConfigureRemoteCMS" value="現有的 CMS 部署資訊"/>
+<string id="SpecifyRemoteCMS" value="指定您現有 CMS 和管理員登入資訊以開始程序。"/>
+<string id="RemoteCMSConnectionInfo" value="現有 CMS 的連線資訊"/>
+<string id="RemoteCMSName" value="CMS 名稱"/>
+<string id="RemoteCMSPort" value="CMS 連接埠"/>
+<string id="RemoteCMSAdminLogonInfo" value="CMS 管理員登入資訊"/>
+<string id="RemoteCMSUser" value="使用者"/>
+<string id="RemoteCMSPassword" value="密碼"/>
+<string id="ErrRemoteCMSConnectionInfo" value="遠端 CMS 可能無法連線，或登入憑證不正確。INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="遠端 CMS 無法連線或登入憑證不正確。INS00013\n您要再次輸入憑證嗎?"/>
+<string id="Invalid_SymbolInCMSPassword" value="CMS 密碼不允許使用以下字元: &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ? 。INS00099"/>
+</context>
+</uitext>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="LicenseAgreement" value="ความต้องการคีย์การให้สิทธิ์ใช้งานใหม่"/>
+<string id="YouMustAgree" value="คุณต้องมีคีย์การให้สิทธิ์ใช้งานใหม่สำหรับ #product.fullproductname#"/>
+<string id="SelectLicenseChangeSubtitle" value="คุณต้องมีคีย์การให้สิทธิ์ใช้งานใหม่สำหรับ #product.fullproductname#"/>
+<string id="IAccept" value="ฉันอ่านเอกสารอ้างอิงและเข้าใจกระบวนการขอคีย์การให้สิทธิ์ใช้งานใหม่แล้ว และตกลงที่จะลบคีย์การให้สิทธิ์ใช้งานเดิมแล้วเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่หลังจากติดตั้งการอัปเดต"/>
+<string id="subtitle1" value="#product.fullproductname# จำเป็นต้องใช้คีย์การให้สิทธิ์ใช้งานใหม่"/>
+<string id="subtitle2" value="ขอคีย์การให้สิทธิ์ใช้งานใหม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีขอคีย์การให้สิทธิ์ใช้งาน ให้ดูที่"/>
+<string id="subtitle3" value="หลังจากการติดตั้ง #product.fullproductname# เสร็จสมบูรณ์ ให้ล็อกออนเข้าสู่ Central Management Console (CMC) ลบคีย์การให้สิทธิ์ใช้งานเดิมแล้วเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่ บริการทั้งหมดจะถูกปิดใช้งานจนกว่าคุณจะเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่"/>
+<string id="subtitle4" value="ขอคีย์การให้สิทธิ์ใช้งานใหม่ที่นี่"/>
+<string id="AcceptOrNotAccept" value="กด &lt;ENTER&gt; เพื่อตกลงที่จะลบคีย์การให้สิทธิ์ใช้งานเดิมและเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่หลังจากติดตั้งการอัปเดต"/>
+<string id="Description_Patch_License" value="#product.fullproductname# ต้องการคีย์การให้สิทธิ์ใช้งานใหม่\n\nขอคีย์การให้สิทธิ์ใช้งานใหม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีขอคีย์การให้สิทธิ์ใช้งาน ให้ดูที่ http://scn.sap.com/docs/DOC-70095 \n\nหลังจากการติดตั้ง #product.fullproductname# เสร็จสมบูรณ์แล้ว ให้ล็อกออนเข้าสู่ Central Management Console (CMC) ลบคีย์การให้สิทธิ์ใช้งานเดิมแล้วเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่ บริการทั้งหมดจะถูกปิดใช้งานจนกว่าคุณจะเพิ่มคีย์การให้สิทธิ์ใช้งานใหม่"/>
+</context>
+</uitext>

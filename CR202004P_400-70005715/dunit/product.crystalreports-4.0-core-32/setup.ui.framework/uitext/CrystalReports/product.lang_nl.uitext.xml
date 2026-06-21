@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Hiermee maakt en wijzigt u opgemaakte gegevensrapporten (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC-gegevensbronbeheerder"/>
+<string id="product.shortcutODBC.description" value="Hiermee worden ODBC-gegevensbronnen en -stuurprogramma's toegevoegd, verwijderd en geconfigureerd."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32 bits-gegevensbronbeheerder"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Wizard Rapport uploaden"/>
+<string id="product.shortcutWizard.description" value="Wizard Rapport uploaden"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB-gegevens (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Ondersteuning voor standaard-OLE-DB-providers."/>
+<string id="feature.Comm_Rep.name" value="Opdracht in gegevensopslagruimte"/>
+<string id="feature.Comm_Rep.description" value="Hiermee wordt connectiviteit met Opdracht in de gegevensopslagruimte gebonden"/>
+<string id="feature.DiskFile.name" value="Doel schijfbestand"/>
+<string id="feature.DiskFile.description" value="Ondersteuning voor export naar een bestand."/>
+<string id="feature.NTEventLog.name" value="NT-gebeurtenislogboek"/>
+<string id="feature.NTEventLog.description" value="Ondersteuning voor NT-gebeurtenislogboeken."/>
+<string id="feature.MyCube.name" value="OLAP-kubus"/>
+<string id="feature.MyCube.description" value="Ondersteuning voor OLAP-kubussen van #product.boe64_name#."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Hiermee wordt verbinding met Progress OpenEdge geboden."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects-integratie voor Oracle E-Business Suite."/>
+<string id="feature.FieldDefinitions.name" value="Velddefinities"/>
+<string id="feature.FieldDefinitions.description" value="Ondersteuning voor het ontwerpen van rapporten uit tekstschema's."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Ondersteuning voor Lotus Domino-databases. U moet eerst de Lotus Notes-client installeren."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects-integratie voor JD Edwards EnterpriseOne."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003)-indeling"/>
+<string id="feature.WordforWindows.description" value="Ondersteuning voor export naar Microsoft Word (97-2003)-indeling (*.doc)."/>
+<string id="feature.SFORCE.name" value="Salesforce.com-stuurprogramma"/>
+<string id="feature.SFORCE.description" value="Hiermee hebt u de mogelijkheid om #productname# te verbinden met uw CRM-gegevens op Salesforce.com en geavanceerde rapporten samen te stellen."/>
+<string id="feature.PDF.name" value="PDF-indeling"/>
+<string id="feature.PDF.description" value="Ondersteuning voor export naar PDF-indeling (*.pdf)."/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003)-indeling"/>
+<string id="feature.Excel.description" value="Ondersteuning voor export naar Microsoft Excel 97-2003-indeling (*.xls)."/>
+<string id="feature.CharacterSeparated.name" value="CSV-indeling"/>
+<string id="feature.CharacterSeparated.description" value="Ondersteuning voor export naar CSV-indeling (*.csv)."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Ondersteuning voor Sybase-databases die een systeemeigen client gebruiken. U moet eerst de Sybase-client installeren."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Ondersteuning voor Informix-databases. U moet eerst de Informix-client installeren."/>
+<string id="feature.DataAccess.name" value="Gegevenstoegang"/>
+<string id="feature.DataAccess.description" value="Onderdelen voor gegevenstoegang worden gebruikt om #product.crw_name# aan databases te koppelen."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Biedt connectiviteit met ODBC RDO"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Hiermee wordt de toepassing Crystal Reports Designer geïnstalleerd"/>
+<string id="feature.XML.name" value="XML en webservices"/>
+<string id="feature.XML.description" value="Ondersteuning voor XML-gegevens."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Ondersteuning voor ACT!-databases."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Hiermee wordt verbinding met MySQL-databases geboden."/>
+<string id="feature.COMData.name" value="COM-gegevensleverancier"/>
+<string id="feature.COMData.description" value="Ondersteuning voor gegevens die worden weergegeven door COM-objecten."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="Exporteren naar Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Gegevenstoegang tot ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Ondersteuning voor Exchange Server-gegevens, zoals Exchange-mappen, -logboeken en -adresboeken."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Ondersteuning voor IBM DB2-databases. U moet eerst de DB2-client installeren."/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="Ondersteuning voor Business Objects Universe."/>
+<string id="feature.ReportDefinition.name" value="Rapportdefinitie-indeling"/>
+<string id="feature.ReportDefinition.description" value="Ondersteuning voor export naar rapportdefinitie-indeling."/>
+<string id="feature.ExchangeFolders.name" value="Doel voor openbare mappen van Microsoft Exchange"/>
+<string id="feature.ExchangeFolders.description" value="Ondersteuning voor export naar een Exchange-map."/>
+<string id="feature.ODBC.name" value="ODBC-gegevensbronindeling"/>
+<string id="feature.ODBC.description" value="Ondersteuning voor export naar een van de geïnstalleerde ODBC-indelingen."/>
+<string id="feature.DataDirectODBC.description" value="Rebranded #productname# DataDirect ODBC-stuurprogramma's"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Rebranded #productname# DataDirect ODBC-stuurprogramma's (optioneel)"/>
+<string id="feature.OptionalDataDirectODBC.name" value="DataDirect ODBC (optioneel)"/>
+<string id="feature.XMLExport.name" value="XML-export"/>
+<string id="feature.XMLExport.description" value="Ondersteuning voor export naar een XML-document."/>
+<string id="feature.Export.name" value="Exportondersteuning"/>
+<string id="feature.Export.description" value="Voor het publiceren van voltooide rapporten in verschillende bestandsindelingen."/>
+<string id="feature.PGEditor.name" value="Aangepaste diagrammen"/>
+<string id="feature.PGEditor.description" value="Diagramtoepassing voor uitgebreide opmaak van diagrammen."/>
+<string id="feature.Btrieve.name" value="Pervasive-databasestuurprogramma (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Ondersteuning voor Btrieve-gegevensbestanden. U moet eerst de Btrieve-client installeren."/>
+<string id="feature.LegacyXMLExport.name" value="Export van verouderde XML"/>
+<string id="feature.LegacyXMLExport.description" value="Ondersteuning voor export naar een XML-document. (verouderde XML)"/>
+<string id="feature.LotusNotes.name" value="Lotus Notes-doel"/>
+<string id="feature.LotusNotes.description" value="Ondersteuning voor export naar een Lotus Notes-document."/>
+<string id="feature.CDO.name" value="Crystal-gegevensobjecten"/>
+<string id="feature.CDO.description" value="Ondersteuning voor rapportage uit gegevens die zijn opgeslagen in een gegevensmatrix."/>
+<string id="feature.WebActivityLog.name" value="Web/IIS-activiteitenlogboek"/>
+<string id="feature.WebActivityLog.description" value="Ondersteuning voor activiteitenlogboeken voor de webserver."/>
+<string id="feature.Text.name" value="Tekstindeling"/>
+<string id="feature.Text.description" value="Ondersteuning voor export naar tekstindelingen (*.txt)."/>
+<string id="feature.BDE.name" value="IDAPI Database DLL"/>
+<string id="feature.BDE.description" value="Ondersteuning voor dBASE- en Paradox-bestanden. U moet eerst de Borland Database Engine installeren."/>
+<string id="feature.CrystalReports.name" value="#productname#-indeling"/>
+<string id="feature.CrystalReports.description" value="Ondersteuning voor export naar #productname#-indeling (*.rpt)."/>
+<string id="feature.RichTextFormat.name" value="RTF-indeling"/>
+<string id="feature.RichTextFormat.description" value="Ondersteuning voor export naar RTF-indeling (*.rtf)."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Ondersteuning voor Microsoft Access-databases."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Ondersteuning voor Outlook-gegevens."/>
+<string id="feature.FileSystem.name" value="Bestandssysteem"/>
+<string id="feature.FileSystem.description" value="Ondersteuning voor bestandssysteemgegevens."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects-integratie voor Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Java Beans-verbinding"/>
+<string id="feature.JavaData.description" value="Ondersteuning voor gegevens die worden weergegeven door Java-klassen."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Hiermee wordt connectiviteit met de Teradata-database geboden"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects-integratie voor SAP Solutions."/>
+<string id="feature.Record.name" value="Recordindeling (kolommen met waarden)"/>
+<string id="feature.Record.description" value="Ondersteuning voor export naar REC-indeling (Record Style)."/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Hiermee wordt verbinding met NETEZZA geboden."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects-integratie voor Siebel."/>
+<string id="feature.Mapping.name" value="Geografische toewijzing"/>
+<string id="feature.Mapping.description" value="Hiermee worden relaties weergegeven tussen gegevens en geografische regio's."/>
+<string id="feature.Application.name" value="Toepassingsdoel"/>
+<string id="feature.Application.description" value="Ondersteuning voor export naar een toepassing."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Ondersteuning voor dBASE-databases."/>
+<string id="feature.HTML.name" value="HTML-indeling"/>
+<string id="feature.HTML.description" value="Ondersteuning voor export naar HTML 3.2- en HTML 4.0 (DHTML)-indeling (*.html)."/>
+<string id="feature.DataSet.name" value="Gegevensset gebruiker"/>
+<string id="feature.DataSet.description" value="Ondersteuning voor Report Application Server ISCRDataSet-objecten."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Ondersteuning voor HP Neoview."/>
+<string id="feature.JDBC.name" value="JDBC-gegevensstuurprogramma (JNDI)"/>
+<string id="feature.JDBC.description" value="Ondersteuning voor JDBC-gegevens (JNDI)."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Ondersteuning voor Oracle-tabellen. U moet eerst de Oracle-client installeren."/>
+<string id="feature.MicrosoftMail.name" value="Doel voor Microsoft Mail"/>
+<string id="feature.MicrosoftMail.description" value="Doel voor Microsoft Mail"/>
+<string id="feature.UploadWizard.name" value="Wizard Rapport uploaden"/>
+<string id="feature.UploadWizard.description" value="Wizard Rapport uploaden."/>
+<string id="feature.UWSC.name" value="Universal Web Services Connector (UWSC)"/>
+<string id="feature.UWSC.description" value="Hiermee wordt connectiviteit met UWSC geboden."/>
+<string id="feature.IntegrationOptions.name" value="Integratieopties"/>
+<string id="feature.IntegrationOptions.description" value="Onderdelen van integratieopties worden gebruikt om #product.crw_name# aan andere Enterprise-systemen te koppelen."/>
+<string id="property.InstallType.description" value="Soort installatie: standaard of aangepast"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Beheerdersrechten"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Gebruik een gebruikersaccount met beheerdersrechten. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64-bits besturingssysteem"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Dit product moet op een 64-bits besturingssysteem worden geïnstalleerd. Controleer of uw besturingssysteem aan deze vereisten voldoet. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="#product.fullproductnamenospace#-installatie"/>
+</context>
+</uitext>

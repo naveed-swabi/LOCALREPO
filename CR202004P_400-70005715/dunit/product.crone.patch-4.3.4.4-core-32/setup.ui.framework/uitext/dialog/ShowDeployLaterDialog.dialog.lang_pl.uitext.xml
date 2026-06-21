@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Title" value="Wdrażanie aplikacji internetowej"/>
+<string id="Subtitle" value="Później wdróż zawartość internetową"/>
+<string id="DeploylaterDescription" value="Znaleziono domyślny serwer aplikacji internetowych Java Tomcat. Czy chcesz wdrożyć aplikacje internetowe teraz, czy później?"/>
+<string id="TxtDeployLater" value="Później wdróż aplikacje internetowe."/>
+<string id="TxtDeployNow" value="Teraz wdróż aplikacje internetowe."/>
+<string id="Footer" value="Naciśnij klawisz []Tab], []Strzałka w górę] lub []Strzałka w dół], aby wybrać, klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby kontynuować."/>
+</context>
+</uitext>

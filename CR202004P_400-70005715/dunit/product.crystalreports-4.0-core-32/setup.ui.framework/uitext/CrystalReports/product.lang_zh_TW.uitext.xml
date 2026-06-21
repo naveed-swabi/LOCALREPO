@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="建立和修改格式化資料報表 (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC 資料來源管理員"/>
+<string id="product.shortcutODBC.description" value="新增、移除和設定開放式資料庫連接 (ODBC) 資料來源與驅動程式。"/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32 位元資料來源管理員"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\報表上傳精靈"/>
+<string id="product.shortcutWizard.description" value="報表上傳精靈"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB 資料 (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="支援標準 OLE DB 提供者。"/>
+<string id="feature.Comm_Rep.name" value="儲存機制中命令"/>
+<string id="feature.Comm_Rep.description" value="提供與儲存機制中命令的連線能力。"/>
+<string id="feature.DiskFile.name" value="Disk File Destination"/>
+<string id="feature.DiskFile.description" value="支援匯出至檔案。"/>
+<string id="feature.NTEventLog.name" value="NT Event Log"/>
+<string id="feature.NTEventLog.description" value="支援 NT 事件記錄檔。"/>
+<string id="feature.MyCube.name" value="OLAP Cube"/>
+<string id="feature.MyCube.description" value="支援 #product.boe64_name# OLAP 多維資料集。"/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="提供與 Progress OpenEdge 的連線能力。"/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration for Oracle E-Business Suite。"/>
+<string id="feature.FieldDefinitions.name" value="Field Definitions"/>
+<string id="feature.FieldDefinitions.description" value="支援使用文字結構描述設計報表。"/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="支援 Lotus Domino 資料庫。您必須先安裝 Lotus Notes 用戶端。"/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects Integration for JD Edwards EnterpriseOne。"/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003) Format"/>
+<string id="feature.WordforWindows.description" value="支援匯出至 Microsoft Word (97-2003) 格式 (*.doc)。"/>
+<string id="feature.SFORCE.name" value="Salesforce.com Driver"/>
+<string id="feature.SFORCE.description" value="提供將 #productname# 連線至您的 Salesforce.com CRM 資料並建置進階報表的功能。"/>
+<string id="feature.PDF.name" value="PDF Format"/>
+<string id="feature.PDF.description" value="支援匯出至 PDF 格式 (*.pdf)。"/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003) Format"/>
+<string id="feature.Excel.description" value="支援匯出至 Microsoft Excel 97-2003 格式 (*.xls)。"/>
+<string id="feature.CharacterSeparated.name" value="Character Separated Format"/>
+<string id="feature.CharacterSeparated.description" value="支援匯出至字元分隔格式 (*.csv)。"/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="支援使用原生用戶端的 Sybase 資料庫。您必須先安裝 Sybase 用戶端。"/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="支援 Informix 資料庫。您必須先安裝 Informix 用戶端。"/>
+<string id="feature.DataAccess.name" value="Data Access"/>
+<string id="feature.DataAccess.description" value="資料存取元件是用於將 #product.crw_name# 連線至資料庫。"/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="提供與 ODBC RDO 的連線能力"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="安裝 Crystal Reports Designer 應用程式"/>
+<string id="feature.XML.name" value="XML 和 Web 服務"/>
+<string id="feature.XML.description" value="支援 XML 資料。"/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="支援 ACT! 資料庫。"/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="提供與 MySQL 資料庫的連線能力。"/>
+<string id="feature.COMData.name" value="COM Data Provider"/>
+<string id="feature.COMData.description" value="支援由 COM 物件公開的資料。"/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="匯出至 Lotus Domino"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="ADO.NET 的資料存取。"/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="支援 Exchange Server 資料，例如 Exchange 資料夾、記錄檔和通訊錄。"/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="支援 IBM DB2 資料庫。您必須先安裝 DB2 用戶端。"/>
+<string id="feature.Universe.name" value="BusinessObjects Universe"/>
+<string id="feature.Universe.description" value="支援 Business Objects 語意層。"/>
+<string id="feature.ReportDefinition.name" value="Report Definition Format"/>
+<string id="feature.ReportDefinition.description" value="支援匯出至報表定義格式。"/>
+<string id="feature.ExchangeFolders.name" value="Microsoft Exchange Public Folders Destination"/>
+<string id="feature.ExchangeFolders.description" value="支援匯出至 Exchange 資料夾。"/>
+<string id="feature.ODBC.name" value="ODBC Data Source Format"/>
+<string id="feature.ODBC.description" value="支援匯出至任何您已安裝的 ODBC 格式。"/>
+<string id="feature.DataDirectODBC.description" value="更名的 #productname# DataDirect ODBC 驅動程式"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="更名的 #productname# 選擇性 DataDirect ODBC 驅動程式"/>
+<string id="feature.OptionalDataDirectODBC.name" value="選擇性 DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="XML Export"/>
+<string id="feature.XMLExport.description" value="支援匯出至 XML 文件。"/>
+<string id="feature.Export.name" value="Export Support"/>
+<string id="feature.Export.description" value="以不同的檔案格式發行完成的報表。"/>
+<string id="feature.PGEditor.name" value="Custom Charting"/>
+<string id="feature.PGEditor.description" value="用於擴充圖形格式設定的圖形繪製應用程式。"/>
+<string id="feature.Btrieve.name" value="Pervasive 資料庫驅動程式 (Btrieve)"/>
+<string id="feature.Btrieve.description" value="支援 Btrieve 資料檔案。您必須先安裝 Btrieve 用戶端。"/>
+<string id="feature.LegacyXMLExport.name" value="Legacy XML Export"/>
+<string id="feature.LegacyXMLExport.description" value="支援匯出至 XML 文件 (舊版 XML)。"/>
+<string id="feature.LotusNotes.name" value="Lotus Notes Destination"/>
+<string id="feature.LotusNotes.description" value="支援匯出至 Lotus Notes 文件。"/>
+<string id="feature.CDO.name" value="Crystal Data Objects"/>
+<string id="feature.CDO.description" value="支援報告儲存在記憶體陣列的資料。"/>
+<string id="feature.WebActivityLog.name" value="Web/IIS 活動記錄檔"/>
+<string id="feature.WebActivityLog.description" value="支援 Web 伺服器活動記錄檔。"/>
+<string id="feature.Text.name" value="Text Format"/>
+<string id="feature.Text.description" value="支援匯出至文字格式 (*.txt)。"/>
+<string id="feature.BDE.name" value="IDAPI Database DLL"/>
+<string id="feature.BDE.description" value="支援 dBASE 及 Paradox 檔案。您必須先安裝 Borland 資料庫引擎。"/>
+<string id="feature.CrystalReports.name" value="#productname# 格式"/>
+<string id="feature.CrystalReports.description" value="支援匯出至 #productname# 格式 (*.rpt)。"/>
+<string id="feature.RichTextFormat.name" value="RTF 文字格式"/>
+<string id="feature.RichTextFormat.description" value="支援匯出至 RTF 文字格式 (*.rtf)。"/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="支援 Microsoft Access 資料庫。"/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="支援 Outlook 資料。"/>
+<string id="feature.FileSystem.name" value="File System"/>
+<string id="feature.FileSystem.description" value="支援檔案系統資料。"/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects Integration for Peoplesoft Enterprise。"/>
+<string id="feature.JavaData.name" value="Java Beans 連線能力"/>
+<string id="feature.JavaData.description" value="支援由 Java 類別公開的資料。"/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="提供與 Teradata 資料庫的連線能力。"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects Integration for SAP 解決方案。"/>
+<string id="feature.Record.name" value="Record Format (columns of values)"/>
+<string id="feature.Record.description" value="支援匯出至資料錄樣式格式 (*.rec)。"/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="提供與 NETEZZA 的連線能力。"/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects Integration for Siebel。"/>
+<string id="feature.Mapping.name" value="Geographic Mapping"/>
+<string id="feature.Mapping.description" value="顯示資料與地理區域的關係。"/>
+<string id="feature.Application.name" value="Application Destination"/>
+<string id="feature.Application.description" value="支援匯出至應用程式。"/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="支援 dBASE 資料庫。"/>
+<string id="feature.HTML.name" value="HTML Format"/>
+<string id="feature.HTML.description" value="支援匯出至 HTML 3.2 及 HTML 4.0 (DHTML) 格式 (*.html)。"/>
+<string id="feature.DataSet.name" value="Dataset Consumer"/>
+<string id="feature.DataSet.description" value="支援報表應用程式伺服器 ISCRDataSet 物件。"/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="HP Neoview 支援。"/>
+<string id="feature.JDBC.name" value="JDBC (JNDI) 資料驅動程式"/>
+<string id="feature.JDBC.description" value="支援 JDBC (JNDI) 資料。"/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="支援 Oracle 表格。您必須先安裝 Oracle 用戶端。"/>
+<string id="feature.MicrosoftMail.name" value="Microsoft Mail Destination"/>
+<string id="feature.MicrosoftMail.description" value="Microsoft Mail Destination"/>
+<string id="feature.UploadWizard.name" value="報表上傳精靈"/>
+<string id="feature.UploadWizard.description" value="報表上傳精靈。"/>
+<string id="feature.UWSC.name" value="通用 Web 服務連接器 (UWSC)"/>
+<string id="feature.UWSC.description" value="提供與 UWSC 的連線能力。"/>
+<string id="feature.IntegrationOptions.name" value="Integration Options"/>
+<string id="feature.IntegrationOptions.description" value="整合選項元件用於將 #product.crw_name# 連線至其他企業系統。"/>
+<string id="property.InstallType.description" value="安裝類型: 預設或自訂"/>
+<string id="prereq.AdminPrivilegePreReqText" value="管理權限"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="請使用具備管理權限的使用者帳戶。INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64 位元作業系統"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="此產品必須安裝於 64 位元作業系統 (OS)。請確認您的 OS 符合此需求。(INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# 安裝"/>
+</context>
+</uitext>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Title" value="Web-sovelluksen käyttöönotto"/>
+<string id="Subtitle" value="Ota web-sisältö käyttöön myöhemmin"/>
+<string id="DeploylaterDescription" value="Oletusarvoinen Tomcat Java -web-sovelluspalvelin löytyi. Haluatko ottaa web-sovellukset käyttöön nyt vai myöhemmin? "/>
+<string id="TxtDeployLater" value="Ota web-sovellukset käyttöön myöhemmin."/>
+<string id="TxtDeployNow" value="Ota web-sovellukset käyttöön nyt."/>
+<string id="Footer" value="Valitse kohde []Sarkain]-, []Ylänuoli]- tai []Alanuoli]-näppäimillä, palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+</context>
+</uitext>

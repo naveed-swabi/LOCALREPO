@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="開始安裝"/>
+<string id="ShowInstallSummarySubtitle" value="#product.fullproductnamenospace# 的安裝已準備就緒。按一下 [上一步] 變更安裝資訊。\n\n按一下 [下一步] 開始安裝。"/>
+<string id="ShowInstallSummaryUnixDescription" value="您準備好要使用 #product.fullproductnamenospace# 安裝精靈開始進行安裝了嗎?"/>
+<string id="ShowInstallSummaryFooter" value="按 []Ctrl-B] 返回，按 []Ctrl-X] 結束，或按 []Enter] 進行安裝。"/>
+<string id="DiskCost" value="佔用的磁碟空間"/>
+<string id="Drive Select" value="您正選取"/>
+<string id="Disk Costing" value="計算佔用的磁碟空間"/>
+<string id="Volume" value="磁碟區"/>
+<string id="Disk Size" value="磁碟大小"/>
+<string id="Available" value="可用"/>
+<string id="Required" value="必要"/>
+<string id="Difference" value="差異"/>
+<string id="Ok" value="確定"/>
+<string id="Retry" value="重試"/>
+<string id="Cancel" value="取消"/>
+<string id="ShowCacheSummaryTitle" value="階段性安裝"/>
+<string id="ShowCacheSummarySubtitle" value="開始快取"/>
+<string id="ShowCacheSummaryDescription" value="快取為將軟體複製到安裝目錄的程序。快取期間不會出現系統停機，而您可繼續在系統上作業。"/>
+<string id="Invalid_DiskSpace" value="您沒有足夠的空間可安裝產品。請釋放磁碟空間或選取不同的安裝位置。可用空間: [AvailableSpace] MB。需要空間: [RequiredSpace] MB。"/>
+<string id="Resume_Description" value="在快取後的安裝期間，會在系統上安裝軟體，並會發生系統停機。"/>
+<string id="ShowResumetitle" value="階段性安裝"/>
+<string id="ShowResumeSubtitle" value="繼續安裝"/>
+<string id="ShowResumeFooter" value="按 []Ctrl-B] 返回、按 []Ctrl-X] 結束，或按 []Enter] 進行安裝。"/>
+<string id="MessageCache" value="按一下 [下一步] 以開始快取階段。"/>
+<string id="MessageResume" value="按一下 [下一步] 以開始安裝。"/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ChooseDestination" value="Specificaţi un folder de destinaţie"/>
+<string id="SpecifyDestination" value="Folderul de destinaţie este locul în care produsul va fi instalat. Efectuaţi click pe Navigare pt.a selecta alt loc."/>
+<string id="DestinationFolder" value="Folder de destinaţie"/>
+<string id="Browse" value="Navigare"/>
+<string id="BrowseInstallDirectory" value="Alegeţi locul de instalare"/>
+<string id="PWClientFolderTitle" value="Folder de destinaţie client"/>
+<string id="PWServerFolderTitle" value="Folder de destinaţie server"/>
+<string id="Invalid_InstallDirWindows" value="Director de instalare nevalabil. Utilizaţi o cale absolută valabilă care conţine doar caractere alfanumerice sau oricare dintre următoarele caractere: _ - \ . ( ). Directorul trebuie să fie amplasat pe o unitată fixă şi calea completă trebuie să aibă o lungime maximă de 150 caractere. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Director de instalare nevalabil. Utilizaţi o cale absolută valabilă pt. care aveţi permisiuni de citire, scriere şi execuţie. INS00029"/>
+</context>
+</uitext>

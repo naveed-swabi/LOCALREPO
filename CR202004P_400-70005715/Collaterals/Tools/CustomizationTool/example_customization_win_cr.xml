@@ -1,0 +1,86 @@
+<oem name="CustomCompanyCrystalReports">
+	<cloneProduct sourceId="product.crystalreports-4.0-core-32">
+	
+		<!-- Remove Geographic Mapping. Removing features will also automatically remove all associated dialogs, properties, and prereqs-->
+		<removeFeature id="Mapping"/>
+	
+		<!-- Remove ProductKey dialog and set default product key -->
+		<removeDialog id="CREnterProductKey.dialog"/>
+		<replaceProperty id="ProductKey" defaultValue="PLEASE SET"/>
+		
+		
+        <!-- specify the default install directory name -->
+        <replaceProperty id="InstallDir" defaultValue="c:\MyInstallDIR\CustomCompanyCrystalReports"/> 
+
+		
+        <!-- Languages to keep in the OEM package, all other language packs will be removed -->
+        <languageIncludeList value="en;fr;de"/>
+            
+			
+        <!-- specifies the path to the resource folder which to use to replace content in the product resource, if we want to delete the target folder first set cleanTarget="yes" -->
+        <resources cleanTarget="no" sourcePath="C:\MyResources"/>
+
+		
+        <!-- specifies the path to the Collaterals folder which to use to replace content in the packagages Collaterals, if we want to delete the target Collaterals folder first set cleanTarget="yes" -->
+        <collaterals cleanTarget="yes" sourcePath="C:\MyCollaterals"/>                
+
+		
+		<!-- Update the productname in each language.  Rebrands the UI dialog title, and default shortcut menu folder. -->
+		<!-- lang attribute can be langcode, "all" or csv "en;fr;ja" -->
+        <replaceString id="product.cr_name" value="Custom Company Crystal Reports" lang="all"/>
+		<replaceString id="product.cr_shortname" value="Custom Company CR" lang="all"/>
+               
+
+		<!-- Create Custom Windows Add/Remove Programs entry with new display name, publisher, and icon -->		
+		<arp duSourceId="product.crystalreports.arp-4.0-core">             
+            <arg id="publisher" value="Custom Company"/>
+            <arg id="display_name" value="Custom Company Crystal Reports Patch 1" lang="en;fr"/>
+			<arg id="display_name" value="Custom Company Crystal Reports Patch 1 (German)" lang="de"/>
+        </arp>
+		
+		
+		<!-- Create a new crystal reports shortcut in the startmenu by specifying where you want it with the fullLinkPath argument, set it's tooltip description with the description argument -->					
+        <shortcut duSourceId="product.crystalreports.shortcut.crw-4.0-core">                   
+			<arg id="linkFullPath" value="[programmenufolder]\Company Programs\Custom Company CR.lnk" lang="en;fr"/>
+            <arg id="linkFullPath" value="[programmenufolder]\Company Programs\Custom Company CR(German).lnk" lang="de"/>
+			<arg id="description" value="Crystal Reports" lang="en;fr"/> 
+            <arg id="description" value="Crystal Reports (German)" lang="de" />
+        </shortcut>
+		
+	</cloneProduct>
+
+	
+	
+	
+	<!-- Using the clone Patch product allows you to run the oem tool with the same oem.xml on future patches to create compatible oem patches -->
+	<clonePatchProduct sourceId="product.cr.patch-4.0.3.0-core-32">
+	
+		<!-- Removes the installer Welcome dialog -->
+		<removeDialog id="ShowWelcomeScreen.dialog"/>
+	
+	
+		<!-- Update the productname in each language.  Rebrands the UI dialog title, and default shortcut menu folder. -->
+		<!-- lang attribute can be langcode, "all" or csv "en;fr;ja" -->
+        <replaceString id="product.cr_name" value="Custom Company Crystal Reports" lang="all"/>
+		<replaceString id="product.cr_shortname" value="Custom Company CR" lang="all"/>
+	
+	
+		<!-- specifies the path to the Collaterals folder which to use to replace content in the patch Collaterals, if we want to delete the target Collaterals folder first set clean="yes" -->
+		<collaterals cleanTarget="yes" sourcePath="C:\MyCollaterals"/>                
+		
+		
+		<!-- specifies the path to the resource folder which to use to replace content in the patch resources, if we want to delete the target folder first set clean="yes" -->
+		<resources cleanTarget="no" sourcePath="C:\MyResources"/>
+		
+		
+		<!-- Create Custom Windows Add/Remove Programs entry for the patch with new display name, publisher, and icon -->
+        <arp duSourceId="product.cr.patch.arp-4.0.3.0-core">                   
+            <arg id="publisher" value="Custom Company"/>
+            <arg id="display_name" value="Custom Company Crystal Reports Patch 1" lang="en;fr"/>
+			<arg id="display_name" value="Custom Company Crystal Reports Patch 1 (German)" lang="de"/>
+        </arp>
+		
+	</clonePatchProduct>
+	
+	
+</oem>

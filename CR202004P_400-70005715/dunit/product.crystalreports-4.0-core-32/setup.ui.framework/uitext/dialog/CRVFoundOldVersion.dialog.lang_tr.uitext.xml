@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="DlgTitle" value="Ürün Yükseltme"/>
+<string id="DlgSummary" value="Bu ürünün başka bir versiyonu algılandı."/>
+<string id="ProceedOrNot" value="Crystal Reports Viewer'ın başka bir versiyonu algılandı. Bu yüklemeye devam ederseniz, versiyon Crystal Reports Viewer 2010'a yükseltilecek. Devam etmek istiyorsanız İleri'yi tıklayın. Bu yüklemeyi iptal etmek istiyorsanız, yüklemeden çıkmak için İptal'i tıklayın."/>
+</context>
+</uitext>

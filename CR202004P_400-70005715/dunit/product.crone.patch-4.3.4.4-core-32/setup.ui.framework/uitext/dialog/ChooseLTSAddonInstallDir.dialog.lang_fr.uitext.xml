@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Configurer le dossier de destination"/>
+<string id="ChooseInstallDirSubtitle" value="Entrez le chemin de destination complet où sera installé le produit."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Entrez le chemin de destination complet où sera installé le produit."/>
+<string id="DestinationFolderGroupBox" value="Informations sur le dossier de destination"/>
+<string id="DestinationFolder" value="Dossier de destination :"/>
+<string id="Browse" value="Parcourir"/>
+<string id="BrowseInstallDirectory" value="Sélectionnez un emplacement d'installation."/>
+<string id="DirGenericError" value="Le dossier de destination n'est pas valide. Sélectionnez-en un autre. INS00029"/>
+<string id="DirNetworkError" value="Le dossier de destination ne peut pas être un emplacement réseau. Choisissez un autre emplacement."/>
+<string id="DirEmptyError" value="Vous devez sélectionner un dossier de destination. INS00029"/>
+<string id="DirAbsolutePathError" value="Le dossier de destination doit représenter un chemin d'accès complet. INS00029"/>
+<string id="DirInvalidCharWinError" value="Le dossier de destination ne peut contenir que des nombres, des lettres ou les caractères suivants : _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Le chemin d'accès au dossier de destination est trop long. Veuillez utiliser un chemin contenant moins de 150 caractères. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Le dossier de destination contient un produit incompatible. Choisissez un autre emplacement. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Répertoire d'installation non valide. Veuillez utiliser un chemin d'accès absolu contenant uniquement des caractères alphanumériques ou l'un des caractères suivants : _ - \ . ( ). Le répertoire doit figurer sur un lecteur fixe et le chemin d'accès complet ne peut pas contenir plus de 150 caractères. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Répertoire d'installation non valide. Veuillez utiliser un chemin d'accès absolu valide pour lequel vous disposez également des droits de lecture, d'écriture et d'exécution. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Le répertoire d'installation ne peut pas contenir d'espace."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Les caractères suivants ne sont pas autorisés dans le répertoire d'installation  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Appuyez sur la touche []Tabulation] pour renseigner automatiquement les éléments du répertoire, []Ctrl-X] pour quitter ou []Entrée] pour continuer."/>
+</context>
+</uitext>

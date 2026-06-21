@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Okänt värde angivet för ChooseUpgrade, giltiga värden är: 0 or 1"/>
+<string id="ChooseUpgrade" value="Tidigare version av #productname# har identifierats"/>
+<string id="SelectUpgrade" value="Välj om en uppgraderingsinstallation ska utföras."/>
+<string id="SideBySide" value="Utför parallell installation"/>
+<string id="SideBySideDescription" value="Installerar denna version av #productname# tillsammans med den aktuellt installerade versionen."/>
+<string id="SimpleUpgrade" value="Utför enkel uppgradering"/>
+<string id="SimpleUpgradeDescription" value="En tidigare version av #productname# har upptäckts. Du måste avinstallera den tidigare versionen innan du fortsätter eller välja detta alternativ för att utföra en uppgradering på plats."/>
+<string id="Invalid_ChooseUpgrade" value="Ogiltigt värde för ChooseUpgrade ([ChooseUpgrade]): det kan endast vara 0 eller 1"/>
+</context>
+</uitext>

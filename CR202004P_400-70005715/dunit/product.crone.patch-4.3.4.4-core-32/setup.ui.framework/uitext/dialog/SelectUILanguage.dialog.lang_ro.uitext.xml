@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="SelectedInvalidLocale" value="Aţi introdus setări regionale nesuportate."/>
+<string id="SetupLanguageTitle" value="Selectaţi Limbă instalator"/>
+<string id="SetupLanguageSubtitle" value="Selectaţi limba de configurare."/>
+<string id="SetupLanguageUnixSubtitle" value="Selectaţi limba de configurare."/>
+<string id="CreateLogFile" value="Creare fişier jurnal la instalare"/>
+<string id="Invalid_SetupLanguage" value="Limbă de configurare nevalabilă ([SetupUILanguage]): trebuie să fie una dintre '[$available.ui.langs]'. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="IsEnableSetupLog ([IsEnableSetupLog]) nevalabil: poate fi doar 0 sau 1."/>
+<string id="SelectUILanguageFooter" value="Apăsaţi []Tab], []Up] sau []Down] pt. a selecta, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+</context>
+</uitext>

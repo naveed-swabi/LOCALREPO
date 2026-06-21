@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="Actualizare #product.fullproductnamenospace#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="Actualizare #product.fullproductnamenospace#"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# instalat"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="Această actualizare este pt. #productname#, care nu a fost detectată în sistem. Mai întâi instalaţi-l pt. ca această instalare să continue."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="Niciun patch pt.o versiune mai nouă"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="Un patch cu o versiune mai recentă decât acest pachet a fost detectat în sistem. Nicio actualizare din acest pachet nu va fi aplicabilă. Nu vă recomandăm să continuaţi."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="Versiune pachet suport la [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="Versiunea support package a produsului trebuie să fie la [CurrentSupportPackage] pt. ca această actualizare să continue. Upgradaţi sistemul existent sau aplicaţi actualizarea adecvată."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="Versiune minoră la [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="Versiunea minoră a produsului trebuie să fie la [CurrentMinorVersion] pt. ca această actualizare să continue. Upgradaţi sistemul existent sau aplicaţi actualizarea adecvată."/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Creează şi modifică rapoarte de date formatate (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\Administrator sursă de date ODBC"/>
+<string id="product.shortcutODBC.description" value="Adaugă, elimină şi configurează surse de date şi drivere Open Database Connectivity (ODBC)."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\Administrator sursă de date 32 biţi"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Asistent pt.încărcare rapoarte"/>
+<string id="product.shortcutWizard.description" value="Asistent pt.încărcare rapoarte"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="Versiunea nouă de driver DataDirect 7.1.5 este instalată. Pt. migrare la versiunea nouă de driver DataDirect, consultaţi documentaţia."/>
+</context>
+</uitext>

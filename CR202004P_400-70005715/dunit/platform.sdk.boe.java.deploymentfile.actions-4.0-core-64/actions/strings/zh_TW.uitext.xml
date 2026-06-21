@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="progress.UpdateRepository" value="正在更新儲存機制"/>
+<string id="progress.SetHyperLink" value="正在進行系統設定"/>
+</context>
+</uitext>

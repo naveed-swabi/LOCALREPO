@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="Title" value="Selecionar modo de instalação"/>
+<string id="SubTitle" value="Selecionar o modo de instalação"/>
+<string id="Standard_InstallationName" value="Instalação padrão"/>
+<string id="Standard_InstallationText" value="A instalação é realizada em fase única"/>
+<string id="PhaseWise_InstallationName" value="Instalação em fases"/>
+<string id="PhaseWise_InstallationText" value="A instalação é executada em duas fases: &quot;Armazenamento em cache&quot; e &quot;Instalação após armazenamento em cache&quot;. Durante o armazenamento em cache, o sistema permanece ativo e você pode trabalhar nele. Durante a instalação após o armazenamento em cache, o software é instalado no sistema com algum tempo de inatividade."/>
+<string id="CachingCompletedSubTitle" value="Armazenamento em cache concluído"/>
+<string id="Resume_InstallationSubTitle" value="Continuar instalação após armazenamento em cache. A Instalação após armazenamento em cache é o processo de instalação real, no qual há tempo de espera do sistema."/>
+<string id="ShowWayOfInstallFooter" value="Pressione []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para instalar."/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="PreviousVersionDetected" value="Önceki #product.nameonly# Versiyonu Algılandı"/>
+<string id="PreviousVersionDetectedSub" value="Yükseltme veya Yan Yana yükleme gerçekleştirmek isteyip istemediğinizi seçin"/>
+<string id="UpgradeInstallBtn" value="Yükseltme Yüklemesi Gerçekleştir"/>
+<string id="SideBySideInstallBtn" value="Yan Yana Yükleme Gerçekleştir"/>
+<string id="UpgradeInstallMsg" value="Şu anda yüklü #product.nameonly# versiyonunu bu versiyonla değiştir"/>
+<string id="SideBySideInstallMsg" value="Bu #product.nameonly# versiyonunu şu anda yüklü versiyonla birlikte yükler"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Geçersiz Yükleme Modu ([InstallCompatibilityMode]): Yükseltme veya yan yana yükleme olması gerekir"/>
+</context>
+</uitext>

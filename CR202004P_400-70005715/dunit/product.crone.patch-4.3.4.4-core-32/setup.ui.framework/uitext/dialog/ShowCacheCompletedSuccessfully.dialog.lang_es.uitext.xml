@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="Title" value="Instalación por etapas"/>
+<string id="SubTitle" value="Almacenamiento en caché finalizado"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Pulse [Intro] para salir de la instalación por etapas"/>
+<string id="Description" value="Para continuar la instalación después del almacenamiento en caché, ejecute de nuevo el archivo de instalación. Durante la fase de instalación después del almacenamiento en caché se produce un poco de tiempo de inactividad en el sistema. Puede realizar esta fase de la instalación cuando disponga de tiempo para mantenimiento."/>
+<string id="FinishMessage" value="Haga clic en Finalizar para salir de la instalación por etapas."/>
+<string id="Finish" value="Finalizar"/>
+</context>
+</uitext>

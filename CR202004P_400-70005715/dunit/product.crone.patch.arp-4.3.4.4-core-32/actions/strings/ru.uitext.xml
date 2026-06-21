@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uitext>
+  <language langcode="ru"/>
+  <context>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="productname" value="#product.cr_name#"/>
+    <string id="DialogCaption" value="Обновление #product.fullproductnamenospace#"/>
+    <string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+    <string id="productname_language" value="#product_language#"/>
+    <string id="productname_version" value="#product_cr_version#"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language#,#productname_patch_prespace#"/>
+  </context>
+</uitext>

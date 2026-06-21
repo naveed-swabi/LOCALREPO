@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Java Application Name" keypath="yes" type="string">pseoneqryxml.jar</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="ORB Client Configuration File" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="ORB Server Configuration File" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Path Load" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Query Server Path" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Path Temp" type="string">[TempFolder]</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Path Log" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Path JVM Library" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Path Java Class" type="string">[INSTALLDIR]\SAP BusinessObjects Enterprise XI 4.0\java\lib\</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Query Server Type" type="string">JDXmlServer</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Query SQL" type="string">0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="Query Server Log Mode" type="string">0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="UDC Size" type="string">0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="XML Fetch Size" type="string">300</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="XML Request Timeout" type="string">180000</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY">
+    <registryValue name="XML Session Idle" type="string">1800</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="Query Server Log File" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="Query Server IOR Port" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="PeopleSoft EnterpriseOne Server Host" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="PeopleSoft EnterpriseOne Server Port" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="PeopleSoft EnterpriseOne User ID" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="PeopleSoft EnterpriseOne User Password" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="CommunicationProtocol" type="string"/>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Integration Kit for PeopleSoft EnterpriseOne\QRY\Instances\noname">
+    <registryValue name="SSL Configuration File" type="string"/>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.dataaccess">
+    <file name="crdb_pseone.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="863744"/>
+    <file name="crpseoneqryserver.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="240128"/>
+    <file name="crpseoneqrybridge.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="708608"/>
+  </sourcedir>
+</assembly>

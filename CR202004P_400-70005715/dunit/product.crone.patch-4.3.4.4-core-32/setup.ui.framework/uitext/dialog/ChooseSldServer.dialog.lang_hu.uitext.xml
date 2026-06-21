@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ChooseSldServerLocation" value="Válassza ki az SLD-szerver helyét"/>
+<string id="SpecifySldServerLocation" value="Adja meg az SLD-szerver helyét"/>
+<string id="SldHostnameExample" value="Adja meg az SLD-szerver címét (pl.: http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Adja meg a bejelentkezési adatokat."/>
+<string id="SldHostname" value="Állomásnév"/>
+<string id="SldPort" value="Port"/>
+<string id="SldUsername" value="Felhasználónév"/>
+<string id="SldPassword" value="Jelszó"/>
+</context>
+</uitext>

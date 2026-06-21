@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Components\ActiveXViewer">
+    <registryValue name="ActiveXPluginType" type="string">application/x-crreportviewer-plugin;version=14.0.0.0</registryValue>
+    <registryValue name="Directory" type="string">[INSTALLDIR]Crystal Reports\crystalreportviewers</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="CRViewer.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="2261504"/>
+    <file name="crviewer.dep" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="860"/>
+    <file name="CSelExpt.ocx" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="226304"/>
+    <file name="sviewhlp.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="504832"/>
+    <file name="swebrs.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="815104"/>
+    <file name="LCIDTable.xml" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="3365"/>
+  </sourcedir>
+</assembly>

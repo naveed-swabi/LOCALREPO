@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Rozpoczynanie instalacji"/>
+<string id="ShowInstallSummarySubtitle" value="Instalator jest gotowy do zainstalowania programu #product.fullproductnamenospace#. Kliknij przycisk Wstecz, aby wprowadzić zmiany w informacjach o instalacji.\n\nKliknij przycisk Dalej, aby rozpocząć instalację."/>
+<string id="ShowInstallSummaryUnixDescription" value="Czy rozpocząć instalację programu #product.fullproductnamenospace#?"/>
+<string id="ShowInstallSummaryFooter" value="Naciśnij klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby zainstalować."/>
+<string id="DiskCost" value="Koszt dysku"/>
+<string id="Drive Select" value="Wybierasz"/>
+<string id="Disk Costing" value="Określanie ilości miejsca na dysku"/>
+<string id="Volume" value="Wolumin"/>
+<string id="Disk Size" value="Rozmiar dysku"/>
+<string id="Available" value="Dostępne"/>
+<string id="Required" value="Wymagane"/>
+<string id="Difference" value="Różnica"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Ponów próbę"/>
+<string id="Cancel" value="Anuluj"/>
+<string id="ShowCacheSummaryTitle" value="Instalacja fazowa"/>
+<string id="ShowCacheSummarySubtitle" value="Rozpocznij buforowanie"/>
+<string id="ShowCacheSummaryDescription" value="Buforowanie jest procesem kopiowania oprogramowania do katalogu instalacyjnego. Podczas buforowania nie ma przestoju systemu i można kontynuować pracę z systemem."/>
+<string id="Invalid_DiskSpace" value="Nie masz wystarczającej ilości miejsca do zainstalowania produktu. Zwolnij miejsce na dysku lub wybierz inną lokalizację instalacji. Dostępne miejsce: [AvailableSpace] MB. Wymagane miejsce: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Podczas instalacji po buforowaniu, gdy oprogramowanie jest instalowane w systemie, występuje przestój systemu."/>
+<string id="ShowResumetitle" value="Instalacja fazowa"/>
+<string id="ShowResumeSubtitle" value="Wznów instalację"/>
+<string id="ShowResumeFooter" value="Naciśnij klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby zainstalować."/>
+<string id="MessageCache" value="Kliknij przycisk Dalej, aby rozpocząć fazę buforowania."/>
+<string id="MessageResume" value="Kliknij przycisk Dalej, aby rozpocząć instalację."/>
+</context>
+</uitext>

@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers">
+    <file name="allStrings_iw.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="41504"/>
+    <file name="allInOne.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="703296"/>
+    <file name="api-min.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="26842"/>
+    <file name="crsmarttag.asp" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="3129"/>
+    <file name="crsmarttag.jsp" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="2995"/>
+    <file name="crystalimagehandler.asp" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="328"/>
+    <file name="imagehandlerdotnetbridge.aspx" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="296"/>
+    <file name="parameterUIController-compressed.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="48653"/>
+    <file name="preview.aspx" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="6401"/>
+    <file name="preview.jsp" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="4488"/>
+    <file name="processindicator.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="107715"/>
+    <file name="promptengine-compressed.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="56207"/>
+    <file name="ViewerSeed.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers" size="5215"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/log4javascript">
+    <file name="log4javascript.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/log4javascript" size="128686"/>
+    <file name="log4javascript_lite.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/log4javascript" size="11443"/>
+    <file name="log4javascript_lite_uncompressed.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/log4javascript" size="16378"/>
+    <file name="log4javascript_production.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/log4javascript" size="47884"/>
+    <file name="log4javascript_production_uncompressed.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/log4javascript" size="69368"/>
+    <file name="log4javascript_uncompressed.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/log4javascript" size="190289"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/images">
+    <file name="buttonl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images" size="351"/>
+    <file name="buttonm.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images" size="168"/>
+    <file name="buttonr.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images" size="350"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/urlreporting">
+    <file name="activexviewer.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/urlreporting" size="3982"/>
+    <file name="appletviewer.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/urlreporting" size="6047"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js">
+    <file name="calendar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="21923"/>
+    <file name="calendar_param.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="22694"/>
+    <file name="crviewerinclude.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="4905"/>
+    <file name="dt_param.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="10601"/>
+    <file name="KeyDownEvent.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="1391"/>
+    <file name="ParameterBridge.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="21110"/>
+    <file name="previewerror.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="1290"/>
+    <file name="prompts.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="12473"/>
+    <file name="prompts_param.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="60580"/>
+    <file name="wrapperFooter.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="193"/>
+    <file name="wrapperHeader.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js" size="226"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/prompting/images">
+    <file name="addallfield.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="453"/>
+    <file name="addallfield_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="682"/>
+    <file name="addallfield_over_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1074"/>
+    <file name="addallfield_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1053"/>
+    <file name="addfield.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="452"/>
+    <file name="addfield_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="677"/>
+    <file name="addfield_over_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1069"/>
+    <file name="addfield_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1053"/>
+    <file name="back.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1053"/>
+    <file name="background_field.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="813"/>
+    <file name="back_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1069"/>
+    <file name="button.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1344"/>
+    <file name="button_left_normal.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="351"/>
+    <file name="button_middle_normal.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="162"/>
+    <file name="button_right_normal.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="350"/>
+    <file name="calendar.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="129"/>
+    <file name="cfilter.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="686"/>
+    <file name="cfilter_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="688"/>
+    <file name="dialogelements.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="171"/>
+    <file name="dialogtitle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="818"/>
+    <file name="error.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1482"/>
+    <file name="errormsg.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="560"/>
+    <file name="filter.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="698"/>
+    <file name="filter_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="695"/>
+    <file name="forward.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="452"/>
+    <file name="forward_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="677"/>
+    <file name="info.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1501"/>
+    <file name="infomsg.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="551"/>
+    <file name="minus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="100"/>
+    <file name="next.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="452"/>
+    <file name="next_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="463"/>
+    <file name="next_over_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="467"/>
+    <file name="next_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="447"/>
+    <file name="plus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="109"/>
+    <file name="prev.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="447"/>
+    <file name="prev_over.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="467"/>
+    <file name="prev_over_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="463"/>
+    <file name="prev_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="452"/>
+    <file name="resize.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="857"/>
+    <file name="transp.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="85"/>
+    <file name="warning.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="1538"/>
+    <file name="warningmsg.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/images" size="314"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/images/takeaction">
+    <file name="action_oncanvas_hover.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/takeaction" size="625"/>
+    <file name="action_oncanvas_normal.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/takeaction" size="387"/>
+    <file name="action_oncanvas_press.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/takeaction" size="419"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/dhtmllib/images">
+    <file name="borders.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="1869"/>
+    <file name="help.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="993"/>
+    <file name="loading.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="2673"/>
+    <file name="lov.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="1324"/>
+    <file name="min.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="896"/>
+    <file name="plus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="897"/>
+    <file name="print.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="1243"/>
+    <file name="print_fe.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="1250"/>
+    <file name="prompt.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="1066"/>
+    <file name="resizepattern.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="815"/>
+    <file name="swap.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="108"/>
+    <file name="transp.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="85"/>
+    <file name="tree.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images" size="948"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/dhtmllib">
+    <file name="calendar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="25388"/>
+    <file name="dialog.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="31107"/>
+    <file name="dom.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="134877"/>
+    <file name="empty.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="266"/>
+    <file name="lov.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="21492"/>
+    <file name="menu.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="73476"/>
+    <file name="palette.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="98897"/>
+    <file name="prompttree.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="8775"/>
+    <file name="psheet.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="114692"/>
+    <file name="separator.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="1222"/>
+    <file name="treeview.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="83861"/>
+    <file name="waitdialog.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib" size="7211"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/ui5prompting/utils">
+    <file name="DependencyManager.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="25529"/>
+    <file name="EditMask.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="7159"/>
+    <file name="Formatter.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="4264"/>
+    <file name="HTTPRequestHandler.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="4733"/>
+    <file name="ModelPathBuilder.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="1756"/>
+    <file name="PromptingEvent.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="2258"/>
+    <file name="ScrollSyncManager.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="3947"/>
+    <file name="UI5Polyfill.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/utils" size="3563"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/crviewer">
+    <file name="ActionListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="2378"/>
+    <file name="api.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="3595"/>
+    <file name="ArgumentNormalizer.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="4694"/>
+    <file name="AsyncTransporter.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="9523"/>
+    <file name="BaseListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="1372"/>
+    <file name="bobjcallback.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="1178"/>
+    <file name="ButtonList.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="7168"/>
+    <file name="Calendar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="20282"/>
+    <file name="CanvasListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="1316"/>
+    <file name="ColorPalette.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5693"/>
+    <file name="Colors.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="122"/>
+    <file name="common.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="26144"/>
+    <file name="crv.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="24046"/>
+    <file name="Dialogs.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="39799"/>
+    <file name="encoding.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="2092"/>
+    <file name="event.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="4048"/>
+    <file name="GroupTree.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="18642"/>
+    <file name="GroupTreeListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5711"/>
+    <file name="GroupTreeNode.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="7446"/>
+    <file name="html.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5795"/>
+    <file name="ImageSprites.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="2352"/>
+    <file name="initDhtmlLib.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="473"/>
+    <file name="IOAdapters.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="22518"/>
+    <file name="LeftPanel.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="14723"/>
+    <file name="OptionalParameterUI.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="1118"/>
+    <file name="OptionalParameterValueRow.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5087"/>
+    <file name="PanelHeader.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="3765"/>
+    <file name="PanelNavigator.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="4811"/>
+    <file name="PanelNavigatorItem.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="3691"/>
+    <file name="Parameter.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="15403"/>
+    <file name="ParameterController.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="48883"/>
+    <file name="ParameterDialog.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5732"/>
+    <file name="ParameterInfoRow.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="2403"/>
+    <file name="ParameterPanel.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="8302"/>
+    <file name="ParameterPanelToolbar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="3332"/>
+    <file name="ParameterUI.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="12597"/>
+    <file name="ParameterValueRow.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="17009"/>
+    <file name="PromptPage.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="9706"/>
+    <file name="PublicArtifacts.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="29"/>
+    <file name="RangeField.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="8109"/>
+    <file name="ReportAlbum.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="16090"/>
+    <file name="ReportBreadcrumb.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="9269"/>
+    <file name="ReportPage.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="13875"/>
+    <file name="ReportPageListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="9528"/>
+    <file name="ReportView.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5206"/>
+    <file name="ReportViewListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="4607"/>
+    <file name="ScrollBar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="33091"/>
+    <file name="ScrollingMenu.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="6474"/>
+    <file name="ScrollingReportPage.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="7997"/>
+    <file name="ScrollingReportView.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="71427"/>
+    <file name="SearchPanel.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="21663"/>
+    <file name="SelectList.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="9863"/>
+    <file name="SelectListItem.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="2966"/>
+    <file name="SharedWidgetHolder.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5748"/>
+    <file name="SignalDisposer.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="1169"/>
+    <file name="StackedPanel.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="5480"/>
+    <file name="StackedTab.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="7785"/>
+    <file name="StateManager.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="2664"/>
+    <file name="Statusbar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="7839"/>
+    <file name="TakeAction.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="21114"/>
+    <file name="TextCombo.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="10994"/>
+    <file name="TextField.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="4639"/>
+    <file name="ThemeManager.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="13155"/>
+    <file name="Toolbar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="43768"/>
+    <file name="ToolPanel.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="12374"/>
+    <file name="Viewer.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="46062"/>
+    <file name="ViewerListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="71102"/>
+    <file name="ViewerParameterAdapter.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="19272"/>
+    <file name="WarningPopup.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer" size="2191"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/prompting/js">
+    <file name="initDhtmlLib.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/js" size="223"/>
+    <file name="promptengine_calendar.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/js" size="0"/>
+    <file name="promptengine_calendar2.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/js" size="5752"/>
+    <file name="promptengine_prompts.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/js" size="32638"/>
+    <file name="promptengine_prompts2.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/js" size="82702"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/MochiKit">
+    <file name="3rdParty.txt" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="10360"/>
+    <file name="Async.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="17279"/>
+    <file name="Base.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="37718"/>
+    <file name="Color.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="25158"/>
+    <file name="DateTime.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="6056"/>
+    <file name="DOM.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="30255"/>
+    <file name="DragAndDrop.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="25686"/>
+    <file name="Format.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="8785"/>
+    <file name="Iter.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="24108"/>
+    <file name="License.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="157"/>
+    <file name="Logging.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="8388"/>
+    <file name="MochiKit.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="4644"/>
+    <file name="MockDOM.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="2209"/>
+    <file name="New.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="12555"/>
+    <file name="Signal.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="22554"/>
+    <file name="Sortable.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="18470"/>
+    <file name="Style.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="11161"/>
+    <file name="Test.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="4694"/>
+    <file name="Visual.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="56762"/>
+    <file name="__package__.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/MochiKit" size="467"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/ui5prompting/resources">
+    <file name="prompting_ar.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="23698"/>
+    <file name="prompting_cs.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="10294"/>
+    <file name="prompting_da.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="9027"/>
+    <file name="prompting_de.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="9479"/>
+    <file name="prompting_en.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="8083"/>
+    <file name="prompting_en_US.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="8083"/>
+    <file name="prompting_es.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="9187"/>
+    <file name="prompting_fi.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="9420"/>
+    <file name="prompting_fr.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="9863"/>
+    <file name="prompting_hu.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="11581"/>
+    <file name="prompting_it.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="8795"/>
+    <file name="prompting_iw.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="19139"/>
+    <file name="prompting_ja.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="13991"/>
+    <file name="prompting_kk.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="24504"/>
+    <file name="prompting_ko.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="12514"/>
+    <file name="prompting_nb.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="8606"/>
+    <file name="prompting_nl.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="8707"/>
+    <file name="prompting_pl.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="10166"/>
+    <file name="prompting_pt.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="9050"/>
+    <file name="prompting_ro.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="10010"/>
+    <file name="prompting_ru.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="26682"/>
+    <file name="prompting_sk.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="10148"/>
+    <file name="prompting_sl.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="8932"/>
+    <file name="prompting_sv.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="9275"/>
+    <file name="prompting_th.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="22858"/>
+    <file name="prompting_tr.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="10406"/>
+    <file name="prompting_uk.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="26702"/>
+    <file name="prompting_zh_CN.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="11185"/>
+    <file name="prompting_zh_TW.properties" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/resources" size="11002"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/prompting/html">
+    <file name="calendar.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/html" size="663"/>
+    <file name="calendarbottom.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/html" size="805"/>
+    <file name="calendartop.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/html" size="802"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/ui5prompting/controllers">
+    <file name="BasePromptController.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="14916"/>
+    <file name="ConditionRangeInput.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="558"/>
+    <file name="DiscreteInput.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="2678"/>
+    <file name="MultiConditionRange.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="1166"/>
+    <file name="MultiControllerBase.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="6201"/>
+    <file name="MultiDiscreteRange.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="4368"/>
+    <file name="MultiInput.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="364"/>
+    <file name="MultiRange.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="359"/>
+    <file name="Prompting.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="10513"/>
+    <file name="PromptSummary.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="263"/>
+    <file name="PromptUnit.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="702"/>
+    <file name="PromptValueSelect.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="187"/>
+    <file name="RangeInput.controller.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/controllers" size="2517"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/ui5prompting/views">
+    <file name="ConditionRangeInput.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3056"/>
+    <file name="DiscreteInput.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="2944"/>
+    <file name="LogonDialog.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3796"/>
+    <file name="MultiConditionRange.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3953"/>
+    <file name="MultiDiscreteRange.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="6203"/>
+    <file name="MultiInput.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3946"/>
+    <file name="MultiRange.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3762"/>
+    <file name="PromptComponentViews.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3726"/>
+    <file name="PromptDialog.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="6058"/>
+    <file name="Prompting.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3100"/>
+    <file name="PromptSummary.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="10460"/>
+    <file name="PromptUnit.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="1586"/>
+    <file name="PromptValueSelect.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="7537"/>
+    <file name="RangeInput.view.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/views" size="3022"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/prompting/css">
+    <file name="promptengine2.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/css" size="6013"/>
+    <file name="promptengine_default.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/prompting/css" size="4549"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/crviewer/images">
+    <file name="allInOne.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="6839"/>
+    <file name="allInOneBG.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="275"/>
+    <file name="allInOneBGV.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="260"/>
+    <file name="allInOne_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="6823"/>
+    <file name="back.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1149"/>
+    <file name="breadcrumbSep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="837"/>
+    <file name="breadcrumbSep_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="842"/>
+    <file name="calendar.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="120"/>
+    <file name="catalyst.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1016"/>
+    <file name="clearValues.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="497"/>
+    <file name="clear_x.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="80"/>
+    <file name="closePanel.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="54"/>
+    <file name="closePanel_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="54"/>
+    <file name="delete.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="231"/>
+    <file name="drill_cursor.cur" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="3262"/>
+    <file name="drill_cursor_rtl.cur" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="4286"/>
+    <file name="drill_right.png" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="2964"/>
+    <file name="drill_right_rtl.png" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="358"/>
+    <file name="export.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1043"/>
+    <file name="filledCircle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="271"/>
+    <file name="first.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="122"/>
+    <file name="forward.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1151"/>
+    <file name="freeze_panes.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1432"/>
+    <file name="grouptree_toggle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="370"/>
+    <file name="grouptree_toggle_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="368"/>
+    <file name="hollowCircle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="269"/>
+    <file name="last.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="122"/>
+    <file name="leftTriangle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="260"/>
+    <file name="line.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="59"/>
+    <file name="logo.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="592"/>
+    <file name="magnify.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="115"/>
+    <file name="magnify_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="115"/>
+    <file name="menu_arrows.png" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="217"/>
+    <file name="min.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="896"/>
+    <file name="next.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="103"/>
+    <file name="open_parameter_arrow.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="73"/>
+    <file name="open_parameter_arrow_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="72"/>
+    <file name="panel_toggle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="713"/>
+    <file name="panel_toggle_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="716"/>
+    <file name="param_datafetching.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="372"/>
+    <file name="param_datafetching_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="374"/>
+    <file name="param_info.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="352"/>
+    <file name="param_run.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="221"/>
+    <file name="param_warning.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="572"/>
+    <file name="plus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="897"/>
+    <file name="prev.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="103"/>
+    <file name="print.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1211"/>
+    <file name="refresh.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1053"/>
+    <file name="report.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="359"/>
+    <file name="rightTriangle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="260"/>
+    <file name="scrollbarbgH.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="51"/>
+    <file name="scrollbarbgV.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="51"/>
+    <file name="scrollbarGrabberH.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="321"/>
+    <file name="scrollbarGrabberV.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="310"/>
+    <file name="scrollDownBtn.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="149"/>
+    <file name="scrollLeftBtn.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="159"/>
+    <file name="scrollRightBtn.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="152"/>
+    <file name="scrollThumbH.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="76"/>
+    <file name="scrollThumbMiddleH.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="65"/>
+    <file name="scrollThumbMiddleV.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="65"/>
+    <file name="scrollThumbV.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="74"/>
+    <file name="scrollUpBtn.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="153"/>
+    <file name="scroll_tooltip.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="146"/>
+    <file name="search.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="160"/>
+    <file name="search_toggle.png" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="422"/>
+    <file name="StackedTab.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="78"/>
+    <file name="stop.png" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="840"/>
+    <file name="style.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="18216"/>
+    <file name="subreport.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="359"/>
+    <file name="subreport_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="361"/>
+    <file name="toolbar_pagenav_next.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1171"/>
+    <file name="toolbar_pagenav_prev.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="1159"/>
+    <file name="undo.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="363"/>
+    <file name="undo_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="964"/>
+    <file name="up.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="212"/>
+    <file name="WarningPopupTriangle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/crviewer/images" size="594"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/dhtmllib/images/skin_default">
+    <file name="bolist.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="1130"/>
+    <file name="button.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="905"/>
+    <file name="buttonIcons.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="1330"/>
+    <file name="critical_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="862"/>
+    <file name="dialogelements.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="1138"/>
+    <file name="dialogframe.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="862"/>
+    <file name="dialogframeleftright.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="853"/>
+    <file name="dialogframetopbottom.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="834"/>
+    <file name="dialogtitle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="85"/>
+    <file name="down.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="121"/>
+    <file name="iconsep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="844"/>
+    <file name="information_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="900"/>
+    <file name="left.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="123"/>
+    <file name="menus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="1190"/>
+    <file name="node.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="114"/>
+    <file name="progress.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="962"/>
+    <file name="resize.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="860"/>
+    <file name="right.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="124"/>
+    <file name="scroll_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="173"/>
+    <file name="sep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="78"/>
+    <file name="sep_solid.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="80"/>
+    <file name="style.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="13732"/>
+    <file name="style.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="166"/>
+    <file name="style_fe.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="13481"/>
+    <file name="tabs.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="1292"/>
+    <file name="up.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="124"/>
+    <file name="wait01.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="36063"/>
+    <file name="wait02.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="1089"/>
+    <file name="warning_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_default" size="1507"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/ui5prompting">
+    <file name="UI5Bootstrap.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting" size="4168"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/dhtmllib/images/skin_coloredline">
+    <file name="bolist.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="1104"/>
+    <file name="button.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="905"/>
+    <file name="buttonIcons.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="1330"/>
+    <file name="critical_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="862"/>
+    <file name="dialogelements.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="1138"/>
+    <file name="dialogframe.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="840"/>
+    <file name="dialogframeleftright.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="828"/>
+    <file name="dialogframetopbottom.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="822"/>
+    <file name="dialogtitle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="85"/>
+    <file name="down.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="110"/>
+    <file name="iconsep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="844"/>
+    <file name="information_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="900"/>
+    <file name="left.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="110"/>
+    <file name="menus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="1190"/>
+    <file name="node.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="111"/>
+    <file name="progress.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="962"/>
+    <file name="resize.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="860"/>
+    <file name="right.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="109"/>
+    <file name="scroll_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="173"/>
+    <file name="sep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="800"/>
+    <file name="sep_solid.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="804"/>
+    <file name="style.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="12589"/>
+    <file name="style.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="166"/>
+    <file name="style_fe.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="12363"/>
+    <file name="tabs.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="1290"/>
+    <file name="up.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="111"/>
+    <file name="wait01.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="36063"/>
+    <file name="wait02.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="1089"/>
+    <file name="warning_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_coloredline" size="1507"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/css">
+    <file name="cedefault.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/css" size="1697"/>
+    <file name="default.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/css" size="10047"/>
+    <file name="exception.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/css" size="409"/>
+    <file name="prompting.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/css" size="1849"/>
+    <file name="ui5prompting.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/css" size="3725"/>
+    <file name="ui5prompting_ipoint.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/css" size="110"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/ui5prompting/inputs">
+    <file name="BaseInput.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/inputs" size="14617"/>
+    <file name="DerivedInputs.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/inputs" size="12724"/>
+    <file name="FlatLOVDialog.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/inputs" size="25618"/>
+    <file name="HierarchyLOVDialog.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/inputs" size="18279"/>
+    <file name="InputRow.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/inputs" size="33822"/>
+    <file name="LOVDialogCreator.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/ui5prompting/inputs" size="429"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/dhtmllib/images/skin_corporate">
+    <file name="bolist.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="1130"/>
+    <file name="button.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="905"/>
+    <file name="buttonIcons.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="1330"/>
+    <file name="critical_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="862"/>
+    <file name="dialogelements.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="1138"/>
+    <file name="dialogframe.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="840"/>
+    <file name="dialogframeleftright.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="828"/>
+    <file name="dialogframetopbottom.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="822"/>
+    <file name="dialogtitle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="85"/>
+    <file name="down.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="111"/>
+    <file name="iconsep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="844"/>
+    <file name="information_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="900"/>
+    <file name="left.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="111"/>
+    <file name="menus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="1190"/>
+    <file name="node.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="111"/>
+    <file name="progress.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="962"/>
+    <file name="resize.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="860"/>
+    <file name="right.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="109"/>
+    <file name="scroll_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="173"/>
+    <file name="sep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="800"/>
+    <file name="sep_solid.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="804"/>
+    <file name="style.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="12591"/>
+    <file name="style.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="166"/>
+    <file name="style_fe.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="12366"/>
+    <file name="tabs.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="1290"/>
+    <file name="up.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="112"/>
+    <file name="wait01.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="36063"/>
+    <file name="wait02.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="1089"/>
+    <file name="warning_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_corporate" size="1507"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/swfobject">
+    <file name="expressInstall.swf" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/swfobject" size="773"/>
+    <file name="swfobject.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/swfobject" size="8872"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/API">
+    <file name="ActionListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="588"/>
+    <file name="BOE.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="734"/>
+    <file name="CanvasListener.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="590"/>
+    <file name="Event.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="6342"/>
+    <file name="Exceptions.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="1008"/>
+    <file name="Parameter.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="11117"/>
+    <file name="ReportSource.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="724"/>
+    <file name="ThemeManager.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="500"/>
+    <file name="Viewer.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/API" size="25564"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/external">
+    <file name="date.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/external" size="14333"/>
+    <file name="json_parse.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/external" size="5813"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/html">
+    <file name="calendar.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/html" size="610"/>
+    <file name="calendarbottom.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/html" size="226"/>
+    <file name="calendartop.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/html" size="223"/>
+    <file name="jsApi_InProc.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/html" size="573"/>
+    <file name="transporter.html" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/html" size="4676"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/js/dhtmllib/images/skin_standard">
+    <file name="background_field.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="813"/>
+    <file name="background_menusel.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="820"/>
+    <file name="bolist.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1425"/>
+    <file name="button.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1344"/>
+    <file name="buttonIcons.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1419"/>
+    <file name="critical_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1438"/>
+    <file name="critical_icon.png" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1830"/>
+    <file name="dialogelements.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="171"/>
+    <file name="dialogframe.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="874"/>
+    <file name="dialogframeleftright.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="853"/>
+    <file name="dialogframetopbottom.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="834"/>
+    <file name="dialogtitle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="2512"/>
+    <file name="down.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="121"/>
+    <file name="hgrab.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1075"/>
+    <file name="horiz_tabs.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="4839"/>
+    <file name="iconsep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="843"/>
+    <file name="information_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="900"/>
+    <file name="left.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="123"/>
+    <file name="menuitem_check.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="937"/>
+    <file name="menus.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1190"/>
+    <file name="menus_rtl.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1190"/>
+    <file name="node.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="114"/>
+    <file name="panemenu.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="862"/>
+    <file name="panetitle.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="818"/>
+    <file name="progress.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="962"/>
+    <file name="resize.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="857"/>
+    <file name="right.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="124"/>
+    <file name="scroll_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="929"/>
+    <file name="sep.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="800"/>
+    <file name="sep_solid.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="804"/>
+    <file name="style.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="18116"/>
+    <file name="style.js" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="166"/>
+    <file name="style_fe.css" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="15256"/>
+    <file name="tabs.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="470"/>
+    <file name="toolbar_elements.png" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="963"/>
+    <file name="up.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="124"/>
+    <file name="vgrab.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1058"/>
+    <file name="wait01.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="2488"/>
+    <file name="wait02.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1089"/>
+    <file name="warning_icon.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/js/dhtmllib/images/skin_standard" size="1507"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.webreporting.common/java/crystalreportviewers/images/isort">
+    <file name="DownArrowSortActive100.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="977"/>
+    <file name="DownArrowSortActive150.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1159"/>
+    <file name="DownArrowSortActive200.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="849"/>
+    <file name="DownArrowSortActive250.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="995"/>
+    <file name="DownArrowSortActive300.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1623"/>
+    <file name="DownArrowSortActive350.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1734"/>
+    <file name="DownArrowSortActive400.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1993"/>
+    <file name="DownArrowSortActive50.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="271"/>
+    <file name="DownArrowSortHover100.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="971"/>
+    <file name="DownArrowSortHover150.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1121"/>
+    <file name="DownArrowSortHover200.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="780"/>
+    <file name="DownArrowSortHover250.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="880"/>
+    <file name="DownArrowSortHover300.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1054"/>
+    <file name="DownArrowSortHover350.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1227"/>
+    <file name="DownArrowSortHover400.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1370"/>
+    <file name="DownArrowSortHover50.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="271"/>
+    <file name="DownArrowSortInactive100.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="973"/>
+    <file name="DownArrowSortInactive150.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1161"/>
+    <file name="DownArrowSortInactive200.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="829"/>
+    <file name="DownArrowSortInactive250.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1017"/>
+    <file name="DownArrowSortInactive300.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1207"/>
+    <file name="DownArrowSortInactive400.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1598"/>
+    <file name="DownArrowSortInactive50.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="271"/>
+    <file name="UpArrowSortActive100.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="583"/>
+    <file name="UpArrowSortActive150.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1143"/>
+    <file name="UpArrowSortActive200.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="845"/>
+    <file name="UpArrowSortActive250.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="971"/>
+    <file name="UpArrowSortActive300.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1575"/>
+    <file name="UpArrowSortActive350.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1777"/>
+    <file name="UpArrowSortActive400.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1477"/>
+    <file name="UpArrowSortActive50.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="290"/>
+    <file name="UpArrowSortHover100.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="584"/>
+    <file name="UpArrowSortHover150.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1118"/>
+    <file name="UpArrowSortHover200.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="780"/>
+    <file name="UpArrowSortHover250.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="868"/>
+    <file name="UpArrowSortHover300.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="991"/>
+    <file name="UpArrowSortHover350.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1195"/>
+    <file name="UpArrowSortHover400.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1317"/>
+    <file name="UpArrowSortHover50.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="290"/>
+    <file name="UpArrowSortInactive100.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="584"/>
+    <file name="UpArrowSortInactive150.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1155"/>
+    <file name="UpArrowSortInactive200.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="851"/>
+    <file name="UpArrowSortInactive250.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1004"/>
+    <file name="UpArrowSortInactive300.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1161"/>
+    <file name="UpArrowSortInactive400.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="1518"/>
+    <file name="UpArrowSortInactive50.gif" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/images/isort" size="290"/>
+  </sourcedir>
+</assembly>

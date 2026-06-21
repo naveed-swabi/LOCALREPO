@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="connectivity.connectionserver.drivers.teradata.odbc-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="447562">
+    <requiredDeploymentUnit ref="connectivity.connectionserver.helpers.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="connectivity.connectionserver.core.helpers.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="connectivity.connectionserver.drivers.teradata.odbc.config-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="005C37A1-7CB0-4A8C-8521-99EEDE08D8CB"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Määritä kohdekansio"/>
+<string id="ChooseInstallDirSubtitle" value="Anna täydellinen kohdepolku, johon tuote asennetaan."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Anna täydellinen kohdepolku, johon tuote asennetaan."/>
+<string id="DestinationFolderGroupBox" value="Kohdekansion tiedot"/>
+<string id="DestinationFolder" value="Kohdekansio:"/>
+<string id="Browse" value="Selaa"/>
+<string id="BrowseInstallDirectory" value="Valitse asennussijainti"/>
+<string id="DirGenericError" value="Kohdekansio on virheellinen. Valitse toinen kohdekansio. INS00029"/>
+<string id="DirNetworkError" value="Kohdekansio ei voi olla verkkosijainti. Valitse toinen sijainti."/>
+<string id="DirEmptyError" value="Kohdekansio on valittava. INS00029"/>
+<string id="DirAbsolutePathError" value="Kohdekansion täytyy olla täydellinen polku. INS00029"/>
+<string id="DirInvalidCharWinError" value="Kohdekansiossa voidaan käyttää vain numeroita, kirjaimia ja seuraavia merkkejä: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Kohdekansion polku on liian pitkä. Käytä polkua, jonka pituus on alle 150 merkkiä. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Kohdekansio sisältää yhteensopimattoman tuotteen. Valitse toinen sijainti. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Virheellinen asennushakemisto. Käytä kelvollista absoluuttista polkua, joka sisältää vain kirjaimia, numeroita tai seuraavia merkkejä: _ - \ . ( ). Hakemiston on oltava kiinteässä asemassa, ja koko polku saa olla enintään 150 merkkiä pitkä. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Virheellinen asennushakemisto. Käytä kelvollista absoluuttista polkua, johon sinulla on myös luku-, kirjoitus- ja suoritusoikeudet. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Asennushakemisto ei voi sisältää välilyöntejä."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Seuraavat merkit eivät ole sallittuja asennushakemistossa:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Täytä hakemistoelementit automaattisesti painamalla []Sarkain]-näppäintä, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+</context>
+</uitext>

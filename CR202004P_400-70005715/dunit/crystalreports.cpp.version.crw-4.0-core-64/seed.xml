@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="crystalreports.cpp.version.crw-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="831">
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="DeleteFile">
+      <arg name="FileName" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\/version/crw64_version.txt"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="WriteStringToFile">
+      <arg name="FileName" value="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\/version/crw64_version.txt"/>
+      <arg name="Content" value="14.3.4.4938&#13;&#10;2020  Support Pack 4 Patch 4&#13;&#10;"/>
+    </action>
+  </install>
+</duseed>

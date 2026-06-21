@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="DlgTitle" value="Termékfrissítés"/>
+<string id="DlgSummary" value="A telepítő a termék korábbi verzióját észlelte."/>
+<string id="ProceedOrNot" value="A telepítő a Crystal Reports Viewer korábbi verzióját észlelte. Ha folytatja a telepítést, akkor a Crystal Reports Viewer 2010 verzióra fog frissíteni. A folytatáshoz kattintson a Tovább gombra. A telepítés megszakításához és a telepítőből való kilépéshez kattintson a Mégse gombra."/>
+</context>
+</uitext>

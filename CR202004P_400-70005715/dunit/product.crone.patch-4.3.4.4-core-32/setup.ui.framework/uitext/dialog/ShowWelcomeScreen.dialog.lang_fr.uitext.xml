@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="Message" value="Bienvenue dans l'Assistant d'installation de #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Ecran d'accueil"/>
+<string id="ShowWelcomeScreenSubtitle" value="Bienvenue dans l'Assistant d'installation de #product.fullproductnamenospace#."/>
+<string id="Description" value="Il est fortement conseillé de quitter toutes les applications Windows avant de lancer le programme d'installation.\n\nCliquez sur Annuler pour quitter l'installation et fermer tous les logiciels en cours d'exécution. Cliquez sur Suivant pour poursuivre le programme d'installation.\n\nATTENTION : Ce logiciel est protégé par les lois du copyright et par les traités internationaux.\n\n\nToute reproduction ou distribution, même partielle de ce programme constitue un délit civil et pénal qui donnera lieu à des poursuites selon la loi applicable."/>
+<string id="Description_unix" value="ATTENTION : Ce logiciel est protégé par la loi du copyright et par les conventions internationales.\n\n\nToute reproduction ou distribution en totalité ou en partie, de ce programme, constitue un délit civil et pénal et donnera lieu à des poursuites selon la loi applicable.\n\n\nREMARQUE : Pour en savoir plus sur les plateformes prises en charge, consultez la page http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Appuyez sur les touches []Ctrl-B] pour revenir en arrière, []Ctrl-X] pour fermer, ou []Entrée] pour continuer."/>
+<string id="PamHyperLinkWelcome" value="Pour en savoir plus sur les plateformes prises en charge, consultez la page"/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Message" value="Asennuksen poiston vahvistus"/>
+<string id="Description" value="Tämä poistaa tuotteen #product.fullproductnamenospace# koneesta."/>
+<string id="ConfirmUninstall" value="Haluatko varmasti poistaa asennuksen?"/>
+<string id="ConfirmUninstall_Footer" value="Siirry takaisin painamalla näppäinyhdistelmää []Ctrl-B], lopeta painamalla näppäinyhdistelmää []Ctrl-X] tai jatka painamalla []Enter]-näppäintä."/>
+</context>
+</uitext>

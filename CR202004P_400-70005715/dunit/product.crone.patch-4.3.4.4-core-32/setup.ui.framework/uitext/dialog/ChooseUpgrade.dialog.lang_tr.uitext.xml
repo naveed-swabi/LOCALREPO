@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Bilinmeyen ChooseUpgrade belirtildi, geçerli değerler: 0 veya 1"/>
+<string id="ChooseUpgrade" value="Önceki #productname# Versiyonu Algılandı"/>
+<string id="SelectUpgrade" value="Yükseltme yüklemesi yapılıp yapılmayacağını seçin."/>
+<string id="SideBySide" value="Yan Yana Yükleme Gerçekleştir"/>
+<string id="SideBySideDescription" value="Bu #productname# versiyonunu şu anda yüklü versiyonla birlikte yükler."/>
+<string id="SimpleUpgrade" value="Basit Yükseltme Gerçekleştir"/>
+<string id="SimpleUpgradeDescription" value="Eski bir #productname# versiyonu algılandı. Devam etmeden önce eski versiyonu kaldırmanız veya yerinde yükseltme yapmak için bu seçeneği belirlemeniz gerekir."/>
+<string id="Invalid_ChooseUpgrade" value="Geçersiz ([ChooseUpgrade]): 0 veya 1 olması gerekir"/>
+</context>
+</uitext>

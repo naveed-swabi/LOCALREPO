@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="SelectedInvalidLocale" value="您輸入了不支援的地區設定。"/>
+<string id="SetupLanguageTitle" value="選取安裝程式語言"/>
+<string id="SetupLanguageSubtitle" value="選取設定語言。"/>
+<string id="SetupLanguageUnixSubtitle" value="選取設定語言。"/>
+<string id="CreateLogFile" value="在安裝期間建立記錄檔"/>
+<string id="Invalid_SetupLanguage" value="設定語言無效。([SetupUILanguage]): 應為 '[$available.ui.langs]' 的其中之一。 INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="IsEnableSetupLog ([IsEnableSetupLog]) 無效: 其應僅可為 0 或 1。"/>
+<string id="SelectUILanguageFooter" value="按 []Tab]、[]向上] 或 []向下] 進行選取，按 []Ctrl-X] 結束，或按 []Enter] 繼續。"/>
+</context>
+</uitext>

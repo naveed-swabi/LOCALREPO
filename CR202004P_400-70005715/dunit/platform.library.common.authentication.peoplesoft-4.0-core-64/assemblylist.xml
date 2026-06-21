@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secpsenterprise">
+    <registryValue name="NAME" type="string">PeopleSoft Enterprise</registryValue>
+    <registryValue name="OBJTYPENAME" type="string">PeopleSoft Enterprise</registryValue>
+    <registryValue name="PROGID" type="string">secpsenterprise</registryValue>
+    <registryValue name="VERSION" type="string">14.0</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.library.common">
+    <file name="secpsenterprise.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="246784"/>
+    <file name="psenterprisebridge.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1266688"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/iface/deployment_files/neutral">
+    <file name="secpsenterprise_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2112"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/images">
+    <file name="secpsenterprise.gif" sourcename="icon.gif" installdir="[INSTALLDIR]setup/packagestemp" size="572"/>
+  </sourcedir>
+</assembly>

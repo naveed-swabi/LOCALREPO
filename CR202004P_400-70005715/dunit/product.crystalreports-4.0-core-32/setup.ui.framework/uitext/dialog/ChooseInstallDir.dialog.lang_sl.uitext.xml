@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Konfiguracija ciljne mape"/>
+<string id="ChooseInstallDirSubtitle" value="Vnesite celotno pot destinacije, kjer bo nameščen produkt."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Vnesite celotno pot destinacije, kjer bo nameščen produkt."/>
+<string id="DestinationFolderGroupBox" value="Informacije o ciljni mapi"/>
+<string id="DestinationFolder" value="Ciljna mapa:"/>
+<string id="Browse" value="Brskanje"/>
+<string id="BrowseInstallDirectory" value="Izbira lokacije namestitve"/>
+<string id="DirGenericError" value="Ciljna mapa ni veljavna. Prosim, izberite drugo ciljno mapo. INS00029"/>
+<string id="DirNetworkError" value="Ciljna mapa ne more biti lokacija omrežja. Prosim, izberite drugo lokacijo."/>
+<string id="DirEmptyError" value=" Izbrati morate ciljno mapo. INS00029"/>
+<string id="DirAbsolutePathError" value="Za ciljno mapo morate navesti celotno pot. INS00029"/>
+<string id="DirInvalidCharWinError" value="Ciljna mapa lahko uporablja samo številke, črke ali naslednje znake: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Pot ciljne mape je predolga. Prosim, uporabite pot, ki je krajša od 150 znakov. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Ciljna mapa vsebuje nekompatibilen produkt. Prosim, izberite drugo lokacijo. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Neveljaven namestitveni direktorij. Prosim, uporabite veljavno absolutno pot, ki vsebuje samo alfanumerične znake ali katere od naslednjih: _ - \ . ( ). Direktorij mora biti na lokalnem trdem disku in celotna pot ne sme biti daljša od 150 znakov. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Neveljaven namestitveni direktorij. Prosim, uporabite veljavno absolutno pot, za katero imate tudi avtorizacijo za branje, pisanje in izvajanje. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Namestitveni direktorij ne sme vsebovati presledkov."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="V namestitvenenem direktoriju niso dovoljeni naslednji znaki:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Pritisnite []Tab] za avtomatično izpolnitev elementov direktorija, []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za nadaljevanje."/>
+</context>
+</uitext>

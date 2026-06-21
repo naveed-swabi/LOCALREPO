@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Spustit instalaci"/>
+<string id="ShowInstallSummarySubtitle" value="Instalace je přirpavena k instalaci produktu #product.fullproductnamenospace#. Kliknutím na tlačítko Zpět provedete změny údajů instalace. \n\nKliknutím na tlačítko Další zahájíte instalaci."/>
+<string id="ShowInstallSummaryUnixDescription" value="Jste připraveni na zahájení instalace produktu #product.fullproductnamenospace# průvodcem instalací?"/>
+<string id="ShowInstallSummaryFooter" value="Stisknutím kláves []Ctrl-B] přejdete zpět, stiskutím kláves []Ctrl-X] ukončíte program a stisknutím klávesy []Enter] zahájíte instalaci."/>
+<string id="DiskCost" value="Potřebné místo na disku"/>
+<string id="Drive Select" value="Vybíráte"/>
+<string id="Disk Costing" value="Výpočet místa na disku"/>
+<string id="Volume" value="Svazek"/>
+<string id="Disk Size" value="Velikost disku"/>
+<string id="Available" value="Dostupné"/>
+<string id="Required" value="Požadováno"/>
+<string id="Difference" value="Rozdíl"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Opakovat"/>
+<string id="Cancel" value="Storno"/>
+<string id="ShowCacheSummaryTitle" value="Instalace podle fází"/>
+<string id="ShowCacheSummarySubtitle" value="Zahájit ukládání do mezipaměti"/>
+<string id="ShowCacheSummaryDescription" value="Ukládání do mezipaměti je proces kopírování softwaru do instalačního adresáře. Během ukládání do mezipaměti nedochází k výpadku systému a můžete pokračovat v práci na systému."/>
+<string id="Invalid_DiskSpace" value="Nemáte dost místa pro instalaci produktu. Uvolněte místo na disku nebo vyberte jiné umístění. Dostupné místo: [AvailableSpace] MB. Požadované místo: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Během instalace po uložení do mezipaměti je software nainstalován v systému s určitým výpadkem systému."/>
+<string id="ShowResumetitle" value="Instalace podle fází"/>
+<string id="ShowResumeSubtitle" value="Obnovit instalaci"/>
+<string id="ShowResumeFooter" value="Stisknutím kláves []Ctrl-B] přejdete zpět, stiskutím kláves []Ctrl-X] ukončíte program a stisknutím klávesy []Enter] zahájíte instalaci."/>
+<string id="MessageCache" value="Kliknutím na tlačítko Další zahájíte fázi ukládání do mezipaměti."/>
+<string id="MessageResume" value="Kliknutím na tlačítko Další zahájíte instalaci."/>
+</context>
+</uitext>

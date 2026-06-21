@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{2A278175-D5DB-11D3-A64C-009027666FBD}">
+    <registryValue name="" type="string">ISCRReadIStreamOnBytes</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{2A278175-D5DB-11D3-A64C-009027666FBD}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D528FDC5-873E-11D3-B28F-00A0C9C8464C}">
+    <registryValue name="" type="string">ISCRGenObjCollection</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D528FDC5-873E-11D3-B28F-00A0C9C8464C}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D528FDC5-873E-11D3-B28F-00A0C9C8464C}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D528FDC5-873E-11D3-B28F-00A0C9C8464C}\TypeLib">
+    <registryValue name="" type="string">{86ACA0A4-3E06-11D3-9169-00902741EE7C}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D528FDC5-873E-11D3-B28F-00A0C9C8464C}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{2A278175-D5DB-11D3-A64C-009027666FBD}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{2A278175-D5DB-11D3-A64C-009027666FBD}\TypeLib">
+    <registryValue name="" type="string">{86ACA0A4-3E06-11D3-9169-00902741EE7C}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{2A278175-D5DB-11D3-A64C-009027666FBD}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{70658126-6198-11D3-916F-00902741EE7C}">
+    <registryValue name="" type="string">ISCRStorage</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{70658126-6198-11D3-916F-00902741EE7C}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{70658126-6198-11D3-916F-00902741EE7C}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{70658126-6198-11D3-916F-00902741EE7C}\TypeLib">
+    <registryValue name="" type="string">{86ACA0A4-3E06-11D3-9169-00902741EE7C}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{70658126-6198-11D3-916F-00902741EE7C}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0690F48F-A415-43E4-9DB8-202A92F455C4}">
+    <registryValue name="" type="string">ISCRStringFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0690F48F-A415-43E4-9DB8-202A92F455C4}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EA2E948-9E1A-4DD0-A830-A0FB956110F8}">
+    <registryValue name="" type="string">ISCRDateTimeFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D76ABCAB-8958-43EC-9B82-157B9D3500A4}">
+    <registryValue name="" type="string">ISCRConditionFormula</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D76ABCAB-8958-43EC-9B82-157B9D3500A4}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D76ABCAB-8958-43EC-9B82-157B9D3500A4}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D76ABCAB-8958-43EC-9B82-157B9D3500A4}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{D76ABCAB-8958-43EC-9B82-157B9D3500A4}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EB94B307-87AC-48CF-824F-64106DA42F08}">
+    <registryValue name="" type="string">ISCRConditionFormulas</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EB94B307-87AC-48CF-824F-64106DA42F08}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EB94B307-87AC-48CF-824F-64106DA42F08}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EB94B307-87AC-48CF-824F-64106DA42F08}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{EB94B307-87AC-48CF-824F-64106DA42F08}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EA2E948-9E1A-4DD0-A830-A0FB956110F8}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F1B5CC5F-1D63-45D0-95F3-5C1976B21F84}">
+    <registryValue name="" type="string">ISCRIndentAndSpacingFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F1B5CC5F-1D63-45D0-95F3-5C1976B21F84}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F1B5CC5F-1D63-45D0-95F3-5C1976B21F84}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F1B5CC5F-1D63-45D0-95F3-5C1976B21F84}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F1B5CC5F-1D63-45D0-95F3-5C1976B21F84}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB75-4122-11D3-9D7C-00902741EE80}">
+    <registryValue name="" type="string">ISCRAreas</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB75-4122-11D3-9D7C-00902741EE80}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB75-4122-11D3-9D7C-00902741EE80}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB75-4122-11D3-9D7C-00902741EE80}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB75-4122-11D3-9D7C-00902741EE80}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EA2E948-9E1A-4DD0-A830-A0FB956110F8}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB77-4122-11D3-9D7C-00902741EE80}">
+    <registryValue name="" type="string">ISCRArea</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB77-4122-11D3-9D7C-00902741EE80}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB77-4122-11D3-9D7C-00902741EE80}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB77-4122-11D3-9D7C-00902741EE80}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB77-4122-11D3-9D7C-00902741EE80}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB96-4122-11D3-9D7C-00902741EE80}">
+    <registryValue name="" type="string">ISCRSections</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB96-4122-11D3-9D7C-00902741EE80}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB96-4122-11D3-9D7C-00902741EE80}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB96-4122-11D3-9D7C-00902741EE80}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{F321EB96-4122-11D3-9D7C-00902741EE80}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EA2E948-9E1A-4DD0-A830-A0FB956110F8}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EA2E948-9E1A-4DD0-A830-A0FB956110F8}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EB4306F-6B82-4EB4-A846-B1A4094362DC}">
+    <registryValue name="" type="string">ISCRFont</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EB4306F-6B82-4EB4-A846-B1A4094362DC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EB4306F-6B82-4EB4-A846-B1A4094362DC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EB4306F-6B82-4EB4-A846-B1A4094362DC}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0EB4306F-6B82-4EB4-A846-B1A4094362DC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0690F48F-A415-43E4-9DB8-202A92F455C4}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{27F13729-4915-49F3-87F9-566B626E2386}">
+    <registryValue name="" type="string">ISCRFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{27F13729-4915-49F3-87F9-566B626E2386}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{27F13729-4915-49F3-87F9-566B626E2386}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{27F13729-4915-49F3-87F9-566B626E2386}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{27F13729-4915-49F3-87F9-566B626E2386}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29F3A003-414A-11D3-9D7E-00902741EE80}">
+    <registryValue name="" type="string">ISCRSection</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29F3A003-414A-11D3-9D7E-00902741EE80}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29F3A003-414A-11D3-9D7E-00902741EE80}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29F3A003-414A-11D3-9D7E-00902741EE80}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{29F3A003-414A-11D3-9D7E-00902741EE80}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0690F48F-A415-43E4-9DB8-202A92F455C4}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{46927657-EC14-4A77-9122-A88D976FF40E}">
+    <registryValue name="" type="string">ISCRBorder</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{46927657-EC14-4A77-9122-A88D976FF40E}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{46927657-EC14-4A77-9122-A88D976FF40E}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{46927657-EC14-4A77-9122-A88D976FF40E}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{46927657-EC14-4A77-9122-A88D976FF40E}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{49F46AB2-21F6-4063-BF6F-B51FF281F709}">
+    <registryValue name="" type="string">ISCRBooleanFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{49F46AB2-21F6-4063-BF6F-B51FF281F709}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{49F46AB2-21F6-4063-BF6F-B51FF281F709}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{49F46AB2-21F6-4063-BF6F-B51FF281F709}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{49F46AB2-21F6-4063-BF6F-B51FF281F709}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{0690F48F-A415-43E4-9DB8-202A92F455C4}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{51AAB89C-2AE4-489A-90AA-A9D07285DDFC}">
+    <registryValue name="" type="string">ISCRSectionFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{51AAB89C-2AE4-489A-90AA-A9D07285DDFC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{51AAB89C-2AE4-489A-90AA-A9D07285DDFC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{51AAB89C-2AE4-489A-90AA-A9D07285DDFC}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{51AAB89C-2AE4-489A-90AA-A9D07285DDFC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C045C6E-14D7-4407-8AB9-0E5689AC4CA1}">
+    <registryValue name="" type="string">ISCRTimeFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C045C6E-14D7-4407-8AB9-0E5689AC4CA1}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C045C6E-14D7-4407-8AB9-0E5689AC4CA1}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C045C6E-14D7-4407-8AB9-0E5689AC4CA1}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C045C6E-14D7-4407-8AB9-0E5689AC4CA1}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{096B145A-E3DB-4D52-99F7-91502D0EB282}">
+    <registryValue name="" type="string">ISCRObjectFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C8600B5-6A24-4B79-93C9-31569F30F4A0}">
+    <registryValue name="" type="string">ISCRExcelViewInfo</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C8600B5-6A24-4B79-93C9-31569F30F4A0}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C8600B5-6A24-4B79-93C9-31569F30F4A0}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C8600B5-6A24-4B79-93C9-31569F30F4A0}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5C8600B5-6A24-4B79-93C9-31569F30F4A0}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5CD3C767-45DE-11D3-9333-00A0C9B82A37}">
+    <registryValue name="" type="string">ISCRFontColor</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5CD3C767-45DE-11D3-9333-00A0C9B82A37}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5CD3C767-45DE-11D3-9333-00A0C9B82A37}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5CD3C767-45DE-11D3-9333-00A0C9B82A37}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{5CD3C767-45DE-11D3-9333-00A0C9B82A37}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{096B145A-E3DB-4D52-99F7-91502D0EB282}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{731D6E04-2DA0-46B3-925C-E1A1B6764164}">
+    <registryValue name="" type="string">ISCRCommonFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{731D6E04-2DA0-46B3-925C-E1A1B6764164}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{731D6E04-2DA0-46B3-925C-E1A1B6764164}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{731D6E04-2DA0-46B3-925C-E1A1B6764164}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{731D6E04-2DA0-46B3-925C-E1A1B6764164}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{777DBB7D-9AAB-467D-A0EC-3D20C9203DC3}">
+    <registryValue name="" type="string">ISCRDateFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{777DBB7D-9AAB-467D-A0EC-3D20C9203DC3}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{777DBB7D-9AAB-467D-A0EC-3D20C9203DC3}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{777DBB7D-9AAB-467D-A0EC-3D20C9203DC3}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{777DBB7D-9AAB-467D-A0EC-3D20C9203DC3}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{096B145A-E3DB-4D52-99F7-91502D0EB282}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748B-446B-11D3-9333-00A0C9B82A37}">
+    <registryValue name="" type="string">ISCRReportObject</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748B-446B-11D3-9333-00A0C9B82A37}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748B-446B-11D3-9333-00A0C9B82A37}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748B-446B-11D3-9333-00A0C9B82A37}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748B-446B-11D3-9333-00A0C9B82A37}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748D-446B-11D3-9333-00A0C9B82A37}">
+    <registryValue name="" type="string">ISCRReportObjects</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748D-446B-11D3-9333-00A0C9B82A37}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748D-446B-11D3-9333-00A0C9B82A37}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748D-446B-11D3-9333-00A0C9B82A37}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{7A21748D-446B-11D3-9333-00A0C9B82A37}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{096B145A-E3DB-4D52-99F7-91502D0EB282}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{82159C3E-6D53-4EE2-B5DC-10C9CCD44965}">
+    <registryValue name="" type="string">ISCRExcelViewDocument</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{82159C3E-6D53-4EE2-B5DC-10C9CCD44965}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{82159C3E-6D53-4EE2-B5DC-10C9CCD44965}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{82159C3E-6D53-4EE2-B5DC-10C9CCD44965}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{82159C3E-6D53-4EE2-B5DC-10C9CCD44965}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A23EB5DE-50CE-44FC-92F1-D4D8F56F5012}">
+    <registryValue name="" type="string">ISCRAreaFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A23EB5DE-50CE-44FC-92F1-D4D8F56F5012}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A23EB5DE-50CE-44FC-92F1-D4D8F56F5012}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A23EB5DE-50CE-44FC-92F1-D4D8F56F5012}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{A23EB5DE-50CE-44FC-92F1-D4D8F56F5012}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{096B145A-E3DB-4D52-99F7-91502D0EB282}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{ACF69926-C3C7-4754-AC83-292C83CFA556}">
+    <registryValue name="" type="string">ISCRNumericFieldFormat</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{ACF69926-C3C7-4754-AC83-292C83CFA556}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{ACF69926-C3C7-4754-AC83-292C83CFA556}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{ACF69926-C3C7-4754-AC83-292C83CFA556}\TypeLib">
+    <registryValue name="" type="string">{4221AD37-02A6-49C5-A8DA-24857E2DC0C9}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{ACF69926-C3C7-4754-AC83-292C83CFA556}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{C89992A2-27F1-46A0-8CE4-4B6A2051F3CC}">
+    <registryValue name="" type="string">ISCRExcelViewInfos</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{C89992A2-27F1-46A0-8CE4-4B6A2051F3CC}\ProxyStubClsid">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{C89992A2-27F1-46A0-8CE4-4B6A2051F3CC}\ProxyStubClsid32">
+    <registryValue name="" type="string">{00020424-0000-0000-C000-000000000046}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{C89992A2-27F1-46A0-8CE4-4B6A2051F3CC}\TypeLib">
+    <registryValue name="" type="string">{AB941BC9-411D-11D3-9D7B-00902741EE80}</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\Interface\{C89992A2-27F1-46A0-8CE4-4B6A2051F3CC}\TypeLib">
+    <registryValue name="Version" type="string">1.0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Client SDK">
+    <registryValue name="LogError" type="string">No</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Client SDK">
+    <registryValue name="DefaultReportAppServer" type="string">Localhost</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Client SDK">
+    <registryValue name="DefaultReportAppServerConfigFile" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\clientSDKOptions.xml</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="saxmlserialize.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="151152"/>
+    <file name="sacorbaadapter.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="436336"/>
+    <file name="commonobjmodel.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="424048"/>
+    <file name="objectfactory.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="139376"/>
+    <file name="saxserialize.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="317040"/>
+    <file name="undomanager.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="236144"/>
+    <file name="datadefmodel.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2648176"/>
+    <file name="sacommlayer.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="456816"/>
+    <file name="sacommoncontrols.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1208320"/>
+    <file name="cubedefmodel.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="487024"/>
+    <file name="rptdefmodel.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="3197040"/>
+    <file name="rptcontrollers.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1971824"/>
+    <file name="requestmodel.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="941168"/>
+    <file name="clientdoc.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="873584"/>
+  </sourcedir>
+  <userConfigDir id="D:/a43r464/win64_x64/release/bin/crystalreports.sdk.java">
+    <file name="clientSDKOptions.xml" sourcename="clientSDKOptions.xml.1" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size=""/>
+  </userConfigDir>
+</assembly>

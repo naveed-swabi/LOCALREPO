@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace#이(가) 제거되었습니다."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace#을(를) 제거하지 못했습니다."/>
+<string id="Description" value="설치 제거를 끝내려면 마침을 클릭하십시오."/>
+<string id="FailedDescription" value="제거하지 않고 끝내려면 [마침]을 클릭하십시오."/>
+<string id="ShowUninstall_Footer" value="뒤로 가려면 []Ctrl-B], 설치 제거를 끝내려면 []Enter]를 누르십시오."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="설치 제거를 끝내려면 []Enter]를 누르십시오."/>
+<string id="CustomNextButton" value="마침"/>
+<string id="ViewLogButton" value="로그 보기"/>
+</context>
+</uitext>

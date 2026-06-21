@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informácie o existujúcom nasadení CMS"/>
+<string id="SpecifyRemoteCMS" value="Zadajte prihlasovacie údaje CMS a správcu pre existujúce nasadenie CMS."/>
+<string id="RemoteCMSConnectionInfo" value="Informácie o pripojení pre existujúci server CMS"/>
+<string id="RemoteCMSName" value="Názov CMS"/>
+<string id="RemoteCMSPort" value="Port CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Prihlasovacie informácie správcu CMS"/>
+<string id="RemoteCMSUser" value="Používateľ"/>
+<string id="RemoteCMSPassword" value="Heslo"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Vzdialený server CMS je mimo dosahu alebo prihlasovacie povolenia sú nesprávne. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Vzdialený server CMS je nedostupný alebo prihlasovacie poverenia sú nesprávne. INS00013\nChcete znova zadať svoje poverenia?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Koncová spätná lomka (napr. xxx\) a nasledujúce znaky nie sú v hesle CMS povolené:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Koncová spätná lomka (napr. xxx\) a nasledujúce znaky nie sú v hesle CMS povolené:  &quot;  '  INS00099"/>
+</context>
+</uitext>

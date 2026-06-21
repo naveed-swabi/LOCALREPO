@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="SetLCMConfigTitle" value="Konfigurovať podverziu"/>
+<string id="SetLCMConfigSubtitle" value="Zadajte port a meno používateľa pre systém riadenia verzií podverzie."/>
+<string id="repoInfoGroup" value="Informácie o odkladacom priestore aplikácie Subversion"/>
+<string id="repoName" value="Názov odkladacieho priestoru:"/>
+<string id="repoPort" value="Port odkladacieho priestoru:"/>
+<string id="repoPortInline" value="Port podverzie:"/>
+<string id="repoUserInfoGroup" value="Informácie o používateľovi odkladacieho priestoru podverzie"/>
+<string id="repoUserName" value="Používateľské konto odkladacieho priestoru:"/>
+<string id="repoUserPass" value="Heslo konta odkladacieho priestoru:"/>
+<string id="repoUserPassInline" value="Heslo používateľského konta odkladacieho priestoru:"/>
+<string id="repoUserPass2" value="Potvrdiť heslo:"/>
+<string id="Mismatch_LCMPassword" value="Heslá sa nezhodujú. Skontrolujte ich a skúste znova. INS00267"/>
+<string id="Invalid_LCMPassword" value="Heslo je príliš jednoduché. Heslo musí mať aspoň šesť znakov a musí vždy obsahovať aspoň dva znaky z nasledujúcich tried znakov: veľké písmená a malé písmená. INS00127"/>
+</context>
+</uitext>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Sprawdzanie wymagań wstępnych"/>
+<string id="CheckPreRequisitesSubTitle" value="Podsumowanie krytycznych lub opcjonalnych wymagań wstępnych, które nie są spełnione."/>
+<string id="PreRequsitiesDetails" value="Przed kontynuowaniem instalacji konieczne jest rozwiązanie problemów z kluczowymi zależnościami. Problemy z opcjonalnymi zależnościami mogą uniemożliwić zainstalowanie niektórych składników."/>
+<string id="AcceptKBAInfo" value="Potwierdzam zapoznanie się z artykułem 1794601 bazy wiedzy SAP oraz z udostępnionymi informacjami w celu upewnienia się, że planowana aktualizacja jest zalecana i obsługiwana."/>
+<string id="AcceptKBAInfoUnix" value="Naciśnij [Enter] po zapoznaniu się z artykułem 1794601 bazy wiedzy SAP oraz z udostępnionymi informacjami w celu upewnienia się, że planowana aktualizacja jest zalecana i obsługiwana."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Wymaganie wstępne"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Typ"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Stan"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Krytyczny"/>
+<string id="Column_Type_Optional" value="Opcjonalny"/>
+<string id="Column_Status_Succeeded" value="Sukces"/>
+<string id="Column_Status_Missing" value="Niepowodzenie"/>
+<string id="Hints_Why_Fails" value="Jeśli wymaganie wstępne nie zostało spełnione, kliknij je poniżej, aby uzyskać informacje na temat rozwiązania tego problemu."/>
+<string id="Failure_Reason" value="Informacje: "/>
+<string id="PreRequisitesUIText_Failure" value="Sprawdzanie wymagań wstępnych nie powiodło się"/>
+<string id="Retry_Button" value="Ponów próbę"/>
+<string id="Back_Button" value="Wstecz"/>
+</context>
+</uitext>

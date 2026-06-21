@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="LicenseAgreement" value="Wymaganie dotyczące nowego klucza licencyjnego"/>
+<string id="YouMustAgree" value="W przypadku produktu #product.fullproductname# jest wymagany nowy klucz licencyjny."/>
+<string id="SelectLicenseChangeSubtitle" value="W przypadku produktu #product.fullproductname# jest wymagany nowy klucz licencyjny."/>
+<string id="IAccept" value="Po przeczytaniu dokumentacji rozumiem, jak przebiega proces składania wniosku o nowy klucz licencyjny, oraz wyrażam zgodę na usunięcie starego klucza licencyjnego i dodanie nowego klucza licencyjnego po zainstalowaniu aktualizacji."/>
+<string id="subtitle1" value="W przypadku produktu #product.fullproductname# jest wymagany nowy klucz licencyjny."/>
+<string id="subtitle2" value="Złóż wniosek o nowy klucz licencyjny. Więcej informacji na temat wnioskowania o klucz licencyjny można znaleźć pod następującym adresem:"/>
+<string id="subtitle3" value="Po zainstalowaniu produktu #product.fullproductname# zaloguj się do Centralnej konsoli administracyjnej (CMC), usuń stary klucz licencyjny i dodaj nowy klucz licencyjny. Dopóki nie dodasz nowego klucza licencyjnego, wszystkie usługi są wyłączone."/>
+<string id="subtitle4" value="W tym miejscu złóż wniosek o nowy klucz licencyjny:"/>
+<string id="AcceptOrNotAccept" value="Naciśnij klawisz &lt;ENTER&gt;, aby wyrazić zgodę na usunięcie starego klucza licencyjnego i dodanie nowego klucza licencyjnego po zainstalowaniu aktualizacji."/>
+<string id="Description_Patch_License" value="Produkt #product.fullproductname# wymaga nowego klucza licencyjnego.\n\nZłóż wniosek o nowy klucz licencyjny. Więcej informacji na temat wnioskowania o klucz licencyjny można znaleźć pod adresem: http://scn.sap.com/docs/DOC-70095. \n\nPo zakończeniu instalacji produktu #product.fullproductname# zaloguj się do Centralnej konsoli administracyjnej (CMC). Następnie usuń stary klucz licencyjny i dodaj nowy klucz licencyjny. Wszystkie usługi zostaną włączone dopiero po dodaniu nowego klucza licencyjnego."/>
+</context>
+</uitext>

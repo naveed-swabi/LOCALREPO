@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="Update van #product.fullproductnamenospace#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="Update van #product.fullproductnamenospace#"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# geïnstalleerd"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="Deze update is voor #productname#, die niet op het systeem is gedetecteerd. Installeer dit programma voordat u verdergaat met deze installatie."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="Geen patch met hogere versie"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="Een patch met een hogere versie dan dit pakket is op het systeem aangetroffen. Updates in dit pakket worden niet toegepast. Het wordt niet aanbevolen om door te gaan."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="Versie van ondersteuningspakket op [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="De versie van het ondersteuningspakket voor het product moet [CurrentSupportPackage] zijn om deze update voort te zetten. Upgrade het bestaande systeem of pas de juiste update toe."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="Secundaire versie op [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="De secundaire versie van het product moet [CurrentMinorVersion] zijn om deze update voort te zetten. Upgrade het bestaande systeem of pas de juiste update toe."/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Hiermee maakt en wijzigt u opgemaakte gegevensrapporten (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC-gegevensbronbeheer"/>
+<string id="product.shortcutODBC.description" value="Hiermee worden ODBC-gegevensbronnen en -stuurprogramma's (Open Database Connectivity) toegevoegd, verwijderd en geconfigureerd."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bits gegevensbronbeheer"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Wizard Rapport uploaden"/>
+<string id="product.shortcutWizard.description" value="Wizard Rapport uploaden"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="De nieuwe versie van DataDirect-stuurprogramma 7.1.5 is geïnstalleerd. Raadpleeg de documentatie om de nieuwe versie van het DataDirect-stuurprogramma te migreren."/>
+</context>
+</uitext>

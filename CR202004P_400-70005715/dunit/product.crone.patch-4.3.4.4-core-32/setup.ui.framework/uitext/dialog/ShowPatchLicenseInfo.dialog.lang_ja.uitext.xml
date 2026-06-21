@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="LicenseAgreement" value="新しいライセンスキー要件"/>
+<string id="YouMustAgree" value="#product.fullproductname# の新しいライセンスキーが必要です。"/>
+<string id="SelectLicenseChangeSubtitle" value="#product.fullproductname# の新しいライセンスキーが必要です。"/>
+<string id="IAccept" value="私はマニュアルを読み、新しいライセンスキーを申請する処理を理解したうえで、インストールを更新した後に古いライセンスキーを削除し、新しいライセンスキーを追加することに同意します。"/>
+<string id="subtitle1" value="#product.fullproductname# では新しいライセンスキーが必要です。"/>
+<string id="subtitle2" value="新しいライセンスキーを申請してください。ライセンスキーの申請方法に関する詳細については、以下を参照してください。"/>
+<string id="subtitle3" value="#product.fullproductname# のインストールが完了した後、セントラル管理コンソール (CMC) にログオンし、古いライセンスキーを削除して新しいライセンスキーを追加してください。 新しいライセンスキーが追加されるまで、すべてのサービスは無効化されます。"/>
+<string id="subtitle4" value="ここで新しいライセンスキーを申請します"/>
+<string id="AcceptOrNotAccept" value="古いライセンスキーを削除して新しいライセンスキーを追加することに同意するには、&lt;ENTER&gt; を押してください。"/>
+<string id="Description_Patch_License" value="#product.fullproductname# では新しいライセンスキーが必要です。\n\n新しいライセンスキーを申請してください。ライセンスキーの申請方法の詳細については、&lt;http://scn.sap.com/docs/DOC-70095&gt; を参照してください。\n\n#product.fullproductname# のインストールが完了した後、セントラル管理コンソール (CMC) にログオンし、古いライセンスキーを削除して新しいライセンスキーを追加してください。新しいライセンスキーが追加されるまで、すべてのサービスは無効化されます。"/>
+</context>
+</uitext>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="Title" value="Пофазовая установка"/>
+<string id="SubTitle" value="Кэширование завершено"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Нажмите [Enter] для выхода из пофазовой установки"/>
+<string id="Description" value="Чтобы продолжить установку после кэширования запустите файл установки повторно. Во время установки после кэширования работа системы прерывается. Этот этап установки можно выполнить в период технического обслуживания."/>
+<string id="FinishMessage" value="Нажмите &quot;Готово&quot; для выхода из пофазовой установки."/>
+<string id="Finish" value="Готово"/>
+</context>
+</uitext>

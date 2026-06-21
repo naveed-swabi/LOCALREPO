@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# a fost instalat cu succes."/>
+<string id="SuccessInstallDescription" value="Click pe Terminare pt.a ieşi din această instalare."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# a găsit erori la procesul de instalare."/>
+<string id="FailureInstallDescription" value="Click pe Terminare pt.a ieşi din această instalare."/>
+<string id="SuccessUnInstallTitle" value="Dezinstalare reuşită #product.fullproductnamenospace#."/>
+<string id="SuccessUnInstallDescription" value="Click pe Terminare pt.a ieşi din această dezinstalare."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# a fost instalat cu succes, cu avertizări."/>
+<string id="FailureUnInstallTitle" value="Au apărut erori la proces dezinstalare #product.fullproductnamenospace#."/>
+<string id="FailureUnInstallDescription" value="Click pe Terminare pt.a ieşi din această dezinstalare."/>
+<string id="FinishButton" value="Finalizare"/>
+<string id="ViewLogButton" value="Jurnal imagine"/>
+<string id="LaunchWDeploy" value="Lansare automată instrument WDeploy după instalare."/>
+<string id="LaunchSSW" value="Lansare asistent configurare sistem"/>
+<string id="HyperlinkText" value="Faceţi click aici pentru detalii"/>
+</context>
+</uitext>

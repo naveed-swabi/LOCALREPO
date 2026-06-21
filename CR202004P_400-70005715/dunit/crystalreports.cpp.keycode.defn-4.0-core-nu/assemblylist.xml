@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Crystal Reports\Keycodes">
+    <registryValue name="KeycodeDefinitionFilePath" type="string">[INSTALLDIR]/Crystal Reports Common\BusinessObjects_KCDefinitions_dfo.xml</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r432/win32_x86/release/bin/shared.library.keycode.defn">
+    <file name="BusinessObjects_KCDefinitions_dfo.xml" installdir="[INSTALLDIR]/Crystal Reports Common" size="10206"/>
+  </sourcedir>
+</assembly>

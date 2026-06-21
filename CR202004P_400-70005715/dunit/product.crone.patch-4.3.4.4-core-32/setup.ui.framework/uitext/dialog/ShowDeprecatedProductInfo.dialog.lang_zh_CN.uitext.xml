@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="DeprecatedProductAgreement" value="宣布不赞成使用的产品和功能部件"/>
+<string id="YouMustAgree" value="#Product.fullproductnamenospace# 中已不赞成使用若干产品和功能部件。"/>
+<string id="IAccept" value="我已阅读相关文档并了解 BI 平台不赞成使用产品和功能部件的影响，同意在更新后执行规定的操作。"/>
+<string id="subtitle1" value="BI 4.3 中已不赞成使用 SAP BusinessObjects Explorer 和 SAP BusinessObjects Dashboards 等应用程序。您可以在下面位置查看不赞成使用的应用程序的完整列表并获取该活动的更多信息："/>
+<string id="subtitle2" value="您需要考虑影响，然后按博文中的说明执行规定的操作。"/>
+<string id="AcceptOrNotAccept" value="请按 &lt;ENTER&gt; 表示同意您已阅读相关文档并了解 BI 平台不赞成使用产品和功能部件的影响，并且同意在更新后执行规定的操作。"/>
+<string id="DeprecatedProductDescription" value="BI 4.3 中已不赞成使用 SAP BusinessObjects Explorer 和 SAP BusinessObjects Dashboards 等应用程序。您可以在下面位置查看不赞成使用的应用程序的完整列表并获取该活动的更多信息：https://launchpad.support.sap.com/#/notes/2801797。\n\n您需要考虑影响，然后按博文中的说明执行规定的操作。\n\n"/>
+<string id="CRServiceDescription" value="Linux 和 Unix 上不再支持 SAP Crystal Reports 2020 服务，因此将在本次升级期间移除此服务。但是，SAP Crystal Reports 2020 文档仍将保留在 BI 平台中并仍受支持。要详细了解如何将所需服务分发到 Windows 服务器，请参阅 SAP 知识库文章，网址为 https://launchpad.support.sap.com/#/notes/3032096。"/>
+</context>
+</uitext>

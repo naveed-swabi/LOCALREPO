@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Title" value="Selectare mod instalare"/>
+<string id="SubTitle" value="Selectaţi modul de instalare"/>
+<string id="Standard_InstallationName" value="Instalare standard"/>
+<string id="Standard_InstallationText" value="Instalarea este efectuată într-o singură fază"/>
+<string id="PhaseWise_InstallationName" value="Instalare prin fază"/>
+<string id="PhaseWise_InstallationText" value="Instalarea este efectuată în două faze – &quot;Gestiunea cache&quot; și &quot;Instalarea după gestiune cache&quot;. În timpul gestiunii cache, nu există nicio perioadă de oprire pt. sistem și puteți continua să lucrați în sistem. În cazul instalării după gestiunea cache, software-ul este instalat în sistem o anumită perioadă de oprire a sistemului."/>
+<string id="CachingCompletedSubTitle" value="Gestiune cache terminată"/>
+<string id="Resume_InstallationSubTitle" value="Reluaţi instalarea după gestiunea cache. Instalare după gestiune cache este procesul efectiv de instalare, în care experimentaţi timpul de oprire a sistemului."/>
+<string id="ShowWayOfInstallFooter" value="Apăsaţi []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a instala."/>
+</context>
+</uitext>

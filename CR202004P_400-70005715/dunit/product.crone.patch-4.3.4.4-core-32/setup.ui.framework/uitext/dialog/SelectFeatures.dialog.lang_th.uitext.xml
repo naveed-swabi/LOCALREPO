@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="SelectFeaturesTitle" value="เลือกคุณลักษณะ"/>
+<string id="SelectFeaturesSubtitle" value="เลือกคุณลักษณะที่คุณต้องการติดตั้ง"/>
+<string id="SelectFeaturesFooter" value="กด []Tab], []Up] หรือ []Down] เพื่อไฮไลต์ กด []Space] เพื่อขยาย กด []X] เพื่อทอกเกิลสถานะ กด []Ctrl-B] เพื่อย้อนกลับ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อดำเนินการต่อ"/>
+<string id="DiskCost" value="พื้นที่ดิสก์ที่ใช้"/>
+<string id="Drive Select" value="คุณกำลังเลือก"/>
+<string id="Disk Costing" value="พื้นที่ดิสก์ที่ใช้"/>
+<string id="Volume" value="ปริมาณ"/>
+<string id="Disk Size" value="ขนาดดิสก์"/>
+<string id="Available" value="พร้อมใช้งาน"/>
+<string id="Required" value="จำเป็น"/>
+<string id="Difference" value="ผลต่าง"/>
+<string id="Ok" value="ตกลง"/>
+<string id="Retry" value="ลองใหม่"/>
+<string id="Cancel" value="ยกเลิก"/>
+<string id="Invalid_DiskSpace" value="คุณไม่มีพื้นที่ว่างบนดิสก์เพียงพอที่จะติดตั้งผลิตภัณฑ์ โปรดเพิ่มพื้นที่ว่างบนดิสก์หรือเลือกตำแหน่งติดตั้งอื่น พื้นที่ที่จำเป็นต้องใช้: [RequiredSpace] ไบต์"/>
+</context>
+</uitext>

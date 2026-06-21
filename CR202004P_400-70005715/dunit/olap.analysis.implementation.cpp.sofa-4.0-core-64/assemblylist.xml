@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\OLAP Intelligence\OCCA(o)\Log">
+    <registryValue name="OverWrite" type="string">No</registryValue>
+    <registryValue name="AppendPID" type="string">No</registryValue>
+    <registryValue name="LogFile" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\Logging\SOFA.log</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\OLAP Intelligence\OCCA(o)\Components\OLAPData\essbase">
+    <registryValue name="DLLName" type="string">essbaseproviders</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\OLAP Intelligence\OCCA(o)\Components\OLAPData\odbo">
+    <registryValue name="DLLName" type="string">odboproviders</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/olap.analysis.implementation.cpp">
+    <file name="codata.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="2887168"/>
+    <file name="codata_res.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="91648"/>
+    <file name="coutilities.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="253440"/>
+    <file name="messages_201.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="30208"/>
+    <file name="sofa_common.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1056768"/>
+    <file name="strings_201_zh_CN.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="69120"/>
+    <file name="strings_201_zh_TW.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="69632"/>
+    <file name="strings_201_de.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="138752"/>
+    <file name="strings_201_en.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="120320"/>
+    <file name="strings_201_es.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="132096"/>
+    <file name="strings_201_fr.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="134144"/>
+    <file name="strings_201_it.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="133120"/>
+    <file name="strings_201_ja.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="85504"/>
+    <file name="strings_201_ko.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="85504"/>
+    <file name="strings_201_nl.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="138752"/>
+    <file name="strings_201_pl.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="126976"/>
+    <file name="strings_201_pt.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="128512"/>
+    <file name="strings_201_ru.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="130560"/>
+    <file name="strings_201_sv.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="125440"/>
+    <file name="support_dll.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="282112"/>
+    <file name="utilities_common.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="124928"/>
+    <file name="essbaseapi11_1_2_4.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="67072"/>
+    <file name="essbaseproviders.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="20480"/>
+    <file name="sofa_essbase.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1262592"/>
+    <file name="msolap7qg.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="166400"/>
+    <file name="msolap8qg.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="162816"/>
+    <file name="msolap9qg.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="169472"/>
+    <file name="msolap10qg.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="170496"/>
+    <file name="odboproviders.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="118272"/>
+    <file name="sofa_odbo.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="1550336"/>
+  </sourcedir>
+</assembly>

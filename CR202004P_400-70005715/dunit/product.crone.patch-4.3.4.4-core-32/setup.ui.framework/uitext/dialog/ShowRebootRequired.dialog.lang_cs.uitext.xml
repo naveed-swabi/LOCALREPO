@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="RebootWarning" value="Některé soubory byly při instalaci zamčeny, aby se zabránilo jejich aktualizaci. Restart systému můžete provést později, ale důrazně se doporučuje restartovat před zahájením používání produktu."/>
+<string id="RebootQuestion" value="Chcete nyní restartovat počítač?"/>
+<string id="RestartLater" value="Restartovat později"/>
+<string id="RestartNow" value="Restartovat nyní"/>
+</context>
+</uitext>

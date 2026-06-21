@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="progress.BWRegServer" value="Konfiguruje sa súčasť SAP na integráciu"/>
+<string id="progress.BWUnregServer" value="Konfiguruje sa súčasť SAP na integráciu"/>
+</context>
+</uitext>

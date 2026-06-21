@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><CrystalReportEngine-configuration>
+    <timeout>10</timeout>
+    
+    <ExternalFunctionLibraryClassNames> 
+		<classname> </classname>
+		<classname> </classname>
+    </ExternalFunctionLibraryClassNames>
+    
+<CommonBinDir>%COMMONVERDIR%bin</CommonBinDir>
+
+<Javaserver-configuration>
+<DataDriverCommon>
+	<JavaDir32>${JAVA_HOME_32}sapjvm/bin</JavaDir32>
+	<JavaDir64>${JAVA_HOME_64}bin</JavaDir64>
+    <Classpath>%COMMONVERDIR%java/lib/crlovmanifest.jar;%COMMONVERDIR%java/lib/CRLOVExternal.jar;%COMMONVERDIR%java/lib/CRDBJDBCServer.jar;%COMMONVERDIR%java/lib/CRDBXMLServer.jar;%COMMONVERDIR%java/lib/CRDBJavaBeansServer.jar;%COMMONVERDIR%java/lib/external/log4j-api.jar;%COMMONVERDIR%java/lib/external/log4j-core.jar;%COMMONVERDIR%java/lib/CRDBWicServer.jar;%COMMONVERDIR%java/lib/external/CRDBWicExternal.jar;%COMMONVERDIR%java/lib/external/CRDBXMLExternal.jar;%COMMONVERDIR%java/lib/CRDBODATAServer.jar;%COMMONVERDIR%java/lib/external/CRDBODATAExternal.jar;${CLASSPATH}</Classpath>
+	<IORFileLocation>${TEMP}</IORFileLocation>
+	<JavaServerTimeout>1800</JavaServerTimeout>
+	<JavaServerStartupTimeout>30</JavaServerStartupTimeout>
+	<CORBAConnectionTimeout>600</CORBAConnectionTimeout>
+	<JVMMaxHeap>64000000</JVMMaxHeap>
+	<JVMMinHeap>32000000</JVMMinHeap>
+	<NumberOfThreads>100</NumberOfThreads>
+	<UseProxy>FALSE</UseProxy>
+	<ProxyAddress></ProxyAddress>
+	<ProxyPort></ProxyPort>
+	<ProxyUsername></ProxyUsername>
+	<ProxyPassword></ProxyPassword>
+</DataDriverCommon>
+<JDBC>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<JDBCURL></JDBCURL>
+	<JDBCClassName></JDBCClassName>
+	<JDBCUserName></JDBCUserName>
+	<JNDIURL></JNDIURL>
+	<JNDIConnectionFactory></JNDIConnectionFactory>
+	<JNDIInitContext>/</JNDIInitContext>
+	<JNDIUserName>weblogic</JNDIUserName>
+	<GenericJDBCDriver>
+		<Default>
+			<ServerType>UNKNOWN</ServerType>
+			<QuoteIdentifierOnOff>ON</QuoteIdentifierOnOff>
+			<StoredProcType>Standard</StoredProcType>
+			<LogonStyle>Standard</LogonStyle>
+		</Default>
+		<Sybase>
+			<ServerType>SYBASE</ServerType>
+			<QuoteIdentifierOnOff>OFF</QuoteIdentifierOnOff>
+			<DriverClassName>com.sybase.jdbc2.jdbc.SybDriver</DriverClassName>
+			<StoredProcType>Standard</StoredProcType>
+			<LogonStyle>MySQL</LogonStyle>
+		</Sybase>
+	</GenericJDBCDriver>
+</JDBC>
+<XML>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<PreReadNBytes>4096</PreReadNBytes>
+	<MaxCacheXMLSize>153600</MaxCacheXMLSize>
+	<XMLLocalURL></XMLLocalURL>
+	<SchemaLocalURL></SchemaLocalURL>
+	<XMLHttpURL></XMLHttpURL>
+	<SchemaHttpURL></SchemaHttpURL>
+	<RepositoryPath>%COMMONVERDIR%java/lib/external</RepositoryPath>
+	<ExternalNamespace>%COMMONVERDIR%java/xsd/wsdl.xsd;%COMMONVERDIR%java/xsd/wsdl_encoding.xsd</ExternalNamespace>
+	<SocketTimeout>60000</SocketTimeout>
+</XML>
+<JavaBeans>
+    <CacheRowSetSize>100</CacheRowSetSize>
+	<JavaBeansClassPath></JavaBeansClassPath>
+	<CallBackFunction>CrystalReportsLogoff</CallBackFunction>
+</JavaBeans>
+<SForce>
+         <CacheRowSetSize>100</CacheRowSetSize>
+         <QueryBatchSize>2000</QueryBatchSize>
+         <SocketTimeout>600000</SocketTimeout>
+         <BatchLookupCacheJoinSize>200</BatchLookupCacheJoinSize>
+</SForce>
+<ODATA>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<ODATAURL></ODATAURL>
+	<Username></Username>
+	<Password></Password>
+</ODATA>
+</Javaserver-configuration>
+
+</CrystalReportEngine-configuration>

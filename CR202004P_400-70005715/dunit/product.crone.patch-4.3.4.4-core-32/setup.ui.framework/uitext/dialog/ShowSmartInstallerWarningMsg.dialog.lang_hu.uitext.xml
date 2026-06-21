@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="A sikeres telepítés érdekében ellenőrizze, hogy helyes-e a megadott telepítési útvonal. \n\n Új telepítés esetén ez egy új fájlkönyvtár. \n Javítás telepítése esetén ez a(z) #productname# előző verziójának telepítési könyvtára. \n\n\n A folytatáshoz kattintson az OK gombra, vagy kattintson a Kilépés gombra a helyes telepítési útvonal megadásához. \n"/>
+<string id="ExitMessage" value="A kilépéshez nyomja meg a Ctrl+X billentyűkombinációt; a folytatáshoz nyomja meg az Enter billentyűt."/>
+<string id="WarnDialogTitle" value="INFORMÁCIÓS PÁRBESZÉDPANEL"/>
+<string id="WarnDialogSubtitle" value="Információ:"/>
+</context>
+</uitext>

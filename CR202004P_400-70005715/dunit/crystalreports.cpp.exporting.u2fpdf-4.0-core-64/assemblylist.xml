@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Crystal Reports\Export\Pdf">
+    <registryValue name="ForceLargerFonts" type="dword">1</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="crxf_pdf.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="605696"/>
+    <file name="grouptreemodeller.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="113664"/>
+  </sourcedir>
+</assembly>

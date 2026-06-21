@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="SetLCMConfigTitle" value="Configure Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Enter the port and user name for the Subversion version control system."/>
+<string id="repoInfoGroup" value="Subversion Repository Information"/>
+<string id="repoName" value="Repository Name:"/>
+<string id="repoPort" value="Repository Port:"/>
+<string id="repoPortInline" value="Subversion Port:"/>
+<string id="repoUserInfoGroup" value="Subversion Repository User Information"/>
+<string id="repoUserName" value="Repository User Account:"/>
+<string id="repoUserPass" value="Repository Account Password:"/>
+<string id="repoUserPassInline" value="Repository User Account Password:"/>
+<string id="repoUserPass2" value="Confirm Password:"/>
+<string id="Mismatch_LCMPassword" value="Passwords do not match. Please verify and try again. INS00267"/>
+<string id="Invalid_LCMPassword" value="The password is too simple. Password must be at least six characters long and must always contain at least two of the following character classes: upper case letters and lower case letters. INS00127"/>
+</context>
+</uitext>

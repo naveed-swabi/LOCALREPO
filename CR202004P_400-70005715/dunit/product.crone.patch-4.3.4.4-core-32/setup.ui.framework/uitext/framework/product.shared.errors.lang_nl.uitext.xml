@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="nl"/>
+  <context>
+    <string id="INS00270" value="MSI-fout %1 opgetreden tijdens installatie van %2. (INS00270)"/>
+    <string id="INS00271" value="MSI-fout %1 opgetreden bij verwijderen van %2. (INS00271)"/>
+    <string id="INS00272" value="Fout %1 opgetreden in bestand %2 tijdens installatie van %3. (INS00272)"/>
+    <string id="INS00273" value="Fout (%1) opgetreden in bestand %2 bij verwijderen van %3. (INS00273)"/>
+  </context>
+</uitext>

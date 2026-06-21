@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="LicenseAgreement" value="Žiadosť o nový licenčný kľúč"/>
+<string id="YouMustAgree" value="Vyžaduje sa nový licenčný kľúč pre produkt #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="Vyžaduje sa nový licenčný kľúč pre produkt #product.fullproductname#."/>
+<string id="IAccept" value="Dokumentáciu mám prečítanú, rozumiem procesu požiadania o nový licenčný kľúč a súhlasím s odstránením starého licenčného kľúča a pridaním nového licenčného kľúča po inštalácii aktualizácie."/>
+<string id="subtitle1" value="#product.fullproductname# vyžaduje nový licenčný kľúč."/>
+<string id="subtitle2" value="Požiadajte o nový licenčný kľúč. Ďalšie informácie o tom, ako požiadať o licenčný kľúč, nájdete na stránke"/>
+<string id="subtitle3" value="Po dokončení inštalácie produktu #product.fullproductname# sa prihláste do centrálnej riadiacej konzoly (CMC), odstráňte starý licenčný kľúč a pridajte nový licenčný kľúč. Všetky služby budú až do pridania nového licenčného kľúča deaktivované."/>
+<string id="subtitle4" value="Tu požiadať o nový licenčný kľúč"/>
+<string id="AcceptOrNotAccept" value="Ak súhlasíte s odstránením starého licenčného kľúča a pridaním nového licenčného kľúča po inštalácii aktualizácie, stlačte kláves &lt;ENTER&gt;."/>
+<string id="Description_Patch_License" value="#product.fullproductname# vyžaduje nový licenčný kľúč.\n\nPožiadajte o nový licenčný kľúč. Ďalšie informácie o tom, ako požiadať o licenčný kľúč, nájdete na stránke http://scn.sap.com/docs/DOC-70095. \n\nPo dokončení inštalácie produktu #product.fullproductname# sa prihláste do centrálnej riadiacej konzoly (CMC), odstráňte starý licenčný kľúč a pridajte nový licenčný kľúč. Všetky služby budú až do pridania nového licenčného kľúča deaktivované."/>
+</context>
+</uitext>

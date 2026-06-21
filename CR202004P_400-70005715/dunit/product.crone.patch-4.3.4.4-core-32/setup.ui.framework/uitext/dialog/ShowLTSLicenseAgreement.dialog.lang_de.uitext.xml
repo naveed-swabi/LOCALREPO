@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="NotAcceptedEULA" value="Sie müssen die Endbenutzer-Lizenzvereinbarung akzeptieren. Das Programm wird beendet."/>
+<string id="LicenseAgreement" value="Lizenzvereinbarung"/>
+<string id="YouMustAgree" value="Sie müssen die Lizenzbedingungen akzeptieren, um fortfahren zu können."/>
+<string id="IAccept" value="Ich stimme der Lizenzvereinbarung zu"/>
+<string id="IDoNotAccept" value="Ich stimme der Lizenzvereinbarung nicht zu"/>
+<string id="Invalid_IsAcceptEULA" value="Ungültiger Wert für IsAcceptEULA ([IsAcceptEULA]): Gültiger Wert ist 1"/>
+<string id="AcceptOrNotAccept" value="Wählen Sie zum Akzeptieren die &lt;EINGABETASTE&gt;, zum Ablehnen &lt;STRG-X&gt;"/>
+</context>
+</uitext>

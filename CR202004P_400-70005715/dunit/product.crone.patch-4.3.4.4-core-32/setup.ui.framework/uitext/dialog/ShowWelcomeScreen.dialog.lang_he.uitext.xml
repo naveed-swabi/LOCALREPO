@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="Message" value="Welcome to the installation wizard for #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Welcome Screen"/>
+<string id="ShowWelcomeScreenSubtitle" value="Welcome to the installation wizard for #product.fullproductnamenospace#."/>
+<string id="Description" value="It is strongly recommended that you exit all Windows programs before running this setup program.\n\nClick Cancel to quit Setup and close any program you have running. Click Next to continue with the Setup program.\n\nWARNING: This program is protected by copyright law and international treaties.\n\n\nUnauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law."/>
+<string id="Description_unix" value="WARNING: This program is protected by copyright law and international treaties.\n\n\nUnauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law.\n\n\nNOTE : For more information on supported platforms, please visit http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Press []Ctrl-B] to go back, []Ctrl-X] to quit, or []Enter] to continue."/>
+<string id="PamHyperLinkWelcome" value="For more information on supported platforms, please visit"/>
+</context>
+</uitext>

@@ -1,0 +1,1072 @@
+<?xml version="1.0"?>
+<productSequences>
+  <productSequence>
+    <property id="PerUserInstall" value="false"/>
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Installer\Aurora"/>
+      <arg name="RegistryName" value="path"/>
+      <arg name="RegistryType" value="0"/>
+      <arg name="PropertyName" value="InstallDirFromRegistry"/>
+    </action>
+    <branch>
+      <productSequence>
+        <condition isset="InstallDirFromRegistry"/>
+        <property id="IsRootDirFinalized" value="true"/>
+        <property id="InstallDir" value="[InstallDirFromRegistry]"/>
+      </productSequence>
+      <productSequence>
+        <condition>
+          <not>
+            <condition isset="InstallDir"/>
+          </not>
+        </condition>
+        <action id="ProductOSDefaultInstallLocation">
+          <arg name="PerUserInstall" value="[PerUserInstall]"/>
+          <arg name="PropertyName" value="InstallDir"/>
+        </action>
+        <property id="ShowInstallDirDlg" value="true"/>
+      </productSequence>
+    </branch>
+    <branch>
+      <productSequence>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v1.1.4322"/>
+          <arg name="RegistryName" value="Install"/>
+          <arg name="RegistryType" value="2"/>
+          <arg name="PropertyName" value="MsiNetAssembly11"/>
+        </action>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v1.1.4322"/>
+          <arg name="RegistryName" value="Install"/>
+          <arg name="RegistryType" value="18"/>
+          <arg name="PropertyName" value="MsiNetAssembly11_64"/>
+        </action>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727"/>
+          <arg name="RegistryName" value="Install"/>
+          <arg name="RegistryType" value="18"/>
+          <arg name="PropertyName" value="MsiNetAssembly20_64"/>
+        </action>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727"/>
+          <arg name="RegistryName" value="Install"/>
+          <arg name="RegistryType" value="2"/>
+          <arg name="PropertyName" value="MsiNetAssembly20"/>
+        </action>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5"/>
+          <arg name="RegistryName" value="Install"/>
+          <arg name="RegistryType" value="18"/>
+          <arg name="PropertyName" value="MsiNetAssembly35_64"/>
+        </action>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5"/>
+          <arg name="RegistryName" value="InstallSuccess"/>
+          <arg name="RegistryType" value="2"/>
+          <arg name="PropertyName" value="MsiNetAssembly35"/>
+        </action>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full"/>
+          <arg name="RegistryName" value="Install"/>
+          <arg name="RegistryType" value="18"/>
+          <arg name="PropertyName" value="MsiNetAssembly40_64"/>
+        </action>
+        <action id="RegistrySearch">
+          <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full"/>
+          <arg name="RegistryName" value="Install"/>
+          <arg name="RegistryType" value="2"/>
+          <arg name="PropertyName" value="MsiNetAssembly40"/>
+        </action>
+      </productSequence>
+    </branch>
+  </productSequence>
+  <productSequence>
+    <action id="SortAvailableSetupLanguages"/>
+    <action id="SetWindowsSystemFolderProps"/>
+    <branch>
+      <productSequence>
+        <condition property="$InstallMode" value="new"/>
+        <dialogRef2 id="SelectUILanguage.dialog"/>
+        <action id="DrLocator">
+          <arg name="Directory" value="[$env$R_SHLIB_LD_LIBRARY_PATH]\"/>
+          <arg name="FileName" value="cryptocme2.dll"/>
+          <arg name="MinVersion" value=""/>
+          <arg name="MaxVersion" value="2.65535.65535.65535"/>
+          <arg name="Depth" value="1"/>
+          <arg name="PropertyName" value="FoundOlderRSADLL"/>
+        </action>
+        <action id="DrLocator">
+          <arg name="Directory" value="[$env$R_SHLIB_LD_LIBRARY_PATH]\"/>
+          <arg name="FileName" value="cryptocme2.dll"/>
+          <arg name="MinVersion" value="3.0.0.0"/>
+          <arg name="MaxVersion" value=""/>
+          <arg name="Depth" value="1"/>
+          <arg name="PropertyName" value="FoundNewerRSADLL"/>
+        </action>
+        <branch>
+          <productSequence>
+            <condition>
+              <and>
+                <condition property="FoundOlderRSADLL" value="false"/>
+                <condition property="FoundNewerRSADLL" value="false"/>
+              </and>
+            </condition>
+            <action id="DrLocator">
+              <arg name="Directory" value="[$env$R_SHLIB_LD_LIBRARY_PATH]\"/>
+              <arg name="FileName" value="cryptocme2.dll"/>
+              <arg name="MinVersion" value=""/>
+              <arg name="MaxVersion" value=""/>
+              <arg name="Depth" value="1"/>
+              <arg name="PropertyName" value="FoundOlderRSADLL"/>
+            </action>
+          </productSequence>
+        </branch>
+        <branch>
+          <productSequence>
+            <condition>
+              <and>
+                <not>
+                  <condition property="$env$R_SHLIB_LD_LIBRARY_PATH" value=""/>
+                </not>
+                <condition property="FoundOlderRSADLL" value="true"/>
+              </and>
+            </condition>
+            <dialogRef2 id="ShowMessageSimple.dialog">
+              <arg name="DialogType" value="warning"/>
+              <arg name="UnformattedMessage" value="#OlderCryptoDllFound#"/>
+              <arg name="Hyperlink" value="file://[$ui.resources.dir]release_note_crypto.rtf"/>
+              <arg name="HyperlinkName" value="release_note_crypto.rtf"/>
+            </dialogRef2>
+          </productSequence>
+        </branch>
+        <productSequence>
+          <condition property="ShowInstallDirDlg" value="true"/>
+          <dialogRef2 id="ChooseInstallDir.dialog"/>
+        </productSequence>
+        <dialogRef2 id="CheckPreRequisites.dialog"/>
+        <action id="CheckForBlockingProductPreReqs"/>
+        <branch>
+          <productSequence>
+            <condition property="HasBlockingPreReq" value="1"/>
+            <property id="SharedAlwaysFailureMessage" value="#Failure.Because.Critical.PreReq.Does.Not.Pass#"/>
+            <dialogRef2 id="SharedAlwaysFailure.dialog"/>
+          </productSequence>
+        </branch>
+        <dialogRef2 id="ShowWelcomeScreen.dialog"/>
+        <dialogRef2 id="ShowLicenseAgreement.dialog"/>
+        <dialogRef2 id="CREnterProductKey.dialog">
+          <validatorRef id="ValidateProductKey" severity="block" errormsg="#Invalid_ProductKey#" waitMsg="">
+            <arg name="ProductKey" value="[ProductKey]"/>
+            <arg name="KeyTypes" value="CR.EnableCR:143"/>
+          </validatorRef>
+        </dialogRef2>
+        <action id="SetSelectedLangPacks">
+          <arg name="RequiredLangPacks" value="en;[SetupUILanguage]"/>
+        </action>
+        <dialogRef2 id="SelectLanguagePack.dialog"/>
+        <dialogRef2 id="ChooseInstallType2.dialog"/>
+        <branch>
+          <productSequence>
+            <condition property="InstallType" value="default"/>
+          </productSequence>
+          <productSequence>
+            <condition property="InstallType" value="custom"/>
+            <dialogRef2 id="SelectFeatures.dialog"/>
+          </productSequence>
+        </branch>
+        <productSequence>
+          <condition isset="DisableJRE"/>
+          <action id="turnofffeature">
+            <arg name="State" value="NoChange"/>
+            <arg name="FeatureID" value="JRE"/>
+          </action>
+          <action id="turnofffeature">
+            <arg name="State" value="uninstall"/>
+            <arg name="FeatureID" value="JDE"/>
+          </action>
+          <action id="turnofffeature">
+            <arg name="State" value="uninstall"/>
+            <arg name="FeatureID" value="SIEBEL"/>
+          </action>
+          <action id="turnofffeature">
+            <arg name="State" value="uninstall"/>
+            <arg name="FeatureID" value="SFORCE"/>
+          </action>
+          <action id="turnofffeature">
+            <arg name="State" value="uninstall"/>
+            <arg name="FeatureID" value="XML"/>
+          </action>
+        </productSequence>
+        <productSequence>
+          <condition>
+            <or>
+              <condition property="MsiNetAssembly20" value="1"/>
+              <condition property="MsiNetAssembly20_64" value="1"/>
+              <condition property="MsiNetAssembly35_64" value="1"/>
+              <condition property="MsiNetAssembly35" value="1"/>
+              <condition property="MsiNetAssembly40_64" value="1"/>
+              <condition property="MsiNetAssembly40" value="1"/>
+            </or>
+          </condition>
+          <action id="ChangeFeatureState">
+            <arg name="State" value="Install"/>
+            <arg name="FeatureID" value="ADO_DOT_NET_Interop"/>
+          </action>
+          <action id="ChangeFeatureState">
+            <arg name="State" value="Install"/>
+            <arg name="FeatureID" value="ADO.NET"/>
+          </action>
+        </productSequence>
+        <productSequence>
+          <condition>
+            <and>
+              <not>
+                <condition property="MsiNetAssembly11" value="1"/>
+              </not>
+              <not>
+                <condition property="MsiNetAssembly11_64" value="1"/>
+              </not>
+              <not>
+                <condition property="MsiNetAssembly20" value="1"/>
+              </not>
+              <not>
+                <condition property="MsiNetAssembly20_64" value="1"/>
+              </not>
+              <not>
+                <condition property="MsiNetAssembly35_64" value="1"/>
+              </not>
+              <not>
+                <condition property="MsiNetAssembly35" value="1"/>
+              </not>
+              <not>
+                <condition property="MsiNetAssembly40_64" value="1"/>
+              </not>
+              <not>
+                <condition property="MsiNetAssembly40" value="1"/>
+              </not>
+            </and>
+          </condition>
+          <action id="turnofffeature">
+            <arg name="State" value="uninstall"/>
+            <arg name="FeatureID" value="mswse"/>
+          </action>
+        </productSequence>
+        <dialogRef2 id="ShowInstallSummary.dialog"/>
+      </productSequence>
+      <productSequence>
+        <condition property="$InstallMode" value="upgrade"/>
+        <property id="SharedAlwaysFailureMessage" value="#NoPatchWithPackageInstall#"/>
+        <dialogRef2 id="SharedAlwaysFailure.dialog"/>
+      </productSequence>
+      <productSequence>
+        <condition property="$InstallMode" value="maintenance"/>
+        <dialogRef2 id="RunMaintenance.dialog"/>
+        <branch>
+          <productSequence>
+            <condition property="MaintenanceMode" value="modify"/>
+            <dialogRef2 id="SelectLanguagePack.dialog"/>
+            <dialogRef2 id="SelectFeatures.dialog"/>
+            <dialogRef2 id="ShowInstallSummary.dialog"/>
+          </productSequence>
+          <productSequence>
+            <condition property="MaintenanceMode" value="remove"/>
+            <dialogRef2 id="VerifyToRemove.dialog"/>
+            <action id="ChangeFeatureState">
+              <arg name="FeatureID" value="CrystalReportsRoot"/>
+              <arg name="State" value="Uninstall"/>
+            </action>
+          </productSequence>
+          <productSequence>
+            <condition property="MaintenanceMode" value="repair"/>
+            <dialogRef2 id="ShowInstallSummary.dialog"/>
+            <action id="ChangeFeatureState">
+              <arg name="FeatureID" value="CrystalReportsRoot"/>
+              <arg name="State" value="Repair"/>
+            </action>
+          </productSequence>
+        </branch>
+      </productSequence>
+      <productSequence>
+        <condition property="$InstallMode" value="uninstall"/>
+        <dialogRef2 id="VerifyToRemove.dialog">
+          <arg name="DialogArgument" value="ARPRemove"/>
+        </dialogRef2>
+      </productSequence>
+    </branch>
+    <branch>
+      <productSequence>
+        <condition property="$instance$OEMZips$installing" value="nochange"/>
+        <action id="ChangeFeatureState">
+          <arg name="State" value="Repair"/>
+          <arg name="FeatureID" value="OEMZips"/>
+        </action>
+      </productSequence>
+    </branch>
+  </productSequence>
+  <productSequence>
+    <branch>
+      <productSequence>
+        <condition>
+          <and>
+            <condition property="$InstallMode" value="new"/>
+            <condition property="$wasCanceled" value="false"/>
+          </and>
+        </condition>
+        <action id="RunCommand" actionText="">
+          <arg name="CmdLine" value="cmd /c &quot;cd &quot;[InstallDir]SAP BusinessObjects Enterprise XI 4.0\win64_x64&quot; &amp;&amp; echo f | &quot;RegisterKeycode.exe&quot; &quot;[ProductKey]&quot; &quot;SOFTWARE\\SAP BusinessObjects\\Suite XI 4.0\\Crystal Reports\\Keycodes\\CR Dev&quot;&quot;"/>
+          <arg name="LogCmdLine" value="yes"/>
+          <arg name="SensitiveData" value="[ProductKey]"/>
+        </action>
+        <dialogRef2 id="ShowInstallComplete.dialog"/>
+      </productSequence>
+      <productSequence>
+        <condition property="$InstallMode" value="uninstall"/>
+        <dialogRef2 id="ShowUninstallComplete.dialog"/>
+      </productSequence>
+      <productSequence>
+        <condition property="MaintenanceMode" value="remove"/>
+        <dialogRef2 id="ShowUninstallComplete.dialog"/>
+      </productSequence>
+      <productSequence>
+        <condition property="MaintenanceMode" value="repair"/>
+        <dialogRef2 id="ShowInstallComplete.dialog"/>
+      </productSequence>
+      <productSequence>
+        <condition property="MaintenanceMode" value="modify"/>
+        <dialogRef2 id="ShowInstallComplete.dialog"/>
+      </productSequence>
+    </branch>
+    <branch>
+      <productSequence>
+        <condition property="RunPatchUpdate" value="1"/>
+        <action id="RunCommand">
+          <arg name="CmdLine" value="&quot;[CommonAppData]Macrovision\FLEXnet Connect\6\agent.exe&quot; &quot;-sn{714F0131-6905-46C7-9875-C87B8AA1740B} -EndOfInstall&quot;"/>
+        </action>
+      </productSequence>
+    </branch>
+  </productSequence>
+  <dialogDeclaration2 id="ChooseInstallDir_CR.dialog">
+    <source type="sharedlib" name="CRDialogs2.dll">
+      <execute entryPoint="CRDialog"/>
+    </source>
+    <param name="InstallDir" default="[INSTALLDIR]"/>
+    <output id="INSTALLDIR" property="InstallDir"/>
+    <validatorRef id="ValidateInstallDir" severity="block" errorMsg="#Invalid_InstallDirWindows#" waitMsg="">
+      <arg name="InstallDir" value="[INSTALLDIR]"/>
+      <arg name="IsRootDirFinalized" value="[IsRootDirFinalized]"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ChooseInstallType2.dialog">
+    <source type="sharedlib" name="CRDialogs2.dll">
+      <execute entryPoint="CRDialog"/>
+    </source>
+    <param name="InstallType" default="[INSTALLType]"/>
+    <output id="INSTALLTYPE" property="InstallType"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errorMsg="#Invalid_InstallType#" waitMsg="">
+      <arg name="valueToCheck" value="[INSTALLType]"/>
+      <arg name="delimitedOkayValues" value="default,custom"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowPrivacyStatement.dialog">
+    <source type="sharedlib" name="CRDialogs2.dll">
+      <execute entryPoint="CRDialog"/>
+    </source>
+    <param name="SetupUILanguage" default="[SetupUILanguage]"/>
+    <param name="DISABLEWEBUPDATESERVICE" default="[DISABLEWEBUPDATESERVICE]"/>
+    <output id="DISABLEWEBUPDATESERVICE" property="DISABLEWEBUPDATESERVICE"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowMessageSimple.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="ShowMessageDialogSimple"/>
+    </source>
+    <param name="DialogType" default="Error"/>
+    <param name="UnformattedMessage"/>
+    <param name="Hyperlink" default=""/>
+    <param name="HyperlinkName" default=""/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowProductInstalledOld.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowInstallCompleteLaunchWDeploy.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="IsUninstall" default=""/>
+    <param name="EnableBackButton" default="true"/>
+    <param name="LaunchWDeploy" default="[LaunchWDeploy]"/>
+    <output id="LaunchWDeploy" property="LaunchWDeploy"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SharedAlwaysFailure.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#AlwaysFailureGeneralMessage#">
+      <arg name="valueToCheck" value="Always"/>
+      <arg name="delimitedOkayValues" value="Fail"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="CheckPreRequisites.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+    <param name="CheckPreRequisiteRetry" default="[CheckPreRequisiteRetry]"/>
+    <param name="CurrentInstalledVersionBelowSpecifiedVersion" default="[CurrentInstalledVersionBelowSpecifiedVersion]"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ChooseInstallDir.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="IsRootDirFinalized" default="[IsRootDirFinalized]"/>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <output id="InstallDir" property="InstallDir"/>
+    <validatorRef id="ValidateInstallDir" severity="block" errormsg="#Invalid_InstallDirWindows#" waitMsg="">
+      <arg name="InstallDir" value="[INSTALLDIR]"/>
+      <arg name="IsRootDirFinalized" value="[IsRootDirFinalized]"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ChooseLTSAddonInstallDir.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="IsRootDirFinalized" default="[IsRootDirFinalized]"/>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <output id="InstallDir" property="InstallDir"/>
+    <validatorRef id="ValidateInstallDir" severity="block" errormsg="#Invalid_InstallDirWindows#" waitMsg="">
+      <arg name="InstallDir" value="[INSTALLDIR]"/>
+      <arg name="IsRootDirFinalized" value="[IsRootDirFinalized]"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ChooseLTSInstallDir.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="IsRootDirFinalized" default="[IsRootDirFinalized]"/>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="LTSAdminPassword" default="[LTSAdminPassword]"/>
+    <param name="LTSAdminUserName" property="[LTSAdminUserName]"/>
+    <output id="InstallDir" property="InstallDir"/>
+    <output id="LTSAdminPassword" property="LTSAdminPassword"/>
+    <output id="SQLAnywhereAdminPassword" property="SQLAnywhereAdminPassword"/>
+    <output id="CMSPassword" property="CMSPassword"/>
+    <output id="LTSAdminUserName" property="LTSAdminUserName"/>
+    <output id="InstallType" property="InstallType"/>
+    <output id="SelectIntegratedDatabase" property="SelectIntegratedDatabase"/>
+    <output id="WebAppServerType" property="WebAppServerType"/>
+    <output id="SMDAgent_HOST" property="SMDAgent_HOST"/>
+    <output id="SMDAgent_PORT" property="SMDAgent_PORT"/>
+    <output id="ChooseSMDIntegration" property="ChooseSMDIntegration"/>
+    <output id="Introscope_ENT_HOST" property="Introscope_ENT_HOST"/>
+    <output id="Introscope_ENT_PORT" property="Introscope_ENT_PORT"/>
+    <output id="ChooseIntroscopeIntegration" property="ChooseIntroscopeIntegration"/>
+    <output id="ClusterKey" property="ClusterKey"/>
+    <output id="productkey" property="productkey"/>
+    <validatorRef id="ValidateInstallDir" severity="block" errormsg="#Invalid_InstallDirWindows#" waitMsg="">
+      <arg name="InstallDir" value="[INSTALLDIR]"/>
+      <arg name="IsRootDirFinalized" value="[IsRootDirFinalized]"/>
+    </validatorRef>
+    <validatorRef id="ValidateCheckInvalidSymbol" severity="block" errormsg="#Invalid_SymbolInPassword#">
+      <arg name="ValueToCheck" value="[LTSAdminPassword]"/>
+      <arg name="EscapeCharacterList" value=""/>
+    </validatorRef>
+    <validatorRef id="ValidateCMSPassword" severity="block" errormsg="#AdminPasswordNotStrong#">
+      <arg name="Password" value="[LTSAdminPassword]"/>
+    </validatorRef>
+    <validatorRef id="ValidateTeamServerDiskSpace" severity="block" errormsg="#Invalid_DiskSpace#" waitMsg="">
+      <arg name="InstallDir" value="[INSTALLDIR]"/>
+      <arg name="RequiredSpace" value="3"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ChooseInstallUpgrade.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="InstallCompatibilityMode" default="[InstallCompatibilityMode]"/>
+    <output id="InstallCompatibilityMode" property="InstallCompatibilityMode"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_InstallMode#">
+      <arg name="valueToCheck" value="[InstallCompatibilityMode]"/>
+      <arg name="delimitedOkayValues" value="upgrade,sidebyside"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ChooseSldServer.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="SolMgr_Loc" default="[SolMgr_Loc]"/>
+    <param name="SolMgr_Port" default="[SolMgr_Port]"/>
+    <param name="SolMgr_Username" default="[SolMgr_Username]"/>
+    <param name="SolMgr_Password" default="[SolMgr_Password]"/>
+    <output id="SolMgr_Loc" property="SolMgr_Loc"/>
+    <output id="SolMgr_Port" property="SolMgr_Port"/>
+    <output id="SolMgr_Username" property="SolMgr_Username"/>
+    <output id="SolMgr_Password" property="SolMgr_Password"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ChooseUpgrade.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ChooseSimpleUpgrade" default="[ChooseSimpleUpgrade]"/>
+    <output id="ChooseSimpleUpgrade" property="ChooseSimpleUpgrade"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_ChooseUpgrade#">
+      <arg name="valueToCheck" value="[ChooseSimpleUpgrade]"/>
+      <arg name="delimitedOkayValues" value="0;1"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="CREnterProductKey.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ProductKey" default="[ProductKey]"/>
+    <output id="ProductKey" property="ProductKey"/>
+    <validatorRef id="ValidateProductKey" severity="block" errormsg="#Invalid_ProductKey#" waitMsg="">
+      <arg name="ProductKey" value="[ProductKey]"/>
+      <arg name="KeyTypes" value="CR.EnableCR;XC.EnableAddOn"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="EnterProductKey.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ProductKey" default="[ProductKey]"/>
+    <output id="ProductKey" property="ProductKey"/>
+    <validatorRef id="ValidateProductKey" severity="block" errormsg="#Invalid_ProductKey#" waitMsg="">
+      <arg name="ProductKey" value="[ProductKey]"/>
+      <arg name="KeyTypes" value="BOE.EnableBOE"/>
+      <arg name="InvalidKeycodeCharacterList" value="&lt;&gt;&quot;&amp;'"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowPatchLicenseInfo.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowPatchLicenseInfoCR2020.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowDeprecatedProductInfo.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="CRServicesDeprecated" default="[CRServicesDeprecated]"/>
+    <param name="CurrentInstalledProductBelow43_SP0" default="[CurrentInstalledProductBelow43_SP0]"/>
+    <param name="CurrentInstalledProductBelow43_SP2" default="[CurrentInstalledProductBelow43_SP2]"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="RASEnterProductKey.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ProductKey" default="[ProductKey]"/>
+    <output id="ProductKey" property="ProductKey"/>
+    <validatorRef id="ValidateProductKey" severity="block" errormsg="#Invalid_ProductKey#" waitMsg="">
+      <arg name="ProductKey" value="[ProductKey]"/>
+      <arg name="KeyTypes" value="RAS.EnableRASStandalone"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="RunMaintenance.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="MaintenanceMode" default="[MaintenanceMode]"/>
+    <param name="DialogArgument" default=""/>
+    <output id="MaintenanceMode" property="MaintenanceMode"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_Maintenance_Mode#" waitMsg="">
+      <arg name="valueToCheck" value="[MaintenanceMode]"/>
+      <arg name="delimitedOkayValues" value="modify;repair;remove"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="RunLTSAddonMaintenance.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="MaintenanceMode" default="[MaintenanceMode]"/>
+    <param name="DialogArgument" default=""/>
+    <output id="MaintenanceMode" property="MaintenanceMode"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_Maintenance_Mode#" waitMsg="">
+      <arg name="valueToCheck" value="[MaintenanceMode]"/>
+      <arg name="delimitedOkayValues" value="modify;repair;remove"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SelectFeatures.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="InstallDir" default="[INSTALLDIR]"/>
+    <param name="DialogArgument" default=""/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="LTSAddonSelectFeatures.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="InstallDir" default="[INSTALLDIR]"/>
+    <param name="DialogArgument" default=""/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SelectLanguagePack.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="SetupUILanguage" default="[SetupUILanguage]"/>
+    <param name="SelectedLanguagePacks" default="[SelectedLanguagePacks]"/>
+    <output id="SelectedLanguagePacks" property="SelectedLanguagePacks"/>
+    <validatorRef id="ValidateSelectedLangPacksHasSystemLocale" severity="block" errormsg="#Invalid_SelectedLangPacksHasSystemLocale#" waitMsg="">
+      <arg name="SelectedLanguagePacks" value="[SelectedLanguagePacks]"/>
+      <arg name="availableLangPacks" value="[$available.langpack.langs]"/>
+    </validatorRef>
+    <validatorRef id="ValidateSelectedLangPacksHasEN" severity="block" errormsg="#Invalid_SelectedLangPacksHasEN#" waitMsg="">
+      <arg name="SelectedLanguagePacks" value="[SelectedLanguagePacks]"/>
+    </validatorRef>
+    <validatorRef id="ValidateSelectedLangPacksIsSubsetOfAvaiableLangPacks" severity="warn" errormsg="#Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks#" waitMsg="">
+      <arg name="SelectedLanguagePacks" value="[SelectedLanguagePacks]"/>
+      <arg name="availableLangPacks" value="[$available.langpack.langs]"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SelectLCM.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="NewOrExistingLCM" default="[NewOrExistingLCM]"/>
+    <output id="NewOrExistingLCM" property="NewOrExistingLCM"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_SelectLCM#" waitMsg="">
+      <arg name="valueToCheck" value="[NewOrExistingLCM]"/>
+      <arg name="delimitedOkayValues" value="new,existing"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SelectSLDIntegrate.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ChooseSLDIntegration" default="[ChooseSLDIntegration]"/>
+    <output id="ChooseSLDIntegration" property="ChooseSLDIntegration"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_SLDIntegrateSelection#" waitMsg="">
+      <arg name="valueToCheck" value="[ChooseSLDIntegration]"/>
+      <arg name="delimitedOkayValues" value="integrate;nointegrate"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SelectUILanguage.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="SortedAvailableSetupLanguages" default="[SortedAvailableSetupLanguages]"/>
+    <param name="SetupUILanguage" default="[SetupUILanguage]"/>
+    <output id="SortedAvailableSetupLanguages" property="SortedAvailableSetupLanguages"/>
+    <output id="SetupUILanguage" property="SetupUILanguage"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_SetupLanguage#" waitMsg="">
+      <arg name="valueToCheck" value="[SetupUILanguage]"/>
+      <arg name="delimitedOkayValues" value="[$available.ui.langs]"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SetLCMConfig.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="LCMName" default="[LCMName]"/>
+    <param name="LCMPort" default="[LCMPort]"/>
+    <param name="LCMUserName" default="[LCMUserName]"/>
+    <param name="LCMPassword" default="[LCMPassword]"/>
+    <param name="EnableBackButton" default="true"/>
+    <output id="LCMName" property="LCMName"/>
+    <output id="LCMPort" property="LCMPort"/>
+    <output id="LCMUserName" property="LCMUserName"/>
+    <output id="LCMPassword" property="LCMPassword"/>
+    <validatorRef id="ValidateCMSPassword" severity="block" errormsg="#Invalid_LCMPassword#" waitMsg="">
+      <arg name="Password" value="[LCMPassword]"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowInstallComplete.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="EnableBackButton" default="false"/>
+    <param name="IsUninstall" default=""/>
+    <param name="InstallFailed" default="false"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowLTSInstallComplete.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="EnableBackButton" default="false"/>
+    <param name="IsUninstall" default=""/>
+    <param name="InstallFailed" default="false"/>
+    <param name="CustomizedDescription" default="No"/>
+    <output id="LaunchURL" property="LaunchURL"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowInstallComplete_MonitorTool.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="IsUninstall" default=""/>
+    <param name="RunMonitorTool" default="[RunMonitorTool]"/>
+    <output id="RunMonitorTool" property="RunMonitorTool"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowInstallComplete_PatchUpdate.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="RunPatchUpdate" default="[RunPatchUpdate]"/>
+    <param name="IsUninstall" default=""/>
+    <output id="RunPatchUpdate" property="RunPatchUpdate"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowInstallProgress.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowInstallSummary.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ReadDataForCaching" default="[ReadDataForCaching]"/>
+    <param name="Installway" default="[Installway]"/>
+    <param name="InstallDir" default="[INSTALLDIR]"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowLicenseAgreement.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="SetupUILanguage" default="[SetupUILanguage]"/>
+    <param name="IsAcceptEULA" default="[IsAcceptEULA]"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowMessageDialog.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="MSGDLG_TITLE" default="[MSGDLG_TITLE]"/>
+    <param name="MSGDLG_SUBTITLE" default="[MSGDLG_SUBTITLE]"/>
+    <param name="MSGDLG_TEXT" default="[MSGDLG_TEXT]"/>
+    <param name="MSGDLG_FOOTER" default="[MSGDLG_FOOTER]"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowPostInstall.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="IsUninstall" default="0"/>
+    <param name="PostInstallMessage" default="[PostInstallMessage]"/>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="SetupUILanguage" default="[SetupUILanguage]"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowRebootRequired.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="RebootSuppress" default="[RebootSuppress]"/>
+    <output id="RebootSuppress" property="RebootSuppress"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowUpgradeConfirmation.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowWelcomeScreen.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="VerifyToRemove.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="DialogArgument" default=""/>
+    <param name="EnableBackButton" default="true"/>
+    <param name="MaintenanceMode" default="[MaintenanceMode]"/>
+    <output id="MaintenanceMode" property="MaintenanceMode"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowUninstallComplete.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="EnableBackButton" default="no"/>
+    <param name="InstallFailed" default="false"/>
+    <param name="IsUninstall" default="1"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowLTSUninstallComplete.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="EnableBackButton" default="no"/>
+    <param name="InstallFailed" default="false"/>
+    <param name="IsUninstall" default="1"/>
+    <param name="CustomizedDescription" default="No"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowInstallCompleteMultiCheckbox.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ItIsUninstall" default="no"/>
+    <param name="CheckBoxStringIDs" default=""/>
+    <param name="CheckBoxNames" default=""/>
+    <param name="CheckBoxSelection" default=""/>
+    <param name="EnableBackButton" default="no"/>
+    <param name="InstallFailed" default="false"/>
+    <output id="CheckBoxSelection" property="CheckBoxSelection"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="CheckLTSPreRequisites.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+    <param name="CheckPreRequisiteRetry" default="[CheckPreRequisiteRetry]"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowLTSLicenseAgreement.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="SetupUILanguage" default="[SetupUILanguage]"/>
+    <param name="IsAcceptEULA" default="[IsAcceptEULA]"/>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="RunLTSMaintenance.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="MaintenanceMode" default="[MaintenanceMode]"/>
+    <param name="DialogArgument" default=""/>
+    <output id="MaintenanceMode" property="MaintenanceMode"/>
+    <validatorRef id="ValidateAcceptedValues" severity="block" errormsg="#Invalid_Maintenance_Mode#" waitMsg="">
+      <arg name="valueToCheck" value="[MaintenanceMode]"/>
+      <arg name="delimitedOkayValues" value="modify;repair;remove"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowCacheCompletedSuccessfully.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <output/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowWayOfInstallDialog.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="ReadDataForCaching" default="[ReadDataForCaching]"/>
+    <param name="Installway" default="[Installway]"/>
+    <output id="Installway" property="Installway"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="ShowDeployLaterDialog.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="IsLumiraDlg" default="false"/>
+    <output id="DeploymentMode" property="DeploymentMode"/>
+  </dialogDeclaration2>
+  <dialogDeclaration2 id="SetRemoteCMSInfo.dialog">
+    <source type="sharedlib" name="SharedDialogs.dll">
+      <execute entryPoint="GetSharedDialog"/>
+    </source>
+    <param name="RemoteCMSName" default="[RemoteCMSName]"/>
+    <param name="RemoteCMSPort" default="[RemoteCMSPort]"/>
+    <param name="RemoteCMSAdminName" default="[RemoteCMSAdminName]"/>
+    <param name="RemoteCMSAdminPassword" default="[RemoteCMSAdminPassword]"/>
+    <param name="EnableBackButton" default="true"/>
+    <output id="RemoteCMSName" property="RemoteCMSName"/>
+    <output id="RemoteCMSPort" property="RemoteCMSPort"/>
+    <output id="RemoteCMSAdminName" property="RemoteCMSAdminName"/>
+    <output id="RemoteCMSAdminPassword" property="RemoteCMSAdminPassword"/>
+    <output id="SkipRemoteCMSLoginWarning" property="SkipRemoteCMSLoginWarning"/>
+    <validatorRef id="ValidateCheckInvalidSymbol" severity="block" errormsg="#Invalid_SymbolInCMSPassword_Win#">
+      <arg name="ValueToCheck" value="[RemoteCMSAdminPassword]"/>
+      <arg name="EscapeCharacterList" value="&quot;' "/>
+    </validatorRef>
+    <validatorRef id="ValidateRunCmdLine" severity="block" errormsg="#ErrRemoteCMSConnectionInfo#">
+      <arg name="CmdLine" value="[$du$shared.tp.aurora.installmedia.jre-4.0-core-64$dir-required]/jre/bin/java -Djava.library.path=&quot;[$du$shared.library.keycode.props-4.0-core-64$dir-required]/actions/&quot; -jar &quot;[$du.dir]actions/cmslogon.jar&quot; &quot;[RemoteCMSName]:[RemoteCMSPort]&quot; &quot;[RemoteCMSAdminName]&quot; &quot;SIStart:CMSPassword=[RemoteCMSAdminPassword]:SIEnd&quot; secEnterprise"/>
+    </validatorRef>
+  </dialogDeclaration2>
+  <validatorDeclaration id="ValidateAcceptedValues" severity="block" errormsg="_e_acceptedvalues_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateAcceptedValues"/>
+    </source>
+    <param name="valueToCheck"/>
+    <param name="delimitedOkayValues"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateUnacceptedValues" severity="block" errormsg="_e_unacceptedvalues_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateUnacceptedValues"/>
+    </source>
+    <param name="valueToCheck"/>
+    <param name="delimitedOkayValues"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateMatchString" severity="block" errormsg="_e_match_string" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateMatchString"/>
+    </source>
+    <param name="valueToCheck"/>
+    <param name="delimitedOkayValues"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateInstallDir" severity="block" errormsg="#Invalid_InstallDirWindows#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateInstallDir"/>
+    </source>
+    <param name="InstallDir"/>
+    <param name="IsRootDirFinalized"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateCheckPortInUse" severity="block" errormsg="_e_portinuse_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateCheckPortInUse"/>
+    </source>
+    <param name="PortToCheck"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateRunCmdLine" severity="warn" errormsg="[$validator.output]\n\n#generalErrorMsg#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateRunCmdLine"/>
+    </source>
+    <param name="CmdLine"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateCMSPassword" severity="block" errormsg="#Invalid_CMSPassword#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateCMSPassword"/>
+    </source>
+    <param name="Password"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateAdminPassword" severity="block" errormsg="#Invalid_AdminPassword#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateAdminPassword"/>
+    </source>
+    <param name="Password"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateSQLExpressPassword" severity="block" errormsg="#AdminPasswordNotStrong" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateSQLExpressPassword"/>
+    </source>
+    <param name="Password"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateCheckInvalidSymbol" severity="block" errormsg="#Invalid_SymbolInCMSPassword#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateCheckInvalidSymbol"/>
+    </source>
+    <param name="ValueToCheck"/>
+    <param name="EscapeCharacterList"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateDiskSpace" severity="block" errormsg="_e_not enough disk space_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateDiskSpace"/>
+    </source>
+    <param name="InstallDir"/>
+    <param name="RequiredSpace" value="[RequiredSpace]"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateTeamServerDiskSpace" severity="block" errormsg="_e_not enough disk space_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateTeamServerDiskSpace"/>
+    </source>
+    <param name="InstallDir"/>
+    <param name="RequiredSpace" value="[RequiredSpace]"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateCryptoKey" severity="block" errormsg="_e_crypto_key" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateCryptoKey"/>
+    </source>
+    <param name="CryptoKey"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateHostName" severity="warn" errormsg="#Invalid_IntroscopeHost" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateHostName"/>
+    </source>
+    <param name="Hostname"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateLengthChecking" severity="block" errormsg="_e_length_checking" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateLengthChecking"/>
+    </source>
+    <param name="ValueToCheck"/>
+    <param name="Range"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateNumbersRange" severity="block" errormsg="_e_numbers_range_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateNumbersRange"/>
+    </source>
+    <param name="ValueToCheck"/>
+    <param name="Range"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateProductKey" severity="block" errormsg="_e_product_key_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateProductKey"/>
+    </source>
+    <param name="ProductKey"/>
+    <param name="KeyTypes"/>
+    <param name="InvalidKeycodeCharacterList" default="&lt;&gt;&quot;&amp;'"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateRegularExpression" severity="block" errormsg="_e_regex_" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateRegularExpression"/>
+    </source>
+    <param name="ValueToCheck"/>
+    <param name="RegEx"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateSIAInCMS" severity="block" errormsg="_e_sia_in_cms" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateSIAInCMS"/>
+    </source>
+    <param name="CMSName"/>
+    <param name="SIAName"/>
+    <param name="JavaPath" default="[$du$shared.tp.aurora.sap.jvm.client-4.0-core-64$dir-required]"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateSIAName" severity="block" errormsg="#Invalid_SIAName#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateSIAName"/>
+    </source>
+    <param name="SIAName"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateSelectedLangPacksHasSystemLocale" severity="block" errormsg="#Invalid_SelectedLangPacksHasSystemLocale#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator">
+      <execute entryPoint="ValidateSelectedLangPacksHasSystemLocale"/>
+    </source>
+    <param name="SelectedLanguagePacks"/>
+    <param name="availableLangPacks"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateSelectedLangPacksHasEN" severity="block" errormsg="#Invalid_SelectedLangPacksHasEN#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator">
+      <execute entryPoint="ValidateSelectedLangPacksHasEN"/>
+    </source>
+    <param name="SelectedLanguagePacks"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateSelectedLangPacksIsSubsetOfAvaiableLangPacks" severity="warn" errormsg="#Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator">
+      <execute entryPoint="ValidateSelectedLangPacksIsSubsetOfAvaiableLangPacks"/>
+    </source>
+    <param name="SelectedLanguagePacks"/>
+    <param name="availableLangPacks"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateSelectedSharePointSites" severity="block" errormsg="#ErrorNoRootSiteCollectionOnSelectedSharePointSite#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidator.dll">
+      <execute entryPoint="ValidateSelectedSharePointSites"/>
+    </source>
+    <param name="SelectedSharePointSites"/>
+    <param name="SharePointServerVersion"/>
+    <param name="SrcPath" default="[$ui.binary.dir]"/>
+    <param name="TgtPath" default="[setup.core.prime-4.0-core$TempFolder]"/>
+    <param name="RootSiteCollectionExe" default="HasRootSiteCollection.exe"/>
+    <param name="SrcRootSiteCollectionConfig" default="HasRootSiteCollection-SP2013.config"/>
+    <param name="TgtRootSiteCollectionConfig" default="HasRootSiteCollection.exe.config"/>
+    <param name="AvailableIPointVServer" default="[AvailableIPointVServer]"/>
+    <param name="AvailableIPointVServerMetaNum" default="[AvailableIPointVServerMetaNum]"/>
+  </validatorDeclaration>
+  <validatorDeclaration id="ValidateCMSLogonCheck" severity="block" errormsg="#ErrRemoteCMSConnectionInfo#" waitmsg="">
+    <source type="sharedlib" name="PropertyValidatorAurora.dll">
+      <execute entryPoint="ValidateCMSLogonCheck"/>
+    </source>
+    <param name="CMSName"/>
+    <param name="CMSPort"/>
+    <param name="CMSUsername"/>
+    <param name="CMSPassword"/>
+    <param name="CMSAuth"/>
+    <param name="JavaPath" default="[$du$shared.tp.aurora.sap.jvm.client$dir-required]"/>
+  </validatorDeclaration>
+</productSequences>

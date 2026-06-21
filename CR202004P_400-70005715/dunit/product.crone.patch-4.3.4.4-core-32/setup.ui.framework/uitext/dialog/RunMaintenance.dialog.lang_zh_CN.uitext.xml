@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="UnknownMaintenanceMode" value="提供的维护模式未知。有效值为：Modify、Repair 或 Remove"/>
+<string id="ChooseMaintenanceMode" value="应用程序维护"/>
+<string id="SelectMaintenanceMode" value="选择要执行的维护操作。请访问 http://support.sap.com 以获取故障排除帮助。"/>
+<string id="SelectMaintenanceMode_win" value="选择要执行的维护操作。"/>
+<string id="Modify" value="修改"/>
+<string id="ModifyDescription" value="更改安装的应用程序功能。显示“选择功能”对话框，该对话框使您能够分别配置各个功能。"/>
+<string id="Repair" value="修复"/>
+<string id="RepairDescription" value="重新安装缺少或损坏的文件、注册表项和快捷方式。可能要将存储在注册表中的首选项重置为默认值。"/>
+<string id="Remove" value="删除"/>
+<string id="RemoveDescription" value="从此计算机上卸载 #product.nameonly#。"/>
+<string id="Invalid_Maintenance_Mode" value="MaintenanceMode 类型（[MaintenanceMode]）无效：它应该是“修改”、“修复”或“删除”。INS00283"/>
+<string id="HyperLinkMaint" value="要获取故障排除帮助，请访问："/>
+</context>
+</uitext>

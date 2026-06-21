@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="DlgTitle" value="Associação do arquivo"/>
+<string id="DlgSummary" value="Configuração padrão do aplicativo do visualizador Crystal Report."/>
+<string id="ReplaceFileAssoc" value="O Crystal Reports Viewer não é o seu visualizador Crystal Report padrão. Deseja torná-lo o visualizador padrão?"/>
+<string id="Yes" value="Sim"/>
+<string id="No" value="Não"/>
+</context>
+</uitext>

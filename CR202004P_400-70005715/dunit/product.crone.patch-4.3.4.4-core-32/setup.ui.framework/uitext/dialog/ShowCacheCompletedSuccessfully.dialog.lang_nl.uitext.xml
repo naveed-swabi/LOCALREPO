@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Title" value="Installatie in fasen"/>
+<string id="SubTitle" value="Caching voltooid"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Druk op []Enter] om de installatie in fasen af te sluiten."/>
+<string id="Description" value="Voer het installatiebestand opnieuw uit om de installatie na caching te hervatten. Er is systeemuitvaltijd tijdens de installatie na caching. U kunt deze fase van de installatie uitvoeren als er tijd voor onderhoud beschikbaar is."/>
+<string id="FinishMessage" value="Klik op Voltooien om de installatie in fasen af te sluiten."/>
+<string id="Finish" value="Voltooien"/>
+</context>
+</uitext>

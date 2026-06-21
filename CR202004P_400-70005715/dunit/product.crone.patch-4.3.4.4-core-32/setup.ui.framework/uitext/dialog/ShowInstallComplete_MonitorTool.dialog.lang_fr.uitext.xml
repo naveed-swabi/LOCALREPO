@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# a été installé."/>
+<string id="Description" value="Cliquez sur Terminer pour quitter le programme d'installation."/>
+<string id="MonitorToolCheck" value="Exécuter l'outil de supervision du logiciel"/>
+<string id="CustomNextButton" value="Terminer"/>
+</context>
+</uitext>

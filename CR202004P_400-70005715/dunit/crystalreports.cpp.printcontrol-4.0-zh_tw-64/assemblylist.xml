@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.cpp">
+    <file name="PrintControl_res_zh_TW.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="45568"/>
+    <file name="csprintdlg_res_zh_TW.dll" installdir="[INSTALLDIR]Crystal Reports/crystalreportviewers/ActiveXControls/win64_x64" size="19056"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="SelectFeaturesTitle" value="選取功能"/>
+<string id="SelectFeaturesSubtitle" value="選取您要安裝的功能。"/>
+<string id="SelectFeaturesFooter" value="按 []Tab]、[]向上] 或 []向下] 醒目提示，按 []空白鍵] 展開，按 []X] 切換狀態，按 []Ctrl-B] 返回，按 []Ctrl-X] 結束，或按  []Enter] 繼續。"/>
+<string id="DiskCost" value="佔用的磁碟空間"/>
+<string id="Drive Select" value="您正選取"/>
+<string id="Disk Costing" value="計算佔用的磁碟空間"/>
+<string id="Volume" value="磁碟區"/>
+<string id="Disk Size" value="磁碟大小"/>
+<string id="Available" value="可用"/>
+<string id="Required" value="必要"/>
+<string id="Difference" value="差異"/>
+<string id="Ok" value="確定"/>
+<string id="Retry" value="重試"/>
+<string id="Cancel" value="取消"/>
+<string id="Invalid_DiskSpace" value="您沒有足夠的空間可安裝產品。請釋放磁碟空間或選取不同的安裝位置。需要空間: [RequiredSpace] 位元組。"/>
+</context>
+</uitext>

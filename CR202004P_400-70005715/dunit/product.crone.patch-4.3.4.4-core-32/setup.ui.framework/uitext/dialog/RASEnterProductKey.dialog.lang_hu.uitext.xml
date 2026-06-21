@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="InvalidProductKey" value="Érvénytelen termékkulcsot adott meg."/>
+<string id="EnterProductKeyTitle" value="Termékregisztráció konfigurálása"/>
+<string id="EnterProductKeySubtitle" value="Adja meg a(z) #product.nameandversionwithoutpatch# termékkulcsát."/>
+<string id="ProductkeyLabel" value="Termékkulcs:"/>
+<string id="ProductkeyInfoGroup" value="Termékkulcs adatai"/>
+<string id="Invalid_ProductKey" value="A termékkulcs érvénytelen. INS00140"/>
+</context>
+</uitext>

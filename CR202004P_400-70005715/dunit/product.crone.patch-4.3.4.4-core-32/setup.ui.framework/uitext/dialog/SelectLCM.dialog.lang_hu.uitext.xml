@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="SelectLCMTitle" value="Verziókezelés kiválasztása"/>
+<string id="SelectLCMSubtitle" value="Válassza ki, hogy az alapértelmezett verziószabályozó rendszert szeretné telepíteni, vagy létező rendszert szeretne használni a verziókezelésre."/>
+<string id="SelectLCMFooter" value="Nyomja meg a []Tab], []Fel], vagy []Le] billentyűt a kiválasztáshoz, a []Ctrl-B] billentyűkombinációt a visszalépéshez, a []Ctrl-X] billentyűkombinációt a kilépéshez, illetve az []Enter] billentyűt a folytatáshoz."/>
+<string id="NewLCMInstall" value="Subversion konfigurálása és telepítése"/>
+<string id="ExistingLCMInstall" value="Most ne konfiguráljon verziószabályozó rendszert"/>
+<string id="Invalid_SelectLCM" value="Érvénytelen NewOrExistingLCM típus ([NewOrExistingLCM]). A lehetséges értékek: ''new'' és ''existing''. INS00284"/>
+</context>
+</uitext>

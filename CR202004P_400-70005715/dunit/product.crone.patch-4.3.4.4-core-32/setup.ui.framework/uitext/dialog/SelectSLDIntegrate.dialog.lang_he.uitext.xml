@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="he"/>
+<context>
+<string id="SLDIntegrateTitle" value="SAP Solution Manager Integration"/>
+<string id="SLDIntegrateTitleSub" value="Are you integrating with SAP Solution Manager?"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="SAP Solution Manager Integration"/>
+<string id="IntegrateBtn" value="Integrate with SAP Solution Manager. You will be prompted for information."/>
+<string id="NoIntegrateBtn" value="Do not integrate with SAP Solution Manager."/>
+<string id="Invalid_SLDIntegrateSelection" value="Invalid ChooseSLDIntegration ([ChooseSLDIntegration]): It should either be 'integrate' or 'nointegrate'. INS00285"/>
+</context>
+</uitext>

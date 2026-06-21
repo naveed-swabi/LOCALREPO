@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="Posodobitev za #product.fullproductnamenospace#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname# #productname_patch#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="DialogCaption" value="Posodobitev za #product.fullproductnamenospace#"/>
+<string id="prereq.CrystalReportsInstalledPreReqText" value="#productname# #productname_preversion# nameščen"/>
+<string id="prereq.CrystalReportsInstalledNotOkPreReqText" value="To je posodobitev za #productname#, ki ni bil zaznan v sistemu. Če želite nadaljevati s to namestitvijo, morate najprej namestiti ta produkt."/>
+<string id="prereq.NoHigherVersionPatchPreReqText" value="Ni popravka z novejšo verzijo"/>
+<string id="prereq.NoHigherVersionPatchNotOkPreReqText" value="V sistemu je bil odkrit popravek z višjo verzijo, kot jo ima ta paket. Posodobitve za ta paket ne bodo uporabljene. Priporočamo, da ne nadaljujete."/>
+<string id="prereq.SupportPackageMatchedPreReqText" value="Verzija paketa podpore je [CurrentSupportPackage]"/>
+<string id="prereq.SupportPackageMatchedNotOkPreReqText" value="Verzija paketa podpore za produkt mora biti [CurrentSupportPackage], da lahko nadaljujete s to posodobitvijo. Prosim, nadgradite obstoječi sistem ali pa uporabite ustrezno posodobitev."/>
+<string id="prereq.MinorVersionMatchPreReqText" value="Manjša verzija [CurrentMinorVersion]"/>
+<string id="prereq.MinorVersionMatchNotOkPreReqText" value="Manjša verzija produkta mora biti [CurrentMinorVersion], da lahko nadaljujete s to posodobitvijo. Prosim, nadgradite obstoječi sistem ali pa uporabite ustrezno posodobitev."/>
+<string id="prereq.Platform64bitPreReq" value="64-bit operating system"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="This product needs to be installed on a 64-bit operating system (OS). Please verify that your OS matches this requirement. (INS00292)"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Kreira in spremeni poročila z oblikovanimi podatki (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\administrator izvorov podatkov ODBC"/>
+<string id="product.shortcutODBC.description" value="Doda, odstrani in konfigurira Open Database Connectivity (ODBC) izvore podatkov in gonilnike."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bitni administrator izvorov podatkov"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\čarovnik za nalaganje poročil"/>
+<string id="product.shortcutWizard.description" value="Čarovnik za nalaganje poročil"/>
+<string id="dialog.message.Welcome.Package.Version" value="#product.cr_maintenance_version#"/>
+<string id="postInstall.message.datadirect" value="Nova verzija gonilnika DataDirect 7.1.5 je nameščena. Za migracijo v novo verzijo gonilnika DataDirect glejte dokumentacijo."/>
+</context>
+</uitext>

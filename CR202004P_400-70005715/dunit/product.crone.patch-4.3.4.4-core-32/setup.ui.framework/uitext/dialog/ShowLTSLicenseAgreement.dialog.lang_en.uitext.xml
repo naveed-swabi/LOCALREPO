@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="NotAcceptedEULA" value="You must accept the EULA. Exiting."/>
+<string id="LicenseAgreement" value="License Agreement"/>
+<string id="YouMustAgree" value="You must agree to the licensing conditions to proceed."/>
+<string id="IAccept" value="I accept the License Agreement"/>
+<string id="IDoNotAccept" value="I do not accept the License Agreement"/>
+<string id="Invalid_IsAcceptEULA" value="Invalid IsAcceptEULA ([IsAcceptEULA]): it should be 1 only"/>
+<string id="AcceptOrNotAccept" value="Press &lt;ENTER&gt; to accept, &lt;CTRL-X&gt; to not accept"/>
+</context>
+</uitext>

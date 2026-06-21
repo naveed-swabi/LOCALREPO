@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secSiebel7">
+    <registryValue name="NAME" type="string">Siebel7</registryValue>
+    <registryValue name="OBJTYPENAME" type="string">Siebel7</registryValue>
+    <registryValue name="PROGID" type="string">secSiebel7</registryValue>
+    <registryValue name="SharedClassesInstallDir" type="string">[INSTALLDIR]\SAP BusinessObjects Enterprise XI 4.0\java\lib\</registryValue>
+    <registryValue name="VERSION" type="string">14.0</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.library.common">
+    <file name="secSiebel7.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="238592"/>
+    <file name="sbserverloader.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="47616"/>
+    <file name="sbssoconnector.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="131584"/>
+    <file name="sbssoserver.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="129024"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/iface/deployment_files/neutral">
+    <file name="secSiebel7_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2021"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/images">
+    <file name="secSiebel7.gif" sourcename="icon.gif" installdir="[INSTALLDIR]setup/packagestemp" size="572"/>
+  </sourcedir>
+</assembly>

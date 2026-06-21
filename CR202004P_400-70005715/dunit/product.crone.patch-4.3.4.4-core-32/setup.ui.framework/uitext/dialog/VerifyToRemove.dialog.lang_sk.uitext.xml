@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="Message" value="Potvrdenie odinštalovania"/>
+<string id="Description" value="Takto sa produkt #product.fullproductnamenospace# odstráni z počítača."/>
+<string id="ConfirmUninstall" value="Naozaj chcete vykonať odinštalovanie?"/>
+<string id="ConfirmUninstall_Footer" value="Ak sa chcete vrátiť späť, stlačte []Ctrl-B]. Ak chcete skončiť, stlačte []Ctrl-X]. Ak chcete pokračovať, stlačte []Enter]."/>
+</context>
+</uitext>

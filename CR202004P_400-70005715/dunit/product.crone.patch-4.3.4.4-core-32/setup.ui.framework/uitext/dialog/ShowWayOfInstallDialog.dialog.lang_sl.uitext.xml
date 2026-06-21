@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="Title" value="Izbira modusa namestitve"/>
+<string id="SubTitle" value="Izberite modus namestitve"/>
+<string id="Standard_InstallationName" value="Standardna namestitev"/>
+<string id="Standard_InstallationText" value="Namestitev se izvede v eni fazi"/>
+<string id="PhaseWise_InstallationName" value="Namestitev po fazah"/>
+<string id="PhaseWise_InstallationText" value="Namestitev se izvede v dveh fazah – &quot;predpomnjenje&quot; in &quot;namestitev po predpomnjenju&quot;. Med predpomnjenjem ne pride do izpada sistema in lahko nadaljujete z delom v sistemu. Med namestitvijo po predpomnjenju, kjer se programska oprema namesti v sistemu, pride do izpada sistema."/>
+<string id="CachingCompletedSubTitle" value="Predpomnjenje zaključeno"/>
+<string id="Resume_InstallationSubTitle" value="Nadaljujte z namestitvijo po predpomnjenju. Namestitev po predpomnjenju je dejanski proces namestitve, kjer pride do izpada sistema."/>
+<string id="ShowWayOfInstallFooter" value="Pritisnite []Ctrl-B] za vrnitev, []Ctrl-X] za izhod ali []Enter] za namestitev."/>
+</context>
+</uitext>

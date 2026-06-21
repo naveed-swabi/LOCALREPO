@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informácie o existujúcom nasadení produktu #productname#"/>
+<string id="SpecifyRemoteCMS" value="Zadajte prihlasovacie informácie správcu vášho existujúceho nasadenia."/>
+<string id="RemoteCMSConnectionInfo" value="Informácie o pripojení pre existujúci produkt #productname#"/>
+<string id="RemoteCMSName" value="Názov"/>
+<string id="RemoteCMSPort" value="Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Prihlasovacie informácie správcu"/>
+<string id="RemoteCMSUser" value="Používateľ"/>
+<string id="RemoteCMSPassword" value="Heslo"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Vzdialený server SAP Lumira pre tímy je nedostupný alebo prihlasovacie poverenia sú nesprávne. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Vzdialený server SAP Lumira pre tímy je nedostupný alebo prihlasovacie poverenia sú nesprávne. INS00013\nChcete znova zadať svoje poverenia?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Heslo nesmie obsahovať slovo Administrator ani špeciálne znaky ako : &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informaţii de implementare CMS existent"/>
+<string id="SpecifyRemoteCMS" value="Specificaţi CMS existent şi informaţiile de conectare administrator pt. a lansa procesul."/>
+<string id="RemoteCMSConnectionInfo" value="Informaţii de conectare pt. CMS existent"/>
+<string id="RemoteCMSName" value="Nume CMS"/>
+<string id="RemoteCMSPort" value="Port CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informaţii de conectare administrator CMS"/>
+<string id="RemoteCMSUser" value="Utilizator"/>
+<string id="RemoteCMSPassword" value="Parolă"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Fie CMS la distanţă nu poate fi accesat, fie acreditările de conectare sunt incorecte. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Fie CMS la distanţă nu poate fi accesat, fie acreditările de conectare sunt incorecte. INS00013\nDoriţi să introduceţi acreditările din nou?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Următoarele caractere nu sunt permise în parola CMS:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

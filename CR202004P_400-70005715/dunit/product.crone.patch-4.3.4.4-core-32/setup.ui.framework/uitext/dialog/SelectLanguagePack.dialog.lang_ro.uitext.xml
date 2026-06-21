@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Selectaţi pachete de limbi"/>
+<string id="SelectLanguagePackSubtitle" value="Selectaţi toate pachetele de limbi suplimentare cu care vor interacţiona utilizatorii în produs."/>
+<string id="SelectLanguagePackFooter" value="Apăsaţi []Tab], []Up] sau []Down] pt. evidenţiere, []Space] sau []X] pt. comutare stare, []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+<string id="alllang" value="Toate limbile"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Proprietate SelectedLanguagePacks '[SelectedLanguagePacks]' trebuie să includă setările regionale ale sistemului."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Proprietate SelectedLanguagePacks '[SelectedLanguagePacks]' trebuie să includă 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Proprietate SelectedLanguagePacks '[SelectedLanguagePacks]' trebuie să fie un subset pt. pachetele de limbi disponibile."/>
+</context>
+</uitext>

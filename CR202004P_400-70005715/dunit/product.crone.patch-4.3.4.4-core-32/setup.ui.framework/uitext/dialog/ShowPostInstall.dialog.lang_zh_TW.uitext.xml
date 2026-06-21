@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="後續安裝步驟"/>
+<string id="PostInstallDetails" value="安裝完成。請依照下列後續安裝指示完成您的部署。"/>
+<string id="PostUninstallSteps" value="後續解除安裝步驟"/>
+<string id="PostUninstallDetails" value="解除安裝即將完成。請依照下列後續安裝指示完成程序。"/>
+<string id="PostInstallStep_Header" value="{b}後續安裝指示:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="後續安裝指示:"/>
+<string id="PostUninstallStep_Header" value="{b}後續解除安裝指示:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="後續解除安裝指示:"/>
+<string id="CRPostInstallUIText1" value="產品註冊{br}請按一下這裡{a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}，線上註冊您的產品{/a}。"/>
+<string id="PostInstallStep_Footer" value="安裝完成。請按 []Enter] 繼續。"/>
+<string id="PostUnInstallStep_Footer" value="解除安裝完成。請按 []Enter] 繼續。"/>
+</context>
+</uitext>

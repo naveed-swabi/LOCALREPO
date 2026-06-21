@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="SLDIntegrateTitle" value="Integrare SAP Solution Manager"/>
+<string id="SLDIntegrateTitleSub" value="Efectuaţi integrarea cu SAP Solution Manager?"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="Integrare SAP Solution Manager"/>
+<string id="IntegrateBtn" value="Efectuare integrare cu SAP Solution Manager. Vi se vor solicita informaţii."/>
+<string id="NoIntegrateBtn" value="Fără integrare cu SAP Solution Manager."/>
+<string id="Invalid_SLDIntegrateSelection" value="ChooseSLDIntegration ([ChooseSLDIntegration]) nevalabilă: trebuie să fie 'integrate' sau 'nointegrate'. INS00285"/>
+</context>
+</uitext>

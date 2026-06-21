@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="InvalidProductKey" value="คีย์ผลิตภัณฑ์ที่ป้อนไม่ถูกต้อง"/>
+<string id="EnterProductKeyTitle" value="กำหนดค่าการลงทะเบียนผลิตภัณฑ์"/>
+<string id="EnterProductKeySubtitle" value="ป้อนคีย์ผลิตภัณฑ์ #product.nameandversionwithoutpatch#"/>
+<string id="ProductkeyLabel" value="คีย์ผลิตภัณฑ์:"/>
+<string id="ProductkeyInfoGroup" value="ข้อมูลของคีย์ผลิตภัณฑ์"/>
+<string id="Invalid_ProductKey" value="คีย์ผลิตภัณฑ์ไม่ถูกต้อง INS00140"/>
+</context>
+</uitext>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Unbekannter Wartungsmodus angegeben, folgende Werte sind gültig: Ändern, Reparieren, Entfernen"/>
+<string id="ChooseMaintenanceMode" value="Anwendungswartung"/>
+<string id="SelectMaintenanceMode" value="Auszuführenden Wartungsvorgang auswählen."/>
+<string id="Modify" value="Ändern"/>
+<string id="ModifyDescription" value="Legen Sie fest, welche Anwendungsfunktionen installiert werden sollen. Zeigt das Dialogfeld zum Auswählen von Funktionen an, in dem Sie individuelle Funktionen konfigurieren können."/>
+<string id="Repair" value="Reparieren"/>
+<string id="RepairDescription" value="Installieren Sie fehlende oder beschädigte Dateien neu. In der Registrierung gespeicherte Einstellungen werden u.U. auf die Standardwerte zurückgesetzt."/>
+<string id="Remove" value="Entfernen"/>
+<string id="RemoveDescription" value="Deinstallieren Sie #product.nameonly# von diesem Rechner."/>
+<string id="Invalid_Maintenance_Mode" value="Ungültiger MaintenanceMode-Typ ([MaintenanceMode]): Der Typ sollte &quot;ändern&quot;, &quot;reparieren&quot; oder &quot;entfernen&quot; lauten. INS00283"/>
+</context>
+</uitext>

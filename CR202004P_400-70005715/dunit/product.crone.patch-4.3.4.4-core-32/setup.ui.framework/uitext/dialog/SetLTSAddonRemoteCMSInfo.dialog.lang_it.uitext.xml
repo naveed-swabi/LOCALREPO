@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informazioni distribuzione CMS esistenti"/>
+<string id="SpecifyRemoteCMS" value="Specificare le informazioni relative all'accesso CMS e amministratore per avviare il processo."/>
+<string id="RemoteCMSConnectionInfo" value="Informazioni di connessione per un CMS esistente"/>
+<string id="RemoteCMSName" value="Nome del CMS"/>
+<string id="RemoteCMSPort" value="Porta CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Informazioni di accesso amministratore CMS"/>
+<string id="RemoteCMSUser" value="Utente"/>
+<string id="RemoteCMSPassword" value="Password"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Il CMS remoto non può essere raggiunto oppure le credenziali di accesso non sono corrette. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Il CMS remoto non può essere raggiunto oppure le credenziali di accesso non sono corrette. INS00013\nImmettere nuovamente le credenziali?"/>
+<string id="Invalid_SymbolInCMSPassword" value="I seguenti caratteri non sono consentiti nella password CMS:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

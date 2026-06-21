@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="DlgTitle" value="Produktopgradering"/>
+<string id="DlgSummary" value="Der er fundet en anden version af dette produkt."/>
+<string id="ProceedOrNot" value="Der er fundet en anden version af Crystal Reports Viewer. Hvis du fortsætter installationen, opgraderes denne version til Crystal Reports Viewer 2010. Klik på Næste, hvis du vil fortsætte. Klik på Annuller for at afbryde installationen."/>
+</context>
+</uitext>

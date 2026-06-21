@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="ExpandInstallMessage_1" value="Installatie kan niet worden voortgezet"/>
+<string id="ExpandInstallMessage_2" value="Beschrijf de blokkering waardoor de installatie niet kan worden voortgezet"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="Druk op CTRL-X om deze installatie af te sluiten"/>
+<string id="AlwaysFailureGeneralMessage" value="Installatie kan niet worden voortgezet\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

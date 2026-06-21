@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Ismeretlen karbantartási üzemmód van megadva. Az érvényes értékek: módosítás, javítás és eltávolítás"/>
+<string id="ChooseMaintenanceMode" value="Alkalmazás karbantartása"/>
+<string id="SelectMaintenanceMode" value="Válassza ki a végrehajtandó karbantartási műveletet. A http://support.sap.com oldalon talál hibaelhárítással kapcsolatos segítséget."/>
+<string id="SelectMaintenanceMode_win" value="Válassza ki a végrehajtandó karbantartási műveletet."/>
+<string id="Modify" value="Módosítás"/>
+<string id="ModifyDescription" value="Itt módosíthatók a telepítendő alkalmazásszolgáltatások. Megjeleníti a Szolgáltatások kiválasztása párbeszédablakot, melynek segítségével beállíthatja az egyéni szolgáltatásokat."/>
+<string id="Repair" value="Javítás"/>
+<string id="RepairDescription" value="Telepítse újra a hiányzó vagy sérült fájlokat, beállításkulcsokat és parancsikonokat. Lehetséges, hogy a beállításjegyzékben tárolt beállítások visszaállnak az alapértelmezett értékekre."/>
+<string id="Remove" value="Eltávolítás"/>
+<string id="RemoveDescription" value="A(z) #product.nameonly# eltávolítása a számítógépről."/>
+<string id="Invalid_Maintenance_Mode" value="A MaintenanceMode típusa érvényelen ([MaintenanceMode]). A lehetséges értékek: ''modify'', ''repair'' és ''remove''. INS00283"/>
+<string id="HyperLinkMaint" value="Hibaelhárítással kapcsolatos segítség: "/>
+</context>
+</uitext>

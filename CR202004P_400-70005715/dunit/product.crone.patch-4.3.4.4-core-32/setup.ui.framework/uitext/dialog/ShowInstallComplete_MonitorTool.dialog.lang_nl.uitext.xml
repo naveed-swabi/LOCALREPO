@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# is geïnstalleerd."/>
+<string id="Description" value="Klik op Voltooien om deze installatie af te sluiten."/>
+<string id="MonitorToolCheck" value="Controlehulpprogramma voor software uitvoeren"/>
+<string id="CustomNextButton" value="Voltooien"/>
+</context>
+</uitext>

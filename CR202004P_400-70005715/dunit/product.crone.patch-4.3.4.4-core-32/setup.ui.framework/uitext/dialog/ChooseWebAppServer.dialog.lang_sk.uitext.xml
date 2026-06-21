@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Vybrať webový aplikačný server Java"/>
+<string id="ChooseWebAppServerSubtitle" value="Vyberte webový aplikačný server Java."/>
+<string id="ChooseWebAppServerFooter" value="Ak chcete vyberať, stlačte kláves []Tab], []šípka nahor] alebo []šípka nadol]. Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete pokračovať, stlačte kláves []Enter]."/>
+<string id="InstallJWAS" value="Inštalovať webovú aplikáciu Java a servery"/>
+<string id="InstallTomcat" value="Inštalovať predvolený webový aplikačný server Tomcat Java a automaticky nasadiť webové aplikácie"/>
+<string id="ManualDeploy" value="Po inštalácii manuálne nasadiť webové aplikácie na podporovaný webový aplikačný server Java"/>
+<string id="InstallWACS" value="Inštalovať server kontajnera webových aplikácií a automaticky nasadiť webové aplikácie"/>
+<string id="SharePointIntegrationTitle" value="Možnosť integrácie SAP BusinessObjects pre softvér Microsoft SharePoint 4.0"/>
+<string id="SharePointIntegrationText" value="Možnosť integrácie SAP BusinessObjects pre softvér Microsoft SharePoint 4.0 je dostupná ako samostatná inštalácia v priečinku doplnkov pre 64-bitový server SharePoint. Prepojenie na priečinok doplnkov nájdete v Inštrukciách po inštalácii."/>
+<string id="SharePointIntegrationCheck" value="Zobraziť umiestnenie priečinka doplnkov na konci inštalácie"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Neplatná hodnota UseIntegratedWebAppServer ([UseIntegratedWebAppServer]): Má byť len 0 alebo 1. INS00255"/>
+</context>
+</uitext>

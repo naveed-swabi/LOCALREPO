@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="Message" value="Подтверждение удаления"/>
+<string id="Description" value="Это приведет к удалению #product.fullproductnamenospace# с компьютера."/>
+<string id="ConfirmUninstall" value="Удалить программу?"/>
+<string id="ConfirmUninstall_Footer" value="Нажмите []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для продолжения."/>
+</context>
+</uitext>

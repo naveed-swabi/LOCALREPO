@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Message" value="Pomyślnie zainstalowano oprogramowanie #product.fullproductnamenospace#."/>
+<string id="Description" value="Kliknij przycisk Zakończ, aby zakończyć instalację."/>
+<string id="MonitorToolCheck" value="Uruchom narzędzie do monitorowania oprogramowania"/>
+<string id="CustomNextButton" value="Zakończ"/>
+</context>
+</uitext>

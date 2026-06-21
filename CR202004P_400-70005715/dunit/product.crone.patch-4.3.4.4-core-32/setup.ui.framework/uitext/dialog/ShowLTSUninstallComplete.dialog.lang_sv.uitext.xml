@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# har avinstallerats."/>
+<string id="UninstallFailedMessage" value="#product.fullproductnamenospace# kunde inte avinstalleras."/>
+<string id="Description" value="Klicka på Slutför för att avsluta avinstallationen."/>
+<string id="FailedDescription" value="Klicka på Slutför för att avsluta avinstallationen."/>
+<string id="ShowUninstall_Footer" value="Tryck på []Ctrl-B] för att gå bakåt eller []Retur] för att avsluta avinstallationen."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Tryck på []Retur] för att avsluta avinstallationen."/>
+<string id="CustomNextButton" value="Slutför"/>
+<string id="ViewLogButton" value="Visa logg"/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="ChooseDestination" value="指定目标文件夹"/>
+<string id="SpecifyDestination" value="目标文件夹是即将安装产品的文件夹。单击“浏览”可选择其他位置。"/>
+<string id="DestinationFolder" value="目标文件夹"/>
+<string id="Browse" value="浏览"/>
+<string id="BrowseInstallDirectory" value="选择安装位置"/>
+<string id="PWClientFolderTitle" value="客户端目标文件夹"/>
+<string id="PWServerFolderTitle" value="服务器目标文件夹"/>
+<string id="Invalid_InstallDirWindows" value="安装目录无效。请使用仅包含字母数字字符和任何以下字符的有效绝对路径：_ - \ . ( )。目录必须驻留在硬盘驱动器上，完整路径长度不得超出 150 个字符。INS00029"/>
+<string id="Invalid_InstallDirUnix" value="安装目录无效。请使用您具有读、写和执行权限的有效绝对目录。INS00029"/>
+</context>
+</uitext>

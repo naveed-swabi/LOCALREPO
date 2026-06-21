@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="SelectLCMTitle" value="Versionsverwaltung auswählen"/>
+<string id="SelectLCMSubtitle" value="Wählen Sie aus, ob Sie das Standardversionskontrollsystem installieren oder ein vorhandenes System für die Versionsverwaltung verwenden möchten."/>
+<string id="SelectLCMFooter" value="Drücken Sie die []Tabulatortaste], die []Nach-oben-Taste] oder die []Nach-unten-Taste], um eine Auswahl zu treffen, []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um fortzufahren."/>
+<string id="NewLCMInstall" value="Subversion konfigurieren und installieren"/>
+<string id="ExistingLCMInstall" value="Jetzt kein Versionskontrollsystem konfigurieren"/>
+<string id="Invalid_SelectLCM" value="Ungültiger NewOrExistingLCM-Typ ([NewOrExistingLCM]): Der Typ sollte &quot;neu&quot; oder &quot;vorhanden&quot; lauten. INS00284"/>
+</context>
+</uitext>

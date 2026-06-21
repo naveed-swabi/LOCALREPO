@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/src/platform.sdk.boe.com/sdk/com/instrumentation">
+    <file name="COMSDK_lst.config" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/conf/lst" size="20"/>
+    <file name="comsdk.lst" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/conf/lst" size="78"/>
+  </sourcedir>
+</assembly>

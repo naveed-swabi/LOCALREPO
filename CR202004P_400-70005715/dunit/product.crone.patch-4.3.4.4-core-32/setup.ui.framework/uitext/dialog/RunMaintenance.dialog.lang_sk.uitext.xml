@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Bol zadaný neplatný režim údržby. Platné hodnoty sú: Upraviť, Opraviť alebo Odstrániť"/>
+<string id="ChooseMaintenanceMode" value="Údržba aplikácie"/>
+<string id="SelectMaintenanceMode" value="Vyberte operáciu údržby, ktorá sa má vykonať. Ak potrebujete pomoc pri riešení problémov, navštívte lokalitu http://support.sap.com."/>
+<string id="SelectMaintenanceMode_win" value="Vyberte operáciu údržby, ktorá sa má vykonať."/>
+<string id="Modify" value="Upraviť"/>
+<string id="ModifyDescription" value="Zmeniť, ktoré funkcie aplikácie sa majú nainštalovať. Zobrazí sa dialógové okno Vybrať funkcie, pomocou ktorého môžete konfigurovať jednotlivé funkcie."/>
+<string id="Repair" value="Opraviť"/>
+<string id="RepairDescription" value="Preinštalovať chýbajúce alebo poškodené súbory, kľúče databázy Registry a odkazy. Preferencie uložené v databáze Registry sa môžu obnoviť na predvolené hodnoty."/>
+<string id="Remove" value="Odstrániť"/>
+<string id="RemoveDescription" value="Odinštalovať #product.nameonly# z tohto počítača."/>
+<string id="Invalid_Maintenance_Mode" value="Neplatný typ MaintenanceMode ([MaintenanceMode]): Má byť upraviť, opraviť alebo odstrániť. INS00283"/>
+<string id="HyperLinkMaint" value="Ak potrebujete pomoc pri riešení problémov, navštívte stránku: "/>
+</context>
+</uitext>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="ExpandInstallMessage_1" value="安装无法继续"/>
+<string id="ExpandInstallMessage_2" value="说明导致安装无法继续的阻碍性问题"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="按 CTRL+X 退出此安装。"/>
+<string id="AlwaysFailureGeneralMessage" value="安装无法继续\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

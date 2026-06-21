@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.library.common-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="2686210">
+    <requiredDeploymentUnit ref="foundation.locale_fallback.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="foundation.tracelog-4.0-core"/>
+    <requiredDeploymentUnit ref="platform.library.common.instrumentation-4.0-core"/>
+    <requiredDeploymentUnit ref="shared.library.cxlib.cxlib-4.0-core"/>
+    <requiredDeploymentUnit ref="tp.netscape.ldap.cpp-6.0.5-core"/>
+    <requiredDeploymentUnit ref="tp.netegrity.siteminder.cpp.smagent-12.0-core"/>
+    <requiredDeploymentUnit ref="shared.tp.aurora.ooc.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="1A59A421-978D-4FCE-BAEC-B0B8D9A896E4"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

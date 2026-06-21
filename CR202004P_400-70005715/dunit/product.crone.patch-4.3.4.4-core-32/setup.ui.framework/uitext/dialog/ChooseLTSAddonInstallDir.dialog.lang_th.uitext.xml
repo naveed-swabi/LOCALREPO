@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ChooseInstallDirTitle" value="กำหนดค่าโฟลเดอร์ปลายทาง"/>
+<string id="ChooseInstallDirSubtitle" value="ป้อนพาธปลายทางแบบเต็มที่จะติดตั้งผลิตภัณฑ์"/>
+<string id="ChooseInstallDirUnixSubtitle" value="ป้อนพาธปลายทางแบบเต็มที่จะติดตั้งผลิตภัณฑ์"/>
+<string id="DestinationFolderGroupBox" value="ข้อมูลโฟลเดอร์ปลายทาง"/>
+<string id="DestinationFolder" value="โฟลเดอร์ปลายทาง:"/>
+<string id="Browse" value="เรียกดู"/>
+<string id="BrowseInstallDirectory" value="เลือกตำแหน่งติดตั้ง"/>
+<string id="DirGenericError" value="โฟลเดอร์ปลายทางไม่ถูกต้อง โปรดเลือกโฟลเดอร์ปลายทางอื่น INS00029"/>
+<string id="DirNetworkError" value="โฟลเดอร์ปลายทางไม่สามารถเป็นตำแหน่งที่ตั้งบนเครือข่ายได้ โปรดเลือกตำแหน่งที่ตั้งอื่น"/>
+<string id="DirEmptyError" value="คุณต้องเลือกโฟลเดอร์ปลายทาง INS00029"/>
+<string id="DirAbsolutePathError" value="โฟลเดอร์ปลายทางต้องเป็นพาธแบบเต็ม INS00029"/>
+<string id="DirInvalidCharWinError" value="โฟลเดอร์ปลายทางสามารถใช้ได้เฉพาะตัวเลข ตัวอักษร หรืออักขระต่อไปนี้: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="พาธโฟลเดอร์ปลายทางยาวเกินไป โปรดใช้พาธที่มีอักขระน้อยกว่า 150 ตัว INS00029"/>
+<string id="DirInvalidInstallverseError" value="โฟลเดอร์ปลายทางมีผลิตภัณฑ์ที่เข้ากันไม่ได้ โปรดเลือกตำแหน่งที่ตั้งอื่น INS00140"/>
+<string id="Invalid_InstallDirWindows" value="ไดเรคทอรีการติดตั้งไม่ถูกต้อง โปรดใช้พาธสัมบูรณ์ที่ถูกต้องซึ่งมีได้เฉพาะอักขระพยัญชนะผสมตัวเลข หรืออักขระใดอักขระหนึ่งต่อไปนี้เท่านั้น: _ - \ . ( ) ไดเรคทอรีต้องอยู่บนไดรฟ์แบบคงที่และพาธแบบเต็มมีอักขระได้ไม่เกิน 150 ตัว INS00029"/>
+<string id="Invalid_InstallDirUnix" value="ไดเรคทอรีการติดตั้งไม่ถูกต้อง โปรดใช้พาธสัมบูรณ์ที่ถูกต้องซึ่งคุณได้รับอนุญาตให้อ่าน เขียน และดำเนินการได้ INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="ไดเรคทอรีการติดตั้งต้องไม่มีช่องว่าง"/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="ไม่อนุญาตให้ใช้อักขระต่อไปนี้ในไดเรคทอรีการติดตั้ง:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="กด []Tab] เพื่อเติมอีลิเมนต์ของไดเรคทอรีโดยอัตโนมัติ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อดำเนินการต่อ"/>
+</context>
+</uitext>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="开始安装"/>
+<string id="ShowInstallSummarySubtitle" value="安装程序已准备好安装 #product.fullproductnamenospace#。单击“上一步”对安装信息进行更改。\n\n按“下一步”开始安装。"/>
+<string id="ShowInstallSummaryUnixDescription" value="是否准备好让 #product.fullproductnamenospace# 安装向导开始安装？"/>
+<string id="ShowInstallSummaryFooter" value="按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或者按 [Enter] 安装。"/>
+<string id="DiskCost" value="磁盘开销"/>
+<string id="Drive Select" value="选择"/>
+<string id="Disk Costing" value="磁盘开销计算"/>
+<string id="Volume" value="空间"/>
+<string id="Disk Size" value="磁盘大小"/>
+<string id="Available" value="可用磁盘空间"/>
+<string id="Required" value="所需磁盘空间"/>
+<string id="Difference" value="差异"/>
+<string id="Ok" value="确定"/>
+<string id="Retry" value="重试"/>
+<string id="Cancel" value="取消"/>
+<string id="ShowCacheSummaryTitle" value="分阶段安装"/>
+<string id="ShowCacheSummarySubtitle" value="开始高速缓存"/>
+<string id="ShowCacheSummaryDescription" value="高速缓存是指将软件复制到安装目录的过程。在高速缓存期间，系统不会停机，您可以继续使用系统。"/>
+<string id="Invalid_DiskSpace" value="空间不足，无法安装产品。请释放磁盘空间或选择其他安装位置。可用空间：[AvailableSpace] MB。所需空间：[RequiredSpace] MB。"/>
+<string id="Resume_Description" value="在高速缓存后安装期间，安装软件的系统会出现一定的系统停机时间。"/>
+<string id="ShowResumetitle" value="分阶段安装"/>
+<string id="ShowResumeSubtitle" value="继续安装"/>
+<string id="ShowResumeFooter" value="按 [Ctrl-B] 返回，按 [Ctrl-X] 退出，或者按 [Enter] 安装。"/>
+<string id="MessageCache" value="单击“下一步”以开始高速缓存阶段。"/>
+<string id="MessageResume" value="单击“下一步”以开始安装。"/>
+</context>
+</uitext>

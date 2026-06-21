@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="RebootWarning" value="Algunos archivos se bloquearon durante la instalación, lo que evitó que el instalador los actualizara. Puede retrasar el reinicio del sistema, pero se recomienda encarecidamente reiniciarlo antes de usar el producto."/>
+<string id="RebootQuestion" value="¿Desea reiniciar el equipo ahora?"/>
+<string id="RestartLater" value="Reiniciar más tarde"/>
+<string id="RestartNow" value="Reiniciar ahora"/>
+</context>
+</uitext>

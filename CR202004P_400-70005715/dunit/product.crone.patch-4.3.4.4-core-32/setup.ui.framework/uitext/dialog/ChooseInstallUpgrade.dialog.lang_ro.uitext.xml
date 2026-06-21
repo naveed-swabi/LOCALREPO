@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="PreviousVersionDetected" value="Versiune anterioară #product.nameonly# detectată"/>
+<string id="PreviousVersionDetectedSub" value="Selectaţi dacă doriţi să efectuaţi o upgradare sau o instalare grupată"/>
+<string id="UpgradeInstallBtn" value="Efectuare instalare de upgradare"/>
+<string id="SideBySideInstallBtn" value="Efectuare instalare grupată"/>
+<string id="UpgradeInstallMsg" value="Înlocuire versiune existentă instalată de #product.nameonly# cu această versiune"/>
+<string id="SideBySideInstallMsg" value="Instalează această versiune de #product.nameonly# alături de versiunea existentă instalată"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Mod de instalare nevalabil ([InstallCompatibilityMode]): trebuie să fie upgrade sau sidebyside"/>
+</context>
+</uitext>

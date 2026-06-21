@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Configurar carpeta de destino"/>
+<string id="ChooseInstallDirSubtitle" value="Introduzca la ruta de destino completa donde se instalará el producto."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Introduzca la ruta de destino completa donde se instalará el producto."/>
+<string id="DestinationFolderGroupBox" value="Información de la carpeta de destino"/>
+<string id="DestinationFolder" value="Carpeta de destino:"/>
+<string id="Browse" value="Examinar"/>
+<string id="BrowseInstallDirectory" value="Seleccionar una ubicación de instalación"/>
+<string id="DirGenericError" value="La carpeta de destino no es válida. Seleccione una carpeta de destino distinta. INS00029"/>
+<string id="DirNetworkError" value="La carpeta de destino no puede estar en una ubicación de red. Seleccione una ubicación diferente."/>
+<string id="DirEmptyError" value=" Debe seleccionar una carpeta de destino. INS00029"/>
+<string id="DirAbsolutePathError" value="La carpeta de destino debe ser una ruta completa. INS00029"/>
+<string id="DirInvalidCharWinError" value="La carpeta de destino solo puede usar números, letras o los siguientes caracteres: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="La ruta de la carpeta de destino es demasiado larga. Use una ruta que tenga menos de 150 caracteres. INS00029"/>
+<string id="DirInvalidInstallverseError" value="La carpeta de destino contiene un producto incompatible. Seleccione una ubicación diferente. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Directorio de instalación no válido. Use una ruta de acceso absoluta válida solo que contenga caracteres alfanuméricos o uno de los siguientes: _ - \ . ( ). El directorio se debe encontrar en una unidad fija y la ruta de acceso completa no puede superar los 150 caracteres de longitud. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Directorio de instalación no válido. Use una ruta de acceso absoluta válida para la que disponga también de permisos de escritura, lectura y ejecución. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="El directorio de instalación no puede contener espacios."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Los siguientes caracteres no están permitidos en el directorio de instalación:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Pulse []Tabulador] para rellenar automáticamente elementos de directorio, []Ctrl-X] para salir o []Intro] para continuar."/>
+</context>
+</uitext>

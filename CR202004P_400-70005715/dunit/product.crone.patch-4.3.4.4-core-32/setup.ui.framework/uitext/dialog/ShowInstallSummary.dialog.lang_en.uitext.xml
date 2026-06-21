@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Start Installation"/>
+<string id="ShowInstallSummarySubtitle" value="The installation is ready to install #product.fullproductnamenospace#. Click Back to make changes to your installation information.\n\nClick Next to begin the installation."/>
+<string id="ShowInstallSummaryUnixDescription" value="Are you ready to have the #product.fullproductnamenospace# Installation Wizard begin the installation?"/>
+<string id="ShowInstallSummaryFooter" value="Press []Ctrl-B] to go back, []Ctrl-X] to quit, or []Enter] to install."/>
+<string id="DiskCost" value="Disk Cost"/>
+<string id="Drive Select" value="You are selecting"/>
+<string id="Disk Costing" value="Disk Costing"/>
+<string id="Volume" value="Volume"/>
+<string id="Disk Size" value="Disk Size"/>
+<string id="Available" value="Available"/>
+<string id="Required" value="Required"/>
+<string id="Difference" value="Difference"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Retry"/>
+<string id="Cancel" value="Cancel"/>
+<string id="ShowCacheSummaryTitle" value="Phase-wise Installation"/>
+<string id="ShowCacheSummarySubtitle" value="Start Caching"/>
+<string id="ShowCacheSummaryDescription" value="Caching is the process of copying the software to the installation directory.During caching, there is no system downtime and you can continue working on the system."/>
+<string id="Invalid_DiskSpace" value="You do not have enough space to install the product. Please free up disk space, or select a different install location. Available Space: [AvailableSpace] MB. Required Space: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="During installation after caching, the software is installed on the system with some system downtime."/>
+<string id="ShowResumetitle" value="Phase-wise Installation"/>
+<string id="ShowResumeSubtitle" value="Resume Installation"/>
+<string id="ShowResumeFooter" value="Press []Ctrl-B] to go back, []Ctrl-X] to quit, or []Enter] to install."/>
+<string id="MessageCache" value="Click Next to begin the Caching Phase."/>
+<string id="MessageResume" value="Click Next to begin the installation."/>
+</context>
+</uitext>

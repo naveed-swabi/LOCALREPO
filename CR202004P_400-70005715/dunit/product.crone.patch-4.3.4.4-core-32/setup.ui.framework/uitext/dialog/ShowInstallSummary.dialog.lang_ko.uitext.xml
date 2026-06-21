@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="설치 시작"/>
+<string id="ShowInstallSummarySubtitle" value="#product.fullproductnamenospace#을(를) 설치할 준비가 되었습니다. 설치 정보를 변경하려면 [뒤로]를 클릭하십시오.\n\n설치를 시작하려면 [다음] 단추를 누르십시오."/>
+<string id="ShowInstallSummaryUnixDescription" value="#product.fullproductnamenospace# 설치 마법사를 통해 설치를 시작하시겠습니까?"/>
+<string id="ShowInstallSummaryFooter" value="뒤로 이동하려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 설치하려면 []Enter] 키를 누르십시오."/>
+<string id="DiskCost" value="디스크 공간"/>
+<string id="Drive Select" value="선택하는 중"/>
+<string id="Disk Costing" value="디스크 공간 확인"/>
+<string id="Volume" value="볼륨"/>
+<string id="Disk Size" value="디스크 크기"/>
+<string id="Available" value="사용 가능한 공간"/>
+<string id="Required" value="필요한 공간"/>
+<string id="Difference" value="차이"/>
+<string id="Ok" value="확인"/>
+<string id="Retry" value="다시 시도"/>
+<string id="Cancel" value="취소"/>
+<string id="ShowCacheSummaryTitle" value="단계별 설치"/>
+<string id="ShowCacheSummarySubtitle" value="캐싱 시작"/>
+<string id="ShowCacheSummaryDescription" value="캐싱은 소프트웨어를 설치 디렉터리에 복사하는 프로세스입니다. 캐싱 과정 동안에는 시스템 다운타임이 없으므로 시스템에서 작업을 계속할 수 있습니다."/>
+<string id="Invalid_DiskSpace" value="제품 설치에 필요한 공간이 부족합니다. 디스크 공간을 확보하거나 다른 설치 위치를 선택하십시오. 사용 가능한 공간은 [AvailableSpace] MB, 필요한 공간은 [RequiredSpace] MB입니다."/>
+<string id="Resume_Description" value="캐싱 후 설치 과정에서 소프트웨어가 시스템에 설치되며 약간의 시스템 다운타임이 있습니다."/>
+<string id="ShowResumetitle" value="단계별 설치"/>
+<string id="ShowResumeSubtitle" value="설치 다시 시작"/>
+<string id="ShowResumeFooter" value="뒤로 이동하려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 설치하려면 []Enter] 키를 누르십시오."/>
+<string id="MessageCache" value="캐싱 단계를 시작하려면 다음을 클릭하십시오."/>
+<string id="MessageResume" value="설치를 시작하려면 다음을 클릭하십시오."/>
+</context>
+</uitext>

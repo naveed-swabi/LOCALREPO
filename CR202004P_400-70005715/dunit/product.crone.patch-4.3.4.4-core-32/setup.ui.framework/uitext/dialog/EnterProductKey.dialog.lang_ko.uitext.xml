@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="InvalidProductKey" value="잘못된 제품 키를 입력했습니다."/>
+<string id="EnterProductKeyTitle" value="제품 등록 구성"/>
+<string id="EnterProductKeySubtitle" value="#product.nameandversionwithoutpatch# 제품 키를 입력하십시오."/>
+<string id="EnterProductKeyFooter" value="뒤로 이동하려면 []Ctrl-B]를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter] 키를 누르십시오."/>
+<string id="ProductkeyInfoGroup" value="제품 키 정보"/>
+<string id="ProductkeyLabel" value="제품 키:"/>
+<string id="Invalid_ProductKey" value="제품 키가 잘못되었습니다. INS00140"/>
+</context>
+</uitext>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Eksisterende CMS-implementeringsinformasjon"/>
+<string id="SpecifyRemoteCMS" value="Angi eksisterende påloggingsinformasjon for CMS og Administrator når du vil starte prosessen."/>
+<string id="RemoteCMSConnectionInfo" value="Tilkoblingsinformasjon for eksisterende CMS"/>
+<string id="RemoteCMSName" value="CMS-navn"/>
+<string id="RemoteCMSPort" value="CMS-port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Påloggingsinformasjon for CMS-administrator"/>
+<string id="RemoteCMSUser" value="Bruker"/>
+<string id="RemoteCMSPassword" value="Passord"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Enten er eksternt CMS ikke tilgjengelig, eller påloggingsinformasjonen er feil. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Enten er det ikke mulig å nå den eksterne CMS eller så er påloggingsinformasjonen feil. INS00013\nVil du angi påloggingsinformasjonen på nytt?"/>
+<string id="Invalid_SymbolInCMSPassword" value="De følgende tegnene er ikke tillatt i CMS-passord:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  . INS00099"/>
+</context>
+</uitext>

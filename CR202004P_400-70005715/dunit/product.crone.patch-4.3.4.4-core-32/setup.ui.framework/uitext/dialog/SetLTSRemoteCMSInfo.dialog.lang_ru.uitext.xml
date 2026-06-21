@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Сведения о развертывании существующего #productname#"/>
+<string id="SpecifyRemoteCMS" value="Введите учетные данные администратора для существующего развертывания."/>
+<string id="RemoteCMSConnectionInfo" value="Сведения о соединении для существующего #productname#"/>
+<string id="RemoteCMSName" value="Имя"/>
+<string id="RemoteCMSPort" value="Порт"/>
+<string id="RemoteCMSAdminLogonInfo" value="Сведения для входа администратора"/>
+<string id="RemoteCMSUser" value="Пользователь"/>
+<string id="RemoteCMSPassword" value="Пароль"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Удаленный сервер SAP Lunira недоступен или учетные данные для входа неверны. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Удаленный сервер SAP Lumira для групп недоступен или учетные данные для входа неверны. INS00013\nХотите повторно ввести учетные данные?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Пароль не должен содержать слово &quot;Administrator&quot; или специальные символы, как: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{пробел}{табуляция}"/>
+</context>
+</uitext>

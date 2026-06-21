@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="SetLCMConfigTitle" value="Konfiguracija za Subversion"/>
+<string id="SetLCMConfigSubtitle" value="Vnesite vrata in uporabniško ime za sistem nadzora verzije Subversion."/>
+<string id="repoInfoGroup" value="Informacije o odložišču za Subversion"/>
+<string id="repoName" value="Naziv odložišča:"/>
+<string id="repoPort" value="Vrata odložišča:"/>
+<string id="repoPortInline" value="Vrata za Subversion:"/>
+<string id="repoUserInfoGroup" value="Informacije uporabnika odložišča za Subversion:"/>
+<string id="repoUserName" value="Uporabniški račun za odložišče:"/>
+<string id="repoUserPass" value="Geslo za račun za odložišče:"/>
+<string id="repoUserPassInline" value="Geslo za uporabniški račun za odložišče:"/>
+<string id="repoUserPass2" value="Potrditev gesla:"/>
+<string id="Mismatch_LCMPassword" value="Gesla se ne ujemajo. Prosim, preverite in poskusite znova. INS00267"/>
+<string id="Invalid_LCMPassword" value="Geslo je preveč enostavno. Geslo mora imeti vsaj šest znakov in vsaj dve od naslednjih vrst znakov: velike črke in male črke. INS00127"/>
+</context>
+</uitext>

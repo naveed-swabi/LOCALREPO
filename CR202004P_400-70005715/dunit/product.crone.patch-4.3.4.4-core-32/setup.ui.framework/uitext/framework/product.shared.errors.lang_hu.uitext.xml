@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="hu"/>
+  <context>
+    <string id="INS00270" value="%1 MSI-hiba észlelve a(z) %2 telepítésekor. (INS00270)"/>
+    <string id="INS00271" value="%1 MSI-hiba észlelve a(z) %2 telepítésének eltávolításakor. (INS00270)"/>
+    <string id="INS00272" value="Hiba észlelve (%1) a(z) %2 fájlban a(z) %3 telepítésekor. (INS00272)"/>
+    <string id="INS00273" value="Hiba észlelve (%1) a(z) %2 fájlban a(z) %3 telepítésének eltávolításakor. (INS00272)"/>
+  </context>
+</uitext>

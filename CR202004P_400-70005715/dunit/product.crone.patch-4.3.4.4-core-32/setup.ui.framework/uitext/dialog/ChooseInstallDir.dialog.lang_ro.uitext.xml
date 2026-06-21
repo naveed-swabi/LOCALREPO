@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Configurare folder destinaţie"/>
+<string id="ChooseInstallDirSubtitle" value="Introduceţi calea de destinaţie completă pentru instalarea produsului."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Introduceţi calea de destinaţie completă pentru instalarea produsului."/>
+<string id="DestinationFolderGroupBox" value="Informaţii despre folderul de destinaţie"/>
+<string id="DestinationFolder" value="Folder de destinaţie:"/>
+<string id="Browse" value="Navigare"/>
+<string id="BrowseInstallDirectory" value="Alegeţi locaţie de instalare"/>
+<string id="DirGenericError" value="Folder destinaţie este nevalabil. Selectaţi un folder de destinaţie diferit. INS00029"/>
+<string id="DirNetworkError" value="Folderul de destinaţie nu poate fi o locaţie în reţea. Alegeţi o locaţie diferită."/>
+<string id="DirEmptyError" value="Trebuie să selectaţi un folder de destinaţie. INS00029"/>
+<string id="DirAbsolutePathError" value="Folder de destinaţie trebuie să fie o cale completă. INS00029"/>
+<string id="DirInvalidCharWinError" value="Folderul de destinaţie poate utiliza doar numere, litere sau caracterele următoare: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Cale folder de destinaţie este prea lungă. Utilizaţi o cale care are mai puţin de 150 de caractere. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Folderul de destinaţie conţine un produs incompatibil. Selectaţi o locaţie diferită. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Director de instalare nevalabil. Utilizaţi o cale absolută valabilă care conţine doar caractere alfanumerice sau oricare dintre următoarele caractere: _ - \ . ( ). Directorul trebuie să fie amplasat pe o unitate fixă şi calea completă nu poate depăşi lungimea de 150 de caractere. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Director de instalare nevalabil. Utilizaţi o cale absolută valabilă pt. care aveţi şi permisiuni de citire, scriere şi execuţie. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Director de instalare nu poate conţine spaţii."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Următoarele caractere nu sunt permise în directorul de instalare:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Apăsaţi []Tab] pt. completarea automat a elementelor directorului, []Ctrl-B] pt. a merge înapoi, []Ctrl-X] pt. a ieşi sau []Enter] pt. a continua."/>
+</context>
+</uitext>

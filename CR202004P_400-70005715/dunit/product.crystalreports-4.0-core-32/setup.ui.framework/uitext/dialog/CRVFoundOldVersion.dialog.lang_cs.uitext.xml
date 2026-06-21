@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="DlgTitle" value="Upgrade produktu"/>
+<string id="DlgSummary" value="Byla zjištěna jiná verze tohoto produktu."/>
+<string id="ProceedOrNot" value="Byla zjištěna jiná verze prohlížeče Crystal Reports Viewer. Budete-li pokračovat v instalaci, proběhne upgrade na verzi Crystal Reports Viewer 2010. Chcete-li pokračovat, klikněte na Další. Chcete-li instalaci zrušit, klikněte na Zrušit a instalaci ukončete."/>
+</context>
+</uitext>

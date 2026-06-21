@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="PostInstallStep_HTML_Prefix" value="{html}{head}{meta http-equiv='Content-Type' content='text/html;charset=utf-8'}{/head}{body style=&quot;font-family:Arial;font-size:12px;&quot;}"/>
+<string id="PostInstallStep_HTML_Suffix" value="{/ul}{/body}{/html}"/>
+<string id="PostInstallSteps" value="Steg efter installationen"/>
+<string id="PostInstallDetails" value="Installationen är slutförd. Följ anvisningarna nedan om vad du ska göra efter installationen för att slutföra din distribution."/>
+<string id="PostUninstallSteps" value="Steg efter avinstallationen"/>
+<string id="PostUninstallDetails" value="Avinstallationen är nästan slutförd. Följ anvisningarna nedan för att slutföra processen."/>
+<string id="PostInstallStep_Header" value="{b}Instruktioner efter installation:{/b}{ul}"/>
+<string id="PostInstallStep_Header_Unix" value="Instruktioner efter installation:"/>
+<string id="PostUninstallStep_Header" value="{b}Anvisningar efter installationen:{/b}{ul}"/>
+<string id="PostUninstallStep_Header_Unix" value="Anvisningar efter avinstallation:"/>
+<string id="CRPostInstallUIText1" value="Produktregistrering{br}Registrera din produkt online genom att klicka {a href='http://www.businessobjects.com/ipl/default.asp?destination=ProductRegistration&amp;language=[SetupUILanguage]&amp;product=crystalreports&amp;version=14%2E0  '}här{/a}."/>
+<string id="PostInstallStep_Footer" value="Installationen har slutförts. Tryck på []Retur] för att fortsätta"/>
+<string id="PostUnInstallStep_Footer" value="Avinstallationen har slutförts. Tryck på []Retur] för att fortsätta"/>
+</context>
+</uitext>

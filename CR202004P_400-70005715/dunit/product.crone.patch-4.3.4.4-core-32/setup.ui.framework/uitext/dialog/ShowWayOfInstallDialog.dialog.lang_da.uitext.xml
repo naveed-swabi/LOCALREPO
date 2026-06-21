@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="Title" value="Vælg installationstilstand"/>
+<string id="SubTitle" value="Vælg installationstilstanden"/>
+<string id="Standard_InstallationName" value="Standardinstallation"/>
+<string id="Standard_InstallationText" value="Installation udføres i enkeltfase"/>
+<string id="PhaseWise_InstallationName" value="Fasevis installation"/>
+<string id="PhaseWise_InstallationText" value="Installation udføres i to faser – &quot;Cachelagring&quot; og &quot;Installation efter cachelagring&quot;. Under cachelagring er der ingen systemnedetid, og du kan fortsætte med at arbejde i systemet. Under installation efter cachelagring installeres softwaren på systemet med noget systemnedetid."/>
+<string id="CachingCompletedSubTitle" value="Cachelagring fuldført"/>
+<string id="Resume_InstallationSubTitle" value="Fortsæt installation efter cachelagring. Installation efter cachelagring er den aktuelle installationsproces, hvor du oplever systemnedetid."/>
+<string id="ShowWayOfInstallFooter" value="Tryk på []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte, eller []Enter] for at installere."/>
+</context>
+</uitext>

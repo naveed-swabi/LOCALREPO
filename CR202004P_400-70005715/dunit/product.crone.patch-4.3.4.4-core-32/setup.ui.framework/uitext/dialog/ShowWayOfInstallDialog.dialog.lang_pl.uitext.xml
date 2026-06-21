@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="Title" value="Wybór trybu instalacji"/>
+<string id="SubTitle" value="Wybierz tryb instalacji"/>
+<string id="Standard_InstallationName" value="Instalacja standardowa"/>
+<string id="Standard_InstallationText" value="Instalacja jest wykonywana w ramach jednej fazy"/>
+<string id="PhaseWise_InstallationName" value="Instalacja fazowa"/>
+<string id="PhaseWise_InstallationText" value="Instalacja jest wykonywana w dwóch fazach: fazie buforowania i fazie instalacji po buforowaniu. Podczas buforowania nie ma przestoju systemu i można kontynuować pracę w systemie. Podczas instalacji po buforowaniu oprogramowanie jest instalowane w systemie i występuje jego przestój."/>
+<string id="CachingCompletedSubTitle" value="Zakończono buforowanie"/>
+<string id="Resume_InstallationSubTitle" value="Wznów instalację po buforowaniu. Instalacja po buforowaniu jest rzeczywistym procesem instalowania, podczas którego występuje przestój systemu."/>
+<string id="ShowWayOfInstallFooter" value="Naciśnij klawisze []Ctrl-B], aby przejść wstecz, klawisze []Ctrl-X], aby zakończyć, lub klawisz []Enter], aby zainstalować."/>
+</context>
+</uitext>

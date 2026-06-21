@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="SLDIntegrateTitle" value="SAP Solution Manager-integrering"/>
+<string id="SLDIntegrateTitleSub" value="Integrerer du med SAP Solution Manager?"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="SAP Solution Manager-integrering"/>
+<string id="IntegrateBtn" value="Integrer med SAP Solution Manager. Du blir bedt om å angi informasjon."/>
+<string id="NoIntegrateBtn" value="Ikke integrer med SAP Solution Manager."/>
+<string id="Invalid_SLDIntegrateSelection" value="Ugyldig ChooseSLDIntegration ([ChooseSLDIntegration]): Kan bare være integrate eller nointegrate. INS00285"/>
+</context>
+</uitext>

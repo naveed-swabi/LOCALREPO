@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Befintlig distributionsinformation för #productname#"/>
+<string id="SpecifyRemoteCMS" value="Ange inloggningsuppgifter för administratör för din befintliga distribution."/>
+<string id="RemoteCMSConnectionInfo" value="Anslutningsinformation för befintlig #productname#"/>
+<string id="RemoteCMSName" value="Namn"/>
+<string id="RemoteCMSPort" value="Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Inloggningsuppgifter för administratör"/>
+<string id="RemoteCMSUser" value="Användare"/>
+<string id="RemoteCMSPassword" value="Lösenord"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Antingen går det inte att nå fjärrserver för SAP Lumira för team eller också är inloggningsuppgifterna felaktiga. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Antingen går det inte att nå fjärrserver för SAP Lumira för team eller också är inloggningsuppgifterna felaktiga. INS00013\nVill du ange uppgifterna igen?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Lösenordet kan inte innehålla ordet &quot;Administrator&quot; eller specialtecken som: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{space}{tab}"/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# ได้รับการติดตั้งเรียบร้อยแล้ว"/>
+<string id="Description" value="คลิก เสร็จสิ้น เพื่อออกจากการติดตั้ง"/>
+<string id="MonitorToolCheck" value="รันเครื่องมือติดตามตรวจสอบซอฟต์แวร์"/>
+<string id="CustomNextButton" value="เสร็จสิ้น"/>
+</context>
+</uitext>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="ChooseSldServerLocation" value="Выберите расположение сервера SLD"/>
+<string id="SpecifySldServerLocation" value="Введите расположение сервера SLD"/>
+<string id="SldHostnameExample" value="Введите адрес сервера SLD (например, http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Введите данные для входа."/>
+<string id="SldHostname" value="Имя хоста"/>
+<string id="SldPort" value="Порт"/>
+<string id="SldUsername" value="Имя пользователя"/>
+<string id="SldPassword" value="Пароль"/>
+</context>
+</uitext>

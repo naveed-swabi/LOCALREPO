@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ExpandInstallMessage_1" value="A telepítés nem folytatható"/>
+<string id="ExpandInstallMessage_2" value="Írja le a telepítést gátló problémákat"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="A Ctrl-X billentyűkombináció megnyomásával kiléphet a telepítőből"/>
+<string id="AlwaysFailureGeneralMessage" value="A telepítés nem folytatható\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

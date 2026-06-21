@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Tuntematon ChooseUpgrade-asetus määritettiin, kelvolliset arvot: 0 ja 1"/>
+<string id="ChooseUpgrade" value="Tuotteen #productname# aiempi versio havaittu"/>
+<string id="SelectUpgrade" value="Valitse, suoritetaanko päivitysasennus."/>
+<string id="SideBySide" value="Suorita rinnakkaisasennus"/>
+<string id="SideBySideDescription" value="Asentaa tuotteen #productname# tämän version asennettuna olevan version rinnalle."/>
+<string id="SimpleUpgrade" value="Suorita yksinkertainen päivitys"/>
+<string id="SimpleUpgradeDescription" value="Tuotteen #productname# aiempi versio on havaittu. Poista aiempi versio ennen jatkamista tai suorita päivitys paikallaan valitsemalla tämä vaihtoehto."/>
+<string id="Invalid_ChooseUpgrade" value="Virheellinen ChooseUpgrade-asetus ([ChooseUpgrade]): asetuksen täytyy olla 0 tai 1"/>
+</context>
+</uitext>

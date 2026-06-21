@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="CheckPreRequisitesTitle" value="Kontroller forudsætninger"/>
+<string id="CheckPreRequisitesSubTitle" value="Liste over manglende kritiske eller valgfri forudsætninger."/>
+<string id="PreRequsitiesDetails" value="Mislykkede kritiske afhængigheder skal håndteres, før installationen kan fortsætte, mens mislykkede valgfri afhængigheder kan føre til manglende installation af komponenter."/>
+<string id="AcceptKBAInfo" value="Jeg har læst SAP Knowledge Base Article 1794601 og kontrolleret de delte oplysninger for at sikre, at den planlagte opdatering anbefales og understøttes."/>
+<string id="AcceptKBAInfoUnix" value="Klik på [Enter], når du har læst SAP Knowledge Base Article 1794601 og kontrolleret de delte oplysninger for at sikre, at den planlagte opdatering anbefales og understøttes."/>
+<string id="Column_Total" value="3"/>
+<string id="Column_1_Name" value="Forudsætning"/>
+<string id="Column_1_Width" value="250"/>
+<string id="Column_2_Name" value="Type"/>
+<string id="Column_2_Width" value="70"/>
+<string id="Column_3_Name" value="Status"/>
+<string id="Column_3_Width" value="100"/>
+<string id="Column_Type_Critical" value="Kritisk"/>
+<string id="Column_Type_Optional" value="Valgfri"/>
+<string id="Column_Status_Succeeded" value="Lykkedes"/>
+<string id="Column_Status_Missing" value="Mislykkedes"/>
+<string id="Hints_Why_Fails" value="Hvis en forudsætning mislykkedes, skal du klikke på det mislykkede element for at få oplysninger om, hvordan problemet løses."/>
+<string id="Failure_Reason" value="Oplysninger:"/>
+<string id="PreRequisitesUIText_Failure" value="Kontrol af forudsætninger mislykkedes"/>
+<string id="Retry_Button" value="Prøv igen"/>
+<string id="Back_Button" value="Tilbage"/>
+</context>
+</uitext>

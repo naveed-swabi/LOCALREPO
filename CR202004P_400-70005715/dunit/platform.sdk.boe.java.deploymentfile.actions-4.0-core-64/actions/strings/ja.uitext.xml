@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="progress.UpdateRepository" value="リポジトリを更新しています"/>
+<string id="progress.SetHyperLink" value="システム設定を設定しています"/>
+</context>
+</uitext>

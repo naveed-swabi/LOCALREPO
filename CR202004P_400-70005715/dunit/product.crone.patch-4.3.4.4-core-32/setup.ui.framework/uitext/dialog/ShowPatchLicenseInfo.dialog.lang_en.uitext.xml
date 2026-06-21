@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="en"/>
+<context>
+<string id="LicenseAgreement" value="New License Key Requirement"/>
+<string id="YouMustAgree" value="A new license key is required for #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="A new license key is required for #product.fullproductname#."/>
+<string id="IAccept" value="I have read the documentation and understand the process to request the new license key and agree to delete the old license key and add the new license key after update installation."/>
+<string id="subtitle1" value="#product.fullproductname# requires a new license key."/>
+<string id="subtitle2" value="Request the new license key. For more information on how to request the license key, visit"/>
+<string id="subtitle3" value="After #product.fullproductname# installation is completed, logon to Central Management Console (CMC); delete the old license key and add the new license key. Until you add the new license key, all services are disabled."/>
+<string id="subtitle4" value="Request the new license key here"/>
+<string id="AcceptOrNotAccept" value="Press &lt;ENTER&gt; to agree to delete the old license key and add the new license key after update installation."/>
+<string id="Description_Patch_License" value="#product.fullproductname# requires a new license key.\n\nRequest the new license key. For more information on how to request the license key, visit http://scn.sap.com/docs/DOC-70095. \n\nAfter #product.fullproductname# installation is completed, logon to Central Management Console (CMC); delete the old license key and add the new license key. Until you add the new license key, all services are disabled."/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="ChooseDestination" value="インストール先フォルダの指定"/>
+<string id="SpecifyDestination" value="インストール先フォルダは製品がインストールされる場所です。[参照] をクリックして別のインストール先を選択してください。"/>
+<string id="DestinationFolder" value="出力先フォルダ"/>
+<string id="Browse" value="参照"/>
+<string id="BrowseInstallDirectory" value="インストール先の選択"/>
+<string id="PWClientFolderTitle" value="クライアントの出力先フォルダ"/>
+<string id="PWServerFolderTitle" value="サーバの出力先フォルダ"/>
+<string id="Invalid_InstallDirWindows" value="インストールディレクトリが無効です。英数字または以下の文字のみを含む有効な絶対パスを使用してください: _ - \ . ( )  このディレクトリは固定ドライブ上にある必要がり、また完全パスの文字数は 150 を超えることができません。INS00029"/>
+<string id="Invalid_InstallDirUnix" value="インストールディレクトリが無効です。読み取り権限、書き込み権限、および実行権限のある有効な絶対パスを使用してください。INS00029"/>
+</context>
+</uitext>

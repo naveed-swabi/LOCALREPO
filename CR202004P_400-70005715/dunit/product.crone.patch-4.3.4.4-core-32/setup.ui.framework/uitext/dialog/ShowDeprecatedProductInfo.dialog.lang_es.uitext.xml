@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="DeprecatedProductAgreement" value="Anuncio de productos y funciones obsoletas"/>
+<string id="YouMustAgree" value="Algunos productos y funciones se han marcado como obsoletos en #product.fullproductnamenospace#."/>
+<string id="IAccept" value="He leído la documentación y entiendo el impacto de los productos y las funciones obsoletas de la plataforma de BI. Acepto realizar las acciones dispuestas tras la actualización."/>
+<string id="subtitle1" value="Las aplicaciones, como SAP BusinessObjects Explorer y SAP BusinessObjects Dashboards están obsoletas en BI 4.3. Puede consultar la lista completa de aplicaciones obsoletas y obtener más información sobre esta actividad en"/>
+<string id="subtitle2" value="Debe revisar el impacto y, a continuación, realizar las acciones dispuestas según se indica en el blog."/>
+<string id="AcceptOrNotAccept" value="Pulse &lt;ENTER&gt; para aceptar que ha leído la documentación y entendido el impacto de los productos y las funciones obsoletas de la plataforma de BI, así como aceptar realizar las acciones dispuestas tras la actualización."/>
+<string id="DeprecatedProductDescription" value="Las aplicaciones, como SAP BusinessObjects Explorer y SAP BusinessObjects Dashboards están obsoletas en BI 4.3. Puede consultar la lista completa de aplicaciones obsoletas y obtener más información sobre esta actividad en https://launchpad.support.sap.com/#/notes/2801797. \n\n.Debe revisar el impacto y realizar las acciones dispuestas como se indica en el blog.\n\n"/>
+<string id="CRServiceDescription" value="Los servicios de SAP Crystal Reports 2020 ya no son compatibles con Linux y Unix. Por lo tanto, se eliminarán durante esta actualización. Sin embargo, los documentos de SAP Crystal Reports 2020 permanecerán en la plataforma de BI y seguirán siendo compatibles. Para conocer más detalles sobre cómo distribuir los servicios requeridos en un servidor de Windows, consulte el artículo de la base de conocimientos de SAP en https://launchpad.support.sap.com/#/notes/3032096."/>
+</context>
+</uitext>

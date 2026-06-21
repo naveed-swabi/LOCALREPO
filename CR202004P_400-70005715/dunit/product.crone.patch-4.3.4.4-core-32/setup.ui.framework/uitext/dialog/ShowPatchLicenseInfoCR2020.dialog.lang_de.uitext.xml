@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Neuer Lizenzschlüssel erforderlich"/>
+<string id="YouMustAgree" value="Für #product.fullproductnamenospace#update ist ein neuer Lizenzschlüssel erforderlich."/>
+<string id="IAccept" value="Ich habe die Dokumentation gelesen und kenne nun den Prozess zur Anforderung des neuen Lizenzschlüssels. Ich bin damit einverstanden, den neuen Lizenzschlüssel nach der Installation des Updates hinzuzufügen."/>
+<string id="subtitle1" value="Wenn Sie SAP Crystal Reports als Teil von SAP BusinessObjects Business Intelligence erworben haben, erhalten Sie über den unten stehenden Link Informationen dazu, wie Sie den neuen Lizenzschlüssel anfordern können."/>
+<string id="subtitle2" value="Wenn Sie SAP Crystal Reports separat gekauft haben, können Sie ein Upgrade für Ihren Lizenzschlüssel im SAP Store erwerben."/>
+<string id="subtitle3" value="Wenn Sie die Anwendung nach der Installation des Updates starten, müssen Sie den neuen Lizenzschlüssel im Lizenz-Manager eingeben."/>
+</context>
+</uitext>

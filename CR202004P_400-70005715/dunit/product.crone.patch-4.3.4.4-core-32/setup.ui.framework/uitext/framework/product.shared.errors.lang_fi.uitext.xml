@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="fi"/>
+  <context>
+    <string id="INS00270" value="MSI-virhe %1 kohteen %2 asennuksen aikana. (INS00270)"/>
+    <string id="INS00271" value="MSI-virhe %1 kohteen %2 asennuksen poiston aikana. (INS00271)"/>
+    <string id="INS00272" value="Virhe (%1) tiedostossa %2 kohteen %3 asennuksen aikana. (INS00272)"/>
+    <string id="INS00273" value="Virhe (%1) tiedostossa %2 kohteen %3 asennuksen poiston aikana. (INS00273)"/>
+  </context>
+</uitext>

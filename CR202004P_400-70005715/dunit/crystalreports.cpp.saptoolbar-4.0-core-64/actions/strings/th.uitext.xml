@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="progress.BWRegServer" value="กำลังกำหนดค่าการผสานรวม SAP"/>
+<string id="progress.BWUnregServer" value="กำลังกำหนดค่าการผสานรวม SAP"/>
+</context>
+</uitext>

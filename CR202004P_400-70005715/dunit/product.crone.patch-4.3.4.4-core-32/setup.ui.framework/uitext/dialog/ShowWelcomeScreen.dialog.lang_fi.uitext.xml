@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Message" value="Tervetuloa tuotteen #product.fullproductnamenospace# ohjattuun asennustoimintoon."/>
+<string id="ShowWelcomeScreenTitle" value="Tervetuloa-näyttö"/>
+<string id="ShowWelcomeScreenSubtitle" value="Tervetuloa tuotteen #product.fullproductnamenospace# ohjattuun asennustoimintoon."/>
+<string id="Description" value="On suositeltavaa sulkea kaikki Windows-ohjelmat ennen tämän asennusohjelman suorittamista.\n\nJos haluat lopettaa asennuksen ja sulkea minkä tahansa käynnissä olevan ohjelman, valitse Peruuta. Jos haluat jatkaa asennusohjelmaa, valitse Seuraava..\n\nVAROITUS: tämä ohjelma on suojattu tekijänoikeuslailla ja kansainvälisillä sopimuksilla.\n\n\nTämän ohjelman tai sen osan luvaton kopioiminen tai jakaminen saattaa johtaa sakkoihin tai muihin rikosoikeudellisiin rangaistuksiin, ja tällaisesta toiminnasta nostetaan syyte lain sallimissa puitteissa."/>
+<string id="Description_unix" value="VAROITUS: Tämä ohjelma on suojattu tekijänoikeuslain ja kansainvälisten sopimusten nojalla.\n\n\nTämän ohjelman tai sen osan luvaton kopioiminen tai jakaminen saattaa johtaa siviili- ja rikosoikeudellisiin rangaistuksiin, ja tällaisesta toiminnasta nostetaan syyte lain sallimissa puitteissa.\n\n\nHUOMAUTUS: Lisätietoja tuetuista alustoista on osoitteessa http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Palaa takaisin painamalla []Ctrl-B]-näppäinyhdistelmää, lopeta painamalla []Ctrl-X]-näppäinyhdistelmää tai jatka painamalla []Enter]-näppäintä."/>
+<string id="PamHyperLinkWelcome" value="Lisätietoja tuetuista alustoista on osoitteessa"/>
+</context>
+</uitext>

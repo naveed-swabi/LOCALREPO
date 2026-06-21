@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="Title" value="Vaiheittainen asennus"/>
+<string id="SubTitle" value="Välimuistiin tallennus on valmis"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Lopeta vaiheittainen asennus painamalla [Enter]-näppäintä."/>
+<string id="Description" value="Voit jatkaa asennusta välimuistiin tallennuksen jälkeen suorittamalla asennustiedoston uudelleen. Järjestelmässä on tällöin käyttökatko, Voit suorittaa tämän asennusvaiheen, kun käytettävissä on ylläpitoaikaa."/>
+<string id="FinishMessage" value="Lopeta vaiheittainen asennus valitsemalla Valmis."/>
+<string id="Finish" value="Valmis"/>
+</context>
+</uitext>

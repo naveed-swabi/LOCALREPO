@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="hu"/>
+  <context>
+    <string id="Yes" value="Igen"/>
+    <string id="No" value="Nem"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="Mégse"/>
+    <string id="Abort" value="Megszakítás"/>
+    <string id="Continue" value="Folytatás"/>
+    <string id="Ignore" value="Mellőzés"/>
+    <string id="Next" value="Tovább"/>
+    <string id="Previous" value="Vissza"/>
+    <string id="Info" value="Információ"/>
+    <string id="Warning" value="Figyelmeztetés"/>
+    <string id="Error" value="Hiba"/>
+    <string id="FatalError" value="Súlyos hiba"/>
+    <string id="ErrorDialogTitle" value="Hiba"/>
+    <string id="ErrorDialogSubtitle" value="Hiba történt."/>
+    <string id="ErrorDialogFooter" value="A folytatáshoz nyomja meg az Enter billentyűt."/>
+    <string id="WarnDialogTitle" value="Figyelmeztetés"/>
+    <string id="WarnDialogSubtitle" value="Figyelmeztetés történt."/>
+    <string id="WarnDialogFooter" value="A visszalépéshez nyomja meg az CTRL+B billentyűkombinációt. A folytatáshoz nyomja meg az ENTER billentyűt."/>
+    <string id="InfoDialogTitle" value="Információ"/>
+    <string id="InfoDialogSubtitle" value="A következő adatok érhetők el."/>
+    <string id="InfoDialogFooter" value="A folytatáshoz nyomja meg az Enter billentyűt."/>
+    <string id="DefaultUnixFooter" value="A következő mezőre lépéshez nyomja meg a Tab billentyűt, az előző mezőre lépéshez a Ctrl+B billentyűkombinációt, a kilépéshez a Ctrl+X billentyűkombinációt, a folytatáshoz pedig az Enter billentyűt."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="A következő mezőre lépéshez nyomja meg a Tab billentyűt, a kilépéshez a Ctrl+X billentyűkombinációt, a folytatáshoz pedig az Enter billentyűt."/>
+    <string id="ProgressDialogUnixFooter" value="A kilépéshez nyomja meg a Ctrl+X billentyűkombinációt."/>
+    <string id="CancelCaption" value="Mégse"/>
+    <string id="CancelExitSetup" value="Kilépés a telepítőből"/>
+    <string id="CancelMsg" value="Ha most kilép, a program nem települ. A telepítés befejezéséhez később is futtathatja a telepítőprogramot.\nA telepítés folytatásához kattintson a Folytatás gombra. A telepítőből való kilépéshez kattintson a Kilépés a telepítőből gombra."/>
+    <string id="CancelResume" value="Folytatás"/>
+    <string id="DialogCaption" value="#product.fullproductnamenospace# telepítése"/>
+    <string id="outofspace" value="Elfogyott a lemezterület"/>
+    <string id="CanceledModifier" value="%1 (Megszakítás)"/>
+    <string id="ValidationCaption" value="Érvényesítés eredménye"/>
+    <string id="ValidationError" value="Hiba:"/>
+    <string id="ValidationToDo" value="Az érvényesítési hiba javításához kattintson az OK gombra. Ha csak figyelmeztetések vannak, az Igen gombra kattintva folytathatja a műveletet; a Nem gombra kattintva javítható a hiba."/>
+    <string id="ValidationWarning" value="Figyelmeztetés:"/>
+    <string id="Validation.MissingFields" value="A telepítés folytatásához töltse ki a kötelező mezőket."/>
+    <string id="ValidationFailed.Blocking" value="A folyamat leállt, mivel a következő művelet nincs érvényesítve:"/>
+    <string id="ValidationFailed.Optional" value="Az opcionális érvényesítés sikertelen a következő műveletnél:"/>
+    <string id="action.InstallDUBundle" value="Implementációs egység telepítése:"/>
+    <string id="action.UninstallDUBundle" value="Implementációs egység eltávolítása:"/>
+    <string id="action.RegisterBinary" value="Bináris fájl regisztrálása"/>
+    <string id="action.UnregisterBinary" value="Bináris fájl regisztrációjának megszüntetése"/>
+    <string id="action.ConfigureTomcat" value="Tomcat konfigurálása"/>
+    <string id="action.BOBJTextReplace" value="Szövegcsere végrehajtása"/>
+    <string id="action.RunCommand" value="Parancssori utasítás végrehajtása"/>
+    <string id="action.RunCommandConditional" value="Parancssori utasítás végrehajtása bizonyos feltételek mellett"/>
+    <string id="action.EnsureFolderExists" value="Ellenőrizze, hogy létezik-e mappa"/>
+    <string id="action.CreateShortcut" value="Parancsikon létrehozása a Start menüben"/>
+    <string id="action.AddARPEntry" value="Bejegyzés hozzáadása a Programok telepítése/törlése listában"/>
+    <string id="action.RemoveARPEntry" value="Bejegyzés törlése a Programok telepítése/törlése listából"/>
+    <string id="action.BOBJRegasm" value="Szerelvényregisztráció futtatása"/>
+    <string id="action.BOBJUnRegasm" value="Szerelvényregisztráció eltávolítása"/>
+    <string id="sequence.InstallPreReqs" value="Előfeltételek telepítése"/>
+    <string id="sequence.SetInitialProperties" value="Kezdeti tulajdonságok beállítása"/>
+    <string id="sequence.SetMyProperties" value="Terméktulajdonságok beállítása"/>
+    <string id="sequence.InstallDUBase" value="Műveletek telepítése"/>
+    <string id="sequence.InstallDUBundles" value="Implementációs egységek telepítése"/>
+    <string id="sequence.CreateSymLinks" value="Szimbolikus hivatkozások létrehozása"/>
+    <string id="sequence.ConfigureDUBase" value="Implementációs egységek konfigurálása"/>
+    <string id="sequence.PopulateRegistry" value="Beállításjegyzék kitöltése"/>
+    <string id="sequence.InstallServices" value="Szolgáltatások telepítése"/>
+    <string id="sequence.ConfigureServices" value="Szolgáltatások konfigurálása"/>
+    <string id="sequence.StartServices" value="Szolgáltatások indítása"/>
+    <string id="sequence.StopServices" value="Szolgáltatások leállítása"/>
+    <string id="sequence.UninstallServices" value="Szolgáltatások eltávolítása"/>
+    <string id="sequence.UnPopulateRegistry" value="Beállításjegyzék kitöltésének megszüntetése"/>
+    <string id="sequence.UninstallDUBase" value="Műveletek eltávolítása"/>
+    <string id="sequence.UnconfigureDUBase" value="Implementációs egységek konfigurálásának visszavonása"/>
+    <string id="sequence.RemoveSymLinks" value="Szimbolikus hivatkozások eltávolítása"/>
+    <string id="sequence.UninstallDUBundles" value="Implementációs egységek eltávolítása:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Üres mappák törlése"/>
+    <string id="Dialog.title" value="Telepítési üzenet"/>
+    <string id="PleaseWait" value="Várakozás..."/>
+    <string id="LongCalculation" value="Hosszú számítás van folyamatban. Várakozás..."/>
+    <string id="DiskCostInProgress" value="Lemezterület-igény kiszámítása folyamatban."/>
+    <string id="Confirm.title" value="Jóváhagyás"/>
+    <string id="Permissions.title" value="Telepítési engedélyek"/>
+    <string id="NoPermissionsOperation" value="Nincs hozzáférési jogosultsága a telepítéssel kapcsolatos műveletek végrehajtására."/>
+    <string id="NoPermissionsFile" value="Nincs jogosultsága a(z) %1 fájlhoz való hozzáféréshez"/>
+    <string id="NoPatchWithPackageInstall" value="A telepítő a(z) #productname# korábbi telepített verzióját találta. Nem használható a teljes telepítőcsomag, ha már van korábbi verzió telepítve. Az aktuális telepítés frissítéséhez alkalmazza a(z) #product.fullproductname# karbantartócsomagját."/>
+    <string id="OlderCryptoDllFound" value="A telepítő azt észlelte, hogy az R_SHLIB_LD_LIBRARY_PATH változó kriptográfiai bináris fájljainak verziója korábbi a mostani telepítéshez szükséges bináris fájlok verziójánál. A telepítés elvégzéséhez kövesse a mellékelt dokumentum utasításait."/>
+    <string id="CmdLine.title" value="Telepítési parancssor"/>
+    <string id="InvalidCmdLine" value="Érvénytelen parancssor"/>
+    <string id="ExpectedCmdLine" value="A várt parancssor: %1"/>
+    <string id="ActionFailed" value="Az egyéni művelet sikertelen"/>
+    <string id="ActionFailedArg" value="Az egyéni művelet sikertelen: %1"/>
+    <string id="ActionFailedWithCode" value="Az egyéni művelet sikertelen. A megjelenített hibakód:"/>
+    <string id="RegistrationFailed" value="A bináris fájl nem regisztrálható: %1"/>
+    <string id="NoFindFile" value="A fájl nem található: %1"/>
+    <string id="NoCMS" value="Nem lehet csatlakozni a CMS szerverhez"/>
+    <string id="NoCMSArg" value="Nem lehet csatlakozni a CMS szerverhez, hely: %1"/>
+    <string id="DFOFailed" value="A DFO feltöltése sikertelen"/>
+    <string id="wdeployFailed" value="A wDeploy nem tudta üzembe helyezni az alkalmazást."/>
+    <string id="ScriptFailed" value="A parancsfájl nem futtatható: %1"/>
+    <string id="CmdFailed" value="A parancssor nem futtatható: %1"/>
+    <string id="ServerStartFailed" value="A szerver nem indítható: %1"/>
+    <string id="ServerStopFailed" value="A szerver nem állítható le: %1"/>
+    <string id="ExitCode" value="Kilépési kód: %1"/>
+    <string id="DBInitFail" value="Az adatbázis nem inicializálható"/>
+    <string id="ShortcutFail" value="A parancsikon nem hozható létre: %1"/>
+    <string id="ARPFail" value="Nem hozható létre ''Programok telepítése és törlése'' bejegyzés a(z) %1 program számára"/>
+    <string id="CreateFolderFail" value="A mappa nem hozható létre: %1"/>
+    <string id="SamplesFail" value="A minták nem adhatók hozzá"/>
+    <string id="LicenseKeyFail" value="A licenckulcs nem adható hozzá"/>
+    <string id="Tomcatfail" value="A Tomcat nem konfigurálható"/>
+    <string id="PropertyFail" value="A tulajdonság értéke nem kérhető le: %1"/>
+    <string id="dev" value="Fejlesztői angol"/>
+    <string id="aa" value="Afar"/>
+    <string id="ab" value="Abház"/>
+    <string id="af" value="Afrikansz"/>
+    <string id="am" value="Amhara"/>
+    <string id="ar" value="Arab"/>
+    <string id="as" value="Asszámi"/>
+    <string id="ay" value="Ajmara"/>
+    <string id="az" value="Azerbajdzsán"/>
+    <string id="ba" value="Baskír"/>
+    <string id="be" value="Belorusz"/>
+    <string id="bg" value="Bolgár"/>
+    <string id="bh" value="Bihari"/>
+    <string id="bi" value="Biszlama"/>
+    <string id="bn" value="Bengáli"/>
+    <string id="bo" value="Tibeti"/>
+    <string id="br" value="Breton"/>
+    <string id="ca" value="Katalán"/>
+    <string id="co" value="Korzikai"/>
+    <string id="cs" value="Cseh"/>
+    <string id="cy" value="Velszi"/>
+    <string id="da" value="Dán"/>
+    <string id="de" value="Német"/>
+    <string id="dz" value="Butáni"/>
+    <string id="el" value="Görög"/>
+    <string id="en" value="Angol"/>
+    <string id="eo" value="Eszperantó"/>
+    <string id="es" value="Spanyol"/>
+    <string id="et" value="Észt"/>
+    <string id="eu" value="Baszk"/>
+    <string id="fa" value="Perzsa"/>
+    <string id="fi" value="Finn"/>
+    <string id="fj" value="Fidzsi"/>
+    <string id="fo" value="Feröeri"/>
+    <string id="fr" value="Francia"/>
+    <string id="fy" value="Fríz"/>
+    <string id="ga" value="Ír"/>
+    <string id="gd" value="Skót gael"/>
+    <string id="gl" value="Galíciai"/>
+    <string id="gn" value="Guarani"/>
+    <string id="gu" value="Gudzsarati"/>
+    <string id="ha" value="Hausza"/>
+    <string id="he" value="Héber"/>
+    <string id="hi" value="Hindi"/>
+    <string id="hr" value="Horvát"/>
+    <string id="hu" value="Magyar"/>
+    <string id="hy" value="Örmény"/>
+    <string id="ia" value="Interlingua"/>
+    <string id="id" value="Indonéz"/>
+    <string id="ie" value="Interlingue"/>
+    <string id="ik" value="Inupiak"/>
+    <string id="is" value="Izlandi"/>
+    <string id="it" value="Olasz"/>
+    <string id="iu" value="Inuktitut"/>
+    <string id="ja" value="Japán"/>
+    <string id="jw" value="Jávai"/>
+    <string id="ka" value="Grúz"/>
+    <string id="kk" value="Kazah"/>
+    <string id="kl" value="Grönlandi"/>
+    <string id="km" value="Kambodzsai"/>
+    <string id="kn" value="Kannada"/>
+    <string id="ko" value="Koreai"/>
+    <string id="ks" value="Kasmíri"/>
+    <string id="ku" value="Kurd"/>
+    <string id="ky" value="Kirgiz"/>
+    <string id="la" value="Latin"/>
+    <string id="ln" value="Lingala"/>
+    <string id="lo" value="Laoszi"/>
+    <string id="lt" value="Litván"/>
+    <string id="lv" value="Lett"/>
+    <string id="mg" value="Malagas"/>
+    <string id="mi" value="Maori"/>
+    <string id="mk" value="Macedón"/>
+    <string id="ml" value="Malajálam"/>
+    <string id="mn" value="Mongol"/>
+    <string id="mo" value="Moldáv"/>
+    <string id="mr" value="Maráti"/>
+    <string id="ms" value="Maláj"/>
+    <string id="mt" value="Máltai"/>
+    <string id="my" value="Burmai"/>
+    <string id="na" value="Nauru"/>
+    <string id="nb" value="Norvég"/>
+    <string id="ne" value="Nepáli"/>
+    <string id="nl" value="Holland"/>
+    <string id="oc" value="Okcitán"/>
+    <string id="om" value="Oromo"/>
+    <string id="or" value="Orija"/>
+    <string id="pa" value="Pandzsábi"/>
+    <string id="pl" value="Lengyel"/>
+    <string id="ps" value="Pasto"/>
+    <string id="pt" value="Portugál"/>
+    <string id="qu" value="Kecsua"/>
+    <string id="rm" value="Rétoromán"/>
+    <string id="rn" value="Kirundi"/>
+    <string id="ro" value="Román"/>
+    <string id="ru" value="Orosz"/>
+    <string id="rw" value="Kinyarvanda"/>
+    <string id="sa" value="Szanszkrit"/>
+    <string id="sd" value="Szindhi"/>
+    <string id="sg" value="Szango"/>
+    <string id="sh" value="Szerbhorvát"/>
+    <string id="si" value="Szingaléz"/>
+    <string id="sk" value="Szlovák"/>
+    <string id="sl" value="Szlovén"/>
+    <string id="sm" value="Szamoai"/>
+    <string id="sn" value="Sona"/>
+    <string id="so" value="Szomáli"/>
+    <string id="sq" value="Albán"/>
+    <string id="sr" value="Szerb"/>
+    <string id="ss" value="Szvázi"/>
+    <string id="st" value="Szeszoto"/>
+    <string id="su" value="Szundan"/>
+    <string id="sv" value="Svéd"/>
+    <string id="sw" value="Szuahéli"/>
+    <string id="ta" value="Tamil"/>
+    <string id="te" value="Telugu"/>
+    <string id="tg" value="Tádzsik"/>
+    <string id="th" value="Thai"/>
+    <string id="ti" value="Tigrinya"/>
+    <string id="tk" value="Türkmén"/>
+    <string id="tl" value="Tagalog"/>
+    <string id="tn" value="Csvana"/>
+    <string id="to" value="Tonga"/>
+    <string id="tr" value="Török"/>
+    <string id="ts" value="Tszonga"/>
+    <string id="tt" value="Tatár"/>
+    <string id="tw" value="Tvi"/>
+    <string id="ug" value="Ujgur"/>
+    <string id="uk" value="Ukrán"/>
+    <string id="ur" value="Urdu"/>
+    <string id="uz" value="Üzbég"/>
+    <string id="vi" value="Vietnámi"/>
+    <string id="vo" value="Volapük"/>
+    <string id="wo" value="Wolof"/>
+    <string id="xh" value="Xhosza"/>
+    <string id="yi" value="Jiddis"/>
+    <string id="yo" value="Joruba"/>
+    <string id="za" value="Zhuang"/>
+    <string id="zh_CN" value="Egyszerűsített kínai"/>
+    <string id="zh_TW" value="Hagyományos kínai"/>
+    <string id="zu" value="Zulu"/>
+    <string id="SetupInitSh.root" value="Az inicializáló parancsfájlok beállításához futassa gyökérfelhasználóként."/>
+    <string id="SetupInitSh.fail" value="A rendszerinicializációs parancsfájlok sikertelenek."/>
+    <string id="property.InstallDir.description" value="Telepítési könyvtár"/>
+    <string id="property.SetupUILanguage.description" value="Telepítő felületének nyelve"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Felhasználói felület rendezett elérhető beállítási nyelvei"/>
+    <string id="property.SelectedLanguagePacks.description" value="Telepítésre kiválasztott nyelvi csomagok"/>
+    <string id="property.ProductKey.description" value="A termék kulcskódja"/>
+    <string id="property.RegisteredCompany.description" value="Regisztrált vállalat"/>
+    <string id="property.RegisteredUser.description" value="Regisztrált felhasználó"/>
+    <string id="property.InstallCompatibilityMode.description" value="A korábbi program frissítése vagy párhuzamos telepítés"/>
+    <string id="property.IsAcceptEULA.description" value="Azt jelzi, hogy a rendszeren elfogadták-e a végfelhasználói licencszerződést"/>
+    <string id="property.FormattedString.description" value="Célkarakterlánc formázása"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="wDeploy indítása"/>
+    <string id="description.cmsname" value="CMS-név"/>
+    <string id="description.cmsport" value="CMS-port"/>
+    <string id="description.cmsusername" value="CMS-felhasználónév"/>
+    <string id="description.cmspassword" value="CMS-jelszó"/>
+    <string id="description.cmsauth" value="CMS-jogosultság"/>
+    <string id="description.sianame" value="Szerverfelügyeleti ügynök neve"/>
+    <string id="description.siaport" value="Szerverfelügyeleti ügynök portja"/>
+    <string id="property.CMSPassword.description" value="CMS-adminisztrátor jelszava"/>
+    <string id="property.CMSPort.description" value="CMS csatlakozási portja"/>
+    <string id="property.CryptoKey.description" value="CMS-fürtkulcs"/>
+    <string id="property.EnableServers.description" value="Szerverek indítása a telepítés után: 0 vagy 1"/>
+    <string id="property.UsingAuditDBType.description" value="Naplóadatbázis típusa"/>
+    <string id="property.UsingCMSDBType.description" value="CMS-adatbázis típusa"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Meglévő naplóadatbázis"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Meglévő naplóadatbázis jelszava"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Meglévő naplóadatbázis portja"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Meglévő naplóadatbázis alaphelyzetbe állítási jelzője: 0 vagy 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Meglévő naplóadatbázis: külső hitelesítés használatának jelzője: 0 vagy 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Meglévő naplóadatbázis szervere"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Meglévő naplóadatbázis felhasználóneve"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Meglévő CMS-adatbázis"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Meglévő CMS-adatbázis jelszava"/>
+    <string id="property.ExistingCMSDBPort.description" value="Meglévő CMS-adatbázis portja"/>
+    <string id="property.ExistingCMSDBReset.description" value="Meglévő CMS-adatbázis alaphelyzetbe állítási jelzője: 0 vagy 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Meglévő CMS-adatbázis: külső hitelesítés használatának jelzője: 0 vagy 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Meglévő CMS-adatbázis szervere"/>
+    <string id="property.ExistingCMSDBUser.description" value="Meglévő CMS-adatbázis felhasználóneve"/>
+    <string id="property.NewOrExpandInstall.description" value="Telepítési mód: new vagy expand"/>
+    <string id="property.MySQLBOEUserName.description" value="A rendszerrel együtt szállított adatbázis felhasználóneve a BI-platformfelhasználó számára"/>
+    <string id="property.MySQLBOEUserPassword.description" value="A rendszerrel együtt szállított adatbázis jelszava a BI-platformfelhasználó számára"/>
+    <string id="property.MySQLPort.description" value="A rendszerrel együtt szállított adatbázis csatlakozási portja"/>
+    <string id="property.MySQLRootPassword.description" value="A rendszerrel együtt szállított adatbázis gyökérfelhasználói jelszava"/>
+    <string id="property.RemoteCMSAdminName.description" value="A távoli CMS-adminisztrátor neve"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="A távoli CMS-adminisztrátor jelszava"/>
+    <string id="property.RemoteCMSName.description" value="A távoli CMS neve"/>
+    <string id="property.RemoteCMSPort.description" value="Távoli CMS-port"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Távoli CMS-bejelentkezés figyelmeztető üzenetének kihagyása"/>
+    <string id="property.MaintenanceMode.description" value="Végrehajtandó karbantartási művelet"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Integrált adatbázis telepítése: 0 vagy 1 "/>
+    <string id="property.SIAName.description" value="Szerverfelügyeleti ügynök csomópontneve"/>
+    <string id="property.SIAPort.description" value="Szerverfelügyeleti ügynök csatlakozási portja"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat csatlakozási portja"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat átirányítási portja"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat leállítási portja"/>
+    <string id="property.WACSPort.description" value="WACS-port"/>
+    <string id="property.WebAppServerType.description" value="Webalkalmazás-szerver típusa: Tomcat, manual vagy WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Solution Manager szerver neve"/>
+    <string id="property.SolMgr_Port.description" value="Solution Manager szerver portszáma"/>
+    <string id="property.SolMgr_Username.description" value="Felhasználónév a Solution Manager alkalmazáshoz való csatlakozáshoz"/>
+    <string id="property.SolMgr_Password.description" value="Jelszó a Solution Manager alkalmazáshoz való csatlakozáshoz"/>
+    <string id="property.SolMgr_UseHttps.description" value="HTTPS használata a Solution Manager alkalmazáshoz való csatlakozáshoz: 0 vagy 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="A SharedAlwaysFailureMessage karakterláncának tárolására használt tulajdonság"/>
+    <string id="property.SMDAgent_HOST.description" value="SMD Agent állomásneve"/>
+    <string id="property.SMDAgent_PORT.description" value="SMD Agent portszáma"/>
+    <string id="property.UPGRADE.description" value="Nem interaktív frissítés engedélyezése jelző: 0 vagy 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Solution Manager Diagnostics (SMD) Agent integrálása: integrate vagy nointegrate"/>
+    <string id="property.ChooseSLDIntegration.description" value="SLD integrálása: integrate vagy nointegrate"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Introscope Enterprise Manager integrálása: integrate vagy nointegrate"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Manager állomásneve"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager portszáma"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Manager szerverállapot-felmérés"/>
+    <string id="property.NewOrExistingLCM.description" value="Új LCM telepítése vagy meglévő használata: new vagy existing"/>
+    <string id="property.LCMName.description" value="LCM-szerver neve"/>
+    <string id="property.LCMUserName.description" value="LCM-felhasználónév"/>
+    <string id="property.LCMPassword.description" value="LCM-jelszó"/>
+    <string id="property.LCMPort.description" value="LCM-port"/>
+    <string id="property.InstallType.description" value="Telepítés típusa: default vagy custom"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Rendelkezik-e a felhasználó adminisztrátori jogosultságokkal a Crystal Reports előfeltételei esetén?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="A számítógépenkénti telepítés könyvtára a Crystal Reports-megtekintőhöz"/>
+    <string id="PatchUpdateCheck" value="Termékfrissítések keresése "/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Operációs rendszer javítási szintje"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Az operációs rendszer nem felel meg a termék telepítéséhez szükséges minimális javítási szintnek. Olvassa el a platformkövetelményeket ismertető dokumentációt."/>
+    <string id="prereq.pingLocalhost" value="Hálózati beállítások"/>
+    <string id="prereq.pingLocalhostNotOkText" value="A localhost, a 127.0.0.1 IP-cím vagy a számítógép állomásnevének pingelése sikertelen. A telepítés folytatásához konfigurálja úgy a számítógépet, hogy a kapcsolat sikeres legyen. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Lemezterület ellenőrzése"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="A telepítés folytatásához ellenőrizze, hogy a szükséges lemezterület rendelkezésre áll. További információk: https://apps.support.sap.com/sap/support/pam."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Adminisztrátori jogosultságok"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Jelentkezzen be adminisztrátori jogosultsággal rendelkező felhasználói fiókkal. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 vagy újabb verzió"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Telepítse a Microsoft .NET Framework 4.0 vagy újabb verziót."/>
+    <string id="prereq.RootUserPreReqText" value="Gyökérfelhasználói jogosultságok"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="A telepítés nem folytatható az aktuálisan használt gyökérfelhasználói fiókkal. A termék telepítéséhez jelentkezzen be a gyökérfelhasználótól eltérő felhasználóként. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64 bites operációs rendszer"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="A terméket 64 bites operációs rendszerre kell telepíteni. Ellenőrizze, hogy az operációs rendszer megfelel-e ennek a követelménynek. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows-verzió"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="A termék Windows 8.1 vagy Server 2012 R2 SP1 vagy újabb verziójú operációs rendszerre telepíthető. Ellenőrizze, hogy az operációs rendszer megfelel-e ennek a követelménynek."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows-verzió"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="A termék Windows Server 2012 R2 SP1 vagy újabb verziójú operációs rendszerre telepíthető. Ellenőrizze, hogy az operációs rendszer megfelel-e ennek a követelménynek."/>
+    <string id="prereq.SQLExpressPreReqText" value="Integrált adatbázis követelményei"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Telepítse a Microsoft .NET-keretrendszer 3.5 SP1 vagy újabb verzióját és a Windows Installer 4.5 alkalmazást."/>
+    <string id="prereq.SQLExpressRequirementText" value="MS SQL Express követelmények"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="A Microsoft SQL Express telepítéséhez a Microsoft .NET-keretrendszer 3.5 SP1 verziója és a Windows Installer 4.5 alkalmazás szükséges. Az SQL Express telepítése előtt telepítse mindkét csomagot."/>
+    <string id="prereq.PendingStatusPreReqText" value="Letiltott újraindítás"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="Az újraindítási kérelem letiltva a helyi számítógépen. A telepítés folytatásához indítsa újra a számítógépet. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="A termék 4.x verziója nincs telepítve."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="A termék 4.x verziója telepítve."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Integrált adatbázis - kezdőkönyvtár"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Az integrált adatbázishoz 755 hozzáférési jogosultságot kell beállítani a felhasználó kezdőkönyvtárában. Az adatbázis telepítése előtt be kell állítani a hozzáférési jogosultságokat engedélyeket."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Integrált adatbázis - könyvtárak"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 megléte esetén sem ~/sqllib, sem ~/$USER könyvtár nem létezhet. Az integrált DB2 adatbázis telepítéséhez törölje ezeket a könyvtárakat, ha léteznek."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="A(z) #product.mini_bip_name# vagy a(z) #product.cr_server_name# nem telepíthető"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="A(z) #productname# nem telepíthető olyan számítógépre, amelyen a(z)  #product.mini_bip_name# vagy a(z) #product.cr_server_name# telepítve van.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="A(z) #product.boe64_name# vagy a(z) #product.cr_server_name# nem telepíthető"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="A(z) #productname# nem telepíthető; a(z) #product.boe64_name# vagy a(z) #product.cr_server_name# már telepítve van. INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="A(z) #product.ras_name# nem telepíthető"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="A(z) #productname# nem telepíthető olyan számítógépre, amelyen a(z) #product.ras_name# telepítve van.  INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="#product.IS_name# - #product.DS_name# kompatibilitás"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="Telepített SAP #product.DS_name# és/vagy #product.IS_name# észlelhető a számítógépen. A folytatás előtt olvassa el az 1740516-os számú SAP-jegyzetet (http://service.sap.com/sap/support/notes/1740516) a kompatibilitási információkért és az említett termékekre gyakorolt hatás megismeréséért.  INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="A telepítőprogram meglévő telepítést észlelt, így csak az UPGRADE=1 paraméterrel futtatható.  A program most kilép."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="A telepítés nem folytatódhat, mert nem teljesült egy szükséges előfeltétel."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="A Central Management Server integrált adatbázis beállítással van kiválasztva, de a beállítást a rendszer letiltotta, mert az előfeltételek nem teljesültek. A telepítés csak akkor folytatható, ha megoldódnak a következő előfeltételek:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Az aktuális felhasználónak nincs adminisztrációs hozzáférési jogosultsága, és nem futtathatja a telepítőt."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Lemezterületet a /tmp mappában"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="Nincs elegendő szabad hely a /tmp mappában. A telepítés folytatásához szabadítson fel további területet. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Lemezterület a /var mappában"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="A /var mappában nincs elég üres lemezterület . A telepítés folytatásához szabadítson fel legalább 20 MB lemezterületet."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Integrált adatbázis - felhasználó és csoport"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="A felhasználócsoport neve nem felel meg a DB2 előírásainak. További információkért a http://publib.boulder.ibm.com/infocenter/db2luw/v9r7 weblapon keresse a „User ID restrictions” szakaszt."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Integrált adatbázis - UID és GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="A DB2 esetén a UID és a GID értéke csak 65536-nál kisebb lehet. Az integrált DB2 adatbázis használatához adjon meg kisebb értéket."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Integrált adatbázis - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="A DB2 azt igényli, hogy a gunzip jelen legyen a rendszerelérési úton. Az integrált DB2 adatbázis használata előtt szerkeszteni kell a rendszerelérési utat."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Rendszerrel együtt szállított adatbázis - a DB2 minimális HPUX-kernelbeállításai érvényesek"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="A kernelbeállítások nem felelnek meg a DB2 minimális követelményeinek"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="A Crystal Reports 2013 alkalmazást a SUSE 11-es és újabb verziói nem támogatják"/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="A 64 bites SAP BusinessObjects Enterprise .NET szoftverfejlesztői készlethez Microsoft .NET Framework 3.5 vagy magasabb verzió szükséges. A 64 bites BOE .NET SDK telepítése előtt telepítse a .NET-keretrendszert."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET-keretrendszer 3.0 vagy újabb verzió"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Telepítse a Microsoft .NET-keretrendszer 3.0-s vagy újabb verzióját."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="A Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime nem található. Jelen telepítés folytatásához telepíteni kell a programot."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 vagy újabb verzió"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Nem található a Microsoft Office 2003-as vagy újabb verziója. Jelen telepítés folytatásához telepíteni kell a programot."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="A támogató csomag minimális verziója"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="A frissítés a(z) #productname# #product_version##product_sp_version# alkalmazáshoz tartozik, az alkalmazás azonban nem található a rendszeren. Jelen telepítés folytatásához telepíteni kell a programot."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="A frissítés a(z) #productname# #product_version##product_sp_version# alkalmazáshoz tartozik, az alkalmazás azonban nem található a rendszeren. Jelen telepítés folytatásához telepíteni kell a programot."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Frissítések alkalmazhatók"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="A(z) #productname# #product_majorversion# az aktuális frissítésnél újabb verzió. Ne folytassa a frissítés telepítését."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Minimális alverzió"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="A frissítés a(z) #productname# #product_version# alkalmazáshoz tartozik, az alkalmazás azonban nem található a rendszeren. Jelen telepítés folytatásához telepíteni kell a programot."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Egyéni #productname_short# #productname_preversion# telepítve"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="A frissítés az egyéni #productname_short# #productname_preversion# alkalmazásra vonatkozik, az alkalmazás azonban nem található a rendszeren.  Jelen telepítés folytatásához telepíteni kell a programot."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Kompatibilis termék telepítése"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="A termék már telepítve van, és elérhető más felhasználóknak."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows Installer szolgáltatás"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="A telepítés szünetel, mivel a Windows Installer szolgáltatás le van tiltva (Indítás típusa=Letiltva), vagy nem érhető el.  Jelen telepítés folytatásához telepíteni kell a programot, és engedélyezni kell a szolgáltatást."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="A fürtfrissítés elvégzéséhez indítsa úja az összes Központi kezelőkonzolt, amikor a telepítés a fürt összes számítógépén elkészült. A CMS szerverek újraindításához jelentkezzen be a Központi kezelőkonzolba."/>
+    <string id="PostInstall.message.logoncmc.windows" value="A rendszer további konfigurálásához jelentkezzen be a Központi kezelőkonzolba (CMC). A CMC indításhoz kövesse a Start &gt; #product.boe64_name# &gt; Központi kezelőkonzol elérési utat."/>
+    <string id="postinstall.message.manualdeploy.common" value="A Java webalkalmazások és webszolgáltatások nincsenek telepítve a webalkalmazás-szerveren. A wDeploy eszköz futtatásával telepítse a Java webalkalmazásokat és webszolgáltatásokat."/>
+    <string id="postinstall.message.manualdeploy.windows" value="A wDeploy eszköz indításához válassza a Start &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy elérési utat."/>
+    <string id="postinstall.message.manualdeploy.unix" value="A wDeploy eszköz helye: [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="A rendszertelepítés befejező lépéseként futtassa a következő parancsfájlt gyökérfelhasználói engedélyekkel: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Adja meg az alapértelmezett OpenDocument-megjelenítő URL-címét. Nem ez a számítógép van regisztrálva a dokumentum-megjelenítési kérelmek kezelésének alapértelmezett webalkalmazás-szervereként. Lehet, hogy regisztrálnia kell alapértelmezett webalkalmazás-szerverként a CMS szerveren. Az OpenDocument tulajdonságlap szerkesztéséhez használja a Központi kezelőkonzolt."/>
+    <string id="PostInstall.message.monitoring" value="A Monitoring eszköz megnyitásához és diagnosztikai tesztek futtatásához jelentkezzen be a Központi kezelőkonzolba (CMC), kattintson a Figyelés gombra, és váltson a Vizsgálatok lapra."/>
+    <string id="postInstall.message.new.features.announce.windows" value="A {b}RESTful webszolgáltatások{/b} és a {b}Művelet vizsgálata keretprogram{/b} a frissítésben biztosított új szolgáltatások. A szolgáltatások engedélyezéséhez hajtson végre módosító telepítést az alaptelepítésen, és adja hozzá az új szolgáltatásokat."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful webszolgáltatások:{/b} A Business Intelligence platform RESTful webszolgáltatásának szoftverfejlesztői készlete lehetővé teszi a BI-platform HTTP-protokollon keresztüli elérését. Az SDK használatával bejelentkezhet a platformra, navigálhat a BI-platform tárházában, hozzáférhet az erőforrásokhoz, valamint alapszintű erőforrás-ütemezést végezhet. A szolgáltatás szükséges a Dashboards-modellek és Live Office-dokumentumok tárházba mentéséhez a frissítés után."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Művelet vizsgálata keretprogram:{/b} A Művelet vizsgálata keretprogrammal az SAP Netweaver alkalmazásban a beszámoló–beszámoló interfész (RRI) használatával definiált SAP- és nem SAP-alkalmazások műveleti tranzakcióit hívhatja meg. A szolgáltatást a Crystal Reports és a BusinessObjects Dashboards is támogatja."/>
+    <string id="postInstall.message.new.features.announce.unix" value="A RESTful webszolgáltatások és a Művelet vizsgálata keretprogram a frissítésben biztosított új szolgáltatások. A szolgáltatások engedélyezéséhez hajtson végre módosító telepítést az alaptelepítésen, és adja hozzá az új szolgáltatásokat."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful webszolgáltatások: A Business Intelligence platform RESTful webszolgáltatásának szoftverfejlesztői készlete lehetővé teszi a BI-platform HTTP-protokollon keresztüli elérését. Az SDK használatával bejelentkezhet a platformra, navigálhat a BI-platform tárházában, hozzáférhet az erőforrásokhoz, valamint alapszintű erőforrás-ütemezést végezhet. A szolgáltatás szükséges a Dashboards-modellek és Live Office-dokumentumok tárházba mentéséhez a frissítés után."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Művelet vizsgálata keretprogram: a Művelet vizsgálata keretprogrammal az SAP Netweaver alkalmazásban a beszámoló–beszámoló interfész (RRI) használatával definiált SAP- és nem SAP-alkalmazások műveleti tranzakcióit hívhatja meg. A szolgáltatást a Crystal Reports és a BusinessObjects Dashboards is támogatja."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="A telepítő az 5.0 verziójú MySQL klienst észlelte, amely már nincs támogatva adatbázis-kapcsolatként. Frissítsen a MySQL kliens 5.1-es verziójára annak érdekében, hogy rendszere továbbra is támogatott maradjon."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="A Mobile szerverek új szolgáltatás, amely mobileszközökről biztosít hozzáférést a Business Intelligence adataihoz. A szolgáltatás engedélyezéséhez módosítsa az alaptelepítést, és válassza a Mobile szerverek telepítését."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="A rendszerrel együtt szállított Tomcat a Tomcat 9 verzióra frissült. A Tomcat rendszeren végzett egyéni beállításokat a rendszer migrálta a Tomcat 9  rendszerbe. Ezzel együtt célszerű ellenőrizni, hogy az egyéni beállítások elérhetők-e a Tomcat 9 rendszerben."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value="SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Karbantartási csomag: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Karbantartási csomag: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Karbantartási csomag: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Karbantartási csomag\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI-platform"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI-platformszerver"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI-platform"/>
+    <string id="product.boec_client_name" value="Klienseszközök"/>
+    <string id="product.boec_client_name.wrc" value="Bővített Web Intelligence-kliens"/>
+    <string id="product.boec_shortname" value="BI-platformkliens"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI platform .NET SDK terjeszthető változat"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="SAP BusinessObjects BI-bővítmény SAP Lumira rendszerhez"/>
+    <string id="product.lumiraboe_shortname" value="BI-bővítmény SAP Lumira rendszerhez"/>
+    <string id="product.mini_bip_name" value="Információs platformszolgáltatások"/>
+    <string id="product.mini_bip_shortname" value="Információs platformszolgáltatások"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="SAP Integration for Microsoft SharePoint"/>
+    <string id="product.ipoint_shortname" value="Integrációs lehetőség a Microsoft SharePoint programhoz"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM Edition"/>
+    <string id="product.ras_shortname" value="Report Application Server"/>
+    <string id="product.umc_name" value="SAP felhasználókezelő kliens"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI-platform 4"/>
+    <string id="shortcut.folder.name.minibip" value="Információs platformszolgáltatások 4"/>
+    <string id="shortcut.folder.name.boclient" value="SAP BusinessObjects BI platform – klienseszközök"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM Edition"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Központi konfigurációkezelő"/>
+    <string id="shortcut.link.description.CCM" value="Platformszolgáltatások indítása, leállítása és konfigurálása"/>
+    <string id="shortcut.link.name.boserver.CMC" value="SAP BusinessObjects BI-platform - központi kezelőkonzol"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="SAP BusinessObjects BI platform – WACS központi kezelőkonzol"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="SAP Crystal Server központi kezelőkonzol"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="SAP Crystal Server WACS központi kezelőkonzol"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Információs platformszolgáltatások – központi kezelőkonzol"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Információs platformszolgáltatások – WACS központi kezelőkonzol"/>
+    <string id="shortcut.link.description.CMC" value="A kezelőkonzol megnyitása"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="SAP BusinessObjects BI platform – indítópult"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="SAP BusinessObjects BI platform – WACS BI-indítópult"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="SAP Crystal Server Java BI-indítópult"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="SAP Crystal Server WACS BI-indítópult"/>
+    <string id="shortcut.link.description.BILaunchpad" value="A BI-indítópult indítása"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Frissítéskezelő eszköz"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Korábbi telepítések frissítése SAP BusinessObjects BI-platform 4 verzióra"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Előléptetés-kezelés varázsló"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="A 4.x verziójú telepítések CMS-tartalmának exportálása, importálása és másolása lépésenként vezetett felhasználói felületen."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Korábbi telepítések frissítése SAP Crystal Server 2020 rendszerre"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Korábbi telepítések frissítése Információs platformszolgáltatások 4 verzióra"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32 bites ODBC-adatforrás adminisztrátora"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC-adatforrás adminisztrátora"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Open Database Connectivity (ODBC) adatforrások és illesztőprogramok hozzáadására, eltávolítására és konfigurálására szolgál"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Online dokumentáció"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Az online dokumentáció megnyitása"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat-adminisztráció"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="A Tomcat-adminisztráció megnyitása"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat-konfiguráció"/>
+    <string id="shortcut.link.description.TomcatConfig" value="A Tomcat-konfiguráció megnyitása"/>
+    <string id="shortcut.link.name.WDeploy" value="WDeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="A WDeploy eszköz indítása"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widgetek"/>
+    <string id="shortcut.link.description.BIWidgets" value="A widgetek indítása"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Üzletinézet-kezelő"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Az üzletinézet-kezelő indítása"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Adat-összevonási felügyeleti eszköz"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Az adat-összevonási felügyeleti eszköz indítása"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Információtervező eszköz"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Az információtervező eszköz indítása"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Webszolgáltatás-alapú lekérdezések tervezője"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="A webszolgáltatás-alapú lekérdezések tervezőjének indítása"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Jelentéskonvertáló eszköz"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="A jelentéskonvertáló eszköz indítása"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Fordításkezelő eszköz"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="A fordításkezelő eszköz indítása"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Univerzumtervező eszköz"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Az univerzumtervező eszköz indítása"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Bővített Web Intelligence-kliens"/>
+    <string id="shortcut.link.description.WebIRichClient" value="A bővített Web Intelligence-kliens indítása"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Bővített Web Intelligence-kliens"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Elindítja a bővített Web Intelligence-klienst"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Formázott adatjelentések (.RPT) létrehozására és módosítására szolgál"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Jelentés feltöltése varázsló"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="A jelentésfeltöltési varázsló indítása"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 viewer"/>
+    <string id="shortcut.link.description.CRViewer" value="Formázott adatjelentések (.RPT) megjelenítése"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Report Application Server indítópult"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="A Report Application Server indítópult indítása"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="A Web Intelligence indítása"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="A Dashboards indítása"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards – bővítménycsomagoló"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="A Dashboards – bővítménycsomagoló alkalmazás indítása"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Elindítja a SAP Crystal Presentation Design 2020 rendszert"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020 Add-on csomagoló"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Elindítja az SAP Crystal Presentation Design 2020 Add-on csomagolót"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects BI felügyeleti konzol - WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects BI felügyeleti konzol"/>
+    <string id="shortcut.link.description.ADC" value="Felügyeleti konzol elérése"/>
+    <string id="OverhangingPatchMessage" value="A telepítés folytatásakor a rendszer eltávolíthat egyes javításokat. Ellenőrizze, hogy kompatibilis csomagot telepít-e."/>
+    <string id="Installing41PatchOver40" value="A folytatás előtt manuálisan hozza létre az aktuális, 4.0 verziójú rendszer biztonsági mentését. Telepítés után a 4.1 frissítés nem távolítható el. Ha vissza kell állítani a korábbi rendszerállapotot, használja a biztonsági mentést."/>
+    <string id="Block41PatchUninstall" value="A 4.1 frissítés nem távolítható el automatikusan. Ha vissza szeretne térni a 4.0 verziójú rendszerállapothoz, távolítsa el a meglévő bináris fájlokat, és használja a 4.0 verzióról készült biztonsági mentést."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="A(z) #product.fullproductname# termékhez új licenckulcs szükséges. Töltse le az új licenckulcsot a SAP Service Market Place webhelyéről; törölje a régebbi licenckulcsot, és adja hozzá az újat a Központi kezelőkonzolon. További információkat a dokumentációban talál."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="Biztonyos termékek és funkciók elavulttá váltak a(z) #product.fullproductnamenospace# rendszerben. Hajtsa végre a 2801797. számú SAP-jegyzetben leírt műveleteket a frissítés után."/>
+    <string id="DeployLaterDescription" value="Webalkalmazás telepítési módja"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="Szülő javításverziója a telepített gyorsjavításnál"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Ez a gyorsjavítás a következő alkalmazáshoz készült: #productname# #product_version# #product_sp_version# Patch #patch_id#. A telepítés folytatásához telepítse a javítást.További részletek a 2257993. számú SAP-jegyzetben találhatók."/>
+  </context>
+</uitext>

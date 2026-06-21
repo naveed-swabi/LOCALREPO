@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="ExpandInstallMessage_1" value="インストールが続行できません"/>
+<string id="ExpandInstallMessage_2" value="インストールの続行を妨げているブロッキングの問題を説明します"/>
+<string id="ExpandInstallDetails" value="[SharedAlwaysFailureMessage]"/>
+<string id="ExitMessage" value="インストールを終了するには [CTRL-X] を押してください"/>
+<string id="AlwaysFailureGeneralMessage" value="インストールが続行できません\n\n#ExpandInstallDetails#"/>
+</context>
+</uitext>

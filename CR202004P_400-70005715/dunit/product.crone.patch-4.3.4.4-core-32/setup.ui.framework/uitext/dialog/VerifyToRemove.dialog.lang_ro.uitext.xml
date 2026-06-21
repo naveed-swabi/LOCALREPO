@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="Message" value="Confirmare dezinstalare"/>
+<string id="Description" value="Aceasta va elimina #product.fullproductnamenospace# de pe computerul dvs."/>
+<string id="ConfirmUninstall" value="Sigur doriţi să dezinstalaţi?"/>
+<string id="ConfirmUninstall_Footer" value="Apăsaţi []Ctrl-B] pt. a vă întoarce, []Ctrl-X] pt. a ieşi sau []Enter] a continua."/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="RebootWarning" value="Vissa filer låstes under installationen, vilket gjorde att installationsprogrammet inte kunde uppdatera dem. Du kan starta om systemet senare men vi rekommenderar starkt att du startar om innan produkten används."/>
+<string id="RebootQuestion" value="Vill du starta om datorn nu?"/>
+<string id="RestartLater" value="Starta om senare"/>
+<string id="RestartNow" value="Starta om nu"/>
+</context>
+</uitext>

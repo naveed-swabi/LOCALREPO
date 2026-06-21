@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="SelectLanguagePackTitle" value="เลือกชุดภาษา"/>
+<string id="SelectLanguagePackSubtitle" value="เลือกชุดภาษาเพิ่มเติมทั้งหมดที่ผู้ใช้จะใช้ในผลิตภัณฑ์"/>
+<string id="SelectLanguagePackFooter" value="กด []Tab], []Up] หรือ []Down] เพื่อไฮไลต์ กด []Space] หรือ []X] เพื่อทอกเกิลสถานะ กด []Ctrl-B] เพื่อย้อนกลับ กด []Ctrl-X] เพื่อจบการทำงาน หรือกด []Enter] เพื่อดำเนินการต่อ"/>
+<string id="alllang" value="ทุกภาษา"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="คุณสมบัติ SelectedLanguagePacks '[SelectedLanguagePacks]' ต้องมี Locale ของระบบ"/>
+<string id="Invalid_SelectedLangPacksHasEN" value="คุณสมบัติ SelectedLanguagePacks '[SelectedLanguagePacks]' ต้องมี 'en'"/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="คุณสมบัติ SelectedLanguagePacks '[SelectedLanguagePacks]' ต้องเป็นชุดย่อยของชุดภาษาที่มีให้ใช้งาน"/>
+</context>
+</uitext>

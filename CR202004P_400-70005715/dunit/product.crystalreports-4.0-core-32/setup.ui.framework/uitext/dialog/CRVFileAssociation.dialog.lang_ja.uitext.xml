@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="DlgTitle" value="ファイルの関連付け"/>
+<string id="DlgSummary" value="デフォルト Crystal レポートビューアアプリケーションの設定"/>
+<string id="ReplaceFileAssoc" value="Crystal レポートビューアは、現在デフォルト Crystal レポートビューアではありません。デフォルトビューアにしますか?"/>
+<string id="Yes" value="はい"/>
+<string id="No" value="いいえ"/>
+</context>
+</uitext>

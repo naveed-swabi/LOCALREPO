@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="Title" value="Nasazení webové aplikace"/>
+<string id="Subtitle" value="Nasadit webový obsah později"/>
+<string id="DeploylaterDescription" value="Výchozí webový aplikační server Tomcat Java nebyl nalezen. Chcete webové aplikace nasadit hned, nebo později?"/>
+<string id="TxtDeployLater" value="Nasadit webové aplikace později"/>
+<string id="TxtDeployNow" value="Nasadit webové aplikace nyní"/>
+<string id="Footer" value="Stisknutím kláves []Tab], []Up] nebo []Down] proveďte výběr, stisknutím kláves []Ctrl-B] přejděte zpět, stisknutím kláves []Ctrl-X] program ukončíte nebo stisknutím klávesy []Enter] budete pokračovat."/>
+</context>
+</uitext>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="fi"/>
+  <context>
+    <string id="Yes" value="Kyllä"/>
+    <string id="No" value="Ei"/>
+    <string id="Ok" value="OK"/>
+    <string id="Cancel" value="Peruuta"/>
+    <string id="Abort" value="Keskeytä"/>
+    <string id="Continue" value="Jatka"/>
+    <string id="Ignore" value="Ohita"/>
+    <string id="Next" value="Seuraava"/>
+    <string id="Previous" value="Takaisin"/>
+    <string id="Info" value="Tiedot"/>
+    <string id="Warning" value="Varoitus"/>
+    <string id="Error" value="Virhe"/>
+    <string id="FatalError" value="Vakava virhe"/>
+    <string id="ErrorDialogTitle" value="Virhe"/>
+    <string id="ErrorDialogSubtitle" value="Tapahtui virhe."/>
+    <string id="ErrorDialogFooter" value="Jatka painamalla Enter-näppäintä."/>
+    <string id="WarnDialogTitle" value="Varoitus"/>
+    <string id="WarnDialogSubtitle" value="On ilmennyt varoitus."/>
+    <string id="WarnDialogFooter" value="Palaa painamalla näppäinyhdistelmää Ctrl+B tai jatka painamalla Enter-näppäintä."/>
+    <string id="InfoDialogTitle" value="Tiedot"/>
+    <string id="InfoDialogSubtitle" value="Seuraavat tiedot on annettu:"/>
+    <string id="InfoDialogFooter" value="Jatka painamalla Enter-näppäintä."/>
+    <string id="DefaultUnixFooter" value="Siirry seuraavaan kenttään painamalla sarkainta, siirry edelliseen kenttään painamalla näppäinyhdistelmää Ctrl+B, lopeta painamalla näppäinyhdistelmää Ctrl+X tai jatka painamalla Enter-näppäintä."/>
+    <string id="DefaultUnixFooterWithoutGoBack" value="Siirry seuraavaan kenttään painamalla sarkainta, lopeta painamalla näppäinyhdistelmää Ctrl+X tai jatka painamalla Enter-näppäintä."/>
+    <string id="ProgressDialogUnixFooter" value="Lopeta painamalla näppäinyhdistelmää Ctrl+X."/>
+    <string id="CancelCaption" value="Peruuta"/>
+    <string id="CancelExitSetup" value="Lopeta asennus"/>
+    <string id="CancelMsg" value="Jos lopetat nyt, ohjelmaa ei asenneta. Voit viimeistellä asennuksen suorittamalla asennusohjelman myöhemmin.\nJos haluat jatkaa asennusta, valitse Jatka. Jos haluat lopettaa asennuksen, valitse Lopeta asennus."/>
+    <string id="CancelResume" value="Jatka"/>
+    <string id="DialogCaption" value="Tuotteen #product.fullproductnamenospace# asennus"/>
+    <string id="outofspace" value="Levytila on vähissä"/>
+    <string id="CanceledModifier" value="%1 (Peruutetaan)"/>
+    <string id="ValidationCaption" value="Vahvistustulos"/>
+    <string id="ValidationError" value="Virhe:"/>
+    <string id="ValidationToDo" value="Korjaa tarkistusvirhe valitsemalla OK. Jos pelkkiä varoituksia ilmenee, voit jatkaa valitsemalla Kyllä tai korjata virheen valitsemalla Ei."/>
+    <string id="ValidationWarning" value="Varoitus:"/>
+    <string id="Validation.MissingFields" value="Vaaditut kentät on täytettävä, ennen kuin asennus voi jatkua."/>
+    <string id="ValidationFailed.Blocking" value="Eteneminen on pysähtynyt, koska seuraavan toiminnon tarkistus ei onnistunut: "/>
+    <string id="ValidationFailed.Optional" value="Valinnainen tarkistus ei onnistunut seuraavaa toimintoa varten:"/>
+    <string id="action.InstallDUBundle" value="Asennetaan käyttöönottoyksikkö:"/>
+    <string id="action.UninstallDUBundle" value="Asenna toiminnot"/>
+    <string id="action.RegisterBinary" value="Tee binaarirekisteröinti"/>
+    <string id="action.UnregisterBinary" value="Poista binaarirekisteröinti"/>
+    <string id="action.ConfigureTomcat" value="Määritetään Tomcat"/>
+    <string id="action.BOBJTextReplace" value="Suorita tekstin korvaus"/>
+    <string id="action.RunCommand" value="Suorita komentorivin ohjelmatiedosto"/>
+    <string id="action.RunCommandConditional" value="Suorita komentorivin ohjelmatiedosto tietyin ehdoin"/>
+    <string id="action.EnsureFolderExists" value="Varmista, että kansio on olemassa"/>
+    <string id="action.CreateShortcut" value="Luo Käynnistä-valikon pikakuvake"/>
+    <string id="action.AddARPEntry" value="Lisää Lisää tai poista sovellus -merkintä"/>
+    <string id="action.RemoveARPEntry" value="Poista Lisää tai poista sovellus -merkintä"/>
+    <string id="action.BOBJRegasm" value="Suorita kokoonpanon rekisteröinti"/>
+    <string id="action.BOBJUnRegasm" value="Poista kokoonpanon rekisteröinti"/>
+    <string id="sequence.InstallPreReqs" value="Asenna edellytykset"/>
+    <string id="sequence.SetInitialProperties" value="Aseta alkuominaisuudet"/>
+    <string id="sequence.SetMyProperties" value="Aseta tuotteen ominaisuudet"/>
+    <string id="sequence.InstallDUBase" value="Asenna toiminnot"/>
+    <string id="sequence.InstallDUBundles" value="Asenna käyttöönottoyksiköt"/>
+    <string id="sequence.CreateSymLinks" value="Luo symboliset linkit"/>
+    <string id="sequence.ConfigureDUBase" value="Määritä käyttöönottoyksiköt"/>
+    <string id="sequence.PopulateRegistry" value="Täytä rekisteri"/>
+    <string id="sequence.InstallServices" value="Asenna palvelut"/>
+    <string id="sequence.ConfigureServices" value="Määritä palvelut"/>
+    <string id="sequence.StartServices" value="Käynnistä palvelut"/>
+    <string id="sequence.StopServices" value="Lopeta palvelut"/>
+    <string id="sequence.UninstallServices" value="Poista palveluiden asennus"/>
+    <string id="sequence.UnPopulateRegistry" value="Tyhjennä rekisteri"/>
+    <string id="sequence.UninstallDUBase" value="Poista toimintojen asennus"/>
+    <string id="sequence.UnconfigureDUBase" value="Poista käyttöönottoyksiköiden määritys"/>
+    <string id="sequence.RemoveSymLinks" value="Poista symboliset linkit"/>
+    <string id="sequence.UninstallDUBundles" value="Poista käyttöönottoyksiköiden asennus:"/>
+    <string id="sequence.Uninstall_DeleteEmptyFolders" value="Poista tyhjät kansiot"/>
+    <string id="Dialog.title" value="Viestin määritys"/>
+    <string id="PleaseWait" value="Odota..."/>
+    <string id="LongCalculation" value="Pitkä laskenta on käynnissä. Odota..."/>
+    <string id="DiskCostInProgress" value="Levytilan tarkistus on käynnissä."/>
+    <string id="Confirm.title" value="Vahvista"/>
+    <string id="Permissions.title" value="Aseta oikeudet"/>
+    <string id="NoPermissionsOperation" value="Sinulla ei ole käyttöoikeuksia toimintojen suorittamiseen tässä asennuksessa."/>
+    <string id="NoPermissionsFile" value="Sinulla ei ole käyttöoikeuksia seuraavan tiedoston käyttämiseen: %1"/>
+    <string id="NoPatchWithPackageInstall" value="Asennusohjelma löysi tuotteen #productname# vanhemman asennetun version. Tätä  täysasennuspakettia ei voi käyttää, kun vanhempi versio on asennettuna. Päivitä nykyinen asennus tuotteen #product.fullproductname# ylläpitopaketin avulla."/>
+    <string id="OlderCryptoDllFound" value="Asennusohjelma löysi ympäristömuuttujan R_SHLIB_LD_LIBRARY_PATH, jonka salausbinaarien versio on aikaisempi kuin tähän asennukseen tarvittavien binaarien. Suorita asennus loppuun noudattamalla linkissä olevan asiakirjan ohjeita."/>
+    <string id="CmdLine.title" value="Asetuksen komentorivi"/>
+    <string id="InvalidCmdLine" value="Virheellinen komentorivi"/>
+    <string id="ExpectedCmdLine" value="Odotettu komentorivi: %1"/>
+    <string id="ActionFailed" value="Mukautettu toiminto epäonnistui"/>
+    <string id="ActionFailedArg" value="Mukautettu toiminto epäonnistui: %1"/>
+    <string id="ActionFailedWithCode" value="Mukautettu toiminto epäonnistui ja antoi virhekoodin:"/>
+    <string id="RegistrationFailed" value="Binaaria ei voitu rekisteröidä: %1"/>
+    <string id="NoFindFile" value="Tiedostoa ei löytynyt: %1"/>
+    <string id="NoCMS" value="CMS-järjestelmään ei saada yhteyttä"/>
+    <string id="NoCMSArg" value="CMS-järjestelmään ei saada yhteyttä kohteessa %1"/>
+    <string id="DFOFailed" value="DFO-lataus epäonnistui"/>
+    <string id="wdeployFailed" value="wDeploy ei voinut ottaa sovellusta käyttöön."/>
+    <string id="ScriptFailed" value="Komentosarjaa ei voitu suorittaa: %1"/>
+    <string id="CmdFailed" value="Komentoriviä ei voitu suorittaa: %1"/>
+    <string id="ServerStartFailed" value="Palvelinta ei voitu käynnistää: %1"/>
+    <string id="ServerStopFailed" value="Palvelinta ei voitu pysäyttää: %1"/>
+    <string id="ExitCode" value="Lopetuskoodi: %1"/>
+    <string id="DBInitFail" value="Tietokannan alustaminen epäonnistui"/>
+    <string id="ShortcutFail" value="Pikakuvaketta ei voi luoda: %1"/>
+    <string id="ARPFail" value="Lisää tai poista sovellus -merkintää ei voi luoda tuotteelle %1"/>
+    <string id="CreateFolderFail" value="Kansiota ei voi luoda: %1"/>
+    <string id="SamplesFail" value="Mallien lisääminen epäonnistui"/>
+    <string id="LicenseKeyFail" value="Lisenssiavainta ei voi lisätä"/>
+    <string id="Tomcatfail" value="Tomcat-palvelinta ei voi määrittää"/>
+    <string id="PropertyFail" value="Ominaisuuden %1 arvoa ei voi noutaa"/>
+    <string id="dev" value="kehittäjän englanti"/>
+    <string id="aa" value="afar"/>
+    <string id="ab" value="abhaasi"/>
+    <string id="af" value="afrikaans"/>
+    <string id="am" value="amhara"/>
+    <string id="ar" value="arabia"/>
+    <string id="as" value="assami"/>
+    <string id="ay" value="aimara"/>
+    <string id="az" value="azeri"/>
+    <string id="ba" value="baškiiri"/>
+    <string id="be" value="valkovenäjä"/>
+    <string id="bg" value="bulgaria"/>
+    <string id="bh" value="bihari"/>
+    <string id="bi" value="bislama"/>
+    <string id="bn" value="bengali"/>
+    <string id="bo" value="tiibet"/>
+    <string id="br" value="bretoni"/>
+    <string id="ca" value="katalaani"/>
+    <string id="co" value="korsika"/>
+    <string id="cs" value="tšekki"/>
+    <string id="cy" value="kymri"/>
+    <string id="da" value="tanska"/>
+    <string id="de" value="saksa"/>
+    <string id="dz" value="dzongkha"/>
+    <string id="el" value="kreikka"/>
+    <string id="en" value="englanti"/>
+    <string id="eo" value="esperanto"/>
+    <string id="es" value="espanja"/>
+    <string id="et" value="viro"/>
+    <string id="eu" value="baski"/>
+    <string id="fa" value="persia"/>
+    <string id="fi" value="suomi"/>
+    <string id="fj" value="fidži"/>
+    <string id="fo" value="fääri"/>
+    <string id="fr" value="ranska"/>
+    <string id="fy" value="friisi"/>
+    <string id="ga" value="irlanti"/>
+    <string id="gd" value="gaeli"/>
+    <string id="gl" value="galego"/>
+    <string id="gn" value="guarani"/>
+    <string id="gu" value="gujarati"/>
+    <string id="ha" value="hausa"/>
+    <string id="he" value="heprea"/>
+    <string id="hi" value="hindi"/>
+    <string id="hr" value="kroaatti"/>
+    <string id="hu" value="unkari"/>
+    <string id="hy" value="armenia"/>
+    <string id="ia" value="interlingua"/>
+    <string id="id" value="indonesia"/>
+    <string id="ie" value="interlingue"/>
+    <string id="ik" value="inupiatun"/>
+    <string id="is" value="islanti"/>
+    <string id="it" value="italia"/>
+    <string id="iu" value="inuktitut"/>
+    <string id="ja" value="japani"/>
+    <string id="jw" value="jaava"/>
+    <string id="ka" value="georgia"/>
+    <string id="kk" value="kazakki"/>
+    <string id="kl" value="grönlanti"/>
+    <string id="km" value="khmer"/>
+    <string id="kn" value="kannada"/>
+    <string id="ko" value="korea"/>
+    <string id="ks" value="kašmiri"/>
+    <string id="ku" value="kurdi"/>
+    <string id="ky" value="kirgiisi"/>
+    <string id="la" value="latina"/>
+    <string id="ln" value="lingala"/>
+    <string id="lo" value="lao"/>
+    <string id="lt" value="liettua"/>
+    <string id="lv" value="latvia"/>
+    <string id="mg" value="malagassi"/>
+    <string id="mi" value="maori"/>
+    <string id="mk" value="makedonia"/>
+    <string id="ml" value="malajalam"/>
+    <string id="mn" value="mongolia"/>
+    <string id="mo" value="moldavia"/>
+    <string id="mr" value="marathi"/>
+    <string id="ms" value="malaiji"/>
+    <string id="mt" value="malta"/>
+    <string id="my" value="burma"/>
+    <string id="na" value="nauru"/>
+    <string id="nb" value="norja"/>
+    <string id="ne" value="nepal"/>
+    <string id="nl" value="hollanti"/>
+    <string id="oc" value="oksitaani"/>
+    <string id="om" value="oromo"/>
+    <string id="or" value="orija"/>
+    <string id="pa" value="punjabi"/>
+    <string id="pl" value="puola"/>
+    <string id="ps" value="paštu"/>
+    <string id="pt" value="portugali"/>
+    <string id="qu" value="ketšua"/>
+    <string id="rm" value="retoromaani"/>
+    <string id="rn" value="kirundi"/>
+    <string id="ro" value="romania"/>
+    <string id="ru" value="venäjä"/>
+    <string id="rw" value="ruanda"/>
+    <string id="sa" value="sanskriitti"/>
+    <string id="sd" value="sindhi"/>
+    <string id="sg" value="sangho"/>
+    <string id="sh" value="serbokroaatti"/>
+    <string id="si" value="sinhali"/>
+    <string id="sk" value="slovakki"/>
+    <string id="sl" value="slovenia"/>
+    <string id="sm" value="samoa"/>
+    <string id="sn" value="shona"/>
+    <string id="so" value="somali"/>
+    <string id="sq" value="albania"/>
+    <string id="sr" value="serbia"/>
+    <string id="ss" value="swazi"/>
+    <string id="st" value="eteläsotho"/>
+    <string id="su" value="sunda"/>
+    <string id="sv" value="ruotsi"/>
+    <string id="sw" value="swahili"/>
+    <string id="ta" value="tamil"/>
+    <string id="te" value="telugu"/>
+    <string id="tg" value="tadžikki"/>
+    <string id="th" value="thai"/>
+    <string id="ti" value="tigrinja"/>
+    <string id="tk" value="turkmeeni"/>
+    <string id="tl" value="tagalog"/>
+    <string id="tn" value="setswana"/>
+    <string id="to" value="tonga"/>
+    <string id="tr" value="turkki"/>
+    <string id="ts" value="tsonga"/>
+    <string id="tt" value="tataari"/>
+    <string id="tw" value="twi"/>
+    <string id="ug" value="uiguuri"/>
+    <string id="uk" value="ukraina"/>
+    <string id="ur" value="urdu"/>
+    <string id="uz" value="uzbek"/>
+    <string id="vi" value="vietnam"/>
+    <string id="vo" value="volapük"/>
+    <string id="wo" value="wolof"/>
+    <string id="xh" value="xhosa"/>
+    <string id="yi" value="jiddiš"/>
+    <string id="yo" value="joruba"/>
+    <string id="za" value="zhuang"/>
+    <string id="zh_CN" value="kiina (yksinkertaistettu)"/>
+    <string id="zh_TW" value="kiina (perinteinen)"/>
+    <string id="zu" value="zulu"/>
+    <string id="SetupInitSh.root" value="Voit määrittää init-komentosarjat kirjautumalla pääkäyttäjänä ja suorittamalla ne sen jälkeen."/>
+    <string id="SetupInitSh.fail" value="Järjestelmän alustamiskomentosarjat epäonnistuivat."/>
+    <string id="property.InstallDir.description" value="Asennushakemisto"/>
+    <string id="property.SetupUILanguage.description" value="Asennuksen käyttöliittymän kieli"/>
+    <string id="property.SortedAvailableSetupLanguages.description" value="Lajitellut käyttöjärjestelmän käytettävissä olevat asennuskielet"/>
+    <string id="property.SelectedLanguagePacks.description" value="Asennettaviksi valitut kielipaketit"/>
+    <string id="property.ProductKey.description" value="Tuotteen avainkoodi"/>
+    <string id="property.RegisteredCompany.description" value="Reksiteröity yritys"/>
+    <string id="property.RegisteredUser.description" value="Rekisteröity käyttäjä"/>
+    <string id="property.InstallCompatibilityMode.description" value="Päivitä aiempi tuote tai asenna samanaikaisesti"/>
+    <string id="property.IsAcceptEULA.description" value="Hyväksyykö järjestelmä loppukäyttäjän lisenssin (EULA)?"/>
+    <string id="property.FormattedString.description" value="Muotoile kohdemerkkijono"/>
+    <string id="property.AdminPrivilege.description" value=""/>
+    <string id="property.PendingStatus_value.description" value=""/>
+    <string id="property.CMSLogonCredentialRequired.description" value=""/>
+    <string id="property.SubversionCredentialRequired.description" value=""/>
+    <string id="property.ReRunWDeployRequired.description" value=""/>
+    <string id="property.TomcatPreInstalled.description" value=""/>
+    <string id="property.ManualDeploy.description" value=""/>
+    <string id="property.LaunchWDeploy.description" value="Käynnistä wDeploy"/>
+    <string id="description.cmsname" value="CMS-nimi"/>
+    <string id="description.cmsport" value="CMS-portti"/>
+    <string id="description.cmsusername" value="CMS-käyttäjätunnus"/>
+    <string id="description.cmspassword" value="CMS-salasana"/>
+    <string id="description.cmsauth" value="CMS-valtuudet"/>
+    <string id="description.sianame" value="SIA-nimi"/>
+    <string id="description.siaport" value="SIA-portti"/>
+    <string id="property.CMSPassword.description" value="CMS-järjestelmänvalvojan salasana"/>
+    <string id="property.CMSPort.description" value="CMS-yhteysportti"/>
+    <string id="property.CryptoKey.description" value="CMS-klusterin avain"/>
+    <string id="property.EnableServers.description" value="Käynnistä palvelimet asennuksen jälkeen: 0 tai 1"/>
+    <string id="property.UsingAuditDBType.description" value="Tarkastustietokannan tyyppi"/>
+    <string id="property.UsingCMSDBType.description" value="CMS-tietokantatyyppi"/>
+    <string id="property.ExistingAuditingDBDatabase.description" value="Olemassa oleva tarkastustietokanta (tk)"/>
+    <string id="property.ExistingAuditingDBPassword.description" value="Olemassa olevan tarkastustietokannan salasana"/>
+    <string id="property.ExistingAuditingDBPort.description" value="Olemassa olevan tarkastustietokannan portti"/>
+    <string id="property.ExistingAuditingDBReset.description" value="Olemassa olevan tarkastustietokannan nollausmerkki: 0 tai 1"/>
+    <string id="property.ExistingAuditingDBUseExternalAuthentication.description" value="Olemassa olevan tarkastustietokannan käytön ulkoisen todennuksen merkki: 0 tai 1"/>
+    <string id="property.ExistingAuditingDBServer.description" value="Olemassa oleva tarkastustietokantapalvelin"/>
+    <string id="property.ExistingAuditingDBUser.description" value="Olemassa olevan tarkastustietokannan käyttäjätunnus"/>
+    <string id="property.ExistingCMSDBDatabase.description" value="Olemassa oleva CMS-tietokanta (tk)"/>
+    <string id="property.ExistingCMSDBPassword.description" value="Olemassa olevan CMS-tietokannan salasana"/>
+    <string id="property.ExistingCMSDBPort.description" value="Olemassa olevan CMS-tietokannan portti"/>
+    <string id="property.ExistingCMSDBReset.description" value="Olemassa olevan CMS-tietokannan nollausmerkki: 0 tai 1"/>
+    <string id="property.ExistingCMSDBUseExternalAuthentication.description" value="Olemassa olevan CMS-tietokannan käytön ulkoisen todennuksen merkki: 0 tai 1"/>
+    <string id="property.ExistingCMSDBServer.description" value="Olemassa oleva CMS-tietokantapalvelin"/>
+    <string id="property.ExistingCMSDBUser.description" value="Olemassa olevan CMS-tietokannan käyttäjätunnus"/>
+    <string id="property.NewOrExpandInstall.description" value="Asennustila: uusi, laajennettu"/>
+    <string id="property.MySQLBOEUserName.description" value="Niputetutn tietokannan käyttäjätunnus BI-alustan käyttäjää varten"/>
+    <string id="property.MySQLBOEUserPassword.description" value="Niputetutn tietokannan salasana BI-alustan käyttäjää varten"/>
+    <string id="property.MySQLPort.description" value="Niputetun tietokannan liittimen portti"/>
+    <string id="property.MySQLRootPassword.description" value="Niputetun tietokannan pääkäyttäjän salasana"/>
+    <string id="property.RemoteCMSAdminName.description" value="CMS-etäjärjestelmänvalvojan nimi"/>
+    <string id="property.RemoteCMSAdminPassword.description" value="CMS-etäjärjestelmänvalvojan salasana"/>
+    <string id="property.RemoteCMSName.description" value="CMS-etäpalvelimen nimi"/>
+    <string id="property.RemoteCMSPort.description" value="CMS-etäportti"/>
+    <string id="property.SkipRemoteCMSLoginWarning.description" value="Ohita CMS-etäkirjautumisvaroitus"/>
+    <string id="property.MaintenanceMode.description" value="Suoritettava ylläpitotoiminto"/>
+    <string id="property.SelectIntegratedDatabase.description" value="Asenna integroitu tietokanta: 0 tai 1"/>
+    <string id="property.SIAName.description" value="SIA-solmun nimi"/>
+    <string id="property.SIAPort.description" value="SIA-liittimen portti"/>
+    <string id="property.TomcatConnectionPort.description" value="Tomcat-yhteysportti"/>
+    <string id="property.TomcatRedirectPort.description" value="Tomcat-uudelleenohjausportti"/>
+    <string id="property.TomcatShutdownPort.description" value="Tomcat-sammutusportti"/>
+    <string id="property.WACSPort.description" value="WACS-portti"/>
+    <string id="property.WebAppServerType.description" value="Web-sovelluspalvelimen tyyppi: Tomcat, manuaalinen tai WACS"/>
+    <string id="property.SolMgr_Loc.description" value="Solution Manager -palvelimen nimi"/>
+    <string id="property.SolMgr_Port.description" value="Solution Manager -palvelimen portti"/>
+    <string id="property.SolMgr_Username.description" value="Solution Manager -yhteyden muodostuksessa käytettävä käyttäjätunnus"/>
+    <string id="property.SolMgr_Password.description" value="Solution Manager -yhteyden muodostuksessa käytettävä salasana"/>
+    <string id="property.SolMgr_UseHttps.description" value="Käytä HTTPS-protokollaa yhteyden muodostamisessa Solution Manageriin: 0 tai 1"/>
+    <string id="property.SharedAlwaysFailureMessage.description" value="Ominaisuus, johon tallennetaan SharedAlwaysFailureMessage-merkkijono"/>
+    <string id="property.SMDAgent_HOST.description" value="SMD-agentin pääkoneen nimi"/>
+    <string id="property.SMDAgent_PORT.description" value="SMD-agentin porttinumero"/>
+    <string id="property.UPGRADE.description" value="Salli tausta-asennus -merkki: 0 tai 1"/>
+    <string id="property.ChooseSMDIntegration.description" value="Integroi SMD (Solution Manager Diagnostics) -agentti: integrate tai nointegrate"/>
+    <string id="property.ChooseSLDIntegration.description" value="Integroi SLD: integrate tai nointegrate"/>
+    <string id="property.ChooseIntroscopeIntegration.description" value="Integroi Introscope Enterprise Manager: integrate tai nointegrate"/>
+    <string id="property.Introscope_ENT_HOST.description" value="Introscope Enterprise Managerin palvelinnimi"/>
+    <string id="property.Introscope_ENT_PORT.description" value="Introscope Enterprise Manager -portin numero"/>
+    <string id="property.Introscope_ENT_INSTRUMENTATION.description" value="Introscope Enterprise Managerin instrumentaatio"/>
+    <string id="property.NewOrExistingLCM.description" value="Asenna uusi tai käytä olemassa olevaa LCM:ää: new tai existing"/>
+    <string id="property.LCMName.description" value="LCM-palvelimen nimi"/>
+    <string id="property.LCMUserName.description" value="LCM-käyttäjän nimi"/>
+    <string id="property.LCMPassword.description" value="LCM-salasana"/>
+    <string id="property.LCMPort.description" value="LCM-portti"/>
+    <string id="property.InstallType.description" value="Asennustyyppi: oletusarvoinen tai mukautettu"/>
+    <string id="property.PreReqCRVAdminPrivilege.description" value="Onko käyttäjällä järjestelmänvalvojan oikeudet Crystal Reports -edellytyksiä varten?"/>
+    <string id="property.PerMachineCRVInstallDirFromRegistry.description" value="Crystal Reports -katseluohjelman konekohtaisen asennuksen asennushakemisto"/>
+    <string id="PatchUpdateCheck" value="Tarkista tuotepäivitykset"/>
+    <string id="prerequisite.CheckPatchLevel.description" value="Käyttöjärjestelmän korjaustiedoston taso"/>
+    <string id="prerequisite.CheckPatchLevel.reason" value="Käyttöjärjestelmä ei ole tämän tuotteen asentamiseen edellytettävän minimikorjaustason mukainen. Katso alustan vaatimusten dokumentaatio."/>
+    <string id="prereq.pingLocalhost" value="Verkkoasetukset"/>
+    <string id="prereq.pingLocalhostNotOkText" value="Ping-komento ei saanut yhteyttä paikalliseen pääkoneeseen, 127.0.0.1, tai koneen isäntänimeen. Koneen asetukset on määritettävä niin, että yhteys niihin sallitaan, jotta asennus voi jatkua. INS00293"/>
+    <string id="prereq.checkforDiskSpacePreReqText" value="Levytilan tarkistus"/>
+    <string id="prereq.checkforDiskSpacePreReqNotOkText" value="Varmista, että asennuksen jatkamiseksi tarvittava levytila on käytettävissä. Lisätietoja osoitteessa https://apps.support.sap.com/sap/support/pam."/>
+    <string id="prereq.AdminPrivilegePreReqText" value="Järjestelmänvalvojan oikeudet"/>
+    <string id="prereq.AdminPrivilegePreReqNotOkText" value="Sinun on kirjauduttava käyttäjätilillä, jolla on järjestelmänvalvojan oikeudet. INS00287"/>
+    <string id="prereq.MsNetAssemblyPreReqText" value="Microsoft .NET Framework 4.0 tai uudempi"/>
+    <string id="prereq.MsNetAssemblyPreReqNotOkText" value="Asenna Microsoft .NET Framework 4.0 tai uudempi."/>
+    <string id="prereq.RootUserPreReqText" value="Pääkäyttäjän oikeudet"/>
+    <string id="prereq.RootUserPreReqNotOkText" value="Tätä asennusta ei voi jatkaa pääkäyttäjän tilillä, jolle olet kirjautuneena. Asenna tuote kirjautumalla muuna kuin pääkäyttäjänä. INS00288"/>
+    <string id="prereq.Platform64bitPreReq" value="64-bittinen käyttöjärjestelmä"/>
+    <string id="prereq.Platform64bitPreReqNotOkText" value="Tämä tuote on asennettava 64-bittiseen käyttöjärjestelmään. Varmista, että käyttöjärjestelmäsi vastaa tätä vaatimusta. INS00292"/>
+    <string id="prereq.WindowsVersionPreReqText" value="Windows-versio"/>
+    <string id="prereq.WindowsVersionPreReqNotOkText" value="Tämä tuote on asennettava Windows 8.1:een, Windows Server 2012 R2:een tai uudempaan käyttöjärjestelmään. Varmista, että käyttöjärjestelmäsi vastaa tätä vaatimusta."/>
+    <string id="prereq.WindowsServerVersionPreReqText" value="Windows-versio"/>
+    <string id="prereq.WindowsServerVersionPreReqNotOkText" value="Tämä tuote on asennettava Windows Server 2012 R2:een tai uudempaan Windows Server -versioon. Varmista, että Windows-versiosi vastaa tätä vaatimusta."/>
+    <string id="prereq.SQLExpressPreReqText" value="Integroidun tietokannan vaatimukset"/>
+    <string id="prereq.SQLExpressPreReqNotOkText" value="Asenna Microsoft .NET Framework 3.5 SP1 tai uudempi ja Windows Installer 4.5."/>
+    <string id="prereq.SQLExpressRequirementText" value="MS SQL Express -vaatimukset"/>
+    <string id="prereq.SQLExpressRequirementNotOkText" value="Microsoft SQL Express edellyttää Microsoft .NET Framework 3.5 SP1:tä ja Windows Installer 4.5:tä. Asenna molemmat paketit, ennen kuin yrität asentaa SQL Expressiä."/>
+    <string id="prereq.PendingStatusPreReqText" value="Estetty uudelleenkäynnistys"/>
+    <string id="prereq.PendingStatusPreReqNotOkText" value="Uudelleenkäynnistyspyyntö on estetty paikallisessa koneessa. Jatka asennusta käynnistämällä kone uudelleen. INS00289"/>
+    <string id="prereq.4xNotInstalledText" value="Tuotteen versiota 4.x ei asennettu."/>
+    <string id="prereq.4xNotInstalledNotOkText" value="Tuotteen versio 4.x asennettiin."/>
+    <string id="prerequisite.MinimumHomePermissions.description" value="Integroitu tietokanta - kotihakemisto"/>
+    <string id="prerequisite.MinimumHomePermissions.reason" value="Integroitu tietokanta edellyttää 755 käyttöoikeuden määrittämisen käyttäjän kotihakemistossa. Käyttöoikeudet on määritettävä, ennen kuin voit asentaa tietokannan."/>
+    <string id="prerequisite.NoExistingSqllibDir.description" value="Integroitu tietokanta - hakemistot"/>
+    <string id="prerequisite.NoExistingSqllibDir.reason" value="DB2 edellyttää, ettei hakemistoja ~/sqllib ja ~/$USER ole. Jos nämä hakemistot ovat olemassa, poista ne ennen integroidun DB2-tietokannan asentamista."/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.description" value="Tuotetta #product.mini_bip_name# tai #product.cr_server_name# ei voi asentaa"/>
+    <string id="prerequisite.BlockIfMiniBOEInstalled.reason" value="Tuotetta #productname# ei voi asentaa samaan koneeseen tuotteen #product.mini_bip_name# tai #product.cr_server_name# kanssa.  INS000286"/>
+    <string id="prerequisite.BlockIfBOEInstalled.description" value="Tuotetta #product.boe64_name# tai #product.cr_server_name# ei voi asentaa"/>
+    <string id="prerequisite.BlockIfBOEInstalled.reason" value="Et voi asentaa tuotetta #productname#; #product.boe64_name# tai #product.cr_server_name# on jo asennettu INS00291"/>
+    <string id="prerequisite.BlockIfRASInstalled" value="Tuotetta #product.ras_name# ei voi asentaa"/>
+    <string id="prerequisite.BlockIfRASInstalledResolution" value="Tuotetta #productname# ei voi asentaa samaan koneeseen tuotteen #product.ras_name# kanssa. INS00290"/>
+    <string id="prerequisite.WarnIfISDSInstalled.description" value="Tuotteiden #product.IS_name# ja #product.DS_name# yhteensopivuus"/>
+    <string id="prerequisite.WarnIfISDSInstalled.reason" value="SAP #product.DS_name#- ja/tai #product.IS_name# -käyttöönotto havaittiin tietokoneessa. Ennen kuin jatkat, lue SAP-ohjeen 1740516 (http://service.sap.com/sap/support/notes/1740516) yhteensopivuutta koskevat tiedot ja tiedot vaikutuksista kyseisiin tuotteisiin. INS00296"/>
+    <string id="Failure.Because.Upgrade.Property.Not.Set" value="Asennusohjelma löysi olemassa olevan asennuksen. Asennusohjelma on suoritettava komennolla UPGRADE=1. Ohjelma suljetaan."/>
+    <string id="Failure.Because.Critical.PreReq.Does.Not.Pass" value="Asennusohjelma ei voi jatkaa, koska kriittinen edellytys ei täyttynyt."/>
+    <string id="Failure.Because.CMS.Selected.But.Integrated.Fail" value="Keskushallintapalvelin ja integroitu tietokantavaihtoehto on valittuna, mutta vaihtoehto on poissa käytöstä, koska edellytykset eivät täyttyneet. Ennen kuin asennus voi jatkua, seuraavat edellytykset on ratkaistava:"/>
+    <string id="Failure.Because.No.Administrative.Privilege" value="Nykyisellä käyttäjällä ei ole järjestelmänvalvojan käyttöoikeuksia, eikä hän voi suorittaa asennusohjelmaa."/>
+    <string id="prerequisite.PassCheckSpaceInTmp.description" value="Kansion /tmp levytila"/>
+    <string id="prerequisite.PassCheckSpaceInTmp.reason" value="Kansiossa /tmp ei ole riittävästi vapaata levytilaa. Jatka asennusta vapauttamalla tilaa. INS000295"/>
+    <string id="prerequisite.PassCheckSpaceInVar.description" value="Kansion /var levytila"/>
+    <string id="prerequisite.PassCheckSpaceInVar.reason" value="Kansiolla /var ei ole riittävästi vapaata levytilaa. Sinun on vapautettava vähintään 20 Mt levytilaa, ennen kuin asennusta voidaan jatkaa."/>
+    <string id="prerequisite.PassCheckDB2UserGroup.description" value="Integroitu tietokanta - käyttäjä ja ryhmä"/>
+    <string id="prerequisite.PassCheckDB2UserGroup.reason" value="Käyttäjäryhmän nimeäminen ei vastannut DB2-rajoitusta. Lisätietoja on osoitteessa http://publib.boulder.ibm.com/infocenter/db2luw/v9r7. Etsi aihetta user ID restrictions (käyttäjätunnusten rajoitukset)."/>
+    <string id="prerequisite.PassCheckUIDandGID.description" value="Integroitu tietokanta - UID ja GID"/>
+    <string id="prerequisite.PassCheckUIDandGID.reason" value="DB2 edellyttää, että UID- ja GID-tunnus on pienempi kuin 65 536. Syötä pienempi numero, jos haluat käyttää integroitua DB2-tietokantaa."/>
+    <string id="prerequisite.PassCheckForGunzip.description" value="Integroitu tietokanta - gunzip"/>
+    <string id="prerequisite.PassCheckForGunzip.reason" value="DB2 edellyttää, että gunzip on järjestelmäpolussa. Muokkaa järjestelmäpolkua, jos haluat käyttää integroitua DB2-tietokantaa."/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.description" value="Niputettu tietokanta - HPUX-ytimen vähimmäisasetusten täyttäminen DB2-tietokannassa"/>
+    <string id="prerequisite.PassesCheckDB2KernalSettingsOnHPUX.reason" value="Ydinasetukset eivät täytä DB2-vähimmäisvaatimuksia"/>
+    <string id="prerequisite.OSDistriLevelForLegacyCR.description" value="Tuotetta Crystal Reports 2013 ei tueta SUSE 11 -järjestelmässä tai sitä uudemmissa järjestelmissä."/>
+    <string id="prerequisite.NetFrameworkForNetSDK.description" value="64-bittinen BOE .NET SDK edellyttää Microsoft .NET Framework 3.5:tä tai uudempaa. Sinun on asennettava .NET Framework, ennen kuin voit käyttää 64-bittistä BOE .NET SDK:ta."/>
+    <string id="prereq.NetAssembly3xPreReqText" value="Microsoft .NET Framework 3.0 tai uudempi"/>
+    <string id="prereq.NetAssembly3xPreReqNotOkText" value="Asenna Microsoft .NET Framework 3.0 tai uudempi."/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqText" value="Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime"/>
+    <string id="prereq.MSVS2005ToolsRuntimePreReqNotOkText" value="Tuotetta Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime ei löytynyt. Se on asennettava, ennen kuin tämä asennus voi jatkua."/>
+    <string id="prereq.MSOffice2003OrHigherPreReqText" value="Microsoft Office 2003 tai uudempi"/>
+    <string id="prereq.MSOffice2003OrHigherPreReqNotOkText" value="Microsoft Office 2003:a tai uudempaa ei löytynyt. Se on asennettava, ennen kuin tämä asennus voi jatkua."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqText" value="Tukipaketin vähimmäisversio"/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText" value="Tämä päivitys koskee tuotetta #productname# #product_version##product_sp_version#, jota ei löydy järjestelmästä. Tämä tuote on asennettava ennen asennuksen jatkamista."/>
+    <string id="prereq.CheckPatchOnLowerSPPreReqNotOkText.nospace" value="Tämä päivitys koskee tuotetta #productname# #product_version##product_sp_version#, jota ei löydy järjestelmästä. Tämä tuote on asennettava ennen asennuksen jatkamista."/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqText" value="Päivitykset ovat käytettävissä"/>
+    <string id="prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText" value="#productname# #product_majorversion# on tätä päivitystä uudempi versio. Älä jatka tätä päivitystä."/>
+    <string id="prereq.CheckValidMinorReleasePreReqText" value="Alaversion vähimmäisjulkaisuversio"/>
+    <string id="prereq.CheckValidMinorReleasePreReqNotOkText" value="Tämä päivitys koskee tuotetta #productname# #product_version#, jota ei löydy järjestelmästä. Tämä tuote on asennettava ennen asennuksen jatkamista."/>
+    <string id="prereq.OEMInstalledPreReqText" value="Mukautettu #productname_short# #productname_preversion# asennettiin"/>
+    <string id="prereq.OEMInstalledNotOkPreReqText" value="Tämä päivitys koskee mukautettua tuotetta #productname_short# #productname_preversion#, jota ei löydy järjestelmästä. Tämä tuote on asennettava ennen asennuksen jatkamista."/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.description" value="Yhteensopivan tuotteen asennus"/>
+    <string id="prereq.CRVPerMachineBlocksPerUser.reason" value="Tämä tuote on jo asennettu ja se on käyttäjien käytettävissä."/>
+    <string id="prerequisite.PassWindowsInstallerService.description" value="Windows Installer -palvelu"/>
+    <string id="prerequisite.PassWindowsInstallerService.reason" value="Asennus on keskeytynyt, koska Windows Installer -palvelu ei ole käytössä (Käynnistystyyppi=Ei käytössä) tai käytettävissä. Palvelu on asennettava ja otettava käyttöön, jotta asennus voi jatkua."/>
+    <string id="PostInstall.message.ClusteredCMSRestartRequired" value="Kun asennus on valmis klusterin kaikissa koneissa, suorita klusterin päivitys loppuun käynnistämällä kukin keskushallintapalvelin (CMS) uudelleen. Sinun on kirjauduttava keskushallintakonsoliin, jotta voit käynnistää CMS:t uudelleen."/>
+    <string id="PostInstall.message.logoncmc.windows" value="Jatka järjestelmän konfigurointia kirjautumalla keskushallintakonsoliin (CMC). Käynnistä CMC valitsemalla Käynnistä &gt; #product.boe64_name# &gt; Keskushallintakonsoli."/>
+    <string id="postinstall.message.manualdeploy.common" value="Java-web-sovelluksia ja -webpalveluita ei ole otettu käyttöön web-sovelluspalvelimessa. Ota Java-web-sovellukset ja -webpalvelut käyttöön suorittamalla wDeploy-työkalu."/>
+    <string id="postinstall.message.manualdeploy.windows" value="Käynnistä wDeploy-työkalu valitsemalla Käynnistä &amp;lt; &amp;lt;#shortcut.folder.name.root.sapbi#&amp;gt;&amp;lt;#productname# #product_majorversion#&amp;gt; &gt; wDeploy."/>
+    <string id="postinstall.message.manualdeploy.unix" value="wDeploy-työkalun sijainti on [InstallDir]/sap_bobj/enterprise_xi40/wdeploy/wdeployGUI.sh."/>
+    <string id="postinstall.message.systeminstall" value="Päätä järjestelmäasennus suorittamalla seuraava komentosarja pääkäyttäjänä: [INSTALLDIR]/sap_bobj/init/setupinit.sh"/>
+    <string id="postinstall.message.webtieralone" value="Sinun on määritettävä OpenDocument-asiakirjan oletuskatseluohjelman URL-osoite. Tätä konetta ei ole rekisteröity asiakirjojen katselupyyntöjen käsittelyn web-oletussovelluspalvelimeksi. Se voi olla tarpeen rekisteröidä keskushallintapalvelimessa web-oletussovelluspalvelimena. OpenDocument-ominaisuussivua voi muokata keskushallintakonsolin kautta."/>
+    <string id="PostInstall.message.monitoring" value="Voit käyttää diagnostiikkatesteissä käytettävää valvontatyökalua kirjautumalla keskushallintakonsoliin, napsauttamalla Valvonta-painiketta ja avaamalla Tutkimukset-välilehden."/>
+    <string id="postInstall.message.new.features.announce.windows" value="{b}RESTful-web-palvelut{/b} ja {b}Insight to Action -kehys{/b} ovat tässä päivityksessä käyttöön tuotuja uusia ominaisuuksia. Voit ottaa ominaisuudet käyttöön muuttamalla perusasennusta ja lisäämällä uudet ominaisuudet."/>
+    <string id="postInstall.message.new.feature.restful.windows" value="{b}RESTful-web-palvelut:{/b} Business Intelligence -alustan RESTful-web-palvelun SDK mahdollistaa BI-alustan käytön HTTP-protokollan avulla. Voit  kirjautua alustaan SDK:n avulla, siirtyä BI-alustan tietovarastossa, käyttää resursseja ja suorittaa perusresurssien ajoituksen. Tämä ominaisuus edellytetään, jotta Dashboards-malleja ja Live Office -asiakirjoja voidaan tallentaa tietovarastoon päivityksen jälkeen."/>
+    <string id="postInstall.message.new.feature.insight.windows" value="{b}Insight to Action -kehys:{/b} Insight to Action -kehyksen avulla voit käynnistää operationaalisia tapahtumia SAP- ja ei-SAP-sovelluksissa, jotka on määritetty RRI-liittymän avulla NetWeaverissä. Tätä toimintoa tukevat Crystal Reports ja BusinessObjects Dashboards."/>
+    <string id="postInstall.message.new.features.announce.unix" value="RESTful-web-palvelut ja Insight to Action -kehys ovat tässä päivityksessä käyttöön tuotuja uusia ominaisuuksia. Voit ottaa ominaisuudet käyttöön muuttamalla perusasennusta ja lisäämällä uudet ominaisuudet."/>
+    <string id="postInstall.message.new.feature.restful.unix" value="RESTful-web-palvelut: Business Intelligence -alustan RESTful-web-palvelun SDK mahdollistaa BI-alustan käytön HTTP-protokollan avulla. Voit  kirjautua alustaan SDK:n avulla, siirtyä BI-alustan tietovarastossa, käyttää resursseja ja suorittaa perusresurssien ajoituksen. Tämä ominaisuus edellytetään, jotta Dashboards-malleja ja Live Office -asiakirjoja voidaan tallentaa tietovarastoon päivityksen jälkeen."/>
+    <string id="postInstall.message.new.feature.insight.unix" value="Insight to Action -kehys: Insight to Action -kehyksen avulla voit käynnistää operationaalisia tapahtumia SAP- ja ei-SAP-sovelluksissa, jotka on määritetty RRI-liittymän avulla NetWeaverissä. Tätä ominaisuutta tukevat Crystal Reports ja BusinessObjects Dashboards."/>
+    <string id="postInstall.message.cms.database.is.mysql" value="Asennusohjelma löysi tietokantayhteyteen käytettävän MySQL-asiakasohjelman 5.0, jota ei enää tueta. Päivitä MySQL-asiakasohjelma versioon 5.1, jotta järjestelmäsi säilyy tuettuna."/>
+    <string id="postInstall.message.new.feature.mobile.servers" value="Mobiilipalvelimet on uusi ominaisuus, jonka avulla voi käyttää Business Intelligence -tietoja mobiililaitteista. Ota tämä ominaisuus käyttöön muuttamalla perusasennusta ja valitsemalla Mobiilipalvelimet."/>
+    <string id="postInstall.message.new.feature.tomcat_migration.common" value="Tomcatin niputettu versio päivitetään versioon 9. Mahdolliset Tomcatiin tekemäsi mukautetut asetukset siirretään vanhasta versiosta Tomcat 9:ään. On kuitenkin suositeltavaa, että tarkistat, että mukautetut asetukset ovat käytettävissä Tomcat 9:ssä."/>
+    <string id="product_version" value="4.3"/>
+    <string id="product_preversion" value="4.2"/>
+    <string id="product_majorversion" value="4"/>
+    <string id="product_cr_version" value="2020"/>
+    <string id="product_cr_preversion" value="2020"/>
+    <string id="product_hilo_version" value="2012"/>
+    <string id="product_language" value=""/>
+    <string id="product_sp_version" value=" SP4"/>
+    <string id="product_patch" value=" SP4 Patch 4"/>
+    <string id="product_patch_prespace" value=" SP4 Patch 4"/>
+    <string id="hf_version" value="1"/>
+    <string id="patch_id" value="4"/>
+    <string id="product.cr_maintenance_version" value="Ylläpitopaketti: #product_cr_version#\n\n"/>
+    <string id="product.generic_maintenance_version" value="Ylläpitopaketti: #product_version#\n\n"/>
+    <string id="product.umc_maintenance_version" value="Ylläpitopaketti: 10.3\n\n"/>
+    <string id="product.xcelsius_maintenance_version" value="Ylläpitopaketti\n\n"/>
+    <string id="product.boe64_name" value="SAP BusinessObjects BI -alusta"/>
+    <string id="product.boe64_name_and_version" value="#product.boe64_name# #product_version#"/>
+    <string id="product.boe64_name_and_preversion" value="#product.boe64_name# #product_preversion#"/>
+    <string id="product.boe64_name_and_majorversion" value="#product.boe64_name# #product_majorversion#"/>
+    <string id="product.boe64_shortname" value="BI Platform -palvelin"/>
+    <string id="product.boec_bip_name" value="SAP BusinessObjects BI -alusta"/>
+    <string id="product.boec_client_name" value="Asiakastyökalut"/>
+    <string id="product.boec_client_name.wrc" value="Web Intelligence Rich Client"/>
+    <string id="product.boec_shortname" value="BI Platform -alustan asiakas"/>
+    <string id="product.boeruntime_name" value="SAP BusinessObjects BI -alustan .NET SDK Redistributable -tiedosto"/>
+    <string id="product.cr_name" value="SAP Crystal Reports"/>
+    <string id="product.cr_shortname" value="#product.cr_name#"/>
+    <string id="product.crjava_name" value="SAP Crystal Reports for Enterprise"/>
+    <string id="product.crviewer_name" value="SAP Crystal Reports 2020 -katseluohjelma"/>
+    <string id="product.crw_name" value="SAP Crystal Reports Designer"/>
+    <string id="product.ds_name" value="Data Services"/>
+    <string id="product.explorer_name" value="SAP BusinessObjects Explorer"/>
+    <string id="product.explorer_shortname" value="Explorer"/>
+    <string id="product.hilo_name" value="SAP Hilo"/>
+    <string id="product.hilo_shortname" value="SAP Hilo"/>
+    <string id="product.is_name" value="Information Steward"/>
+    <string id="product.lo_name" value="SAP BusinessObjects Live Office"/>
+    <string id="product.lo_shortname" value="Live Office"/>
+    <string id="product.lumiraboe_name" value="SAP BusinessObjects BI -laajenus SAP Lumiralle"/>
+    <string id="product.lumiraboe_shortname" value="BI-laajennus SAP Lumiralle"/>
+    <string id="product.mini_bip_name" value="Tietoalustapalvelut"/>
+    <string id="product.mini_bip_shortname" value="Tietoalustapalvelut"/>
+    <string id="product.cr_server_name" value="SAP Crystal Server"/>
+    <string id="product.cr_server_shortname" value="SAP Crystal Server"/>
+    <string id="product.ipoint_name" value="SAP-integrointi Microsoft Sharepointiin"/>
+    <string id="product.ipoint_shortname" value="Microsoft SharePoint Software -ohjelmiston integrointivaihtoehto"/>
+    <string id="product.ras_name" value="SAP Crystal Reports Server"/>
+    <string id="product.ras_edition_name" value="OEM-versio"/>
+    <string id="product.ras_shortname" value="Raporttisovelluspalvelin"/>
+    <string id="product.umc_name" value="SAP-käyttäjänhallinnan asiakas"/>
+    <string id="product.xcelsius_name" value="SAP BusinessObjects Dashboards"/>
+    <string id="product.xcelsiuspresent_name" value="SAP Crystal Presentation Design"/>
+    <string id="product.xcelsiuspresent_shortname" value="Presentation Design"/>
+    <string id="product.webiweb_name" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="product.webiweb_shortname" value="Web Intelligence"/>
+    <string id="Bobj_ProgramMenuFolder" value="#product.boe64_name# #product_version#"/>
+    <string id="BobjE_ProgramMenuFolder" value="#product.boe64_name#"/>
+    <string id="shortcut.folder.name.root.sapbo" value="SAP BusinessObjects"/>
+    <string id="shortcut.folder.name.root.sapbi" value="SAP Business Intelligence"/>
+    <string id="shortcut.folder.name.boserver" value="SAP BusinessObjects BI -alusta 4"/>
+    <string id="shortcut.folder.name.minibip" value="Tietoalustapalvelut 4"/>
+    <string id="shortcut.folder.name.boclient" value="SAP BusinessObjects BI -alustan 4 asiakastyökalut"/>
+    <string id="shortcut.folder.name.xcelsius" value="SAP BusinessObjects Dashboards 4"/>
+    <string id="shortcut.folder.name.xcelsiuspresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.folder.name.cr" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.folder.name.cr4enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.folder.name.ras" value="SAP Crystal Reports Server 2020, OEM-versio"/>
+    <string id="shortcut.folder.name.crv" value="SAP Crystal Reports 2020 -katseluohjelma"/>
+    <string id="shortcut.folder.name.crystalserver" value="SAP Crystal Server 2020"/>
+    <string id="shortcut.folder.name.crystalclient" value="SAP Crystal Server Client Tools 2020"/>
+    <string id="shortcut.folder.name.Tomcat" value="Tomcat"/>
+    <string id="shortcut.folder.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.name.CCM" value="Central Configuration Manager"/>
+    <string id="shortcut.link.description.CCM" value="Aloita, lopeta ja määritä alustapalvelut"/>
+    <string id="shortcut.link.name.boserver.CMC" value="SAP BusinessObjects BI -alustan keskushallintakonsoli"/>
+    <string id="shortcut.link.name.boserver.WACS.CMC" value="SAP BusinessObjects BI -alustan WACS-keskushallintakonsoli"/>
+    <string id="shortcut.link.name.crystalserver.CMC" value="SAP Crystal Server -keskushallintakonsoli"/>
+    <string id="shortcut.link.name.crystalserver.WACS.CMC" value="SAP Crystal Server -WACS-keskushallintakonsoli"/>
+    <string id="shortcut.link.name.minibip.CMC" value="Tietoalustapalvelujen keskushallintakonsoli"/>
+    <string id="shortcut.link.name.minibip.WACS.CMC" value="Tietoalustapalvelujen WACS-keskushallintakonsoli"/>
+    <string id="shortcut.link.description.CMC" value="Hallintakonsolin käyttö"/>
+    <string id="shortcut.link.name.boserver.BILaunchpad" value="SAP BusinessObjects BI -alustan käynnistyspaneeli"/>
+    <string id="shortcut.link.name.boserver.WACS.BILaunchpad" value="SAP BusinessObjects BI -alustan WACS BI -käynnistyspaneeli"/>
+    <string id="shortcut.link.name.crystalserver.BILaunchpad" value="SAP Crystal Server Java BI -käynnistyspaneeli"/>
+    <string id="shortcut.link.name.crystalserver.WACS.BILaunchpad" value="SAP Crystal Server WACS BI -käynnistyspaneeli"/>
+    <string id="shortcut.link.description.BILaunchpad" value="Käynnistä BI-käynnistyspaneeli"/>
+    <string id="shortcut.link.name.UpgradeManager" value="Päivityksen hallintatyökalu"/>
+    <string id="shortcut.link.description.boserver.UpgradeManager" value="Päivitä aiemmat käyttöönotot SAP BusinessObjects BI -alustan versioon 4"/>
+    <string id="shortcut.link.name.PromotionManagementWizard" value="Ylätasolle siirron hallinnan ohjattu toiminto"/>
+    <string id="shortcut.link.description.boserver.PromotionManagementWizard" value="Vie, tuo ja kopioi CMS-sisältöä 4.x-käyttöönotoissa vaihe vaiheelta opastavan käyttöliittymän kautta."/>
+    <string id="shortcut.link.description.crystalserver.UpgradeManager" value="Päivitä aiemmat käyttöönotot SAP Crystal Server 2020 -versioon"/>
+    <string id="shortcut.link.description.minibip.UpgradeManager" value="Päivitä aiemmat käyttöönotot tietoalustapalvelujen versioon 4"/>
+    <string id="shortcut.link.name.ODBCAdministrator32" value="32-bittinen ODBC-tietolähteen hallinta"/>
+    <string id="shortcut.link.name.ODBCAdministrator" value="ODBC-tietolähteen hallinta"/>
+    <string id="shortcut.link.description.ODBCAdministrator" value="Lisää, poistaa ja määrittää Open Database Connectivity (ODBC) -tietolähteitä ja -ohjaimia"/>
+    <string id="shortcut.link.name.OnlineDocumentation" value="Online-ohjeet"/>
+    <string id="shortcut.link.description.OnlineDocumentation" value="Avaa Online-ohjeet"/>
+    <string id="shortcut.link.name.TomcatAdmin" value="Tomcat-hallinta"/>
+    <string id="shortcut.link.description.TomcatAdmin" value="Avaa Tomcat-hallinta"/>
+    <string id="shortcut.link.name.TomcatConfig" value="Tomcat-määritykset"/>
+    <string id="shortcut.link.description.TomcatConfig" value="Avaa Tomcat-määritykset"/>
+    <string id="shortcut.link.name.WDeploy" value="wdeploy"/>
+    <string id="shortcut.link.description.WDeploy" value="Käynnistää wDeploy-työkalun"/>
+    <string id="shortcut.link.name.BIWidgets" value="Widgetit"/>
+    <string id="shortcut.link.description.BIWidgets" value="Käynnistää Widgetit"/>
+    <string id="shortcut.link.name.BusinessViewManager" value="Liiketoimintanäkymän hallinta"/>
+    <string id="shortcut.link.description.BusinessViewManager" value="Käynnistää liiketoimintanäkymän hallinnan"/>
+    <string id="shortcut.link.name.DFAdminTool" value="Tietoliitosten hallintatyökalu"/>
+    <string id="shortcut.link.description.DFAdminTool" value="Käynnistää tietoliitosten hallintatyökalun"/>
+    <string id="shortcut.link.name.InformationDesignTool" value="Informaation suunnittelutyökalu"/>
+    <string id="shortcut.link.description.InformationDesignTool" value="Käynnistää informaation suunnittelutyökalun"/>
+    <string id="shortcut.link.name.QAAWSDesigner" value="Web-kyselypalvelun suunnitteluohjelma"/>
+    <string id="shortcut.link.description.QAAWSDesigner" value="Käynnistää web-kyselypalvelun suunnitteluohjelman"/>
+    <string id="shortcut.link.name.ReportConversionTool" value="Raportin muuntotyökalu"/>
+    <string id="shortcut.link.description.ReportConversionTool" value="Käynnistää raportin muuntotyökalun"/>
+    <string id="shortcut.link.name.TranslationManagementTool" value="Käännöshallintatyökalu"/>
+    <string id="shortcut.link.description.TranslationManagementTool" value="Käynnistää käännöshallintatyökalun"/>
+    <string id="shortcut.link.name.UniverseDesignTool" value="Käyttöympäristön suunnittelutyökalu"/>
+    <string id="shortcut.link.description.UniverseDesignTool" value="Käynnistää käyttöympäristön suunnittelutyökalun"/>
+    <string id="shortcut.link.name.WebIRichClient" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient" value="Käynnistää raskaan Web Intelligence -työaseman"/>
+    <string id="shortcut.link.name.WebIRichClient.64" value="Web Intelligence Rich Client"/>
+    <string id="shortcut.link.description.WebIRichClient.64" value="Käynnistää Web Intelligence Rich Clientin"/>
+    <string id="shortcut.link.name.CRDesigner" value="SAP Crystal Reports 2020"/>
+    <string id="shortcut.link.description.CRDesigner" value="Luo ja muokkaa muotoiltuja tietoraportteja (.RPT)"/>
+    <string id="shortcut.link.name.ReportUploadWizard" value="Ohjattu raportin lataus"/>
+    <string id="shortcut.link.description.ReportUploadWizard" value="Käynnistää ohjatun raportin latauksen"/>
+    <string id="shortcut.link.name.CRDesigner4Enterprise" value="SAP Crystal Reports for Enterprise 4"/>
+    <string id="shortcut.link.name.CRViewer" value="SAP Crystal Reports 2020 -katseluohjelma"/>
+    <string id="shortcut.link.description.CRViewer" value="Näytä muotoiltuja tietoraportteja (.RPT)"/>
+    <string id="shortcut.link.name.RASLaunchpad" value="Raporttisovelluspalvelimen käynnistyspaneeli"/>
+    <string id="shortcut.link.description.RASLaunchpad" value="Käynnistä raporttisovelluspalvelimen käynnistyspaneeli"/>
+    <string id="shortcut.link.name.webiweb" value="SAP BusinessObjects Web Intelligence"/>
+    <string id="shortcut.link.description.webiweb" value="Käynnistä Web Intelligence"/>
+    <string id="shortcut.link.name.Xcelsius" value="SAP BusinessObjects Dashboards"/>
+    <string id="shortcut.link.description.Xcelsius" value="Käynnistä Dashboards"/>
+    <string id="shortcut.link.name.XcelsiusSDK" value="SAP BusinessObjects Dashboards -laajennuksen paketointitoiminto"/>
+    <string id="shortcut.link.description.XcelsiusSDK" value="Käynnistä Dashboards-laajennuksen paketointitoiminto"/>
+    <string id="shortcut.link.name.XcelsiusPresent" value="SAP Crystal Presentation Design 2020"/>
+    <string id="shortcut.link.description.XcelsiusPresent" value="Käynnistää SAP Crystal Presentation Design 2020 -version"/>
+    <string id="shortcut.link.name.XcelsiusPresentSDK" value="SAP Crystal Presentation Design 2020  -add-on-paketointitoiminto"/>
+    <string id="shortcut.link.description.XcelsiusPresentSDK" value="Käynnistää SAP Crystal Presentation Design 2020  -add-on-paketointitoiminnon"/>
+    <string id="shortcut.link.name.boserver.ADC.WACS" value="SAP BusinessObjects BI -hallintakonsoli - WACS"/>
+    <string id="shortcut.link.name.boserver.ADC" value="SAP BusinessObjects BI -hallintakonsoli"/>
+    <string id="shortcut.link.description.ADC" value="Avaa hallintakonsoli"/>
+    <string id="OverhangingPatchMessage" value="Jos tätä asennusta jatketaan, korjauksia saatetaan poistaa järjestelmästä. Varmista, että asennettava paketti on yhteensopiva."/>
+    <string id="Installing41PatchOver40" value="Luo varmuuskopio nykyisestä 4.0-järjestelmästä manuaalisesti ennen jatkamista. 4.1-päivitystä ei voi poistaa asennuksen jälkeen. Jos haluat palauttaa järjestelmän aikaisempaan tilaan, sinun on käytettävä varmuuskopiota."/>
+    <string id="Block41PatchUninstall" value="4.1-päivityksen asennusta ei voi poistaa automaattisesti. Voit palata 4.0-järjestelmän tilaan poistamalla olemassa olevat binaaritiedostot ja asentamalla 4.0-järjestelmän uudelleen käyttämällä luomaasi 4.0-varmuuskopiota."/>
+    <string id="postInstall.message.ShowPatchLicenseInfo" value="#product.fullproductname# edellyttää uutta lisenssiavainta. Lataa uusi lisenssiavain SAP Service Market Placesta; poista vanha lisenssiavain ja lisää uusi lisenssiavain keskushallintakonsolissa. Lisätietoja on dokumentaatiossa."/>
+    <string id="postInstall.message.ShowDeprecatedProductInfo" value="Muutama tuote ja ominaisuus on vanhentunut tuotteessa #product.fullproductnamenospace#. Suorita päivityksen jälkeen SAP-ohjeessa 2801797 mainitut toimet."/>
+    <string id="DeployLaterDescription" value="Web-sovelluksen käyttöönottotila"/>
+    <string id="prereq.HotfixPatchInstalledPreReqText" value="HotFix-päivityksen ylätason korjausversio asennettu"/>
+    <string id="prereq.HotfixPatchInstalledNotOkPreReqText" value="Tämä HotFix-päivitys koskee tuotetta #productname# #product_version# #product_sp_version# Patch #patch_id#. Korjaus on asennettava ennen asennuksen jatkamista.Lisätietoja SAP-ohjeesta 2257993."/>
+  </context>
+</uitext>

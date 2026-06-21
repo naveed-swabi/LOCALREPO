@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informace o existujícím nasazení CMS"/>
+<string id="SpecifyRemoteCMS" value="Zadejte přihlašovací údaje CMS a správce existujícího nasazení CMS."/>
+<string id="RemoteCMSConnectionInfo" value="Informace o připojení existujícího serveru CMS"/>
+<string id="RemoteCMSName" value="Název CMS"/>
+<string id="RemoteCMSPort" value="Port CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Přihlašovací informace správce serveru CMS"/>
+<string id="RemoteCMSUser" value="Uživatel"/>
+<string id="RemoteCMSPassword" value="Heslo"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Vzdálený server CMS není dostupný, nebo nejsou přihlašovací oprávnění správná. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Vzdálený server CMS není dostupný nebo nejsou správná přihlašovací pověření. INS00013\nChcete znovu zadat svoje pověření?"/>
+<string id="Invalid_SymbolInCMSPassword" value="V hesle CMS není povoleno zpětné lomítko (např. xxx\) a následující znaky:  &quot;  '  `  &amp;  &lt;  &gt;  $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="V hesle CMS není povoleno zpětné lomítko (např. xxx\) a následující znaky:  &quot;  '  INS00099"/>
+</context>
+</uitext>

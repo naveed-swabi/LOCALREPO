@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="SelectLCMTitle" value="Selecionar gerenciamento de versões"/>
+<string id="SelectLCMSubtitle" value="Selecionar se deve ser instalado o sistema de controle de versão padrão ou ser utilizado um sistema existente para gerenciamento de versão."/>
+<string id="SelectLCMFooter" value="Pressione []Tab], []Seta para cima], ou []Seta para baixo] para selecionar, []Ctrl-B] para voltar, []Ctrl-X] para sair ou []Enter] para continuar."/>
+<string id="NewLCMInstall" value="Configurar e instalar a subversão"/>
+<string id="ExistingLCMInstall" value="Não configurar um sistema de controle de versão agora"/>
+<string id="Invalid_SelectLCM" value="Tipo de NewOrExistingLCM inválido ([NewOrExistingLCM]): deve ser 'novo' ou 'existente'. INS00284"/>
+</context>
+</uitext>

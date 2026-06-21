@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="InvalidProductKey" value="La clé du produit saisie n'a pas été reconnue comme valide."/>
+<string id="EnterProductKeyTitle" value="Configurer l'enregistrement du produit"/>
+<string id="EnterProductKeySubtitle" value="Saisissez la clé du produit #product.nameandversionwithoutpatch#."/>
+<string id="ProductkeyLabel" value="Clé de produit :"/>
+<string id="ProductkeyInfoGroup" value="Informations de clé de produit"/>
+<string id="Invalid_ProductKey" value="Clé de produit non valide. INS00140"/>
+</context>
+</uitext>

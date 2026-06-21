@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Välj språkpaket"/>
+<string id="SelectLanguagePackSubtitle" value="Välj alla extra språkpaket som användare ska kunna interagera med i produkten."/>
+<string id="SelectLanguagePackFooter" value="Tryck på []Tabb], []Uppåtpil] eller []Nedåtpil] för att markera, []Blanksteg] eller []X] för att växla läge, []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avsluta eller []Retur] för att fortsätta."/>
+<string id="alllang" value="Alla språk"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Egenskapen SelectedLanguagePacks '[SelectedLanguagePacks]' måste inkludera systemspråket."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Egenskapen SelectedLanguagePacks '[SelectedLanguagePacks]' måste inkludera 'en'."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Egenskapen SelectedLanguagePacks '[SelectedLanguagePacks]' måste vara en deluppsättning för tillgängliga språkpaket."/>
+</context>
+</uitext>

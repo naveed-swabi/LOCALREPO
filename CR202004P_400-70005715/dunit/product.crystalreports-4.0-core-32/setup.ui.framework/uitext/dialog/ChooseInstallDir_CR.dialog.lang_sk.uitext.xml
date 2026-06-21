@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ChooseDestination" value="Zadajte cieľový priečinok"/>
+<string id="SpecifyDestination" value="Cieľový priečinok je miesto, kde sa produkt nainštaluje. Ak chcete vybrať iné umiestnenie, kliknite na tlačidlo Prehľadávať."/>
+<string id="DestinationFolder" value="Cieľový priečinok"/>
+<string id="Browse" value="Prehľadávať"/>
+<string id="BrowseInstallDirectory" value="Vyberte umiestnenie inštalácie"/>
+<string id="PWClientFolderTitle" value="Cieľový priečinok klienta"/>
+<string id="PWServerFolderTitle" value="Cieľový priečinok servera"/>
+<string id="Invalid_InstallDirWindows" value="Neplatný inštalačný adresár. Použite platnú absolútnu cestu, ktorá obsahuje len alfanumerické znaky alebo ľubovoľné z nasledujúcich znakov: _ - \ . ( ). Adresár sa musí nachádzať na pevnej jednotke a dĺžka celej cesty nesmie presiahnuť 150 znakov. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Neplatný inštalačný adresár. Použite platnú absolútnu cestu, pre ktorú máte aj povolenia na čítanie, zápis a spúšťanie. INS00029"/>
+</context>
+</uitext>

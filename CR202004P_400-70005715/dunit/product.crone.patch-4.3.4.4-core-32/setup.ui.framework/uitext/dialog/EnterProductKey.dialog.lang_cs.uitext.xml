@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="InvalidProductKey" value="Zadali jste neplatný kód produktu."/>
+<string id="EnterProductKeyTitle" value="Konfigurovat registraci produktu"/>
+<string id="EnterProductKeySubtitle" value="Zadejte klíč produktu #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Stisknutím kláves []Ctrl-B] přejdete zpět, stiskutím kláves []Ctrl-X] ukončíte program a stisknutím klávesy []Enter] budete pokračovat."/>
+<string id="ProductkeyInfoGroup" value="Informace o produktovém klíči"/>
+<string id="ProductkeyLabel" value="Klíč produktu:"/>
+<string id="Invalid_ProductKey" value="Klíč produktu není platný. INS00140"/>
+</context>
+</uitext>

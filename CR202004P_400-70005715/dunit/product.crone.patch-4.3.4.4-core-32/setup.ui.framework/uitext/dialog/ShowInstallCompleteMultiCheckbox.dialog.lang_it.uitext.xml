@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# è stata installata correttamente."/>
+<string id="SuccessInstallDescription" value="Fare clic su Fine per uscire dall'installazione."/>
+<string id="FailureInstallTitle" value="Sono stati rilevati degli errori durante il processo di installazione di #product.fullproductnamenospace#."/>
+<string id="FailureInstallDescription" value="Fare clic su Fine per uscire dall'installazione."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# è stata disinstallata correttamente."/>
+<string id="SuccessUnInstallDescription" value="Fare clic su Fine per uscire dalla disinstallazione."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# è stata installata correttamente con messaggi di avviso."/>
+<string id="FailureUnInstallTitle" value="Sono stati rilevati degli errori durante il processo di disinstallazione di #product.fullproductnamenospace#."/>
+<string id="FailureUnInstallDescription" value="Fare clic su Fine per uscire dalla disinstallazione."/>
+<string id="FinishButton" value="Fine"/>
+<string id="ViewLogButton" value="Visualizza registro"/>
+<string id="LaunchWDeploy" value="Avvia automaticamente lo strumento WDeploy dopo l'installazione."/>
+<string id="LaunchSSW" value="Avvia la configurazione guidata del sistema"/>
+<string id="HyperlinkText" value="Fare clic qui per i dettagli"/>
+</context>
+</uitext>

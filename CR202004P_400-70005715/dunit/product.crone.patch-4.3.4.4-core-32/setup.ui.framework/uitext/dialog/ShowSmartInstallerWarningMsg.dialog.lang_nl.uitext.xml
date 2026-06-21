@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Controleer of het opgegeven pad voor installatie juist is voor de beoogde installatie om deze uit te kunnen voeren. \n\n Voor nieuwe installatie: nieuwe bestandsmap. \n Voor patchinstallatie: bestandsmap met vorige versie-installatie #productname#. \n\n\n Klik op OK om door te gaan of klik op Afsluiten om het juiste pad voor de installatie opnieuw in te voeren. \n"/>
+<string id="ExitMessage" value="Druk op Ctrl+X om af te sluiten of op Enter om door te gaan."/>
+<string id="WarnDialogTitle" value="INFORMATIEVENSTER"/>
+<string id="WarnDialogSubtitle" value="Informatie: "/>
+</context>
+</uitext>

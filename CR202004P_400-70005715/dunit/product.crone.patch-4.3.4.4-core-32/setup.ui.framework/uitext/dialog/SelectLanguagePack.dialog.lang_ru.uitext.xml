@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Выбор языковых пакетов"/>
+<string id="SelectLanguagePackSubtitle" value="Выберите все дополнительные языковые пакеты, которые будут доступны пользователям продукта."/>
+<string id="SelectLanguagePackFooter" value="Нажмите []Tab], []ВВЕРХ] или []ВНИЗ] для выделения, []ПРОБЕЛ] или []X] для переключения состояния, []Ctrl-B] для возврата назад, []Ctrl-X] для выхода или []Enter] для продолжения."/>
+<string id="alllang" value="Все языки"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="Свойство выбранные языковые пакеты &quot;[SelectedLanguagePacks]&quot; должно содержать языковой стандарт системы."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="Свойство выбранные языковые пакеты &quot;[SelectedLanguagePacks]&quot; должно содержать элемент &quot;en&quot;."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="Свойство выбранные языковые пакеты &quot;[SelectedLanguagePacks]&quot; должно содержать подмножество доступных языковых пакетов."/>
+</context>
+</uitext>

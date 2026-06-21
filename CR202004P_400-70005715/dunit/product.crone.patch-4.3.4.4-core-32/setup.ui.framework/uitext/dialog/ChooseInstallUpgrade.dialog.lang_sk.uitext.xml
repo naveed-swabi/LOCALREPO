@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="PreviousVersionDetected" value="Bola zistená predchádzajúca verzia #product.nameonly#"/>
+<string id="PreviousVersionDetectedSub" value="Vyberte, či chcete vykonať inováciu alebo súbežnú inštaláciu"/>
+<string id="UpgradeInstallBtn" value="Vykonať inštaláciu inovácie"/>
+<string id="SideBySideInstallBtn" value="Vykonať súbežnú inštaláciu"/>
+<string id="UpgradeInstallMsg" value="Nahradiť aktuálne nainštalovanú verziu #product.nameonly# touto verziou"/>
+<string id="SideBySideInstallMsg" value="Inštaluje túto verziu #product.nameonly# popri aktuálne nainštalovanej verzii"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Neplatný režim inštalácie ([InstallCompatibilityMode]): Má byť aktualizácia alebo súbežná inštalácia"/>
+</context>
+</uitext>

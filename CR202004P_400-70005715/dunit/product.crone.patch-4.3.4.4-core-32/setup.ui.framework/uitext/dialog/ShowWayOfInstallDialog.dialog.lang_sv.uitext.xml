@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Title" value="Välj installationsläge"/>
+<string id="SubTitle" value="Välj läge för installation"/>
+<string id="Standard_InstallationName" value="Standardinstallation"/>
+<string id="Standard_InstallationText" value="Installationen utförs i en enda fas"/>
+<string id="PhaseWise_InstallationName" value="Installation fas efter fas"/>
+<string id="PhaseWise_InstallationText" value="Installationen utförs i två faser – &quot;cachelagring&quot; och &quot;installation efter cachelagring&quot;. Under cachelagringen sker inget avbrott och du kan fortsätta arbeta i systemet. Vid installation efter cachelagring installeras mjukvaran i systemet. Räkna med viss stilleståndstid."/>
+<string id="CachingCompletedSubTitle" value="Cachelagring har slutförts"/>
+<string id="Resume_InstallationSubTitle" value="Fortsätt med installationen efter cachelagringen. Installationen efter cachelagringen är den faktiska installationsprocessen då systemet har stilleståndstid."/>
+<string id="ShowWayOfInstallFooter" value="Tryck på []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avsluta eller []Retur] för att installera."/>
+</context>
+</uitext>

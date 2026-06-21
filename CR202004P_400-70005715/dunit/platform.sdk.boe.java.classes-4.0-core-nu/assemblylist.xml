@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.sdk.boe.java/java">
+    <file name="biarengine.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="895541"/>
+    <file name="ceaspect.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="30140"/>
+    <file name="cecore.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="7677164"/>
+    <file name="celib.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="330924"/>
+    <file name="ceplugins_core.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="23649"/>
+    <file name="cesdk.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="722"/>
+    <file name="cesearch.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="76089"/>
+    <file name="cesession.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="50745"/>
+    <file name="corbaidl.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="1625510"/>
+    <file name="credential.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="24034"/>
+    <file name="SL_plugins.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="47801"/>
+    <file name="StaleSessionCleaner.jar" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/classes" size="10011"/>
+  </sourcedir>
+</assembly>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="SLDIntegrateTitle" value="SAP Solution Manager Integration"/>
+<string id="SLDIntegrateTitleSub" value="Používáte integraci s aplikací SAP Solution Manager?"/>
+<string id="ChooseSLDIntegrationGroupInfo" value="SAP Solution Manager Integration"/>
+<string id="IntegrateBtn" value="Integrovat s aplikací SAP Solution Manager. Budete vyzváni k zadání informací."/>
+<string id="NoIntegrateBtn" value="Neintegrovat s aplikací SAP Solution Manager."/>
+<string id="Invalid_SLDIntegrateSelection" value="Neplatný ChooseSLDIntegration ([ChooseSLDIntegration]): Má být buď  'integrate' nebo 'nointegrate'. INS00285"/>
+</context>
+</uitext>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="UnknownMaintenanceMode" value="指定されたメンテナンスモードが不明です。有効な値は、変更、修復、削除です。"/>
+<string id="ChooseMaintenanceMode" value="アプリケーションのメンテナンス"/>
+<string id="SelectMaintenanceMode" value="実行するメンテナンス操作を選択してください。トラブルシューティングについては http://support.sap.com を参照してください。"/>
+<string id="SelectMaintenanceMode_win" value="実行するメンテナンス操作を選択してください。"/>
+<string id="Modify" value="変更"/>
+<string id="ModifyDescription" value="インストールされているアプリケーションの機能を変更します。このオプションを選択すると、[機能の選択] ダイアログボックスが表示され、機能の追加/削除を行うことができます。"/>
+<string id="Repair" value="修復"/>
+<string id="RepairDescription" value="不足または破損しているファイル、レジストリキー、ショートカットを再インストールします。レジストリに保存された設定は、デフォルト値にリセットされる場合があります。"/>
+<string id="Remove" value="削除"/>
+<string id="RemoveDescription" value="このコンピュータから #product.nameonly# をアンインストールします。"/>
+<string id="Invalid_Maintenance_Mode" value="無効な MaintenanceMode タイプ ([MaintenanceMode]): '修正'、'修復'、または '削除' である必要があります。INS00283"/>
+<string id="HyperLinkMaint" value="トラブルシューティングについてはこちらを参照してください: "/>
+</context>
+</uitext>

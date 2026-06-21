@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="RebootWarning" value="Bazı dosyalar yükleme sırasında kilitlendi ve bu, yükleyicinin bu dosyaları güncellemesini önledi. Sisteminizi yeniden başlatmayı geciktirebilirsiniz ancak ürün kullanılmadan önce yeniden önyükleme yapılması kesinlikle önerilir."/>
+<string id="RebootQuestion" value="Bilgisayarınızı şimdi yeniden başlatmak istiyor musunuz?"/>
+<string id="RestartLater" value="Daha Sonra Yeniden Başlat"/>
+<string id="RestartNow" value="Şimdi Yeniden Başlat"/>
+</context>
+</uitext>

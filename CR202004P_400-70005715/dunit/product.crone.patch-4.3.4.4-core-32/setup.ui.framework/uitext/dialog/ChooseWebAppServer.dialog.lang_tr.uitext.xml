@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="ChooseWebAppServerTitle" value="Java Web Uygulama Sunucusu Seç"/>
+<string id="ChooseWebAppServerSubtitle" value="Java Web Uygulama Sunucusu çözümü seçin."/>
+<string id="ChooseWebAppServerFooter" value="Seçmek için []Sekme], []Yukarı] veya []Aşağı], geri gitmek için []Ctrl-B], çıkmak için []Ctrl-X], devam etmek için []Enter] tuşlarına basın."/>
+<string id="InstallJWAS" value="Java Web Uygulamasını ve Sunucularını Kur"/>
+<string id="InstallTomcat" value="Varsayılan Tomcat Java Web Uygulama Sunucusunu kur ve web uygulamalarını otomatik olarak dağıt"/>
+<string id="ManualDeploy" value="Kurulumdan sonra web uygulamalarını desteklenen bir Java Web Uygulama Sunucusuna manuel olarak dağıt"/>
+<string id="InstallWACS" value="Web Uygulaması Kapsayıcı Sunucusunu kur ve web uygulamalarını otomatik olarak dağıt"/>
+<string id="SharePointIntegrationTitle" value="Microsoft SharePoint yazılımı için SAP BusinessObjects Entegrasyon Seçeneği 4.0"/>
+<string id="SharePointIntegrationText" value="Microsoft SharePoint yazılımı için SAP BusinessObjects Entegrasyon Seçeneği 4.0, 64 bit Sharepoint için eklentiler klasöründe ayrı bir kurulum dosyası olarak bulunur. Eklenti klasörünün bağlantısı için Kurulum Sonrası talimatlara bakın."/>
+<string id="SharePointIntegrationCheck" value="Kurulumun sonunda eklentiler klasörünün konumunu bana göster"/>
+<string id="Invalid_UseIntegratedWebAppServer" value="Geçersiz UseIntegratedWebAppServer Değeri ([UseIntegratedWebAppServer]): 0 veya 1 olması gerekir. INS00255"/>
+</context>
+</uitext>

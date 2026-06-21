@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_patch# (#productname_language#)"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version# #productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="서식이 지정된 데이터 보고서(.RPT)를 만들고 수정합니다."/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC 데이터 소스 관리자"/>
+<string id="product.shortcutODBC.description" value="ODBC(Open Database Connectivity) 데이터 소스와 드라이버를 추가, 제거 및 구성합니다."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32비트 데이터 소스 관리자"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\보고서 업로드 마법사"/>
+<string id="product.shortcutWizard.description" value="보고서 업로드 마법사"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB 데이터(ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="표준 OLE DB 공급자를 지원합니다."/>
+<string id="feature.Comm_Rep.name" value="리포지토리의 명령"/>
+<string id="feature.Comm_Rep.description" value="리포지토리의 명령에 대한 연결을 제공합니다."/>
+<string id="feature.DiskFile.name" value="디스크 파일 대상"/>
+<string id="feature.DiskFile.description" value="파일로 내보내기를 지원합니다."/>
+<string id="feature.NTEventLog.name" value="NT 이벤트 로그"/>
+<string id="feature.NTEventLog.description" value="NT 이벤트 로그를 지원합니다."/>
+<string id="feature.MyCube.name" value="OLAP 큐브"/>
+<string id="feature.MyCube.description" value="#product.boe64_name# OLAP 큐브를 지원합니다."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Progress OpenEdge에 대한 연결을 제공합니다."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration for Oracle E-Business Suite를 지원합니다."/>
+<string id="feature.FieldDefinitions.name" value="필드 정의"/>
+<string id="feature.FieldDefinitions.description" value="텍스트 기반 스키마에서 보고서 디자인을 지원합니다."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Lotus Domino 데이터베이스를 지원합니다. 먼저 Lotus Notes 클라이언트를 설치해야 합니다."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects Integration for JD Edwards EnterpriseOne을 지원합니다."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word(97-2003) 형식"/>
+<string id="feature.WordforWindows.description" value="Microsoft Word(97-2003) 형식(*.doc)으로 내보내기를 지원합니다."/>
+<string id="feature.SFORCE.name" value="Salesforce.com 드라이버"/>
+<string id="feature.SFORCE.description" value="#productname#을(를) Salesforce.com CRM 데이터에 연결하고 고급 보고서를 빌드하는 기능을 제공합니다."/>
+<string id="feature.PDF.name" value="PDF 형식"/>
+<string id="feature.PDF.description" value="PDF 형식(*.pdf)으로 내보내기를 지원합니다."/>
+<string id="feature.Excel.name" value="Microsoft Excel(97-2003) 형식"/>
+<string id="feature.Excel.description" value="Microsoft Excel 97-2003 형식(*.xls)으로 내보내기를 지원합니다."/>
+<string id="feature.CharacterSeparated.name" value="문자로 구분된 값 형식"/>
+<string id="feature.CharacterSeparated.description" value="문자로 구분된 값 형식(*.csv)으로 내보내기를 지원합니다."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="네이티브 클라이언트를 사용하는 Sybase 데이터베이스를 지원합니다. 먼저 Sybase 클라이언트를 설치해야 합니다."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment를 지원합니다."/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Informix 데이터베이스를 지원합니다. 먼저 Informix 클라이언트를 설치해야 합니다."/>
+<string id="feature.DataAccess.name" value="데이터 액세스"/>
+<string id="feature.DataAccess.description" value="데이터 액세스 구성 요소는 #product.crw_name#을(를) 데이터베이스에 연결하는 데 사용됩니다"/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="ODBC RDO에 대한 연결을 제공합니다."/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Crystal Reports Designer 응용 프로그램을 설치합니다."/>
+<string id="feature.XML.name" value="XML 및 웹 서비스"/>
+<string id="feature.XML.description" value="XML 데이터를 지원합니다."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="ACT! 데이터베이스를 지원합니다."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="MySQL 데이터베이스에 대한 연결을 제공합니다."/>
+<string id="feature.COMData.name" value="COM 데이터 공급자"/>
+<string id="feature.COMData.description" value="COM 개체에서 제공하는 데이터를 지원합니다."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino 메일"/>
+<string id="feature.LotusNotesMail.description" value="Lotus Domino로 내보내기를 지원합니다."/>
+<string id="feature.ADO.NET.name" value="ADO.NET(XML)"/>
+<string id="feature.ADO.NET.description" value="ADO.NET에 대한 데이터 액세스"/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Exchange 폴더, 로그, 주소록 등의 Exchange Server 데이터를 지원합니다."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="IBM DB2 데이터베이스를 지원합니다. 먼저 DB2 클라이언트를 설치해야 합니다."/>
+<string id="feature.Universe.name" value="BusinessObjects 유니버스"/>
+<string id="feature.Universe.description" value="Business Objects 유니버스를 지원합니다."/>
+<string id="feature.ReportDefinition.name" value="보고서 정의 형식"/>
+<string id="feature.ReportDefinition.description" value="보고서 정의 형식으로 내보내기를 지원합니다."/>
+<string id="feature.ExchangeFolders.name" value="Microsoft Exchange 공용 폴더 대상"/>
+<string id="feature.ExchangeFolders.description" value="Exchange 폴더로 내보내기를 지원합니다."/>
+<string id="feature.ODBC.name" value="ODBC 데이터 소스 형식"/>
+<string id="feature.ODBC.description" value="설치된 모든 ODBC 형식으로 내보내기를 지원합니다."/>
+<string id="feature.DataDirectODBC.description" value="리브랜딩된 #productname# DataDirect ODBC 드라이버입니다."/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="리브랜딩된 #productname# Optional DataDirect ODBC 드라이버"/>
+<string id="feature.OptionalDataDirectODBC.name" value="DataDirect ODBC(선택 사항)"/>
+<string id="feature.XMLExport.name" value="XML 내보내기"/>
+<string id="feature.XMLExport.description" value="XML 문서로 내보내기를 지원합니다."/>
+<string id="feature.Export.name" value="내보내기 지원"/>
+<string id="feature.Export.description" value="완성된 보고서를 다양한 파일 형식으로 게시하는 데 사용됩니다."/>
+<string id="feature.PGEditor.name" value="사용자 지정 차트"/>
+<string id="feature.PGEditor.description" value="그래프의 서식을 지정하기 위한 그래프 작성 응용 프로그램입니다."/>
+<string id="feature.Btrieve.name" value="Pervasive 데이터베이스 드라이버(Btrieve)"/>
+<string id="feature.Btrieve.description" value="Btrieve 데이터 파일을 지원합니다. 먼저 Btrieve 클라이언트를 설치해야 합니다."/>
+<string id="feature.LegacyXMLExport.name" value="레거시 XML 내보내기"/>
+<string id="feature.LegacyXMLExport.description" value="XML 문서로 내보내기를 지원합니다(레거시 XML)."/>
+<string id="feature.LotusNotes.name" value="Lotus Notes 대상"/>
+<string id="feature.LotusNotes.description" value="Lotus Notes 문서로 내보내기를 지원합니다."/>
+<string id="feature.CDO.name" value="Crystal 데이터 개체"/>
+<string id="feature.CDO.description" value="메모리 배열에 저장된 데이터에 대한 보고서 작성을 지원합니다."/>
+<string id="feature.WebActivityLog.name" value="웹/IIS 작업 로그"/>
+<string id="feature.WebActivityLog.description" value="웹 서버 작업 로그를 지원합니다."/>
+<string id="feature.Text.name" value="텍스트 형식"/>
+<string id="feature.Text.description" value="텍스트 형식(*.txt)으로 내보내기를 지원합니다."/>
+<string id="feature.BDE.name" value="IDAPI 데이터베이스 DLL"/>
+<string id="feature.BDE.description" value="dBASE 및 Paradox 파일을 지원합니다. 먼저 Borland 데이터베이스 엔진을 설치해야 합니다."/>
+<string id="feature.CrystalReports.name" value="#productname# 형식"/>
+<string id="feature.CrystalReports.description" value="#productname# 형식(*.rpt)으로 내보내기를 지원합니다."/>
+<string id="feature.RichTextFormat.name" value="서식 있는 텍스트 형식"/>
+<string id="feature.RichTextFormat.description" value="서식 있는 텍스트 형식(*.rtf)으로 내보내기를 지원합니다."/>
+<string id="feature.Access.name" value="Access/Excel(DAO)"/>
+<string id="feature.Access.description" value="Microsoft Access 데이터베이스를 지원합니다."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Outlook 데이터를 지원합니다."/>
+<string id="feature.FileSystem.name" value="파일 시스템"/>
+<string id="feature.FileSystem.description" value="파일 시스템 데이터를 지원합니다."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects Integration for Peoplesoft Enterprise를 지원합니다."/>
+<string id="feature.JavaData.name" value="Java Beans 연결"/>
+<string id="feature.JavaData.description" value="Java 클래스에서 제공하는 데이터를 지원합니다."/>
+<string id="feature.NCRTeradata.name" value="NCRTeradata"/>
+<string id="feature.NCRTeradata.description" value="Teradata 데이터베이스에 대한 연결을 제공합니다."/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects Integration for SAP Solutions를 지원합니다."/>
+<string id="feature.Record.name" value="레코드 형식(값 열)"/>
+<string id="feature.Record.description" value="레코드 스타일 형식(*.rec)으로 내보내기를 지원합니다."/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="NETEZZA에 대한 연결을 제공합니다."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects Integration for Siebel을 지원합니다."/>
+<string id="feature.Mapping.name" value="지리적 매핑"/>
+<string id="feature.Mapping.description" value="데이터와 지리적 지역 간의 관계를 표시합니다."/>
+<string id="feature.Application.name" value="응용 프로그램 대상"/>
+<string id="feature.Application.description" value="응용 프로그램으로 내보내기를 지원합니다."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="dBASE 데이터베이스를 지원합니다."/>
+<string id="feature.HTML.name" value="HTML 형식"/>
+<string id="feature.HTML.description" value="HTML 3.2 및 HTML 4.0(DHTML) 형식(*.html)으로 내보내기를 지원합니다."/>
+<string id="feature.DataSet.name" value="데이터 집합 소비자"/>
+<string id="feature.DataSet.description" value="Report Application Server ISCRDataSet 개체를 지원합니다."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="HP Neoview를 지원합니다."/>
+<string id="feature.JDBC.name" value="JDBC(JNDI) 데이터 드라이버"/>
+<string id="feature.JDBC.description" value="JDBC(JNDI) 데이터를 지원합니다."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Oracle 테이블을 지원합니다. 먼저 Oracle 클라이언트를 설치해야 합니다."/>
+<string id="feature.MicrosoftMail.name" value="Microsoft Mail 대상"/>
+<string id="feature.MicrosoftMail.description" value="Microsoft Mail 대상"/>
+<string id="feature.UploadWizard.name" value="보고서 업로드 마법사"/>
+<string id="feature.UploadWizard.description" value="보고서 업로드 마법사입니다."/>
+<string id="feature.UWSC.name" value="UWSC(Universal Web Services Connector)"/>
+<string id="feature.UWSC.description" value="UWSC에 대한 연결을 제공합니다."/>
+<string id="feature.IntegrationOptions.name" value="통합 옵션"/>
+<string id="feature.IntegrationOptions.description" value="통합 옵션 구성 요소는 #product.crw_name#을(를) 다른 엔터프라이즈 시스템에 연결하는 데 사용됩니다."/>
+<string id="property.InstallType.description" value="설치 유형: 기본 설치 또는 사용자 지정 설치"/>
+<string id="prereq.AdminPrivilegePreReqText" value="관리 권한"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="관리 권한이 있는 사용자 계정을 사용하십시오. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64비트 운영 체제"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="이 제품은 64비트 운영 체제(OS)에 설치해야 합니다. 사용 중인 OS가 이 요구 사항에 맞는지 확인하십시오. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="#product.fullproductnamenospace# 설치"/>
+</context>
+</uitext>

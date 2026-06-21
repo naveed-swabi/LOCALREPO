@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="kk"/>
+<context>
+<string id="progress.UpdateRepository" value="Репозитарий жаңартылуда"/>
+<string id="progress.SetHyperLink" value="Жүйелік параметрлер реттелуде"/>
+</context>
+</uitext>

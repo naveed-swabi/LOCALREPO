@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="UnknownChooseUpgrade" value="不明な ChooseUpgrade が指定されています。有効な値は、0 または 1 です。"/>
+<string id="ChooseUpgrade" value="以前のバージョンの #productname# が検出されました"/>
+<string id="SelectUpgrade" value="アップグレードインストールをするかどうかを選択してください。"/>
+<string id="SideBySide" value="並列インストールを実行"/>
+<string id="SideBySideDescription" value="このバージョンの #productname# を現在インストールされているバージョンとは別にインストールします。"/>
+<string id="SimpleUpgrade" value="簡単なアップグレードの実行"/>
+<string id="SimpleUpgradeDescription" value="以前のバージョンの #productname# が検出されました。以前のバージョンをアンインストールしてから続行するか、このオプションを選択してアップグレードを実行してください。"/>
+<string id="Invalid_ChooseUpgrade" value="無効な ChooseUpgrade ([ChooseUpgrade]): 有効なのは、0 または 1 です。"/>
+</context>
+</uitext>

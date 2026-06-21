@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="LicenseAgreement" value="Yeni Lisans Anahtarı Gereksinimi"/>
+<string id="YouMustAgree" value="#product.fullproductname# için yeni lisans anahtarı gerekiyor."/>
+<string id="SelectLicenseChangeSubtitle" value="#product.fullproductname# için yeni lisans anahtarı gerekiyor."/>
+<string id="IAccept" value="Dokümantasyonu okudum, yeni lisans anahtarı talep etme sürecini anlıyor ve güncelleme kurulumundan sonra eski lisans anahtarının silinmesini, yeni lisans anahtarının eklenmesini kabul ediyorum."/>
+<string id="subtitle1" value="#product.fullproductname# için yeni lisans anahtarı gerekiyor."/>
+<string id="subtitle2" value="Yeni lisans anahtarını isteyin. Lisans anahtarınızı nasıl isteyeceğinizle ilgili daha fazla bilgi için şu sayfayı ziyaret edin:"/>
+<string id="subtitle3" value="#product.fullproductname# kurulumu tamamlandıktan sonra Central Management Console'a (CMC) giriş yapın; eski lisans anahtarını silin ve yeni lisans anahtarını ekleyin. Siz yeni lisans anahtarını ekleyene kadar tüm hizmetler devre dışı kalır."/>
+<string id="subtitle4" value="Yeni lisans anahtarı için buradan istekte bulunun"/>
+<string id="AcceptOrNotAccept" value="Güncelleme kurulumundan sonra eski lisans anahtarının silinmesini ve yeni lisans anahtarının eklenmesini kabul etmek için &lt;ENTER&gt; tuşuna basın."/>
+<string id="Description_Patch_License" value="#product.fullproductname# için yeni bir lisans anahtarı gerekli.\n\nYeni lisans anahtarını isteyin. Lisans anahtarınızı nasıl isteyeceğinizle ilgili daha fazla bilgi için şu sayfayı ziyaret edin: http://scn.sap.com/docs/DOC-70095. \n\n#product.fullproductname# yüklemesi tamamlandığında Central Management Console'da (CMC) oturum açın, eski lisans anahtarını silin ve yeni lisans anahtarını ekleyin. Yeni lisans anahtarı eklenene kadar tüm hizmetler devre dışıdır."/>
+</context>
+</uitext>

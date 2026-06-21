@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="UnknownInstallType" value="Ukendt installationstype angivet, gyldige værdier er: Typisk eller Brugerdefineret."/>
+<string id="ChooseInstallType" value="Vælg installationstype"/>
+<string id="SelectAnInstallType" value="Vælg installationstype."/>
+<string id="Full" value="Typisk"/>
+<string id="FullDescription" value="Installer et fuldstændigt #product.nameonly#-system"/>
+<string id="Custom" value="Brugerdefineret"/>
+<string id="CustomDescription" value="Vælg de applikationsfunktioner, du vil installere, eller tilføj eller fjern funktioner for et eksisterende #product.nameonly#-system"/>
+<string id="Invalid_InstallType" value="Ugyldig instal.type ([InstallType]): Skal være Typisk eller Brugerdefineret."/>
+</context>
+</uitext>

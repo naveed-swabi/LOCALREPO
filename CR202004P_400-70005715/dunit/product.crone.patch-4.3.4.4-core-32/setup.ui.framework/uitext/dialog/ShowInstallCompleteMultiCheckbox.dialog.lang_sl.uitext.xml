@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# je bil uspešno nameščen."/>
+<string id="SuccessInstallDescription" value="Kliknite Zaključek za izhod iz namestitve."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# je zaznal napake med procesom namestitve."/>
+<string id="FailureInstallDescription" value="Kliknite Zaključek za izhod iz namestitve."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# je bil uspešno odstranjen."/>
+<string id="SuccessUnInstallDescription" value="Kliknite Zaključek za izhod iz te odstranitve."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# je bil uspešno nameščen z opozorili."/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# je zaznal napake med procesom odstranitve."/>
+<string id="FailureUnInstallDescription" value="Kliknite Zaključek za izhod iz te odstranitve."/>
+<string id="FinishButton" value="Zaključek"/>
+<string id="ViewLogButton" value="Prikaz zapisnika"/>
+<string id="LaunchWDeploy" value="Samodejni zagon orodja WDeploy po namestitvi."/>
+<string id="LaunchSSW" value="Zagon čarovnika za namestitev sistema"/>
+<string id="HyperlinkText" value="Kliknite tukaj za detajle"/>
+</context>
+</uitext>

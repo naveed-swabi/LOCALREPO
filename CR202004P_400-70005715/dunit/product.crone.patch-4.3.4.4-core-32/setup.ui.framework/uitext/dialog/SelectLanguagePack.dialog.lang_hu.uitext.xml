@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="SelectLanguagePackTitle" value="Nyelvi csomagok kiválasztása"/>
+<string id="SelectLanguagePackSubtitle" value="Válassza ki az összes további nyelvi csomagot, amellyel a felhasználók kommunikálni fognak a termékben."/>
+<string id="SelectLanguagePackFooter" value="Nyomja meg a []Tab], []Fel] vagy []Le] billentyűt a kiemeléshez, a []Szóköz] vagy az []X] billentyűt az állapot váltásához, a []Ctrl-B] billentyűkombinációt a visszalépéshez, a []Ctrl-X] billentyűkombinációt a kilépéshez, illetve az []Enter] billentyűt a folytatáshoz."/>
+<string id="alllang" value="Minden nyelv"/>
+<string id="Invalid_SelectedLangPacksHasSystemLocale" value="A SelectedLanguagePacks &quot;[SelectedLanguagePacks]&quot; tulajdonságnak tartalmaznia kell a rendszer területi beállítását."/>
+<string id="Invalid_SelectedLangPacksHasEN" value="A SelectedLanguagePacks &quot;[SelectedLanguagePacks]&quot; tulajdonságnak tartalmaznia kell az 'en' nyelvi csomagot."/>
+<string id="Invalid_SelectedLangPacksIsSubsetOfAvaiableLangPacks" value="A SelectedLanguagePacks [SelectedLanguagePacks]&quot; tulajdonságnak az elérhető nyelvi csomagok részhalmazának kell lennie."/>
+</context>
+</uitext>

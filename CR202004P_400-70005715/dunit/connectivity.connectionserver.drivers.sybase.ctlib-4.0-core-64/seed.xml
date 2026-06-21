@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="connectivity.connectionserver.drivers.sybase.ctlib-4.0-core-64" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="332733">
+    <requiredDeploymentUnit ref="connectivity.connectionserver.helpers.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="connectivity.connectionserver.core.helpers.cpp-4.0-core"/>
+    <requiredDeploymentUnit ref="connectivity.connectionserver.drivers.sybase.ctlib.config-4.0-core"/>
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <uninstall>
+    <action id="UninstallDUBundle">
+      <arg name="guid" value="0C7D9050-393A-4E08-8529-323C0DBC5050"/>
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </uninstall>
+  <install>
+    <action id="InstallDUBundle">
+      <arg name="Props" value="INSTALLDIR=&quot;[INSTALLDIR]&quot;"/>
+    </action>
+  </install>
+</duseed>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="NewLicensePatchAgreement" value="Nytt krav til lisensnøkkel"/>
+<string id="YouMustAgree" value="En ny lisensnøkkel kreves for #product.fullproductnamenospace#update."/>
+<string id="IAccept" value="Jeg har lest dokumentasjonen og forstått prosessen med å be om ny lisensnøkkel. Jeg samtykker i å legge til den nye lisensnøkkelen etter at oppdateringen er installert."/>
+<string id="subtitle1" value="For SAP Crystal Reports kjøpt som en del av SAP Business Intelligence-plattformen, kan du gå til koblingen nedenfor og få informasjon om hvordan du ber om den nye lisensnøkkelen."/>
+<string id="subtitle2" value="For SAP Crystal Reports kjøpt separat kan du gå til SAP Store og kjøpe en oppgraderingslisensnøkkel."/>
+<string id="subtitle3" value="Du må angi den nye lisensnøkkelen i lisensbehandlingen når du starter applikasjonen etter at oppdateringen er installert."/>
+</context>
+</uitext>

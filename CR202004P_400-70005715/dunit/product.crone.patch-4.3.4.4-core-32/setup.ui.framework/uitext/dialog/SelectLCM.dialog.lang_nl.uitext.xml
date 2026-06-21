@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="SelectLCMTitle" value="Versiebeheer selecteren"/>
+<string id="SelectLCMSubtitle" value="Selecteer of u het standaard versiecontrolesysteem of een bestaand systeem voor versiebeheer wilt installeren."/>
+<string id="SelectLCMFooter" value="Druk op []Tab], []Pijl omhoog] of []Pijl omlaag] om te selecteren, []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om door te gaan."/>
+<string id="NewLCMInstall" value="SubVersion configureren en installeren"/>
+<string id="ExistingLCMInstall" value="Dit keer geen versiecontrolesysteem configureren"/>
+<string id="Invalid_SelectLCM" value="Ongeldig type NewOrExistingLCM ([NewOrExistingLCM]): moet 'new' of 'existing' zijn. INS00284"/>
+</context>
+</uitext>

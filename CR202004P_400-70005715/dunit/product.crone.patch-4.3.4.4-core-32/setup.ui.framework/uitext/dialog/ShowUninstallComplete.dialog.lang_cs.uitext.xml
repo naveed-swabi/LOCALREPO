@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="Produkt #product.fullproductnamenospace# byl úspěšně odinstalován."/>
+<string id="UninstallFailedMessage" value="Instalace produktu #product.fullproductnamenospace# se nezdařila."/>
+<string id="Description" value="Kliknutím na tlačítko Dokončit ukončíte tuto odinstalaci."/>
+<string id="FailedDescription" value="Kliknutím na tlačítko Dokončit ukončíte tuto odinstalaci."/>
+<string id="ShowUninstall_Footer" value="Stisknutím kláves []Ctrl-B] přejdete zpět, popř. stisknutím klávesy []Enter] odinstalaci ukončíte."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Stisknutím klávesy []Enter] odinstalaci ukončíte."/>
+<string id="CustomNextButton" value="Dokončit"/>
+<string id="ViewLogButton" value="Zobrazit protokol"/>
+</context>
+</uitext>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r464/src/InformationEngine/export/prm_extensions/jdbc/extensions/legacy">
+    <file name="netezza.prm" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/dataAccess/connectionServer/jdbc/extensions/legacy" size="1098"/>
+  </sourcedir>
+</assembly>

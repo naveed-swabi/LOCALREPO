@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="RebootWarning" value="Unele fişiere au fost blocate în timpul instalării şi nu au fost actualizate de programul de instalare. Puteţi întârzia repornirea sistemului, dar este foarte recomandat să reporniţi computerul înainte de a utiliza produsul."/>
+<string id="RebootQuestion" value="Doriţi să reporniţi computerul acum?"/>
+<string id="RestartLater" value="Repornire mai târziu"/>
+<string id="RestartNow" value="Repornire acum"/>
+</context>
+</uitext>

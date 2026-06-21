@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="PreviousVersionDetected" value="A(z) #product.nameonly# előző verziója észlelve"/>
+<string id="PreviousVersionDetectedSub" value="Válassza ki, hogy frissítést vagy párhuzamos telepítést szeretne végrehajtani"/>
+<string id="UpgradeInstallBtn" value="Frissítő telepítés végrehajtása"/>
+<string id="SideBySideInstallBtn" value="Párhuzamos telepítés végrehajtása"/>
+<string id="UpgradeInstallMsg" value="A(z) #product.nameonly# jelenleg telepített verziójának cseréje erre a verzióra"/>
+<string id="SideBySideInstallMsg" value="A(z) #product.nameonly# jelenlegi verziójának telepítése a jelenleg telepített verzió mellé"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Érvénytelen telepítési mód ([InstallCompatibilityMode]). A lehetséges értékek: frissítő és párhuzamos"/>
+</context>
+</uitext>

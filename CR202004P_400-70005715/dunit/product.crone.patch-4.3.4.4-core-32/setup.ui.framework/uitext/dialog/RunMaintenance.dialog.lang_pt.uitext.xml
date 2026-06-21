@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="UnknownMaintenanceMode" value="O módulo de manutenção dado não é conhecido. Valores válidos são: Modificar, Reparar ou Remover"/>
+<string id="ChooseMaintenanceMode" value="Manutenção do aplicativo"/>
+<string id="SelectMaintenanceMode" value="Selecione a operação de manutenção a ser realizada. Acesse o site http://support.sap.com para obter ajuda na solução de problemas."/>
+<string id="SelectMaintenanceMode_win" value="Selecione a operação de manutenção a ser realizada."/>
+<string id="Modify" value="Modificar"/>
+<string id="ModifyDescription" value="Altera quais recursos do aplicativo são instalados. Exibe a caixa de diálogo Selecionar recursos, que permite configurar recursos individuais."/>
+<string id="Repair" value="Reparar"/>
+<string id="RepairDescription" value="Reinstala os arquivos ausentes ou corrompidos, as chaves de registro e os atalhos. As preferências estocadas no registro devem ser reconfiguradas para os valores padrão."/>
+<string id="Remove" value="Remover"/>
+<string id="RemoveDescription" value="Desinstala o #product.nameonly# deste computador."/>
+<string id="Invalid_Maintenance_Mode" value="Tipo de MaintenanceMode inválido ([MaintenanceMode]): deve ser 'modificar', 'reparar' ou 'remover' INS00283"/>
+<string id="HyperLinkMaint" value="Para obter ajuda na solução de problemas, acesse o site:"/>
+</context>
+</uitext>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="A(z) #product.fullproductnamenospace# sikeresen eltávolítva."/>
+<string id="UninstallFailedMessage" value="A(z) #product.fullproductnamenospace# eltávolítása sikertelen."/>
+<string id="Description" value="Az eltávolítás befejezéséhez kattintson a Befejezés gombra."/>
+<string id="FailedDescription" value="Az eltávolítási folyamatból való kilépéshez kattintson a Befejezés gombra."/>
+<string id="ShowUninstall_Footer" value="A visszalépéshez nyomja meg a []Ctrl-B] billentyűkombinációt, míg a telepítésből az []Enter] billentyűvel léphet ki."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Az []Enter] billentyű megnyomásával kiléphet az eltávolításból."/>
+<string id="CustomNextButton" value="Befejezés"/>
+<string id="ViewLogButton" value="Napló megtekintése"/>
+</context>
+</uitext>

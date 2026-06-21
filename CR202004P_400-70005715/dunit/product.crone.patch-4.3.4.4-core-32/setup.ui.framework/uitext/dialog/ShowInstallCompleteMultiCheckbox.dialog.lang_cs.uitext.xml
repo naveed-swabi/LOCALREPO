@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="cs"/>
+<context>
+<string id="SuccessInstallTitle" value="Produkt #product.fullproductnamenospace# byl úspěšně nainstalován."/>
+<string id="SuccessInstallDescription" value="Kliknutím na tlačítko Dokončit ukončíte tuto instalaci."/>
+<string id="FailureInstallTitle" value="Během instalace produktu #product.fullproductnamenospace# došlo k chybám."/>
+<string id="FailureInstallDescription" value="Kliknutím na tlačítko Dokončit ukončíte tuto instalaci."/>
+<string id="SuccessUnInstallTitle" value="Produkt #product.fullproductnamenospace# byl úspěšně odinstalován."/>
+<string id="SuccessUnInstallDescription" value="Kliknutím na tlačítko Dokončit ukončíte tuto odinstalaci."/>
+<string id="InstallationWithWarnings" value="Produkt #product.fullproductnamenospace# byl úspěšně nainstalován s varováními."/>
+<string id="FailureUnInstallTitle" value="Během odinstalace produktu #product.fullproductnamenospace# došlo k chybám."/>
+<string id="FailureUnInstallDescription" value="Kliknutím na tlačítko Dokončit ukončíte tuto odinstalaci."/>
+<string id="FinishButton" value="Dokončit"/>
+<string id="ViewLogButton" value="Zobrazit protokol"/>
+<string id="LaunchWDeploy" value="Po instalaci automaticky spustit nástroj WDeploy."/>
+<string id="LaunchSSW" value="Spustit průvodce nastavením systému"/>
+<string id="HyperlinkText" value="Klepnutím sem zobrazíte detaily"/>
+</context>
+</uitext>

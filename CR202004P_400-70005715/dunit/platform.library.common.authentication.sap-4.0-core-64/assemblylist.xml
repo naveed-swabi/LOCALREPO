@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Auth Plugins\secSAPR3">
+    <registryValue name="NAME" type="string">SAP</registryValue>
+    <registryValue name="OBJTYPENAME" type="string">SAP</registryValue>
+    <registryValue name="PROGID" type="string">secSAPR3</registryValue>
+    <registryValue name="VERSION" type="string">14.0</registryValue>
+    <registryValue name="SNC_LIBPATH" type="string">[INSTALLDIR]sap\sapcrypto.dll</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/platform.library.common">
+    <file name="secSAPR3.dll" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="642048"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/iface/deployment_files/neutral">
+    <file name="secSAPR3_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="4331"/>
+  </sourcedir>
+  <sourcedir id="D:/a43r464/src/platform.library.common/export/images">
+    <file name="secSAPR3.gif" sourcename="icon.gif" installdir="[INSTALLDIR]setup/packagestemp" size="572"/>
+  </sourcedir>
+</assembly>

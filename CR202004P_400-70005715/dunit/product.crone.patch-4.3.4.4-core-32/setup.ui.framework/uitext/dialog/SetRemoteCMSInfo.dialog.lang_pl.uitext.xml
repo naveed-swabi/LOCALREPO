@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pl"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Informacje o istniejącym wdrożeniu serwera CMS"/>
+<string id="SpecifyRemoteCMS" value="Określ dane logowania administratora i serwera CMS w istniejącym wdrożeniu serwera CMS."/>
+<string id="RemoteCMSConnectionInfo" value="Informacje o połączeniu z istniejącym serwerem CMS"/>
+<string id="RemoteCMSName" value="Nazwa serwera CMS"/>
+<string id="RemoteCMSPort" value="Port serwera CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Dane logowania administratora serwera CMS"/>
+<string id="RemoteCMSUser" value="Użytkownik"/>
+<string id="RemoteCMSPassword" value="Hasło"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Nie można nawiązać połączenia ze zdalnym serwerem CMS lub poświadczenia logowania są nieprawidłowe. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Nie można nawiązać połączenia ze zdalnym serwerem CMS lub poświadczenia logowania są nieprawidłowe. INS00013\nCzy chcesz ponownie wprowadzić swoje poświadczenia?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Hasło serwera CMS nie może zawierać końcowego ukośnika odwrotnego (np. xxx\) ani żadnego z następujących znaków: &quot; ' ` &amp; &lt; &gt; $  INS00099"/>
+<string id="Invalid_SymbolInCMSPassword_Win" value="Hasło serwera CMS nie może zawierać końcowego ukośnika odwrotnego (np. xxx\) ani żadnego z następujących znaków: &quot; '  INS00099"/>
+</context>
+</uitext>

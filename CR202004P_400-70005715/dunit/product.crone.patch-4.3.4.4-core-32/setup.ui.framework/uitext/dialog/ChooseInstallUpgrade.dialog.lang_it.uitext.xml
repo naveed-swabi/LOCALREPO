@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="PreviousVersionDetected" value="Rilevata versione precedente di #product.nameonly#"/>
+<string id="PreviousVersionDetectedSub" value="Seleziona se eseguire un aggiornamento o un'installazione affiancata"/>
+<string id="UpgradeInstallBtn" value="Esegui installazione aggiornamento"/>
+<string id="SideBySideInstallBtn" value="Esegui installazione affiancata"/>
+<string id="UpgradeInstallMsg" value="Sostituisci la versione correntemente installata di #product.nameonly# con questa versione"/>
+<string id="SideBySideInstallMsg" value="Installa questa versione della #product.nameonly# insieme alla versione correntemente installata"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn#: #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn#: #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Modalità di installazione non valida: ([InstallCompatibilityMode]): deve corrispondere alla modalità di aggiornamento o affiancata."/>
+</context>
+</uitext>

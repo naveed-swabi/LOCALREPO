@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# 已成功安裝。"/>
+<string id="Description" value="按一下 [完成] 以結束此安裝。"/>
+<string id="MonitorToolCheck" value="執行軟體監控工具"/>
+<string id="CustomNextButton" value="完成"/>
+</context>
+</uitext>

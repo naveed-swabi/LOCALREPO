@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<duseed>
+  <deploymentUnit id="platform.services.cms.cpp.cms.props-4.0-core-nu" revision="14.3.4.4938" schemaVersion="4" packagedOnPlatform="win64_x64" installiverseId="aurora" sizeInCache="3357">
+    <requiredDeploymentUnit ref="setup.core-4.0-core"/>
+  </deploymentUnit>
+  <properties>
+    <propertyDeclaration id="CMSPassword" description="#property.CMSPassword.description#" hidden="true"/>
+    <propertyDeclaration id="USE_CMS_PASSWD" defaultValue="1" description="#property.USE_CMS_PASSWD.description#" label="#propertyDeclaration.USE_CMS_PASSWD.label#"/>
+    <propertyDeclaration id="NAMESERVER" description="#property.NAMESERVER.description#" label="#propertyDeclaration.NAMESERVER.label#"/>
+    <propertyDeclaration id="CMSPort" defaultValue="6400" description="#property.CMSPort.description#" label="#propertyDeclaration.CMSPort.label#"/>
+    <propertyDeclaration id="NSPORT" description="#property.NSPORT.description#" label="#propertyDeclaration.NSPORT.label#"/>
+    <propertyDeclaration id="CLUSTER_NAMESERVER" description="#property.CLUSTER_NAMESERVER.description#" label="#propertyDeclaration.CLUSTER_NAMESERVER.label#"/>
+    <propertyDeclaration id="CMSHOSTNAME" description="#property.CMSHOSTNAME.description#" label="#propertyDeclaration.CMSHOSTNAME.label#"/>
+    <propertyDeclaration id="CMSHOSTPORT" description="#property.CMSHOSTPORT.description#" label="#propertyDeclaration.CMSHOSTPORT.label#"/>
+    <propertyDeclaration id="CMSUSERNAME" defaultValue="Administrator" description="#property.CMSUSERNAME.description#" label="#propertyDeclaration.CMSUSERNAME.label#"/>
+    <propertyDeclaration id="CMSAUTHENTICATION" defaultValue="secEnterprise" description="#property.CMSAUTHENTICATION.description#" label="#propertyDeclaration.CMSAUTHENTICATION.label#"/>
+    <propertyDeclaration id="REINIT" description="#property.REINIT.description#"/>
+    <propertyDeclaration id="QUERY_CMS_PROPERTY" defaultValue="undefined" description="#property.QUERY_CMS_PROPERTY.description#"/>
+    <propertyDeclaration id="wscript" description="#property.wscript.description#"/>
+    <propertyDeclaration id="DATABASEUID" description="#property.DATABASEUID.description#" label="#propertyDeclaration.DATABASEUID.label#"/>
+    <propertyDeclaration id="UsingAuditDBType" defaultValue="sqlanywhere" description="#property.UsingAuditDBType.description#" label="#propertyDeclaration.UsingAuditDBType.label#" hidden="false"/>
+    <propertyDeclaration id="UsingCMSDBType" defaultValue="sqlanywhere" description="#property.UsingCMSDBType.description#" label="#propertyDeclaration.UsingCMSDBType.label#" hidden="false"/>
+    <propertyDeclaration id="FIPSModeValue" description="#property.FIPSModeValue.description#" label="#propertyDeclaration.FIPSModeValue.label#"/>
+  </properties>
+  <uninstall/>
+  <install>
+    <actionSequence ref="ConfigureServices">
+      <actionSequenceDeclaration id="InitializeCMSRepository">
+        <actionSequenceDeclaration id="StartCMS"/>
+        <actionSequenceDeclaration id="InitializeServerIntelligenceModel"/>
+        <actionSequenceDeclaration id="StopCMS"/>
+      </actionSequenceDeclaration>
+      <actionSequenceDeclaration id="UploadDeploymentFiles"/>
+      <actionSequenceDeclaration id="UpdateServerIntelligenceModel"/>
+    </actionSequence>
+  </install>
+</duseed>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="Message" value="Willkommen beim Installationsassistenten für #product.fullproductnamenospace#"/>
+<string id="ShowWelcomeScreenTitle" value="Willkommensbildschirm"/>
+<string id="ShowWelcomeScreenSubtitle" value="Willkommen beim Installationsassistenten für #product.fullproductnamenospace#"/>
+<string id="Description" value="Es wird dringend empfohlen, dass Sie alle Windows-Programme beenden, bevor Sie dieses Setup-Programm ausführen.\n\nKlicken Sie auf &quot;Abbrechen&quot;, um das Setup zu beenden, und schließen Sie alle laufenden Programme. Klicken Sie auf &quot;Weiter&quot;, um mit dem Setup fortzufahren.\n\nWARNUNG: Dieses Programm ist durch das Urheberrecht und Bestimmungen internationaler Verträge geschützt.\n\n\nUnbefugte Vervielfältigung oder unbefugter Vertrieb dieses Programms oder eines Teils davon sind strafbar. Dies wird sowohl straf- als auch zivilrechtlich verfolgt und kann schwere Strafen und Schadensersatzforderungen zur Folge haben."/>
+<string id="Description_unix" value="WARNUNG: Dieses Programm ist durch das Urheberrecht und Bestimmungen internationaler Verträge geschützt.\n\n\nUnbefugte Vervielfältigung oder unbefugter Vertrieb dieses Programms oder eines Teils davon sind strafbar. Dies wird sowohl straf- als auch zivilrechtlich verfolgt und kann schwere Strafen und Schadensersatzforderungen zur Folge haben.\n\n\nHINWEIS: Weitere Informationen zu unterstützten Plattformen finden Sie unter http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Drücken Sie []Strg-B], um zurückzugehen, []Strg-X], um zu beenden oder die []Eingabetaste], um fortzufahren."/>
+<string id="PamHyperLinkWelcome" value="Weitere Informationen zu unterstützten Plattformen finden Sie unter"/>
+</context>
+</uitext>

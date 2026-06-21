@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <sourcedir id="D:/a43r432/src/platform.sdk.boe.com/export/iface/SL_plugins/XMLPinFiles">
+    <file name="BusinessObjects_Overload_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="2295"/>
+    <file name="BusinessObjects_Universe_pin.xml" installdir="[INSTALLDIR]setup/packagestemp" size="12027"/>
+  </sourcedir>
+</assembly>

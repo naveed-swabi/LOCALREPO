@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="Message" value="#product.fullproductnamenospace# er installert."/>
+<string id="InstallFailedMessage" value="Det oppstod feil i #product.fullproductnamenospace# under installeringen."/>
+<string id="UninstallFailedMessage" value="Det oppstod feil i #product.fullproductnamenospace# under avinstalleringen."/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# er avinstallert."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# er installert med advarsler."/>
+<string id="Description" value="Klikk på Fullfør for å avslutte denne installasjonen."/>
+<string id="FailedDescription" value="Klikk på Fullfør for å avslutte denne installasjonen."/>
+<string id="Description_unix" value="Trykk på []Ctrl-B] for å gå tilbake, eller trykk på []Enter] for å avslutte installeringen."/>
+<string id="Customized_Description_unix" value="Trykk på []Enter] hvis du vil avslutte installasjonen."/>
+<string id="FailedDescription_unix" value="Trykk på []D] hvis du vil ha mer informasjon, eller trykk på []Enter] for å avslutte installeringen."/>
+<string id="CustomNextButton" value="Fullfør"/>
+<string id="ViewLogButton" value="Vis logg"/>
+<string id="HyperlinkText" value="Klikk her hvis du vil ha detaljer"/>
+</context>
+</uitext>

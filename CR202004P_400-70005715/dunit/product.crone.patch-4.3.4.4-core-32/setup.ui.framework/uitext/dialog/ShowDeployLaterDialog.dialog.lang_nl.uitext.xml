@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="Title" value="Implementatie van webapplicatie"/>
+<string id="Subtitle" value="Webinhoud later implementeren"/>
+<string id="DeploylaterDescription" value="Geen standaard Tomcat Java-webtoepassingsserver gevonden. Wilt u de webtoepassingen nu of op een later moment implementeren?"/>
+<string id="TxtDeployLater" value="Webapplicatie later implementeren."/>
+<string id="TxtDeployNow" value="Webapplicatie nu implementeren."/>
+<string id="Footer" value="Druk op []Tab], []Pijl omhoog] of []Pijl omlaag] om te selecteren, []Ctrl-B] om terug te gaan, []Ctrl-X] om af te sluiten of []Enter] om door te gaan."/>
+</context>
+</uitext>

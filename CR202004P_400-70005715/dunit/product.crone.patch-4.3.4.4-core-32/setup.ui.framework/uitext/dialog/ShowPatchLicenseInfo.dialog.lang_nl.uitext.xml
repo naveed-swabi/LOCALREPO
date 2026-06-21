@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="LicenseAgreement" value="Nieuwe licentiesleutel vereist"/>
+<string id="YouMustAgree" value="Voor #product.fullproductname# is een nieuwe licentiesleutel vereist."/>
+<string id="SelectLicenseChangeSubtitle" value="Voor #product.fullproductname# is een nieuwe licentiesleutel vereist."/>
+<string id="IAccept" value="Ik heb de documentatie gelezen en ik begrijp het proces voor het aanvragen van de nieuwe licentiesleutel. Ik ga akkoord met het verwijderen van de oude licentiesleutel en het toevoegen van de nieuwe licentiesleutel na het installeren van de update."/>
+<string id="subtitle1" value="Voor #product.fullproductname# is een nieuwe licentiesleutel vereist."/>
+<string id="subtitle2" value="Vraag de nieuwe licentiesleutel aan. Ga voor meer informatie over het aanvragen van de licentiesleutel naar"/>
+<string id="subtitle3" value="Meld u aan bij Central Management Console (CMC) als de installatie van #product.fullproductname# is voltooid. Verwijder de oude licentiesleutel en voeg de nieuwe licentiesleutel toe. Alle services zijn uitgeschakeld totdat u de nieuwe licentiesleutel toevoegt."/>
+<string id="subtitle4" value="Vraag de nieuwe licentiesleutel hier aan"/>
+<string id="AcceptOrNotAccept" value="Druk op &lt;ENTER&gt; om akkoord te gaan met het verwijderen van de oude licentiesleutel en het toevoegen van de nieuwe licentiesleutel na het installeren van de update."/>
+<string id="Description_Patch_License" value="Voor #product.fullproductname# is een nieuwe licentiesleutel nodig.\n\nVraag een nieuwe licentiesleutel aan. Ga voor meer informatie over het aanvragen van de licentiesleutel naar http://scn.sap.com/docs/DOC-70095. \n\nMeld u aan bij de Central Management Console (CMC) nadat #product.fullproductname# is geïnstalleerd; verwijder de oude licentiesleutel en voeg de nieuwe licentiesleutel toe. Alle services zijn uitgeschakeld totdat u de nieuwe licentiesleutel toevoegt."/>
+</context>
+</uitext>

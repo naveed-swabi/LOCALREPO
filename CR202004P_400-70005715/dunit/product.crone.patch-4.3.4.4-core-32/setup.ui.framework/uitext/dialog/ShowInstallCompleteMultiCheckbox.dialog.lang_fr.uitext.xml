@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# a été installé."/>
+<string id="SuccessInstallDescription" value="Cliquez sur Terminer pour quitter le programme d'installation."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# a fait l'objet d'erreurs lors du processus d'installation."/>
+<string id="FailureInstallDescription" value="Cliquez sur Terminer pour quitter le programme d'installation."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# a été désinstallé."/>
+<string id="SuccessUnInstallDescription" value="Cliquez sur Terminer pour quitter la désinstallation."/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# a été correctement installé avec des avertissements."/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# a fait l'objet d'erreurs lors du processus de désinstallation."/>
+<string id="FailureUnInstallDescription" value="Cliquez sur Terminer pour quitter la désinstallation."/>
+<string id="FinishButton" value="Terminer"/>
+<string id="ViewLogButton" value="Afficher le journal"/>
+<string id="LaunchWDeploy" value="Lancer automatiquement l'outil WDeploy après l'installation."/>
+<string id="LaunchSSW" value="Lancer l'Assistant de configuration du système"/>
+<string id="HyperlinkText" value="Cliquez ici pour obtenir plus de détails."/>
+</context>
+</uitext>

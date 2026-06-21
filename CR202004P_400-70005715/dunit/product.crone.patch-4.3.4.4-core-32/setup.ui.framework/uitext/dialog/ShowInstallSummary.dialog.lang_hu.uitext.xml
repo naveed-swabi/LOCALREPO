@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Telepítés megkezdése"/>
+<string id="ShowInstallSummarySubtitle" value="A telepítő készen áll a(z) #product.fullproductnamenospace# telepítésére. A telepítési információk módosításához kattintson a Vissza gombra.\n\nA telepítés megkezdéséhez kattintson a Tovább gombra."/>
+<string id="ShowInstallSummaryUnixDescription" value="Készen áll arra, hogy a(z) #product.fullproductnamenospace# telepítővarázslója megkezdje a telepítést?"/>
+<string id="ShowInstallSummaryFooter" value="A visszalépéshez nyomja meg a []Ctrl-B], a kilépéshez a []Ctrl-X] billentyűkombinációt, míg a folytatáshoz az []Enter] billentyűt."/>
+<string id="DiskCost" value="Helyigény"/>
+<string id="Drive Select" value="Kiválasztás:"/>
+<string id="Disk Costing" value="Helyigény kiszámítása"/>
+<string id="Volume" value="Kötet"/>
+<string id="Disk Size" value="Lemez mérete"/>
+<string id="Available" value="Rendelkezésre álló"/>
+<string id="Required" value="Szükséges"/>
+<string id="Difference" value="Különbség"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Újra"/>
+<string id="Cancel" value="Mégse"/>
+<string id="ShowCacheSummaryTitle" value="Lépésalapú telepítés"/>
+<string id="ShowCacheSummarySubtitle" value="Gyorsítótárazás indítása"/>
+<string id="ShowCacheSummaryDescription" value="Gyorsítótárazáskor a program a szoftvert a telepítési könyvtárba másolja. A gyorsítótárazás közben a rendszer nem áll le, és tetszés szerint folytathatja a munkát."/>
+<string id="Invalid_DiskSpace" value="Nincs elég hely a szoftver telepítéséhez. Szabadítson fel lemezterületet, vagy válasszon másik telepítési helyet. Rendelkezésre álló terület: [AvailableSpace] MB. Szükséges terület: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="A gyorsítótárazást követő telepítés közben a szoftver leállást követel a rendszertől."/>
+<string id="ShowResumetitle" value="Lépésalapú telepítés"/>
+<string id="ShowResumeSubtitle" value="Telepítés folytatása"/>
+<string id="ShowResumeFooter" value="A visszalépéshez nyomja meg a []Ctrl-B], a kilépéshez a []Ctrl-X] billentyűkombinációt, míg a folytatáshoz az []Enter] billentyűt."/>
+<string id="MessageCache" value="A gyorsítótárazási lépés megkezdéséhez kattintson a Tovább gombra."/>
+<string id="MessageResume" value="A telepítés megkezdéséhez kattintson a Tovább gombra."/>
+</context>
+</uitext>

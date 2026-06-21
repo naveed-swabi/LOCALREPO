@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="pt"/>
+<context>
+<string id="UnknownMaintenanceMode" value="O módulo de manutenção dado não é conhecido. Valores válidos são: Modificar, Reparar ou Remover"/>
+<string id="ChooseMaintenanceMode" value="Manutenção do aplicativo"/>
+<string id="SelectMaintenanceMode" value="Esta versão ou uma versão mais recente do #product.nameonly# já está instalada nesta máquina. Clique em Avançar para continuar reparando a versão existente do produto ou clique em Cancelar para sair."/>
+<string id="Modify" value="Modificar"/>
+<string id="ModifyDescription" value="Altera quais recursos do aplicativo são instalados. Exibe a caixa de diálogo Selecionar recursos, que permite configurar recursos individuais."/>
+<string id="Repair" value="Reparar"/>
+<string id="RepairDescription" value="Reinstalar os arquivos ausentes ou corrompidos, as chaves de registro e os atalhos. As preferências estocadas no registro devem ser reconfiguradas para os valores padrão."/>
+<string id="Remove" value="Remover"/>
+<string id="RemoveDescription" value="Desinstalar o #product.nameonly# deste computador."/>
+<string id="Invalid_Maintenance_Mode" value="Tipo de MaintenanceMode inválido ([MaintenanceMode]): deve ser 'modificar', 'reparar' ou 'remover' INS00283"/>
+</context>
+</uitext>

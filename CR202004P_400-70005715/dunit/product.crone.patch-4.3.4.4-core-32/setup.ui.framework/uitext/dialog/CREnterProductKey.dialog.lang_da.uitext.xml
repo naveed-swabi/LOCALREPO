@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="InvalidProductKey" value="Den angivne produktnøgle blev ikke genkendt som gyldig."/>
+<string id="EnterProductKeyTitle" value="Konfigurer produktregistrering"/>
+<string id="EnterProductKeySubtitle" value="Indtast produktnøglen #product.nameandversionwithoutpatch#."/>
+<string id="ProductkeyLabel" value="Produktnøgle:"/>
+<string id="ProductkeyInfoGroup" value="Oplysninger om produktnøgle"/>
+<string id="Invalid_ProductKey" value="Produktnøglen er ugyldig. INS00140"/>
+</context>
+</uitext>

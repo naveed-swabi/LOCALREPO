@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# sikeresen telepítve."/>
+<string id="SuccessInstallDescription" value="A telepítésből való kilépéshez kattintson a Befejezés gombra."/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# hibákat észlelt a telepítési folyamat során."/>
+<string id="FailureInstallDescription" value="A telepítésből való kilépéshez kattintson a Befejezés gombra."/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# sikeresen eltávolítva."/>
+<string id="SuccessUnInstallDescription" value="A telepítésből való kilépéshez kattintson a Befejezés gombra."/>
+<string id="InstallationWithWarnings" value="A(z) #product.fullproductnamenospace# sikeresen telepítve, figyelmeztetésekkel."/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# hibákat észlelt az eltávolítási folyamat során."/>
+<string id="FailureUnInstallDescription" value="Az eltávolítási folyamatból való kilépéshez kattintson a Befejezés gombra."/>
+<string id="FinishButton" value="Befejezés"/>
+<string id="ViewLogButton" value="Napló megtekintése"/>
+<string id="LaunchWDeploy" value="A wDeploy eszköz automatikus indítása a telepítés után."/>
+<string id="LaunchSSW" value="A rendszerbeállító varázsló indítása"/>
+<string id="HyperlinkText" value="Kattintson ide a részletekért"/>
+</context>
+</uitext>

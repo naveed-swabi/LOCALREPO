@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="progress.UpdateRepository" value="Aktualizuje sa odkladací priestor"/>
+<string id="progress.SetHyperLink" value="Konfigurujú sa systémové nastavenia"/>
+</context>
+</uitext>

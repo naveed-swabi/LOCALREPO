@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="SuccessInstallTitle" value="#product.fullproductnamenospace# ได้รับการติดตั้งเรียบร้อยแล้ว"/>
+<string id="SuccessInstallDescription" value="คลิก เสร็จสิ้น เพื่อออกจากการติดตั้ง"/>
+<string id="FailureInstallTitle" value="#product.fullproductnamenospace# พบข้อผิดพลาดในระหว่างกระบวนการติดตั้ง"/>
+<string id="FailureInstallDescription" value="คลิก เสร็จสิ้น เพื่อออกจากการติดตั้งนี้"/>
+<string id="SuccessUnInstallTitle" value="#product.fullproductnamenospace# ได้รับการถอนการติดตั้งเรียบร้อยแล้ว"/>
+<string id="SuccessUnInstallDescription" value="คลิก เสร็จสิ้น เพื่อออกจากการถอนการติดตั้งนี้"/>
+<string id="InstallationWithWarnings" value="#product.fullproductnamenospace# ได้รับการติดตั้งเรียบร้อยแล้วโดยมีคำเตือน"/>
+<string id="FailureUnInstallTitle" value="#product.fullproductnamenospace# พบข้อผิดพลาดในระหว่างกระบวนการถอนการติดตั้ง"/>
+<string id="FailureUnInstallDescription" value="คลิก เสร็จสิ้น เพื่อออกจากการถอนการติดตั้งนี้"/>
+<string id="FinishButton" value="เสร็จสิ้น"/>
+<string id="ViewLogButton" value="ดูไฟล์บันทึก"/>
+<string id="LaunchWDeploy" value="เริ่มใช้งานเครื่องมือ WDeploy โดยอัตโนมัติหลังจากการติดตั้ง"/>
+<string id="LaunchSSW" value="เริ่มใช้งานวิซาร์ดการติดตั้งระบบ"/>
+<string id="HyperlinkText" value="คลิกที่นี่เพื่อดูรายละเอียด"/>
+</context>
+</uitext>

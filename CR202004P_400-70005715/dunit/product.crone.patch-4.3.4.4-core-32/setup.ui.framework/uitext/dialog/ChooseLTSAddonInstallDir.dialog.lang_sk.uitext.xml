@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Konfigurovať cieľový priečinok"/>
+<string id="ChooseInstallDirSubtitle" value="Zadajte celú cestu k cieľovému umiestneniu, do ktorého sa produkt nainštaluje."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Zadajte celú cestu k cieľovému umiestneniu, do ktorého sa produkt nainštaluje."/>
+<string id="DestinationFolderGroupBox" value="Informácie o cieľovom priečinku"/>
+<string id="DestinationFolder" value="Cieľový priečinok:"/>
+<string id="Browse" value="Prehľadávať"/>
+<string id="BrowseInstallDirectory" value="Vybrať umiestnenie inštalácie"/>
+<string id="DirGenericError" value="Cieľový priečinok je neplatný. Vyberte iný cieľový priečinok. INS00029"/>
+<string id="DirNetworkError" value="Cieľový priečinok nemôže byť sieťovým umiestnením. Vyberte iné umiestnenie."/>
+<string id="DirEmptyError" value=" Je nutné vybrať cieľový priečinok. INS00029"/>
+<string id="DirAbsolutePathError" value="Cieľový priečinok musí predstavovať úplnú cestu. INS00029"/>
+<string id="DirInvalidCharWinError" value="V názve cieľového priečinka sa môžu používať iba čísla, písmená alebo nasledujúce znaky: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Cesta k cieľovému priečinku je príliš dlhá. Použite cestu pozostávajúcu z menej než 150 znakov. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Cieľový priečinok obsahuje nekompatibilný produkt. Vyberte iné umiestnenie. INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Neplatný inštalačný adresár. Použite platnú absolútnu cestu, ktorá obsahuje iba alfanumerické znaky alebo niektoré z nasledujúcich znakov: _ - \ . ( ). Adresár sa musí nachádzať na pevnej jednotke a celá cesta nemôže mať viac ako 150 znakov. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Neplatný inštalačný adresár. Použite platnú absolútnu cestu, pre ktorú máte aj povolenia na čítanie, zápis a spúšťanie. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Inštalačný adresár nemôže obsahovať žiadne medzery."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="V inštalačnom adresári nie sú povolené nasledujúce znaky:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Ak chcete automaticky vyplniť prvky adresára, stlačte kláves []Tab]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete pokračovať, stlačte kláves []Enter]."/>
+</context>
+</uitext>

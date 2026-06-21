@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="NotAcceptedEULA" value="คุณต้องยอมรับ EULA กำลังออกจากการติดตั้ง"/>
+<string id="LicenseAgreement" value="ข้อตกลงเกี่ยวกับการให้สิทธิ์ใช้งาน"/>
+<string id="YouMustAgree" value="คุณต้องยอมรับเงื่อนไขการให้สิทธิ์ใช้งานเพื่อดำเนินการต่อ"/>
+<string id="IAccept" value="ฉันยอมรับข้อตกลงเกี่ยวกับการให้สิทธิ์ใช้งาน"/>
+<string id="IDoNotAccept" value="ฉันไม่ยอมรับข้อตกลงเกี่ยวกับการให้สิทธิ์ใช้งาน"/>
+<string id="Invalid_IsAcceptEULA" value="IsAcceptEULA ([IsAcceptEULA]) ไม่ถูกต้อง: ควรเป็น 1 เท่านั้น"/>
+<string id="AcceptOrNotAccept" value="กด &lt;ENTER&gt; เพื่อยอมรับ ถ้าไม่ยอมรับ ให้กด &lt;CTRL-X&gt;"/>
+</context>
+</uitext>

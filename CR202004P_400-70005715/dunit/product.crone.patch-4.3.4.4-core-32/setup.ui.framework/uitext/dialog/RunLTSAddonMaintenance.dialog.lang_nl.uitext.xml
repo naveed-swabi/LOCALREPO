@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nl"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Onbekende onderhoudsmodus opgegeven, geldige waarden zijn: Bewerken, Herstellen of Verwijderen"/>
+<string id="ChooseMaintenanceMode" value="Toepassingsonderhoud"/>
+<string id="SelectMaintenanceMode" value="Selecteer de uit te voeren onderhoudsbewerking"/>
+<string id="Modify" value="Wijzigen"/>
+<string id="ModifyDescription" value="Wijzigen welke functies van de toepassing worden geïnstalleerd. Hiermee wordt het dialoogvenster Functies selecteren weergegeven, waarin u afzonderlijke functies kunt configureren."/>
+<string id="Repair" value="Herstellen"/>
+<string id="RepairDescription" value="Ontbrekende of beschadigde bestanden opnieuw installeren. In het register opgeslagen voorkeuren worden mogelijk teruggezet naar standaardwaarden."/>
+<string id="Remove" value="Verwijderen"/>
+<string id="RemoveDescription" value="#product.nameonly# van deze computer verwijderen."/>
+<string id="Invalid_Maintenance_Mode" value="Ongeldig type MaintenanceMode ([MaintenanceMode]): moet 'wijzigen', 'herstellen' of 'verwijderen' zijn. INS00283"/>
+</context>
+</uitext>

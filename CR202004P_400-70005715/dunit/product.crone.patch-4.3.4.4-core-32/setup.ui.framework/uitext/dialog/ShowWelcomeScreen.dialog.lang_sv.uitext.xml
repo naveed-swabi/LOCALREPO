@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Message" value="Välkommen till installationsguiden för #product.fullproductnamenospace#."/>
+<string id="ShowWelcomeScreenTitle" value="Välkomstskärm"/>
+<string id="ShowWelcomeScreenSubtitle" value="Välkommen till installationsguiden för #product.fullproductnamenospace#."/>
+<string id="Description" value="Vi rekommenderar dig att stänga alla Windows-program innan du kör installationsprogrammet.\n\nKlicka på Avbryt för att avsluta installationen och stänga alla öppna program. Klicka på Nästa för att fortsätta installationsprogrammet.\n\nVARNING: Programmet är skyddat av svensk och internationell upphovsrättslagstiftning.\n\n\nOtillåten kopiering eller distribution av programmet eller en del av det kommer att beivras och förutom skadeståndsskyldighet medföra böter och fängelse i upp till två år."/>
+<string id="Description_unix" value="VARNING: Programmet är skyddat av svensk och internationell lagstiftning.\n\n\nOtillåten kopiering eller distribution av programmet eller en del av det kommer att beivras, och kan förutom skadeståndsskyldighet medföra böter och fängelse i upp till två år.\n\n\nObs: Mer information om hanterade plattformar finns på http://support.sap.com/pam."/>
+<string id="ShowWelcomeScreenFooter" value="Tryck på []Ctrl-B] för att gå bakåt, []Ctrl-X] för att avsluta eller []Retur] för att fortsätta."/>
+<string id="PamHyperLinkWelcome" value="Mer information om hanterade plattformar finns på"/>
+</context>
+</uitext>

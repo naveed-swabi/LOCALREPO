@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="Title" value="Fasevis installation"/>
+<string id="SubTitle" value="Cachelagring fuldført"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="Tryk på [Enter] for at afslutte den fasevise installation."/>
+<string id="Description" value="Udfør installationsfilen igen for at genoptage installationen efter cachelagring. Der er systemnedetid under installation efter cachelagring. Du kan udføre denne installationsfase, når vedligeholdelsestiden er tilgængelig."/>
+<string id="FinishMessage" value="Klik på Udfør for afslutte den fasevise installation."/>
+<string id="Finish" value="Udfør"/>
+</context>
+</uitext>

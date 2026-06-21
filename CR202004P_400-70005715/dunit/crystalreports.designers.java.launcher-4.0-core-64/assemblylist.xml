@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_CLASSES_ROOT\.rpt">
+    <registryValue name="" type="string">CrystalReportsLauncher</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\.rptr">
+    <registryValue name="" type="string">CrystalReportsLauncher</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CrystalReportsLauncher">
+    <registryValue name="" type="string">Crystal Reports</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CrystalReportsLauncher\DefaultIcon">
+    <registryValue name="" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\CRStartup.exe,0</registryValue>
+  </registryKey>
+  <registryKey name="HKEY_CLASSES_ROOT\CrystalReportsLauncher\shell\Open\command">
+    <registryValue name="" type="string">"[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\win64_x64\CRStartup.exe" "%1"</registryValue>
+  </registryKey>
+  <sourcedir id="D:/a43r464/win64_x64/release/bin/crystalreports.designers.java">
+    <file name="CRStartup.exe" installdir="[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0/win64_x64" size="624640"/>
+  </sourcedir>
+</assembly>

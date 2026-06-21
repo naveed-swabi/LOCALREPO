@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<assembly>
+  <registryKey name="HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Suite XI 4.0\Enterprise\Help">
+    <registryValue name="en" type="string">[INSTALLDIR]SAP BusinessObjects Enterprise XI 4.0\Help\en</registryValue>
+    <registryValue name="Format" type="dword">2</registryValue>
+  </registryKey>
+</assembly>

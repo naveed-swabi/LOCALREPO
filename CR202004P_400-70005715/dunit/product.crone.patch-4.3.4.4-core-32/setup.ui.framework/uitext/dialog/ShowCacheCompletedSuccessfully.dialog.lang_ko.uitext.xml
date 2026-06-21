@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Title" value="단계별 설치"/>
+<string id="SubTitle" value="캐싱 완료"/>
+<string id="ShowCacheCompletedSuccessfullyFooter" value="단계별 설치를 끝내려면 [Enter]를 누르십시오."/>
+<string id="Description" value="캐싱 후 설치를 재개하려면 설치 파일을 다시 실행합니다. 캐싱 후 설치 과정에서 시스템 다운타임이 있습니다. 유지 관리 기간에 해당될 경우 경우 이 설치 단계를 수행할 수 있습니다."/>
+<string id="FinishMessage" value="단계별 설치를 끝내려면 마침을 클릭하십시오."/>
+<string id="Finish" value="마침"/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="Message" value="Eltávolítás megerősítése"/>
+<string id="Description" value="Ezzel eltávolítja a(z) #product.fullproductnamenospace# programot a számítógépről."/>
+<string id="ConfirmUninstall" value="Biztosan eltávolítja a programot?"/>
+<string id="ConfirmUninstall_Footer" value="A visszalépéshez nyomja meg a []Ctrl-B], a kilépéshez a []Ctrl-X] billentyűkombinációt, míg a folytatáshoz az []Enter] billentyűt."/>
+</context>
+</uitext>

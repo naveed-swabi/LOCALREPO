@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="es"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Información de despliegue de CMS existente"/>
+<string id="SpecifyRemoteCMS" value="Especifique la información de inicio de sesión del CMS y del administrador existente para iniciar el proceso."/>
+<string id="RemoteCMSConnectionInfo" value="Información de conexión del CMS existente"/>
+<string id="RemoteCMSName" value="Nombre del CMS"/>
+<string id="RemoteCMSPort" value="Puerto del CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="Información de inicio de sesión de administrador de CMS"/>
+<string id="RemoteCMSUser" value="Usuario"/>
+<string id="RemoteCMSPassword" value="Contraseña"/>
+<string id="ErrRemoteCMSConnectionInfo" value="No se puede alcanzar el CMS remoto o las credenciales de inicio de sesión no son correctas. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="No se puede alcanzar el CMS remoto o las credenciales de inicio de sesión no son correctas. INS00013\n¿Desea introducir las credenciales de nuevo?"/>
+<string id="Invalid_SymbolInCMSPassword" value="No se permiten los siguientes caracteres en la contraseña del CMS:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

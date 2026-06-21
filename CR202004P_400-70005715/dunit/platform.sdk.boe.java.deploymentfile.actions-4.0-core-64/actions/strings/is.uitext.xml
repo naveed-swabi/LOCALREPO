@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="is"/>
+<context>
+<string id="progress.UpdateRepository" value="iAggiornamento del repository in corsoi"/>
+<string id="progress.SetHyperLink" value="iConfigurazione delle impostazioni di sistema in corsoi"/>
+</context>
+</uitext>

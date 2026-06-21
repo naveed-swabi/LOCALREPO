@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Message1" value="제품 업데이트"/>
+<string id="Message2" value="이 제품의 이전 버전이 검색되었습니다. 설치를 계속하면 제품이 업데이트됩니다. 계속하려면 다음을 클릭하고, 설치를 종료하려면 취소를 클릭합니다."/>
+<string id="MessageUnix" value="이 제품의 이전 버전이 검색되었습니다. 설치를 계속하면 제품이 업데이트됩니다. 계속하려면 [Enter]를 클릭하고, 설치를 종료하려면 [Ctrl-X]를 클릭합니다."/>
+</context>
+</uitext>

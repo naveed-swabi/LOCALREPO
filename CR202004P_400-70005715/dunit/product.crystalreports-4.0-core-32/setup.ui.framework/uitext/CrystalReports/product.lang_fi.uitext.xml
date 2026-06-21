@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fi"/>
+<context>
+<string id="productname" value="#product.cr_name#"/>
+<string id="productname_version" value="#product_cr_version#"/>
+<string id="productname_preversion" value="#product_cr_preversion#"/>
+<string id="productname_language" value="#product_language#"/>
+<string id="productname_patch" value="#product_patch#"/>
+<string id="productname_patch_prespace" value="#product_patch_prespace#"/>
+<string id="product.fullproductname" value="#productname# #productname_version# #productname_language# #productname_patch#"/>
+<string id="product.fullproductnamenospace" value="#productname# #productname_version##productname_language##productname_patch_prespace#"/>
+<string id="product.nameonly" value="#productname#"/>
+<string id="product.nameandversiononly" value="#productname# #productname_version##productname_patch#"/>
+<string id="product.nameandversionwithoutpatch" value="#productname# #productname_version#"/>
+<string id="product.crshortcut" value="#productname# #productname_preversion#"/>
+<string id="product.shortcutfolder" value="#product.crshortcut#"/>
+<string id="product.shortcutCRW.description" value="Luo ja muokkaa muotoiltuja tietoraportteja (.RPT)"/>
+<string id="product.shortcutODBC" value="#product.shortcutfolder#\ODBC-tietolähteen järjestelmänvalvoja"/>
+<string id="product.shortcutODBC.description" value="Lisää, poistaa ja määrittää Open Database Connectivity (ODBC) -tietolähteitä ja -ohjaimia."/>
+<string id="product.shortcutODBC32" value="#product.shortcutfolder#\32-bittisen tietolähteen järjestelmänvalvoja"/>
+<string id="product.shortcutWizard" value="#product.shortcutfolder#\Ohjattu raportin lataus"/>
+<string id="product.shortcutWizard.description" value="Ohjattu raportin lataus"/>
+<string id="feature.OLE_DB_Data.name" value="OLE DB -tiedot (ADO)"/>
+<string id="feature.OLE_DB_Data.description" value="Tuki tavallisille OLE DB -palveluntarjoajille."/>
+<string id="feature.Comm_Rep.name" value="Tietovaraston komento"/>
+<string id="feature.Comm_Rep.description" value="Tarjoaa liitettävyyden tietovaraston komentoon."/>
+<string id="feature.DiskFile.name" value="Levytiedostokohde"/>
+<string id="feature.DiskFile.description" value="Tuki tiedostoon viennille."/>
+<string id="feature.NTEventLog.name" value="NT-tapahtumaloki"/>
+<string id="feature.NTEventLog.description" value="Tuki NT-tapahtumalokeille."/>
+<string id="feature.MyCube.name" value="OLAP-kuutio"/>
+<string id="feature.MyCube.description" value="Tuki tuotteen #product.boe64_name# OLAP-kuutioille."/>
+<string id="feature.Progress.OpenEdge.name" value="Progress OpenEdge"/>
+<string id="feature.Progress.OpenEdge.description" value="Tarjoaa liitettävyyden Progress OpenEdgeen."/>
+<string id="feature.EBS.name" value="Oracle EBS"/>
+<string id="feature.EBS.description" value="BusinessObjects Integration for JD Edwards EnterpriseOne."/>
+<string id="feature.FieldDefinitions.name" value="Kenttämääritykset"/>
+<string id="feature.FieldDefinitions.description" value="Tuki raporttien suunnitteluun tekstipohjaisista suunnitelmista."/>
+<string id="feature.LotusDomino.name" value="Lotus Domino"/>
+<string id="feature.LotusDomino.description" value="Tuki Lotus Domino -tietokannoille. Asenna ensin Lotus Notes Client."/>
+<string id="feature.JDE.name" value="JD Edwards EnterpriseOne"/>
+<string id="feature.JDE.description" value="BusinessObjects-integraatio JD Edwards EnterpriseOneen."/>
+<string id="feature.WordforWindows.name" value="Microsoft Word (97-2003) -muoto"/>
+<string id="feature.WordforWindows.description" value="Tuki Microsoft Word (97/2003) -muotoon (*.doc) viennille."/>
+<string id="feature.SFORCE.name" value="Salesforce.com-ohjain"/>
+<string id="feature.SFORCE.description" value="Tarjoaa kyvyn yhdistää #productname# Salesforce.comin CRM-tietoihin ja tehdä edistyneitä raportteja."/>
+<string id="feature.PDF.name" value="PDF-muoto"/>
+<string id="feature.PDF.description" value="Tuki PDF-muotoon (*.pdf) viennille."/>
+<string id="feature.Excel.name" value="Microsoft Excel (97-2003) -muoto"/>
+<string id="feature.Excel.description" value="Tuki Microsoft Excel 97/2003 -muotoon (*.xls) viennille."/>
+<string id="feature.CharacterSeparated.name" value="Merkein eroteltu muoto"/>
+<string id="feature.CharacterSeparated.description" value="Tuki merkein eroteltuun muotoon (*.csv) viennille."/>
+<string id="feature.Sybase.name" value="Sybase"/>
+<string id="feature.Sybase.description" value="Tuki Sybase-tietokannoille (erillinen työasema). Asenna ensin Sybase Client."/>
+<string id="feature.JRE.name" value="JRE"/>
+<string id="feature.JRE.description" value="Java Runtime Environment"/>
+<string id="feature.Informix.name" value="Informix"/>
+<string id="feature.Informix.description" value="Tuki Informix-tietokannoille. Asenna ensin Informix Client."/>
+<string id="feature.DataAccess.name" value="Data Access"/>
+<string id="feature.DataAccess.description" value="Data Access -komponenttien avulla yhdistetään #product.crw_name# tietokantoihin."/>
+<string id="feature.RDO.name" value="ODBC (RDO)"/>
+<string id="feature.RDO.description" value="Tarjoaa liitettävyyden ODBC RDO:hon"/>
+<string id="feature.crw.name" value="#product.crw_name#"/>
+<string id="feature.crw.description" value="Asentaa Crystal Reports Designer -sovelluksen"/>
+<string id="feature.XML.name" value="XML- ja Web-palvelut"/>
+<string id="feature.XML.description" value="Tuki XML-tiedoille."/>
+<string id="feature.SymantecACT.name" value="ACT! 3.0"/>
+<string id="feature.SymantecACT.description" value="Tuki ACT!-tietokannoille."/>
+<string id="feature.MySQL_DataAccess.name" value="MySQL"/>
+<string id="feature.MySQL_DataAccess.description" value="Tarjoaa liitettävyyden MySQL-tietokantoihin"/>
+<string id="feature.COMData.name" value="COM-tietotoimittaja"/>
+<string id="feature.COMData.description" value="Tuki COM-kohteiden paljastamille tiedoille."/>
+<string id="feature.CrystalReportsRoot.name" value="#productname#"/>
+<string id="feature.CrystalReportsRoot.description" value="#productname#"/>
+<string id="feature.LotusNotesMail.name" value="Lotus Domino Mail"/>
+<string id="feature.LotusNotesMail.description" value="Vie Lotus Dominoon"/>
+<string id="feature.ADO.NET.name" value="ADO.NET (XML)"/>
+<string id="feature.ADO.NET.description" value="Tietojen käyttöoikeudet kohteeseen ADO.NET."/>
+<string id="feature.Exchange.name" value="Microsoft Exchange"/>
+<string id="feature.Exchange.description" value="Tuki Exchange Server -tiedoille, kuten Exchange-kansioille, lokeille ja osoitekirjoille."/>
+<string id="feature.DB2.name" value="IBM DB2"/>
+<string id="feature.DB2.description" value="Tuki IBM DB2 -tietokannoille. Asenna ensin DB2 Client."/>
+<string id="feature.Universe.name" value="BusinessObjects-käyttöympäristö"/>
+<string id="feature.Universe.description" value="Tuki Business Objects -käyttöympäristölle."/>
+<string id="feature.ReportDefinition.name" value="Raporttien määrittelymuoto"/>
+<string id="feature.ReportDefinition.description" value="Tuki raporttien määrittelymuotoon viennille."/>
+<string id="feature.ExchangeFolders.name" value="Microsoft Exchangen yleisten kansioiden kohde"/>
+<string id="feature.ExchangeFolders.description" value="Tuki Exchange-kansioon viennille."/>
+<string id="feature.ODBC.name" value="ODBC-tietolähteen muoto"/>
+<string id="feature.ODBC.description" value="Tuki mihin tahansa asennettuun ODBC-muotoon viennille."/>
+<string id="feature.DataDirectODBC.description" value="Uudelleenbrändätty #productname# DataDirect ODBC -ajurit"/>
+<string id="feature.DataDirectODBC.name" value="DataDirect ODBC"/>
+<string id="feature.OptionalDataDirectODBC.description" value="Uudelleenbrändätty #productname# valinnaiset DataDirect ODBC -ajurit"/>
+<string id="feature.OptionalDataDirectODBC.name" value="Valinnainen DataDirect ODBC"/>
+<string id="feature.XMLExport.name" value="XML-vienti"/>
+<string id="feature.XMLExport.description" value="Tuki XML-asiakirjaan viennille."/>
+<string id="feature.Export.name" value="Vientituki"/>
+<string id="feature.Export.description" value="Valmiiden raporttien julkaisemiseen useissa tiedostomuodoissa."/>
+<string id="feature.PGEditor.name" value="Muokattava kaavio"/>
+<string id="feature.PGEditor.description" value="Grafiikkasovellus, jossa on enemmän kaavioiden muotoilutoimintoja."/>
+<string id="feature.Btrieve.name" value="Pervasive-tietokanta-ajuri (Btrieve)"/>
+<string id="feature.Btrieve.description" value="Tuki Btrieve-datatiedostoille. Asenna ensin Btrieve Client."/>
+<string id="feature.LegacyXMLExport.name" value="Aiempi XML-vienti"/>
+<string id="feature.LegacyXMLExport.description" value="Tuki XML-asiakirjaan viennille. (Legacy XML)"/>
+<string id="feature.LotusNotes.name" value="Lotus Notes -kohde"/>
+<string id="feature.LotusNotes.description" value="Tuki Lotus Notes -asiakirjaan viennille."/>
+<string id="feature.CDO.name" value="Crystal Data -objektit"/>
+<string id="feature.CDO.description" value="Tuki viallisten tietojen raportointiin muisteista"/>
+<string id="feature.WebActivityLog.name" value="Web-/IIS-toimintoloki"/>
+<string id="feature.WebActivityLog.description" value="Tuki verkkopalvelimien toimintolokeille."/>
+<string id="feature.Text.name" value="Tekstimuoto"/>
+<string id="feature.Text.description" value="Tuki tekstimuotoon (*.txt) viennille."/>
+<string id="feature.BDE.name" value="IDAPI-rajapinnan DLL-tietokanta"/>
+<string id="feature.BDE.description" value="Tuki dBASE- ja Paradox-tiedostoille. Asenna ensin Borland-tietokantamoduuli."/>
+<string id="feature.CrystalReports.name" value="#productname# -muoto"/>
+<string id="feature.CrystalReports.description" value="Tuki #productname# -muotoon (*.rpt) viennille."/>
+<string id="feature.RichTextFormat.name" value="Rich Text Format "/>
+<string id="feature.RichTextFormat.description" value="Tuki Rich Text Format -muotoon (*.rtf) viennille."/>
+<string id="feature.Access.name" value="Access/Excel (DAO)"/>
+<string id="feature.Access.description" value="Tuki Microsoft Access -tietokannoille."/>
+<string id="feature.MicrosoftOutlook.name" value="Microsoft Outlook"/>
+<string id="feature.MicrosoftOutlook.description" value="Tuki Outlook-tiedoille."/>
+<string id="feature.FileSystem.name" value="Tiedostojärjestelmä"/>
+<string id="feature.FileSystem.description" value="Tuki tiedostojärjestelmätiedoille."/>
+<string id="feature.PSFT.name" value="Peoplesoft Enterprise"/>
+<string id="feature.PSFT.description" value="BusinessObjects Integration for Peoplesoft Enterprise."/>
+<string id="feature.JavaData.name" value="Java Bean -liitettävyys"/>
+<string id="feature.JavaData.description" value="Tuki Java-luokkien paljastamille tiedoille."/>
+<string id="feature.NCRTeradata.name" value="NCR Teradata"/>
+<string id="feature.NCRTeradata.description" value="Tarjoaa liitettävyyden Teradata-tietokantaan"/>
+<string id="feature.SAP.name" value="SAP"/>
+<string id="feature.SAP.description" value="BusinessObjects Integration for SAP Solutions."/>
+<string id="feature.Record.name" value="Tietuemuoto (arvosarakkeet)"/>
+<string id="feature.Record.description" value="Tuki Record Style -muotoon (*.rec) viennille."/>
+<string id="feature.NETEZZA.name" value="NETEZZA"/>
+<string id="feature.NETEZZA.description" value="Tarjoaa liitettävyyden NETEZZAan."/>
+<string id="feature.SIEBEL.name" value="Siebel"/>
+<string id="feature.SIEBEL.description" value="BusinessObjects Integration for Siebel."/>
+<string id="feature.Mapping.name" value="Maantieteellinen kartoitus"/>
+<string id="feature.Mapping.description" value="Näyttää tietojen ja maantieteellisten alueiden väliset suhteet."/>
+<string id="feature.Application.name" value="Sovelluskohde"/>
+<string id="feature.Application.description" value="Tuki sovellukseen viennille."/>
+<string id="feature.dBase.name" value="dBase"/>
+<string id="feature.dBase.description" value="Tuki dBASE-tietokannoille."/>
+<string id="feature.HTML.name" value="HTML-muoto"/>
+<string id="feature.HTML.description" value="Tuki HTML 3.2- ja HTML 4.0 (DHTML) -muotoihin (*.html) viennille."/>
+<string id="feature.DataSet.name" value="Tietojoukon käyttäjä"/>
+<string id="feature.DataSet.description" value="Tuki Report Application Serverin ISCRDataSet-kohteille."/>
+<string id="feature.HPNeoview.name" value="HP Neoview"/>
+<string id="feature.HPNeoview.description" value="Tuki HP Neoviewille."/>
+<string id="feature.JDBC.name" value="JDBC (JNDI) Data Driver"/>
+<string id="feature.JDBC.description" value="JDBC (JNDI) -tietojen tuki."/>
+<string id="feature.Oracle.name" value="Oracle"/>
+<string id="feature.Oracle.description" value="Tuki Oracle-taulukoille. Asenna ensin Oracle Client."/>
+<string id="feature.MicrosoftMail.name" value="Microsoft Mail -kohde"/>
+<string id="feature.MicrosoftMail.description" value="Microsoft Mail -kohde"/>
+<string id="feature.UploadWizard.name" value="Ohjattu raportin lataus"/>
+<string id="feature.UploadWizard.description" value="Ohjattu raportin lataus."/>
+<string id="feature.UWSC.name" value="Yleinen web-palveluyhteys (UWSC)"/>
+<string id="feature.UWSC.description" value="Tarjoaa liitettävyyden UWSC-yhteyteen."/>
+<string id="feature.IntegrationOptions.name" value="Integroinnin vaihtoehdot"/>
+<string id="feature.IntegrationOptions.description" value="Integroinnin vaihtoehdot -komponenttien avulla yhdistetään #product.crw_name# muihin yritysjärjestelmiin."/>
+<string id="property.InstallType.description" value="Asennustyyppi: oletusarvoinen tai mukautettu"/>
+<string id="prereq.AdminPrivilegePreReqText" value="Järjestelmänvalvojan oikeudet"/>
+<string id="prereq.AdminPrivilegePreReqNotOkText" value="Käytä käyttäjätiliä, jolla on järjestelmänvalvojan oikeudet. INS00287"/>
+<string id="prereq.Platform64bitPreReq" value="64-bittinen käyttöjärjestelmä"/>
+<string id="prereq.Platform64bitPreReqNotOkText" value="Tämä tuote on asennettava 64-bittiseen käyttöjärjestelmään. Varmista, että käyttöjärjestelmäsi vastaa tätä vaatimusta. (INS00292)"/>
+<string id="dialog.message.Welcome.Package.Version" value=""/>
+<string id="DialogCaption" value="Tuotteen #product.fullproductnamenospace# asennus"/>
+</context>
+</uitext>

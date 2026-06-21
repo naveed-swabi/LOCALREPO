@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="LicenseAgreement" value="Требование нового ключа лицензии"/>
+<string id="YouMustAgree" value="Для #product.fullproductname# требуется новый ключ лицензии."/>
+<string id="SelectLicenseChangeSubtitle" value="Для #product.fullproductname# требуется новый ключ лицензии."/>
+<string id="IAccept" value="Прочитав документацию и понимая процесс запроса нового ключа лицензии, я выражаю согласие на удаление старого ключа лицензии и добавление нового ключа лицензии после установки обновления."/>
+<string id="subtitle1" value="Для #product.fullproductname# требуется новый ключ лицензии."/>
+<string id="subtitle2" value="Запросите новый ключ лицензии. Дополнительные сведения о запросе ключа лицензии см. по адресу"/>
+<string id="subtitle3" value="После завершения установки #product.fullproductname# выполните вход в Central Management Console (CMC); удалите старый ключ лицензии и добавьте новый. До добавления нового ключа лицензии все сервисы будут отключены."/>
+<string id="subtitle4" value="Запросите новый ключ лицензии здесь"/>
+<string id="AcceptOrNotAccept" value="Нажмите клавишу &lt;ENTER&gt;, чтобы согласиться на удаление старого ключа лицензии и добавление нового ключа лицензии после установки обновления."/>
+<string id="Description_Patch_License" value="Для #product.fullproductname# требуется новый ключ лицензии.\n\nЗапросите новый ключ лицензии. Дополнительные сведения о запросе ключа лицензии см. по адресу http://scn.sap.com/docs/DOC-70095. \n\nПо завершении установки #product.fullproductname# выполните вход в Central Management Console (CMC); удалите старый ключ лицензии и добавьте новый ключ лицензии. До добавления нового ключа лицензии все сервисы будут отключены."/>
+</context>
+</uitext>

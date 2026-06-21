@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="SelectedInvalidLocale" value="지원되지 않는 로캘을 입력했습니다."/>
+<string id="SetupLanguageTitle" value="설치 관리자 언어 선택"/>
+<string id="SetupLanguageSubtitle" value="설치 언어를 선택하십시오."/>
+<string id="SetupLanguageUnixSubtitle" value="설치 언어를 선택하십시오."/>
+<string id="CreateLogFile" value="설치하는 동안 로그 파일 작성"/>
+<string id="Invalid_SetupLanguage" value="잘못된 설치 언어([SetupUILanguage]): '[$available.ui.langs]' 중 하나여야 합니다. INS00022"/>
+<string id="Invalid_IsEnableSetupLog" value="잘못된 IsEnableSetupLog([IsEnableSetupLog]): 0이나 1이어야 합니다."/>
+<string id="SelectUILanguageFooter" value="선택하려면 []Tab], []Up] 또는 []Down] 키를, 끝내려면 []Ctrl-X]를, 계속하려면 []Enter]를 누르십시오."/>
+</context>
+</uitext>

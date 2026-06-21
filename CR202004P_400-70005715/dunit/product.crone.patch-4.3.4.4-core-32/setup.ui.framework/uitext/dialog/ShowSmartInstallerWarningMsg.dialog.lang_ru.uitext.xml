@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="Для успешного выполнения установки проверьте правильность пути установки. \n\n Для новой установки – новый каталог файлов. \n Для установки исправления – каталог файлов с установкой предыдущей версии #productname#. \n\n\n Щелкните &quot;ОК&quot;, чтобы продолжить, или &quot;Выход&quot;, чтобы ввести правильный путь установки. \n"/>
+<string id="ExitMessage" value="Нажмите клавиши Ctrl+X, чтобы выйти, или клавишу Enter, чтобы продолжить."/>
+<string id="WarnDialogTitle" value="ДИАЛОГОВОЕ ОКНО СВЕДЕНИЙ"/>
+<string id="WarnDialogSubtitle" value="Информация: "/>
+</context>
+</uitext>

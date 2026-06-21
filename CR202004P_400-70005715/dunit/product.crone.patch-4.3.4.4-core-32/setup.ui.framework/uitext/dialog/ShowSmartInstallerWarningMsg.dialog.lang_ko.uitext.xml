@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ko"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="원하는 설치 작업이 완료될 수 있도록 지정된 설치 경로가 올바른지 확인하십시오. \N\n 신규 설치의 경우 - Fresh 파일 디렉터리. \N 패치 설치의 경우 - 이전 #productname# 버전 설치가 있는 파일 디렉터리. \N\n\n 계속하려면 Ok를 클릭하고 올바른 설치 경로를 다시 입력하려면 종료를 클릭하십시오. \n"/>
+<string id="ExitMessage" value="끝내려면 Ctrl+X를, 계속하려면 Enter를 누르십시오."/>
+<string id="WarnDialogTitle" value="정보 대화 상자"/>
+<string id="WarnDialogSubtitle" value="정보: "/>
+</context>
+</uitext>

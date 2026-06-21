@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="Title" value="Distribution av webbapplikation"/>
+<string id="Subtitle" value="Distribuera webbinnehåll senare"/>
+<string id="DeploylaterDescription" value="Standardserver för Tomcat Java-webbapplikation har hittats. Vill du distribuera webbapplikationerna nu eller senare?"/>
+<string id="TxtDeployLater" value="Distribuera webbapplikationer senare."/>
+<string id="TxtDeployNow" value="Distribuera webbapplikationer nu."/>
+<string id="Footer" value="Tryck på []tabb], []uppåtpil] eller []nedåtpil] för att välja, []Ctrl-B] för att gå tillbaka, []Ctrl-X] för att avsluta eller []Retur] för att fortsätta."/>
+</context>
+</uitext>

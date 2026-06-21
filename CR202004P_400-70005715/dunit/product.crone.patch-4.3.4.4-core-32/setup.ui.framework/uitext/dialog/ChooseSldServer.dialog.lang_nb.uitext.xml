@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="ChooseSldServerLocation" value="Velg SLD-serverplassering"/>
+<string id="SpecifySldServerLocation" value="Angi SLD-serverplassering"/>
+<string id="SldHostnameExample" value="Angi adressen for SLD-serveren (eg. http://sld.server.com/)"/>
+<string id="SldInputInformation" value="Angi påloggingsinformasjon."/>
+<string id="SldHostname" value="Vertsnavn"/>
+<string id="SldPort" value="Port"/>
+<string id="SldUsername" value="Brukernavn"/>
+<string id="SldPassword" value="Passord"/>
+</context>
+</uitext>

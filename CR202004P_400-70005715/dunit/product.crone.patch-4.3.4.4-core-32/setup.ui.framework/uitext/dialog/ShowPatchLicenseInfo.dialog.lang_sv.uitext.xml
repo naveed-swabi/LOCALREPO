@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="LicenseAgreement" value="Ny obligatorisk licensnyckel"/>
+<string id="YouMustAgree" value="Ny licensnyckel krävs för #product.fullproductname#."/>
+<string id="SelectLicenseChangeSubtitle" value="Ny licensnyckel krävs för #product.fullproductname#."/>
+<string id="IAccept" value="Jag har läst dokumentationen och förstår hur jag ska beställa den nya licensnyckeln samt accepterar att radera den gamla licensnyckeln och lägga till den nya licensnyckeln efter uppdateringsinstallationen."/>
+<string id="subtitle1" value="#product.fullproductname# kräver en ny licensnyckel."/>
+<string id="subtitle2" value="Begär en ny licensnyckel. Mer information om hur du begär en licensnyckel finns på"/>
+<string id="subtitle3" value="När installationen av #product.fullproductname# har slutförts loggar du in i Central Management Console (CMC), raderar den gamla licensnyckeln och lägger till den nya licensnyckeln. Alla tjänster är inaktiverade tills du har lagt till den nya licensnyckeln."/>
+<string id="subtitle4" value="Beställ ny licensnyckel här"/>
+<string id="AcceptOrNotAccept" value="Tryck på &lt;RETUR&gt; för att acceptera att den gamla licensnyckeln raderas och att den nya läggs till efter uppdateringsinstallationen."/>
+<string id="Description_Patch_License" value="För #product.fullproductname# behövs en ny licensnyckel.\n\nBegär en ny licensnyckel. Mer information om hur du begär en licensnyckel finns på http://scn.sap.com/docs/DOC-70095. \n\nNär #product.fullproductname# har installerats, logga in i Central Management Console (CMC). Radera den gamla licensnyckeln och lägg till den nya. Alla tjänster är inaktiva tills du lagt till den nya licensnyckeln."/>
+</context>
+</uitext>

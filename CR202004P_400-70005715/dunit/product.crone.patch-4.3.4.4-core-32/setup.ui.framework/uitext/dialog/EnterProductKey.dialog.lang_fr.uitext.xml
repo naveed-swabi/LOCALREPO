@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="InvalidProductKey" value="Vous avez saisi une clé de produit non valide."/>
+<string id="EnterProductKeyTitle" value="Configurer l'enregistrement du produit"/>
+<string id="EnterProductKeySubtitle" value="Saisissez la clé du produit #product.nameandversionwithoutpatch#."/>
+<string id="EnterProductKeyFooter" value="Appuyez sur les touches []Ctrl-B] pour revenir en arrière, []Ctrl-X] pour fermer, ou []Entrée] pour continuer."/>
+<string id="ProductkeyInfoGroup" value="Informations de clé de produit"/>
+<string id="ProductkeyLabel" value="Clé de produit :"/>
+<string id="Invalid_ProductKey" value="Clé de produit non valide. INS00140"/>
+</context>
+</uitext>

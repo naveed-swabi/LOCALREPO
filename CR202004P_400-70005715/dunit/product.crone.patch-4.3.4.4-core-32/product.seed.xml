@@ -1,0 +1,981 @@
+<?xml version="1.0"?>
+<productSeed>
+  <product id="product.crone.patch-4.3.4.4-core-32" type="core" productType="patch" defaultObjectModel="64" productShortName="CrystalReports" installiverseId="aurora" revision="14.3.4.4938" schemaVersion="4" minimumSetupEngineVersion="60" sizeInCache="71749034">
+    <feature id="root" description="#feature.root.description#" display="expand" name="#feature.CrystalReportsRoot.name#" defaultState="install">
+      <feature id="installer.runtime" description="" display="hidden" name="" defaultState="install">
+        <instance id="installer.runtime">
+          <deploymentUnitRef ref="setup.core-4.0-core"/>
+          <deploymentUnitRef ref="product.crone.patch.arp-4.3.4.4-core" defaultObjectModel="32"/>
+          <deploymentUnitRef ref="product.shared.installiverse.reg-4.0-core"/>
+          <deploymentUnitRef ref="product.shared.acceleratemsioperations-4.0-core" defaultObjectModel="32"/>
+        </instance>
+      </feature>
+    </feature>
+  </product>
+  <properties>
+    <propertyDeclaration id="IsAcceptEULA" defaultValue="0" description="#property.IsAcceptEULA.description#"/>
+    <propertyDeclaration id="InstallDirFromRegistry" description=""/>
+    <propertyDeclaration id="HasBlockingPreReq" description="#property.HasBlockingPreReq.description#"/>
+    <propertyDeclaration id="MaintenanceMode" description="#property.MaintenanceMode.description#"/>
+    <propertyDeclaration id="SharedAlwaysFailureMessage" description="#property.SharedAlwaysFailureMessage.description#"/>
+    <propertyDeclaration id="dummyvariableneverexist" description="#property.dummyvariableneverexist.description#"/>
+    <propertyDeclaration id="IsRootDirFinalized" description="#property.IsRootDirFinalized.description#"/>
+    <propertyDeclaration id="AdminPrivilege" description="#property.AdminPrivilege.description#"/>
+    <propertyDeclaration id="PendingStatus_value" description="#property.PendingStatus_value.description#"/>
+    <propertyDeclaration id="CurrentSupportPackage" defaultValue="0" description="#property.CurrentSupportPackage#"/>
+    <propertyDeclaration id="CurrentMinorVersion" defaultValue="0" description="#property.CurrentMinorVersion#"/>
+    <propertyDeclaration id="DetectPatchOrSPOnHigherRevision" defaultValue="true" description=""/>
+    <propertyDeclaration id="DetectPatchOnLowerSP" defaultValue="true" description=""/>
+    <propertyDeclaration id="checkforDiskSpace" defaultValue="0" description=""/>
+    <propertyDeclaration id="OverhangingPatch" defaultValue="true" description=""/>
+    <propertyDeclaration id="CurrentPatchLevel" description=""/>
+    <propertyDeclaration id="CheckPreRequisiteRetry" defaultValue="true" description=""/>
+    <propertyDeclaration id="PostInstallMessage" defaultValue="" description="#property.PostInstallMessage.description#"/>
+    <propertyDeclaration id="PostInstallMessageDialogIsShown" defaultValue="no" description="#property.PostInstallMessageDialogIsShown.description#"/>
+    <propertyDeclaration id="ShowInstallCompleteBackButton" defaultValue="false" description=""/>
+    <propertyDeclaration id="DataDirect7Installed" description="property.DataDirect7Installed.description#"/>
+    <propertyDeclaration id="DataDirect_DU_Below_4_2" defaultValue="0" description="Used for determine whether Datadirect7 du revision is higher or lower than 4.2 RTM"/>
+    <propertyDeclaration id="CurrentInstalledProductBelow43_SP0" defaultValue="0" description="Property used for finding whether current installed version of BOE is below 4.3 SP0 or not"/>
+    <propertyDeclaration id="CurrentInstalledVersionBelowSpecifiedVersion" defaultValue="0" description="Property used for finding whether current installed version is less than specified version"/>
+  </properties>
+  <prerequisite id="getAdminPrivilegePreReq" description="#prereq.AdminPrivilegePreReqText#" reason="#prereq.AdminPrivilegePreReqNotOkText#" type="error">
+    <action id="DetectAdminPrivilege">
+      <arg name="Property" value="AdminPrivilege"/>
+    </action>
+    <condition istrue="AdminPrivilege"/>
+  </prerequisite>
+  <prerequisite id="checkforDiskSpace" description="#prereq.checkforDiskSpacePreReqText#" reason="#prereq.checkforDiskSpacePreReqNotOkText#" type="error">
+    <action id="checkforDiskSpace">
+      <arg name="InstallDir" value="[InstallDir]"/>
+      <arg name="productSize" value="1500"/>
+      <arg name="bufferSize" value="5000"/>
+      <arg name="PropertyName" value="checkforDiskSpace"/>
+    </action>
+    <condition property="checkforDiskSpace" value="1"/>
+  </prerequisite>
+  <prerequisite id="Platform64bitPreReq" description="#prereq.Platform64bitPreReq#" reason="#prereq.Platform64bitPreReqNotOkText#" type="error">
+    <condition property="$os.memoryarchitecture" value="64"/>
+  </prerequisite>
+  <prerequisite id="getWindowsVersionPreReq" description="#prereq.WindowsVersionPreReqText#" reason="#prereq.WindowsVersionPreReqNotOkText#" type="error">
+    <action id="CompareVersion">
+      <arg name="maxVersion" value=""/>
+      <arg name="minVersion" value="6.3"/>
+      <arg name="VersionNeedToCompare" value="[$os.version]"/>
+      <arg name="Property" value="Windows81Above"/>
+      <arg name="AllowedSuffix" value="WORKSTATION"/>
+    </action>
+    <action id="CompareVersion">
+      <arg name="maxVersion" value=""/>
+      <arg name="minVersion" value="6.3"/>
+      <arg name="VersionNeedToCompare" value="[$os.version]"/>
+      <arg name="Property" value="Windows2012R2Above"/>
+      <arg name="AllowedSuffix" value="Server"/>
+    </action>
+    <condition>
+      <or>
+        <condition property="Windows81Above" value="1"/>
+        <condition property="Windows2012R2Above" value="1"/>
+      </or>
+    </condition>
+  </prerequisite>
+  <prerequisite id="getPendingStatusPreReq" description="#prereq.PendingStatusPreReqText#" reason="#prereq.PendingStatusPreReqNotOkText#" type="error">
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager"/>
+      <arg name="RegistryName" value="PendingFileRenameOperations"/>
+      <arg name="RegistryType" value="2"/>
+      <arg name="PropertyName" value="PendingStatus_value"/>
+    </action>
+    <condition>
+      <not>
+        <and>
+          <condition isset="PendingStatus_value"/>
+          <not>
+            <condition property="PendingStatus_value" value=""/>
+          </not>
+        </and>
+      </not>
+    </condition>
+  </prerequisite>
+  <prerequisite id="DetectPatchOrSPOnHigherRevision" description="#prereq.DetectPatchOrSPOnHigherRevisionPreReqText#" reason="#prereq.DetectPatchOrSPOnHigherRevisionPreReqNotOkText#" type="warn">
+    <action id="DetectPatchOrSPOnHigherRevision">
+      <arg name="ProductDUID" value="product.crystalreports-4.0-core-32"/>
+      <arg name="ProductFamilyDUID" value="product.crystalreports.productfamilyid-4.0-core-nu"/>
+      <arg name="InstallingRevision" value="14.3.4.4938"/>
+      <arg name="PropertyName" value="DetectPatchOrSPOnHigherRevision"/>
+    </action>
+    <condition property="DetectPatchOrSPOnHigherRevision" value="false"/>
+  </prerequisite>
+  <prerequisite id="DetectPatchOnLowerSP" description="#prereq.CheckPatchOnLowerSPPreReqText#" reason="#prereq.CheckPatchOnLowerSPPreReqNotOkText#" type="error">
+    <action id="DetectPatchOnLowerSP">
+      <arg name="ProductDUID" value="product.crystalreports-4.0-core-32"/>
+      <arg name="ProductFamilyDUID" value="product.crystalreports.productfamilyid-4.0-core-nu"/>
+      <arg name="InstallingRevision" value="14.3.4.4938"/>
+      <arg name="PropertyName" value="DetectPatchOnLowerSP"/>
+      <arg name="PatchBuildRev" value="0"/>
+    </action>
+    <condition property="DetectPatchOnLowerSP" value="false"/>
+  </prerequisite>
+  <prerequisite id="detectMSIServiceStartupTypePreReq" description="#prerequisite.PassWindowsInstallerService.description#" reason="prerequisite.PassWindowsInstallerService.reason" type="error">
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\msiserver"/>
+      <arg name="RegistryName" value="Start"/>
+      <arg name="RegistryType" value="2"/>
+      <arg name="PropertyName" value="MSIServiceStartupType"/>
+    </action>
+    <condition>
+      <and>
+        <not>
+          <condition property="MSIServiceStartupType" value="4"/>
+        </not>
+        <not>
+          <condition property="MSIServiceStartupType" value=""/>
+        </not>
+      </and>
+    </condition>
+  </prerequisite>
+  <prerequisite id="NetAssembly40PreReq" description="#prereq.MsNetAssemblyPreReqText#" reason="#prereq.MsNetAssemblyPreReqNotOkText#" type="error">
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full"/>
+      <arg name="RegistryName" value="Install"/>
+      <arg name="RegistryType" value="18"/>
+      <arg name="PropertyName" value="MsiNetAssembly40_64"/>
+    </action>
+    <action id="RegistrySearch">
+      <arg name="RegistryKey" value="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full"/>
+      <arg name="RegistryName" value="Install"/>
+      <arg name="RegistryType" value="2"/>
+      <arg name="PropertyName" value="MsiNetAssembly40"/>
+    </action>
+    <condition>
+      <or>
+        <condition property="MsiNetAssembly40_64" value="1"/>
+        <condition property="MsiNetAssembly40" value="1"/>
+      </or>
+    </condition>
+  </prerequisite>
+  <productSequence/>
+  <productSequence/>
+  <productSequence/>
+  <actionDeclaration id="SetUILanguage">
+    <source type="sharedlib" name="LanguageConfig.dll">
+      <execute entryPoint="MapSystemLocaleToInstallerLangCode"/>
+    </source>
+    <param name="SystemLocale"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetSelectedLangPacks">
+    <source type="sharedlib" name="LanguageConfig.dll">
+      <execute entryPoint="SetSelectedLangPacksWithSystemLocale"/>
+    </source>
+    <param name="CurrentLangPacks" default="[_$SelectedLanguagePacks]"/>
+    <param name="RequiredLangPacks"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJOutOfBoxDeployment">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="BOBJOutOfBoxDeployment"/>
+      <rollback entryPoint="RollbackBOBJOutOfBoxDeployment"/>
+    </source>
+    <param name="WebAppServer"/>
+    <param name="AppServerDir"/>
+    <param name="EnterpriseDir"/>
+    <param name="InstallDir"/>
+    <param name="Mode"/>
+    <param name="RollbackMode"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJTextReplace" actionText="#progress.BOBJTextReplace#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="BOBJTextReplace"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="File"/>
+    <param name="SearchWord"/>
+    <param name="ReplaceWord"/>
+    <param name="Condition" default=""/>
+    <param name="Attributes" default="0"/>
+    <param name="SensitiveData" default=""/>
+    <param name="AllowReplaceWordEmpty" default="false"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJTextReplace1" actionText="#progress.BOBJTextReplace#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="BOBJTextReplace1"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="File"/>
+    <param name="SearchWord"/>
+    <param name="ReplaceWord"/>
+    <param name="Condition" default=""/>
+    <param name="Attributes" default="0"/>
+    <param name="SensitiveData" default=""/>
+    <param name="AllowReplaceWordEmpty" default="false"/>
+  </actionDeclaration>
+  <actionDeclaration id="InstallDUBundle" actionText="#progress.InstallDUBundle#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="InstallDUBundle"/>
+      <rollback entryPoint="UnInstallDUBundle"/>
+    </source>
+    <defaultActionSequence install="InstallDUBundles" uninstall="MyUninstallActionSequence"/>
+    <param name="Props" default=""/>
+    <param name="DUBundle" default="[$du.dir]content.msi"/>
+    <param name="guid" default=""/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="UninstallDUBundle" actionText="#progress.UninstallDUBundle#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="UnInstallDUBundle"/>
+      <rollback entryPoint="InstallDUBundle"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallDUBundles"/>
+    <param name="DUBundle" default="[$du.dir]content.msi"/>
+    <param name="Props"/>
+    <param name="guid" default=""/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="CopyUserConfigFile" actionText="#progress.CopyUserConfigFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="CopyUserConfigFile"/>
+      <rollback entryPoint="RollbackCopyUserConfigFile"/>
+    </source>
+    <defaultActionSequence install="InstallDUBundles"/>
+    <param name="SrcFileName"/>
+    <param name="DestDirName"/>
+    <param name="DestFileName"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveUserConfigFile" actionText="#progress.RemoveUserConfigFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveUserConfigFile"/>
+      <rollback entryPoint="RollbackRemoveUserConfigFile"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallDUBundles"/>
+    <param name="DirName"/>
+    <param name="FileName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CreateUserConfigRegistryKey" actionText="#progress.CreateUserConfigRegistryKey#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="CreateUserConfigRegistryKey"/>
+    </source>
+    <defaultActionSequence install="InstallUserConfigRegistryKeys"/>
+    <param name="RegistryPath"/>
+    <param name="RegistryValueName"/>
+    <param name="RegistryValueData"/>
+    <param name="RegistryType"/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveUserConfigRegistryKey" actionText="#progress.RemoveUserConfigRegistryKey#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveUserConfigRegistryKey"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallUserConfigRegistryKeys"/>
+    <param name="RegistryPath"/>
+    <param name="RegistryValueName"/>
+    <param name="PerUser" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommand" actionText="#progress.RunCommand#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommand"/>
+      <rollback entryPoint="RunRollBackCommand"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="RunOnDuAction" default=""/>
+    <param name="MaxRetriesAllowed" default="0"/>
+    <param name="RetryInterval" default="30"/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandConditional" actionText="#progress.RunCommand#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommandConditional"/>
+      <rollback entryPoint="RunRollBackCommand"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="ConditionPropertyToCheck" default=""/>
+    <param name="PropertyValueCompareWith" default=""/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandOnNormalAndRepair" actionText="#progress.RunCommandOnNormalAndRepair#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommandOnNormalAndRepair"/>
+      <rollback entryPoint="RunRollBackCommand"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="DUInstallAction"/>
+    <param name="CmdLineOnRepair"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="EnsureFolderExists" actionText="#progress.EnsureFolderExists#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="EnsureFolderExists"/>
+    </source>
+    <param name="FolderName"/>
+  </actionDeclaration>
+  <actionDeclaration id="RegistrySearch" actionText="#progress.RegistrySearch#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegistrySearch"/>
+    </source>
+    <param name="RegistryKey"/>
+    <param name="RegistryName"/>
+    <param name="RegistryType" default="2"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CreateShortcut" actionText="#progress.CreateShortcut#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="CreateShortcut"/>
+      <rollback entryPoint="RemoveShortcut"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="linkFullPath"/>
+    <param name="pathToTarget"/>
+    <param name="arguments" default=""/>
+    <param name="description" default=""/>
+    <param name="iconPath" default=""/>
+    <param name="iconIndex" default=""/>
+    <param name="runAsUser" default="false"/>
+    <param name="showCmd" default=""/>
+    <param name="workingDir" default=""/>
+    <param name="runAction" default="1"/>
+  </actionDeclaration>
+  <actionDeclaration id="AddARPEntry" actionText="#progress.AddARPEntry#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="AddARPEntry"/>
+      <rollback entryPoint="RemoveARPEntry"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="PRODUCT_CODE"/>
+    <param name="INSTALL_DIR"/>
+    <param name="DISPLAY_NAME"/>
+    <param name="PRODUCT_ID" default="[$product.id]"/>
+    <param name="PER_USER_INSTALL" default="[setup.core.prime-4.0-core$PerUserInstall]"/>
+    <param name="DISPLAY_ICON" default=""/>
+    <param name="DISPLAY_VERSION" default="14.3.4.4938"/>
+    <param name="ESTIMATED_SIZE" default=""/>
+    <param name="INSTALL_LOCATION" default=""/>
+    <param name="INSTALL_SOURCE" default=""/>
+    <param name="NO_MODIFY" default=""/>
+    <param name="NO_REPAIR" default=""/>
+    <param name="LANGUAGE" default=""/>
+    <param name="PUBLISHER" default="SAP"/>
+    <param name="HELP_LINK" default="http://www.sap.com"/>
+    <param name="INFO_LINK" default="http://www.sap.com"/>
+    <param name="UPDATE_LINK" default="http://www.sap.com"/>
+    <param name="LAUNCH_AS_UNINSTALL" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJRegasm" actionText="#progress.BOBJRegasm#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RunExe"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="32"/>
+  </actionDeclaration>
+  <actionDeclaration id="RegasmCheck">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegasmCheck"/>
+    </source>
+    <output id="RegasmPath" property="RegasmPath"/>
+  </actionDeclaration>
+  <actionDeclaration id="RegasmCheck64">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegasmCheck64"/>
+    </source>
+    <output id="RegasmPath64" property="RegasmPath64"/>
+  </actionDeclaration>
+  <actionDeclaration id="BOBJUnRegasm" actionText="#progress.BOBJUnRegasm#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RunExe"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="32"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveARPEntry" actionText="#progress.RemoveARPEntry#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RemoveARPEntry"/>
+      <rollback entryPoint="AddARPEntry"/>
+    </source>
+    <defaultActionSequence uninstall="UnconfigureDUBase"/>
+    <param name="PRODUCT_CODE"/>
+    <param name="INSTALL_DIR"/>
+    <param name="DISPLAY_NAME"/>
+    <param name="PRODUCT_ID" default="[$product.id]"/>
+    <param name="PER_USER_INSTALL" default="[setup.core.prime-4.0-core$PerUserInstall]"/>
+    <param name="DISPLAY_ICON" default=""/>
+    <param name="DISPLAY_VERSION" default=""/>
+    <param name="ESTIMATED_SIZE" default=""/>
+    <param name="INSTALL_LOCATION" default=""/>
+    <param name="INSTALL_SOURCE" default=""/>
+    <param name="NO_MODIFY" default=""/>
+    <param name="NO_REPAIR" default=""/>
+    <param name="LANGUAGE" default=""/>
+    <param name="PUBLISHER" default="SAP"/>
+    <param name="HELP_LINK" default=""/>
+    <param name="INFO_LINK" default=""/>
+    <param name="UPDATE_LINK" default=""/>
+    <param name="LAUNCH_AS_UNINSTALL" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveShortcut" actionText="#progress.RemoveShortcut#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveShortcut"/>
+      <rollback entryPoint="CreateShortcut"/>
+    </source>
+    <defaultActionSequence uninstall="UnconfigureDUBase"/>
+    <param name="linkFullPath"/>
+    <param name="pathToTarget"/>
+    <param name="arguments" default=""/>
+    <param name="description" default=""/>
+    <param name="iconPath" default=""/>
+    <param name="iconIndex" default=""/>
+    <param name="runAsUser" default="false"/>
+    <param name="showCmd" default=""/>
+    <param name="workingDir" default=""/>
+    <param name="runAction" default="1"/>
+  </actionDeclaration>
+  <actionDeclaration id="AddNTService" actionText="#progress.AddNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="CreateBOBJNTService"/>
+    </source>
+    <defaultActionSequence install="InstallServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+    <param name="DISPLAYNAME_BOBJNTService"/>
+    <param name="DESCRIPTION_BOBJNTService"/>
+    <param name="SERVICE_BIN_PATH_BOBJNTService"/>
+  </actionDeclaration>
+  <actionDeclaration id="StartNTService" actionText="#progress.StartNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="StartBOBJNTService"/>
+    </source>
+    <defaultActionSequence install="StartServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveNTService" actionText="#progress.RemoveNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DeleteBOBJNTService"/>
+    </source>
+    <defaultActionSequence uninstall="UninstallServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+    <param name="RunOnDuAction" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="StopNTService" actionText="#progress.StopNTService#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="StopBOBJNTService"/>
+    </source>
+    <defaultActionSequence uninstall="StopServices"/>
+    <param name="SERVICENAME_BOBJNTService"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetWScriptLocation" actionText="#progress.SetWScriptLocation#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="SetWScriptLocation"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="UnzipOEMFiles" actionText="#progress.UnzipOEMFiles#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="UnzipOEMFiles"/>
+    </source>
+    <param name="UnzipTo"/>
+  </actionDeclaration>
+  <actionDeclaration id="FindMsiComponentPath" actionText="#progress.FindMsiComponentPath#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="FindMsiComponentPath"/>
+    </source>
+    <param name="MsiProductCode"/>
+    <param name="MsiComponentID"/>
+    <param name="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="NotifyAssocChange" actionText="#progress.NotifyAssocChange#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="SHAssocChangeNotify"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandAndSetProperty" actionText="#progress.RunCommand#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RunCommandAndSetProperty"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="RollBackCmdLine" default=""/>
+    <param name="HideWindows" default="1"/>
+    <param name="DisableWOW64Redirection" default="0"/>
+    <param name="ProductObjectModel" default="[$product$targetobjectmodel]"/>
+    <param name="NoWaiting" default="0"/>
+    <param name="WriteProperty"/>
+    <param name="ReturnCodesSet"/>
+    <param name="ValuesSet"/>
+    <param name="Default"/>
+    <param name="LogCmdLine" default=""/>
+    <param name="SensitiveData" default=""/>
+    <param name="EnvSettings" default=""/>
+    <param name="UseShellExecute" default="false"/>
+    <param name="UseErrorReporting" default="0"/>
+    <param name="ErrorReportingFlags" default="0"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetPrivilege" actionText="#progress.SetPrivilege#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="SetPrivilege"/>
+    </source>
+    <param name="Privilege"/>
+    <param name="DomainUser" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="MoveRegistry" actionText="#progress.MoveRegistry#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="MoveRegistry"/>
+    </source>
+    <param name="RegistryHive"/>
+    <param name="RegistryKeySrc"/>
+    <param name="RegistryKeyTgt"/>
+    <param name="RegistryType" default="M"/>
+    <param name="RegistryWOW64" default="true"/>
+  </actionDeclaration>
+  <actionDeclaration id="FontRegister" actionText="#progress.FontRegister#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="RegisterFont"/>
+    </source>
+    <param name="FontPath" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="FontUnRegister" actionText="#progress.FontUnRegister#">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="UnRegisterFont"/>
+    </source>
+    <param name="FontPath" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="ConfigureEnvironment" actionText="#progress.ConfigureEnvironment#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="ConfigureEnvironment"/>
+    </source>
+    <param name="ENV_NAME"/>
+    <param name="ENV_VALUE"/>
+    <param name="ACTION"/>
+    <param name="BROADCAST" default="1"/>
+    <param name="TIMEOUT_MILLI_SECONDS" default="500"/>
+  </actionDeclaration>
+  <actionDeclaration id="RefreshDesktopWindow" actionText="#progress.RefreshDesktopWindow#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RefreshDesktopWindow"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="DeleteRegistryKey" actionText="#progress.DeleteRegistryKey#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="DeleteRegistryKey"/>
+    </source>
+    <param name="Root" default=""/>
+    <param name="Path" default=""/>
+    <param name="Value" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="TranslateString" actionText="#progress.TranslateString#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="TranslateString"/>
+    </source>
+    <param name="LangCode" default="[SetupUILanguage]"/>
+    <param name="UITextFile" default="[$du.dir]/actions/strings/[SetupUILanguage].uitext.xml"/>
+    <param name="StringToTranslate"/>
+    <output id="TranslatedString"/>
+  </actionDeclaration>
+  <actionDeclaration id="TranslateStringIfConditionsEqual" actionText="#progress.TranslateStringIfConditionsEqual#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="TranslateStringIfConditionsEqual"/>
+    </source>
+    <param name="LangCode" default="[SetupUILanguage]"/>
+    <param name="UITextFile" default="[$du.dir]/actions/strings/[SetupUILanguage].uitext.xml"/>
+    <param name="StringToTranslate"/>
+    <param name="LHSCondition"/>
+    <param name="RHSCondition"/>
+    <output id="TranslatedString"/>
+  </actionDeclaration>
+  <actionDeclaration id="WriteStringToFile" actionText="#progress.WriteStringToFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="WriteStringToFile"/>
+    </source>
+    <defaultActionSequence install="ConfigureDUBase"/>
+    <param name="FileName"/>
+    <param name="Content"/>
+  </actionDeclaration>
+  <actionDeclaration id="DeleteFile" actionText="#progress.DeleteFile#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="DeleteFile"/>
+    </source>
+    <defaultActionSequence uninstall="UnconfigureDUBase"/>
+    <param name="FileName"/>
+  </actionDeclaration>
+  <actionDeclaration id="AddNamedSetToMap" actionText="#progress.AddNamedSetToMap#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="AddNamedSetToMap"/>
+    </source>
+    <param name="SerializedNamedSetMap"/>
+    <param name="SetName"/>
+    <param name="SerializedSetContents"/>
+    <output id="SerializedNamedSetMapProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="RemoveNamedSetFromMap" actionText="#progress.RemoveNamedSetFromMap#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="RemoveNamedSetFromMap"/>
+    </source>
+    <param name="SerializedNamedSetMap"/>
+    <param name="SetName"/>
+    <output id="SerializedNamedSetMapProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="GetUnifiedSetValues" actionText="#progress.GetUnifiedSetValues#">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="GetUnifiedSetValues"/>
+    </source>
+    <param name="SerializedNamedSetMap"/>
+    <param name="OutputDelimiter"/>
+    <output id="UnifiedSetValuesProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="ChangeFeatureState">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="ChangeFeatureState"/>
+    </source>
+    <param name="State"/>
+    <param name="FeatureID"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckDiskCost">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CheckDiskCost"/>
+    </source>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="PropIsEnoughSpace" default="IsEnoughDiskSpace"/>
+    <param name="PropRequiredSpace" default="RequiredSpace"/>
+    <param name="PropAvailableSpace" default="AvailableSpace"/>
+  </actionDeclaration>
+  <actionDeclaration id="CompareVersion">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CompareVersion"/>
+    </source>
+    <param name="maxVersion"/>
+    <param name="minVersion"/>
+    <param name="VersionNeedToCompare"/>
+    <param name="Property"/>
+    <param name="AllowedSuffix" default=""/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckandSetPortInternally">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CheckandSetPortInternally"/>
+    </source>
+    <param name="PropertyId"/>
+    <param name="portValue"/>
+    <param name="minRange" default="2000"/>
+    <param name="maxRange" default="9000"/>
+    <output id="Property"/>
+    <output id="CMSPort"/>
+    <output id="SIAPort"/>
+    <output id="SQLAnywherePort"/>
+    <output id="WACSPort"/>
+  </actionDeclaration>
+  <actionDeclaration id="turnofffeature">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="ChangeFeatureState"/>
+    </source>
+    <param name="State"/>
+    <param name="FeatureID"/>
+  </actionDeclaration>
+  <actionDeclaration id="DisplayFeatureInstallingState">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="DisplayFeatureInstallingState"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="CheckForBlockingProductPreReqs">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CheckForBlockingProductPreReqs"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="EvaluateFeaturePreReqs">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="EvaluateFeaturePreReqs"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="EvaluateTargetFeaturePreReqs">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="EvaluateTargetFeaturePreReqs"/>
+    </source>
+    <param name="FeatureID"/>
+    <param name="FeatureID"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectOverhangingPatch">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="DetectOverhangingPatch"/>
+    </source>
+    <param name="ForwardFitDataFile" default="[$du.actionsdir]ffdata.txt"/>
+    <param name="CurrentPatchLevel"/>
+  </actionDeclaration>
+  <actionDeclaration id="SortAvailableSetupLanguages">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="SortAvailableSetupLanguages"/>
+    </source>
+    <param name="PrioritizedLanguage" default="en;fr;de;ru;tr;zh_CN;zh_TW;ja;ko"/>
+    <param name="WriteProperty" default="SortedAvailableSetupLanguages"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckIfContainSubstring">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckIfContainSubstring"/>
+    </source>
+    <param name="String"/>
+    <param name="Substring"/>
+    <param name="WriteProperty" default="IsSubstring"/>
+  </actionDeclaration>
+  <actionDeclaration id="RunCommandAndCaptureOutput">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="RunCommandAndCaptureOutput"/>
+    </source>
+    <param name="CmdLine"/>
+    <param name="WriteProperty" default="ReturnCode"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectPatchOnLowerSP">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="DetectPatchOnLowerSP"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="InstallingRevision"/>
+    <param name="PropertyName"/>
+    <param name="PatchBuildRev"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectPatchOrSPOnHigherRevision">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="DetectPatchOrSPOnHigherRevision"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="InstallingRevision"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="checkforPatchDUHotFix">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="checkforPatchDUHotFix"/>
+    </source>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="productCoreDuId"/>
+    <param name="productDUversion"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="checkforDiskSpace">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="checkforDiskSpace"/>
+    </source>
+    <param name="InstallDir" default="[InstallDir]"/>
+    <param name="productSize"/>
+    <param name="bufferSize"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckValidMinorRelease">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckValidMinorRelease"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="InstallingRevision"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="GetProductPatchLevel">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="GetProductPatchLevel"/>
+    </source>
+    <param name="ProductDUID"/>
+    <param name="ProductFamilyDUID"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetSIAName">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="SetSIAName"/>
+    </source>
+    <param name="MachineName" default="[$os.machinename]"/>
+    <param name="PropertyId" default="SIAName"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckCmsDatabaseSubsystem">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckCmsDatabaseSubsystem"/>
+    </source>
+    <param name="EnterpriseDir"/>
+    <param name="DatabaseSubSystem"/>
+    <param name="FileExt" default=".dbinfo"/>
+    <param name="DriverPrefix" default="dbDriver"/>
+    <param name="SetProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckFileExist">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckFileExist"/>
+    </source>
+    <param name="FileName"/>
+    <param name="MinFileSize" default="0"/>
+    <param name="SetProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="IsProcessRunning">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="IsProcessRunning"/>
+    </source>
+    <param name="Executable"/>
+    <output id="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="MatchProductRevisionWithInstalledDUs">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="MatchProductRevisionWithInstalledDUs"/>
+    </source>
+    <param name="InstalledDUs"/>
+    <param name="RevisionDepth"/>
+    <param name="CompareOperator"/>
+    <output id="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="MatchProductPatchRevisionWithInstalledDUs">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="MatchProductPatchRevisionWithInstalledDUs"/>
+    </source>
+    <param name="InstalledDUs"/>
+    <param name="RevisionDepth"/>
+    <param name="RevisionPatchtest"/>
+    <param name="CompareOperator"/>
+    <param name="CompareSPlevel"/>
+    <output id="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="CheckMemoryRequirement">
+    <source type="sharedlib" name="multiplatformactions">
+      <execute entryPoint="CheckMemoryRequirement"/>
+    </source>
+    <param name="Min_Memory" default="2"/>
+    <output id="MeetMemoryReq"/>
+  </actionDeclaration>
+  <actionDeclaration id="ReadfolderPhaseWise">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="ReadfolderPhaseWise"/>
+    </source>
+    <param name="InstallDir"/>
+    <param name="WriteProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="CreatefolderPhaseWise">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="CreatefolderPhaseWise"/>
+    </source>
+    <param name="InstallDir"/>
+    <param name="WriteProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="DeletefolderPhaseWise">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="DeletefolderPhaseWise"/>
+    </source>
+    <param name="InstallDir"/>
+  </actionDeclaration>
+  <actionDeclaration id="LogInstallationStatus">
+    <source type="sharedlib" name="MultiPlatformActions.dll">
+      <execute entryPoint="LogInstallationStatus"/>
+    </source>
+    <param name="InstallFailedStatus"/>
+  </actionDeclaration>
+  <actionDeclaration id="GetCMSLogonToken">
+    <source type="sharedlib" name="multiplatformactionsaurora">
+      <execute entryPoint="GetCMSLogonToken"/>
+    </source>
+    <param name="JavaExe"/>
+    <param name="JarFile"/>
+    <param name="CMSName"/>
+    <param name="CMSPort" default="6400"/>
+    <param name="CMSUser" default="Administrator"/>
+    <param name="CMSPassword"/>
+    <param name="CMSAuthentication" default="secEnterprise"/>
+    <param name="ExpireInMinute" default="1"/>
+    <param name="NumberOfLogon" default="1"/>
+    <param name="SetProperty"/>
+  </actionDeclaration>
+  <actionDeclaration id="ProductOSDefaultInstallLocation">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="GetProductOSDefaultInstallLocation"/>
+    </source>
+    <param name="InstallFolderName" default="SAP BusinessObjects"/>
+    <param name="Use64BitLocation" default="false"/>
+    <param name="InstallDirValue" default=""/>
+    <param name="PerUserInstall" default="false"/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="ProductAction_FormatString">
+    <source type="sharedlib" name="installframework">
+      <execute entryPoint="ProductAction_FormatString"/>
+    </source>
+    <param name="StringToFormat"/>
+    <output id="FormattedString"/>
+  </actionDeclaration>
+  <actionDeclaration id="SetWindowsSystemFolderProps">
+    <source type="sharedlib" name="InstallFramework.dll">
+      <execute entryPoint="SetWindowsSystemFolderProps"/>
+    </source>
+    <param name="ArgPerUserInstall" default="[PerUserInstall]"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectAdminPrivilege">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectAdminPrivilege"/>
+    </source>
+    <param name="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectInstalledMSIProduct">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectInstalledMSIProduct"/>
+    </source>
+    <param name="MsiProductCode"/>
+    <param name="Property"/>
+  </actionDeclaration>
+  <actionDeclaration id="DrLocator">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DrLocator"/>
+    </source>
+    <param name="Directory"/>
+    <param name="FileName"/>
+    <param name="MinVersion" default=""/>
+    <param name="MaxVersion" default=""/>
+    <param name="Depth" default=""/>
+    <param name="PropertyName"/>
+  </actionDeclaration>
+  <actionDeclaration id="DetectInstalledProductByUpgradeCode">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectInstalledProductByUpgradeCode"/>
+    </source>
+    <param name="MsiUpgradeCode"/>
+    <param name="MaxVersion"/>
+    <param name="MinVersion"/>
+    <param name="Property"/>
+    <param name="ProductCodeFound"/>
+  </actionDeclaration>
+  <actionDeclaration id="checkSharepointExists">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="CheckSharePointExists"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="checkSPSAdmin">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="CheckBOBJNTService"/>
+    </source>
+    <param name="SERVICENAME_BOBJNTService"/>
+    <param name="Property_Flag"/>
+  </actionDeclaration>
+  <actionDeclaration id="getSharepointSites">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="EnumSharePointServers"/>
+    </source>
+  </actionDeclaration>
+  <actionDeclaration id="DetectIISVersion">
+    <source type="sharedlib" name="Uncategorized.dll">
+      <execute entryPoint="DetectIISVersion"/>
+    </source>
+  </actionDeclaration>
+</productSeed>

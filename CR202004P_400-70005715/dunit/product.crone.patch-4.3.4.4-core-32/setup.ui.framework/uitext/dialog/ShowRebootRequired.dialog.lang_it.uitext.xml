@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="it"/>
+<context>
+<string id="RebootWarning" value="Alcuni file erano bloccati durante l'installazione e non sono stati aggiornati. È possibile posporre il riavvio del sistema, ma si consiglia vivamente di riavviarlo prima di utilizzare il prodotto."/>
+<string id="RebootQuestion" value="Riavviare il computer?"/>
+<string id="RestartLater" value="Riavvia in seguito"/>
+<string id="RestartNow" value="Riavvia ora"/>
+</context>
+</uitext>

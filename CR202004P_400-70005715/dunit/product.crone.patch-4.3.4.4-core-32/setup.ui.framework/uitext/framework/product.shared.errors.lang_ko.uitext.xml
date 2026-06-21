@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="ko"/>
+  <context>
+    <string id="INS00270" value="%2을(를) 설치하는 동안 MSI 오류 %1이(가) 발생했습니다. (INS00270)"/>
+    <string id="INS00271" value="%2을(를) 제거하는 동안 MSI 오류 %1이(가) 발생했습니다. (INS00271)"/>
+    <string id="INS00272" value="%3을(를) 설치하는 동안 %2 파일에서 오류 %1이(가) 발생했습니다. (INS00272)"/>
+    <string id="INS00273" value="%3을(를) 제거하는 동안 %2 파일에서 오류 %1이(가) 발생했습니다. (INS00273)"/>
+  </context>
+</uitext>

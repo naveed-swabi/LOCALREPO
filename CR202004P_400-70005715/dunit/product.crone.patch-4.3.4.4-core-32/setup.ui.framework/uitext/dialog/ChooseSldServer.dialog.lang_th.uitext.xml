@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ChooseSldServerLocation" value="เลือกที่ตั้งเซิร์ฟเวอร์ SLD"/>
+<string id="SpecifySldServerLocation" value="ป้อนที่ตั้งเซิร์ฟเวอร์ SLD"/>
+<string id="SldHostnameExample" value="ป้อนที่อยู่เซิร์ฟเวอร์ SLD (เช่น http://sld.server.com/)"/>
+<string id="SldInputInformation" value="ป้อนข้อมูลการล็อกอิน"/>
+<string id="SldHostname" value="ชื่อโฮสต์"/>
+<string id="SldPort" value="พอร์ต"/>
+<string id="SldUsername" value="ชื่อผู้ใช้"/>
+<string id="SldPassword" value="รหัสผ่าน"/>
+</context>
+</uitext>

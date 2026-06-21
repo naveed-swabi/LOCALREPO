@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="tr"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Bilinmeyen bakım modu belirtildi, geçerli değerler şunlardır: Değiştir, Onar, Kaldır"/>
+<string id="ChooseMaintenanceMode" value="Uygulama Bakımı"/>
+<string id="SelectMaintenanceMode" value="Gerçekleştirilecek bakım işlemini seçin."/>
+<string id="Modify" value="Değiştir"/>
+<string id="ModifyDescription" value="Yüklenecek uygulama özelliklerini değiştirin. Özellikleri tek tek konfigüre etmenize olanak tanıyan Özellik Seç iletişim kutusunu görüntüler."/>
+<string id="Repair" value="Onar"/>
+<string id="RepairDescription" value="Eksik veya bozuk dosyaları yeniden yükleyin. Kayıt defterinde saklanan tercihler, varsayılan değerlerine sıfırlanabilir."/>
+<string id="Remove" value="Kaldır"/>
+<string id="RemoveDescription" value="#product.nameonly# ürününü bu bilgisayardan kaldırın."/>
+<string id="Invalid_Maintenance_Mode" value="Geçersiz MaintenanceMode Türü ([MaintenanceMode]): 'modify', 'repair' veya 'remove' olması gerekir. INS00283"/>
+</context>
+</uitext>

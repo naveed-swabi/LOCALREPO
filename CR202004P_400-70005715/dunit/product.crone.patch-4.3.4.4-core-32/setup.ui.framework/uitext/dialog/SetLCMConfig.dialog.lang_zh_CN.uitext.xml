@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_CN"/>
+<context>
+<string id="SetLCMConfigTitle" value="配置 Subversion"/>
+<string id="SetLCMConfigSubtitle" value="输入 Subversion 版本控制系统的端口和用户名。"/>
+<string id="repoInfoGroup" value="Subversion 资源库信息"/>
+<string id="repoName" value="资源库名称："/>
+<string id="repoPort" value="资源库端口："/>
+<string id="repoPortInline" value="Subversion 端口："/>
+<string id="repoUserInfoGroup" value="Subversion 资源库用户信息"/>
+<string id="repoUserName" value="资源库用户帐户："/>
+<string id="repoUserPass" value="资源库帐户密码："/>
+<string id="repoUserPassInline" value="资源库用户帐户密码："/>
+<string id="repoUserPass2" value="确认密码："/>
+<string id="Mismatch_LCMPassword" value="密码不匹配。请验证并重试。INS00267"/>
+<string id="Invalid_LCMPassword" value="密码太简单。密码长度必须至少为 6 个字符并且必须至少包含以下两种字符类型：大写字母和小写字母。INS00127"/>
+</context>
+</uitext>

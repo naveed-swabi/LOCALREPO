@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="fr"/>
+<context>
+<string id="PreviousVersionDetected" value="Version précédente de #product.nameonly# détectée"/>
+<string id="PreviousVersionDetectedSub" value="Sélectionnez s'il faut effectuer une mise à niveau ou une installation côte à côte"/>
+<string id="UpgradeInstallBtn" value="Effectuer une mise à niveau"/>
+<string id="SideBySideInstallBtn" value="Effectuer une installation côte à côte"/>
+<string id="UpgradeInstallMsg" value="Remplacer la version actuellement installée de #product.nameonly# par cette version"/>
+<string id="SideBySideInstallMsg" value="Installe cette version de #product.nameonly# à côté de la version actuellement installée"/>
+<string id="UpgradeInstall" value="#UpgradeInstallBtn# : #UpgradeInstallMsg#"/>
+<string id="SideBySideInstall" value="#SideBySideInstallBtn# : #SideBySideInstallMsg#"/>
+<string id="Invalid_InstallCompatibilityMode" value="Mode d'installation ([InstallCompatibilityMode]) non valide : seul le mode Mise à niveau ou Côte à côte est autorisé"/>
+</context>
+</uitext>

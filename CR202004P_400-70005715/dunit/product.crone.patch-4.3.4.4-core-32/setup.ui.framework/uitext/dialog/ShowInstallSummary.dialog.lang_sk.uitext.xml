@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sk"/>
+<context>
+<string id="ShowInstallSummaryTitle" value="Spustiť inštaláciu"/>
+<string id="ShowInstallSummarySubtitle" value="Inštalácia produktu #product.fullproductnamenospace# je pripravená. Ak chcete vykonať zmeny v informáciách o inštalácii, kliknite na položku Naspäť.\n\nAk chcete začať inštaláciu, stlačte tlačidlo Ďalej."/>
+<string id="ShowInstallSummaryUnixDescription" value="Ste pripravení na to, aby Sprievodca inštaláciou produktu #product.fullproductnamenospace# začal s inštaláciou?"/>
+<string id="ShowInstallSummaryFooter" value="Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete vykonať inštaláciu, stlačte kláves []Enter]."/>
+<string id="DiskCost" value="Miesto na disku"/>
+<string id="Drive Select" value="Vyberáte"/>
+<string id="Disk Costing" value="Miesto na disku"/>
+<string id="Volume" value="Veľkosť"/>
+<string id="Disk Size" value="Veľkosť disku"/>
+<string id="Available" value="Dostupné"/>
+<string id="Required" value="Požadované"/>
+<string id="Difference" value="Rozdiel"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Skúsiť znova"/>
+<string id="Cancel" value="Zrušiť"/>
+<string id="ShowCacheSummaryTitle" value="Viacfázová inštalácia"/>
+<string id="ShowCacheSummarySubtitle" value="Spustiť ukladanie do vyrovnávacej pamäte"/>
+<string id="ShowCacheSummaryDescription" value="Ukladanie do vyrovnávacej pamäte je proces kopírovania softvéru do adresára inštalácie. Počas ukladania do vyrovnávacej pamäte nedochádza k odstaveniu systému a môžete pokračovať v práci so systémom."/>
+<string id="Invalid_DiskSpace" value="Na inštaláciu produktu nemáte dostatok miesta. Uvoľnite miesto na disku alebo vyberte iné miesto na inštaláciu. Dostupné miesto: [AvailableSpace] MB. Požadované miesto: [RequiredSpace] MB."/>
+<string id="Resume_Description" value="Počas inštalácie po uložení do vyrovnávacej pamäte sa softvér inštaluje do systému s určitou odstávkou systému."/>
+<string id="ShowResumetitle" value="Viacfázová inštalácia"/>
+<string id="ShowResumeSubtitle" value="Pokračovať v inštalácii"/>
+<string id="ShowResumeFooter" value="Ak sa chcete vrátiť späť, stlačte klávesy []Ctrl-B]. Ak chcete skončiť, stlačte klávesy []Ctrl-X]. Ak chcete vykonať inštaláciu, stlačte kláves []Enter]."/>
+<string id="MessageCache" value="Kliknutím na tlačidlo Ďalej spustite fázu ukladania do vyrovnávacej pamäte."/>
+<string id="MessageResume" value="Kliknutím na tlačidlo Ďalej spustite inštaláciu."/>
+</context>
+</uitext>

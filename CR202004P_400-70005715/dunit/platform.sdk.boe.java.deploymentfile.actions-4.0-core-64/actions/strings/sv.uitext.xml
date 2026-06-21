@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="progress.UpdateRepository" value="Uppdaterar lagringsplats"/>
+<string id="progress.SetHyperLink" value="Konfigurerar systeminställningar"/>
+</context>
+</uitext>

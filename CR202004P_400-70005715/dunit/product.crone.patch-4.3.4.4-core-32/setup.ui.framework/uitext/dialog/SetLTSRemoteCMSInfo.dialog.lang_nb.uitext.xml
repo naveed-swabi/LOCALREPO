@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="ConfigureRemoteCMS" value="Eksisterende implementeringsinformasjon for #productname#"/>
+<string id="SpecifyRemoteCMS" value="Angi påloggingsinformasjon for administrator for den eksisterende implementeringen."/>
+<string id="RemoteCMSConnectionInfo" value="Tilkoblingsinformasjon for eksiterende #productname#"/>
+<string id="RemoteCMSName" value="Navn"/>
+<string id="RemoteCMSPort" value="Port"/>
+<string id="RemoteCMSAdminLogonInfo" value="Påloggingsinformasjon for administrator"/>
+<string id="RemoteCMSUser" value="Bruker"/>
+<string id="RemoteCMSPassword" value="Passord"/>
+<string id="ErrRemoteCMSConnectionInfo" value="Enten er det ikke mulig å nå den eksterne SAP Lumira-serveren for team, eller så er påloggingsinformasjonen feil. INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="Enten er det ikke mulig å nå den eksterne SAP Lumira-serveren for team, eller så er påloggingsinformasjonen feil. INS00013\nVil du angi påloggingsinformasjonen på nytt?"/>
+<string id="Invalid_SymbolInCMSPassword" value="Passord kan ikke inneholde ordet Administrator eller spesialtegn som: &quot;&amp;'&lt;&gt;@\|()[]]{}^$*+?.;{mellomrom}{tabulator}"/>
+</context>
+</uitext>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="RebootWarning" value="มีบางไฟล์ถูกล็อคในระหว่างการติดตั้งเพื่อป้องกันไม่ให้ Installer อัปเดตไฟล์ดังกล่าว คุณสามารถรีสตาร์ทระบบของคุณได้ภายหลัง แต่ขอแนะนำให้เริ่มต้นระบบใหม่ก่อนที่จะใช้งานผลิตภัณฑ์"/>
+<string id="RebootQuestion" value="คุณต้องการรีสตาร์ทคอมพิวเตอร์ของคุณเดี๋ยวนี้หรือไม่"/>
+<string id="RestartLater" value="รีสตาร์ทภายหลัง"/>
+<string id="RestartNow" value="รีสตาร์ทเดี๋ยวนี้"/>
+</context>
+</uitext>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="UnknownMaintenanceMode" value="A fost introdus un mod de întreţinere necunoscut. Valorile valabile sunt: modificare, reparare sau eliminare"/>
+<string id="ChooseMaintenanceMode" value="Întreţinere aplicaţie"/>
+<string id="SelectMaintenanceMode" value="Această versiune sau o versiune mai recentă de #product.nameonly# este deja instalată pe acest computer. Faceţi click pe Următor pentru a continua cu repararea versiunii existente a produsului sau pe Anulare pentru a ieşi."/>
+<string id="Modify" value="Modificare"/>
+<string id="ModifyDescription" value="Modificare care funcţii ale aplicaţiei sunt instalate. Afişare caseta de dialog Selectare funcţii, care vă permite să configuraţi funcţii individuale."/>
+<string id="Repair" value="Reparare"/>
+<string id="RepairDescription" value="Reinstalaţi fişierele lipsă sau corupte, cheile de registru şi shortcut-urile. Preferinţele arhivate în registru pot fi resetate la valorile implicite."/>
+<string id="Remove" value="Eliminare"/>
+<string id="RemoveDescription" value="Dezinstalaţi #product.nameonly# din acest computer."/>
+<string id="Invalid_Maintenance_Mode" value="MaintenanceMode Type ([MaintenanceMode]) nevalabil: trebuie să fie 'modificare', 'reparare' sau 'eliminare'. INS00283"/>
+</context>
+</uitext>

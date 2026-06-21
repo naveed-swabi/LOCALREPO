@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ja"/>
+<context>
+<string id="Title" value="Web アプリケーションデプロイメント"/>
+<string id="Subtitle" value="Web コンテンツを後でデプロイ"/>
+<string id="DeploylaterDescription" value="デフォルトの Tomcat Java Web アプリケーションサーバが見つかりました。Web アプリケーションを今すぐデプロイしますか、または後でデプロイしますか?"/>
+<string id="TxtDeployLater" value="Web アプリケーションを後でデプロイします。"/>
+<string id="TxtDeployNow" value="Web アプリケーションを今すぐデプロイします。"/>
+<string id="Footer" value="選択するには []Tab]、[]上矢印]、または []下矢印] キーを押します。戻るには []Ctrl-B] を押します。終了するには []Ctrl-X] を押します。続行するには []Enter] キーを押します。"/>
+</context>
+</uitext>

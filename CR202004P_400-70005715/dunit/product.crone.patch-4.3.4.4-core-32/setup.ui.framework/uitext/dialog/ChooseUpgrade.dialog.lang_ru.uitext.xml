@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="UnknownChooseUpgrade" value="Указан неизвестный выбор обновления, допустимые значения: 0 или 1"/>
+<string id="ChooseUpgrade" value="Обнаружена предыдущая версия #productname#"/>
+<string id="SelectUpgrade" value="Укажите, следует ли выполнять установку путем обновления."/>
+<string id="SideBySide" value="Выполнить параллельную установку"/>
+<string id="SideBySideDescription" value="Данная версия #productname# будет установлена в дополнение к уже установленной версии."/>
+<string id="SimpleUpgrade" value="Выполнить простое обновление"/>
+<string id="SimpleUpgradeDescription" value="Обнаружена предыдущая версия #productname#. Необходимо удалить ее перед продолжением установки или выбрать данный вариант для выполнения обновления на месте."/>
+<string id="Invalid_ChooseUpgrade" value="Недопустимое ChooseUpgrade ([ChooseUpgrade]): должно быть 0 или 1"/>
+</context>
+</uitext>

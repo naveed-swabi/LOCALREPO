@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sv"/>
+<context>
+<string id="UnknownMaintenanceMode" value="Okänt underhållsläge angivet. Giltiga värden är: Ändra, Reparera eller Ta bort"/>
+<string id="ChooseMaintenanceMode" value="Programunderhåll"/>
+<string id="SelectMaintenanceMode" value="Denna version eller en nyare version av #product.nameonly# har redan installerats på denna dator. Klicka på Nästa för att fortsätta reparera befintlig version av produkten eller på Avbryt för att avsluta."/>
+<string id="Modify" value="Ändra"/>
+<string id="ModifyDescription" value="Ändra vilka applikationsfunktioner som ska vara installerade. Visar dialogrutan Välj funktioner där du kan konfigurera enstaka funktioner."/>
+<string id="Repair" value="Reparera"/>
+<string id="RepairDescription" value="Ominstallera saknade eller skadade filer, registernycklar och genvägar. De inställningar som lagras i registret kan återställas till sina standardvärden."/>
+<string id="Remove" value="Ta bort"/>
+<string id="RemoveDescription" value="Avinstallera #product.nameonly# från datorn."/>
+<string id="Invalid_Maintenance_Mode" value="Ogiltig typ för MaintenanceMode ([MaintenanceMode]): Den ska vara 'ändra', 'reparera' eller 'ta bort'. INS00283"/>
+</context>
+</uitext>

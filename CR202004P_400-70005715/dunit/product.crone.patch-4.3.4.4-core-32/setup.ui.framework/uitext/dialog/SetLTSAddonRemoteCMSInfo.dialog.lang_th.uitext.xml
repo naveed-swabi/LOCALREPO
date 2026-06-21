@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="th"/>
+<context>
+<string id="ConfigureRemoteCMS" value="ข้อมูลการปรับใช้ CMS ที่มีอยู่"/>
+<string id="SpecifyRemoteCMS" value="ระบุ CMS ที่มีอยู่และข้อมูลการล็อกออนของผู้ดูแลระบบเพื่อเริ่มกระบวนการ"/>
+<string id="RemoteCMSConnectionInfo" value="ข้อมูลการเชื่อมต่อสำหรับ CMS ที่มีอยู่"/>
+<string id="RemoteCMSName" value="ชื่อ CMS"/>
+<string id="RemoteCMSPort" value="พอร์ต CMS"/>
+<string id="RemoteCMSAdminLogonInfo" value="ข้อมูลการล็อกออนของผู้ดูแลระบบ CMS"/>
+<string id="RemoteCMSUser" value="ผู้ใช้"/>
+<string id="RemoteCMSPassword" value="รหัสผ่าน"/>
+<string id="ErrRemoteCMSConnectionInfo" value="ไม่สามารถเข้าถึง CMS ระยะไกลได้ หรือข้อมูลประจำตัวการล็อกออนไม่ถูกต้อง INS00013"/>
+<string id="WarnRemoteCMSConnectionInfo" value="ไม่สามารถเข้าถึง CMS ระยะไกลได้ หรือข้อมูลประจำตัวการล็อกออนไม่ถูกต้อง INS00013\nคุณต้องการป้อนข้อมูลประจำตัวอีกครั้งหรือไม่"/>
+<string id="Invalid_SymbolInCMSPassword" value="ไม่อนุญาตให้ใช้อักขระต่อไปนี้ในรหัสผ่าน CMS:  &quot;  &amp;  '  &lt;  &gt;  @  \  |  (  )  [  ]  {  }  ^  $  *  +  ?  .  INS00099"/>
+</context>
+</uitext>

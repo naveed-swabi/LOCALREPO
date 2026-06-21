@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="zh_TW"/>
+<context>
+<string id="Warning_smartinstaller_unix" value="為成功完成預定安裝，請確保指定的安裝路徑正確。\n\n針對全新安裝：請使用全新檔案目錄。\n針對更新程式安裝：請使用先前 #productname# 版本安裝的檔案目錄。\n\n\n 按一下 [確定] 以繼續，或按一下 [結束] 以重新輸入正確的安裝路徑。\n"/>
+<string id="ExitMessage" value="按 Ctrl+X 結束，或按 Enter 繼續。"/>
+<string id="WarnDialogTitle" value="資訊對話方塊"/>
+<string id="WarnDialogSubtitle" value="資訊: "/>
+</context>
+</uitext>

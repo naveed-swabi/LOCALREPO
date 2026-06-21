@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="da"/>
+  <context>
+    <string id="INS00270" value="Fandt MSI-fejl %1 under installation af %2. (INS00270)"/>
+    <string id="INS00271" value="Fandt MSI-fejl %1 under fjernelse af %2. (INS00271)"/>
+    <string id="INS00272" value="Fandt fejl (%1) i fil %2 under installation af %3. (INS00272)"/>
+    <string id="INS00273" value="Fandt fejl (%1) i fil %2 under fjernelse af %3. (INS00273)"/>
+  </context>
+</uitext>

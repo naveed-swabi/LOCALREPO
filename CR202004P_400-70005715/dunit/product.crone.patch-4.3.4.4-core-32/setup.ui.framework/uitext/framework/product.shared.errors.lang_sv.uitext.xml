@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uitext>
+  <language langcode="sv"/>
+  <context>
+    <string id="INS00270" value="MSI-fel %1 har upptäckts vid installation av %2. (INS00270)"/>
+    <string id="INS00271" value="MSI-fel %1 har upptäckts vid avinstallation av %2. (INS00271)"/>
+    <string id="INS00272" value="Fel (%1) för fil %2 har upptäckts vid installation av %3. (INS00272)"/>
+    <string id="INS00273" value="Fel (%1) för fil %2 har upptäckts vid avinstallation av %3. (INS00273)"/>
+  </context>
+</uitext>

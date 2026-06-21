@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ru"/>
+<context>
+<string id="SetLCMConfigTitle" value="Настройка вспомогательной версии"/>
+<string id="SetLCMConfigSubtitle" value="Введите номер порта и имя пользователя для системы управления версиями вспомогательной версии."/>
+<string id="repoInfoGroup" value="Данные репозитория Subversion"/>
+<string id="repoName" value="Имя репозитория:"/>
+<string id="repoPort" value="Порт репозитория:"/>
+<string id="repoPortInline" value="Порт вспомогательной версии:"/>
+<string id="repoUserInfoGroup" value="Сведения о пользователе репозитория вспомогательных версий"/>
+<string id="repoUserName" value="Учетная запись пользователя репозитория:"/>
+<string id="repoUserPass" value="Пароль учетной записи репозитория:"/>
+<string id="repoUserPassInline" value="Пароль учетной записи пользователя репозитория:"/>
+<string id="repoUserPass2" value="Подтверждение пароля:"/>
+<string id="Mismatch_LCMPassword" value="Пароли не совпадают. Проверьте их и введите повторно. INS00267"/>
+<string id="Invalid_LCMPassword" value="Слишком простой пароль. Пароль должен состоять не менее чем из шести символов и всегда содержать символы как минимум двух следующих классов: прописные буквы и строчные буквы. INS00127"/>
+</context>
+</uitext>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="hu"/>
+<context>
+<string id="SelectFeaturesTitle" value="Szolgáltatások kiválasztása"/>
+<string id="SelectFeaturesSubtitle" value="Válassza ki a telepítendő szolgáltatásokat."/>
+<string id="SelectFeaturesFooter" value="Nyomja meg a []Tab], []Fel] vagy []Le] billentyűt a kiemeléshez, a []Szóköz] billentyűt a kibontáshoz, az []X] billentyűt az állapot váltásához, a []Ctrl-B] billentyűkombinációt a visszalépéshez, a []Ctrl-X] billentyűkombinációt a kilépéshez, illetve az []Enter] billentyűt a folytatáshoz."/>
+<string id="DiskCost" value="Helyigény"/>
+<string id="Drive Select" value="Kiválasztás:"/>
+<string id="Disk Costing" value="Helyigény kiszámítása"/>
+<string id="Volume" value="Kötet"/>
+<string id="Disk Size" value="Lemez mérete"/>
+<string id="Available" value="Rendelkezésre álló"/>
+<string id="Required" value="Szükséges"/>
+<string id="Difference" value="Különbség"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Újra"/>
+<string id="Cancel" value="Mégse"/>
+<string id="Invalid_DiskSpace" value="Nincs elég hely a termék telepítéséhez. Tegyen szabaddá lemezterületet vagy válasszon másik telepítési helyet. A szükséges hely mérete: [RequiredSpace] bájt."/>
+</context>
+</uitext>

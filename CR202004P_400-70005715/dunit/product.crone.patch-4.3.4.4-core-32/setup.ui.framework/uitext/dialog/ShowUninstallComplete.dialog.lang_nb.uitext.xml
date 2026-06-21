@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="nb"/>
+<context>
+<string id="Message.title" value=""/>
+<string id="UninstallMessage" value="#product.fullproductnamenospace# er avinstallert."/>
+<string id="UninstallFailedMessage" value="Avinstallasjon av #product.fullproductnamenospace# mislyktes."/>
+<string id="Description" value="Klikk på Fullfør for å avslutte denne avinstallasjonen."/>
+<string id="FailedDescription" value="Klikk på Fullfør for å avslutte denne avinstallasjonen."/>
+<string id="ShowUninstall_Footer" value="Trykk på []Ctrl-B] for å gå tilbake, eller trykk på []Enter] for å avslutte avinstalleringen."/>
+<string id="ShowUninstall_FooterWithoutGoBack" value="Trykk på []Enter] for å avslutte avinstalleringen."/>
+<string id="CustomNextButton" value="Fullfør"/>
+<string id="ViewLogButton" value="Vis logg"/>
+</context>
+</uitext>

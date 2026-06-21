@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="sl"/>
+<context>
+<string id="LicenseAgreement" value="Zahteva za nov licenčni ključ"/>
+<string id="YouMustAgree" value="Za #product.fullproductname# je potreben nov licenčni ključ."/>
+<string id="SelectLicenseChangeSubtitle" value="Za #product.fullproductname# je potreben nov licenčni ključ."/>
+<string id="IAccept" value="Prebral sem dokumentacijo in razumem postopek za zahtevanje novega licenčnega ključa ter se strinjam, da bom po instalaciji posodobitve izbrisal stari licenčni ključ in dodal novega."/>
+<string id="subtitle1" value="#product.fullproductname# zahteva nov licenčni ključ."/>
+<string id="subtitle2" value="Zahtevajte nov licenčni ključ. Več informacij o tem, kako zahtevati licenčni ključ, najdete na"/>
+<string id="subtitle3" value="Ko je instalacija #product.fullproductname# končana, se prijavite v Central Management Console (CMC), izbrišite stari licenčni ključ in dodajte novega. Dokler ne dodate novega licenčnega ključa so vse storitve onemogočene."/>
+<string id="subtitle4" value="Nov licenčni ključ lahko zahtevate na"/>
+<string id="AcceptOrNotAccept" value="Pritisnite &lt;ENTER&gt;, če se strinjate, da boste po instalaciji posodobitve izbrisali stari licenčni ključ in dodali novega."/>
+<string id="Description_Patch_License" value="#product.fullproductname# zahteva nov licenčni ključ.\n\nZahtevajte nov licenčni ključ. Več informacij o tem, kako zahtevati licenčni ključ, najdete na http://scn.sap.com/docs/DOC-70095. \n\nKo je instalacija #product.fullproductname# končana, se prijavite v Central Management Console (CMC); izbrišite stari licenčni ključ in dodajte novega. Dokler ne dodate novega licenčnega ključa so vse storitve onemogočene."/>
+</context>
+</uitext>

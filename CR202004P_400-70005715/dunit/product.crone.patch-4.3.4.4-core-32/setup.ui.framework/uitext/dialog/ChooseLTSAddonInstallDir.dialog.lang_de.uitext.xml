@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="de"/>
+<context>
+<string id="ChooseInstallDirTitle" value="Zielordner konfigurieren"/>
+<string id="ChooseInstallDirSubtitle" value="Geben Sie den vollständigen Zielpfad, in dem das Produkt installiert werden soll, ein."/>
+<string id="ChooseInstallDirUnixSubtitle" value="Geben Sie den vollständigen Zielpfad, in dem das Produkt installiert werden soll, ein."/>
+<string id="DestinationFolderGroupBox" value="Zielordnerinformationen"/>
+<string id="DestinationFolder" value="Zielordner:"/>
+<string id="Browse" value="Durchsuchen"/>
+<string id="BrowseInstallDirectory" value="Wählen Sie ein Installationsverzeichnis aus"/>
+<string id="DirGenericError" value="Der Zielordner ist ungültig. Wählen Sie einen anderen Zielordner. INS00029"/>
+<string id="DirNetworkError" value="Der Zielordner darf kein Netzwerkspeicherort sein. Wählen Sie einen anderen Speicherort."/>
+<string id="DirEmptyError" value="Wählen Sie einen Zielordner aus. INS00029"/>
+<string id="DirAbsolutePathError" value="Für den Zielordner muss ein vollständiger Pfad angegeben werden. INS00029"/>
+<string id="DirInvalidCharWinError" value="Der Zielordner darf nur Ziffern, Buchstaben oder die folgenden Zeichen enthalten: _ - . \ ( )  INS00029"/>
+<string id="DirInvalidTooLongWinError" value="Der Zielordnerpfad ist zu lang. Geben Sie einen Pfad mit weniger als 150 Zeichen ein. INS00029"/>
+<string id="DirInvalidInstallverseError" value="Der Zielordner enthält ein inkompatibles Produkt. Wählen Sie einen anderen Pfad aus.  INS00029"/>
+<string id="Invalid_InstallDirWindows" value="Ungültiges Installationsverzeichnis. Verwenden Sie einen gültigen absoluten Pfad, der nur alphanumerische oder eines der folgenden Zeichen enthält: _ - \ . ( ). Das Verzeichnis muss sich auf einem lokalen Laufwerk befinden, und der gesamte Pfad darf nicht mehr als 150 Zeichen umfassen. INS00029"/>
+<string id="Invalid_InstallDirUnix" value="Ungültiges Installationsverzeichnis. Verwenden Sie einen gültigen absoluten Pfad, für den Sie auch über Berechtigungen zum Lesen, Schreiben und Ausführen verfügen. INS00029"/>
+<string id="Invalid_InstallDir_Space_UnixError" value="Das Installationsverzeichnis darf keine Leerzeichen enthalten."/>
+<string id="Invalid_InstallDir_Special_Character_UnixError" value="Folgende Zeichen sind nicht im Installationsverzeichnis zulässig:  &quot; &amp; ' &lt; &gt; @ \ | ( ) [ ] { } ^ $ * + ? . ` ~ ! # % = ; : ,"/>
+<string id="ChooseInstallDirFooter" value="Drücken Sie die []Tabulatortaste], um Verzeichniselemente automatisch auszufüllen, []Strg-X], um zu beeenden oder die []Eingabetaste], um fortzufahren."/>
+</context>
+</uitext>

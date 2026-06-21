@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="da"/>
+<context>
+<string id="SelectFeaturesTitle" value="Vælg funktioner"/>
+<string id="SelectFeaturesSubtitle" value="Vælg de funktioner, du vil installere"/>
+<string id="SelectFeaturesFooter" value="Tryk på []Tab], []Pil op], eller []Pil ned] for at fremhæve, []Mellemrumstasten] for at udvide, []X] for til/fra-status, []Ctrl-B] for at gå tilbage, []Ctrl-X] for at afslutte, eller []Enter] for at fortsætte."/>
+<string id="DiskCost" value="Nødvendig diskplads"/>
+<string id="Drive Select" value="Du vælger"/>
+<string id="Disk Costing" value="Beregner nødvendig diskplads"/>
+<string id="Volume" value="Volumen"/>
+<string id="Disk Size" value="Diskstørrelse"/>
+<string id="Available" value="Tilgængelig"/>
+<string id="Required" value="Obligatorisk"/>
+<string id="Difference" value="Forskel"/>
+<string id="Ok" value="OK"/>
+<string id="Retry" value="Prøv igen"/>
+<string id="Cancel" value="Annuller"/>
+<string id="Invalid_DiskSpace" value="Der er ikke tilstrækkelig fri diskplads til at installere produktet. Frigiv diskplads, eller vælg en anden placering til installationen. Pladskrav: [RequiredSpace] byte."/>
+</context>
+</uitext>

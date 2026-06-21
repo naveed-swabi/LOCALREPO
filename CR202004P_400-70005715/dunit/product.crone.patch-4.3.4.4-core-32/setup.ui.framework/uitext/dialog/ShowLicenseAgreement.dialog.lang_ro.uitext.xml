@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><uitext>
+<language langcode="ro"/>
+<context>
+<string id="NotAcceptedEULA" value="Trebuie să acceptaţi termenii licenţei. În curs de ieşire."/>
+<string id="LicenseAgreement" value="Acord de licenţă"/>
+<string id="YouMustAgree" value="Trebuie să acceptaţi condiţiile de licenţiere pentru a continua."/>
+<string id="IAccept" value="Accept acordul de licenţă"/>
+<string id="IDoNotAccept" value="Nu accept acordul de licenţă"/>
+<string id="Invalid_IsAcceptEULA" value="IsAcceptEULA ([IsAcceptEULA]) nevalabil: trebuie să fi numai unul"/>
+<string id="AcceptOrNotAccept" value="Apăsaţi &lt;ENTER&gt; pentru a accepta, &lt;CTRL-X&gt; pentru a nu accepta"/>
+</context>
+</uitext>
